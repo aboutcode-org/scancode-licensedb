@@ -38,7 +38,7 @@ from jinja2 import Environment, PackageLoader
 from licensedcode.models import load_licenses
 from scancode_config import __version__ as scancode_version
 
-licenses = load_licenses(with_deprecated=True)
+licenses = dict(sorted(load_licenses(with_deprecated=True).items()))
 
 # GitHub Pages support only /(root) or docs/ for the source
 BUILD_LOCATION = "docs"
