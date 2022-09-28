@@ -38,7 +38,7 @@ from jinja2 import Environment, PackageLoader
 from licensedcode.models import load_licenses
 from scancode_config import __version__ as scancode_version
 
-licenses = load_licenses(with_deprecated=True)
+licenses = dict(sorted(load_licenses(with_deprecated=True).items()))
 
 # GitHub Pages support only /(root) or docs/ for the source
 BUILD_LOCATION = "docs"
@@ -78,6 +78,7 @@ def generate_indexes(output_path):
             "other_spdx_license_keys": license.other_spdx_license_keys,
             "is_exception": license.is_exception,
             "is_deprecated": license.is_deprecated,
+            "category": license.category,
             "json": f"{key}.json",
             "yml": f"{key}.yml",
             "html": f"{key}.html",
