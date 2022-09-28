@@ -60,9 +60,7 @@ valid: isort black
 
 html:
 	@echo "-> Generate the HTML content"
-	@bin/python app.py
-	@echo "-> Copy the static assets"
-	@cp -R static/ docs/static/
+	@${ACTIVATE} scancode --get-license-data docs/
 	@echo "Available at docs/index.html"
 
 build: conf html
