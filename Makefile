@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: CC-BY-4.0 AND Apache-2.0
 #
 # https://github.com/nexB/scancode-licensedb
-# Copyright 2020 nexB Inc. and others.
+# Copyright (c) nexB Inc. and others.
 # ScanCode is a trademark of nexB Inc.
 #
 # ScanCode LicenseDB data is licensed under the Creative Commons Attribution
@@ -35,12 +35,13 @@ BLACK_ARGS=--exclude="docs" .
 
 conf:
 	@echo "-> Configure the Python venv and install dependencies"
-	${PYTHON_EXE} -m venv .
-	@${ACTIVATE} pip install scancode-toolkit
+	${PYTHON_EXE} -m venv venv
+	@venv/bin/pip install --upgrade pip
+	@venv/bin/pip install scancode-toolkit
 
 upgrade:
 	@echo "-> Configure the Python venv and install dependencies"
-	@${ACTIVATE} pip install --upgrade scancode-toolkit
+	@venv/bin/pip install --upgrade scancode-toolkit
 
 clean:
 	# Remove the whole content of docs/ except for the CNAME file
@@ -48,13 +49,13 @@ clean:
 
 isort:
 	@echo "-> Apply isort changes to ensure proper imports ordering"
-	@${ACTIVATE} pip install isort==5.6.4
-	bin/isort app.py
+	@venv/bin/pip install isort==5.6.4
+	@venv/bin/isort app.py
 
 black:
 	@echo "-> Apply black code formatter"
-	@${ACTIVATE} pip install black==20.8b1 isort
-	bin/black ${BLACK_ARGS}
+	@venv/bin/pip install black==20.8b1 isort
+	@venv/bin/black ${BLACK_ARGS}
 
 valid: isort black
 
