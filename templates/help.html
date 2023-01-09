@@ -107,8 +107,7 @@
         <p>This git repository contains the full history of the generated HTML and JSON API documents <a class="reference external" href="https://github.com/nexB/scancode-licensedb">https://github.com/nexB/scancode-licensedb</a></p>
         <p>This  git repository contains the original and editable source files: <a class="reference external" href="https://github.com/nexB/scancode-toolkit">https://github.com/nexB/scancode-toolkit</a></p>
         <ul class="simple">
-            <li>for the metadata of a license, for instance at <a class="reference external" href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gpl-2.0.yml">https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gpl-2.0.yml</a></li>
-            <li>for the text of a license, for instance at <a class="reference external" href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE">https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE</a></li>
+            <li>for the text of a license and for the metadata of a license as YAML frontmatter, for instance at <a class="reference external" href="https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE">https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE</a></li>
         </ul>
     </section>
 
@@ -267,81 +266,83 @@
           License Categories <a class="anchor" href="#license-categories" aria-hidden="true">#</a>
         </h4>
         <dl>
+          <dt class="chip bg-secondary">CLA</dt>
+          <dd>
+            A Contributor License Agreement (CLA) describes and defines the contribution acceptance rules for the ongoing
+            development and enhancement of a software project. The CLA may specify how the resulting software contribution
+            itself will be licensed.
+          </dd>
           <dt class="chip bg-secondary">Commercial</dt>
           <dd>
-            A direct commercial license between a supplier and a customer.
-            Further fact-finding by a Product Team will be necessary to determine how the license conditions apply to use of the software.
-            This is a Proprietary license that is not Open Source.
+            Third-party proprietary software offered under a direct commercial license between supplier and customer.
+            Further fact-finding by Product Teams will be necessary to determine the code's license status and function,
+            if any.
           </dd>
     
           <dt class="chip bg-secondary">Copyleft</dt>
           <dd>
-            A license that offers irrevocable permission to the public to copy and redistribute the work in the same or modified form,
-            but with the conditions that all such redistributions make the work available in a form that facilitates further modification
-            and uses the same license terms. A Copyleft license can require code interacting with Copyleft-licensed code to be licensed under
-            the same license or a compatible license. This is an Open Source license. This category may be described as “Strong Copyleft”.
+            Open source software with a "copyleft" license that offers irrevocable permission to the public to copy and
+            redistribute the work in the same or modified form, but with the conditions that all such redistributions
+            make the work available in a form that facilitates further modification and use the same license terms.
+            A copyleft license can require code interacting with copyleft-licensed code to be licensed the same way.
           </dd>
     
           <dt class="chip bg-secondary">Copyleft Limited</dt>
           <dd>
-            A license that requires you to redistribute source code, including your changes, and to provide attribution for the software authors.
-            Your obligation to redistribute source code, including proprietary code linked with code under this license,
-            is limited according to license-specific rules. This  is an Open Source license. This category may be described as “Weak Copyleft”.
+            A license that requires you to redistribute source code, including your changes, and also to provide
+            attribution for the software authors. Your obligation to redistribute source code, including proprietary
+            code linked with code under this license, is limited according to license-specific rules.
           </dd>
     
           <dt class="chip bg-secondary">Free Restricted</dt>
           <dd>
-            A Permissive-style license that contains restrictions regarding the usage of the software (e.g. where the software is not
-            intended for use in nuclear power plants) or the redistribution of the software (e.g. where commercial redistribution of
-            the software is not allowed or allowed only with express permission). The Free Software Foundation (FSF) says that a license
-            with this kind of restriction is not really open source, although the OSI point of view is not that strict.
-            This is a Proprietary license that is not Open Source.
+            A Permissive-style license, that contains restrictions regarding the usage of the software
+            (for example, where the software is not intended for use in nuclear power plants) or the redistribution
+            of the software (for example, where commercial redistribution of the software is not allowed without
+            express permission). The Free Software Foundation (FSF) says that a license with this kind of restriction
+            is not really open source, although the OSI point of view is not that strict.
           </dd>
     
           <dt class="chip bg-secondary">Patent License</dt>
           <dd>
-            A license that applies to patents rather than specific software. May be used in conjunction with other software license(s) that
-            apply to a software component.
+            A license that applies to patents rather than specific software. May be used in conjunction with other
+            software license(s) that apply to a software component. 
           </dd>
     
           <dt class="chip bg-secondary">Permissive</dt>
           <dd>
-            A license that requires you to provide attribution for the software authors and may include other conditions.
-            This is an Open Source license.
+            Open Source software that is made available under "non-copyleft" licenses. These generally require
+            attribution of the included open source and may include other obligations.
           </dd>
     
           <dt class="chip bg-secondary">Proprietary Free</dt>
           <dd>
-            A license that does not require a supplier-customer contract, but has specific terms and conditions which a Product Team
-            is obligated to follow. These terms and conditions may be documented in the code and/or from a webpage where you must accept
-            the license (i.e. click-through). This is a Proprietary license that is not Open Source.
+            Proprietary Free software that may not require a commercial license but may have specific terms and
+            conditions which Product Teams are obligated to follow. Some of these terms and conditions are provided
+            with or in the code or in clickable downloaded licenses. Examples are the Sun Binary Code License Agreement
+            or a freely offered BSP. 
           </dd>
     
           <dt class="chip bg-secondary">Public Domain</dt>
           <dd>
-            “Public Domain” as a license category means software that is not restricted by copyright.
-            This is most often applicable to a software component because the person entitled to control the copyright has disclaimed that
-            right in a notice (“dedication”) that appears similar to a license. It is possible for software to be in the public domain
-            because the copyright has expired, but this is rarely relevant for software due to the long duration of copyrights in most jurisdictions.
-            The rules for disclaiming copyright and copyright expiration dates vary widely by jurisdiction.
-            A public domain dedication may apply to software code examples on a website, published public domain specifications or
-            another type of publication. Public Domain is typically treated as similar to an Open Source license even though it is not an
-            Open Source license.
+            Open source software that is made available without explicit obligations, but which has a license notice
+            that must be kept with the code per organization policy. The match may be to software, code examples
+            on a website, published public domain specifications or another type of publication.
           </dd>
     
           <dt class="chip bg-secondary">Source-available</dt>
           <dd>
-            A license where the software is released through a source code distribution model that includes conditions where the source
-            can be viewed, and in some cases modified, but without meeting the criteria to be called Open Source.
-            The most common restriction is for “field of use”. This is a Proprietary license that is not Open Source.
+            Source-available software is software released through a source code distribution model that includes
+            arrangements where the source can be viewed, and in some cases modified, but without necessarily meeting
+            the criteria to be called open-source.
           </dd>
     
           <dt class="chip bg-secondary">Unstated License</dt>
           <dd>
-            “Unstated License” as a license category means third-party software that has a copyright notice, but no stated license.
-            Common examples include code snippets from publications and websites. The absence of a license poses a risk that the copyright
-            owner may assert license conditions at some future time. A Product Team may need to contact the copyright owner to determine the
-            license conditions, if any.
+            Third-party software that has a copyright notice, but no stated license. Common examples include code snippets
+            from publications and websites (such as those from O'Reilly Media). The absence of a license poses a risk
+            that the copyright owner may assert license obligations at some future time. Product Teams may need to
+            contact the copyright owner to determine the license obligations, if any.
           </dd>
         </dl>
     </section>

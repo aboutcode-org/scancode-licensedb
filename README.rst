@@ -2,10 +2,10 @@ ScanCode LicenseDB
 ====================
 
 LicenseDB is likely the largest collection of software licenses available on
-earth and may be beyond.
+Earth and maybe beyond.
 
 LicenseDB is a free and open database of mostly all the software licenses, in
-particular all the open source software licenses, with over 2000 curated licenses
+particular all the open-source software licenses, with over 2000 curated licenses
 texts and their metadata.
 
 LicenseDB is built from the ScanCode Toolkit license dataset. ScanCode Toolkit
@@ -50,6 +50,10 @@ license details and texts using this license key as an identifier:
   for instance: https://scancode-licensedb.aboutcode.org/gpl-2.0.LICENSE
 
 
+This index and the static website is also available offline with ScanCode Toolkit as a
+command line option `--get-license-data`.
+
+
 Git
 -----
 
@@ -60,9 +64,8 @@ documents: https://github.com/nexB/scancode-licensedb
 This git repository contains the original and editable source files:
 https://github.com/nexB/scancode-toolkit
 
-- for the metadata of a license, for instance at https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gpl-2.0.yml
-
-- for the text of a license, for instance at https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE
+- for the text of a license and the metadata of a license as YAML frontmatter, for instance at
+  https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE
 
 
 Support
