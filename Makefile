@@ -40,8 +40,15 @@ conf:
 	@venv/bin/pip install --upgrade pip
 	@venv/bin/pip install -e ./scancode-toolkit/
 
+restore:
+	# Restores the repository to a clean state
+	git clean -fd
+	rm -rf scancode-toolkit/
+	git restore --worktree docs/
+
 clean:
 	# Remove the whole content of docs/ except for the CNAME file
+	# Remove the whole content of scancode-toolkit/
 	find docs/* ! -name 'CNAME' -exec git rm -r {} +
 	find scancode-toolkit/* -exec git rm -r {} +
 
