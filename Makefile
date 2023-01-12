@@ -36,12 +36,12 @@ BLACK_ARGS=--exclude="docs" .
 conf:
 	@echo "-> Configure the Python venv, clone and install scancode-toolkit"
 	${PYTHON_EXE} -m venv venv
-	@git clone git@github.com:nexB/scancode-toolkit.git
+	@git clone https://github.com/nexB/scancode-toolkit.git
 	@venv/bin/pip install --upgrade pip
 	@venv/bin/pip install -e ./scancode-toolkit/
 
 restore:
-	# Restores the repository to a clean state
+	@echo "-> Restoring the repository to a clean state"
 	git clean -fd
 	rm -rf scancode-toolkit/
 	git restore --worktree docs/
@@ -54,7 +54,7 @@ clean:
 
 html:
 	@echo "-> Generate the HTML content"
-	@venv/bin/scancode --dump-license-data docs/
+	@venv/bin/scancode-license-data --path docs/
 	@echo "Available at docs/index.html"
 
 build: conf html
@@ -62,7 +62,7 @@ build: conf html
 publish:
 	@echo "-> Add changes to git"
 	@git add .
-	git commit -m "Upgrade ScanCode-toolkit to latest version"
+	git commit -m "Upgrade with latest updates from ScanCode-toolkit develop"
 	@echo "-> Push changes to main repo"
 	@git push
 

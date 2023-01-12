@@ -28,6 +28,9 @@ Browse
 The web site is published at: https://scancode-licensedb.aboutcode.org/
 You can search the licenses by name, key and other attributes.
 
+This is updated daily by a GitHub action with updates from scancode-toolkit
+develop, if any.
+
 
 API
 ------
@@ -51,7 +54,9 @@ license details and texts using this license key as an identifier:
 
 
 This index and the static website is also available offline with ScanCode Toolkit as a
-command line option `--get-license-data`.
+console script available at configure/install. Sample command::
+  
+  scancode-license-data --path PATH
 
 
 Git
@@ -82,16 +87,7 @@ Build
 
 To re/generate the HTML and API content use this command::
 
-    $ make build
-
-
-Upgrade
--------
-
-To upgrade to the latest scancode-toolkit and generate the HTML and API content
-run this command::
-
-    $ make clean upgrade build publish
+    $ make restore conf html
 
 
 License

@@ -50,9 +50,15 @@ def cli(commit):
     data_commit_old = load_json(path=path)
     commit_old = data_commit_old["commit_hash"]
 
+    msg = (
+        f"There are no new commits in scancode-toolkit develop after {commit_old}."
+        "Aborting LicenseDB update."
+    )
+
     if commit == commit_old:
-        raise NoNewCommitException("There are no new commits in scancode-toolkit develop")
+        raise NoNewCommitException(msg)
     else:
+        click.secho(f" -> There are new commits in scancode-toolkit develop, updating last commit to {commit}.")
         data_commit_old["commit_hash"] = commit
         write_json(data=data_commit_old, path=path)
 

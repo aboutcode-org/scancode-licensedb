@@ -16,7 +16,7 @@ cd ../
 # Check if scancode develop has new commits
 # if yes, update latest commit and continue
 # if no, fail here
-python3 ./etc/scripts/check_commit.py --commit "$COMMIT_LATEST"
+venv/bin/python ./etc/scripts/check_commit.py --commit "$COMMIT_LATEST"
 
 # build docs
 make html
