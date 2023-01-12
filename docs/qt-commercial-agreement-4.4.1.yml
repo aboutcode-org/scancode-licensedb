@@ -1,0 +1,14 @@
+key: qt-commercial-agreement-4.4.1
+short_name: Qt License Agreement v4.4.1
+name: Qt License Agreement v4.4.1
+category: Commercial
+owner: Qt Company
+homepage_url: https://www.qt.io/terms-conditions/
+spdx_license_key: LicenseRef-scancode-qt-commercial-agreement-4.4.1
+other_urls:
+  - https://www.qt.io/contact-us
+ignorable_authors:
+  - The Qt Company
+  - permission from The Qt Company
+ignorable_urls:
+  - https://opensource.org/licenses

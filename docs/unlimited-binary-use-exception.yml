@@ -1,0 +1,7 @@
+key: unlimited-binary-use-exception
+short_name: Unlimited Binary Use Exception
+name: Unlimited Binary Use Exception
+category: Permissive
+owner: nexB
+is_exception: yes
+spdx_license_key: LicenseRef-scancode-unlimited-binary-use-exception

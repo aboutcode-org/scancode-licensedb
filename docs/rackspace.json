@@ -1,1 +1,8 @@
-{"key": "rackspace", "short_name": "Rackspace License", "name": "Rackspace License", "category": "Free Restricted", "owner": "Rackspace", "spdx_license_key": "LicenseRef-scancode-rackspace"}
+{
+  "key": "rackspace",
+  "short_name": "Rackspace License",
+  "name": "Rackspace License",
+  "category": "Free Restricted",
+  "owner": "Rackspace",
+  "spdx_license_key": "LicenseRef-scancode-rackspace"
+}

@@ -1,1 +1,9 @@
-{"key": "vcalendar", "short_name": "VCalendar License", "name": "VCalendar License", "category": "Permissive", "owner": "VCalendar Project", "homepage_url": "https://github.com/libical/libical/blob/master/src/libicalvcal/vcaltmp.h", "spdx_license_key": "LicenseRef-scancode-vcalendar"}
+{
+  "key": "vcalendar",
+  "short_name": "VCalendar License",
+  "name": "VCalendar License",
+  "category": "Permissive",
+  "owner": "VCalendar Project",
+  "homepage_url": "https://github.com/libical/libical/blob/master/src/libicalvcal/vcaltmp.h",
+  "spdx_license_key": "LicenseRef-scancode-vcalendar"
+}

@@ -1,1 +1,8 @@
-{"key": "bsd-intel", "is_deprecated": true, "short_name": "BSD Intel License", "name": "BSD Intel License", "category": "Permissive", "owner": "Intel Corporation"}
+{
+  "key": "bsd-intel",
+  "is_deprecated": true,
+  "short_name": "BSD Intel License",
+  "name": "BSD Intel License",
+  "category": "Permissive",
+  "owner": "Intel Corporation"
+}

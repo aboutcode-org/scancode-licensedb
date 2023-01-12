@@ -1,1 +1,9 @@
-{"key": "adsl", "short_name": "Amazon Digital Services License", "name": "Amazon Digital Services License", "category": "Permissive", "owner": "Amazon Web Services", "homepage_url": "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense", "spdx_license_key": "ADSL"}
+{
+  "key": "adsl",
+  "short_name": "Amazon Digital Services License",
+  "name": "Amazon Digital Services License",
+  "category": "Permissive",
+  "owner": "Amazon Web Services",
+  "homepage_url": "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense",
+  "spdx_license_key": "ADSL"
+}

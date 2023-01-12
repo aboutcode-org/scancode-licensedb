@@ -1,0 +1,10 @@
+{
+  "key": "aswf-digital-assets-1.1",
+  "short_name": "ASWF Digital Assets License v1.1",
+  "name": "ASWF Digital Assets License v1.1",
+  "category": "Free Restricted",
+  "owner": "Academy Software Foundation",
+  "homepage_url": "https://github.com/AcademySoftwareFoundation/foundation/blob/main/digital_assets/aswf_digital_assets_license_v1.1.txt",
+  "spdx_license_key": "LicenseRef-scancode-aswf-digital-assets-1.1",
+  "faq_url": "https://github.com/AcademySoftwareFoundation/foundation/blob/main/digital_assets/README.md"
+}

@@ -1,0 +1,11 @@
+key: stable-diffusion-2022-08-22
+short_name: Stable Diffusion License 2022-08-22
+name: Stable Diffusion License 2022-08-22
+category: Proprietary Free
+owner: CompVis
+homepage_url: https://github.com/CompVis/stable-diffusion/blob/main/LICENSE
+spdx_license_key: LicenseRef-scancode-stable-diffusion-2022-08-22
+ignorable_copyrights:
+  - Copyright (c) 2022 Robin Rombach and Patrick Esser and contributors
+ignorable_holders:
+  - Robin Rombach and Patrick Esser and contributors

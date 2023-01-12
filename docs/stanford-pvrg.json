@@ -1,1 +1,9 @@
-{"key": "stanford-pvrg", "short_name": "Stanford PVRG License", "name": "Stanford PVRG License", "category": "Permissive", "owner": "Stanford University", "homepage_url": "http://marathon.csee.usf.edu/Mammography/JpegInfo.html", "spdx_license_key": "LicenseRef-scancode-stanford-pvrg"}
+{
+  "key": "stanford-pvrg",
+  "short_name": "Stanford PVRG License",
+  "name": "Stanford PVRG License",
+  "category": "Permissive",
+  "owner": "Stanford University",
+  "homepage_url": "http://marathon.csee.usf.edu/Mammography/JpegInfo.html",
+  "spdx_license_key": "LicenseRef-scancode-stanford-pvrg"
+}

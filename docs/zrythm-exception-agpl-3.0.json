@@ -1,0 +1,35 @@
+{
+  "key": "zrythm-exception-agpl-3.0",
+  "short_name": "Zrythm Exception to AGPL 3.0",
+  "name": "Zrythm Exception to AGPL 3.0",
+  "category": "Copyleft",
+  "owner": "Zrythm",
+  "homepage_url": "https://git.sr.ht/~alextee/zrythm/tree/master/item/LICENSES/LicenseRef-ZrythmLicense.txt",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-zrythm-exception-agpl-3.0",
+  "text_urls": [
+    "https://git.sr.ht/~alextee/zrythm/blob/master/TRADEMARKS.md"
+  ],
+  "other_urls": [
+    "https://git.sr.ht/~alextee/zrythm/"
+  ],
+  "standard_notice": "Zrythm is free software: you can redistribute it\nand/or modify it under the terms of the GNU Affero\nGeneral Public License (GNU AGPL) as published by the\nFree Software Foundation, either version 3 of the\nLicense, or (at your option) any later version, with\nthe additional terms below.\nZrythm is distributed in the hope that it will be\nuseful, but WITHOUT ANY WARRANTY; without even the\nimplied warranty of MERCHANTABILITY or FITNESS FOR\nA PARTICULAR PURPOSE.\n",
+  "ignorable_copyrights": [
+    "Copyright (c) 2020-2022 Alexandros Theodotou"
+  ],
+  "ignorable_holders": [
+    "Alexandros Theodotou"
+  ],
+  "ignorable_urls": [
+    "https://archlinux.org/",
+    "https://cve.mitre.org/",
+    "https://debian.org/",
+    "https://getfedora.org/",
+    "https://www.freebsd.org/",
+    "https://www.gnu.org/distros/free-distros.html",
+    "https://www.zrythm.org/"
+  ],
+  "ignorable_emails": [
+    "trademarks@zrythm.org"
+  ]
+}

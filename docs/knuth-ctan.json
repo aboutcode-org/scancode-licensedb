@@ -1,0 +1,11 @@
+{
+  "key": "knuth-ctan",
+  "short_name": "Knuth CTAN License",
+  "name": "Knuth CTAN License",
+  "category": "Permissive",
+  "owner": "CTAN",
+  "spdx_license_key": "Knuth-CTAN",
+  "other_urls": [
+    "https://ctan.org/license/knuth"
+  ]
+}

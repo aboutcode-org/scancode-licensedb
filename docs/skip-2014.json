@@ -1,0 +1,21 @@
+{
+  "key": "skip-2014",
+  "short_name": "SKIP License 2014",
+  "name": "SKIP License 2014",
+  "category": "Copyleft Limited",
+  "owner": "KDPS",
+  "homepage_url": "http://www.kanji.org/dictionaries/skip_permission.htm",
+  "spdx_license_key": "LicenseRef-scancode-skip-2014",
+  "text_urls": [
+    "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  ],
+  "other_urls": [
+    "http://creativecommons.org/licenses/by-sa/4.0/"
+  ],
+  "ignorable_authors": [
+    "Jack Halpern"
+  ],
+  "ignorable_urls": [
+    "http://www.kanji.org/"
+  ]
+}

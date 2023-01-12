@@ -1,0 +1,16 @@
+{
+  "key": "adcolony-tos-2022",
+  "short_name": "AdColony TOS for Publishers 2022",
+  "name": "AdColony Terms of Service for Publishers 2022",
+  "category": "Proprietary Free",
+  "owner": "AdColony",
+  "homepage_url": "https://support.adcolony.com/helpdesk/terms-of-service-for-publishers/",
+  "spdx_license_key": "LicenseRef-scancode-adcolony-tos-2022",
+  "ignorable_urls": [
+    "http://www.aboutads.info/principles",
+    "https://www.adcolony.com/privacy-policy/"
+  ],
+  "ignorable_emails": [
+    "support@adcolony.com"
+  ]
+}
