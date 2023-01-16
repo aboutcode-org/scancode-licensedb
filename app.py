@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: CC-BY-4.0 AND Apache-2.0
 #
 # https://github.com/nexB/scancode-licensedb
-# Copyright 2020 nexB Inc. and others.
+# Copyright (c) nexB Inc. and others.
 # ScanCode is a trademark of nexB Inc.
 #
 # ScanCode LicenseDB data is licensed under the Creative Commons Attribution
