@@ -1,1 +1,8 @@
-{"key": "broadcom-proprietary", "short_name": "Broadcom Proprietary", "name": "Broadcom Proprietary License", "category": "Proprietary Free", "owner": "Broadcom", "spdx_license_key": "LicenseRef-scancode-broadcom-proprietary"}
+{
+  "key": "broadcom-proprietary",
+  "short_name": "Broadcom Proprietary",
+  "name": "Broadcom Proprietary License",
+  "category": "Proprietary Free",
+  "owner": "Broadcom",
+  "spdx_license_key": "LicenseRef-scancode-broadcom-proprietary"
+}

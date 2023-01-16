@@ -1,1 +1,10 @@
-{"key": "gpl-2.0-guile", "is_deprecated": true, "short_name": "GPL 2.0 with GUILE exception", "name": "GPL 2.0 with GUILE exception", "category": "Copyleft Limited", "owner": "Free Software Foundation (FSF)", "notes": "replaced by guile-exception-2.0", "is_exception": true}
+{
+  "key": "gpl-2.0-guile",
+  "is_deprecated": true,
+  "short_name": "GPL 2.0 with GUILE exception",
+  "name": "GPL 2.0 with GUILE exception",
+  "category": "Copyleft Limited",
+  "owner": "Free Software Foundation (FSF)",
+  "notes": "replaced by guile-exception-2.0",
+  "is_exception": true
+}

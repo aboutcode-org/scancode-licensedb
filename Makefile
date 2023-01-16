@@ -34,36 +34,27 @@ ACTIVATE=. bin/activate;
 BLACK_ARGS=--exclude="docs" .
 
 conf:
-	@echo "-> Configure the Python venv and install dependencies"
+	@echo "-> Configure the Python venv, clone and install scancode-toolkit"
 	${PYTHON_EXE} -m venv venv
+	@git clone https://github.com/nexB/scancode-toolkit.git
 	@venv/bin/pip install --upgrade pip
-	@venv/bin/pip install scancode-toolkit
+	@venv/bin/pip install -e ./scancode-toolkit/
 
-upgrade:
-	@echo "-> Configure the Python venv and install dependencies"
-	@venv/bin/pip install --upgrade scancode-toolkit
+restore:
+	@echo "-> Restoring the repository to a clean state"
+	git clean -fd
+	rm -rf scancode-toolkit/
+	git restore --worktree docs/
 
 clean:
 	# Remove the whole content of docs/ except for the CNAME file
+	# Remove the whole content of scancode-toolkit/
 	find docs/* ! -name 'CNAME' -exec git rm -r {} +
-
-isort:
-	@echo "-> Apply isort changes to ensure proper imports ordering"
-	@venv/bin/pip install isort==5.6.4
-	@venv/bin/isort app.py
-
-black:
-	@echo "-> Apply black code formatter"
-	@venv/bin/pip install black==20.8b1 isort
-	@venv/bin/black ${BLACK_ARGS}
-
-valid: isort black
+	find scancode-toolkit/* -exec git rm -r {} +
 
 html:
 	@echo "-> Generate the HTML content"
-	@venv/bin/python app.py
-	@echo "-> Copy the static assets"
-	@cp -R static/ docs/static/
+	@venv/bin/scancode-license-data --path docs/
 	@echo "Available at docs/index.html"
 
 build: conf html
@@ -71,8 +62,8 @@ build: conf html
 publish:
 	@echo "-> Add changes to git"
 	@git add .
-	git commit -m "Upgrade ScanCode-toolkit to latest version"
+	git commit -m "Upgrade with latest updates from ScanCode-toolkit develop"
 	@echo "-> Push changes to main repo"
 	@git push
 
-.PHONY: conf clean isort black valid html build publish
+.PHONY: conf clean html build publish

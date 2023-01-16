@@ -1,1 +1,11 @@
-{"key": "broadcom-linking-unmodified", "short_name": "Broadcom Linking Exception if unmodified", "name": "Broadcom Linking Exception if unmodified", "category": "Copyleft Limited", "owner": "Broadcom", "notes": "The exception does not apply when modified", "is_exception": true, "spdx_license_key": "LicenseRef-scancode-broadcom-linking-unmodified"}
+{
+  "key": "broadcom-linking-unmodified",
+  "is_deprecated": true,
+  "short_name": "Broadcom Linking Exception if unmodified",
+  "name": "Broadcom Linking Exception if unmodified",
+  "category": "Copyleft Limited",
+  "owner": "Broadcom",
+  "notes": "The exception does not apply when modified",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-broadcom-linking-unmodified"
+}

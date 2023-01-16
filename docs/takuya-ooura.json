@@ -1,1 +1,9 @@
-{"key": "takuya-ooura", "short_name": "Takuya OOURA License", "name": "Takuya OOURA License", "category": "Permissive", "owner": "Unspecified", "homepage_url": "http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html", "spdx_license_key": "LicenseRef-scancode-takuya-ooura"}
+{
+  "key": "takuya-ooura",
+  "short_name": "Takuya OOURA License",
+  "name": "Takuya OOURA License",
+  "category": "Permissive",
+  "owner": "Takuya OOURA",
+  "homepage_url": "http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html",
+  "spdx_license_key": "LicenseRef-scancode-takuya-ooura"
+}

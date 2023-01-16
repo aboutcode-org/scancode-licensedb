@@ -1,0 +1,12 @@
+key: beri-hw-sw-1.0
+short_name: BERI Hardware-Software License v1.0
+name: BERI Hardware-Software License v1.0
+category: Permissive
+owner: BERI
+homepage_url: http://www.beri-open-systems.org/legal/beri-hardware-software-license.txt
+spdx_license_key: LicenseRef-scancode-beri-hw-sw-1.0
+other_urls:
+  - https://github.com/CTSRD-CHERI/beri
+ignorable_urls:
+  - http://www.apache.org/licenses/LICENSE-2.0
+  - http://www.beri-open-systems.org/legal/license-1-0.txt

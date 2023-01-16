@@ -1,1 +1,8 @@
-{"key": "whistle", "short_name": "Whistle Communications License", "name": "Whistle Communications License", "category": "Permissive", "owner": "FreeBSD", "spdx_license_key": "LicenseRef-scancode-whistle"}
+{
+  "key": "whistle",
+  "short_name": "Whistle Communications License",
+  "name": "Whistle Communications License",
+  "category": "Permissive",
+  "owner": "FreeBSD",
+  "spdx_license_key": "LicenseRef-scancode-whistle"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "broadcom-unmodified-exception",
+  "short_name": "Broadcom Unmodified Linking Exception",
+  "name": "Broadcom Unmodified Linking Exception",
+  "category": "Copyleft Limited",
+  "owner": "Broadcom",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-broadcom-unmodified-exception"
+}

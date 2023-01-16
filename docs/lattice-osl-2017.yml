@@ -1,0 +1,11 @@
+key: lattice-osl-2017
+short_name: Lattice Open Source License 2017
+name: Lattice Open Source License 2017
+category: Copyleft Limited
+owner: Lattice
+homepage_url: https://www.latticesemi.com/en/FileExplorer?media={E1F07490-EE2A-451E-B4F4-D4BF7B07099C}&document_id=38780
+spdx_license_key: LicenseRef-scancode-lattice-osl-2017
+ignorable_copyrights:
+  - (c) 2006-2017 Lattice Semiconductor Corporation
+ignorable_holders:
+  - Lattice Semiconductor Corporation

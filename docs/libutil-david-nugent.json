@@ -1,0 +1,12 @@
+{
+  "key": "libutil-david-nugent",
+  "short_name": "libutil David Nugent License",
+  "name": "libutil David Nugent License",
+  "category": "Permissive",
+  "owner": "David Nugent",
+  "spdx_license_key": "libutil-David-Nugent",
+  "other_urls": [
+    "http://web.mit.edu/freebsd/head/lib/libutil/login_ok.3",
+    "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd"
+  ]
+}

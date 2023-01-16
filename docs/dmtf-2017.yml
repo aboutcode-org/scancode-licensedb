@@ -1,0 +1,17 @@
+key: dmtf-2017
+short_name: DMTF License 2017
+name: DMTF License 2017
+category: Permissive
+owner: DMTF
+homepage_url: https://raw.githubusercontent.com/DMTF/libredfish/master/LICENSE.md
+spdx_license_key: LicenseRef-scancode-dmtf-2017
+faq_url: http://www.dmtf.org/about/policies/disclosures
+other_urls:
+  - http://dmtf.org/sites/default/files/patent-10-18-01.pdf
+ignorable_copyrights:
+  - Copyright (c) 2017, Contributing
+ignorable_holders:
+  - Contributing
+ignorable_urls:
+  - http://dmtf.org/sites/default/files/patent-10-18-01.pdf
+  - http://www.dmtf.org/about/policies/disclosures

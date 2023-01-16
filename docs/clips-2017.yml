@@ -1,0 +1,11 @@
+key: clips-2017
+short_name: CLIPS License 2017
+name: CLIPS License 2017
+category: Permissive
+owner: CLIPS
+homepage_url: https://www.clipsrules.net/
+spdx_license_key: LicenseRef-scancode-clips-2017
+text_urls:
+  - https://kumisystems.dl.sourceforge.net/project/clipsrules/CLIPS/6.40/clips_core_source_640.tar.gz
+other_urls:
+  - https://sourceforge.net/projects/clipsrules

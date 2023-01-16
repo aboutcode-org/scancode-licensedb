@@ -1,0 +1,13 @@
+key: six-labors-split-1.0
+short_name: Six Labors Split License 1.0
+name: Six Labors Split License 1.0
+category: Free Restricted
+owner: Six Labors
+homepage_url: https://github.com/SixLabors/ImageSharp/blob/main/LICENSE
+spdx_license_key: LicenseRef-scancode-six-labors-split-1.0
+ignorable_copyrights:
+  - Copyright (c) Six Labors
+ignorable_holders:
+  - Six Labors
+ignorable_urls:
+  - https://sixlabors.com/pricing

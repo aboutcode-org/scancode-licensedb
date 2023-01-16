@@ -1,0 +1,9 @@
+{
+  "key": "monkeysaudio",
+  "short_name": "Monkeys Audio License Agreement",
+  "name": "Monkeys Audio License Agreement",
+  "category": "Free Restricted",
+  "owner": "MonkeysAudio",
+  "homepage_url": "https://www.monkeysaudio.com/license.html",
+  "spdx_license_key": "LicenseRef-scancode-monkeysaudio"
+}

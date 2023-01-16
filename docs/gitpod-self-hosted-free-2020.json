@@ -1,0 +1,10 @@
+{
+  "key": "gitpod-self-hosted-free-2020",
+  "short_name": "Gitpod Self-Hosted Free License Terms 2020",
+  "name": "Gitpod Self-Hosted Free License Terms 2020",
+  "category": "Proprietary Free",
+  "owner": "Gitpod",
+  "homepage_url": "https://github.com/gitpod-io/gitpod/blob/main/License.enterprise.txt",
+  "spdx_license_key": "LicenseRef-scancode-gitpod-self-hosted-free-2020",
+  "faq_url": "https://github.com/gitpod-io/gitpod/blob/main/License.txt"
+}

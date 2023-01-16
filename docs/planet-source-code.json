@@ -1,1 +1,8 @@
-{"key": "planet-source-code", "short_name": "Planet Source Code License", "name": "Planet Source Code License", "category": "Free Restricted", "owner": "Planet Source Code", "spdx_license_key": "LicenseRef-scancode-planet-source-code"}
+{
+  "key": "planet-source-code",
+  "short_name": "Planet Source Code License",
+  "name": "Planet Source Code License",
+  "category": "Free Restricted",
+  "owner": "Planet Source Code",
+  "spdx_license_key": "LicenseRef-scancode-planet-source-code"
+}

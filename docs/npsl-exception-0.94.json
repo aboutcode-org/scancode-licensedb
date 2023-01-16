@@ -1,0 +1,29 @@
+{
+  "key": "npsl-exception-0.94",
+  "short_name": "Nmap NPSL Exception 0.94",
+  "name": "Nmap NPSL Exception 0.94",
+  "category": "Copyleft",
+  "owner": "Insecure.Com",
+  "homepage_url": "https://web.archive.org/web/20211215231956/https://svn.nmap.org/nmap/LICENSE",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-npsl-exception-0.94",
+  "faq_url": "https://nmap.org/npsl/",
+  "ignorable_copyrights": [
+    "Copyright (c) 1989, 1991 Free Software Foundation, Inc.",
+    "copyrighted by the Free Software Foundation"
+  ],
+  "ignorable_holders": [
+    "Free Software Foundation, Inc.",
+    "the Free Software Foundation"
+  ],
+  "ignorable_urls": [
+    "https://nmap.org/",
+    "https://nmap.org/npsl/",
+    "https://nmap.org/oem",
+    "https://npcap.org/",
+    "https://www.gnu.org/licenses/gpl-2.0.html#SEC4"
+  ],
+  "ignorable_emails": [
+    "sales@nmap.com"
+  ]
+}

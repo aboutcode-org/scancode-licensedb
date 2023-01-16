@@ -1,1 +1,8 @@
-{"key": "bytemark", "short_name": "BYTEmark License", "name": "BYTEmark License", "category": "Permissive", "owner": "BYTE Magazine", "spdx_license_key": "LicenseRef-scancode-bytemark"}
+{
+  "key": "bytemark",
+  "short_name": "BYTEmark License",
+  "name": "BYTEmark License",
+  "category": "Permissive",
+  "owner": "BYTE Magazine",
+  "spdx_license_key": "LicenseRef-scancode-bytemark"
+}

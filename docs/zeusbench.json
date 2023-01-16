@@ -1,1 +1,8 @@
-{"key": "zeusbench", "short_name": "ZeusBench notice", "name": "ZeusBench notice", "category": "Permissive", "owner": "Unspecified", "spdx_license_key": "LicenseRef-scancode-zeusbench"}
+{
+  "key": "zeusbench",
+  "short_name": "ZeusBench notice",
+  "name": "ZeusBench notice",
+  "category": "Permissive",
+  "owner": "Unspecified",
+  "spdx_license_key": "LicenseRef-scancode-zeusbench"
+}

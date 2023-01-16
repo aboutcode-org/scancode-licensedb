@@ -1,0 +1,8 @@
+key: checkmk
+short_name: Checkmk License
+name: Checkmk License
+category: Permissive
+owner: libcheck
+spdx_license_key: checkmk
+other_urls:
+  - https://github.com/libcheck/check/blob/master/checkmk/checkmk.in

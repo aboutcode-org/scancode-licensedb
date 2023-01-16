@@ -1,0 +1,22 @@
+{
+  "key": "edrdg-2000",
+  "short_name": "EDRDG General Dictionary License 2000",
+  "name": "EDRDG General Dictionary License 2000",
+  "category": "Copyleft Limited",
+  "owner": "EDRDG",
+  "homepage_url": "http://www.edrdg.org/edrdg/licence.html",
+  "spdx_license_key": "LicenseRef-scancode-edrdg-2000",
+  "text_urls": [
+    "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
+  ],
+  "other_urls": [
+    "https://creativecommons.org/licenses/by-sa/3.0/"
+  ],
+  "ignorable_urls": [
+    "http://www.edrdg.org/wiki/index.php/JMdict",
+    "http://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+  ],
+  "ignorable_emails": [
+    "jimbreen@gmail.com"
+  ]
+}
