@@ -2,6 +2,7 @@ name: Update LicenseDB with latest updates from scancode-toolkit develop daily
 on:
   schedule:
     - cron: '0 16 * * 0-6'
+  workflow_dispatch:
 
 jobs:
   update_licenseDB:
