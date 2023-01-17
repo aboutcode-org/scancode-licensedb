@@ -14,3 +14,65 @@ ignorable_copyrights:
   - Copyright 1998, Net Boolean Incorporated, Redwood City, California, USA
 ignorable_holders:
   - Net Boolean Incorporated, Redwood City, California, USA
+text: "The Net Boolean Public License \n\nVersion 1, 22 August 1998 \nCopyright 1998, Net Boolean\
+  \ Incorporated, Redwood City, California, USA \nAll Rights Reserved. \n\nNote: \nThis license\
+  \ is derived from the \"Artistic License\" as distributed \nwith the Perl Programming Language.\
+  \ Its terms are different from \nthose of the \"Artistic License.\" \n\nPREAMBLE \n\nThe intent\
+  \ of this document is to state the conditions under which a \nPackage may be copied, such\
+  \ that the Copyright Holder maintains some \nsemblance of artistic control over the development\
+  \ of the package, \nwhile giving the users of the package the right to use and distribute\
+  \ \nthe Package in a more-or-less customary fashion, plus the right to make \nreasonable modifications.\
+  \ \n\nDefinitions: \n\n\"Package\" refers to the collection of files distributed by the \n\
+  Copyright Holder, and derivatives of that collection of files \ncreated through textual modification.\
+  \ \n\n\"Standard Version\" refers to such a Package if it has not been \nmodified, or has\
+  \ been modified in accordance with the wishes \nof the Copyright Holder. \n\n\"Copyright Holder\"\
+  \ is whoever is named in the copyright or \ncopyrights for the package. \n\n\"You\" is you,\
+  \ if you're thinking about copying or distributing \nthis Package. \n\n\"Reasonable copying\
+  \ fee\" is whatever you can justify on the \nbasis of media cost, duplication charges, time\
+  \ of people involved, \nand so on. (You will not be required to justify it to the \nCopyright\
+  \ Holder, but only to the computing community at large \nas a market that must bear the fee.)\
+  \ \n\n\"Freely Available\" means that no fee is charged for the item \nitself, though there\
+  \ may be fees involved in handling the item. \nIt also means that recipients of the item may\
+  \ redistribute it \nunder the same conditions they received it. \n\n1. You may make and give\
+  \ away verbatim copies of the source form of the \nStandard Version of this Package without\
+  \ restriction, provided that you \nduplicate all of the original copyright notices and associated\
+  \ disclaimers. \n\n2. You may apply bug fixes, portability fixes and other modifications \n\
+  derived from the Public Domain or from the Copyright Holder. A Package \nmodified in such\
+  \ a way shall still be considered the Standard Version. \n\n3. You may otherwise modify your\
+  \ copy of this Package in any way, provided \nthat you insert a prominent notice in each changed\
+  \ file stating how and \nwhen you changed that file, and provided that you do at least ONE\
+  \ of the \nfollowing: \n\na) place your modifications in the Public Domain or otherwise make\
+  \ them \nFreely Available, such as by posting said modifications to Usenet or \nan equivalent\
+  \ medium, or placing the modifications on a major archive \nsite such as uunet.uu.net, or\
+  \ by allowing the Copyright Holder to include \nyour modifications in the Standard Version\
+  \ of the Package. \n\nb) use the modified Package only within your corporation or organization.\
+  \ \n\nc) rename any non-standard executables so the names do not conflict \nwith standard\
+  \ executables, which must also be provided, and provide \na separate manual page for each\
+  \ non-standard executable that clearly \ndocuments how it differs from the Standard Version.\
+  \ \n\nd) make other distribution arrangements with the Copyright Holder. \n\n4. You may distribute\
+  \ the programs of this Package in object code or \nexecutable form, provided that you do at\
+  \ least ONE of the following: \n\na) distribute a Standard Version of the executables and\
+  \ library files, \ntogether with instructions (in the manual page or equivalent) on where\
+  \ \nto get the Standard Version. \n\nb) accompany the distribution with the machine-readable\
+  \ source of \nthe Package with your modifications. \n\nc) accompany any non-standard executables\
+  \ with their corresponding \nStandard Version executables, giving the non-standard executables\
+  \ \nnon-standard names, and clearly documenting the differences in manual \npages (or equivalent),\
+  \ together with instructions on where to get \nthe Standard Version. \n\nd) make other distribution\
+  \ arrangements with the Copyright Holder. \n\n5. You may charge a reasonable copying fee for\
+  \ any distribution of this \nPackage. You may charge any fee you choose for support of this\
+  \ Package. \nYou may not charge a fee for this Package itself. However, \nyou may distribute\
+  \ this Package in aggregate with other (possibly \ncommercial) programs as part of a larger\
+  \ (possibly commercial) software \ndistribution provided that you do not advertise this Package\
+  \ as a \nproduct of your own. \n\n6. The scripts and library files supplied as input to or\
+  \ produced as \noutput from the programs of this Package do not automatically fall \nunder\
+  \ the copyright of this Package, but belong to whomever generated \nthem, and may be sold\
+  \ commercially, and may be aggregated with this \nPackage. \n\n7. C subroutines supplied by\
+  \ you and linked into this Package in order \nto emulate subroutines and variables of the\
+  \ language defined by this \nPackage shall not be considered part of this Package, but are\
+  \ the \nequivalent of input as in Paragraph 6, provided these subroutines do \nnot change\
+  \ the language in any way that would cause it to fail the \nregression tests for the language.\
+  \ \n\n8. The name of the Copyright Holder may not be used to endorse or promote \nproducts\
+  \ derived from this software without specific prior written permission. \n\n9. THIS PACKAGE\
+  \ IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR \nIMPLIED WARRANTIES, INCLUDING, WITHOUT\
+  \ LIMITATION, THE IMPLIED \nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\
+  \ \n\nThe End"

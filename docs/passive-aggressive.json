@@ -5,5 +5,6 @@
   "category": "Proprietary Free",
   "owner": "Unspecified",
   "notes": "From https://github.com/ErikMcClure/bad-licenses",
-  "spdx_license_key": "LicenseRef-scancode-passive-aggressive"
+  "spdx_license_key": "LicenseRef-scancode-passive-aggressive",
+  "text": "Permission is hereby given to the user, with free of charge, to any person obtaining a copy of this software and its all associated documentation files, to deal in the software without restriction, including without limitation the rights to copy, modify, merge, publish, distribute, sublicense, and/orsell copies of the Software, but NOT including the right to run, execute or use the Software or any executable binaries built from the source code.\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE"
 }

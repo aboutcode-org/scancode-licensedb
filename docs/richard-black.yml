@@ -9,3 +9,5 @@ ignorable_copyrights:
   - copyright 1993 Richard Black
 ignorable_holders:
   - Richard Black
+text: This code is copyright 1993 Richard Black. All rights are reserved. You may use this code
+  only if it includes a statement to that effect.

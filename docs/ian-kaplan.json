@@ -4,5 +4,6 @@
   "name": "Ian Kaplan License",
   "category": "Permissive",
   "owner": "Bearcave.com",
-  "spdx_license_key": "LicenseRef-scancode-ian-kaplan"
+  "spdx_license_key": "LicenseRef-scancode-ian-kaplan",
+  "text": "Use of this program, for any purpose, is granted the author,\nIan Kaplan, as long as this copyright notice is included in\nthe source code or any source code derived from this program.\nThe user assumes all responsibility for using this code."
 }

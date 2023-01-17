@@ -10,5 +10,6 @@
   ],
   "ignorable_holders": [
     "Intel Corporation"
-  ]
+  ],
+  "text": "Intel Open Source License\n\nCopyright (c) 1989, Intel Corporation\n\nIntel hereby grants you permission to copy, modify, and distribute this software and\nits documentation. Intel grants this permission provided that the above copyright\nnotice appears in all copies and that both the copyright notice and this permission\nnotice appear in supporting documentation. In addition, Intel grants this permission\nprovided that you prominently mark as not part of the original any modifications made\nto this software or documentation, and that the name of Intel Corporation not be used\nin advertising or publicity pertaining to distribution of the software or the\ndocumentation without specific, written prior permission.\n\nIntel Corporation does not warrant, guarantee or make any representations regarding\nthe use of, or the results of the use of, the software and documentation in terms of\ncorrectness, accuracy, reliability, currentness, or otherwise; and you rely on the\nsoftware, documentation and results solely at your own risk."
 }

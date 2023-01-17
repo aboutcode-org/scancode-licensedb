@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Michael C. Ring",
   "homepage_url": "http://www.tc.umn.edu/~ringx004/fplot-readme.html",
-  "spdx_license_key": "LicenseRef-scancode-fplot"
+  "spdx_license_key": "LicenseRef-scancode-fplot",
+  "text": "This software is Freeware.                                             \n                                                                       \nPermission to use, copy, and distribute this software and its          \ndocumentation for any purpose with or without fee is hereby granted,   \nprovided that the above copyright notice appear in all copies and      \nthat both that copyright notice and this permission notice appear      \nin supporting documentation.                                           \n                                                                       \nPermission to modify the software is granted, but not the right to     \ndistribute the modified code.  Modifications are to be distributed     \nas patches to released version.                                        \n                                                                       \nThis software is provided \"as is\" without express or implied warranty."
 }

@@ -5,3 +5,17 @@ category: Proprietary Free
 owner: Adobe Systems
 spdx_license_key: LicenseRef-scancode-adobe-postscript
 minimum_coverage: 25
+text: |
+  Patents Pending
+
+  NOTICE: All information contained herein is the property
+  of Adobe Systems Incorporated.
+
+  Permission is granted for redistribution of this file
+  provided this copyright notice is maintained intact and
+  that the contents of this file are not altered in any
+  way from its original form.
+
+  PostScript and Display PostScript are trademarks of
+  Adobe Systems Incorporated which may be registered in
+  certain jurisdictions.

@@ -10,3 +10,323 @@ ignorable_urls:
   - https://www.adcolony.com/privacy-policy/
 ignorable_emails:
   - support@adcolony.com
+text: "Terms of Service for Publishers\n\nAdColony publishing and monetization partners must\
+  \ sign, acknowledge, and agree\nto their own terms of service document within the AdColony\
+  \ portal. The version\nbelow is for general reference purposes and does not serve as a legal\
+  \ or binding\nagreement with any entity.\n\nAdditional agreements and terms of service may\
+  \ be required on a per client basis\nto comply with regulatory needs. Contact support@adcolony.com\
+  \ for more details.\n\n \n\nSDK License and Publisher Terms\n\nThese AdColony SDK License\
+  \ and Publisher Terms (this “Agreement”) is made\navailable by AdColony, Inc. (“AdColony”).\
+  \ By downloading or using the AdColony\nSDK, you and any company, entity, or organization\
+  \ on behalf of which you are\naccepting this Agreement (“Developer”) hereby agrees to be bound\
+  \ by all terms\nand conditions of this Agreement, and you represent and warrant that you are\
+  \ an\nauthorized representative of Developer with the authority to bind Developer to\nthis\
+  \ Agreement. IF YOU DO NOT AGREE TO ALL TERMS AND CONDITIONS OF THIS\nAGREEMENT, DO NOT DOWNLOAD\
+  \ OR USE THE ADCOLONY SDK.\n\n1. Definitions\n\n    1. “Advertisers” means third-party advertisers.\n\
+  \n    2. “Developer Apps” means the mobile applications owned and/or controlled by\n    Developer,\
+  \ including all content images, music and text contained therein,\n    that Developer wishes\
+  \ to use with the AdColony SDK and AdColony Platform.\n\n    3. “I/O” means a fully executed\
+  \ insertion order containing advertising\n    campaign details for user acquisitions and campaigns\
+  \ run by Developer on\n    AdColony’s Platform.\n\n    4. “AdColony Ads” means video, playable,\
+  \ display, or any type of media\n    advertisements, sourced by or on behalf of AdColony,\
+  \ which are routed and/or\n    served by the AdColony Platform to the Developer Apps.\n  \
+  \  \n    5. “AdColony Platform” means AdColony’s advertising system or network, which\n  \
+  \  supports advertisement insertion within mobile applications, and related\n    advertisement\
+  \ reporting tools.\n    \n    6. “AdColony SDK” means the software development kit and any\
+  \ other software\n    and documentation that may be provided by AdColony to Developer with\
+  \ the\n    software development kit, including any updates thereto.\n    \n    7. “Personally\
+  \ Identifiable Information” or “PII” means information that\n    specifically identifies or\
+  \ locates a particular person or entity such as\n    name, postal address, telephone number,\
+  \ and email address.\n    \n    8. “Pseudonymous Identifiers” means data that is linked or\
+  \ reasonably\n    linkable to a particular computer or device resettable device identifiers\n\
+  \    such as Google Advertising ID, Apple Identifier for Advertisers, IP address,\n    or\
+  \ other similar identifiers. Pseudoymous Identifiers may not be utilized to\n    identify\
+  \ a particular person.\n\n2. AdColony SDK License\n\n    1. License Grant. Subject to the\
+  \ terms and conditions of this Agreement,\n    AdColony grants Developer a non-exclusive,\
+  \ non-transferable, non-\n    sublicenseable, worldwide license to: (a) integrate the AdColony\
+  \ SDK with\n    Developer Apps solely for internal use; (b) use, reproduce and distribute\n\
+  \    certain portions of the AdColony SDK as required for Developer’s\n    distribution of\
+  \ Developer Apps, solely as enabled by, and in accordance with\n    documentation provided\
+  \ by AdColony; and (c) use the AdColony SDK and\n    AdColony Platform to have advertisements,\
+  \ including AdColony Ads,\n    distributed and presented within Developer Apps.\n\n    2.\
+  \ SDK Updates. AdColony periodically releases new versions of the AdColony\n    SDK which\
+  \ may contain new features and fixes, and AdColony may sunset\n    versions of the AdColony\
+  \ SDK. Developer is encouraged to check the AdColony\n    website (or AdColony-designated\
+  \ distribution site) from time to time for the\n    latest version releases, and to download\
+  \ and integrate such new versions\n    within the Developer Apps, subject to this Agreement\
+  \ (including any\n    amendments).\n\n    C. License Restrictions. Except as expressly provided\
+  \ in this Agreement,\n    Developer shall not (and shall not allow any third party to): (a)\
+  \ decompile,\n    reverse engineer, disassemble, modify, adapt, create derivative works of,\n\
+  \    copy or distribute the AdColony SDK or AdColony Platform, (b) modify,\n    remove, or\
+  \ obscure any copyright, trademark, patent or other proprietary\n    notices or legends from\
+  \ the AdColony SDK or AdColony Platform; (c) copy,\n    distribute, rent, lease, lend, sublicense,\
+  \ transfer or make the AdColony SDK\n    or AdColony Platform available to any third party,\
+  \ and (d) use the AdColony\n    SDK or AdColony Platform to develop, upload, or transmit any\
+  \ software\n    viruses or other computer code, files or programs designed to interrupt,\n\
+  \    destroy, or limit the functionality of any software or hardware.\n\n    3. Intellectual\
+  \ Property. All ownership rights, title, and interest in and\n    to the AdColony SDK and\
+  \ AdColony Platform, including all intellectual\n    property rights therein, as such may\
+  \ be modified, upgraded, or enhanced from\n    time to time (“AdColony Property”) will remain\
+  \ and belong exclusively to\n    AdColony. AdColony reserves all rights not expressly granted\
+  \ to Developer\n    herein. Developer shall retain all ownership rights, title and interest\
+  \ in\n    and to the Developer Apps, including all intellectual property rights\n    therein,\
+  \ as such may be modified, upgraded or enhanced from time to time.\n\n    4. Advertising via\
+  \ The AdColony Platform\n\n        1. AdColony Insertion & Sale of Ads. Developer hereby grants\
+  \ AdColony\n        the right to sell, and have sold, advertisement inventory in the\n   \
+  \     Developer Apps, and to insert AdColony Ads within such inventory. In\n        addition,\
+  \ Developer hereby grants AdColony the non-exclusive, worldwide\n        right and license\
+  \ to use, reproduce, distribute and display Developer’s\n        and the Developer Apps’ trademarks,\
+  \ logos, and images of the Developer\n        Apps, in connection with the sale of AdColony\
+  \ Ads hereunder, including:\n        (a) listing the Developer Apps and inventory in pitch\
+  \ materials to\n        prospective Advertisers; (b) reporting the inclusion of Developer\
+  \ Apps\n        and inventory as part of AdColony’s advertising network; and (c)\n       \
+  \ identifying the Developer as a publishing partner on AdColony’s website\n        and other\
+  \ marketing materials. AdColony also reserves the right to\n        utilize publisher results\
+  \ (both specific and aggregate) in case studies\n        and white papers for promotional\
+  \ purposes.\n\n        2. Developer Ad Campaigns. For user acquisitions and other campaigns\
+  \ run\n        by Developer on the AdColony Platform, Developer shall provide AdColony\n \
+  \       with a signed I/O. The terms of the I/O, including the Interactive\n        Advertising\
+  \ Bureau terms and conditions incorporated into the I/O (the\n        “IAB Terms”) shall govern\
+  \ such advertising campaigns. In the event of\n        any conflict between the I/O and such\
+  \ IAB Terms, the I/O shall govern\n        and control with respect to such campaign.\n\n\
+  \        3. Developer Apps Content Policy. The Developer Apps will not contain,\n        consist\
+  \ of, or promote discrimination, illegal activities, hate speech,\n        defamation, graphic\
+  \ violence, firearms, tobacco, illegal drugs,\n        pornography, profanity, obscenity or\
+  \ sexually explicit material\n        (“Developer Apps Content Policy”). Developer will notify\
+  \ AdColony\n        immediately of any Developer Apps relating to alcohol or gambling or\n\
+  \        that are child-directed as defined under COPPA. Developer agrees that\n        AdColony\
+  \ has no responsibility for the Developer Apps, including any\n        content therein, and\
+  \ AdColony has no obligation or ability to monitor or\n        edit the Developer Apps. Developer\
+  \ will provide as much advance written\n        notice as reasonably practicable, but in no\
+  \ event less than fifteen (15)\n        days’ notice, regarding any material changes to the\
+  \ nature or design of\n        any Developer App, including without limitation, changes to\
+  \ the\n        placement of AdColony Ad inventory, any action that will increase or\n    \
+  \    reduce expected AdColony Ad inventory within the Developer Apps, the\n        type of\
+  \ content contained within the Developer Apps, or the target\n        audience of the Developer\
+  \ Apps.\n\n\n    4. Ad Restrictions. Developer may not, and may not authorize or encourage\n\
+  \    any third party to: (a) generate fraudulent impressions of, or fraudulent\n    clicks\
+  \ on any AdColony Ads, including through repeated manual clicks, the\n    use of robots or\
+  \ other automated tools or any other method that may lead to\n    artificially high numbers\
+  \ of impressions, clicks, downloads, installs, app-\n    opens, installed app user activity;\
+  \ or (b) edit, modify, filter, or change\n    the order of the information contained in any\
+  \ AdColony Ad, or remove,\n    obscure or minimize any AdColony Ad in any way. Developer shall\
+  \ promptly\n    notify AdColony if it suspects that any third party may be tampering with,\n\
+  \    abusing or manipulating the AdColony Platform or the AdColony Ads within the\n    Developer\
+  \ App. AdColony may suspend Developer’s use of the AdColony Platform\n    and/or terminate\
+  \ this Agreement immediately should Developer violate the\n    foregoing provisions of this\
+  \ Section as determined by AdColony’s sole\n    discretion upon evaluating its fraud detection\
+  \ and reporting systems, and\n    Developer shall not be entitled to any revenue associated\
+  \ with the\n    applicable campaign(s).\n\n    5. Data & Privacy\n\n        1. Collection\
+  \ of Data. Developer acknowledges and agrees that\n        Pseudonymous Identifiers may be\
+  \ used in connection with the performance\n        of this Agreement in order to collect and\
+  \ use data from end users and\n        their devices (“App Data”) in connection with advertisement\
+  \ performance,\n        targeting, and end user interests (“Performance Data”), and to display\n\
+  \        AdColony Ads to end users. Developer agrees that in connection with\n        AdColony\
+  \ Ads, AdColony may access or call to the Developer Apps, or the\n        servers that make\
+  \ them available, and cause the routing, transmission,\n        reproduction, and presentation\
+  \ of AdColony Ads as contemplated herein.\n        Additionally, Developer agrees that AdColony\
+  \ may collect App Data and\n        Performance Data, including Pseudonymous Identifiers ,\
+  \ usage data, and\n        streaming data, with regard to the Developer Apps (and included\
+  \ content)\n        within which AdColony Ads are routed and/or served and (i) disclose such\n\
+  \        information to third parties (including Advertisers and attribution\n        partners)\
+  \ as reasonably necessary in connection with the operation of\n        the AdColony Platform,\
+  \ (ii) disclose such data if required by any court\n        order, process, law or governmental\
+  \ agency; (iii) disclose such data\n        generally when it is aggregated, such that the\
+  \ specific information\n        relating to Developer is not identified as such; and (iv)\
+  \ use such\n        information for AdColony’s internal business purposes, including to\n\
+  \        develop and improve the AdColony SDK and AdColony Platform. AdColony\n        will\
+  \ collect and use the data in accordance with the Digital Advertising\n        Alliance Self-Regulatory\
+  \ Principles (“DAA Codes”), which are available\n        at http://www.aboutads.info/principles\
+  \ and AdColony Privacy Policy,\n        which is available at https://www.adcolony.com/privacy-policy/\
+  \ (as\n        updated from time to time) and is hereby incorporated by reference.\n    \n\
+  \        2. Compliance with Laws. Developer agrees to comply with all Privacy\n        Requirements\
+  \ (as defined below), including conspicuously posting a\n        privacy policy that accurately\
+  \ describes the Developer’s and third\n        parties’ collection, use, and disclosure of\
+  \ end user data from the\n        Developer Apps, which include disclosure that third parties\
+  \ may collect\n        or receive information and use that information to provide measurement\n\
+  \        services and targeted ads, and disclosure of how and where users can\n        opt-out\
+  \ of collection and use of information for ad targeting. Developer\n        will not pass\
+  \ any PII to AdColony unless expressly permitted in writing,\n        and as permitted under\
+  \ any Privacy Requirements. Developer represents\n        and warrants that any data Developer\
+  \ provides to AdColony regarding\n        devices, location, or users, and the ability for\
+  \ AdColony to collect the\n        App Data and Performance Data, is permitted and provided\
+  \ in compliance\n        with all Privacy Requirements including Developer’s posted privacy\n\
+  \        policy. Developer further represents and warrants that it has made any\n        and\
+  \ all disclosures and obtained any and all consents or permissions\n        required by law\
+  \ with respect to Developer’s privacy practices, including\n        without limitation: (a)\
+  \ any end user data Developer collects, uses,\n        and/or discloses, (b) the use and disclosure\
+  \ of App Data and Performance\n        Data to AdColony via the AdColony SDK and AdColony\
+  \ Platform, and (c)\n        notice and parental consent required by the Children’s Online\
+  \ Privacy\n        Protection Act (“COPPA”). AdColony reserves the right to modify,\n    \
+  \    suspend, or terminate this Agreement should Developer violate this\n        Section,\
+  \ and/or to remain compliant with law.\n\n        C. “Privacy Requirements” means all (i)\
+  \ applicable laws (including\n        COPPA), governmental regulations, court or government\
+  \ agency orders, and\n        decrees relating in any manner to the collection, use, or dissemination\n\
+  \        of information from or about users, user traffic, or otherwise relating\n       \
+  \ to privacy rights; (ii) the DAA Codes; and (iii) Developer’s posted\n        privacy policy.\n\
+  \n    6. Developer Payments\n\n        1. Developer Payment. Subject to the terms and conditions\
+  \ of this\n        Agreement, AdColony shall pay to Developer Net Revenue amounts\n      \
+  \  determined by AdColony. All revenue received from activities that\n        AdColony deems\
+  \ to be fraudulent may be refunded to the Advertiser(s) in\n        AdColony’s sole discretion.\n\
+  \n        2. Payment Terms. AdColony will pay any Developer Payment due to\n        Developer\
+  \ sixty (60) days after the completion of the month in which\n        such AdColony Ad campaign\
+  \ runs; provided that, AdColony may withhold\n        payment until the following month for\
+  \ Developer Payment amounts less\n        than $100 U.S. Developer shall be responsible for\
+  \ any bank, transfer or\n        transaction fees (e.g., PayPal). AdColony may deduct any\
+  \ withholding,\n        sales, value added, and other applicable taxes (other than its net\n\
+  \        income taxes) as required by law. Developer is responsible for paying\n        any\
+  \ other taxes, duties, or fees for which Developer is legally\n        responsible.\n\n  \
+  \      3. Earnings are forfeited by publisher if a) the publisher’s lifetime\n        earnings\
+  \ are less than $100 and it has been more than 12 months since\n        the publisher had\
+  \ earnings or b) the publisher has not provided payment\n        information, outstanding\
+  \ earnings are less than $1,000 and it has been\n        more than 12 months since the publisher\
+  \ had earnings.\n\n\n    7. Term and Termination\n\n        1. Term. This Agreement is effective\
+  \ until terminated in accordance with\n        this Agreement.\n\n        2. Termination by\
+  \ AdColony. AdColony may terminate this Agreement at any\n        time by providing sixty\
+  \ (60) days’ notice to Developer. Additionally,\n        AdColony may terminate this Agreement\
+  \ immediately if Developer breaches\n        any provision of this Agreement.\n\n        3.\
+  \ Termination by Developer. Developer may terminate this Agreement at\n        any time by\
+  \ providing written notice to AdColony (email to suffice),\n        ceasing all use of the\
+  \ AdColony Platform and AdColony Property, and\n        destroying or removing from all hard\
+  \ drives, networks, and other storage\n        media all copies of the AdColony Property.\n\
+  \n        4. Effect of Termination. Upon termination of this Agreement by\n        Developer,\
+  \ the Agreement (including all rights and licenses granted and\n        obligations assumed\
+  \ hereunder) will remain in force and effect until the\n        completion of all AdColony\
+  \ Ad campaigns associated with the Developer\n        Apps in effect on the date of such termination\
+  \ (“Sell-Off Period”).\n        AdColony’s payment obligations will remain in effect during\
+  \ the Sell-Off\n        Period. Upon any termination of this Agreement, each party will promptly\n\
+  \        return or destroy all copies of any Confidential Information in its\n        possession\
+  \ or control. Sections 3, 7(D) through 13 shall survive any\n        expiration or termination\
+  \ of this Agreement.\n\n    8. Confidentiality\n\n        A. Definition. “Confidential Information”\
+  \ means any and all business,\n        technical and financial information or material of\
+  \ a party, whether\n        revealed orally, visually, or in tangible or electronic form,\
+  \ that is\n        not generally known to the public, which is disclosed to or made\n    \
+  \    available by one party (the “Disclosing Party”) to the other, or which\n        one party\
+  \ becomes aware of pursuant to this Agreement (the “Receiving\n        Party”). The AdColony\
+  \ SDK is AdColony’s Confidential Information, and\n        the terms and conditions of this\
+  \ Agreement shall remain confidential.\n        The failure of a Disclosing Party to designate\
+  \ as “confidential” any\n        such information or material at the time of disclosure shall\
+  \ not result\n        in a loss of status as Confidential Information to the Disclosing Party.\n\
+  \        Confidential Information shall not include information which: (i) is in\n       \
+  \ or has entered the public domain through no breach of this Agreement or\n        other act\
+  \ by a Receiving Party; (ii) a Receiving Party rightfully knew\n        prior to the time\
+  \ that it was disclosed to a Receiving Party hereunder;\n        (iii) a Receiving Party received\
+  \ without restriction from a third-party\n        lawfully possessing and lawfully entitled\
+  \ to disclose such information\n        without breach of this Agreement; or (iv) was independently\
+  \ developed by\n        employees of the Receiving Party who had no access to such information.\n\
+  \n        B. Use and Disclosure Restrictions. The Receiving Party shall not use\n        the\
+  \ Confidential Information except as necessary to exercise its rights\n        or perform\
+  \ its obligations under this Agreement, and shall not disclose\n        the Confidential Information\
+  \ to any third party, except to those of its\n        employees, subcontractors, and advisers\
+  \ that need to know such\n        Confidential Information for the purposes of this Agreement,\
+  \ provided\n        that each such employee, subcontractor, and advisor is subject to a\n\
+  \        written agreement that includes binding use and disclosure restrictions\n       \
+  \ that are at least as protective of the Confidential Information as those\n        set forth\
+  \ herein. The Receiving Party will use at least the efforts such\n        party ordinarily\
+  \ uses with respect to its own confidential information\n        of similar nature and importance\
+  \ to maintain the confidentiality of all\n        Confidential Information in its possession\
+  \ or control, but in no event\n        less than reasonable efforts. The foregoing obligations\
+  \ will not\n        restrict the Receiving Party from disclosing any Confidential\n      \
+  \  Information required by applicable law; provided that, the Receiving\n        Party must\
+  \ use reasonable efforts to give the Disclosing Party advance\n        notice thereof (i.e.,\
+  \ so as to afford Disclosing Party an opportunity to\n        intervene and seek an order\
+  \ or other relief for protecting its\n        Confidential Information from any unauthorized\
+  \ use or disclosure) and\n        the Confidential Information is only disclosed to the extent\
+  \ required by\n        law. The Receiving Party shall return all of the Disclosing Party’s\n\
+  \        Confidential Information to the Disclosing Party or destroy the same, no\n      \
+  \  later than fifteen (15) days after Disclosing Party’s request, or when\n        Receiving\
+  \ Party no longer needs Confidential Information for its\n        authorized purposes hereunder.\n\
+  \n    9. Representations and Warranties of Developer. Developer represents,\n    warrants\
+  \ and covenants to AdColony that: (a) it has all necessary rights,\n    title, and interest\
+  \ in and to the Developer Apps, and it has obtained all\n    necessary rights, releases, and\
+  \ permissions to grant the rights granted to\n    AdColony in this Agreement, including to\
+  \ allow AdColony to sell and insert\n    the AdColony Ads as contemplated herein; (b) it shall\
+  \ not use the AdColony\n    Platform to collect or discern any personally identifiable information\
+  \ of\n    end users, or use the data received through the AdColony Platform to re-\n    identify\
+  \ an individual; and (c) the Developer Apps will comply with the\n    Developer Apps Content\
+  \ Policy, and will not infringe upon, violate, or\n    misappropriate any third party right,\
+  \ including any intellectual property,\n    privacy, or publicity rights.\n\n    10. Warranty\
+  \ Disclaimer. THE ADCOLONY SDK AND ADCOLONY PLATFORM ARE PROVIDED\n    “AS IS”. ADCOLONY DOES\
+  \ NOT MAKE ANY WARRANTIES, EXPRESS, IMPLIED, STATUTORY\n    OR OTHERWISE, INCLUDING BUT NOT\
+  \ LIMITED TO WARRANTIES OF MERCHANTABILITY,\n    NON-INFRINGEMENT, FITNESS FOR A PARTICULAR\
+  \ PURPOSE, AND ANY IMPLIED\n    WARRANTIES ARISING FROM COURSE OF DEALING OR PERFORMANCE.\
+  \ ADCOLONY AND ITS\n    SUPPLIERS, LICENSORS, AND PARTNERS DO NOT WARRANT THAT THE ADCOLONY\
+  \ PLATFORM\n    OR ADCOLONY SDK WILL BE CORRECT, UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS\n\
+  \    WILL BE CORRECTED, OR THAT THE ADCOLONY PLATFORM OR ADCOLONY SDK ARE FREE OF\n    VIRUSES\
+  \ OR OTHER HARMFUL COMPONENTS. ADCOLONY DOES NOT WARRANT THE RESULTS\n    OF USE OF THE ADCOLONY\
+  \ PLATFORM OR ADCOLONY SDK. DEVELOPER ACKNOWLEDGES THAT\n    ADCOLONY MAY MODIFY OR SUSPEND\
+  \ THE ADCOLONY PLATFORM AT ANY TIME IN ITS SOLE\n    DISCRETION AND WITHOUT NOTICE.\n\n  \
+  \  11. Indemnification.\n\n        1. Developer Indemnification. Developer agrees to indemnify,\
+  \ defend, and\n        hold harmless AdColony and its affiliates, and their directors,\n \
+  \       officers, employees, and agents from and against any liabilities,\n        damages,\
+  \ costs and expenses (including reasonable attorneys’ fees)\n        arising out of any claim,\
+  \ demand, action, or proceeding initiated by a\n        third party arising from or in connection\
+  \ with any breach of Developer’s\n        obligations, representations or warranties set forth\
+  \ in this Agreement;\n        provided that, AdColony: (a) promptly notifies Developer in\
+  \ writing of\n        the claim, except that any failure to provide this notice promptly only\n\
+  \        relieves Developer of its responsibility to the extent its defense is\n        materially\
+  \ prejudiced by the delay; (b) grants Developer sole control of\n        the defense and/or\
+  \ settlement of the claim; and (c) reasonably\n        cooperates with Developer in connection\
+  \ with such claim at Developer’s\n        cost and expense.\n\n        2. AdColony Indemnification.\
+  \ AdColony agrees to indemnify, reimburse and\n        hold harmless, Developer, its officers,\
+  \ directors, employees, and agents\n        from and against any and all third party claims,\
+  \ liabilities, demands,\n        causes of action, damages, losses and expenses, including,\
+  \ without\n        limitation, reasonable attorneys’ fees and costs of suit, arising out of\n\
+  \        or in connection with AdColony’s infringement or misappropriation of a\n        third\
+  \ party U.S. copyright, trademark or trade secret by the use of the\n        AdColony Platform\
+  \ and/or the AdColony SDK by Developer as permitted\n        hereunder; provided that, Developer:\
+  \ (a) promptly notifies AdColony in\n        writing of the claim, except that any failure\
+  \ to provide this notice\n        promptly only relieves AdColony of its responsibility to\
+  \ the extent its\n        defense is materially prejudiced by the delay; (b) grants AdColony\
+  \ sole\n        control of the defense and/or settlement of the claim; and (c)\n        reasonably\
+  \ cooperates with AdColony in connection with such claim at\n        AdColony’s cost and expense.\
+  \ In addition, if the use of the AdColony\n        Property by Developer has become, or in\
+  \ AdColony’s opinion is likely to\n        become, the subject of any claim of infringement,\
+  \ AdColony may at its\n        option and expense (i) procure for Developer the right to continue\
+  \ using\n        the AdColony Property as set forth hereunder; (ii) replace or modify the\n\
+  \        AdColony Property to make it non- infringing so long as the AdColony\n        Property\
+  \ has substantially equivalent functionality; or (iii) if options\n        (i) or (ii) are\
+  \ not reasonably practicable, terminate this Agreement.\n        AdColony shall have no liability\
+  \ or obligation under this Section with\n        respect to any claim if such claim is caused\
+  \ in whole or in part by (x)\n        compliance with designs, data, instructions, or specifications\
+  \ provided\n        by Developer; (y) modification of the AdColony Property by any party\n\
+  \        other than AdColony without AdColony’s express consent; or (z) the\n        combination,\
+  \ operation, or use of the AdColony Property with other\n        applications, portions of\
+  \ applications, product(s), data or services\n        where the AdColony Property would not\
+  \ by itself be infringing unless\n        AdColony has required or expressly allowed such\
+  \ combination, operation,\n        or use. THE INDEMNIFICATION RIGHTS CONTAINED IN THIS SECTION\
+  \ 11 ARE\n        DEVELOPER’S SOLE REMEDY FOR THIRD PARTY INFRINGEMENT CLAIMS RELATING TO\n\
+  \        ADCOLONY’S SDK AND THE ADCOLONY PLATFORM.\n\n    12. Limitation of Liability. EXCEPT\
+  \ WITH RESPECT TO INDEMNIFICATION\n    OBLIGATIONS HEREIN AND BREACHES OF SECTIONS 2 and 8,\
+  \ NEITHER PARTY SHALL BE\n    LIABLE TO OTHER PARTY FOR ANY PUNITIVE, INCIDENTAL, INDIRECT,\
+  \ SPECIAL,\n    RELIANCE OR CONSEQUENTIAL DAMAGES, INCLUDING LOST BUSINESS, DATA, REVENUE,\n\
+  \    OR ANTICIPATED PROFITS, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING\n    NEGLIGENCE),\
+  \ OR OTHERWISE, AND WHETHER OR NOT A PARTY WAS ADVISED OF THE\n    POSSIBILITY OF SUCH LOSS\
+  \ OR DAMAGES. EXCEPT WITH RESPECT TO INDEMNIFICATION\n    OBLIGATIONS HEREIN AND BREACHES\
+  \ OF SECTIONS 2 and 8, IN NO EVENT WILL EITHER\n    PARTY’S AGGREGATE LIABILITY UNDER THIS\
+  \ AGREEMENT EXCEED THE TOTAL DEVELOPER\n    PAYMENT PAYABLE TO DEVELOPER UNDER THIS AGREEMENT\
+  \ BY ADCOLONY IN THE TWELVE\n    (12) MONTH PERIOD IMMEDIATELY PRECEDING THE DATE OF THE CLAIM.\n\
+  \n    13. General.\n\n        1. Relationship of the Parties. Each Party shall be and act\
+  \ as an\n        independent contractor and not as partner, joint venturer, or agent of\n\
+  \        the other. No party shall have any right to obligate or bind any other\n        party.\n\
+  \n        2. Assignment. Neither party may assign any of its rights or obligations\n     \
+  \   under this Agreement without the prior written consent of the other\n        party, except\
+  \ in connection with any merger (by operation of law or\n        otherwise), consolidation,\
+  \ reorganization, change in control or sale of\n        all or substantially all of its assets\
+  \ related to this Agreement or\n        similar transaction. Notwithstanding the foregoing,\
+  \ Developer may not\n        assign this Agreement to a direct competitor of AdColony without\n\
+  \        AdColony’s prior written consent. This Agreement inures to the benefit\n        of\
+  \ and shall be binding on the parties’ permitted assignees, transferees\n        and successors.\n\
+  \n        3. Amendments; Waiver. No changes or modifications or waivers are to be\n      \
+  \  made to this Agreement unless evidenced in writing and signed for and on\n        behalf\
+  \ of both parties. The failure by either party to insist upon the\n        strict performance\
+  \ of this Agreement, or to exercise any term hereof,\n        will not act as a waiver of\
+  \ any right, promise or term, which will\n        continue in full force and effect.\n\n \
+  \       4. Governing Law; Jurisdiction. This Agreement shall be governed by, and\n       \
+  \ construed in accordance with, the laws of the State of California,\n        without reference\
+  \ to conflicts of laws principles. The parties agree\n        that the federal and state courts\
+  \ in Los Angeles County, California will\n        have exclusive jurisdiction and venue under\
+  \ this Agreement, and the\n        parties hereby agree to submit to such jurisdiction exclusively.\n\
+  \n        5. Entire Agreement. This Agreement contains the entire understanding of\n     \
+  \   the parties regarding its subject matter and supersedes all other\n        agreements\
+  \ and understandings, whether oral or written."

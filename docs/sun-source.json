@@ -11,5 +11,6 @@
     "http://www.speech.kth.se/cost250/refsys/v1.0/src/g711.c",
     "https://www.ibiblio.org/pub/historic-linux/ftp-archives/sunsite.unc.edu/Sep-29-1996/Incoming/sox-11gamma-cb2.tar.gz",
     "https://sourceforge.net/p/sox/code/ci/98267de439714fcdff94c9588f34fb8a67df70c1/tree/src/g711.c"
-  ]
+  ],
+  "text": "This source code is a product of Sun Microsystems, Inc. and is provided for\nunrestricted use.  Users may copy or modify this source code without\ncharge.\n\nSUN SOURCE CODE IS PROVIDED AS IS WITH NO WARRANTIES OF ANY KIND INCLUDING THE\nWARRANTIES OF DESIGN, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR\nPURPOSE, OR ARISING FROM A COURSE OF DEALING, USAGE OR TRADE PRACTICE.\n\nSun source code is provided with no support and without any obligation on the\npart of Sun Microsystems, Inc. to assist in its use, correction,\nmodification or enhancement.\n\nSUN MICROSYSTEMS, INC. SHALL HAVE NO LIABILITY WITH RESPECT TO THE\nINFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY THIS SOFTWARE\nOR ANY PART THEREOF.\n\nIn no event will Sun Microsystems, Inc. be liable for any lost revenue\nor profits or other special, indirect and consequential damages, even if\nSun has been advised of the possibility of such damages.\n\nSun Microsystems, Inc.\n2550 Garcia Avenue\nMountain View, California  94043"
 }

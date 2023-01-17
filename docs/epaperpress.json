@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "ePaperPress",
   "homepage_url": "https://www.epaperpress.com/lexandyacc/",
-  "spdx_license_key": "LicenseRef-scancode-epaperpress"
+  "spdx_license_key": "LicenseRef-scancode-epaperpress",
+  "text": "Permission to reproduce portions of this document is given provided the web site\nlisted below is referenced. No additional restrictions apply. Source code, when\npart of a software project, may be used freely without reference to the author.\n\nTom Niemann\nPortland, Oregon\nepaperpress.com"
 }

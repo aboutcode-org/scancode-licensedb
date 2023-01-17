@@ -38,3 +38,18 @@ standard_notice: |
   the Qwt project (http://qwt.sf.net).
 ignorable_urls:
   - http://qwt.sf.net/
+text: "Qwt License\nVersion 1.0, January 1, 2003\nThe Qwt library and included programs are\
+  \ provided under the terms\nof the GNU LESSER GENERAL PUBLIC LICENSE (LGPL) with the following\n\
+  exceptions:\n\n    1. Widgets that are subclassed from Qwt widgets do not\n       constitute\
+  \ a derivative work.\n\n    2. Static linking of applications and widgets to the\n       Qwt\
+  \ library does not constitute a derivative work\n       and does not require the author to\
+  \ provide source\n       code for the application or widget, use the shared\n       Qwt libraries,\
+  \ or link their applications or\n       widgets against a user-supplied version of Qwt.\n\
+  \       If you link the application or widget to a modified\n       version of Qwt, then the\
+  \ changes to Qwt must be \n       provided under the terms of the LGPL in sections\n     \
+  \  1, 2, and 4.\n\n    3. You do not have to provide a copy of the Qwt license\n       with\
+  \ programs that are linked to the Qwt library, nor\n       do you have to identify the Qwt\
+  \ license in your\n       program or documentation as required by section 6\n       of the\
+  \ LGPL.\n       However, programs must still identify their use of Qwt.\n       The following\
+  \ example statement can be included in user\n       documentation to satisfy this requirement:\n\
+  \           [program/widget] is based in part on the work of\n           the Qwt project (http://qwt.sf.net)."

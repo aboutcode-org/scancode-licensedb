@@ -9,5 +9,6 @@
   "text_urls": [
     "https://www.kurims.kyoto-u.ac.jp/~ooura/pi_fftc6_src.tgz",
     "https://github.com/tensorflow/tensorflow/blob/master/third_party/fft2d/LICENSE"
-  ]
+  ],
+  "text": "You may use, copy, modify this code for any purpose and \nwithout fee. You may distribute this ORIGINAL package."
 }

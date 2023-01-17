@@ -9,5 +9,6 @@
   "minimum_coverage": 90,
   "ignorable_urls": [
     "https://pivotal.io/terms-of-use"
-  ]
+  ],
+  "text": "Pivotal Software, Inc. Terms of Use\n\nSee https://pivotal.io/terms-of-use  for complete text. \n\nUse of Software\n\nTo the extent that Pivotal provides for the download of proprietary\nPivotal software or open source software from Pivotal Websites\n(\"Software\"), such Software is protected by the applicable copyright,\npatent or other intellectual property rights of either Pivotal or the\nthird-party licensor. Any use of the Software is subject to the terms of\nthe applicable end-user or open source license agreement.\n\nAll evaluation Software is provided \"AS IS\" for evaluation and internal\nuse only.  You may not use evaluation Software for commercial,\ndevelopment or production purposes.  In addition, evaluation Software\nmay be time-disabled and may cease to operate after a period of time."
 }

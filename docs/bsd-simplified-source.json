@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Unspecified",
   "notes": "a very simplified bsd variant mentioning only source and without disclaimer.\nFound in the Linux kernel\n",
-  "spdx_license_key": "LicenseRef-scancode-bsd-simplified-source"
+  "spdx_license_key": "LicenseRef-scancode-bsd-simplified-source",
+  "text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that redistributions of source\ncode retain the above copyright notice and this comment without\nmodification."
 }

@@ -9,5 +9,6 @@
   "other_urls": [
     "http://ada-ru.org/",
     "http://zlib-ada.sourceforge.net/"
-  ]
+  ],
+  "text": "This library is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 2 of the License, or (at\nyour option) any later version.\n\nThis library is distributed in the hope that it will be useful, but\nWITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nGeneral Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this library; if not, write to the Free Software Foundation,\nInc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n\nAs a special exception, if other files instantiate generics from this\nunit, or you link this unit with other files to produce an executable,\nthis  unit  does not  by itself cause  the resulting executable to be\ncovered by the GNU General Public License. This exception does not\nhowever invalidate any other reasons why the executable file  might be\ncovered by the  GNU Public License."
 }

@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-mit-old-style",
   "text_urls": [
     "http://fedoraproject.org/wiki/Licensing:MIT#Old_Style"
-  ]
+  ],
+  "text": "Permission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee, provided that\nthe above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.  No representations are made about the suitability of this\nsoftware for any purpose. It is provided \"as is\" without express or\nimplied warranty."
 }

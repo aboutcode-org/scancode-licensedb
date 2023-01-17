@@ -7,3 +7,26 @@ homepage_url: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-fir
 spdx_license_key: LicenseRef-scancode-binary-linux-firmware-patent
 ignorable_urls:
   - http://opensource.org/licenses
+text: "Redistribution.  Redistribution and use in binary form, without \nmodification, are permitted\
+  \ provided that the following conditions are \nmet:\n\n* Redistributions must reproduce the\
+  \ above copyright notice and the \n  following disclaimer in the documentation and/or other\
+  \ materials \n  provided with the distribution. \n* Neither the name of the Copyright Holder\
+  \ nor the names of its\n  suppliers may be used to endorse or promote products derived from\
+  \ this\n  software without specific prior written permission. \n* No reverse engineering,\
+  \ decompilation, or disassembly of this software \n  is permitted.\n\nLimited patent license.\
+  \ The Copyright Holder grants a world-wide, \nroyalty-free, non-exclusive license under patents\
+  \ it now or hereafter \nowns or controls to make, have made, use, import, offer to sell and\
+  \ \nsell (\"Utilize\") this software, but solely to the extent that any \nsuch patent is necessary\
+  \ to Utilize the software alone, or in \ncombination with an operating system licensed under\
+  \ an approved Open \nSource license as listed by the Open Source Initiative at \nhttp://opensource.org/licenses.\
+  \  The patent license shall not apply to \nany other combinations which include this software.\
+  \  No hardware per \nse is licensed hereunder.\n\nDISCLAIMER.  THIS SOFTWARE IS PROVIDED BY\
+  \ THE COPYRIGHT HOLDERS AND \nCONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES,\
+  \ INCLUDING, \nBUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND \nFITNESS\
+  \ FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE \nCOPYRIGHT OWNER OR CONTRIBUTORS\
+  \ BE LIABLE FOR ANY DIRECT, INDIRECT, \nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\
+  \ (INCLUDING, \nBUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS \nOF\
+  \ USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND \nON ANY THEORY OF LIABILITY,\
+  \ WHETHER IN CONTRACT, STRICT LIABILITY, OR \nTORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING\
+  \ IN ANY WAY OUT OF THE \nUSE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH\
+  \ \nDAMAGE."

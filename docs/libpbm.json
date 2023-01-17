@@ -11,5 +11,6 @@
   ],
   "other_urls": [
     "http://sourceforge.net/p/netpbm/code/HEAD/tree/trunk/doc/COPYRIGHT.PATENT"
-  ]
+  ],
+  "text": "Permission to use, copy, modify, and distribute this software and its documentation\nfor any purpose and without fee is hereby granted, provided that the above copyright\nnotice appear in all copies and that both that copyright notice and this permission\nnotice appear in supporting documentation.  This software is provided \"as is\" without\nexpress or implied warranty."
 }

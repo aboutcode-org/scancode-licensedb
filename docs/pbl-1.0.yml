@@ -7,3 +7,30 @@ homepage_url: https://os.mbed.com/licenses/permissive-binary-license/
 spdx_license_key: LicenseRef-scancode-pbl-1.0
 text_urls:
   - https://os.mbed.com/licenses/permissive-binary-license/
+text: "Permissive Binary License\n\nVersion 1.0, September 2015\n\nRedistribution.  Redistribution\
+  \ and use in binary form, without\nmodification, are permitted provided that the following\
+  \ conditions are\nmet:\n\n1) Redistributions must reproduce the above copyright notice and\
+  \ the\n   following disclaimer in the documentation and/or other materials\n   provided with\
+  \ the distribution.\n\n2) Unless to the extent explicitly permitted by law, no reverse\n \
+  \  engineering, decompilation, or disassembly of this software is\n   permitted.\n\n3) Redistribution\
+  \ as part of a software development kit must include the\n   accompanying file named \"DEPENDENCIES\"\
+  \ and any dependencies listed in\n   that file.\n\n4) Neither the name of the copyright holder\
+  \ nor the names of its\n   contributors may be used to endorse or promote products derived\
+  \ from\n   this software without specific prior written permission. \n\nLimited patent license.\
+  \ The copyright holders (and contributors) grant a\nworldwide, non-exclusive, no-charge, royalty-free\
+  \ patent license to\nmake, have made, use, offer to sell, sell, import, and otherwise\ntransfer\
+  \ this software, where such license applies only to those patent\nclaims licensable by the\
+  \ copyright holders (and contributors) that are\nnecessarily infringed by this software. This\
+  \ patent license shall not\napply to any combinations that include this software.  No hardware\
+  \ is\nlicensed hereunder.\n\nIf you institute patent litigation against any entity (including\
+  \ a\ncross-claim or counterclaim in a lawsuit) alleging that the software\nitself infringes\
+  \ your patent(s), then your rights granted under this\nlicense shall terminate as of the date\
+  \ such litigation is filed.\n\nDISCLAIMER. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS\
+  \ AND\nCONTRIBUTORS \"AS IS.\" ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT\nNOT LIMITED\
+  \ TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS\nFOR A PARTICULAR PURPOSE ARE\
+  \ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\nHOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\
+  \ INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\
+  \ LIMITED\nTO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\nPROFITS;\
+  \ OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT,\
+  \ STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF\
+  \ THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."

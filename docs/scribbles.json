@@ -4,5 +4,6 @@
   "name": "Scribbles Demos Recognizer Notice",
   "category": "Permissive",
   "owner": "HP - Hewlett Packard",
-  "spdx_license_key": "LicenseRef-scancode-scribbles"
+  "spdx_license_key": "LicenseRef-scancode-scribbles",
+  "text": "Copying or modifying this code for any purpose is permitted, provided that this\ncopyright notice is preserved in its entirety in all copies or modifications\n\nCOMPAQ COMPUTER CORPORATION MAKES NO WARRANTIES, EXPRESSED OR IIMPLIED, AS TO\nTHE USEFULNESS OR CORRECTNESS OF THIS CODE."
 }

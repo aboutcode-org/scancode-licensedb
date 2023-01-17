@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Tim Janik",
   "homepage_url": "https://gnome.pages.gitlab.gnome.org/glib/coverage/glib/gbsearcharray.h.gcov.html",
-  "spdx_license_key": "LicenseRef-scancode-tim-janik-2003"
+  "spdx_license_key": "LicenseRef-scancode-tim-janik-2003",
+  "text": "This software is provided \"as is\"; redistribution and modification\nis permitted, provided that the following disclaimer is retained.\n\nThis software is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nIn no event shall the authors or contributors be liable for any\ndirect, indirect, incidental, special, exemplary, or consequential\ndamages (including, but not limited to, procurement of substitute\ngoods or services; loss of use, data, or profits; or business\ninterruption) however caused and on any theory of liability, whether\nin contract, strict liability, or tort (including negligence or\notherwise) arising in any way out of the use of this software, even\nif advised of the possibility of such damage."
 }

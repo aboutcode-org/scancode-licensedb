@@ -14,3 +14,34 @@ ignorable_holders:
   - Open Geospatial Consortium, Inc.
 ignorable_urls:
   - http://www.opengeospatial.org/ogc/document
+text: "Document Notice\n\nPublic documents on the OGC site are provided by the copyright holders\
+  \ under the\nfollowing license. The software or Document Type Definitions (DTDs) associated\
+  \ \nwith OGC specifications are governed by the Software Notice. By using and/or \ncopying\
+  \ this document, or the OGC document from which this statement is linked, \nyou (the licensee)\
+  \ agree that you have read, understood, and will comply with \nthe following terms and conditions:\n\
+  \nPermission to use, copy, and distribute the contents of this document, or the \nOGC document\
+  \ from which this statement is linked, in any medium for any purpose \nand without fee or\
+  \ royalty is hereby granted, provided that you include the \nfollowing on ALL copies of the\
+  \ document, or portions thereof, that you use:\n\n   1. Include a link or URL to the original\
+  \ OGC document.\n   2. The pre-existing copyright notice of the original author, or if it\
+  \ doesn't \n      exist, a notice of the form: \"Copyright © <date-of-document> Open \n  \
+  \    Geospatial Consortium, Inc. All Rights Reserved. \n      http://www.opengeospatial.org/ogc/document\
+  \ (Hypertext is preferred, but a \n      textual representation is permitted.)\n   3. If it\
+  \ exists, the STATUS of the OGC document.\n\nWhen space permits, inclusion of the full text\
+  \ of this NOTICE should be \nprovided. We request that authorship attribution be provided\
+  \ in any software, \ndocuments, or other items or products that you create pursuant to the\
+  \ \nimplementation of the contents of this document, or any portion thereof.\n\nNo right to\
+  \ create modifications or derivatives of OGC documents is granted \npursuant to this license.\
+  \ However, if additional requirements (documented in the \nCopyright FAQ) are satisfied, the\
+  \ right to create modifications or derivatives \nis sometimes granted by the OGC to individuals\
+  \ complying with those requirements.\n\nTHIS DOCUMENT IS PROVIDED \"AS IS,\" AND COPYRIGHT\
+  \ HOLDERS MAKE NO REPRESENTATIONS \nOR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT\
+  \ LIMITED TO, WARRANTIES OF \nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT,\
+  \ OR TITLE; \nTHAT THE CONTENTS OF THE DOCUMENT ARE SUITABLE FOR ANY PURPOSE; NOR THAT THE\
+  \ \nIMPLEMENTATION OF SUCH CONTENTS WILL NOT INFRINGE ANY THIRD PARTY PATENTS, \nCOPYRIGHTS,\
+  \ TRADEMARKS OR OTHER RIGHTS\n\nCOPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT,\
+  \ SPECIAL OR \nCONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE DOCUMENT OR THE PERFORMANCE\
+  \ \nOR IMPLEMENTATION OF THE CONTENTS THEREOF.\n\nThe name and trademarks of copyright holders\
+  \ may NOT be used in advertising or \npublicity pertaining to this document or its contents\
+  \ without specific, written \nprior permission. Title to copyright in this document will at\
+  \ all times remain \nwith copyright holders."

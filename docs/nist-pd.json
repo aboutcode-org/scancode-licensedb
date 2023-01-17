@@ -13,5 +13,6 @@
   "other_urls": [
     "https://github.com/tcheneau/Routing/blob/f09f46fcfe636107f22f2c98348188a65a135d98/README.md",
     "https://github.com/usnistgov/jsip"
-  ]
+  ],
+  "text": "Conditions Of Use\n\nThis software was developed by employees of the National Institute of\nStandards and Technology (NIST), an agency of the Federal Government.\nPursuant to title 15 Untied States Code Section 105, works of NIST\nemployees are not subject to copyright protection in the United States\nand are considered to be in the public domain.  As a result, a formal\nlicense is not needed to use the software.\n\nThis software is provided by NIST as a service and is expressly\nprovided \"AS IS.\"  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED\nOR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT\nAND DATA ACCURACY.  NIST does not warrant or make any representations\nregarding the use of the software or the results thereof, including but\nnot limited to the correctness, accuracy, reliability or usefulness of\nthe software.\n\nPermission to use this software is contingent upon your acceptance\nof the terms of this agreement"
 }

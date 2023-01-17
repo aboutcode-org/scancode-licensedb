@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Unspecified",
   "spdx_license_key": "LicenseRef-scancode-philippe-de-muyter",
-  "minimum_coverage": 50
+  "minimum_coverage": 50,
+  "text": "This program is distributed in the hope that it will be useful, but WITHOUT\nANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\nFITNESS FOR A PARTICULAR PURPOSE."
 }

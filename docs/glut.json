@@ -4,5 +4,6 @@
   "name": "OpenGL Utility Toolkit (GLUT) License",
   "category": "Permissive",
   "owner": "OpenGL",
-  "spdx_license_key": "LicenseRef-scancode-glut"
+  "spdx_license_key": "LicenseRef-scancode-glut",
+  "text": "This program is freely distributable without licensing fees and is\nprovided without guarantee or warrantee expressed or  implied. This\nprogram is -not- in the public domain."
 }

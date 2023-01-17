@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Alcatel-Lucent",
   "homepage_url": "http://git.ghostscript.com/?p=ghostpdl.git;a=blob;f=devices/gdevifno.c;h=3a34cc1942d4a858a24d9b982907daf52a0c4c67;hb=HEAD",
-  "spdx_license_key": "LicenseRef-scancode-x11-lucent-variant"
+  "spdx_license_key": "LicenseRef-scancode-x11-lucent-variant",
+  "text": "* Permission to use, copy, modify, and distribute this software for any\n * purpose without fee is hereby granted, provided that this entire notice\n * is included in all copies of any software which is or includes a copy\n * or modification of this software.\n *\n * THIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\n * WARRANTY.  IN PARTICULAR, NEITHER THE AUTHORS NOR LUCENT TECHNOLOGIES MAKE ANY\n * REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\n * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE."
 }

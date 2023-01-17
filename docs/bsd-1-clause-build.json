@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "PRPL Foundation.",
   "homepage_url": "https://github.com/prplfoundation/prplwrt/blob/master/LICENSE",
-  "spdx_license_key": "LicenseRef-scancode-bsd-1-clause-build"
+  "spdx_license_key": "LicenseRef-scancode-bsd-1-clause-build",
+  "text": "Redistribution and use, with or without modification, are permitted provided\nthat the following condition is met:\n\n   Redistributions of this build system must retain the above copyright notice,\n   this condition and the following disclaimer.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR\nANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nNote that while this license applies to the build system itself the\nsoftware it builds is separately licensed under its own terms and conditions."
 }

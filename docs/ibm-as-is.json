@@ -10,5 +10,6 @@
   ],
   "ignorable_holders": [
     "I B M CORPORATION"
-  ]
+  ],
+  "text": "This source and object code has been made available to you by IBM on an\nAS-IS basis.\n\nIT IS PROVIDED WITHOUT WARRANTY OF ANY KIND, INCLUDING THE WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE OR OF NONINFRINGEMENT\nOF THIRD PARTY RIGHTS.  IN NO EVENT SHALL IBM OR ITS LICENSORS BE LIABLE\nFOR INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES.  IBMS OR ITS LICENSORS\nDAMAGES FOR ANY CAUSE OF ACTION, WHETHER IN CONTRACT OR IN TORT, AT LAW OR\nAT EQUITY, SHALL BE LIMITED TO A MAXIMUM OF $1,000 PER LICENSE.  No license\nunder IBM patents or patent applications is to be implied by the copyright\nlicense.\n\nAny user of this software should understand that neither IBM nor its\nlicensors will be responsible for any consequences resulting from the use\nof this software.\n\nAny person who transfers this source code or any derivative work must\ninclude the IBM copyright notice, this paragraph, and the preceding two\nparagraphs in the transferred software.\n\nAny person who transfers this object code or any derivative work must\ninclude the IBM copyright notice in the transferred software.\n\nCOPYRIGHT I B M CORPORATION 2000\nLICENSED MATERIAL  -  PROGRAM PROPERTY OF  I B M\""
 }

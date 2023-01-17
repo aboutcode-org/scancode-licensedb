@@ -10,5 +10,6 @@
   "spdx_license_key": "LicenseRef-scancode-lzma-sdk-2006-exception",
   "other_urls": [
     "http://sourceforge.net/projects/sevenzip/"
-  ]
+  ],
+  "text": "SPECIAL EXCEPTION:\nIgor Pavlov, as the author of this code, expressly permits you to\nstatically or dynamically link your code (or bind by name) to the\ninterfaces of this file without subjecting your linked code to the\nterms of the CPL or GNU LGPL. Any modifications or additions\nto this file, however, are subject to the LGPL or CPL terms."
 }

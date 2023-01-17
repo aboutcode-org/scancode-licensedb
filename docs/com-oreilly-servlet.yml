@@ -12,3 +12,41 @@ ignorable_holders:
 ignorable_urls:
   - http://www.amazon.com/exec/obidos/ASIN/0596000405/jasonhunter
   - http://www.servlets.com/
+text: "Copyright (C) 2001-2009 by Jason Hunter, jhunter_AT_servlets.com.\nAll rights reserved.\n\
+  \nThe source code, object code, and documentation in the com.oreilly.servlet\npackage is copyright\
+  \ and owned by Jason Hunter.\n\nON-SITE USE RIGHTS\n\nPermission is granted to use the com.oreilly.servlet.*\
+  \ packages in the\ndevelopment of any non-commercial project. For this use you are granted\
+  \ a non-\nexclusive, non-transferable limited license at no cost.\n\nFor a commercial project,\
+  \ permission is granted to use the com.oreilly.servlet.*\npackages provided that every person\
+  \ on the development team for that project\nowns a copy of the book Java Servlet Programming\
+  \ (O'Reilly) in its most recent\nedition. The most recent edition is currently the 2nd Edition,\
+  \ available in\nassociation with Amazon.com at\nhttp://www.amazon.com/exec/obidos/ASIN/0596000405/jasonhunter.\n\
+  \nOther (sometimes cheaper) license terms are available upon request; please write\nto jhunter_AT_servlets.com\
+  \ for more information.\n\nREDISTRIBUTION RIGHTS\n\nCommercial redistribution rights of the\
+  \ com.oreilly.servlet.* packages are\navailable by writing jhunter_AT_servlets.com.\n\nNon-commercial\
+  \ redistribution is permitted provided that:\n\n1. You redistribute the package in object\
+  \ code form only (as Java .class files\nor a .jar file containing the .class files) and only\
+  \ as part of a product that\nuses the classes as part of its primary functionality.\n\n2.\
+  \ The product containing the package is non-commercial in nature.\n\n3. The public interface\
+  \ to the classes in the package, and the public interface\nto any classes with similar functionality,\
+  \ is hidden from end users when engaged\nin normal use of the product.\n\n4. The distribution\
+  \ is not part of a software development kit, operating system,\nother library, or a development\
+  \ tool without written permission from the\ncopyright holder.\n\n5. The distribution includes\
+  \ copyright notice as follows: \"The source code,\nobject code, and documentation in the com.oreilly.servlet\
+  \ package is copyright\nand owned by Jason Hunter.\" in the documentation and/or other materials\
+  \ provided\nwith the distribution.\n\n6. You reproduce the above copyright notice, this list\
+  \ of conditions, and the\nfollowing disclaimer in the documentation and/or other materials\
+  \ provided with\nthe distribution.\n\n7. Licensor retains title to and ownership of the Software\
+  \ and all enhancements,\nmodifications, and updates to the Software.\n\nNote that the com.oreilly.servlet\
+  \ package is provided \"as is\" and the author\nwill not be liable for any damages suffered\
+  \ as a result of your use.\nFurthermore, you understand the package comes without any technical\
+  \ support.\n\nYou can always find the latest version of the com.oreilly.servlet package at\n\
+  http://www.servlets.com.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS\n\
+  OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED \nWARRANTIES OF MERCHANTABILITY\
+  \ AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS\
+  \ BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n\
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS\
+  \ OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF\
+  \ LIABILITY, WHETHER IN CONTRACT, STRICT\nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\
+  \ ARISING IN ANY WAY\nOUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY\
+  \ OF\nSUCH DAMAGE.\nThanks,\nJason Hunter\njhunter_AT_servlets.com"

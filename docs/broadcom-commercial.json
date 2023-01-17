@@ -4,5 +4,6 @@
   "name": "Broadcom Commercial Notice",
   "category": "Commercial",
   "owner": "Broadcom",
-  "spdx_license_key": "LicenseRef-scancode-broadcom-commercial"
+  "spdx_license_key": "LicenseRef-scancode-broadcom-commercial",
+  "text": "Confidential Property of Broadcom Corporation\n\nTHIS SOFTWARE MAY ONLY BE USED SUBJECT TO AN EXECUTED SOFTWARE LICENSE\nAGREEMENT  BETWEEN THE USER AND BROADCOM.  YOU HAVE NO RIGHT TO USE OR\nEXPLOIT THIS MATERIAL EXCEPT SUBJECT TO THE TERMS OF SUCH AN AGREEMENT."
 }

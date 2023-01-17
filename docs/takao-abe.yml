@@ -4,3 +4,26 @@ name: Takao Abe License
 category: Permissive
 owner: Unspecified
 spdx_license_key: LicenseRef-scancode-takao-abe
+text: "Permission to use, copy, modify, and distribute this software   \nand its documentation\
+  \ for any purpose is hereby granted         \nwithout fee, provided that the following conditions\
+  \ are met:    \n                                                                \nOne retains\
+  \ the entire copyright notice properly, and both the  \ncopyright notice and this license.\
+  \ in the documentation and/or  \nother materials provided with the distribution.         \
+  \        \n                                                                \nThis software\
+  \ and the name of the author must not be used to    \nendorse or promote products derived\
+  \ from this software without  \nprior written permission.                                \
+  \       \n                                                                \nTHIS SOFTWARE\
+  \ IS PROVIDED \"AS IS\" WITHOUT EXPRESSED OR IMPLIED  \nWARRANTIES OF ANY KIND, INCLUDING,\
+  \ BUT NOT LIMITED TO, THE      \nIMPLIED WARRANTIES OF MERCHANTABLILITY AND FITNESS FOR A\
+  \        \nPARTICULAR PURPOSE.                                             \nIN NO EVENT SHALL\
+  \ THE AUTHOR TAKAO ABE BE LIABLE FOR ANY DIRECT,\nINDIRECT, GENERAL, SPECIAL, EXEMPLARY, OR\
+  \ CONSEQUENTIAL DAMAGES \n( INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE     \
+  \ \nGOODS OR SERVICES; LOSS OF USE, DATA OR PROFITS; OR BUSINESS    \nINTERRUPTION ) HOWEVER\
+  \ CAUSED AND ON ANY THEORY OF LIABILITY,   \nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\
+  \ ( INCLUDING      \nNEGLIGENCE OR OTHERWISE ) ARISING IN ANY WAY OUT OF THE USE OF  \nTHIS\
+  \ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */\n                      \
+  \                                          \nThis driver is developed in my private time,\
+  \ and is opened as   \nvoluntary contributions for the NTP.                            \n\
+  The manufacturer of the JJY receiver has not participated in    \na development of this driver.\
+  \                                   \nThe manufacturer does not warrant anything about this\
+  \ driver,   \nand is not liable for anything about this driver."

@@ -4,5 +4,6 @@
   "name": "Google Patent License",
   "category": "Patent License",
   "owner": "Google",
-  "spdx_license_key": "LicenseRef-scancode-google-patent-license"
+  "spdx_license_key": "LicenseRef-scancode-google-patent-license",
+  "text": "Google hereby grants to you a perpetual, worldwide, non-exclusive,\nno-charge, royalty-free, irrevocable (except as stated in this\nsection) patent license to make, have made, use, offer to sell, sell,\nimport, transfer, and otherwise run, modify and propagate the contents\nof this implementation, where such license applies only to those\npatent claims, both currently owned by Google and acquired in the\nfuture, licensable by Google that are necessarily infringed by this\nimplementation. This grant does not include claims that would be\ninfringed only as a consequence of further modification of this\nimplementation. If you or your agent or exclusive licensee institute\nor order or agree to the institution of patent litigation or any other\npatent enforcement activity against any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that this\nimplementation constitutes direct or contributory patent infringement,\nor inducement of patent infringement, then any patent rights granted\nto you under this License for this implementation shall terminate as\nof the date such litigation is filed."
 }

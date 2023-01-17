@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "UNIX Network Programming Book Authors",
   "homepage_url": "http://www.unixnetworkprogramming.com/src.html",
-  "spdx_license_key": "LicenseRef-scancode-unpbook"
+  "spdx_license_key": "LicenseRef-scancode-unpbook",
+  "text": "Permission to use or modify this software for educational or\nfor commercial purposes, and without fee, is hereby granted,\nprovided that the above copyright notice appears in connection\nwith any and all uses, with clear indication as to any\nmodifications made.  The author RESERVES the sole rights of\nreproduction, publication and distribution and hence permission\nto print this source code in any book, reference manual,\nmagazine, or other type of publication, including any digital\nmedium, must be granted in writing by W. Richard Stevens.\n\nThe author makes no representations about the suitability of this\nsoftware for any purpose.  It is provided \"as is\" without express\nor implied warranty."
 }

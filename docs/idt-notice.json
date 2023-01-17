@@ -4,5 +4,6 @@
   "name": "IDT License Notice",
   "category": "Permissive",
   "owner": "Wind River Systems",
-  "spdx_license_key": "LicenseRef-scancode-idt-notice"
+  "spdx_license_key": "LicenseRef-scancode-idt-notice",
+  "text": "This source code has been made available to you by IDT on an AS-IS\nbasis. Anyone receiving this source is licensed under IDT copyrights\nto use it in any way he or she deems fit, including copying it,\nmodifying it, compiling it, and redistributing it either with or\nwithout modifications.  No license under IDT patents or patent\napplications is to be implied by the copyright license.\n\nAny user of this software should understand that IDT cannot provide\ntechnical support for this software and will not be responsible for\nany consequences resulting from the use of this software.\n\nAny person who transfers this source code or any derivative work must\ninclude the IDT copyright notice, this paragraph, and the preceeding\ntwo paragraphs in the transferred software."
 }

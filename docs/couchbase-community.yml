@@ -12,3 +12,29 @@ ignorable_holders:
 ignorable_urls:
   - http://couchbase.com/
   - http://www.couchbase.com/
+text: "COUCHBASE INC. COMMUNITY EDITION LICENSE AGREEMENT\n\nIMPORTANT-READ CAREFULLY: BY CLICKING\
+  \ THE \"I ACCEPT\" BOX OR\nINSTALLING, DOWNLOADING OR OTHERWISE USING THIS SOFTWARE AND ANY\n\
+  ASSOCIATED DOCUMENTATION, YOU, ON BEHALF OF YOURSELF OR AS AN\nAUTHORIZED REPRESENTATIVE ON\
+  \ BEHALF OF AN ENTITY (\"LICENSEE\") AGREE TO\nALL THE TERMS OF THIS COMMUNITY EDITION LICENSE\
+  \ AGREEMENT (THE\n\"AGREEMENT\") REGARDING YOUR USE OF THE SOFTWARE.  YOU REPRESENT AND\n\
+  WARRANT THAT YOU HAVE FULL LEGAL AUTHORITY TO BIND THE LICENSEE TO\nTHIS AGREEMENT. IF YOU\
+  \ DO NOT AGREE WITH ALL OF THESE TERMS, DO NOT\nSELECT THE \"I ACCEPT\" BOX AND DO NOT INSTALL,\
+  \ DOWNLOAD OR OTHERWISE\nUSE THE SOFTWARE. THE EFFECTIVE DATE OF THIS AGREEMENT IS THE DATE\
+  \ ON\nWHICH YOU CLICK \"I ACCEPT\" OR OTHERWISE INSTALL, DOWNLOAD OR USE THE\nSOFTWARE.\n\n\
+  1. License Grant. Couchbase Inc. hereby grants Licensee, free of\ncharge, the non-exclusive\
+  \ right to use, copy, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software,\
+  \ and to\npermit persons to whom the Software is furnished to do so, subject to\nLicensee\
+  \ including the following copyright notice in all copies or\nsubstantial portions of the Software:\n\
+  \nCouchbase (r)\nhttp://www.Couchbase.com \nCopyright 2010 Couchbase, Inc.\n\nAs used in this\
+  \ Agreement, \"Software\" means the object code version of\nthe applicable elastic data management\
+  \ server software provided by\nCouchbase Inc..\n\n2. Support.  Couchbase Inc. will provide\
+  \ Licensee with access to, and\nuse of, the Couchbase Inc. support forum available at the\
+  \ following\nURL: http://couchbase.com . Couchbase Inc. may, at its discretion,\nmodify, suspend\
+  \ or terminate support at any time upon notice to\nLicensee.\n\n3. Warranty Disclaimer and\
+  \ Limitation of Liability. THE SOFTWARE IS\nPROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\
+  \ EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS\
+  \ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT\nSHALL COUCHBASE INC. OR THE AUTHORS\
+  \ OR COPYRIGHT HOLDERS IN THE\nSOFTWARE BE LIABLE FOR ANY CLAIM, DAMAGES (IINCLUDING, WITHOUT\n\
+  LIMITATION, DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES) OR OTHER\nLIABILITY, WHETHER IN AN\
+  \ ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE\
+  \ OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE."

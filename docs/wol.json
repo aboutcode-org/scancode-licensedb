@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-wol",
   "ignorable_urls": [
     "http://www.dspguru.com/wide-open-license"
-  ]
+  ],
+  "text": "* The Wide Open License (WOL)\n*\n* Permission to use, copy, modify, distribute and sell this software and its\n* documentation for any purpose is hereby granted without fee, provided that\n* the above copyright notice and this license appear in all source copies. \n* THIS SOFTWARE IS PROVIDED \"AS IS\" WITHOUT EXPRESS OR IMPLIED WARRANTY OF\n* ANY KIND. See http://www.dspguru.com/wide-open-license for more information."
 }

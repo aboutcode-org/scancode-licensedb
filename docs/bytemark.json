@@ -4,5 +4,6 @@
   "name": "BYTEmark License",
   "category": "Permissive",
   "owner": "BYTE Magazine",
-  "spdx_license_key": "LicenseRef-scancode-bytemark"
+  "spdx_license_key": "LicenseRef-scancode-bytemark",
+  "text": "BYTEmark (tm)\nBYTE's Native Mode Benchmarks\nRick Grehan, BYTE Magazine\n\nCreation:\nRevision: 3/95;10/95\n 10/95 - Removed allocation that was taking place inside\n  the LU Decomposition benchmark. Though it didn't seem to\n  make a difference on systems we ran it on, it nonetheless\n  removes an operating system dependency that probably should\n  not have been there.\n\nDISCLAIMER\nThe source, executable, and documentation files that comprise\nthe BYTEmark benchmarks are made available on an \"as is\" basis.\nThis means that we at BYTE Magazine have made every reasonable\neffort to verify that the there are no errors in the source and\nexecutable code.  We cannot, however, guarantee that the programs\nare error-free.  Consequently, McGraw-HIll and BYTE Magazine make\nno claims in regard to the fitness of the source code, executable\ncode, and documentation of the BYTEmark.\n Furthermore, BYTE Magazine, McGraw-Hill, and all employees\nof McGraw-Hill cannot be held responsible for any damages resulting\nfrom the use of this code or the results obtained from using\nthis code."
 }

@@ -5,5 +5,6 @@
   "category": "Commercial",
   "owner": "TI - Texas Instruments",
   "spdx_license_key": "LicenseRef-scancode-ti-restricted",
-  "minimum_coverage": 50
+  "minimum_coverage": 50,
+  "text": "Permission is hereby granted to licensees of Texas Instruments\nIncorporated (TI) products to use this computer program for the sole\npurpose of implementing a licensee product based on TI products.\nNo other rights to reproduce, use, or disseminate this computer \nprogram, whether in part or in whole, are granted.\n\nTI makes no representation or warranties with respect to the\nperformance of this computer program, and specifically disclaims\nany responsibility for any damages, special or consequential, \nconnected with the use of this program."
 }

@@ -10,5 +10,6 @@
   "ignorable_urls": [
     "http://qt.digia.com/contact-us",
     "http://qt.digia.com/licensing"
-  ]
+  ],
+  "text": "Commercial License Usage\nLicensees holding valid commercial Qt licenses may use this file in\naccordance with the commercial license agreement provided with the\nSoftware or, alternatively, in accordance with the terms contained in\na written agreement between you and Digia.  For licensing terms and\nconditions see http://qt.digia.com/licensing.  For further information\nuse the contact form at http://qt.digia.com/contact-us."
 }

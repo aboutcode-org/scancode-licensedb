@@ -8,3 +8,24 @@ spdx_license_key: LicenseRef-scancode-ms-iis-container-eula-2020
 other_spdx_license_keys:
   - LicenseRef-scancode-ms-iis-container-images-eula-2020
 faq_url: https://github.com/microsoft/containerregistry/blob/master/legal/Container-Images-Legal-Notice.md
+text: "MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE TERMS\nCONTAINER OS IMAGE\n\nMicrosoft Corporation\
+  \ (or based on where you live, one of its affiliates)\n(referenced as \"us,\" \"we,\" or \"\
+  Microsoft\") licenses this Container OS Image\nsupplement to you (\"Supplement\"). You are\
+  \ licensed to use this Supplement in\nconjunction with the underlying host operating system\
+  \ software (\"Host Software\")\nsolely to assist running the containers feature in the Host\
+  \ Software.  The Host\nSoftware license terms apply to your use of the Supplement. You may\
+  \ not use it\nif you do not have a license for the Host Software. You may use this Supplement\n\
+  with each validly licensed copy of the Host Software.\n\nADDITIONAL LICENSING REQUIREMENTS\
+  \ AND/OR USE RIGHTS\n\nYour use of the Supplement as specified in the preceding paragraph\
+  \ may result in\nthe creation or modification of a container image (\"Container Image\") that\n\
+  includes certain Supplement components. For clarity, a Container Image is\nseparate and distinct\
+  \ from a virtual machine or virtual appliance image.\nPursuant to these license terms, we\
+  \ grant you a restricted right to redistribute\nsuch Supplement components under the following\
+  \ conditions:\n\n \t(i) you may use the Supplement components only as used in, and as a part\
+  \ of\n \tyour Container Image,\n\n\t(ii) you may use such Supplement components in your Container\
+  \ Image as long\n\tas you have significant primary functionality in your Container Image that\n\
+  \tis materially separate and distinct from the Supplement; and\n\n\t(iii) you agree to include\
+  \ these license terms (or similar terms required by\n\tus or a hoster) with your Container\
+  \ Image to properly license the possible\n\tuse of the Supplement components by your end-users.\n\
+  \nWe reserve all other rights not expressly granted herein.\n\nBy using this Supplement, you\
+  \ accept these terms. If you do not accept them, do\nnot use this Supplement."

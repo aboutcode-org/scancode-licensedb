@@ -12,5 +12,6 @@
     "https://opensource.org/licenses/MPL-2.0",
     "https://www.mozilla.org/MPL/2.0/"
   ],
-  "minimum_coverage": 99
+  "minimum_coverage": 99,
+  "text": "This Source Code Form is \"Incompatible With Secondary Licenses\", as\ndefined by the Mozilla Public License, v. 2.0."
 }

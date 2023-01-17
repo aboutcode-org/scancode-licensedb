@@ -6,5 +6,6 @@
   "owner": "Unspecified",
   "notes": "this is a generic commercial license",
   "is_generic": true,
-  "spdx_license_key": "LicenseRef-scancode-commercial-license"
+  "spdx_license_key": "LicenseRef-scancode-commercial-license",
+  "text": "This component is licensed under a commercial contract from the supplier."
 }

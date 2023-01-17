@@ -15,5 +15,6 @@
     "http://fp.gladman.plus.com/",
     "http://www.ecrypt.eu.org/stream/svn/viewcvs.cgi/ecrypt/trunk/benchmarks/aes-ctr/aes-128/gladman/aes.h?diff_format=s&rev=190&view=auto",
     "https://launchpad.net/ubuntu/oneiric/+source/silc-server/+copyright"
-  ]
+  ],
+  "text": "LICENSE TERMS\n\n The free distribution and use of this software in both source and binary\n form is allowed (with or without changes) provided that:\n\n   1. distributions of this source code include the above copyright\n      notice, this list of conditions and the following disclaimer;\n\n   2. distributions in binary form include the above copyright\n      notice, this list of conditions and the following disclaimer\n      in the documentation and/or other associated materials;\n\n   3. the copyright holder's name is not used to endorse products\n      built using this software without specific written permission.\n\n ALTERNATIVELY, provided that this notice is retained in full, this product\n may be distributed under the terms of the GNU General Public License (GPL),\n of your choice\n in which case the provisions of the GPL apply INSTEAD OF those given above.\n\n DISCLAIMER\n\n This software is provided 'as is' with no explicit or implied warranties\n in respect of its properties, including, but not limited to, correctness\n and/or fitness for purpose."
 }

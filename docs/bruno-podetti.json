@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Bruno Podetti",
   "homepage_url": "http://www.codeproject.com/Articles/2354/Owner-Drawn-Menu-with-Icons-Titles-and-Shading",
-  "spdx_license_key": "LicenseRef-scancode-bruno-podetti"
+  "spdx_license_key": "LicenseRef-scancode-bruno-podetti",
+  "text": "You are free to use/modify this code but leave this header intact.\nThis class is public domain so you are free to use it any of your \napplications (Freeware, Shareware, Commercial). \nAll I ask is that you let me know so that if you have a real winner I can\nbrag to my buddies that some of my code is in your app. I also wouldn't \nmind if you sent me a copy of your application since I like to play with\nnew stuff."
 }

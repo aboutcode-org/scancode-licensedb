@@ -7,3 +7,122 @@ homepage_url: https://www.realvnc.com/products/ios/licensing.pdf
 spdx_license_key: LicenseRef-scancode-vnc-viewer-ios
 ignorable_emails:
   - iphone-support@realvnc.com
+text: "VNCViewer for iOS END-USER LICENCE AGREEMENT \n\nIMPORTANT INFORMATION: PLEASE READ THIS\
+  \ AGREEMENT CAREFULLY BEFORE \nDOWNLOADING, INSTALLING, AND/OR USING THIS SOFTWARE. BY DOWNLOADING,\
+  \ \nINSTALLING AND/OR USING THE SOFTWARE, YOU ACCEPT AND ACKNOWLEDGE THAT YOU \nHAVE READ,\
+  \ AND UNDERSTAND, THE TERMS AND CONDITIONS OF THIS LICENSE \nAGREEMENT WITH REALVNC LIMITED\
+  \ (\"REALVNC\"), AND AGREE TO BE BOUND BY ITS \nTERMS AND CONDITIONS. BY USING ANY UPDATED\
+  \ VERSION OF THE SOFTWARE WHICH \nMAY BE MADE AVAILABLE, YOU ACCEPT THAT THE TERMS OF THIS\
+  \ AGREEMENT APPLY TO \nSUCH UPDATED SOFTWARE. IF YOU DO NOT AGREE TO ALL OF THE TERMS AND\
+  \ \nCONDITIONS OF THIS AGREEMENT, STOP NOW AND DO NOT PROCEED TO DOWNLOAD, \nINSTALL AND/OR\
+  \ USE THE SOFTWARE. \n\nThis Software Agreement (\"Agreement\") is between You (either an\
+  \ individual or an entity) (\"the End \nUser\" or \"You\") and RealVNC Limited (\"RealVNC\"\
+  ) only. You acknowledge that this Agreement is a \nbinding agreement between you and RealVNC\
+  \ only, and not with Apple. You acknowledge that you \nare purchasing the license to the Software\
+  \ from RealVNC; Apple is acting as agent for RealVNC in \nproviding the Software to you; Apple\
+  \ is not a party to the license between you and RealVNC with \nrespect to the Software. RealVNC,\
+  \ not Apple, is solely responsible for the Software and the content \nthereof. \n\nThis Agreement\
+  \ authorises You to use the VNC Viewer Software for iOS (\"The Software\"), which may \nbe\
+  \ delivered to You by electronic mail, physical means, such as CD-ROM or memory stick, \n\
+  downloaded from an authorised online reseller’s Web pages or Servers or from other sources\
+  \ under \nthe terms and conditions set forth below together with any licence key for such\
+  \ Software. This is an \nagreement on end-user rights and not an agreement for sale. RealVNC\
+  \ continues to own the copy of \nthe Software and the physical media and any other copy that\
+  \ You are authorised to make pursuant to \nthis Agreement. \n\n1. INTELLECTUAL PROPERTY RIGHTS\
+  \ \n1.1 The Software, its structure, organisation and algorithms are valuable trade secrets\
+  \ and \nconfidential information and are protected by copyright and other intellectual property\
+  \ laws, and all \nintellectual property rights in them belong to RealVNC Limited (\"RealVNC\"\
+  ), or are licensed to it. You \nmust not copy the Software, except as set forth in clause\
+  \ 2 (Permitted End-User Rights and \nLimitations on Use). Any copies which You are permitted\
+  \ to make pursuant to this Agreement must \ncontain the same copyright and other proprietary\
+  \ notices that appear on the Software. \n\n1.2 RealVNC and You acknowledge that, in the event\
+  \ of any third party claim that the Software or \nyour possession and use of the Software\
+  \ infringes that third party’s intellectual property rights, \nRealVNC, and not Apple, will\
+  \ be solely responsible for the investigation, defense, settlement and \ndischarge of any\
+  \ such intellectual property infringement claim subject to Clause 5. \n\n2. PERMITTED END-USER\
+  \ RIGHTS AND LIMITATIONS ON USE \n2.1 During the term of this Agreement and as long as you\
+  \ comply with the terms of this Agreement \nRealVNC hereby grants You the non-exclusive, non-transferable\
+  \ end-user rights to install and use \none copy of the Software solely and exclusively for\
+  \ your use on any Apple iPhone, iPad or iPod touch \nthat you own or control and as permitted\
+  \ by the Usage Rules set forth in the App Store Terms of \nService. \n\n2.2 You may not reproduce,\
+  \ publish, transmit, modify, reverse engineer, reverse compile, \ndisassemble, or otherwise\
+  \ attempt to discover the source code of the Software (except to the extent \nthat this restriction\
+  \ is expressly prohibited by law) or create derivative works from, or publicly display \n\n\
+  the Software or part thereof. Copying or storing or using the Software other than as permitted\
+  \ in \nClause 2.1 is expressly prohibited unless you obtain prior written permission from\
+  \ RealVNC. \nYou are expressly prohibited from distributing the Software in any format, in\
+  \ whole or in part, for sale, \nor for commercial use or for any unlawful purpose. You may\
+  \ not rent, lease or otherwise transfer the \nSoftware or allow it to be copied. \n\n2.3 In\
+  \ the case of any conflict between this Clause 2 and the Usage Rules set forth in the App\
+  \ Store \nTerms of Service, the App Store Terms of Service shall take precedence. \n\n3. LIMITED\
+  \ WARRANTY \n3.1 RealVNC, and not Apple, is solely responsible for any product warranties,\
+  \ whether express or \nimplied by law, to the extent not effectively disclaimed. RealVNC warrants\
+  \ to the original licensee that \nthe Software will perform substantially in accordance with\
+  \ any documentation provided for it for 90 \ndays following first use when used on Host Systems\
+  \ meeting the minimum hardware and software \nrequirements specified on the RealVNC website.\
+  \ \n\n3.2 This limited Warranty applies only if any problem is reported to RealVNC during\
+  \ the above \nwarranty period. It is void if the failure of the Software is the result of\
+  \ accident, abuse, misapplication \nor inappropriate use of the Software or use with Host\
+  \ Systems not meeting the minimum hardware \nand software requirements specified. The developer\
+  \ is RealVNC Limited a UK company based at \nBetjeman House, 104 Hills Road, Cambridge, CB2\
+  \ 1LQ, UK. Contactable at, telephone: +44 1223 \n310400, email support: iphone-support@realvnc.com,\
+  \ where any such questions, complaints or \nclaims in respect of the Software should be reported.\
+  \ \n\n3.3 In the event of any failure of the Software to conform to the warranty, You may\
+  \ notify Apple, and \nApple will refund the purchase price for the Software to You; and to\
+  \ the maximum extent permitted by \napplicable law, Apple will have no other warranty obligation\
+  \ whatsoever with respect to the Software, \nand any other claims, losses, liabilities, damages,\
+  \ costs or expenses attributable to any failure to \nconform to any warranty will be RealVNC’s\
+  \ sole responsibility in accordance with this Agreement. \n\n4. SUPPORT AND MAINTENANCE \n\
+  RealVNC, and not Apple, is solely responsible for providing any maintenance and support services\
+  \ \nwith respect to the Software, as specified herein, or as required under applicable law.\
+  \ RealVNC and \nYou acknowledge that Apple has no obligation whatsoever to furnish any maintenance\
+  \ and support \nservices with respect to the Software. \n\n5. LIMITATION ON LIABILITY \nEXCEPT\
+  \ FOR THE EXPRESS WARRANTIES GIVEN IN THIS AGREEMENT, TO THE EXTENT \nPERMITTED BY LAW, REALVNC\
+  \ DISCLAIMS ALL WARRANTIES ON THE SOFTWARE, EITHER \nEXPRESS OR IMPLIED, INCLUDING BUT NOT\
+  \ LIMITED TO THE IMPLIED WARRANTIES OF \nMERCHANTABILITY, NON-INFRINGEMENT OF THIRD PARTY\
+  \ RIGHTS AND FITNESS FOR \nPARTICULAR PURPOSE. TO THE EXTENT PERMITTED BY LAW REALVNC SHALL\
+  \ NOT BE \nLIABLE FOR ANY DIRECT, CONSEQUENTIAL INDIRECT OR INCIDENTAL LOSS OR DAMAGES \n\
+  WHATSOEVER INCLUDING LOST PROFITS OR SAVINGS ARISING OUT OF THE USE OF THE \nSOFTWARE, RELIANCE\
+  \ ON THE DATA PRODUCED OR INABILITY TO USE THE SOFTWARE \n(INCLUDING LOSS OR DAMAGE TO YOUR\
+  \ (OR ANY OTHER PERSON'S) DATA OR COMPUTER \nPROGRAMS) EVEN IF REALVNC HAS BEEN ADVISED OF\
+  \ THE POSSIBILITY OF SUCH \nDAMAGES. \n\nNOTHING IN THIS AGREEMENT LIMITS LIABILITY FOR DEATH\
+  \ OR PERSONAL INJURY \nARISING FROM A PARTY'S NEGLIGENCE OR FROM FRAUDULENT MISREPRESENTATION\
+  \ ON \nTHE PART OF A PARTY. NOTHING IN THIS AGREEMENT LIMITS RealVNC’S LIABILITY TO YOU \n\
+  BEYOND WHAT IS PERMITTED BY APPLICABLE LAW. \n\nYou acknowledge that RealVNC, and not Apple,\
+  \ are responsible for addressing any claims You or \nany third-parties may have relating to\
+  \ the Software or your possession and/or use of that Software, \nincluding but not limited\
+  \ to: (i) product liability claims; (ii) any claim that the Software fails to conform \nto\
+  \ any applicable legal or regulatory requirement; and (iii) claims arising under consumer\
+  \ protection or \nsimilar legislation. \n\n6. EXPORT CONTROL \nThe United States and other\
+  \ countries control the export of Software and information. You are \nresponsible for compliance\
+  \ with the laws of your local jurisdiction regarding the import, export or reexport \nof the\
+  \ Software, and agree to comply with such restrictions and not to export or re-export the\
+  \ \nSoftware where this is prohibited. By downloading the Software, you are agreeing that\
+  \ you are not a \nperson or entity to which such export is prohibited. RealVNC is a Limited\
+  \ company registered in \nEngland. You represent and warrant that (i) you are not located\
+  \ in a country that is subject to a U.S. \nGovernment embargo, or that has been designated\
+  \ by the U.S. Government as a \"terrorist \nsupporting\" country; and (ii) You are not listed\
+  \ on any U.S. Government list of prohibited or restricted \nparties. \n\n7. TERM AND TERMINATION\
+  \ \nThis licence shall continue in force unless and until it is terminated by RealVNC by e-mail\
+  \ notice to \nyou, if it reasonably believes that you have breached a material term of this\
+  \ Agreement. In the case \nabove, you must delete and destroy all copies of the Software in\
+  \ your possession and control and \noverwrite any electronic memory or storage locations containing\
+  \ the Software. \n\n8. GENERAL TERMS \n8.1 The construction, validity and performance of this\
+  \ Agreement shall be governed in all respects by \nEnglish law, and the Parties agree to submit\
+  \ to the non-exclusive jurisdiction of the English courts. \n\n8.2 If any provision of this\
+  \ Agreement is found to be invalid by any court having competent jurisdiction, \nthe invalidity\
+  \ of such provision shall not affect the validity of the remaining provisions of this \nagreement,\
+  \ which shall remain in full force and effect. \n\n8.3 Despite anything else contained in\
+  \ this Agreement, neither party will be liable for any delay in \nperforming its obligations\
+  \ under this Agreement if that delay is caused by circumstances beyond its \nreasonable control\
+  \ (including, without limitation, any delay caused by an act or omission of the other \nparty)\
+  \ and the party affected will be entitled to a reasonable extension of time for the performance\
+  \ of \nits obligations. \n\n8.4 No waiver of any term of this Agreement shall be deemed a\
+  \ further or continuing waiver of such \nterm or any other term. \n\n8.5 You may not assign,\
+  \ subcontract, sublicense or otherwise transfer any of your rights or obligations \nunder\
+  \ this Agreement. \n\n8.6 This Agreement constitutes the entire agreement between You and\
+  \ RealVNC. \n\n8.7 You acknowledge and agree that Apple, and Apple’s subsidiaries, are third\
+  \ party beneficiaries of \nthis Agreement, and that, upon your acceptance of the terms and\
+  \ conditions of this Agreement, Apple \nwill have the right (and will be deemed to have accepted\
+  \ the right) to enforce this Agreement against \nYou as a third party beneficiary thereof.\
+  \ \n\n\nVNC is a registered trademark of RealVNC Ltd. in the U.S. and in other countries."

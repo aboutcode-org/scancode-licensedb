@@ -6,5 +6,6 @@
   "owner": "Taligent",
   "homepage_url": "https://github.com/typetools/checker-framework/blob/3c427f380f61f234688893467d9bc433cf1a584c/checker/jdk/index/src/java/sun/util/resources/OpenListResourceBundle.java#L26-L39",
   "notes": "This notice is common is OpenJDK and related Java code.",
-  "spdx_license_key": "LicenseRef-scancode-taligent-jdk"
+  "spdx_license_key": "LicenseRef-scancode-taligent-jdk",
+  "text": "The original version of this source code and documentation\nis copyrighted and owned by Taligent, Inc., a wholly-owned\nsubsidiary of IBM. These materials are provided under terms\nof a License Agreement between Taligent and Sun. This technology\nis protected by multiple US and International patents.\n\nThis notice and attribution to Taligent may not be removed.\nTaligent is a registered trademark of Taligent, Inc."
 }

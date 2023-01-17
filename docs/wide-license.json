@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-wide-license",
   "ignorable_authors": [
     "WIDE Project and its contributors"
-  ]
+  ],
+  "text": "Permission to use, copy, modify and distribute this software and its\ndocumentation is hereby granted, provided only with the following\nconditions are satisfied:\n\n1. Both the copyright notice and this permission notice appear in\nall copies of the software, derivative works or modified versions,\nand any portions thereof, and that both notices appear in\nsupporting documentation.\n\n2. All advertising materials mentioning features or use of this software\nmust display the following acknowledgement:\nThis product includes software developed by WIDE Project and\nits contributors.\n\n3. Neither the name of WIDE Project nor the names of its contributors\nmay be used to endorse or promote products derived from this software\nwithout specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE DEVELOPER ``AS IS'' AND WIDE\nPROJECT DISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES\nWHATSOEVER RESULTING FROM THE USE OF THIS SOFTWARE. ALSO, THERE\nIS NO WARRANTY IMPLIED OR OTHERWISE, NOR IS SUPPORT PROVIDED.\n\nFeedback of the results generated from any improvements or\nextensions made to this software would be much appreciated.\nAny such feedback should be sent to:"
 }

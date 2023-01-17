@@ -6,3 +6,96 @@ owner: Oracle (Sun)
 spdx_license_key: LicenseRef-scancode-sun-bcl-j2re-1.2.x
 ignorable_urls:
   - http://java.sun.com/trademarks.html
+text: "Sun Microsystems, Inc.  \n                   Binary Code License Agreement\n\nREAD THE\
+  \ TERMS OF THIS AGREEMENT AND ANY PROVIDED SUPPLEMENTAL \nLICENSE TERMS (COLLECTIVELY \"AGREEMENT\"\
+  ) CAREFULLY BEFORE \nOPENING THE SOFTWARE MEDIA PACKAGE.  BY OPENING THE SOFTWARE \nMEDIA\
+  \ PACKAGE, YOU AGREE TO THE TERMS OF THIS AGREEMENT.  IF \nYOU ARE ACCESSING THE SOFTWARE\
+  \ ELECTRONICALLY, INDICATE YOUR \nACCEPTANCE OF THESE TERMS BY SELECTING THE \"ACCEPT\" BUTTON\
+  \ AT \nTHE END OF THIS AGREEMENT.  IF YOU DO NOT AGREE TO ALL THESE \nTERMS, PROMPTLY RETURN\
+  \ THE UNUSED SOFTWARE TO YOUR PLACE OF \nPURCHASE FOR A REFUND OR, IF THE SOFTWARE IS ACCESSED\n\
+  ELECTRONICALLY, SELECT THE \"DECLINE\" BUTTON AT THE END OF THIS\nAGREEMENT.\n\n1.  LICENSE\
+  \ TO USE.  Sun grants you a non-exclusive and\nnon-transferable license for the internal use\
+  \ only of the accompanying\nsoftware and documentation and any error corrections provided\
+  \ by Sun\n(collectively \"Software\"), by the number of users and the class of\ncomputer hardware\
+  \ for which the corresponding fee has been paid.\n\n2.  RESTRICTIONS Software is confidential\
+  \ and copyrighted. Title to\nSoftware and all associated intellectual property rights is retained\n\
+  by Sun and/or its licensors.  Except as specifically authorized in any\nSupplemental License\
+  \ Terms, you may not make copies of Software, other\nthan a single copy of Software for archival\
+  \ purposes.  Unless\nenforcement is prohibited by applicable law, you may not modify,\ndecompile,\
+  \ reverse engineer Software.  Software is not designed or\nlicensed for use in on-line control\
+  \ of aircraft, air traffic, aircraft\nnavigation or aircraft communications; or in the design,\
+  \ construction,\noperation or maintenance of any nuclear facility.  You warrant that\nyou\
+  \ will not use Software for these purposes.  You may not publish or\nprovide the results of\
+  \ any benchmark or comparison tests run on\nSoftware to any third party without the prior\
+  \ written consent of Sun.\nNo right, title or interest in or to any trademark, service mark,\
+  \ logo\nor trade name of Sun or its licensors is granted under this Agreement.\n\n3. LIMITED\
+  \ WARRANTY.  Sun warrants to you that for a period of ninety\n(90) days from the date of purchase,\
+  \ as evidenced by a copy of the\nreceipt, the media on which Software is furnished (if any)\
+  \ will be\nfree of defects in materials and workmanship under normal use.  Except\nfor the\
+  \ foregoing, Software is provided \"AS IS\".  Your exclusive\nremedy and Sun's entire liability\
+  \ under this limited warranty will be\nat Sun's option to replace Software media or refund\
+  \ the fee paid for\nSoftware.\n\n4.  DISCLAIMER OF WARRANTY.  UNLESS SPECIFIED IN THIS AGREEMENT,\
+  \ \nALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES,\nINCLUDING ANY IMPLIED\
+  \ WARRANTY OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE, OR NON-INFRINGEMENT, ARE\
+  \ DISCLAIMED, EXCEPT \nTO THE EXTENT THAT THESE DISCLAIMERS ARE HELD TO BE LEGALLY INVALID.\n\
+  \n5.  LIMITATION OF LIABILITY.  TO THE EXTENT NOT PROHIBITED BY LAW, \nIN NO EVENT WILL SUN\
+  \ OR ITS LICENSORS BE LIABLE FOR ANY LOST REVENUE,\nPROFIT OR DATA, OR FOR SPECIAL, INDIRECT,\
+  \ CONSEQUENTIAL, INCIDENTAL \nOR PUNITIVE DAMAGES, HOWEVER CAUSED REGARDLESS OF THE THEORY\
+  \ OF\nLIABILITY, ARISING OUT OF OR RELATED TO THE USE OF OR INABILITY TO \nUSE SOFTWARE, EVEN\
+  \ IF SUN HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGES.  In no event will Sun's liability\
+  \ to you, whether in\ncontract, tort (including negligence), or otherwise, exceed the amount\n\
+  paid by you for Software under this Agreement.  The foregoing\nlimitations will apply even\
+  \ if the above stated warranty fails of its\nessential purpose.\n\n6.  Termination.  This\
+  \ Agreement is effective until terminated.  You\nmay terminate this Agreement at any time\
+  \ by destroying all copies of\nSoftware.  This Agreement will terminate immediately without\
+  \ notice\nfrom Sun if you fail to comply with any provision of this Agreement.\nUpon Termination,\
+  \ you must destroy all copies of Software.\n\n7.  Export Regulations.  All Software and technical\
+  \ data delivered\nunder this Agreement are subject to US export control laws and may be\n\
+  subject to export or import regulations in other countries.  You agree\nto comply strictly\
+  \ with all such laws and regulations and acknowledge\nthat you have the responsibility to\
+  \ obtain such licenses to export,\nre-export, or import as may be required after delivery\
+  \ to you.\n\n8.  U.S. Government Restricted Rights.  Use, duplication, or\ndisclosure by the\
+  \ U.S. Government is subject to restrictions set forth\nin this Agreement and as provided\
+  \ in DFARS 227.7202-1 (a) and\n227.7202-3(a) (1995), DFARS 252.227-7013 (c)(1)(ii)(Oct 1988),\
+  \ FAR\n12.212 (a) (1995), FAR 52.227-19 (June 1987), or FAR 52.227-14(ALT\nIII) (June 1987),\
+  \ as applicable.\n\n9.  Governing Law.  Any action related to this Agreement will be\ngoverned\
+  \ by California law and controlling U.S. federal law.  No\nchoice of law rules of any jurisdiction\
+  \ will apply.\n\n10.  Severability. If any provision of this Agreement is held to be\nunenforceable,\
+  \ This Agreement will remain in effect with the provision\nomitted, unless omission would\
+  \ frustrate the intent of the parties, in\nwhich case this Agreement will immediately terminate.\n\
+  \n11.  Integration.  This Agreement is the entire agreement between you\nand Sun relating\
+  \ to its subject matter.  It supersedes all prior or\ncontemporaneous oral or written communications,\
+  \ proposals,\nrepresentations and warranties and prevails over any conflicting or\nadditional\
+  \ terms of any quote, order, acknowledgment, or other\ncommunication between the parties relating\
+  \ to its subject matter\nduring the term of this Agreement.  No modification of this Agreement\n\
+  will be binding, unless in writing and signed by an authorized\nrepresentative of each party.\n\
+  \nFor inquiries please contact: Sun Microsystems, Inc.  901 San Antonio\nRoad, Palo Alto,\
+  \ California 94303\n\n    JAVA(R) 2 RUNTIME ENVIRONMENT, STANDARD EDITION, VERSION 1.2.1_004\n\
+  \                     SUPPLEMENTAL LICENSE TERMS\n\nThese supplemental terms (\"Supplement\"\
+  ) add to the terms of the Binary\nCode License Agreement (\"Agreement\").  Capitalized terms\
+  \ not defined\nherein shall have the same meanings ascribed to them in the Agreement.\nThe\
+  \ Supplement terms shall supersede any inconsistent or conflicting\nterms in the Agreement.\n\
+  \n1.  License to Distribute. You are granted a royalty-free right to\nreproduce and distribute\
+  \ the Software provided that you: (i)distribute\nthe Software complete and unmodified, only\
+  \ as part of, and for the\nsole purpose of running, your Java applet or application (\"Program\"\
+  )\ninto which the Software is incorporated; (ii) do not distribute\nadditional software intended\
+  \ to replace any component(s) of the\nSoftware; (iii) do not remove or alter any proprietary\
+  \ legends or\nnotices contained in the Software; (iv) only distribute the Program\nsubject\
+  \ to a license agreement that protects Sun's interests\nconsistent with the terms contained\
+  \ herein; (v) may not create, or\nauthorize your licensees to create additional classes, interfaces,\
+  \ or\nsubpackages that are contained in the \"java\" or \"sun\" packages or\nsimilar as specified\
+  \ by Sun in any class file naming convention; (vi)\nagree to the extent Programs are developed\
+  \ which utilize the Windows\n95/98 style graphical user interface or components contained\
+  \ therein,\nsuch applets or applications may only be developed to run on a Windows\n95/98\
+  \ or Windows NT platform; and(vii) agree to indemnify, hold\nharmless, and defend Sun and\
+  \ its licensors from and against any claims\nor lawsuits, including attorneys' fees, that\
+  \ arise or result from the\nuse or distribution of the Program.\n\n2. Trademarks and Logos.\
+  \ This Agreement does not authorize Licensee to\nuse any Sun name, trademark or logo. Licensee\
+  \ acknowledges as between\nit and Sun that Sun owns the Java trademark and all Java-related\n\
+  trademarks, logos and icons including the Coffee Cup and Duke (\"Java\nMarks\") and agrees\
+  \ to comply with the Java Trademark Guidelines at\nhttp://java.sun.com/trademarks.html.\n\n\
+  3.  High Risk Activities.  Notwithstanding Section 2, with respect to\nhigh risk activities,\
+  \ the following language shall apply: the Software\nis not designed or intended for use in\
+  \ on-line control of aircraft,\nair traffic, aircraft navigation or aircraft communications;\
+  \ or in the\ndesign, construction, operation or maintenance of any nuclear\nfacility. Sun\
+  \ disclaims any express or implied warranty of fitness for\nsuch uses."

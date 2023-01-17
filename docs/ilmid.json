@@ -8,5 +8,6 @@
   "other_urls": [
     "http://linuxcommand.org/man_pages/ilmid8.html ",
     "http://www.freebsd.org/cgi/man.cgi?query=ilmid&sektion=8&apropos=0&manpath=FreeBSD+5.4-RELEASE"
-  ]
+  ],
+  "text": "Permission to use, copy, modify and distribute this\nsoftware and its documentation is hereby granted,\nprovided that both the copyright notice and this\npermission notice appear in all copies of the software,\nderivative works or modified versions, and any portions\nthereof, that both notices appear in supporting\ndocumentation, and that the use of this software is\nacknowledged in any publications resulting from using\nthe software.\n\nI ALLOW FREE USE OF THIS SOFTWARE IN ITS \"AS IS\"\nCONDITION AND DISCLAIM ANY LIABILITY OF ANY KIND FOR\nANY DAMAGES WHATSOEVER RESULTING FROM THE USE OF THIS\nSOFTWARE."
 }

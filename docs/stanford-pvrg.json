@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Stanford University",
   "homepage_url": "http://marathon.csee.usf.edu/Mammography/JpegInfo.html",
-  "spdx_license_key": "LicenseRef-scancode-stanford-pvrg"
+  "spdx_license_key": "LicenseRef-scancode-stanford-pvrg",
+  "text": "PUBLIC DOMAIN LICENSE: Stanford University Portable Video Research Group.\nIf you use this software, you agree to the following:\n\nThis program package is purely experimental, and is licensed \"as is\". Permission\nis granted to use, modify, and distribute this program without charge for any\npurpose, provided this license/disclaimer notice appears in the copies. No\nwarranty or maintenance is given, either expressed or implied. In no event shall\nthe author(s) be liable to you or a third party for any special, incidental,\nconsequential, or other damages, arising out of the use or inability to use the\nprogram for any purpose (or the loss of data), even if we have been advised of\nsuch possibilities. Any public reference or advertisement of this source code\nshould refer to it as the Portable Video Research Group (PVRG)."
 }

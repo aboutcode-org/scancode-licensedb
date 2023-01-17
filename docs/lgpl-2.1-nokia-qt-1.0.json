@@ -6,5 +6,6 @@
   "category": "Copyleft Limited",
   "owner": "Nokia",
   "notes": "Replaced by qt-company-exception-lgpl-2.1",
-  "is_exception": true
+  "is_exception": true,
+  "text": "As a special exception to the GNU Lesser General Public License version 2.1, the\nobject code form of a \"work that uses the Library\" may incorporate material from\na header file that is part of the Library.  You may distribute such object code\nunder terms of your choice, provided that the incorporated material (i) does not\nexceed more than 5% of the total size of the Library; and (ii) is limited to\nnumerical parameters, data structure layouts, accessors, macros, inline\nfunctions and templates."
 }

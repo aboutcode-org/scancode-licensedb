@@ -7,3 +7,30 @@ homepage_url: https://github.com/woodruffw/ff2mpv/blob/master/LICENSE
 spdx_license_key: LicenseRef-scancode-woodruff-2002
 other_urls:
   - https://github.com/search?p=2&q="The+MIT+License+(MIT)+with+restrictions"&type=Code
+text: "The MIT License (MIT) with restrictions\n\nPermission is hereby granted, free of charge,\
+  \ to any person obtaining a copy\nof this software and associated documentation files (the\
+  \ \"Software\"), to deal\nin the Software without restriction, including without limitation\
+  \ the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n\
+  copies of the Software, and to permit persons to whom the Software is\nfurnished to do so,\
+  \ subject to the following conditions:\n\nThe above copyright notice and this permission notice\
+  \ shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE\
+  \ IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT\
+  \ NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND\
+  \ NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,\
+  \ DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\
+  \ FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\
+  \nThe following terms additionally apply and override any above terms for\napplicable parties:\n\
+  \nYou may not use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies\
+  \ of the Software in a military or law enforcement context,\ndefined as follows:\n\n1. A military\
+  \ context is a professional context where the intended application\nof the Software is integration\
+  \ or use with or by military software, tools\n(software or hardware), or personnel. This includes\
+  \ contractors and\nsubcontractors as well as research affiliates of any military\torganization.\n\
+  \n2. A law enforcement context is a professional context where the intended\napplication of\
+  \ the Software is integration or use with or by law enforcement\nsoftware, tools (software\
+  \ or hardware), or personnel. This includes\ncontractors and subcontractors as well as research\
+  \ affiliates of any law\nenforcement organization.\n\nEntities that sell or license to military\
+  \ or law enforcement organizations\nmay use the Software under the original terms, but only\
+  \ in contexts that do\nnot assist or supplement the sold or licensed product.\n\nStudents\
+  \ and academics who are affiliated with research institutions may use\nthe Software under\
+  \ the original terms, but only in contexts that do not assist\nor supplement collaboration\
+  \ or affiliation with any military or law\nenforcement organization."

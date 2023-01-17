@@ -13,3 +13,65 @@ ignorable_holders:
   - Samuel Reynolds
 ignorable_urls:
   - http://ftp.uu.net/
+text: "THE FRONTIER ARTISTIC LICENSE Version 1.0\nCopyright © (c) 1999 by Samuel Reynolds.\n\
+  Derived from the \"Artistic License\" at \"OpenSource.org\".\nSubmitted to OpenSource.org\
+  \ for Open Source Initiative certification.\n\nPREAMBLE\n\nThe intent of this document is\
+  \ to state the conditions under which a\nPackage may be copied, such that the Copyright Holder\
+  \ maintains some\nsemblance of artistic control over the development of the package,\nwhile\
+  \ giving the users of the package the right to use and distribute\nthe Package in a more-or-less\
+  \ customary fashion, plus the right to\nmake reasonable modifications.\n\nDEFINITIONS\n\n\
+  o   \"Package\" refers to the script, suite, file, or collection of scripts, \n    suites,\
+  \ and/or files distributed by the Copyright Holder, and to \n    derivatives of that Package\
+  \ created through textual modification.\n\no   \"Standard Version\" refers to such a Package\
+  \ if it has not been \n    modified, or has been modified in accordance with the wishes of\
+  \ the \n    Copyright Holder.\n\no   \"Copyright Holder\" is whoever is named in the copyright\
+  \ statement or \n    statements for the package.\n\no   \"You\" is you, if you're thinking\
+  \ about copying or distributing this \n    Package.\n\no   \"Reasonable copying fee\" is whatever\
+  \ you can justify on the basis of \n    media cost, duplication charges, time of people involved,\
+  \ and so on.  \n    (You will not be required to justify it to the Copyright Holder, but \n\
+  \    only to the computing community at large as a market that must bear the \n    fee.)\n\
+  \no   \"Freely Available\" means that no fee is charged for the item itself, \n    though\
+  \ there may be fees involved in handling the item.  It also means \n    that recipients of\
+  \ the item may redistribute it under the same \n    conditions they received it.\n\nTERMS\n\
+  \n1.  You may make and give away verbatim copies of the source form of the \n    Standard\
+  \ Version of this Package without restriction, provided that you \n    duplicate all of the\
+  \ original copyright notices and associated disclaimers.\n\n2.  You may apply bug fixes, portability\
+  \ fixes, and other modifications \n    derived from the Public Domain or from the Copyright\
+  \ Holder.  A Package \n    modified in such a way shall still be considered the Standard Version.\n\
+  \n3.  You may otherwise modify your copy of this Package in any way, provided \n    that you\
+  \ insert a prominent notice in each changed script, suite, or file \n    stating how and when\
+  \ you changed that script, suite, or file, and provided \n    that you do at least ONE of\
+  \ the following:\n\n    a) Use the modified Package only within your corporation or \n   \
+  \ organization, or retain the modified Package solely for personal use.\n    \n    b) Place\
+  \ your modifications in the Public Domain or otherwise make them \n    Freely Available, such\
+  \ as by posting said modifications to Usenet or an \n    equivalent medium, or placing the\
+  \ modifications on a major archive site \n    such as ftp.uu.net, or by allowing the Copyright\
+  \ Holder to include your \n    modifications in the Standard Version of the Package.\n   \
+  \ \n    c) Rename any non-standard executables so the names do not conflict \n    with standard\
+  \ executables, which must also be provided, and provide a \n    separate manual page (or equivalent)\
+  \ for each non-standard executable \n    that clearly documents how it differs from the Standard\
+  \ Version.\n    \n    d) Make other distribution arrangements with the Copyright Holder.\n\
+  \n4.  You may distribute the programs of this Package in object code or \n    executable form,\
+  \ provided that you do at least ONE of the following:\n\n    a) Distribute a Standard Version\
+  \ of the executables and library files, \n    together with instructions (in the manual page\
+  \ or equivalent) on where \n    to get the Standard Version.\n    \n    b) Accompany the distribution\
+  \ with the machine-readable source of the \n    Package with your modifications.\n    \n \
+  \   c) Accompany any non-standard executables with their corresponding \n    Standard Version\
+  \ executables, give the non-standard executables \n    non-standard names, and clearly document\
+  \ the differences in manual \n    pages (or equivalent), together with instructions on where\
+  \ to get the \n    Standard Version.\n    \n    d) Make other distribution arrangements with\
+  \ the Copyright Holder.\n    \n5.  You may charge a reasonable copying fee for any distribution\
+  \ of this \n    Package.  You may charge any fee you choose for support of this Package. \
+  \ \n    You may not charge a fee for this Package itself.  However, you may \n    distribute\
+  \ this Package in aggregate with other (possibly commercial) \n    programs as part of a larger\
+  \ (possibly commercial) software distribution \n    provided that you do not advertise this\
+  \ Package as a product of your own.\n    \n6.  The scripts and library files supplied as input\
+  \ to or produced as \n    output from the programs of this Package do not automatically fall\
+  \ under \n    the copyright of this Package, but belong to whomever generated them, and \n\
+  \    may be sold commercially, and may be aggregated with this Package.\n    \n7.  Scripts,\
+  \ suites, or programs supplied by you that depend on or \n    otherwise make use of this Package\
+  \ shall not be considered part of this \n    Package.\n    \n8.  The name of the Copyright\
+  \ Holder may not be used to endorse or promote \n    products derived from this software without\
+  \ specific prior written \n    permission.\n\n9.  THIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT\
+  \ ANY EXPRESS OR IMPLIED \n    WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES\
+  \ OF \n    MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE."

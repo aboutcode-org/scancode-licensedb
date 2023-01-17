@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-ubc",
   "text_urls": [
     "https://github.com/esnacc/esnacc-ng/blob/55eb00bfb50439620f6fc64b1e8373dd2ad0abb5/cxx-lib/src/asn-len.cpp"
-  ]
+  ],
+  "text": "This library is free software; you can redistribute it and/or\nmodify it provided that this copyright/license information is retained\nin original form.\n\nIf you modify this file, you must clearly indicate your changes.\n\nThis source code is distributed in the hope that it will be\nuseful, but WITHOUT ANY WARRANTY; without even the implied warranty\nof MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
 }

@@ -6,3 +6,10 @@ owner: NICTA
 homepage_url: https://github.com/echronos/test-client-repo/blob/3ab330c3dcaa549d135c81c80e866184011c51d1/LICENSE_AGPLv3_with_additional_terms.txt
 is_exception: yes
 spdx_license_key: LicenseRef-scancode-nicta-exception
+text: |
+  No right, title or interest in or to any trade mark, service mark, logo
+  or trade name of National ICT Australia Limited, ABN 62 102 206 173
+  (“NICTA”) or its licensors is granted. Modified versions of the Program
+  must be plainly marked as such, and must not be distributed using
+  “eChronos” as a trade mark or product name, or misrepresented as being
+  the original Program.

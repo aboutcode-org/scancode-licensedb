@@ -8,3 +8,6 @@ notes: This notice is commonly seen in L/GPL-licensed FSF and GNU projects as a 
   notice in command line tools or build scritps. It was previsouly reported as a free but unknown.
   It is commonly seen in GCC, GCB, Bash and related tools.
 spdx_license_key: LicenseRef-scancode-fsf-notice
+text: |
+  This is free software: you are free to change and redistribute it
+  There is NO WARRANTY, to the extent permitted by law.

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Apple",
   "spdx_license_key": "LicenseRef-scancode-apple-attribution",
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Warranty Information\nEven though Apple has reviewed this software, Apple makes no warranty\nor representation, either express or implied, with respect to this\nsoftware, its quality, accuracy, merchantability, or fitness for a\nparticular purpose.  As a result, this software is provided \"as is,\"\nand you, its user, are assuming the entire risk as to its quality\nand accuracy.\n\nThis code may be used and freely distributed as long as it includes\nthis copyright notice and the warranty information."
 }

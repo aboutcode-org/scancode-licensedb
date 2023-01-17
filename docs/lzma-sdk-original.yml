@@ -14,3 +14,31 @@ ignorable_urls:
   - http://www.7-zip.org/support.html
   - http://www.gnu.org/
   - http://www.opensource.org/
+text: "LZMA SDK provides the documentation, samples, header files, libraries, \nand tools you\
+  \ need to develop applications that use LZMA compression.\n\nLICENSE\n-------\n\nLZMA SDK\
+  \ is available under any of the following licenses:\n\n1) GNU Lesser General Public License\
+  \ (GNU LGPL)\n2) Common Public License (CPL)\n3) Simplified license for unmodified code (read\
+  \ SPECIAL EXCEPTION) \n4) Proprietary license \n\nIt means that you can select one of these\
+  \ four options and follow rules of that license.\n\n1,2) GNU LGPL and CPL licenses are pretty\
+  \ similar and both these\nlicenses are classified as \n - \"Free software licenses\" at http://www.gnu.org/\
+  \ \n - \"OSI-approved\" at http://www.opensource.org/\n\n3) SPECIAL EXCEPTION\n\nIgor Pavlov,\
+  \ as the author of this code, expressly permits you \nto statically or dynamically link your\
+  \ code (or bind by name) \nto the files from LZMA SDK without subjecting your linked \ncode\
+  \ to the terms of the CPL or GNU LGPL. \nAny modifications or additions to files from LZMA\
+  \ SDK, however, \nare subject to the GNU LGPL or CPL terms.\n\nSPECIAL EXCEPTION allows you\
+  \ to use LZMA SDK in applications with closed code, \nwhile you keep LZMA SDK code unmodified.\n\
+  \nSPECIAL EXCEPTION #2: Igor Pavlov, as the author of this code, expressly permits \nyou to\
+  \ use this code under the same terms and conditions contained in the License \nAgreement you\
+  \ have for any previous version of LZMA SDK developed by Igor Pavlov.\n\nSPECIAL EXCEPTION\
+  \ #2 allows owners of proprietary licenses to use latest version \nof LZMA SDK as update for\
+  \ previous versions.\n\nSPECIAL EXCEPTION #3: Igor Pavlov, as the author of this code, expressly\
+  \ permits \nyou to use code of the following files: \nBranchTypes.h, LzmaTypes.h, LzmaTest.c,\
+  \ LzmaStateTest.c, LzmaAlone.cpp, \nLzmaAlone.cs, LzmaAlone.java\nas public domain code. \n\
+  \n4) Proprietary license\n\nLZMA SDK also can be available under a proprietary license which\
+  \ \ncan include:\n\n1) Right to modify code without subjecting modified code to the \nterms\
+  \ of the CPL or GNU LGPL\n2) Technical support for code\n\nTo request such proprietary license\
+  \ or any additional consultations,\nsend email message from that page:\nhttp://www.7-zip.org/support.html\n\
+  \nYou should have received a copy of the GNU Lesser General Public\nLicense along with this\
+  \ library; if not, write to the Free Software\nFoundation, Inc., 59 Temple Place, Suite 330,\
+  \ Boston, MA  02111-1307  USA\n\nYou should have received a copy of the Common Public License\n\
+  along with this library."

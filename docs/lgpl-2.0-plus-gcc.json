@@ -8,5 +8,6 @@
   "is_exception": true,
   "text_urls": [
     "http://www.opensource.apple.com/source/libcppabi/libcppabi-26/include/demangle.h"
-  ]
+  ],
+  "text": "This program is free software; you can redistribute it and/or\nmodify it under the terms of the GNU Library General Public License\nas published by the Free Software Foundation; either version 2, or\n(at your option) any later version.\n\nIn addition to the permissions in the GNU Library General Public\nLicense, the Free Software Foundation gives you unlimited\npermission to link the compiled version of this file into\ncombinations with other programs, and to distribute those\ncombinations without any restriction coming from the use of this\nfile.  (The Library Public License restrictions do apply in other\nrespects; for example, they cover modification of the file, and\ndistribution when not linked into a combined executable.)\n\nThis program is distributed in the hope that it will be useful, but\nWITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLibrary General Public License for more details.\n\nYou should have received a copy of the GNU Library General Public\nLicense along with this program; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA\n02110-1301, USA."
 }

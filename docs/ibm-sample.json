@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-ibm-sample",
   "text_urls": [
     "http://www.java-forums.org/swt/9604-swt-2d-unicode-example.html"
-  ]
+  ],
+  "text": "The sample program(s) is/are owned by International Business Machines\nCorporation or one of its subsidiaries (\"IBM\") and is/are copyrighted and\nlicensed, not sold.\n\nYou may copy, modify, and distribute this/these sample program(s) in any form\nwithout payment to IBM, for any purpose including developing, using, marketing\nor distributing programs that include or are derivative works of the sample\nprogram(s).\n\nThe sample program(s) is/are provided to you on an \"AS IS\" basis, without\nwarranty of any kind.  IBM HEREBY EXPRESSLY DISCLAIMS ALL WARRANTIES, EITHER\nEXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Some jurisdictions do\nnot allow for the exclusion or limitation of implied warranties, so the above\nlimitations or exclusions may not apply to you.  IBM shall not be liable for\nany damages you suffer as a result of using, modifying or distributing the\nsample program(s) or its/their derivatives.\n\nEach copy of any portion of this/these sample program(s) or any derivative\nwork, must include the above copyright notice and disclaimer of warranty."
 }

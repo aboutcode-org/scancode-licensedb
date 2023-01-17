@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-ibm-dhcp",
   "other_urls": [
     "http://svn.opendnssec.org/trunk/OpenDNSSEC/common/b64_pton.c"
-  ]
+  ],
+  "text": "International Business Machines, Inc. (hereinafter called IBM) grants\npermission under its copyrights to use, copy, modify, and distribute this\nSoftware with or without fee, provided that the above copyright notice and\nall paragraphs of this notice appear in all copies, and that the name of IBM\nnot be used in connection with the marketing of any product incorporating\nthe Software or modifications thereof, without specific, written prior\npermission.\n\nTo the extent it has a right to do so, IBM grants an immunity from suit\nunder its patents, if any, for the use, sale or manufacture of products to\nthe extent that such products are used for performing Domain Name System\ndynamic updates in TCP/IP networks by means of the Software.  No immunity is\ngranted for any product per se or for any other function of any product.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", AND IBM DISCLAIMS ALL WARRANTIES,\nINCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\nPARTICULAR PURPOSE.  IN NO EVENT SHALL IBM BE LIABLE FOR ANY SPECIAL,\nDIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER ARISING\nOUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE, EVEN\nIF IBM IS APPRISED OF THE POSSIBILITY OF SUCH DAMAGES."
 }

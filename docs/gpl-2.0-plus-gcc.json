@@ -8,5 +8,6 @@
   "is_exception": true,
   "other_urls": [
     "http://www.gnu.org/licenses/gpl-2.0.txt"
-  ]
+  ],
+  "text": "This file is free software; you can redistribute it and/or modify it\nunder the terms of the GNU General Public License as published by the\nFree Software Foundation; either version 2 of the License, or (at your\noption) any later version.\n\nIn addition to the permissions in the GNU General Public License, the\nFree Software Foundation gives you unlimited permission to link the\ncompiled version of this file into combinations with other programs, and\nto distribute those combinations without any restriction coming from the\nuse of this file. (The General Public License restrictions do apply in\nother respects; for example, they cover modification of the file, and\ndistribution when not linked into a combined executable.)\n\nThis program is distributed in the hope that it will be useful, but\nWITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General\nPublic License for more details.\n\nYou should have received a copy of the GNU General Public License along\nwith this program; if not, write to the Free Software Foundation, Inc.,\n51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA."
 }

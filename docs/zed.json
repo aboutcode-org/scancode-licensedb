@@ -8,5 +8,6 @@
   "spdx_license_key": "Zed",
   "ignorable_emails": [
     "Jim.Davies@comlab.ox.ac.uk"
-  ]
+  ],
+  "text": "You may copy and distribute this file freely. Any queries and complaints should\nbe forwarded to Jim.Davies@comlab.ox.ac.uk. If you make any changes to this\nfile, please do not distribute the results under the name `zed-csp.sty'."
 }

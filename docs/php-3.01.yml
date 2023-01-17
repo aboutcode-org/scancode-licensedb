@@ -25,3 +25,36 @@ ignorable_urls:
   - http://www.zend.com/
 ignorable_emails:
   - group@php.net
+text: "The PHP License, version 3.01 \n\nCopyright (c) 1999 - 2012 The PHP Group. All rights\
+  \ reserved. \n\nRedistribution and use in source and binary forms, with or without \nmodification,\
+  \ is permitted provided that the following conditions \nare met: \n\n1. Redistributions of\
+  \ source code must retain the above copyright \nnotice, this list of conditions and the following\
+  \ disclaimer. \n\n2. Redistributions in binary form must reproduce the above copyright \n\
+  notice, this list of conditions and the following disclaimer in \nthe documentation and/or\
+  \ other materials provided with the \ndistribution. \n\n3. The name \"PHP\" must not be used\
+  \ to endorse or promote products \nderived from this software without prior written permission.\
+  \ For \nwritten permission, please contact group@php.net. \n\n4. Products derived from this\
+  \ software may not be called \"PHP\", nor \nmay \"PHP\" appear in their name, without prior\
+  \ written permission \nfrom group@php.net. You may indicate that your software works in \n\
+  conjunction with PHP by saying \"Foo for PHP\" instead of calling \nit \"PHP Foo\" or \"phpfoo\"\
+  \ \n\n5. The PHP Group may publish revised and/or new versions of the \nlicense from time\
+  \ to time. Each version will be given a \ndistinguishing version number. \nOnce covered code\
+  \ has been published under a particular version \nof the license, you may always continue\
+  \ to use it under the terms \nof that version. You may also choose to use such covered code\
+  \ \nunder the terms of any subsequent version of the license \npublished by the PHP Group.\
+  \ No one other than the PHP Group has \nthe right to modify the terms applicable to covered\
+  \ code created \nunder this License. \n\n6. Redistributions of any form whatsoever must retain\
+  \ the following \nacknowledgment: \n\"This product includes PHP software, freely available\
+  \ from \n<http://www.php.net/software/>\". \n\nTHIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT\
+  \ TEAM ``AS IS'' AND \nANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,\
+  \ \nTHE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A \nPARTICULAR PURPOSE ARE DISCLAIMED.\
+  \ IN NO EVENT SHALL THE PHP \nDEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\
+  \ \nINDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES \n(INCLUDING, BUT NOT\
+  \ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR \nSERVICES; LOSS OF USE, DATA, OR PROFITS;\
+  \ OR BUSINESS INTERRUPTION) \nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\
+  \ \nSTRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) \nARISING IN ANY WAY OUT\
+  \ OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED \nOF THE POSSIBILITY OF SUCH DAMAGE. \n\n--------------------------------------------------------------------\
+  \ \n\nThis software consists of voluntary contributions made by many \nindividuals on behalf\
+  \ of the PHP Group. \n\nThe PHP Group can be contacted via Email at group@php.net. \n\nFor\
+  \ more information on the PHP Group and the PHP project, \nplease see <http://www.php.net>.\
+  \ \n\nPHP includes the Zend Engine, freely available at \n<http://www.zend.com>."

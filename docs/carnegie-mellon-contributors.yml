@@ -6,3 +6,13 @@ owner: Carnegie Mellon University
 spdx_license_key: LicenseRef-scancode-carnegie-mellon-contributors
 ignorable_emails:
   - Software.Distribution@CS.CMU.EDU
+text: "Permission to use, copy, modify and distribute this software and its\ndocumentation is\
+  \ hereby granted, provided that both the copyright notice and\nthis permission notice appear\
+  \ in all copies of the software, derivative works or\nmodified versions, and any portions\
+  \ thereof, and that both notices appear in\nsupporting documentation.\n\nCARNEGIE MELLON ALLOWS\
+  \ FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION.\nCARNEGIE MELLON DISCLAIMS ANY LIABILITY\
+  \ OF ANY KIND FOR ANY DAMAGES WHATSOEVER\nRESULTING FROM THE USE OF THIS SOFTWARE.\n\nCarnegie\
+  \ Mellon requests users of this software to return to\n\n  Software Distribution Coordinator\
+  \ or Software.Distribution@CS.CMU.EDU \n  School of Computer Science \n  Carnegie Mellon University\
+  \ \n  Pittsburgh PA 15213-3890\n\nany improvements or extensions that they make and grant\
+  \ Carnegie the rights to\nredistribute these changes."

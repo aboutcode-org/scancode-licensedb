@@ -7,3 +7,42 @@ homepage_url: https://github.com/supertunaman/cdl/blob/master/COPYING
 spdx_license_key: LicenseRef-scancode-chicken-dl-0.2
 ignorable_urls:
   - http://supertunaman.com/cdl/
+text: "Chicken Dance License v0.2\nhttp://supertunaman.com/cdl/\n\nRedistribution and use in\
+  \ source and binary forms, with \nor without modification, are permitted provided that the\
+  \ \nfollowing conditions are met:\n\n    1. Redistributions of source code must retain the\
+  \ \n        above copyright notice, this list of conditions and \n        the following disclaimer.\n\
+  \    2. Redistributions in binary form must reproduce the \n        above copyright notice,\
+  \ this list of conditions and \n        the following disclaimer in the documentation and/or\
+  \ \n        other materials provided with the distribution.\n    3. Neither the name of the\
+  \ <ORGANIZATION> nor the names \n        of its contributors may be used to endorse or promote\
+  \ \n        products derived from this software without specific \n        prior written permission.\n\
+  \    4. An entity wishing to redistribute in binary form or \n        include this software\
+  \ in their product without \n        redistribution of this software's source code with the\
+  \ \n        product must also submit to these conditions where \n        applicable: \n  \
+  \          * For every thousand (1000) units distributed, at \n                least half\
+  \ of the employees or persons \n                affiliated with the product must listen to\
+  \ the \n                \"Der Ententanz\" (AKA \"The Chicken Dance\") as \n              \
+  \  composed by Werner Thomas for no less than two \n                (2) minutes\n        \
+  \    * For every twenty-thousand (20000) units distributed, \n                one (1) or more\
+  \ persons affiliated with the entity \n                must be recorded performing the full\
+  \ Chicken Dance, \n                in an original video at the entity's own expense,\n   \
+  \             and a video encoded in OGG Theora format or a format\n                and codec\
+  \ specified by <OWNER>, at least three (3) \n                minutes in length, must be submitted\
+  \ to <OWNER>, \n                provided <OWNER>'s contact information. Any and all\n    \
+  \            copyrights to this video must be transfered to \n                <ORGANIZATION>.\
+  \ The dance featured in the video\n                must be based upon the instructions on\
+  \ how to perform \n                the Chicken Dance that you should have received with\n\
+  \                this software. \n            * Any employee or person affiliated with the\
+  \ product \n                must be prohibited from saying the word \"gazorninplat\" in \n\
+  \                public at all times, as long as distribution of the \n                product\
+  \ continues. \n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \n\"\
+  AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT \nLIMITED TO, THE IMPLIED\
+  \ WARRANTIES OF MERCHANTABILITY AND FITNESS \nFOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN\
+  \ NO EVENT SHALL THE \nCOPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,\
+  \ \nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, \nBUT NOT LIMITED\
+  \ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; \nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS\
+  \ INTERRUPTION) HOWEVER \nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\
+  \ \nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN \nANY WAY OUT OF THE\
+  \ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE \nPOSSIBILITY OF SUCH DAMAGE. <ORGANIZATION>\
+  \ ACCEPTS NO LIABILITY FOR\nANY INJURIES OR EXPENSES SUSTAINED IN THE ACT OF FULFILLING ANY\
+  \ OF \nTHE ABOVE TERMS AND CONDITIONS, ACCIDENTAL OR OTHERWISE."

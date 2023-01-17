@@ -13,5 +13,6 @@
     "https://fedoraproject.org/wiki/Licensing/FSFAP",
     "https://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html"
   ],
-  "minimum_coverage": 85
+  "minimum_coverage": 85,
+  "text": "Copying and distribution of this file, with or without modification, are\npermitted in any medium without royalty provided the copyright notice\nand this notice are preserved. This file is offered as-is, without any\nwarranty."
 }

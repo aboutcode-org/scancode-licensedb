@@ -7,3 +7,6 @@ spdx_license_key: LicenseRef-scancode-dennis-ferguson
 text_urls:
   - http://web.mit.edu/jhawk/mnt/spo/netbsd/src/domestic/dist/krb5/src/lib/crypto/des/f_cbc.c
   - http://web.mit.edu/jhawk/mnt/spo/netbsd/src/domestic/dist/krb5/src/lib/des425/pcbc_encrypt.c
+text: "Commercial use is permitted only if products which are derived from or include\nthis\
+  \ software are made available for purchase and/or use in Canada. \nOtherwise, redistribution\
+  \ and use in source and binary forms are permitted."

@@ -11,5 +11,6 @@
   ],
   "other_urls": [
     "http://www.netlib.org/lapack/"
-  ]
+  ],
+  "text": "The reference BLAS is a freely-available software package. It is\navailable from netlib via anonymous ftp and the World Wide Web. Thus,\nit can be included in commercial software packages (and has been). We\nonly ask that proper credit be given to the authors.\n\nLike all software, it is copyrighted. It is not trademarked, but we do\nask the following:\n\nIf you modify the source for these routines we ask that you change the\nname of the routine and comment the changes made to the original.\n\nWe will gladly answer any questions regarding the software. If a\nmodification is done, however, it is the responsibility of the person\nwho modified the routine to provide support"
 }

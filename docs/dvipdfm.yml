@@ -8,3 +8,7 @@ notes: |
   Per Fedora, "should" does not mean "must", and there are implied rights for
   unlimited copying and distribution rights for unmodified versions.
 spdx_license_key: dvipdfm
+text: |
+  A modified version of this file may be distributed, but it should be distributed
+  with a *different* name. Changed files must be distributed *together with a
+  complete and unchanged* distribution of these files.

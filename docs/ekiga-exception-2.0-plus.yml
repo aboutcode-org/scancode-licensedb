@@ -28,3 +28,8 @@ standard_notice: |
   programs, as long as you do follow the requirements of the GNU GPL for all
   the
   rest of the software thus combined.
+text: "Ekiga/GnomeMeeting is licensed under the GNU GPL license and as a special \nexception,\
+  \ you have permission to link or otherwise combine this program with \nthe programs OPAL,\
+  \ OpenH323, PWLIB, and OpenSSL, and distribute \nthe combination, without applying the requirements\
+  \ of the GNU GPL to these \nprograms, as long as you do follow the requirements of the GNU\
+  \ GPL for all the\nrest of the software thus combined."

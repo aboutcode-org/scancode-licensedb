@@ -8,3 +8,127 @@ spdx_license_key: LicenseRef-scancode-oracle-bcl-jsse-1.0.3
 ignorable_urls:
   - http://www.oracle.com/products/export
   - http://www.oracle.com/us/legal/third-party-trademarks/index.html
+text: "Oracle Binary Code License Agreement for Java Secure Sockets Extension 1.0.3\nfor Connected\
+  \ Device Configuration 1.0.2\n\nORACLE AMERICA, INC. (\"ORACLE\"), FOR AND ON BEHALF OF ITSELF\
+  \ AND ITS\nSUBSIDIARIES AND AFFILIATES UNDER COMMON CONTROL, IS WILLING TO LICENSE THE\nSOFTWARE\
+  \ TO YOU ONLY UPON THE CONDITION THAT YOU ACCEPT ALL OF THE TERMS\nCONTAINED IN THIS BINARY\
+  \ CODE LICENSE AGREEMENT AND SUPPLEMENTAL LICENSE\nTERMS (COLLECTIVELY \"AGREEMENT\"). PLEASE\
+  \ READ THE AGREEMENT CAREFULLY. BY\nSELECTING THE \"ACCEPT LICENSE AGREEMENT\" (OR THE EQUIVALENT)\
+  \ BUTTON AND/OR BY\nUSING THE SOFTWARE YOU ACKNOWLEDGE THAT YOU HAVE READ THE TERMS AND AGREE\
+  \ TO\nTHEM. IF YOU ARE AGREEING TO THESE TERMS ON BEHALF OF A COMPANY OR OTHER\nLEGAL ENTITY,\
+  \ YOU REPRESENT THAT YOU HAVE THE LEGAL AUTHORITY TO BIND THE\nLEGAL ENTITY TO THESE TERMS.\
+  \ IF YOU DO NOT HAVE SUCH AUTHORITY, OR IF YOU DO\nNOT WISH TO BE BOUND BY THE TERMS, THEN\
+  \ SELECT THE \"DECLINE LICENSE\nAGREEMENT\" (OR THE EQUIVALENT) BUTTON AND YOU MUST NOT USE\
+  \ THE SOFTWARE ON\nTHIS SITE OR ANY OTHER MEDIA ON WHICH THE SOFTWARE IS CONTAINED.\n\n1.\
+  \ DEFINITIONS. \"Software\" means the software identified above in binary\nform that you selected\
+  \ for download, install or use (in the version You\nselected for download, install or use)\
+  \ from Oracle or its authorized\nlicensees, any other machine readable materials (including,\
+  \ but not limited\nto, libraries, source files, header files, and data files), any updates\n\
+  or error corrections provided by Oracle, and any user manuals, programming\nguides and other\
+  \ documentation provided to you by Oracle under this\nAgreement. \"Programs\" means Java technology\
+  \ applets and applications\nintended to run on the Java Platform, Micro Edition platform.\
+  \ \"README File\"\nmeans the README file for the Software set forth in the Software or otherwise\n\
+  available from Oracle.\n\n2. LICENSE TO USE. Subject to the terms and conditions of this Agreement\n\
+  including, but not limited to, the Java Technology Restrictions of the\nSupplemental License\
+  \ Terms, Oracle grants you a non-exclusive, nontransferable,\nlimited license without license\
+  \ fees to reproduce and use\ninternally the Software complete and unmodified for the sole\
+  \ purpose of\nrunning Programs.\n\n3. RESTRICTIONS. Software is copyrighted. Title to Software\
+  \ and all\nassociated intellectual property rights is retained by Oracle and/or its\nlicensors.\
+  \ Unless enforcement is prohibited by applicable law, you may not\nmodify, decompile, or reverse\
+  \ engineer Software. You acknowledge that the\nSoftware is developed for general use in a\
+  \ variety of information management\napplications; it is not developed or intended for use\
+  \ in any inherently\ndangerous applications, including applications that may create a risk\
+  \ of\npersonal injury. If you use the Software in dangerous applications, then you\nshall\
+  \ be responsible to take all appropriate fail-safe, backup, redundancy,\nand other measures\
+  \ to ensure its safe use. Oracle disclaims any express or\nimplied warranty of fitness for\
+  \ such uses. No right, title or interest in or\nto any trademark, service mark, logo or trade\
+  \ name of Oracle or its licensors\nis granted under this Agreement. Additional restrictions\
+  \ for developers are\nset forth in the Supplemental License Terms.\n\n4. DISCLAIMER OF WARRANTY.\
+  \ THE SOFTWARE IS PROVIDED \"AS IS\" WITHOUT\nWARRANTY OF ANY KIND. ORACLE FURTHER DISCLAIMS\
+  \ ALL WARRANTIES, EXPRESS AND\nIMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES\
+  \ OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.\n\n5. LIMITATION\
+  \ OF LIABILITY. IN NO EVENT SHALL ORACLE BE LIABLE FOR ANY\nINDIRECT, INCIDENTAL, SPECIAL,\
+  \ PUNITIVE OR CONSEQUENTIAL DAMAGES, OR DAMAGES\nFOR LOSS OF PROFITS, REVENUE, DATA OR DATA\
+  \ USE, INCURRED BY YOU OR ANY THIRD\nPARTY, WHETHER IN AN ACTION IN CONTRACT OR TORT, EVEN\
+  \ IF ORACLE HAS BEEN\nADVISED OF THE POSSIBILITY OF SUCH DAMAGES. ORACLE'S ENTIRE LIABILITY\
+  \ FOR\nDAMAGES HEREUNDER SHALL IN NO EVENT EXCEED ONE THOUSAND DOLLARS (U.S.\n$1,000).\n\n\
+  6. TERMINATION. This Agreement is effective until terminated. You may\nterminate this Agreement\
+  \ at any time by destroying all copies of Software.\nThis Agreement will terminate immediately\
+  \ without notice from Oracle if you\nfail to comply with any provision of this Agreement.\
+  \ Either party may\nterminate this Agreement immediately should any Software become, or in\
+  \ either\nparty's opinion be likely to become, the subject of a claim of infringement\nof\
+  \ any intellectual property right. Upon termination, you must destroy all\ncopies of Software.\n\
+  \n7. EXPORT REGULATIONS. You agree that U.S. export control laws and other\napplicable export\
+  \ and import laws govern your use of the Software, including\ntechnical data; additional information\
+  \ can be found on Oracle's Global Trade\nCompliance web site (http://www.oracle.com/products/export).\
+  \ You agree that\nneither the Software nor any direct product thereof will be exported,\n\
+  directly, or indirectly, in violation of these laws, or will be used for any\npurpose prohibited\
+  \ by these laws including, without limitation, nuclear,\nchemical, or biological weapons proliferation.\n\
+  \n8. TRADEMARKS AND LOGOS. You acknowledge and agree as between you and\nOracle that Oracle\
+  \ owns the ORACLE and JAVA trademarks and all ORACLE- and\nJAVA-related trademarks, service\
+  \ marks, logos and other brand designations\n(\"Oracle Marks\"), and you agree to comply with\
+  \ the Third Party Usage\nGuidelines for Oracle Trademarks currently located at\nhttp://www.oracle.com/us/legal/third-party-trademarks/index.html.\
+  \ Any\nuse you make of the Oracle Marks inures to Oracle's benefit.\n\n9. U.S. GOVERNMENT\
+  \ LICENSE RIGHTS. If Software is being acquired by or on\nbehalf of the U.S. Government or\
+  \ by a U.S. Government prime contractor or\nsubcontractor (at any tier), then the Government's\
+  \ rights in Software and\naccompanying documentation shall be only those set forth in this\
+  \ Agreement.\n\n10. GOVERNING LAW. This agreement is governed by the substantive and\nprocedural\
+  \ laws of California. You and Oracle agree to submit to the\nexclusive jurisdiction of, and\
+  \ venue in, the courts of San Francisco, or\nSanta Clara counties in California in any dispute\
+  \ arising out of or relating\nto this agreement.\n\n11. SEVERABILITY. If any provision of\
+  \ this Agreement is held to be\nunenforceable, this Agreement will remain in effect with the\
+  \ provision\nomitted, unless omission would frustrate the intent of the parties, in which\n\
+  case this Agreement will immediately terminate.\n\n12. INTEGRATION. This Agreement is the\
+  \ entire agreement between you and\nOracle relating to its subject matter. It supersedes all\
+  \ prior or\ncontemporaneous oral or written communications, proposals, representations\nand\
+  \ warranties and prevails over any conflicting or additional terms of any\nquote, order, acknowledgment,\
+  \ or other communication between the parties\nrelating to its subject matter during the term\
+  \ of this Agreement. No \nmodification of this Agreement will be binding, unless in writing\
+  \ and signed\nby an authorized representative of each party.\n\nSUPPLEMENTAL LICENSE TERMS\n\
+  These Supplemental License Terms add to or modify the terms of the Binary\nCode License Agreement.\
+  \ Capitalized terms not defined in these Supplemental\nTerms shall have the same meanings\
+  \ ascribed to them in the Binary Code\nLicense Agreement. These Supplemental Terms shall supersede\
+  \ any inconsistent\nor conflicting terms in the Binary Code License Agreement, or in any license\n\
+  contained within the Software.\n\nA. SOFTWARE INTERNAL USE FOR DEVELOPMENT LICENSE GRANT.\
+  \ Subject to the\nterms and conditions of this Agreement and restrictions and exceptions set\n\
+  forth in the README File incorporated herein by reference, including, but not\nlimited to\
+  \ the Java Technology Restrictions of these Supplemental Terms,\nOracle grants you a non-exclusive,\
+  \ non-transferable, limited license without\nfees to reproduce internally and use internally\
+  \ the Software complete and\nunmodified for the purpose of designing, developing, and testing\
+  \ your\nPrograms.\n\nB. LICENSE TO DISTRIBUTE SOFTWARE. Subject to the terms and conditions\
+  \ of\nthis Agreement and restrictions and exceptions set forth in the README File,\nincluding,\
+  \ but not limited to the Java Technology Restrictions of these\nSupplemental Terms, Oracle\
+  \ grants you a non-exclusive, non-transferable,\nlimited license without fees to reproduce\
+  \ and distribute the Software,\nprovided that (i) you distribute the Software complete and\
+  \ unmodified and\nonly bundled as part of, and for the sole purpose of running, your Programs,\n\
+  (ii) the Programs add significant and primary functionality to the Software,\n(iii) you do\
+  \ not distribute additional software intended to replace any\ncomponent(s) of the Software,\
+  \ (iv) you do not remove or alter any proprietary\nlegends or notices contained in the Software,\
+  \ (v) you only distribute the\nSoftware subject to a license agreement that protects Oracle's\
+  \ interests\nconsistent with the terms contained in this Agreement, (vi) you only\ndistribute\
+  \ the Software tightly integrated and configured to run with your\nimplementation of JSR 36\
+  \ (Connected Device Configuration) and JSR 46\nFoundation Profile; (vii) you have a valid\
+  \ license from Oracle for JSR 36\n(Connected Device Configuration) and JSR 46 Foundation Profile,\
+  \ and (viii)\nyou agree to defend and indemnify Oracle and its licensors from and against\n\
+  any damages, costs, liabilities, settlement amounts and/or expenses\n(including attorneys'\
+  \ fees) incurred in connection with any claim, lawsuit\nor action by any third party that\
+  \ arises or results from the use or\ndistribution of any and all Programs and/or Software.\n\
+  \nC. JAVA TECHNOLOGY RESTRICTIONS. You may not create, modify, or change the\nbehavior of,\
+  \ or authorize your licensees to create, modify, or change the\nbehavior of, classes, interfaces,\
+  \ or subpackages that are in any way\nidentified as \"java\", \"javax\", \"javafx\", \"javaee\"\
+  , \"sun\", \"oracle\" or\nsimilar convention as specified by Oracle in any naming convention\n\
+  designation.\n\nD. SOURCE CODE. Software may contain source code that, unless expressly\n\
+  licensed for other purposes, is provided solely for reference purposes\npursuant to the terms\
+  \ of this Agreement. Source code may not be\nredistributed unless expressly provided for in\
+  \ this Agreement.\n\nE. THIRD PARTY CODE. Additional copyright notices and license terms\n\
+  applicable to portions of the Software are set forth in the\nTHIRDPARTYLICENSEREADME file\
+  \ set forth in the Software or otherwise available\nfrom Oracle. In addition to any terms\
+  \ and conditions of any third party\nopensource/freeware license identified in the THIRDPARTYLICENSEREADME\
+  \ file,\nthe disclaimer of warranty and limitation of liability provisions in\nparagraphs\
+  \ 4 and 5 of the Binary Code License Agreement shall apply to all\nSoftware in this distribution.\n\
+  \nF. TERMINATION FOR INFRINGEMENT. Either party may terminate this Agreement\nimmediately\
+  \ should any Software become, or in either party's opinion be\nlikely to become, the subject\
+  \ of a claim of infringement of any intellectual\nproperty right.\n\nFor inquiries please\
+  \ contact: Oracle America, Inc., 500 Oracle Parkway,\nRedwood Shores, California 94065, USA.\n\
+  \nLicense for Archived Java Secure Sockets Extension 1.0.3 for Connected Device\nConfiguration\
+  \ 1.0.2; Last updated 9 March 2012"

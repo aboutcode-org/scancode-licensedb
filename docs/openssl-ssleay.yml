@@ -30,3 +30,68 @@ ignorable_emails:
   - eay@cryptsoft.com
   - openssl-core@openssl.org
   - tjh@cryptsoft.com
+text: "LICENSE ISSUES\n  ==============\n\n  The OpenSSL toolkit stays under a dual license,\
+  \ i.e. both the conditions of\n  the OpenSSL License and the original SSLeay license apply\
+  \ to the toolkit.\n  See below for the actual license texts. Actually both licenses are BSD-style\n\
+  \  Open Source licenses. In case of any license issues related to OpenSSL\n  please contact\
+  \ openssl-core@openssl.org.\n\n  OpenSSL License\n  ---------------\n\nRedistribution and\
+  \ use in source and binary forms, with or without\nmodification, are permitted provided that\
+  \ the following conditions\nare met:\n\n1. Redistributions of source code must retain the\
+  \ above copyright\n   notice, this list of conditions and the following disclaimer. \n\n2.\
+  \ Redistributions in binary form must reproduce the above copyright\n   notice, this list\
+  \ of conditions and the following disclaimer in\n   the documentation and/or other materials\
+  \ provided with the\n   distribution.\n\n3. All advertising materials mentioning features\
+  \ or use of this\n   software must display the following acknowledgment:\n   \"This product\
+  \ includes software developed by the OpenSSL Project\n   for use in the OpenSSL Toolkit. (http://www.openssl.org/)\"\
+  \n\n4. The names \"OpenSSL Toolkit\" and \"OpenSSL Project\" must not be used to\n   endorse\
+  \ or promote products derived from this software without\n   prior written permission. For\
+  \ written permission, please contact\n   openssl-core@openssl.org.\n\n5. Products derived\
+  \ from this software may not be called \"OpenSSL\"\n   nor may \"OpenSSL\" appear in their\
+  \ names without prior written\n   permission of the OpenSSL Project.\n\n6. Redistributions\
+  \ of any form whatsoever must retain the following\n   acknowledgment:\n   \"This product\
+  \ includes software developed by the OpenSSL Project\n   for use in the OpenSSL Toolkit (http://www.openssl.org/)\"\
+  \n\nTHIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY\nEXPRESSED OR IMPLIED\
+  \ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND\
+  \ FITNESS FOR A PARTICULAR\nPURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT\
+  \ OR\nITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY,\
+  \ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\nNOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\
+  \ OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND\
+  \ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\nSTRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\
+  \ OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\nOF THE\
+  \ POSSIBILITY OF SUCH DAMAGE.\n\n\nThis product includes cryptographic software written by\
+  \ Eric Young\n(eay@cryptsoft.com).  This product includes software written by Tim\nHudson\
+  \ (tjh@cryptsoft.com).\n\n\n Original SSLeay License\n -----------------------\n\nCopyright\
+  \ (C) 1995-1998 Eric Young (eay@cryptsoft.com)\nAll rights reserved.\n\nThis package is an\
+  \ SSL implementation written\nby Eric Young (eay@cryptsoft.com).\nThe implementation was written\
+  \ so as to conform with Netscapes SSL.\n\nThis library is free for commercial and non-commercial\
+  \ use as long as\nthe following conditions are aheared to.  The following conditions\napply\
+  \ to all code found in this distribution, be it the RC4, RSA,\nlhash, DES, etc., code; not\
+  \ just the SSL code.  The SSL documentation\nincluded with this distribution is covered by\
+  \ the same copyright terms\nexcept that the holder is Tim Hudson (tjh@cryptsoft.com).\n\n\
+  Copyright remains Eric Young's, and as such any Copyright notices in\nthe code are not to\
+  \ be removed.\nIf this package is used in a product, Eric Young should be given attribution\n\
+  as the author of the parts of the library used.\nThis can be in the form of a textual message\
+  \ at program startup or\nin documentation (online or textual) provided with the package.\n\
+  \nRedistribution and use in source and binary forms, with or without\nmodification, are permitted\
+  \ provided that the following conditions\nare met:\n1. Redistributions of source code must\
+  \ retain the copyright\n   notice, this list of conditions and the following disclaimer.\n\
+  2. Redistributions in binary form must reproduce the above copyright\n   notice, this list\
+  \ of conditions and the following disclaimer in the\n   documentation and/or other materials\
+  \ provided with the distribution.\n3. All advertising materials mentioning features or use\
+  \ of this software\n   must display the following acknowledgement:\n   \"This product includes\
+  \ cryptographic software written by\n    Eric Young (eay@cryptsoft.com)\"\n   The word 'cryptographic'\
+  \ can be left out if the rouines from the library\n   being used are not cryptographic related\
+  \ :-).\n4. If you include any Windows specific code (or a derivative thereof) from \n   the\
+  \ apps directory (application code) you must include an acknowledgement:\n   \"This product\
+  \ includes software written by Tim Hudson (tjh@cryptsoft.com)\"\n\nTHIS SOFTWARE IS PROVIDED\
+  \ BY ERIC YOUNG ``AS IS'' AND\nANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\
+  \ TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE\
+  \ DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT,\
+  \ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO,\
+  \ PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\
+  \ INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\n\
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\nOUT OF THE USE\
+  \ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE.\n\nThe licence and\
+  \ distribution terms for any publically available version or\nderivative of this code cannot\
+  \ be changed.  i.e. this code cannot simply be\ncopied and put under another distribution\
+  \ licence\n[including the GNU Public Licence.]"

@@ -5,5 +5,6 @@
   "category": "Copyleft",
   "owner": "Unspecified",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-strongswan-exception"
+  "spdx_license_key": "LicenseRef-scancode-strongswan-exception",
+  "text": "Linking strongSwan statically or dynamically with other modules is making a\ncombined work based on strongSwan. Thus, the terms and conditions of the GNU\nGeneral Public License cover the whole combination.\n\nIn addition, as a special exception, the copyright holders of strongSwan give\nyou permission to combine strongSwan with free software programs or libraries\nthat are released under the GNU LGPL and with code included in the standard\nrelease of the OpenSSL project's OpenSSL library under the OpenSSL or SSLeay\nlicenses (or modified versions of such code, with unchanged license). You may\ncopy and distribute such a system following the terms of the GNU GPL for\nstrongSwan and the licenses of the other code concerned, provided that you\ninclude the source code of that other code when and as the GNU GPL requires\ndistribution of source code.\n\nNote that people who make modified versions of strongSwan are not obligated to\ngrant this special exception for their modified versions; it is their choice\nwhether to do so. The GNU General Public License gives permission to release a\nmodified version without this exception; this exception also makes it possible\nto release a modified version which carries forward this exception."
 }

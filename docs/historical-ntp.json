@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Unspecified",
   "notes": "a rare permission notice found in a few pre-1990 files by HP found in NTP\nadjtimed/adjtimed.c include/adjtime.h and libntp/adjtime.c\n",
-  "spdx_license_key": "LicenseRef-scancode-historical-ntp"
+  "spdx_license_key": "LicenseRef-scancode-historical-ntp",
+  "text": "Permission is hereby granted for unlimited modification, use, and\ndistribution.  This software is made available with no warranty of any\nkind, express or implied.  This copyright notice must remain intact in\nall versions of this software.\n\nThe author would appreciate it if any bug fixes and enhancements were\nto be sent back to him for incorporation into future versions of this\nsoftware."
 }

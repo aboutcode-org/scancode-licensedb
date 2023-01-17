@@ -6,5 +6,6 @@
   "category": "Permissive",
   "owner": "Michael R Sweet",
   "homepage_url": "https://github.com/michaelrsweet/mxml/blob/c44aa254ccd90b10b260f04cf9e499bbf971c257/NOTICE",
-  "is_exception": true
+  "is_exception": true,
+  "text": "(Optional) Exceptions to the Apache 2.0 License:\n================================================\n\nIn addition, if you combine or link compiled forms of this Software with\nsoftware that is licensed under the GPLv2 or LGPLv2 (\u201cCombined Software\u201d) and if\na court of competent jurisdiction determines that the patent provision (Section\n3), the indemnity provision (Section 9) or other Section of the License\nconflicts with the conditions of the GPLv2 or LGPLv2, you may retroactively and\nprospectively choose to deem waived or otherwise exclude such Section(s) of the\nLicense, but only in their entirety and only with respect to the Combined\nSoftware."
 }

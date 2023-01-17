@@ -8,3 +8,18 @@ spdx_license_key: LicenseRef-scancode-quirksmode
 ignorable_urls:
   - http://www.quirksmode.org/
   - http://www.quirksmode.org/about/copyright.html
+text: "Quirksmode Copyright Notice\nhttp://www.quirksmode.org/about/copyright.html \n\nCopyright\n\
+  I don't believe in copyrights for JavaScript or CSS solutions. This means my site is largely\
+  \ free of boring copyright notices. Largely, not entirely. There are a few exceptions.\n\n\
+  You may\nYou may copy, tweak, rewrite, sell or lease any code example on this site, with one\
+  \ single exception.\nYou may translate any page you like to any language you like, provided\n\
+  •\tthe translation will be available online free of charge\n•\tyou prominently display a link\
+  \ to the original at the top of your translation\n•\tyou send me the URL when the translation\
+  \ is ready. I will link to your translation from my original page\nThis copyright notice itself\
+  \ does not have a copyright notice; feel free to copy it if you like it. (Seriously, I get\
+  \ this question from time to time.)\n\nYou may not\nYou may not copy complete pages or this\
+  \ entire site and put them online on a publicly accessible web space. The only public URL\
+  \ of this site is http://www.quirksmode.org \nThe Usable Forms script is copyrighted. It is\
+  \ perhaps the most important script I ever wrote, not for what it does but for the way it\
+  \ does it. Therefore I wish to claim the credits.\nUse it in any way you like as long as you\
+  \ leave my copyright notice intact."

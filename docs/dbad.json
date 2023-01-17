@@ -6,5 +6,6 @@
   "owner": "Unspecified",
   "homepage_url": "https://dbad-license.org",
   "notes": "From https://github.com/ErikMcClure/bad-licenses",
-  "spdx_license_key": "LicenseRef-scancode-dbad"
+  "spdx_license_key": "LicenseRef-scancode-dbad",
+  "text": "Everyone is permitted to copy and distribute verbatim or modified copies of this license document.\n\n\nDON'T BE A DICK PUBLIC LICENSE TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\nDo whatever you like with the original work, just don't be a dick.\n\nBeing a dick includes - but is not limited to - the following instances:\n\n1a. Outright copyright infringement - Don't just copy this and change the name.\n1b. Selling the unmodified original with no work done what-so-ever, that's REALLY being a dick.\n1c. Modifying the original work to contain hidden harmful content. That would make you a PROPER dick.\n\nIf you become rich through modifications, related works/services, or supporting the original work, share the love. Only a dick would make loads off this work and not buy the original work's creator(s) a pint.\n\nCode is provided with no warranty. Using somebody else's code and bitching when it goes wrong makes you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix back."
 }

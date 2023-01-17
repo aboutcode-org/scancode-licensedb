@@ -6,3 +6,10 @@ owner: ARM
 spdx_license_key: LicenseRef-scancode-arm-cortex-mx
 text_urls:
   - https://github.com/bitcraze/crazyflie-bootloader/blob/master/stlib/CMSIS/Core/CM3/core_cm3.c
+text: "ARM Limited (ARM) is supplying this software for use with Cortex-Mx \nprocessor based\
+  \ microcontrollers.  This file can be freely distributed \nwithin development tools that are\
+  \ supporting such ARM based processors. \n\nTHIS SOFTWARE IS PROVIDED \"AS IS\".  NO WARRANTIES,\
+  \ WHETHER EXPRESS, IMPLIED\nOR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES\
+  \ OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.\nARM SHALL\
+  \ NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR\nCONSEQUENTIAL DAMAGES,\
+  \ FOR ANY REASON WHATSOEVER."

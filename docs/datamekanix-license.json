@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "DataMekanix",
   "homepage_url": "http://www.datamekanix.com/sizecbar/",
-  "spdx_license_key": "LicenseRef-scancode-datamekanix-license"
+  "spdx_license_key": "LicenseRef-scancode-datamekanix-license",
+  "text": "This code is free for personal and commercial use, providing the copyright\nnotice remains intact in the source files and all eventual changes are clearly\nmarked with comments.\n\nNo warrantee of any kind, express or implied, is included with this software;\nuse at your own risk, responsibility for damages (if any) to anyone resulting\nfrom the use of this software rests entirely with the user."
 }

@@ -4,5 +4,6 @@
   "name": "Cavium malloc License",
   "category": "Permissive",
   "owner": "Cavium",
-  "spdx_license_key": "LicenseRef-scancode-cavium-malloc"
+  "spdx_license_key": "LicenseRef-scancode-cavium-malloc",
+  "text": "Permission to use, copy, modify, distribute, and sell this software and its\ndocumentation for any purpose is hereby granted without fee, provided that (i)\nthe above copyright notices and this permission notice appear in all copies of\nthe software and related documentation, and (ii) the name of Wolfram Gloger may\nnot be used in any advertising or publicity relating to the software.\n\nTHE SOFTWARE IS PROVIDED \"AS-IS\" AND WITHOUT WARRANTY OF ANY KIND,\nEXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY\nWARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.\n\nIN NO EVENT SHALL WOLFRAM GLOGER BE LIABLE FOR ANY SPECIAL,\nINCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY\nDAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,\nWHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY\nOF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE."
 }

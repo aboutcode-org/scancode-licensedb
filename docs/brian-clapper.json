@@ -11,5 +11,6 @@
   ],
   "ignorable_emails": [
     "bmc@clapper.org"
-  ]
+  ],
+  "text": "Redistribution and use in source and binary forms are\npermitted provided that: (1) source distributions retain\nthis entire copyright notice and comment; (2) modifications\nmade to the software are prominently mentioned, and a copy\nof the original software (or a pointer to its location) are\nincluded; and (3) distributions including binaries display\nthe following acknowledgement: \"This product includes\nsoftware developed by Brian M. Clapper <bmc@clapper.org>\"\nin the documentation or other materials provided with the\ndistribution. The name of the author may not be used to\nendorse or promote products derived from this software\nwithout specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS\nOR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\nPARTICULAR PURPOSE.\n\nEffectively, this means you can do what you want with the software\nexcept remove this notice or take advantage of the author's name.\nIf you modify the software and redistribute your modified version,\nyou must indicate that your version is a modification of the\noriginal, and you must provide either a pointer to or a copy of the\noriginal."
 }

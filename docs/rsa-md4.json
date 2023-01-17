@@ -4,5 +4,6 @@
   "name": "RSA Data Security MD4",
   "category": "Permissive",
   "owner": "RSA (the Security Division of EMC)",
-  "spdx_license_key": "LicenseRef-scancode-rsa-md4"
+  "spdx_license_key": "LicenseRef-scancode-rsa-md4",
+  "text": "License to copy and use this software is granted provided that it\nis identified as the \"RSA Data Security, Inc. MD4 Message-Digest\nAlgorithm\" in all material mentioning or referencing this software\nor this function.\n\nLicense is also granted to make and use derivative works provided\nthat such works are identified as \"derived from the RSA Data\nSecurity, Inc. MD4 Message-Digest Algorithm\" in all material\nmentioning or referencing the derived work.\n\nRSA Data Security, Inc. makes no representations concerning either\nthe merchantability of this software or the suitability of this\nsoftware for any particular purpose. It is provided \"as is\"\nwithout express or implied warranty of any kind.\n\nThese notices must be retained in any copies of any part of this\ndocumentation and/or software."
 }

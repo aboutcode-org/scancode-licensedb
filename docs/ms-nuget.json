@@ -5,5 +5,6 @@
   "category": "Proprietary Free",
   "owner": "Microsoft",
   "notes": "this notice is often found in Nuget packages added by Microsoft on top of\nother open source Attribution licenses, such as with jQuery.\n",
-  "spdx_license_key": "LicenseRef-scancode-ms-nuget"
+  "spdx_license_key": "LicenseRef-scancode-ms-nuget",
+  "text": "NUGET: BEGIN LICENSE TEXT\nMicrosoft grants you the right to use these script files for the sole\npurpose of either: \n\n(i) interacting through your browser with the Microsoft website or\nonline service, subject to the applicable licensing or use terms;\n\nor (ii) using the files as included with a Microsoft product subject to\nthat product's license terms. Microsoft reserves all other rights to the\nfiles not expressly granted by Microsoft, whether by implication,\nestoppel or otherwise.\n\nInsofar as a script file is dual licensed under GPL, Microsoft neither\ntook the code under GPL nor distributes it thereunder but under the\nterms set out in this paragraph. All notices and licenses below are for\ninformational purposes only.\nNUGET: END LICENSE TEXT"
 }

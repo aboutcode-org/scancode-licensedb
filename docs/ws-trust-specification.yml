@@ -7,3 +7,23 @@ homepage_url: https://en.wikipedia.org/wiki/WS-Trust
 spdx_license_key: LicenseRef-scancode-ws-trust-specification
 other_urls:
   - http://central.maven.org/maven2/org/apache/wss4j/wss4j-ws-security-stax/2.1.5/wss4j-ws-security-stax-2.1.5.jar
+text: "WS-Trust Specification\n\nPermission to copy and display the WS-Trust Specification (the\
+  \ \"Specification\", which \nincludes WSDL and schema documents), in any medium without fee\
+  \ or royalty \nis hereby granted, provided that you include the following on ALL copies of\
+  \ the \nSpecification, that you make:\n\n1.  A link or URL to the Specification at one of\
+  \ the Authors' websites\n2. The copyright notice as shown in the Specification.\n\nIBM, Microsoft\
+  \ and Actional, BEA, Computer Associates, Layer 7, Netegrity, Oblix, \nOpenNetwork, Ping Identity,\
+  \ Reactivity, and Verisign (collectively, the \"Authors\") each \nagree to grant you a license,\
+  \ under royalty-free and otherwise reasonable, \nnon-discriminatory terms and conditions,\
+  \ to their respective essential patent claims \nthat they deem necessary to implement the\
+  \ Specification.\n\nTHE SPECIFICATION IS PROVIDED \"AS IS,\" AND THE AUTHORS MAKE \nNO REPRESENTATIONS\
+  \ OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT \nNOT LIMITED TO, WARRANTIES OF MERCHANTABILITY,\
+  \ FITNESS FOR A \nPARTICULAR PURPOSE, NON-INFRINGEMENT, OR TITLE; THAT THE CONTENTS OF \n\
+  THE SPECIFICATION ARE SUITABLE FOR ANY PURPOSE; NOR THAT THE \nIMPLEMENTATION OF SUCH CONTENTS\
+  \ WILL NOT INFRINGE ANY THIRD PARTY \nPATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\n\n\
+  THE AUTHORS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, \nINCIDENTAL OR CONSEQUENTIAL\
+  \ DAMAGES ARISING OUT OF OR RELATING TO ANY \nUSE OR DISTRIBUTION OF THE SPECIFICATION.\n\n\
+  The name and trademarks of the Authors may NOT be used in any manner, \nincluding advertising\
+  \ or publicity pertaining to the Specification or \nits contents without specific, written\
+  \ prior permission. Title to \ncopyright in the Specification will at all times remain with\
+  \ the Authors.\n\nNo other rights are granted by implication, estoppel or otherwise."

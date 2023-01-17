@@ -6,5 +6,6 @@
   "owner": "Unspecified",
   "homepage_url": "https://fedoraproject.org/wiki/Licensing/dvipdfm",
   "notes": "Per Fedora, \"should\" does not mean \"must\", and there are implied rights for\nunlimited copying and distribution rights for unmodified versions.\n",
-  "spdx_license_key": "dvipdfm"
+  "spdx_license_key": "dvipdfm",
+  "text": "A modified version of this file may be distributed, but it should be distributed\nwith a *different* name. Changed files must be distributed *together with a\ncomplete and unchanged* distribution of these files."
 }

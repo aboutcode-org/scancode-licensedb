@@ -10,5 +10,6 @@
   "is_exception": true,
   "text_urls": [
     "http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-  ]
+  ],
+  "text": "This library is free software; you can redistribute it and/or modify it under the\nterms of the GNU General Public License as published by the Free Software Foundation;\neither version 2, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY\nWARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A\nPARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this\nlibrary; see the file COPYING.  If not, write to the Free Software Foundation, 51\nFranklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nAs a special exception to GPL, any HTML file which merely makes function calls to\nthis code, and for that purpose includes it by reference shall be deemed a separate\nwork for copyright law purposes. In addition, the copyright holders of this code give\nyou permission to combine this code with free software libraries that are released\nunder the GNU LGPL. You may copy and distribute such a system following the terms of\nthe GNU GPL for this code and the LGPL for the libraries. If you modify this code,\nyou may extend this exception to your version of the code, but you are not obligated\nto do so. If you do not wish to do so, delete this exception statement from your\nversion."
 }

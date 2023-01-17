@@ -7,3 +7,8 @@ homepage_url: http://isorecorder.alexfeinman.com/v1.htm
 spdx_license_key: LicenseRef-scancode-iso-recorder
 ignorable_emails:
   - isorecorder@alexfeinman.com
+text: "This utility is free for non-commercial (personal) use. Other types of use\nshould be\
+  \ discussed with the author (a very reasonable person) - see the\ncontact information section.\
+  \ Author shall not be liable for any damage resulting\nfrom the use of this utility. All rights\
+  \ are reserved. \n4. Contact information Problems should be reported to isorecorder@alexfeinman.com\n\
+  To discuss licensing issues please e-mail to Alex Feinman"

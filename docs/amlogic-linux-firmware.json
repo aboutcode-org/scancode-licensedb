@@ -5,5 +5,6 @@
   "category": "Proprietary Free",
   "owner": "Amlogic",
   "homepage_url": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/LICENSE.amlogic_vdec",
-  "spdx_license_key": "LicenseRef-scancode-amlogic-linux-firmware"
+  "spdx_license_key": "LicenseRef-scancode-amlogic-linux-firmware",
+  "text": "Amlogic Co., Inc. grants permission to use and redistribute\naforementioned firmware files for the use with devices containing\nAmlogic chipsets, but not as part of the Linux kernel or in any other\nform which would require these files themselves to be covered by the\nterms of the GNU General Public License or the GNU Lesser General\nPublic License.\n\nThese firmware files are distributed in the hope that they will be\nuseful, but are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT\nLIMITED TO IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A\nPARTICULAR PURPOSE."
 }

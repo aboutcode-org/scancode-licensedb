@@ -11,5 +11,6 @@
   ],
   "other_urls": [
     "https://casper.berkeley.edu/svn/trunk/roach/sw/uboot/common/cmd_elf.c"
-  ]
+  ],
+  "text": "Redistribution and use in source and binary forms are freely\npermitted provided that the above copyright notice and this\nparagraph and the following disclaimer are duplicated in all\nsuch forms.\n\nThis software is provided \"AS IS\" and without any express or\nimplied warranties, including, without limitation, the implied\nwarranties of merchantability and fitness for a particular\npurpose."
 }

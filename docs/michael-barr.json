@@ -4,5 +4,6 @@
   "name": "Michael Barr License",
   "category": "Permissive",
   "owner": "Michael Barr",
-  "spdx_license_key": "LicenseRef-scancode-michael-barr"
+  "spdx_license_key": "LicenseRef-scancode-michael-barr",
+  "text": "This software is placed into the public domain and may be used for any purpose.\nHowever, this notice must not be changed or removed and no warranty is either\nexpressed or implied by its publication or distribution."
 }

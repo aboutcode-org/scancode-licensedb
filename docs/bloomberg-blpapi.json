@@ -8,5 +8,6 @@
   "other_urls": [
     "https://bloomberg.bintray.com/BLPAPI-Stable-Generic/blpapi_cpp_3.8.18.1-linux.tar.gz"
   ],
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Permission is hereby granted, free of charge, to any person obtaining a copy of\nthis proprietary software and associated documentation files (the \"Software\"),\nto use, publish, or distribute copies of the Software, and to permit persons to\nwhom the Software is furnished to do so.\n\nAny other use, including modifying, adapting, reverse engineering, decompiling,\nor disassembling, is not permitted.\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
 }

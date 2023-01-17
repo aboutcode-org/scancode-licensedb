@@ -8,5 +8,6 @@
   "text_urls": [
     "http://svn.apache.org/repos/asf/apr/apr/trunk/test/testmd4.c",
     "http://www.opensource.apple.com/source/libmd/libmd-3/mddriver.c?txt"
-  ]
+  ],
+  "text": "RSA Data Security, Inc. makes no representations concerning either\nthe merchantability of this software or the suitability of this\nsoftware for any particular purpose. It is provided \"as is\"\nwithout express or implied warranty of any kind.\n\nThese notices must be retained in any copies of any part of this\ndocumentation and/or software."
 }

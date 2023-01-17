@@ -9,3 +9,81 @@ text_urls:
   - http://download.microsoft.com/download/7/0/1/70118832-3749-4C75-B860-456FC0712870/wif-nuget-eula-rtm.rtf
 ignorable_urls:
   - http://www.support.microsoft.com/common/international.aspx
+text: "MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE TERMS\nWINDOWS IDENTITY FOUNDATION FOR MICROSOFT\
+  \ WINDOWS OPERATING SYSTEMS \n\nMicrosoft Corporation (or based on where you live, one of\
+  \ its affiliates) licenses this supplement to you. If you are licensed to use Microsoft Windows\
+  \ operating systems software (for which this supplement is applicable) (the \"software\"),\
+  \ you may use this supplement. You may not use it if you do not have a license for the software.\
+  \ You may use this supplement with each validly licensed copy of the software.\nThe following\
+  \ license terms describe additional use terms for this supplement. These terms and the license\
+  \ terms for the software apply to your use of the supplement. If there is a conflict, these\
+  \ supplemental license terms apply.\n\nBy using this supplement, you accept these terms. If\
+  \ you do not accept them, do not use this supplement.\nIf you comply with these license terms,\
+  \ you have the rights below.\n\n1.\tDISTRIBUTABLE CODE. The supplement is comprised of Distributable\
+  \ Code. \"Distributable Code\" is code that you are permitted to distribute in programs you\
+  \ develop if you comply with the terms below.\n\na.\tRight to Use and Distribute. \n•\tYou\
+  \ may copy and distribute the object code form of the supplement.\n•\tThird Party Distribution.\
+  \ You may permit distributors of your programs to copy and distribute the Distributable Code\
+  \ as part of those programs.\n\nb.\tDistribution Requirements. For any Distributable Code\
+  \ you distribute, you must\n•\tadd significant primary functionality to it in your programs;\n\
+  •\tfor any Distributable Code having a filename extension of .lib, distribute only the results\
+  \ of running such Distributable Code through a linker with your program;\n•\tdistribute Distributable\
+  \ Code included in a setup program only as part of that setup program without modification;\
+  \ \n•\trequire distributors and external end users to agree to terms that protect it at least\
+  \ as much as this agreement;\n•\tdisplay your valid copyright notice on your programs; and\n\
+  •\tindemnify, defend, and hold harmless Microsoft from any claims, including attorneys’ fees,\
+  \ related to the distribution or use of your programs.\n\nc.\tDistribution Restrictions. You\
+  \ may not\n•\talter any copyright, trademark or patent notice in the Distributable Code;\n\
+  •\tuse Microsoft’s trademarks in your programs’ names or in a way that suggests your programs\
+  \ come from or are endorsed by Microsoft;\n•\tdistribute Distributable Code to run on a platform\
+  \ other than the Windows platform;\n•\tinclude Distributable Code in malicious, deceptive\
+  \ or unlawful programs; or\n•\tmodify or distribute the source code of any Distributable Code\
+  \ so that any part of it becomes subject to an Excluded License. An Excluded License is one\
+  \ that requires, as a condition of use, modification or distribution, that\n•\tthe code be\
+  \ disclosed or distributed in source code form; or\n•\tothers have the right to modify it.\n\
+  \n2.\tSUPPORT SERVICES FOR SUPPLEMENT. Microsoft provides support services for this software\
+  \ as described at www.support.microsoft.com/common/international.aspx.\n\nPlease note: As\
+  \ this software is distributed in Quebec, Canada, these license terms are provided below in\
+  \ French.\nRemarque : Ce logiciel étant distribué au Québec, Canada, les termes de cette licence\
+  \ sont fournis ci-dessous en français.TERMES DU CONTRAT DE LICENCE D’UN SUPPLÉMENT MICROSOFT\n\
+  WINDOWS IDENTITY FOUNDATION POUR MICROSOFT WINDOWS OPERATING SYSTEMS \nMicrosoft Corporation\
+  \ (ou en fonction du lieu où vous vivez, l’un de ses affiliés) vous accorde une licence pour\
+  \ ce supplément. Si vous êtes titulaire d’une licence d’utilisation du logiciel Microsoft\
+  \ Windows operating systems (auquel s’applique ce supplément) (le « logiciel »), vous pouvez\
+  \ utiliser ce supplément. Vous n’êtes pas autorisé à utiliser ce supplément si vous n’êtes\
+  \ pas titulaire d’une licence pour le logiciel. Vous pouvez utiliser une copie de ce supplément\
+  \ avec chaque copie concédée sous licence du logiciel.\nLes conditions de licence suivantes\
+  \ décrivent les conditions d’utilisation supplémentaires applicables pour ce supplément. Les\
+  \ présentes conditions et les conditions de licence pour le logiciel s'appliquent à l'utilisation\
+  \ du supplément. En cas de conflit, les présentes conditions de licence supplémentaires s’appliquent.\n\
+  En utilisant ce supplément, vous acceptez ces termes. Si vous ne les acceptez pas, n’utilisez\
+  \ pas ce supplément.\nDans le cadre du présent accord de licence, vous disposez des droits\
+  \ ci-dessous.\n1.\tCODE DISTRIBUABLE. Le supplément constitue du Code Distribuable. Le « Code\
+  \ Distribuable » est le code que vous êtes autorisé à distribuer dans les programmes que vous\
+  \ développez, sous réserve de vous conformer aux termes ci-après.\na.\tDroit d’utilisation\
+  \ et de distribution. \n•\tVous êtes autorisé à copier et à distribuer la version en code\
+  \ objet du supplément.\n•\tDistribution par des tierces parties. Vous pouvez autoriser les\
+  \ distributeurs de vos programmes à copier et à distribuer le code distribuable en tant que\
+  \ partie intégrante de ces programmes.\nb.\tConditions de distribution. Pour pouvoir distribuer\
+  \ du code distribuable, vous devez :\n•\ty ajouter des fonctionnalités importantes au sein\
+  \ de vos programmes,\n•\tpour tout Code distribuable dont l’extension de nom de fichier est\
+  \ .lib, distribuer seulement les résultats de l’exécution de ce Code distribuable à l’aide\
+  \ d’un éditeur de liens avec votre programme ;\n•\tdistribuer le Code distribuable inclus\
+  \ dans un programme d’installation seulement en tant que partie intégrante de ce programme\
+  \ sans modification ;\n•\tlier les distributeurs et les utilisateurs externes par un contrat\
+  \ dont les termes les protègent autant que le présent contrat,\n•\tafficher votre propre mention\
+  \ de droits d’auteur valable sur vos programmes et\n•\tgarantir et défendre Microsoft contre\
+  \ toute réclamation, y compris pour les honoraires d’avocats, qui résulterait de la distribution\
+  \ ou l’utilisation de vos programmes.\nc.\tRestrictions de distribution. Vous n’êtes pas autorisé\
+  \ à :\n•\tmodifier toute mention de droits d’auteur, de marques ou de droits de propriété\
+  \ industrielle pouvant figurer dans le code distribuable,\n•\tutiliser les marques de Microsoft\
+  \ dans les noms de vos programmes ou d’une façon qui suggère que vos programmes sont fournis\
+  \ par Microsoft ou sous la responsabilité de Microsoft,\n•\tdistribuer le Code distribuable\
+  \ en vue de son exécution sur une plate-forme autre que la plate-forme Windows,\n•\tinclure\
+  \ le Code distribuable dans des programmes malveillants, trompeurs ou interdits par la loi,\
+  \ ou\n•\tmodifier ou distribuer le code source de code distribuable de manière à ce qu’il\
+  \ fasse l’objet, en partie ou dans son intégralité, d’une Licence Exclue. Une Licence Exclue\
+  \ implique comme condition d’utilisation, de modification ou de distribution, que :\n•\tle\
+  \ code soit dévoilé ou distribué dans sa forme de code source, ou\n•\td’autres aient le droit\
+  \ de le modifier.\n2.\tSERVICES D’ASSISTANCE TECHNIQUE POUR LE SUPPLÉMENT. Microsoft fournit\
+  \ des services d’assistance technique pour ce logiciel disponibles sur le site www.support.microsoft.com/common/international.aspx."

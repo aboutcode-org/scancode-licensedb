@@ -8,3 +8,12 @@ text_urls:
   - https://gitlab.freedesktop.org/pulseaudio/pulseaudio/-/blob/81c24738d5b62a5f092ce34ea06efab72eefbb9e/src/modules/echo-cancel/adrian-license.txt
 other_urls:
   - https://mailarchive.ietf.org/arch/msg/avt/6erDp7-srszwgBNbFxcD_zSFMS0/
+text: |
+  You are allowed to use this source code in any open source or closed
+  source software you want. You are allowed to use the algorithms for a
+  hardware solution. You are allowed to modify the source code.
+  You are not allowed to remove the name of the author from this memo or
+  from the source code files. You are not allowed to monopolize the
+  source code or the algorithms behind the source code as your
+  intellectual property. This source code is free of royalty and comes
+  with no warranty.

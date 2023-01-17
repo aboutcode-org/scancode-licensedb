@@ -4,5 +4,6 @@
   "name": "SunPro Attribution License",
   "category": "Permissive",
   "owner": "Oracle (Sun)",
-  "spdx_license_key": "LicenseRef-scancode-sunpro"
+  "spdx_license_key": "LicenseRef-scancode-sunpro",
+  "text": "Developed at SunPro, a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice\nis preserved."
 }

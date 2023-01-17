@@ -9,5 +9,6 @@
   "faq_url": "http://www.ietf.org/contact-the-ietf.html",
   "other_urls": [
     "http://www.ietf.org/"
-  ]
+  ],
+  "text": "This document and translations of it may be copied and furnished to\nothers, and derivative works that comment on or otherwise explain it\nor assist in its implementation may be prepared, copied, published\nand distributed, in whole or in part, without restriction of any\nkind, provided that the above copyright notice and this paragraph are\nincluded on all such copies and derivative works.  However, this\ndocument itself may not be modified in any way, such as by removing\nthe copyright notice or references to the Internet Society or other\nInternet organizations, except as needed for the purpose of\ndeveloping Internet standards in which case the procedures for\ncopyrights defined in the Internet Standards process must be\nfollowed, or as required to translate it into languages other than\nEnglish.\n\nThe limited permissions granted above are perpetual and will not be\nrevoked by the Internet Society or its successors or assigns.\n\nThis document and the information contained herein is provided on an\n\"AS IS\" basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING\nTASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING\nBUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION\nHEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF\nMERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE."
 }

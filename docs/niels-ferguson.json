@@ -10,5 +10,6 @@
   ],
   "ignorable_holders": [
     "Niels Ferguson"
-  ]
+  ],
+  "text": "Copyright (c) 2002 by Niels Ferguson.\n\nThe author hereby grants a perpetual license to everybody to use this\ncode for any purpose as long as the copyright message is included in the\nsource code of this or any derived work.\n\nYes, this means that you, your company, your club, and anyone else can\nuse this code anywhere you want.  You can change it and distribute it\nunder the GPL, include it in your commercial product without releasing\nthe source code, put it on the web, etc.  The only thing you cannot do is\nremove my copyright message, or distribute any source code based on this\nimplementation that does not include my copyright message.\n\nI appreciate a mention in the documentation or credits, but I understand\nif that is difficult to do.  I also appreciate it if you tell me where\nand why you used my code.\n\nDISCLAIMER: As I'm giving away my work for free, I'm of course not going\nto accept any liability of any form.  This code, or the Twofish cipher,\nmight very well be flawed; you have been warned.  This software is\nprovided as-is, without any kind of warrenty or guarantee.  And that is\nreally all you can expect when you download code for free from the\nInternet."
 }

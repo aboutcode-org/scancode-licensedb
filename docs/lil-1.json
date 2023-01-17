@@ -9,5 +9,6 @@
   "spdx_license_key": "LicenseRef-scancode-lil-1",
   "other_urls": [
     "https://github.com/jashkenas/lil-license"
-  ]
+  ],
+  "text": "Permission is hereby granted by the authors of this software, to any\nperson, to use the software for any purpose, free of charge, including\nthe rights to run, read, copy, change, distribute and sell it, and\nincluding usage rights to any patents the authors may hold on it,\nsubject to the following conditions:\n\nThis license, or a link to its text, must be included with all copies\nof the software and any derivative works.\n\nAny modification to the software submitted to the authors may be\nincorporated into the software under the terms of this license.\n\nThe software is provided \"as is\", without warranty of any kind,\nincluding but not limited to the warranties of title, fitness,\nmerchantability and non-infringement. The authors have no obligation\nto provide support or updates for the software, and may not be held\nliable for any damages, claims or other liability arising from its\nuse."
 }

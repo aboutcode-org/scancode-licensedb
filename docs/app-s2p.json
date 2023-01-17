@@ -8,5 +8,6 @@
   "spdx_license_key": "App-s2p",
   "other_urls": [
     "https://fedoraproject.org/wiki/Licensing/App-s2p"
-  ]
+  ],
+  "text": "COPYRIGHT and LICENSE\n\n  This program is free and open software. You may use, modify,\n  distribute, and sell this program (and any modified variants) in any\n  way you wish, provided you do not restrict others from doing the same."
 }

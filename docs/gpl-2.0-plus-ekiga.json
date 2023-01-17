@@ -6,5 +6,6 @@
   "category": "Copyleft Limited",
   "owner": "Ekiga",
   "homepage_url": "http://www.ekiga.org/download-ekiga-binaries-or-source-code",
-  "is_exception": true
+  "is_exception": true,
+  "text": "This program is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation; either version 2 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program; if not, write to the Free Software\nFoundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n\nEkiga/GnomeMeeting is licensed under the GNU GPL license and as a special \nexception, you have permission to link or otherwise combine this program with \nthe programs OPAL, OpenH323, PWLIB, and OpenSSL, and distribute \nthe combination, without applying the requirements of the GNU GPL to these \nprograms, as long as you do follow the requirements of the GNU GPL for all the\nrest of the software thus combined."
 }

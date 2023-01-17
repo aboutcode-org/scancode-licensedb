@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Red Hat",
   "notes": "this is a short historical permissive license seen in the newlib C library this license text is also fully contained in the tcl license.",
-  "spdx_license_key": "LicenseRef-scancode-newlib-historical"
+  "spdx_license_key": "LicenseRef-scancode-newlib-historical",
+  "text": "The authors hereby grant permission to use, copy, modify, distribute,\nand license this software and its documentation for any purpose, provided\nthat existing copyright notices are retained in all copies and that this\nnotice is included verbatim in any distributions. No written agreement,\nlicense, or royalty fee is required for any of the authorized uses.\nModifications to this software may be copyrighted by their authors\nand need not follow the licensing terms described here, provided that\nthe new terms are clearly indicated on the first page of each file where\nthey apply."
 }

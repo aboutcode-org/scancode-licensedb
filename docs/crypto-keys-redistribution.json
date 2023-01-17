@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-crypto-keys-redistribution",
   "text_urls": [
     "http://git.savannah.gnu.org/cgit/dmidecode.git/tree/dmidecode.c?id=ee07a1b4249560d620d05194eb8ff61b40d3ce23"
-  ]
+  ],
+  "text": "For the avoidance of doubt the \"preferred form\" of this code is one which\nis in an open non patent encumbered format. Where cryptographic key signing\nforms part of the process of creating an executable the information\nincluding keys needed to generate an equivalently functional executable\nare deemed to be part of the source code."
 }

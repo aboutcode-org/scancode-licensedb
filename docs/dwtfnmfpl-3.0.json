@@ -6,5 +6,6 @@
   "owner": "dittodhole",
   "homepage_url": "https://github.com/dittodhole/WTFNMFPLv3",
   "notes": "A variant on the Do What The Fuck You Want Public License (WTFPL) by Sam Hocevar.",
-  "spdx_license_key": "LicenseRef-scancode-dwtfnmfpl-3.0"
+  "spdx_license_key": "LicenseRef-scancode-dwtfnmfpl-3.0",
+  "text": "This project is licensed under the terms of the\nDO WHAT THE FUCK YOU WANT TO BUT IT'S NOT MY FAULT PUBLIC LICENSE, version 3,\nas it follows:\n\n0. You just DO WHAT THE FUCK YOU WANT TO.\n\n1. Do not hold the author(s), creator(s), developer(s) or\n   distributor(s) liable for anything that happens or goes wrong\nwith your use of the work."
 }

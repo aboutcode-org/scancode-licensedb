@@ -12,5 +12,6 @@
   ],
   "ignorable_urls": [
     "http://www.purposeful.co.uk/tfl/"
-  ]
+  ],
+  "text": "I am the author of this software and its documentation and\npermanently abandon all copyright and other intellectual property rights in\nthem, including the right to be identified as the author.\n\nI am fairly certain that this software does what the documentation says it\ndoes, but I cannot guarantee that it does, or that it does what you think it\nshould, and I cannot guarantee that it will not have undesirable side effects.\n\nYou are free to use, modify and distribute this software as you please, but\nyou do so at your own risk.  If you remove or hide this warning then you are\nresponsible for any problems encountered by people that you make the software\navailable to.\n\nBefore modifying or distributing this software I ask that you would please\nread http://www.purposeful.co.uk/tfl/"
 }

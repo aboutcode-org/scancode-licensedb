@@ -10,3 +10,28 @@ standard_notice: |
   OpenFortress encourages the release of this code by employee Rick van Rein.
 ignorable_authors:
   - Rick van Rein and other contributors
+text: "Redistribution and use in source and binary forms, with or without\nmodification, are\
+  \ permitted for any legal purpose, provided that the following\nconditions are met:\n * Redistributions\
+  \ of source code and/or documentation must retain the above\n   copyright notice, this list\
+  \ of conditions and the following disclaimer.\n * Redistributions in binary form must reproduce\
+  \ the above copyright notice,\n   this list of conditions and the following disclaimer in\
+  \ the documentation\n   and/or other materials provided with the distribution.\n * All advertising\
+  \ materials mentioning features or use of this software and/or\n   documentation must display\
+  \ the following acknowledgement, with \"software\n   and/or documentation\" made more specific\
+  \ to represent the situation at hand:\n\tThis product includes software and/or documentation\
+  \ developed by\n\tRick van Rein and other contributors.\n * Neither the name of Rick van Rein\
+  \ nor the names of other contributors may be\n   used to endorse or promote products derived\
+  \ from this software without\n   specific prior digitally signed permission.\n * When obtaining\
+  \ the software and/or documentation provided on this site, any\n   import laws about cryptography\
+  \ or otherwise, must be taken into account.\n   Neither of Rick van Rein, contributors and\
+  \ the hosting party can be held\n   responsible for not obeying import laws when retrieving\
+  \ code and/or\n   documentation from this site.\n\nTHIS SOFTWARE AND DOCUMENTATION IS PROVIDED\
+  \ BY OPENFORTRESS AND CONTRIBUTORS\n``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,\
+  \ BUT NOT LIMITED TO,\nTHE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\
+  \ PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL OPENFORTRESS OR CONTRIBUTORS BE LIABLE FOR\n\
+  ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING,\
+  \ BUT NOT LIMITED TO, PROCUREMENT OF  SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR\
+  \ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER\
+  \ IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY\
+  \ WAY OUT OF THE USE OF THIS\nSOFTWARE AND/OR DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY\
+  \ OF SUCH\nDAMAGE."

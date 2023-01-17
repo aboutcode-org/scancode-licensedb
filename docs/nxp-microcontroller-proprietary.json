@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-nxp-microctl-proprietary",
   "other_spdx_license_keys": [
     "LicenseRef-scancode-nxp-microcontroller-proprietary"
-  ]
+  ],
+  "text": "Software that is described herein is for illustrative purposes only\nwhich provides customers with programming information regarding the\nproducts. This software is supplied \"\"AS IS\"\" without any warranties.\nNXP Semiconductors assumes no responsibility or liability for the\nuse of the software, conveys no license or title under any patent,\ncopyright, or mask work right to the product. NXP Semiconductors\nreserves the right to make changes in the software without\nnotification. NXP Semiconductors also make no representation or\nwarranty that such application will be suitable for the specified\nuse without further testing or modification.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation is hereby granted, under NXP Semiconductors' and its\nlicensor's relevant copyrights in the software, without fee, provided that it\nis used in conjunction with NXP Semiconductors microcontrollers.  This\ncopyright, permission, and disclaimer notice must appear in all copies of\nthis code."
 }

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Andrew Plotkin",
   "homepage_url": "https://fedoraproject.org/wiki/Licensing/Glulxe",
-  "spdx_license_key": "Glulxe"
+  "spdx_license_key": "Glulxe",
+  "text": "You may copy and distribute it freely, by any means and under any conditions,\nas long as the code and documentation is not changed. You may also incorporate\nthis code into your own program and distribute that, or modify this code and\nuse and distribute the modified version, as long as you retain a notice in your\nprogram or documentation which mentions my name and the URL shown above."
 }

@@ -13,5 +13,6 @@
   ],
   "ignorable_urls": [
     "http://www.7-zip.org/"
-  ]
+  ],
+  "text": "LZMA SDK 4.40 Copyright (c) 1999-2006 Igor Pavlov (2006-05-01)\n  http://www.7-zip.org/\n\n  LZMA SDK is licensed under two licenses:\n  1) GNU Lesser General Public License (GNU LGPL)\n  2) Common Public License (CPL)\n  It means that you can select one of these two licenses and\n  follow rules of that license.\n\n  SPECIAL EXCEPTION:\n  Igor Pavlov, as the author of this code, expressly permits you to\n  statically or dynamically link your code (or bind by name) to the\n  interfaces of this file without subjecting your linked code to the\n  terms of the CPL or GNU LGPL. Any modifications or additions\n  to this file, however, are subject to the LGPL or CPL terms."
 }

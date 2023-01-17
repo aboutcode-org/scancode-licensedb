@@ -10,5 +10,6 @@
   ],
   "ignorable_holders": [
     "ESRI"
-  ]
+  ],
+  "text": "Copyright 2006 ESRI\n\nAll rights reserved under the copyright laws of the United States\nand applicable international laws, treaties, and conventions.\n\nYou may freely redistribute and use this sample code, with or\nwithout modification, provided you include the original copyright\nnotice and use restrictions.\n\nSee use restrictions at /arcgis/developerkit/userestrictions."
 }

@@ -8,3 +8,8 @@ notes: replaced by libtool-exception-2.0
 is_exception: yes
 other_urls:
   - http://git.savannah.gnu.org/cgit/libtool.git/tree/m4/libtool.m4
+text: |
+  As a special exception to the GNU General Public License, if you
+  distribute this file as part of a program or library that is built using
+  GNU Libtool, you may include this file under the same distribution terms
+  that you use for the rest of that program.

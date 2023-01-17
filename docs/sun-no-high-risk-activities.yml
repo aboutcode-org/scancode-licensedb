@@ -8,3 +8,14 @@ spdx_license_key: LicenseRef-scancode-sun-no-high-risk-activities
 ignorable_urls:
   - http://java.sun.com/nav/business/index.html
   - http://www.sun.com/policies/trademarks/
+text: "Permission to use, copy, modify, and distribute this Software and its \ndocumentation\
+  \ for NON-COMMERCIAL or COMMERCIAL purposes and without fee is \nhereby granted.  \n\nThis\
+  \ Software is provided \"AS IS\".  All express warranties, including any \nimplied warranty\
+  \ of merchantability, satisfactory quality, fitness for a \nparticular purpose, or non-infringement,\
+  \ are disclaimed, except to the extent \nthat such disclaimers are held to be legally invalid.\n\
+  \nYou acknowledge that Software is not designed, licensed or intended for use in \nthe design,\
+  \ construction, operation or maintenance of any nuclear facility \n(\"High Risk Activities\"\
+  ).  Sun disclaims any express or implied warranty of \nfitness for such uses.  \n\nPlease\
+  \ refer to the file http://www.sun.com/policies/trademarks/ for further \nimportant trademark\
+  \ information and to \nhttp://java.sun.com/nav/business/index.html for further important licensing\
+  \ \ninformation for the Java Technology."

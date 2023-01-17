@@ -6,3 +6,8 @@ owner: Etnus
 spdx_license_key: mpi-permissive
 other_urls:
   - https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19
+text: "Permission is hereby granted to use, reproduce, prepare derivative\nworks, and to redistribute\
+  \ to others.\n\n\t\t\t  DISCLAIMER\n\nNeither Etnus, nor any of their employees, makes any\
+  \ warranty\nexpress or implied, or assumes any legal liability or\nresponsibility for the\
+  \ accuracy, completeness, or usefulness of any\ninformation, apparatus, product, or process\
+  \ disclosed, or\nrepresents that its use would not infringe privately owned rights."

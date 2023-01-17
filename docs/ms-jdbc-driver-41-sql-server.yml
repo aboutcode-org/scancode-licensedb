@@ -7,3 +7,82 @@ homepage_url: http://download.microsoft.com/download/0/2/A/02AAE597-3865-456C-AE
 spdx_license_key: LicenseRef-scancode-ms-jdbc-driver-41-sql-server
 ignorable_urls:
   - http://www.microsoft.com/exporting
+text: "MICROSOFT SOFTWARE LICENSE TERMS\n\nMICROSOFT JDBC DRIVER 4.1 FOR SQL SERVER\n\nThese\
+  \ license terms are an agreement between Microsoft Corporation (or based on where you \nlive,\
+  \ one of its affiliates) and you. Please read them. They apply to the software \nnamed above,\
+  \ which includes the media on which you received it, if any. The terms also apply to \nany\
+  \ Microsoft\n\n• updates,\n• supplements,\n• Internet-based services, and\n• support services\n\
+  \nfor this software, unless other terms accompany those items. If so, those terms apply.\n\
+  \nBY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO NOT \nACCEPT THEM, DO NOT USE THE\
+  \ SOFTWARE.\n\nIf you comply with these license terms, you have the rights below.\n\n1. INSTALLATION\
+  \ AND USE RIGHTS. \n\na. Installation and Use.\n\ni. You may install and use any number of\
+  \ copies of the software on your devices.\n\nb. Third Party Programs. The software may include\
+  \ third party programs that Microsoft, \nnot the third party, licenses to you under this agreement.\
+  \ Notices, if any, for the third \nparty program are included for your information only.\n\
+  \n2. SCOPE OF LICENSE. The software is licensed, not sold. This agreement only gives you \n\
+  some rights to use the software. Microsoft reserves all other rights. Unless applicable law\
+  \ \ngives you more rights despite this limitation, you may use the software only as expressly\
+  \ \npermitted in this agreement. In doing so, you must comply with any technical limitations\
+  \ in \nthe software that only allow you to use it in certain ways. You may not\n\n• work around\
+  \ any technical limitations in the software;\n• reverse engineer, decompile or disassemble\
+  \ the software, except and only to the extent \nthat applicable law expressly permits, despite\
+  \ this limitation;\n• make more copies of the software than specified in this agreement or\
+  \ allowed by \napplicable law, despite this limitation;\n• publish the software for others\
+  \ to copy;\n• rent, lease or lend the software;\n• transfer the software or this agreement\
+  \ to any third party; or\n• use the software for commercial software hosting services.\n\n\
+  3. EXPORT RESTRICTIONS. The software is subject to United States export laws and \nregulations.\
+  \ You must comply with all domestic and international export laws and \nregulations that apply\
+  \ to the software. These laws include restrictions on destinations, end \nusers and end use.\
+  \ For additional information, see www.microsoft.com/exporting.\n\n4. SUPPORT SERVICES. Because\
+  \ this software is \"as is,\" we may not provide support \nservices for it.\n\n5. ENTIRE AGREEMENT.\
+  \ This agreement, and the terms for supplements, updates, Internet-\nbased services and support\
+  \ services that you use, are the entire agreement for the software \nand support services.\n\
+  \n6. APPLICABLE LAW.\n\na. United States. If you acquired the software in the United States,\
+  \ Washington state law \ngoverns the interpretation of this agreement and applies to claims\
+  \ for breach of it, \nregardless of conflict of laws principles. The laws of the state where\
+  \ you live govern all \nother claims, including claims under state consumer protection laws,\
+  \ unfair competition \nlaws, and in tort.\n\nb. Outside the United States. If you acquired\
+  \ the software in any other country, the laws of \nthat country apply.\n\n7. LEGAL EFFECT.\
+  \ This agreement describes certain legal rights. You may have other rights \nunder the laws\
+  \ of your country. You may also have rights with respect to the party from \nwhom you acquired\
+  \ the software. This agreement does not change your rights under the laws \nof your country\
+  \ if the laws of your country do not permit it to do so.\n\n8. DISCLAIMER OF WARRANTY. THE\
+  \ SOFTWARE IS LICENSED \"AS-IS.\" YOU \nBEAR THE RISK OF USING IT. MICROSOFT GIVES NO EXPRESS\
+  \ \nWARRANTIES, GUARANTEES OR CONDITIONS. YOU MAY HAVE \nADDITIONAL CONSUMER RIGHTS UNDER\
+  \ YOUR LOCAL LAWS WHICH THIS \nAGREEMENT CANNOT CHANGE. TO THE EXTENT PERMITTED UNDER \nYOUR\
+  \ LOCAL LAWS, MICROSOFT EXCLUDES THE IMPLIED WARRANTIES \nOF MERCHANTABILITY, FITNESS FOR\
+  \ A PARTICULAR PURPOSE AND NON-\nINFRINGEMENT.\n\n9. LIMITATION ON AND EXCLUSION OF REMEDIES\
+  \ AND DAMAGES. YOU CAN \nRECOVER FROM MICROSOFT AND ITS SUPPLIERS ONLY DIRECT DAMAGES UP \n\
+  TO U.S. $5.00. YOU CANNOT RECOVER ANY OTHER DAMAGES, INCLUDING \nCONSEQUENTIAL, LOST PROFITS,\
+  \ SPECIAL, INDIRECT OR INCIDENTAL \nDAMAGES.\n\nThis limitation applies to\n\n• anything related\
+  \ to the software, services, content (including code) on third party Internet \nsites, or\
+  \ third party programs, and\n• claims for breach of contract, breach of warranty, guarantee\
+  \ or condition, strict liability, \nnegligence, or other tort to the extent permitted by applicable\
+  \ law.\n\nIt also applies even if Microsoft knew or should have known about the possibility\
+  \ of the \ndamages. The above limitation or exclusion may not apply to you because your country\
+  \ may \nnot allow the exclusion or limitation of incidental, consequential or other damages.\n\
+  \nPlease note: As this software is distributed in Quebec, Canada, some of the clauses in this\
+  \ \nagreement are provided below in French.\n\nRemarque : Ce logiciel étant distribué au Québec,\
+  \ Canada, certaines des clauses dans ce \ncontrat sont fournies ci-dessous en français.\n\n\
+  EXONÉRATION DE GARANTIE. Le logiciel visé par une licence est offert « tel quel ». \nToute\
+  \ utilisation de ce logiciel est à votre seule risque et péril. Microsoft n’accorde aucune\
+  \ \nautre garantie expresse. Vous pouvez bénéficier de droits additionnels en vertu du droit\
+  \ local \nsur la protection des consommateurs, que ce contrat ne peut modifier. La ou elles\
+  \ sont \npermises par le droit locale, les garanties implicites de qualité marchande, d’adéquation\
+  \ à un \nusage particulier et d’absence de contrefaçon sont exclues.\n\nLIMITATION DES DOMMAGES-INTÉRÊTS\
+  \ ET EXCLUSION DE \nRESPONSABILITÉ POUR LES DOMMAGES. Vous pouvez obtenir de Microsoft et\
+  \ de \nses fournisseurs une indemnisation en cas de dommages directs uniquement à hauteur\
+  \ de 5,00 \n$ US. Vous ne pouvez prétendre à aucune indemnisation pour les autres dommages,\
+  \ y \ncompris les dommages spéciaux, indirects ou accessoires et pertes de bénéfices.\n\n\
+  Cette limitation concerne :\n• tout ce qui est relié au logiciel, aux services ou au contenu\
+  \ (y compris le code) figurant \nsur des sites Internet tiers ou dans des programmes tiers\
+  \ ; et\n• les réclamations au titre de violation de contrat ou de garantie, ou au titre de\
+  \ \nresponsabilité stricte, de négligence ou d’une autre faute dans la limite autorisée par\
+  \ la loi \nen vigueur.\n\nElle s’applique également, même si Microsoft connaissait ou devrait\
+  \ connaître l’éventualité \nd’un tel dommage. Si votre pays n’autorise pas l’exclusion ou\
+  \ la limitation de responsabilité \npour les dommages indirects, accessoires ou de quelque\
+  \ nature que ce soit, il se peut que la \nlimitation ou l’exclusion ci-dessus ne s’appliquera\
+  \ pas à votre égard.\n\nEFFET JURIDIQUE. Le présent contrat décrit certains droits juridiques.\
+  \ Vous pourriez avoir \nd’autres droits prévus par les lois de votre pays. Le présent contrat\
+  \ ne modifie pas les droits \nque vous confèrent les lois de votre pays si celles-ci ne le\
+  \ permettent pas."

@@ -14,5 +14,6 @@
   "other_urls": [
     "http://www.opensource.org/licenses/HPND",
     "https://opensource.org/licenses/HPND"
-  ]
+  ],
+  "text": "Permission to use, copy, modify and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appear in all copies, and\nthat both that copyright notice and this permission notice\nappear in supporting documentation, and that the name of copyright\nholder or related entities not be used in advertising or publicity\npertaining to distribution of the software without specific, written\nprior permission. Copyright holder makes no representations about\nthe suitability of this software for any purpose. It is provided \"as is\"\nwithout express or implied warranty.\n\nCopyright holder DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS\nSOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS. IN NO EVENT SHALL copyright holder BE LIABLE FOR ANY\nSPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER\nRESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF\nCONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN\nCONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
 }

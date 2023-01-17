@@ -6,5 +6,6 @@
   "owner": "musl Project",
   "homepage_url": "http://www.musl-libc.org/",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-musl-exception"
+  "spdx_license_key": "LicenseRef-scancode-musl-exception",
+  "text": "In addition, permission is hereby granted for all public header files\n(include/* and arch/*/bits/*) and crt files intended to be linked into\napplications (crt/*, ldso/dlstart.c, and arch/*/crt_arch.h) to omit\nthe copyright notice and permission notice otherwise required by the\nlicense, and to use these files without any requirement of\nattribution. These files include substantial contributions from:\n\nBobby Bingham\nJohn Spencer\nNicholas J. Kain\nRich Felker\nRichard Pennington\nStefan Kristiansson\nSzabolcs Nagy\n\nall of whom have explicitly granted such permission."
 }

@@ -4,5 +4,6 @@
   "name": "Chris Stoy Attribution License",
   "category": "Permissive",
   "owner": "Chris Stoy",
-  "spdx_license_key": "LicenseRef-scancode-chris-stoy"
+  "spdx_license_key": "LicenseRef-scancode-chris-stoy",
+  "text": "You are free to use this code in all commercial and non-commercial applications\nas long as this copyright message is left intact.\nUse this code at your own risk.  I take no responsibility if it should fail to\ndo anything you would expect it to do and it could, at any time, fail to function\nin any manner.  You have the source code, make it do what you want."
 }

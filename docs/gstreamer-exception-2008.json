@@ -8,5 +8,6 @@
   "spdx_license_key": "GStreamer-exception-2008",
   "other_urls": [
     "https://gstreamer.freedesktop.org/documentation/frequently-asked-questions/licensing.html?gi-language=c#licensing-of-applications-using-gstreamer"
-  ]
+  ],
+  "text": "This project hereby grants permission for non-GPL compatible GStreamer plugins\nto be used and distributed together with GStreamer and this project. This\npermission is above and beyond the permissions granted by the GPL license by\nwhich this project is covered. If you modify this code, you may extend this\nexception to your version of the code, but you are not obligated to do so.\nIf you do not wish to do so, delete this exception statement from your version."
 }

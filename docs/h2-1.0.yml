@@ -11,3 +11,245 @@ spdx_license_key: LicenseRef-scancode-h2-1.0
 text_urls:
   - https://web.archive.org/web/20110519100109/http://h2database.com/html/license.html
 minimum_coverage: 98
+text: "H2 License - Version 1.0\n\n\n1. Definitions\n\n1.0.1. \"Commercial Use\" means distribution\
+  \ or otherwise making the Covered Code\navailable to a third party.\n\n1.1. \"Contributor\"\
+  \ means each entity that creates or contributes to the creation\nof Modifications.\n\n1.2.\
+  \ \"Contributor Version\" means the combination of the Original Code, prior\nModifications\
+  \ used by a Contributor, and the Modifications made by that\nparticular Contributor.\n\n1.3.\
+  \ \"Covered Code\" means the Original Code or Modifications or the combination\nof the Original\
+  \ Code and Modifications, in each case including portions thereof.\n\n1.4. \"Electronic Distribution\
+  \ Mechanism\" means a mechanism generally accepted in\nthe software development community\
+  \ for the electronic transfer of data.\n\n1.5. \"Executable\" means Covered Code in any form\
+  \ other than Source Code.\n\n1.6. \"Initial Developer\" means the individual or entity identified\
+  \ as the\nInitial Developer in the Source Code notice required by Exhibit A.\n\n1.7. \"Larger\
+  \ Work\" means a work which combines Covered Code or portions thereof\nwith code not governed\
+  \ by the terms of this License.\n\n1.8. \"License\" means this document.\n\n1.8.1. \"Licensable\"\
+  \ means having the right to grant, to the maximum extent\npossible, whether at the time of\
+  \ the initial grant or subsequently acquired, any\nand all of the rights conveyed herein.\n\
+  \n1.9. \"Modifications\" means any addition to or deletion from the substance or\nstructure\
+  \ of either the Original Code or any previous Modifications. When\nCovered Code is released\
+  \ as a series of files, a Modification is:\n\n1.9.a. Any addition to or deletion from the\
+  \ contents of a file containing\nOriginal Code or previous Modifications.\n\n1.9.b. Any new\
+  \ file that contains any part of the Original Code or previous\nModifications.\n\n1.10. \"\
+  Original Code\" means Source Code of computer software code which is\ndescribed in the Source\
+  \ Code notice required by Exhibit A as Original Code, and\nwhich, at the time of its release\
+  \ under this License is not already Covered Code\ngoverned by this License.\n\n1.10.1. \"\
+  Patent Claims\" means any patent claim(s), now owned or hereafter\nacquired, including without\
+  \ limitation, method, process, and apparatus claims,\nin any patent Licensable by grantor.\n\
+  \n1.11. \"Source Code\" means the preferred form of the Covered Code for making\nmodifications\
+  \ to it, including all modules it contains, plus any associated\ninterface definition files,\
+  \ scripts used to control compilation and installation\nof an Executable, or source code differential\
+  \ comparisons against either the\nOriginal Code or another well known, available Covered Code\
+  \ of the Contributor's\nchoice. The Source Code can be in a compressed or archival form, provided\
+  \ the\nappropriate decompression or de-archiving software is widely available for no\ncharge.\n\
+  \n1.12. \"You\" (or \"Your\") means an individual or a legal entity exercising rights\nunder,\
+  \ and complying with all of the terms of, this License or a future version\nof this License\
+  \ issued under Section 6.1. For legal entities, \"You\" includes any\nentity which controls,\
+  \ is controlled by, or is under common control with You.\nFor purposes of this definition,\
+  \ \"control\" means (a) the power, direct or\nindirect, to cause the direction or management\
+  \ of such entity, whether by\ncontract or otherwise, or (b) ownership of more than fifty percent\
+  \ (50%) of the\noutstanding shares or beneficial ownership of such entity.\n\n2. Source Code\
+  \ License\n\n2.1. The Initial Developer Grant\n\nThe Initial Developer hereby grants You a\
+  \ world-wide, royalty-free, non-\nexclusive license, subject to third party intellectual property\
+  \ claims:\n\n2.1.a. under intellectual property rights (other than patent or trademark)\n\
+  Licensable by Initial Developer to use, reproduce, modify, display, perform,\nsublicense and\
+  \ distribute the Original Code (or portions thereof) with or\nwithout Modifications, and/or\
+  \ as part of a Larger Work; and\n\n2.1.b. under Patents Claims infringed by the making, using\
+  \ or selling of\nOriginal Code, to make, have made, use, practice, sell, and offer for sale,\n\
+  and/or otherwise dispose of the Original Code (or portions thereof).\n\n2.1.c. the licenses\
+  \ granted in this Section 2.1 (a) and (b) are effective on the\ndate Initial Developer first\
+  \ distributes Original Code under the terms of this\nLicense.\n\n2.1.d. Notwithstanding Section\
+  \ 2.1 (b) above, no patent license is granted: 1)\nfor code that You delete from the Original\
+  \ Code; 2) separate from the Original\nCode; or 3) for infringements caused by: i) the modification\
+  \ of the Original\nCode or ii) the combination of the Original Code with other software or\
+  \ devices.\n\n2.2. Contributor Grant\n\nSubject to third party intellectual property claims,\
+  \ each Contributor hereby\ngrants You a world-wide, royalty-free, non-exclusive license\n\n\
+  2.2.a. under intellectual property rights (other than patent or trademark)\nLicensable by\
+  \ Contributor, to use, reproduce, modify, display, perform,\nsublicense and distribute the\
+  \ Modifications created by such Contributor (or\nportions thereof) either on an unmodified\
+  \ basis, with other Modifications, as\nCovered Code and/or as part of a Larger Work; and\n\
+  \n2.2.b. under Patent Claims infringed by the making, using, or selling of\nModifications\
+  \ made by that Contributor either alone and/or in combination with\nits Contributor Version\
+  \ (or portions of such combination), to make, use, sell,\noffer for sale, have made, and/or\
+  \ otherwise dispose of: 1) Modifications made by\nthat Contributor (or portions thereof);\
+  \ and 2) the combination of Modifications\nmade by that Contributor with its Contributor Version\
+  \ (or portions of such\ncombination).\n\n2.2.c. the licenses granted in Sections 2.2 (a) and\
+  \ 2.2 (b) are effective on the\ndate Contributor first makes Commercial Use of the Covered\
+  \ Code.\n\n2.2.c. Notwithstanding Section 2.2 (b) above, no patent license is granted: 1)\n\
+  for any code that Contributor has deleted from the Contributor Version; 2)\nseparate from\
+  \ the Contributor Version; 3) for infringements caused by: i) third\nparty modifications of\
+  \ Contributor Version or ii) the combination of\nModifications made by that Contributor with\
+  \ other software (except as part of\nthe Contributor Version) or other devices; or 4) under\
+  \ Patent Claims infringed\nby Covered Code in the absence of Modifications made by that Contributor.\n\
+  \n3. Distribution Obligations\n\n3.1. Application of License\n\nThe Modifications which You\
+  \ create or to which You contribute are governed by\nthe terms of this License, including\
+  \ without limitation Section 2.2. The Source\nCode version of Covered Code may be distributed\
+  \ only under the terms of this\nLicense or a future version of this License released under\
+  \ Section 6.1, and You\nmust include a copy of this License with every copy of the Source\
+  \ Code You\ndistribute. You may not offer or impose any terms on any Source Code version\n\
+  that alters or restricts the applicable version of this License or the\nrecipients' rights\
+  \ hereunder. However, You may include an additional document\noffering the additional rights\
+  \ described in Section 3.5.\n\n3.2. Availability of Source Code\n\nAny Modification which\
+  \ You create or to which You contribute must be made\navailable in Source Code form under\
+  \ the terms of this License either on the same\nmedia as an Executable version or via an accepted\
+  \ Electronic Distribution\nMechanism to anyone to whom you made an Executable version available;\
+  \ and if\nmade available via Electronic Distribution Mechanism, must remain available for\n\
+  at least twelve (12) months after the date it initially became available, or at\nleast six\
+  \ (6) months after a subsequent version of that particular Modification\nhas been made available\
+  \ to such recipients. You are responsible for ensuring\nthat the Source Code version remains\
+  \ available even if the Electronic\nDistribution Mechanism is maintained by a third party.\n\
+  \n3.3. Description of Modifications\n\nYou must cause all Covered Code to which You contribute\
+  \ to contain a file\ndocumenting the changes You made to create that Covered Code and the\
+  \ date of any\nchange. You must include a prominent statement that the Modification is derived,\n\
+  directly or indirectly, from Original Code provided by the Initial Developer and\nincluding\
+  \ the name of the Initial Developer in (a) the Source Code, and (b) in\nany notice in an Executable\
+  \ version or related documentation in which You\ndescribe the origin or ownership of the Covered\
+  \ Code.\n\n3.4. Intellectual Property Matters \n\n3.4.a. Third Party Claims: If Contributor\
+  \ has knowledge that a license under a\nthird party's intellectual property rights is required\
+  \ to exercise the rights\ngranted by such Contributor under Sections 2.1 or 2.2, Contributor\
+  \ must include\na text file with the Source Code distribution titled \"LEGAL\" which describes\
+  \ the\nclaim and the party making the claim in sufficient detail that a recipient will\nknow\
+  \ whom to contact. If Contributor obtains such knowledge after the\nModification is made available\
+  \ as described in Section 3.2, Contributor shall\npromptly modify the LEGAL file in all copies\
+  \ Contributor makes available\nthereafter and shall take other steps (such as notifying appropriate\
+  \ mailing\nlists or newsgroups) reasonably calculated to inform those who received the\nCovered\
+  \ Code that new knowledge has been obtained.\n\n3.4.b. Contributor APIs: If Contributor's\
+  \ Modifications include an application\nprogramming interface and Contributor has knowledge\
+  \ of patent licenses which are\nreasonably necessary to implement that API, Contributor must\
+  \ also include this\ninformation in the legal file.\n\n3.4.c. Representations: Contributor\
+  \ represents that, except as disclosed\npursuant to Section 3.4 (a) above, Contributor believes\
+  \ that Contributor's\nModifications are Contributor's original creation(s) and/or Contributor\
+  \ has\nsufficient rights to grant the rights conveyed by this License.\n\n3.5. Required Notices\n\
+  \nYou must duplicate the notice in Exhibit A in each file of the Source Code. If\nit is not\
+  \ possible to put such notice in a particular Source Code file due to\nits structure, then\
+  \ You must include such notice in a location (such as a\nrelevant directory) where a user\
+  \ would be likely to look for such a notice. If\nYou created one or more Modification(s) You\
+  \ may add your name as a Contributor\nto the notice described in Exhibit A. You must also\
+  \ duplicate this License in\nany documentation for the Source Code where You describe recipients'\
+  \ rights or\nownership rights relating to Covered Code. You may choose to offer, and to\n\
+  charge a fee for, warranty, support, indemnity or liability obligations to one\nor more recipients\
+  \ of Covered Code. However, You may do so only on Your own\nbehalf, and not on behalf of the\
+  \ Initial Developer or any Contributor. You must\nmake it absolutely clear than any such warranty,\
+  \ support, indemnity or liability\nobligation is offered by You alone, and You hereby agree\
+  \ to indemnify the\nInitial Developer and every Contributor for any liability incurred by\
+  \ the\nInitial Developer or such Contributor as a result of warranty, support,\nindemnity\
+  \ or liability terms You offer.\n\n3.6. Distribution of Executable Versions\n\nYou may distribute\
+  \ Covered Code in Executable form only if the requirements of\nSections 3.1, 3.2, 3.3, 3.4\
+  \ and 3.5 have been met for that Covered Code, and if\nYou include a notice stating that the\
+  \ Source Code version of the Covered Code is\navailable under the terms of this License, including\
+  \ a description of how and\nwhere You have fulfilled the obligations of Section 3.2. The notice\
+  \ must be\nconspicuously included in any notice in an Executable version, related\ndocumentation\
+  \ or collateral in which You describe recipients' rights relating to\nthe Covered Code. You\
+  \ may distribute the Executable version of Covered Code or\nownership rights under a license\
+  \ of Your choice, which may contain terms\ndifferent from this License, provided that You\
+  \ are in compliance with the terms\nof this License and that the license for the Executable\
+  \ version does not attempt\nto limit or alter the recipient's rights in the Source Code version\
+  \ from the\nrights set forth in this License. If You distribute the Executable version under\n\
+  a different license You must make it absolutely clear that any terms which\ndiffer from this\
+  \ License are offered by You alone, not by the Initial Developer\nor any Contributor. You\
+  \ hereby agree to indemnify the Initial Developer and\nevery Contributor for any liability\
+  \ incurred by the Initial Developer or such\nContributor as a result of any such terms You\
+  \ offer.\n\n3.7. Larger Works\n\nYou may create a Larger Work by combining Covered Code with\
+  \ other code not\ngoverned by the terms of this License and distribute the Larger Work as\
+  \ a single\nproduct. In such a case, You must make sure the requirements of this License are\n\
+  fulfilled for the Covered Code.\n\n4. Inability to Comply Due to Statute or Regulation.\n\n\
+  If it is impossible for You to comply with any of the terms of this License with\nrespect\
+  \ to some or all of the Covered Code due to statute, judicial order, or\nregulation then You\
+  \ must: (a) comply with the terms of this License to the\nmaximum extent possible; and (b)\
+  \ describe the limitations and the code they\naffect. Such description must be included in\
+  \ the legal file described in Section\n3.4 and must be included with all distributions of\
+  \ the Source Code. Except to\nthe extent prohibited by statute or regulation, such description\
+  \ must be\nsufficiently detailed for a recipient of ordinary skill to be able to understand\n\
+  it.\n\n5. Application of this License.\n\nThis License applies to code to which the Initial\
+  \ Developer has attached the\nnotice in Exhibit A and to related Covered Code.\n\n6. Versions\
+  \ of the License.\n\n6.1. New Versions\n\nThe H2 Group may publish revised and/or new versions\
+  \ of the License from time to\ntime. Each version will be given a distinguishing version number.\n\
+  \n6.2. Effect of New Versions\n\nOnce Covered Code has been published under a particular version\
+  \ of the License,\nYou may always continue to use it under the terms of that version. You\
+  \ may also\nchoose to use such Covered Code under the terms of any subsequent version of the\n\
+  License published by the H2 Group. No one other than the H2 Group has the right\nto modify\
+  \ the terms applicable to Covered Code created under this License.\n\n6.3. Derivative Works\n\
+  \nIf You create or use a modified version of this License (which you may only do\nin order\
+  \ to apply it to code which is not already Covered Code governed by this\nLicense), You must\
+  \ (a) rename Your license so that the phrases \"H2 Group\", \"H2\"\nor any confusingly similar\
+  \ phrase do not appear in your license (except to note\nthat your license differs from this\
+  \ License) and (b) otherwise make it clear\nthat Your version of the license contains terms\
+  \ which differ from the H2\nLicense. (Filling in the name of the Initial Developer, Original\
+  \ Code or\nContributor in the notice described in Exhibit A shall not of themselves be\ndeemed\
+  \ to be modifications of this License.)\n\n7. Disclaimer of Warranty\n\nCovered code is provided\
+  \ under this license on an \"as is\" basis, without\nwarranty of any kind, either expressed\
+  \ or implied, including, without\nlimitation, warranties that the covered code is free of\
+  \ defects, merchantable,\nfit for a particular purpose or non-infringing. The entire risk\
+  \ as to the\nquality and performance of the covered code is with you. Should any covered code\n\
+  prove defective in any respect, you (not the initial developer or any other\ncontributor)\
+  \ assume the cost of any necessary servicing, repair or correction.\nThis disclaimer of warranty\
+  \ constitutes an essential part of this license. No\nuse of any covered code is authorized\
+  \ hereunder except under this disclaimer.\n\n8. Termination\n\n8.1. This License and the rights\
+  \ granted hereunder will terminate automatically\nif You fail to comply with terms herein\
+  \ and fail to cure such breach within 30\ndays of becoming aware of the breach. All sublicenses\
+  \ to the Covered Code which\nare properly granted shall survive any termination of this License.\
+  \ Provisions\nwhich, by their nature, must remain in effect beyond the termination of this\n\
+  License shall survive.\n\n8.2. If You initiate litigation by asserting a patent infringement\
+  \ claim\n(excluding declaratory judgment actions) against Initial Developer or a\nContributor\
+  \ (the Initial Developer or Contributor against whom You file such\naction is referred to\
+  \ as \"Participant\") alleging that:\n\n8.2.a. such Participant's Contributor Version directly\
+  \ or indirectly infringes\nany patent, then any and all rights granted by such Participant\
+  \ to You under\nSections 2.1 and/or 2.2 of this License shall, upon 60 days notice from\n\
+  Participant terminate prospectively, unless if within 60 days after receipt of\nnotice You\
+  \ either: (i) agree in writing to pay Participant a mutually agreeable\nreasonable royalty\
+  \ for Your past and future use of Modifications made by such\nParticipant, or (ii) withdraw\
+  \ Your litigation claim with respect to the\nContributor Version against such Participant.\
+  \ If within 60 days of notice, a\nreasonable royalty and payment arrangement are not mutually\
+  \ agreed upon in\nwriting by the parties or the litigation claim is not withdrawn, the rights\n\
+  granted by Participant to You under Sections 2.1 and/or 2.2 automatically\nterminate at the\
+  \ expiration of the 60 day notice period specified above.\n\n8.2.b. any software, hardware,\
+  \ or device, other than such Participant's\nContributor Version, directly or indirectly infringes\
+  \ any patent, then any\nrights granted to You by such Participant under Sections 2.1(b) and\
+  \ 2.2(b) are\nrevoked effective as of the date You first made, used, sold, distributed, or\
+  \ had\nmade, Modifications made by that Participant.\n\n8.3. If You assert a patent infringement\
+  \ claim against Participant alleging that\nsuch Participant's Contributor Version directly\
+  \ or indirectly infringes any\npatent where such claim is resolved (such as by license or\
+  \ settlement) prior to\nthe initiation of patent infringement litigation, then the reasonable\
+  \ value of\nthe licenses granted by such Participant under Sections 2.1 or 2.2 shall be\n\
+  taken into account in determining the amount or value of any payment or license.\n\n8.4. In\
+  \ the event of termination under Sections 8.1 or 8.2 above, all end user\nlicense agreements\
+  \ (excluding distributors and resellers) which have been\nvalidly granted by You or any distributor\
+  \ hereunder prior to termination shall\nsurvive termination.\n\n9. Limitation of Liability\n\
+  \nUnder no circumstances and under no legal theory, whether tort (including\nnegligence),\
+  \ contract, or otherwise, shall you, the initial developer, any other\ncontributor, or any\
+  \ distributor of covered code, or any supplier of any of such\nparties, be liable to any person\
+  \ for any indirect, special, incidental, or\nconsequential damages of any character including,\
+  \ without limitation, damages\nfor loss of goodwill, work stoppage, computer failure or malfunction,\
+  \ or any and\nall other commercial damages or losses, even if such party shall have been\n\
+  informed of the possibility of such damages. This limitation of liability shall\nnot apply\
+  \ to liability for death or personal injury resulting from such party's\nnegligence to the\
+  \ extent applicable law prohibits such limitation. Some\njurisdictions do not allow the exclusion\
+  \ or limitation of incidental or\nconsequential damages, so this exclusion and limitation\
+  \ may not apply to you.\n\n10. United States Government End Users\n\nThe Covered Code is a\
+  \ \"commercial item\", as that term is defined in 48 C.F.R.\n2.101 (October 1995), consisting\
+  \ of \"commercial computer software\" and\n\"commercial computer software documentation\"\
+  , as such terms are used in 48\nC.F.R. 12.212 (September 1995). Consistent with 48 C.F.R.\
+  \ 12.212 and 48 C.F.R.\n227.7202-1 through 227.7202-4 (June 1995), all U.S. Government End\
+  \ Users acquire\nCovered Code with only those rights set forth herein.\n\n11. Miscellaneous\n\
+  \nThis License represents the complete agreement concerning subject matter hereof.\nIf any\
+  \ provision of this License is held to be unenforceable, such provision\nshall be reformed\
+  \ only to the extent necessary to make it enforceable. This\nLicense shall be governed by\
+  \ California law provisions (except to the extent\napplicable law, if any, provides otherwise),\
+  \ excluding its conflict-of-law\nprovisions. With respect to disputes in which at least one\
+  \ party is a citizen\nof, or an entity chartered or registered to do business in United States\
+  \ of\nAmerica, any litigation relating to this License shall be subject to the\njurisdiction\
+  \ of the Federal Courts of the Northern District of California, with\nvenue lying in Santa\
+  \ Clara County, California, with the losing party responsible\nfor costs, including without\
+  \ limitation, court costs and reasonable attorneys'\nfees and expenses. The application of\
+  \ the United Nations Convention on Contracts\nfor the International Sale of Goods is expressly\
+  \ excluded. Any law or regulation\nwhich provides that the language of a contract shall be\
+  \ construed against the\ndrafter shall not apply to this License.\n\n12. Responsibility for\
+  \ Claims\n\nAs between Initial Developer and the Contributors, each party is responsible for\n\
+  claims and damages arising, directly or indirectly, out of its utilization of\nrights under\
+  \ this License and You agree to work with Initial Developer and\nContributors to distribute\
+  \ such responsibility on an equitable basis. Nothing\nherein is intended or shall be deemed\
+  \ to constitute any admission of liability.\n\n13. Multiple-Licensed Code\n\nInitial Developer\
+  \ may designate portions of the Covered Code as \"Multiple-\nLicensed\". \"Multiple-Licensed\"\
+  \ means that the Initial Developer permits you to\nutilize portions of the Covered Code under\
+  \ Your choice of this or the\nalternative licenses, if any, specified by the Initial Developer\
+  \ in the file\ndescribed in Exhibit A."

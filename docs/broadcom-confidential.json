@@ -4,5 +4,6 @@
   "name": "Broadcom Confidential",
   "category": "Commercial",
   "owner": "Broadcom",
-  "spdx_license_key": "LicenseRef-scancode-broadcom-confidential"
+  "spdx_license_key": "LicenseRef-scancode-broadcom-confidential",
+  "text": "No portions of this material may be reproduced in any form without the written permission of:\n      Broadcom Corporation\n       16251 Laguna Canyon Road\n         Irvine, California  92618\nAll information contained in this document is Broadcom Corporation company private, proprietary, and trade secret."
 }

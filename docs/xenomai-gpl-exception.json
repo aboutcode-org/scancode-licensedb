@@ -6,5 +6,6 @@
   "owner": "Xenomai",
   "homepage_url": "https://source.denx.de/Xenomai/xenomai/blob/master/include/COPYING#L2-22",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-xenomai-gpl-exception"
+  "spdx_license_key": "LicenseRef-scancode-xenomai-gpl-exception",
+  "text": "As a special exception to the following license, the Xenomai\nproject gives permission for additional uses of the header files\ncontained in this directory.\n\nThe exception is that, if you include these header files unmodified to\nproduce application programs executing in user-space that use\nXenomai services by normal Xenomai system calls, this does not\nby itself cause the resulting executable to be covered by the GNU\nGeneral Public License. This is merely considered normal use of the\nXenomai system, and does not fall under the heading of \"derived\nwork\".\n\nThis exception does not however invalidate any other reasons why the\nexecutable file might be covered by the GNU General Public License. In\nany case, this exception never applies when the application code is\nbuilt as a static or dynamically loadable portion of the Linux kernel.\n\nThis exception applies only to the code released by the Xenomai\nproject under the name Xenomai and bearing this exception notice.\nIf you copy code from other sources into a copy of Xenomai, the\nexception does not apply to the code that you add in this way."
 }

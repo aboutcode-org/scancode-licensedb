@@ -6,3 +6,13 @@ owner: Theodore Ts'o
 notes: this license is used in e2fsprogs and is rather unique. The disclaimer is mostly based
   on a truncated BSD license disclaimer
 spdx_license_key: LicenseRef-scancode-tso-license
+text: "Permission to use this file is granted for any purposes, as long as\nthis copyright statement\
+  \ is kept intact and the author is not held\nliable for any damages resulting from the use\
+  \ of this program.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,\n\
+  INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR\
+  \ A PARTICULAR PURPOSE, ALL OF WHICH ARE HEREBY DISCLAIMED.\nIN NO EVENT SHALL THE AUTHOR\
+  \ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\
+  \ (INCLUDING, BUT NOT LIMITED TO,\nPROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\
+  \ DATA, OR PROFITS;\nOR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\
+  \ \nWHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR\nOTHERWISE) ARISING\
+  \ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE."

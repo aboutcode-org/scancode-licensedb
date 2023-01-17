@@ -9,5 +9,6 @@
   "text_urls": [
     "http://www.darkside.com.au/bitslice/sboxes.c",
     "http://www.darkside.com.au/bitslice/nonstd.c"
-  ]
+  ],
+  "text": "This software may be modified, redistributed, and used for any purpose,\nso long as its origin is acknowledged."
 }

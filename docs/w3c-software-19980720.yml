@@ -18,3 +18,37 @@ ignorable_urls:
   - http://www.w3.org/Consortium/Legal/
 ignorable_emails:
   - site-policy@w3.org
+text: "W3C® SOFTWARE NOTICE AND LICENSE\n\nCopyright © 1994-2002 World Wide Web Consortium,\
+  \ (Massachusetts Institute of\nTechnology, Institut National de Recherche en Informatique\
+  \ et en Automatique,\nKeio University). All Rights Reserved. http://www.w3.org/Consortium/Legal/\n\
+  \nThis W3C work (including software, documents, or other related items) is being\nprovided\
+  \ by the copyright holders under the following license. By obtaining,\nusing and/or copying\
+  \ this work, you (the licensee) agree that you have read,\nunderstood, and will comply with\
+  \ the following terms and conditions:\n\nPermission to use, copy, modify, and distribute this\
+  \ software and its\ndocumentation, with or without modification,  for any purpose and without\
+  \ fee or\nroyalty is hereby granted, provided that you include the following on ALL copies\n\
+  of the software and documentation or portions thereof, including modifications,\nthat you\
+  \ make:\n\nThe full text of this NOTICE in a location viewable to users of the\nredistributed\
+  \ or derivative work.\n\nAny pre-existing intellectual property disclaimers, notices, or terms\
+  \ and\nconditions. If none exist, a short notice of the following form (hypertext is\npreferred,\
+  \ text is permitted) should be used within the body of any\nredistributed or derivative code:\
+  \ \"Copyright © [$date-of-software] World Wide\nWeb Consortium, (Massachusetts Institute of\
+  \ Technology, Institut National de\nRecherche en Informatique et en Automatique, Keio University).\
+  \ All Rights\nReserved. http://www.w3.org/Consortium/Legal/\"\n\nNotice of any changes or\
+  \ modifications to the W3C files, including the date\nchanges were made. (We recommend you\
+  \ provide URIs to the location from which the\ncode is derived.)\n\nTHIS SOFTWARE AND DOCUMENTATION\
+  \ IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE\nNO REPRESENTATIONS OR WARRANTIES, EXPRESS\
+  \ OR IMPLIED, INCLUDING BUT NOT LIMITED\nTO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR\
+  \ ANY PARTICULAR PURPOSE OR THAT\nTHE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE\
+  \ ANY THIRD PARTY\nPATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\n\nCOPYRIGHT HOLDERS WILL\
+  \ NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR\nCONSEQUENTIAL DAMAGES ARISING OUT OF\
+  \ ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright holders\
+  \ may NOT be used in advertising or\npublicity pertaining to the software without specific,\
+  \ written prior permission.\nTitle to copyright in this software and any associated documentation\
+  \ will at all\ntimes remain with copyright holders.\n\n \nThis formulation of W3C's notice\
+  \ and license became active on August 14 1998 so\nas to improve compatibility with GPL. This\
+  \ version ensures that W3C software\nlicensing terms are no more restrictive than GPL and\
+  \ consequently W3C software\nmay be distributed in GPL packages. See the older formulation\
+  \ for the policy\nprior to this date. Please see our Copyright FAQ for common questions about\n\
+  using materials from our site, including specific terms and conditions for\npackages like\
+  \ libwww, Amaya, and Jigsaw. Other questions about this notice can\nbe directed to site-policy@w3.org."

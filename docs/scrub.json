@@ -11,5 +11,6 @@
   ],
   "ignorable_holders": [
     "Duxbury Systems, Inc."
-  ]
+  ],
+  "text": "SCRUB - Simple Character String Replacer Documentation\n\nFirst Release: December 1988\n\nCopyright 1988-1993 Duxbury Systems, Inc.\n\nThis program and its documentation, that is specifically the files SCRUB.EXE,\nSCRUB.ERM, SCRUB.EHL and SCRUB.DOC, may be distributed freely and used for any\nlegal purpose, provided it is not altered in any way nor its notices, including\nthis notice, obscured from view.\n\nDuxbury Systems, Inc. of Westford, Massachusetts, USA designs and manufactures\nsoftware related to braille. We can be reached at 978-692-3000."
 }

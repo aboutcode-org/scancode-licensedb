@@ -5,3 +5,5 @@ category: Permissive
 owner: Unspecified
 spdx_license_key: LicenseRef-scancode-sash
 minimum_coverage: 99
+text: "Permission is granted to use, distribute, or modify this source, \nprovided that this\
+  \ copyright notice remains intact."

@@ -12,3 +12,36 @@ ignorable_urls:
   - http://www.terminal.at/melange
 ignorable_emails:
   - chris@terminal.at
+text: "MELANGE CHAT SERVER/CLIENT PUBLIC LICENSE\nVersion 1.1, 21 October 1998\n\t\nCopyright\
+  \ (C) 1998,1999 by Christian Walter, chris@terminal.at\nhttp://www.terminal.at/melange\n\t\
+  \t \n1. This software may be freely copied, modified and redistributed without\nfee for NON-COMMERCIAL\
+  \ (for commercial use see below) purposes provided that\nthis copyright notice and my name\
+  \ are preserved intact on all copies and\nmodified copies, so I get my credit for the work\
+  \ I put into this.\nFeel free to run this, modify it, debug it, send me comments, insults\
+  \ etc.\n\t \n2. There is no warranty or other guarantee of fitness of this software.\nIt is\
+  \ provided solely \"as is\". The author disclaims all\nresponsibility and liability with respect\
+  \ to this software's usage\nor its effect upon hardware or computer systems.\n\t\n3. This\
+  \ software is free of charge for non-commercial & commerical USE.\nNo money, donations, etc\
+  \ are required. If you want to sell this software,\nno matter if it's sold \"as is\" or modified,\
+  \ a licensing agreement is\nrequired. You may send enquiries to: chris@terminal.at\nWhat does\
+  \ that mean: If you use this software e.g on a commercial or\nnon-commercial website, you\
+  \ don't need a license - Only if you make\nmoney with this software or with parts or modified\
+  \ parts of this software\nyou have to get a licensing agreement.\n\n4. Have fun with it, and\
+  \ feel free to contact me if you have any problems\nnot covered by the documentation or if\
+  \ you find a bug.\nIf you want to modify this software, why not choin the DEVELOPER-FORUM\
+  \ ?\nDetails at the MELANGE homepage: http://www.terminal.at/melange\n\nChris\n\nVienna, October\
+  \ 1998\n\t\n\t \n\t\n                         NO WARRANTY\n\t\n\tBECAUSE THE PROGRAM IS LICENSED\
+  \ FREE OF CHARGE, THERE IS NO WARRANTY\n\tFOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE\
+  \ LAW.  EXCEPT WHEN\n\tOTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n\
+  \tPROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED\n\tOR IMPLIED,\
+  \ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n\tMERCHANTABILITY AND FITNESS\
+  \ FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n\tTO THE QUALITY AND PERFORMANCE OF THE PROGRAM\
+  \ IS WITH YOU.  SHOULD THE\n\tPROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY\
+  \ SERVICING,\n\tREPAIR OR CORRECTION.\n\t\n\tIN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW\
+  \ OR AGREED TO IN WRITING\n\tWILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY\
+  \ AND/OR\n\tREDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n\t\
+  INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n\tOUT OF THE\
+  \ USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n\tTO LOSS OF DATA OR DATA\
+  \ BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n\tYOU OR THIRD PARTIES OR A FAILURE OF\
+  \ THE PROGRAM TO OPERATE WITH ANY OTHER\n\tPROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS\
+  \ BEEN ADVISED OF THE\n\tPOSSIBILITY OF SUCH DAMAGES."

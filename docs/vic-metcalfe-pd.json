@@ -14,5 +14,6 @@
   ],
   "ignorable_emails": [
     "vic@brutus.tlug.org"
-  ]
+  ],
+  "text": "This file is provided for use with the unix-socket-faq.  It is public\ndomain, and may be copied freely.  There is no copyright on it.  The\noriginal work was by Vic Metcalfe (vic@brutus.tlug.org), and any\nmodifications made to that work were made with the understanding that\nthe finished work would be in the public domain.\n\nIf you have found a bug, please pass it on to me at the above address\nacknowledging that there will be no copyright on your work.\n\nThe most recent version of this file, and the unix-socket-faq can be\nfound at http://www.interlog.com/~vic/sock-faq/."
 }

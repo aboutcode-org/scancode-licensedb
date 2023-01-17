@@ -7,5 +7,6 @@
   "homepage_url": "https://fedoraproject.org/wiki/Licensing:Xerox?rd=Licensing/Xerox",
   "notes": "Per Fedora, this license is very similar to MIT, except that it requires\nthat US Export Control laws be followed, which makes it GPL-Incompatible.\n",
   "spdx_license_key": "LicenseRef-scancode-mit-no-advert-export-control",
-  "minimum_coverage": 70
+  "minimum_coverage": 70,
+  "text": "Export of this software from the United States of America may require a specific\nlicense from the United States Government.  It is the responsibility of any\nperson or organization contemplating export to obtain such a license before\nexporting.\n\nWITHIN THAT CONSTRAINT, permission to use, copy, modify, and distribute this\nsoftware and its documentation for any purpose and without fee is hereby\ngranted, provided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in supporting\ndocumentation, and that the name of The author not be used in advertising or\npublicity pertaining to distribution of the software without specific, written\nprior permission.  The author makes no representations about the suitability of\nthis software for any purpose.  It is provided \"as is\" without express or\nimplied warranty.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF\nMERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE."
 }

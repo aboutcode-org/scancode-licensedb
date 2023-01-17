@@ -9,5 +9,6 @@
   "text_urls": [
     "http://www.xfree86.org/current/LICENSE5.html"
   ],
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Permission to use, copy, modify, and distribute this software for any purpose\nand without fee is hereby granted, provided that the above copyright notice\nappear in all copies and that both the copyright notice and this permission\nnotice appear in supporting documentation, and that the name of Silicon\nGraphics, Inc. not be used in advertising or publicity pertaining to\ndistribution of the software without specific, written prior permission.\n\nTHE MATERIAL EMBODIED ON THIS SOFTWARE IS PROVIDED TO YOU \"AS-IS\" AND WITHOUT\nWARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT\nLIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.\nIN NO EVENT SHALL SILICON GRAPHICS, INC. BE LIABLE TO YOU OR ANYONE ELSE FOR ANY\nDIRECT, SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR\nANY DAMAGES WHATSOEVER, INCLUDING WITHOUT LIMITATION, LOSS OF PROFIT, LOSS OF\nUSE, SAVINGS OR REVENUE, OR THE CLAIMS OF THIRD PARTIES, WHETHER OR NOT SILICON\nGRAPHICS, INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS, HOWEVER CAUSED\nAND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE\nPOSSESSION, USE OR PERFORMANCE OF THIS SOFTWARE."
 }

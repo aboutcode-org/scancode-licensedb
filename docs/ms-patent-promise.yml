@@ -11,3 +11,33 @@ ignorable_urls:
   - https://github.com/dotnet/coreclr
   - https://github.com/dotnet/corefx
   - https://github.com/dotnet/corert
+text: "Microsoft Patent Promise for .NET Libraries and Runtime Components \n\nMicrosoft Corporation\
+  \ and its affiliates (\"Microsoft\") promise not to assert \nany .NET Patents against you\
+  \ for making, using, selling, offering for sale, \nimporting, or distributing Covered Code,\
+  \ as part of either a .NET Runtime or \nas part of any application designed to run on a .NET\
+  \ Runtime. \n\nIf you file, maintain, or voluntarily participate in any claim in a lawsuit\
+  \ \nalleging direct or contributory patent infringement by any Covered Code, or \ninducement\
+  \ of patent infringement by any Covered Code, then your rights under \nthis promise will automatically\
+  \ terminate. \n\nThis promise is not an assurance that (i) any .NET Patents are valid or \n\
+  enforceable, or (ii) Covered Code does not infringe patents or other \nintellectual property\
+  \ rights of any third party. No rights except those \nexpressly stated in this promise are\
+  \ granted, waived, or received by \nMicrosoft, whether by implication, exhaustion, estoppel,\
+  \ or otherwise. \nThis is a personal promise directly from Microsoft to you, and you agree\
+  \ as a \ncondition of benefiting from it that no Microsoft rights are received from \nsuppliers,\
+  \ distributors, or otherwise from any other person in connection with \nthis promise. \n\n\
+  Definitions: \n\n\"Covered Code\" means those Microsoft .NET libraries and runtime components\
+  \ as \nmade available by Microsoft at https://github.com/dotnet/coreclr, \nhttps://github.com/dotnet/corefx\
+  \ and https://github.com/dotnet/corert.\n\n\".NET Patents\" are those patent claims, both\
+  \ currently owned by Microsoft and \nacquired in the future, that are necessarily infringed\
+  \ by Covered Code. .NET \nPatents do not include any patent claims that are infringed by any\
+  \ Enabling \nTechnology, that are infringed only as a consequence of modification of \nCovered\
+  \ Code, or that are infringed only by the combination of Covered Code \nwith third party code.\
+  \ \n\n\".NET Runtime\" means any compliant implementation in software of (a) all of \nthe\
+  \ required parts of the mandatory provisions of Standard ECMA-335 – Common \nLanguage Infrastructure\
+  \ (CLI); and (b) if implemented, any additional \nfunctionality in Microsoft's .NET Framework,\
+  \ as described in Microsoft's API \ndocumentation on its MSDN website. For example, .NET Runtimes\
+  \ include \nMicrosoft's .NET Framework and those portions of the Mono Project compliant \n\
+  with (a) and (b). \n\n\"Enabling Technology\" means underlying or enabling technology that\
+  \ may be \nused, combined, or distributed in connection with Microsoft's .NET Framework \n\
+  or other .NET Runtimes, such as hardware, operating systems, and applications \nthat run on\
+  \ .NET Framework or other .NET Runtimes."

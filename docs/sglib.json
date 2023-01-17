@@ -10,5 +10,6 @@
   ],
   "ignorable_urls": [
     "http://www.opensource.org/"
-  ]
+  ],
+  "text": "Basically, I only care that you do not remove the Copyright notice from the\nsource code when using Sglib.\n\nMore precisely: you can use Sglib or its derivative forms (under the condition\nthat the Copyright notice is preserved) in any project, whether commercial or\nnot, free of charges. In particular, you can use Sglib under the terms of any\nlicense defined as an open source license by the Open Source Initiative\n(see http://www.opensource.org/). This includes most common open source licenses\nsuch as the BSD license and GNU GPL.\n\nIf you need to use sglib under any particular license conditions, contact the\nauthor."
 }

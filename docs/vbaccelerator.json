@@ -5,5 +5,6 @@
   "category": "Free Restricted",
   "owner": "vbAccelerator",
   "homepage_url": "http://vbaccelerator.com/",
-  "spdx_license_key": "LicenseRef-scancode-vbaccelerator"
+  "spdx_license_key": "LicenseRef-scancode-vbaccelerator",
+  "text": "Distribution notice:\n\nYou are free to distribute this zip in it's original state to any\npublic www site, online service or BBS without explicitly obtaining\nthe author's permission. (Notification would be greatly appreciated\nthough!).\n\nYou are free distribute vbalGrid6.ocx unmodified, or to use or modify\nthe source code as you wish. However, you must not distribute\nmodified versions of vbalGrid6.ocx unless you have changed the filename\nand the ProgID (project name).\n\nIf you wish to distribute this zip by any other means (i.e. if\nyou want to include it on a CD or any other software media) then the\nEXPRESS PERMISSION of the author is REQUIRED.\n\nPlease report any bugs in the component to the author."
 }

@@ -13,5 +13,6 @@
   "other_urls": [
     "http://en.wikipedia.org/wiki/GPL_linking_exception",
     "https://fedoraproject.org/wiki/Licensing/GPL_Classpath_Exception"
-  ]
+  ],
+  "text": "Linking this library statically or dynamically with other modules is making a\ncombined work based on this library. Thus, the terms and conditions of the GNU\nGeneral Public License cover the whole combination.\n\nAs a special exception, the copyright holders of this library give you\npermission to link this library with independent modules to produce an\nexecutable, regardless of the license terms of these independent modules, and to\ncopy and distribute the resulting executable under terms of your choice,\nprovided that you also meet, for each linked independent module, the terms and\nconditions of the license of that module. An independent module is a module\nwhich is not derived from or based on this library. If you modify this library,\nyou may extend this exception to your version of the library, but you are not\nobligated to do so. If you do not wish to do so, delete this exception statement\nfrom your version."
 }

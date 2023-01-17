@@ -13,3 +13,33 @@ ignorable_holders:
   - TMate Software
 ignorable_emails:
   - support@svnkit.com
+text: "This license applies to all portions of TMate SVNKit library, which \nare not externally-maintained\
+  \ libraries (e.g. Ganymed SSH library).\n\nAll the source code and compiled classes in package\
+  \ org.tigris.subversion.javahl\nexcept SvnClient class are covered by the license in JAVAHL-LICENSE\
+  \ file\n\nCopyright (c) 2004-2009 TMate Software. All rights reserved.\n\nRedistribution and\
+  \ use in source and binary forms, with or without modification, \nare permitted provided that\
+  \ the following conditions are met:\n\n    * Redistributions of source code must retain the\
+  \ above copyright notice, \n      this list of conditions and the following disclaimer.\n\
+  \      \n    * Redistributions in binary form must reproduce the above copyright notice, \n\
+  \      this list of conditions and the following disclaimer in the documentation \n      and/or\
+  \ other materials provided with the distribution.\n      \n    * Redistributions in any form\
+  \ must be accompanied by information on how to \n      obtain complete source code for the\
+  \ software that uses SVNKit and any \n      accompanying software that uses the software that\
+  \ uses SVNKit. The source \n      code must either be included in the distribution or be available\
+  \ for no \n      more than the cost of distribution plus a nominal fee, and must be freely\
+  \ \n      redistributable under reasonable conditions. For an executable file, complete \n\
+  \      source code means the source code for all modules it contains. It does not \n     \
+  \ include source code for modules or files that typically accompany the major \n      components\
+  \ of the operating system on which the executable file runs.\n      \n    * Redistribution\
+  \ in any form without redistributing source code for software \n      that uses SVNKit is\
+  \ possible only when such redistribution is explictly permitted \n      by TMate Software.\
+  \ Please, contact TMate Software at support@svnkit.com to \n      get such permission.\n\n\
+  THIS SOFTWARE IS PROVIDED BY TMATE SOFTWARE ``AS IS'' AND ANY EXPRESS OR IMPLIED\nWARRANTIES,\
+  \ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF \nMERCHANTABILITY, FITNESS FOR\
+  \ A PARTICULAR PURPOSE, OR NON-INFRINGEMENT, ARE \nDISCLAIMED. \n\nIN NO EVENT SHALL TMATE\
+  \ SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, \nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\
+  \ DAMAGES (INCLUDING, BUT NOT \nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS\
+  \ OF USE, DATA, OR \nPROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\
+  \ \nLIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE \nOR OTHERWISE)\
+  \ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF \nADVISED OF THE POSSIBILITY\
+  \ OF SUCH DAMAGE."

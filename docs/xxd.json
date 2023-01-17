@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Juergen Weigert",
   "homepage_url": "https://github.com/unixdj/xxd/blob/master/README",
-  "spdx_license_key": "LicenseRef-scancode-xxd"
+  "spdx_license_key": "LicenseRef-scancode-xxd",
+  "text": "Distribute freely and credit me,\nmake money and share with me,\nlose money and don't ask me."
 }

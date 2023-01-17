@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Takuya OOURA",
   "homepage_url": "http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html",
-  "spdx_license_key": "LicenseRef-scancode-takuya-ooura"
+  "spdx_license_key": "LicenseRef-scancode-takuya-ooura",
+  "text": "You may use, copy, modify and distribute this code for any purpose (include\ncommercial use) and without fee. Please refer to this package when you modify\nthis code."
 }

@@ -9,5 +9,6 @@
   "spdx_license_key": "LicenseRef-scancode-bsd-artwork",
   "other_urls": [
     "https://www.getlektor.com/license/"
-  ]
+  ],
+  "text": "This logo or a modified version may be used by anyone to refer to the \nproject, but does not indicate endorsement by the project.\n\nRedistribution and use in source (the SVG file) and binary forms\n(rendered PNG files etc.) of the image, with or without modification,\nare permitted provided that the following conditions are met:\n\n    Redistributions of source code must retain the above copyright notice\n    and this list of conditions.\n    \n    The names of the contributors to the softwaremay not be used to endorse or\n    promote products derived from this software without specific prior written permission."
 }

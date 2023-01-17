@@ -5,3 +5,63 @@ category: Permissive
 owner: ICOT
 homepage_url: https://www.ueda.info.waseda.ac.jp/~ajiro/ftp/use-of-software-E
 spdx_license_key: LicenseRef-scancode-icot-free
+text: "            TERMS AND CONDITIONS FOR USE OF \"ICOT FREE SOFTWARE\"\n\n\nThe follwing\
+  \ Terms and Conditions for use of \"ICOT FREE SOFTWARE\"\n\nis applied to all of:\n\n  * ICOT\
+  \ Free Software that ICOT releases\n  * Revised ICOT Free Software after its release\n  *\
+  \ Revised ICOT Free Software after its release\n\n\n1. Purposes and Background of ICOT Free\
+  \ Software.\n\n    The Institute for New Generation Computer Technology (\"ICOT\")\nhad been\
+  \ promoting the Fifth Generation Computer Systems project under\nthe commitment of the Ministry\
+  \ of International Trade and Industry of\nJapan (the \"MITI\").  Since April 1993, ICOT has\
+  \ been promoting the\nFollow-on project to the FGCS project. This follow-on project aims to\n\
+  disseminate and further develop FGCS technology. The FGCS project and\nthe Follow-on project\
+  \ (collectively, the \"Project\") have been aimed at\ncreating basic technology for novel\
+  \ computers that realizes parallel\ninference processing as their core mechanism, and contributing\
+  \ toward\nthe progress of computer science by sharing innovative knowledge and\ntechnology\
+  \ with the research community worldwide.\n\n    Innovative hardware and software parallel\
+  \ inference technology\nhas been under development through the Project, which involves\nvarieties\
+  \ of advanced software for experiments and evaluation. This\nsoftware, being at a basic stage\
+  \ of research and development, should\nbe disseminated widely to the research community.\n\
+  \n    According to the aims of the Project, ICOT has made this\nsoftware, the copyright of\
+  \ which does not belong to the government but\nto ICOT itself, available to the public in\
+  \ order to contribute to the\nworld, and, moreover, has removed all restrictions on its usage\
+  \ that\nmay have impeded further research and development in order that large\nnumbers of\
+  \ researchers can use it freely to begin a new era of\ncomputer science.\n\n    This program\
+  \ together with any attached documentation (collec-\ntively, the \"Program\") is being distributed\
+  \ by ICOT free of charge as\nICOT Free Software.\n\n\n2. Free Use, Modification, Copying and\
+  \ Distribution\n\n    Persons wanting to use the Program (\"Users\") may freely do so\nand\
+  \ may also freely modify and copy the Program. The term \"modify,\" as\nused here, includes,\
+  \ but is not limited to, any act to improve or\nexpand the Program for the purposes of enhancing\
+  \ and/or improving its\nfunction, performance and/or quality as well as to add one or more\n\
+  programs or documents developed by Users of the Program.\n\n    Each User may also freely\
+  \ distribute the Program, whether in\nits original form or modified, to any third party or\
+  \ parties, PROVIDED\nthat the provisions of Section 3 (\"NO WARRANTY\") will ALWAYS appear\n\
+  on, or be attached to, the Program, which is distributed substantially\nin the same form as\
+  \ set out herein and that such intended\ndistribution, if actually made, will neither violate\
+  \ or otherwise\ncontravene any of the laws and regulations of the countries having\njurisdiction\
+  \ over the User or the intended distribution itself.\n\n\n3. NO WARRANTY\n\n    The program\
+  \ was produced on an experimental basis in the\ncourse of the research and development conducted\
+  \ during the project\nand is provided to users as so produced on an experimental basis. \n\
+  Accordingly, the program is provided without any warranty whatsoever,\nwhether express, implied,\
+  \ statutory or otherwise. The term \"warranty\"\nused herein includes, but is not limited\
+  \ to, any warranty of the\nquality, performance, merchantability and fitness for a particular\n\
+  purpose of the program and the nonexistence of any infringement or\nviolation of any right\
+  \ of any third party.\n\n    Each user of the program will agree and understand, and be\n\
+  deemed to have agreed and understood, that there is no warranty\nwhatsoever for the program\
+  \ and, accordingly, the entire risk arising\nfrom or otherwise connected with the program\
+  \ is assumed by the user.\n\n    Therefore, neither ICOT, the copyright holder, or any other\n\
+  organization that participated in or was otherwise related to the\ndevelopment of the program\
+  \ and their respective officials, directors,\nofficers and other employees shall be held liable\
+  \ for any and all\ndamages, including, without limitation, general, special, incidental\n\
+  and consequential damages, arising out of or otherwise in connection\nwith the use or inability\
+  \ to use the program or any product, material\nor result produced or otherwise obtained by\
+  \ using the program,\nregardless of whether they have been advised of, or otherwise had\n\
+  knowledge of, the possibility of such damages at any time during the\nproject or thereafter.\
+  \ Each user will be deemed to have agreed to the\nforegoing by his or her commencement of\
+  \ use of the program. The term\n\"use\" as used herein includes, but is not limited to, the\
+  \ use,\nmodification, copying and distribution of the program and the\nproduction of secondary\
+  \ products from the program.\n\n    In the case where the program, whether in its original\
+  \ form or\nmodified, was distributed or delivered to or received by a user from\nany person,\
+  \ organization or entity other than ICOT, unless it makes or\ngrants independently of ICOT\
+  \ any specific warranty to the user in\nwriting, such person, organization or entity, will\
+  \ also be exempted\nfrom and not be held liable to the user for any such damages as noted\n\
+  above as far as the program is concerned."

@@ -6,5 +6,6 @@
   "owner": "AviSynth Library Project",
   "homepage_url": "http://avisynth.nl/users/fizick/docs/english/license.htm",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-avisynth-linking-exception"
+  "spdx_license_key": "LicenseRef-scancode-avisynth-linking-exception",
+  "text": "Linking Avisynth statically or dynamically with other modules is making a\ncombined work based on Avisynth.  Thus, the terms and conditions of the GNU\nGeneral Public License cover the whole combination.\n\nAs a special exception, the copyright holders of Avisynth give you\npermission to link Avisynth with independent modules that communicate\nwith Avisynth solely through the interfaces defined in avisynth.h,\nregardless of the license terms of these independent modules, and to\ncopy and distribute the resulting combined work under terms of your\nchoice, provided that every copy of the combined work is accompanied by\na complete copy of the source code of Avisynth (the version of Avisynth\nused to produce the combined work), being distributed under the terms of\nthe GNU General Public License plus this exception.  An independent\nmodule is a module which is not derived from or based on Avisynth, such\nas 3rd-party filters, import and export plugins, or graphical user\ninterfaces."
 }

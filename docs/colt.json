@@ -21,5 +21,6 @@
   ],
   "ignorable_urls": [
     "http://acs.lbl.gov/software/colt/license.html"
-  ]
+  ],
+  "text": "Colt License Agreement\n\nhttp://acs.lbl.gov/software/colt/license.html\n\nPackages cern.colt* , cern.jet*, cern.clhep\n\nCopyright (c) 1999 CERN - European Organization for Nuclear Research.\n\nPermission to use, copy, modify, distribute and sell this software and its\ndocumentation for any purpose is hereby granted without fee, provided that the\nabove copyright notice appear in all copies and that both that copyright notice\nand this permission notice appear in supporting documentation. CERN makes no\nrepresentations about the suitability of this software for any purpose. It is\nprovided \"as is\" without expressed or implied warranty.\n\nPackages hep.aida.* Written by Pavel Binko, Dino Ferrero Merlino, Wolfgang\nHoschek, Tony Johnson, Andreas Pfeiffer, and others. Check the FreeHEP home page\nfor more info. Permission to use and/or redistribute this work is granted under\nthe terms of the LGPL License, with the exception that any usage related to\nmilitary applications is expressly forbidden. The software and documentation\nmade available under the terms of this license are provided with no warranty."
 }

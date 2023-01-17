@@ -9,5 +9,6 @@
   "spdx_license_key": "KiCad-libraries-exception",
   "other_urls": [
     "https://www.kicad.org/libraries/license/"
-  ]
+  ],
+  "text": "To the extent that the creation of electronic designs that use 'Licensed Material' \ncan be considered to be 'Adapted Material', then the copyright holder waives article \n3 of the license with respect to these designs and any generated files which use\n data provided as part of the 'Licensed Material'."
 }

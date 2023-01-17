@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "IBPP",
   "homepage_url": "https://raw.githubusercontent.com/mariuz/flamerobin/0.9.0/src/ibpp/license.txt",
-  "spdx_license_key": "LicenseRef-scancode-ibpp"
+  "spdx_license_key": "LicenseRef-scancode-ibpp",
+  "text": "IBPP License v1.1\n-----------------\nPermission is hereby granted, free of charge, to any person or organization\n(\"You\") obtaining a copy of this software and associated documentation files\ncovered by this license (the \"Software\") to use the Software as part of another\nwork; to modify it for that purpose; to publish or distribute it, modified or\nnot, for that same purpose; to permit persons to whom the other work using the\nSoftware is furnished to do so; subject to the following conditions: the above\ncopyright notice and this complete and unmodified permission notice shall be\nincluded in all copies or substantial portions of the Software; You will not\nmisrepresent modified versions of the Software as being the original.\n\nThe Software is provided \"as is\", without warranty of any kind, express or\nimplied, including but not limited to the warranties of merchantability,\nfitness for a particular purpose and noninfringement.  In no event shall\nthe authors or copyright holders be liable for any claim, damages or other\nliability, whether in an action of contract, tort or otherwise, arising from,\nout of or in connection with the software or the use of other dealings in\nthe Software."
 }

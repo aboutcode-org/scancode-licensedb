@@ -5,5 +5,6 @@
   "category": "Proprietary Free",
   "owner": "Unspecified",
   "notes": "From https://github.com/ErikMcClure/bad-licenses",
-  "spdx_license_key": "LicenseRef-scancode-abrms"
+  "spdx_license_key": "LicenseRef-scancode-abrms",
+  "text": "The \"Anyone But Richard M Stallman\" license\nDo anything you want with this program, with the exceptions listed below under \"EXCEPTIONS\".\n\nTHIS SOFTWARE IS PROVIDED \"AS IS\" WITH NO WARRANTY OF ANY KIND.\n\nIn the unlikely event that you happen to make a zillion bucks off of this, then good for you; consider buying a homeless person a meal.\n\nEXCEPTIONS\nRichard M Stallman (the guy behind GNU, etc.) may not make use of or redistribute this program or any of its derivatives."
 }

@@ -6,5 +6,6 @@
   "owner": "Kevin Atkinson",
   "homepage_url": "http://www.kevina.org/avisynth_c/readme.txt",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-avisynth-c-exception"
+  "spdx_license_key": "LicenseRef-scancode-avisynth-c-exception",
+  "text": "As a special exception, I give you permission to link to the Avisynth\nC interface with independent modules that communicate with the\nAvisynth C interface solely through the interfaces defined in\navisynth_c.h, regardless of the license terms of these independent\nmodules, and to copy and distribute the resulting combined work under\nterms of your choice, provided that every copy of the combined work is\naccompanied by a complete copy of the source code of the Avisynth C\ninterface and Avisynth itself (with the version used to produce the\ncombined work), being distributed under the terms of the GNU General\nPublic License plus this exception.  An independent module is a module\nwhich is not derived from or based on Avisynth C Interface, such as\n3rd-party filters, import and export plugins, or graphical user\ninterfaces."
 }

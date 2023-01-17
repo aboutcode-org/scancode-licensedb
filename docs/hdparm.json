@@ -8,5 +8,6 @@
   "minimum_coverage": 90,
   "ignorable_emails": [
     "mlord@pobox.com"
-  ]
+  ],
+  "text": "You may freely use, modify, and redistribute the hdparm program, as either\nbinary or source, or both.\n\nThe only condition is that my name and copyright notice remain in the source\ncode as-is.\n\nMark Lord (mlord@pobox.com)"
 }

@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-sun-rpc",
   "text_urls": [
     "http://www.opensource.apple.com/license/sunrpc/"
-  ]
+  ],
+  "text": "Sun RPC is a product of Sun Microsystems, Inc. and is provided for\nunrestricted use provided that this legend is included on all tape\nmedia and as a part of the software program in whole or part.  Users\nmay copy or modify Sun RPC without charge, but are not authorized\nto license or distribute it to anyone else except as part of a product or \nprogram developed by the user.\n \nSUN RPC IS PROVIDED AS IS WITH NO WARRANTIES OF ANY KIND INCLUDING THE\nWARRANTIES OF DESIGN, MERCHANTIBILITY AND FITNESS FOR A PARTICULAR\nPURPOSE, OR ARISING FROM A COURSE OF DEALING, USAGE OR TRADE PRACTICE.\n \nSun RPC is provided with no support and without any obligation on the\npart of Sun Microsystems, Inc. to assist in its use, correction,\nmodification or enhancement.\n \nSUN MICROSYSTEMS, INC. SHALL HAVE NO LIABILITY WITH RESPECT TO THE\nINFRINGEMENT OF COPYRIGHTS, TRADE SECRETS OR ANY PATENTS BY SUN RPC\nOR ANY PART THEREOF.\n \nIn no event will Sun Microsystems, Inc. be liable for any lost revenue\nor profits or other special, indirect and consequential damages, even if \nSun has been advised of the possibility of such damages.\n \nSun Microsystems, Inc.\n2550 Garcia Avenue\nMountain View, California  94043"
 }

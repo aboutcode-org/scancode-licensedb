@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Distributed Processing Technology",
   "spdx_license_key": "LicenseRef-scancode-bsd-dpt",
-  "minimum_coverage": 95
+  "minimum_coverage": 95,
+  "text": "Redistribution and use in source form, with or without modification, are\npermitted provided that redistributions of source code must retain the\nabove copyright notice, this list of conditions and the following\ndisclaimer.\n\nThis software is provided `as is' by Distributed Processing Technology\nand any express or implied warranties, including, but not limited to,\nthe implied warranties of merchantability and fitness for a particular\npurpose, are disclaimed. In no event shall Distributed Processing\nTechnology be liable for any direct, indirect, incidental, special,\nexemplary or consequential damages (including, but not limited to,\nprocurement of substitute goods or services; loss of use, data, or\nprofits; or business interruptions) however caused and on any theory of\nliability, whether in contract, strict liability, or tort (including\nnegligence or otherwise) arising in any way out of the use of this\ndriver software, even if advised of the possibility of such damage."
 }

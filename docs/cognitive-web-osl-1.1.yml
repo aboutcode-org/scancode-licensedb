@@ -17,3 +17,291 @@ ignorable_holders:
 ignorable_urls:
   - http://www.cognitiveweb.org/
   - http://www.cognitiveweb.org/legal/license
+text: "CognitiveWeb Open Source License\n\nVersion 1.1\n\nThis CognitiveWeb™ Open Source License\
+  \ (the \"License\") applies to\nCognitiveWeb software products as well as any updates or maintenance\n\
+  releases of that software (\"CognitiveWeb Products\") that are distributed\nby CognitiveWeb.\
+  \ (\"Licensor\").  Any CognitiveWeb Product licensed\npursuant to this License is a Licensed\
+  \ Product.  Licensed Product, in\nits entirety, is protected by U.S. copyright law.  This\
+  \ License\nidentifies the terms under which you may use, copy, distribute or modify\nLicensed\
+  \ Product.\n\nPreamble\n\nThis Preamble is intended to describe, in plain English, the nature\
+  \ and\nscope of this License. However, this Preamble is not a part of this\nlicense. The legal\
+  \ effect of this License is dependent only upon the\nterms of the License and not this Preamble.\
+  \ This License complies with\nthe Open Source Definition and has been approved by Open Source\n\
+  Initiative. Software distributed under this License may be marked as\n\"OSI Certified Open\
+  \ Source Software.\"\n\nThis License provides that:\n\n1.      You may use, sell or give away\
+  \ the Licensed Product, alone or as\na component of an aggregate software distribution containing\
+  \ programs\nfrom several different sources.  No royalty or other fee is required.\n\n2.  \
+  \    Both Source Code and executable versions of the Licensed\nProduct, including Modifications\
+  \ made by previous Contributors, are\navailable for your use.  (The terms \"Licensed Product,\"\
+  \ \"Modifications,\"\n\"Contributors\" and \"Source Code\" are defined in the License.)\n\n\
+  3.      You are allowed to make Modifications to the Licensed Product,\nand you can create\
+  \ Derivative Works from it. (The term \"Derivative\nWorks\" is defined in the License.)\n\n\
+  4.      By accepting the Licensed Product under the provisions of this\nLicense, you agree\
+  \ that any Modifications you make to the Licensed\nProduct and then distribute are governed\
+  \ by the provisions of this\nLicense.  In particular, you must make the Source Code of your\n\
+  Modifications available to others.\n\n5.      You may use the Licensed Product for any purpose,\
+  \ but the\nLicensor is not providing you any warranty whatsoever, nor is the\nLicensor accepting\
+  \ any liability in the event that the Licensed Product\ndoesn't work properly or causes you\
+  \ any injury or damages.\n\n6.      If you sublicense the Licensed Product or Derivative Works,\
+  \ you\nmay charge fees for warranty or support, or for accepting indemnity or\nliability obligations\
+  \ to your customers.  You cannot charge for the\nSource Code.\n\n7.      If you assert any\
+  \ patent claims against the Licensor relating to\nthe Licensed Product, or if you breach any\
+  \ terms of the License, your\nrights to the Licensed Product under this License automatically\n\
+  terminate. You may use this License to distribute your own Derivative\nWorks, in which case\
+  \ the provisions of this License will apply to your\nDerivative Works just as they do to the\
+  \ original Licensed Product.\nAlternatively, you may distribute your Derivative Works under\
+  \ any other\nOSI-approved Open Source license, or under a proprietary license of your\nchoice.\
+  \  If you use any license other than this License, however, you\nmust continue to fulfill\
+  \ the requirements of this License (including the\nprovisions relating to publishing the Source\
+  \ Code) for those portions of\nyour Derivative Works that consist of the Licensed Product,\
+  \ including\nthe files containing Modifications.\n\nNew versions of this License may be published\
+  \ from time to time.  You\nmay choose to continue to use the license terms in this version\
+  \ of the\nLicense or those from the new version.  However, only the Licensor has\nthe right\
+  \ to change the License terms as they apply to the Licensed\nProduct. This License relies\
+  \ on precise definitions for certain terms.\nThose terms are defined when they are first used,\
+  \ and the definitions\nare repeated for your convenience in a Glossary at the end of the\n\
+  License.\n\nLicense Terms\n\n1.      Grant of License From Licensor.  Licensor hereby grants\
+  \ you a\nworld-wide, royalty-free, non-exclusive license, subject to third party\nintellectual\
+  \ property claims, to do the following:\n\na.       Use, reproduce, modify, display, perform,\
+  \ sublicense and\ndistribute any Modifications created by such Contributor or portions\nthereof,\
+  \ in both Source Code or as an executable program, either on an\nunmodified basis or as part\
+  \ of Derivative Works.\n\nb.       Under claims of patents now or hereafter owned or controlled\
+  \ by\nContributor, to make, use, sell, offer for sale, have made, and/or\notherwise dispose\
+  \ of Modifications or portions thereof, but solely to\nthe extent that any such claim is necessary\
+  \ to enable you to make, use,\nsell, offer for sale, have made, and/or otherwise dispose of\n\
+  Modifications or portions thereof or Derivative Works thereof.\n\n2. Grant of License to Modifications\
+  \ From Contributor. \"Modifications\"\nmeans any additions to or deletions from the substance\
+  \ or structure of\n(i) a file containing Licensed Product, or (ii) any new file that\ncontains\
+  \ any part of Licensed Product. Hereinafter in this License, the\nterm \"Licensed Product\"\
+  \ shall include all previous Modifications that\nyou receive from any Contributor. By application\
+  \ of the provisions in\nSection 4(a) below, each person or entity who created or contributed\
+  \ to\nthe creation of, and distributed, a Modification (a \"Contributor\")\nhereby grants\
+  \ you a world-wide, royalty-free, non-exclusive license,\nsubject to third party intellectual\
+  \ property claims, to do the\nfollowing:\n\na.  Use, reproduce, modify, display, perform,\
+  \ sublicense and distribute\nany Modifications created by such Contributor or portions thereof,\
+  \ in\nboth Source Code or as an executable program, either on an unmodified\nbasis or as part\
+  \ of Derivative Works.\n\nb.  Under claims of patents now or hereafter owned or controlled\
+  \ by\nContributor, to make, use, sell, offer for sale, have made, and/or\notherwise dispose\
+  \ of Modifications or portions thereof, but solely to\nthe extent that any such claim is necessary\
+  \ to enable you to make, use,\nsell, offer for sale, have made, and/or otherwise dispose of\n\
+  Modifications or portions thereof or Derivative Works thereof.\n\n3.      Exclusions From\
+  \ License Grant.  Nothing in this License shall be\ndeemed to grant any rights to trademarks,\
+  \ copyrights, patents, trade\nsecrets or any other intellectual property of Licensor or any\n\
+  Contributor except as expressly stated herein. No patent license is\ngranted separate from\
+  \ the Licensed Product, for code that you delete\nfrom the Licensed Product, or for combinations\
+  \ of the Licensed Product\nwith other software or hardware.  No right is granted to the trademarks\n\
+  of Licensor or any Contributor even if such marks are included in the\nLicensed Product. \
+  \ Nothing in this License shall be interpreted to\nprohibit Licensor from licensing under\
+  \ different terms from this License\nany code that Licensor otherwise would have a right to\
+  \ license.\n\n4.      Your Obligations Regarding Distribution.  \n\na.       Application of\
+  \ This License to Your Modifications.  As an\nexpress condition for your use of the Licensed\
+  \ Product, you hereby agree\nthat any Modifications that you create or to which you contribute,\
+  \ and\nwhich you distribute, are governed by the terms of this License\nincluding, without\
+  \ limitation, Section 2.  Any Modifications that you\ncreate or to which you contribute may\
+  \ be distributed only under the\nterms of this License or a future version of this License\
+  \ released under\nSection 7.  You must include a copy of this License with every copy of\n\
+  the Modifications you distribute.  You agree not to offer or impose any\nterms on any Source\
+  \ Code or executable version of the Licensed Product\nor Modifications that alter or restrict\
+  \ the applicable version of this\nLicense or the recipients' rights hereunder. However, you\
+  \ may include an\nadditional document offering the additional rights described in Section\n\
+  4(e).\n\nb.       Availability of Source Code.  You must make available, under\nthe terms\
+  \ of this License, the Source Code of the Licensed Product and\nany Modifications that you\
+  \ distribute, either on the same media as you\ndistribute any executable or other form of\
+  \ the Licensed Product, or via\na mechanism generally accepted in the software development\
+  \ community for\nthe electronic transfer of data (an \"Electronic Distribution\nMechanism\"\
+  ).  The Source Code for any version of Licensed Product or\nModifications that you distribute\
+  \ must remain available for at least\ntwelve (12) months after the date it initially became\
+  \ available, or at\nleast six (6) months after a subsequent version of said Licensed Product\n\
+  or Modifications has been made available.  You are responsible for\nensuring that the Source\
+  \ Code version remains available even if the\nElectronic Distribution Mechanism is maintained\
+  \ by a third party.\n\nc.       Description of Modifications.  You must cause any Modifications\n\
+  that you create or to which you contribute, and which you distribute, to\ncontain a file documenting\
+  \ the additions, changes or deletions you made\nto create or contribute to those Modifications,\
+  \ and the dates of any\nsuch additions, changes or deletions.  You must include a prominent\n\
+  statement that the Modifications are derived, directly or indirectly,\nfrom the Licensed Product\
+  \ and include the names of the Licensor and any\nContributor to the Licensed Product in (i)\
+  \ the Source Code and (ii) in\nany notice displayed by a version of the Licensed Product you\
+  \ distribute\nor in related documentation in which you describe the origin or\nownership of\
+  \ the Licensed Product. You may not modify or delete any\npreexisting copyright notices in\
+  \ the Licensed Product.\n\nd.       Intellectual Property Matters.\n\n    i.            Third\
+  \ Party Claims.  \nIf you have knowledge that a license to a third party's intellectual\n\
+  property right is required to exercise the rights granted by this\nLicense, you must include\
+  \ a text file with the Source Code distribution\ntitled \"LEGAL\" that describes the claim\
+  \ and the party making the claim\nin sufficient detail that a recipient will know whom to\
+  \ contact.  If you\nobtain such knowledge after you make any Modifications available as\n\
+  described in Section 4(b), you shall promptly modify the LEGAL file in\nall copies you make\
+  \ available thereafter and shall take other steps\n(such as notifying appropriate mailing\
+  \ lists or newsgroups) reasonably\ncalculated to inform those who received the Licensed Product\
+  \ from you\nthat new knowledge has been obtained.\n\n    ii.            Contributor APIs.\
+  \  If your Modifications include \nan application programming interface (\"API\") and you\
+  \ have knowledge of\npatent licenses that are reasonably necessary to implement that API,\
+  \ you\nmust also include this information in the LEGAL file.\n\n    iii.            Representations.\
+  \  You represent that, except as \ndisclosed pursuant to 4(d)(i) above, you believe that any\
+  \ Modifications\nyou distribute are your original creations and that you have sufficient\n\
+  rights to grant the rights conveyed by this License.\n\ne.       Required Notices.  You must\
+  \ duplicate this License in any\ndocumentation you provide along with the Source Code of any\n\
+  Modifications you create or to which you contribute, and which you\ndistribute, wherever you\
+  \ describe recipients' rights relating to\nLicensed Product.  You must duplicate the notice\
+  \ contained in Exhibit A\n(the \"Notice\") in each file of the Source Code of any copy you\n\
+  distribute of the Licensed Product. If you created a Modification, you\nmay add your name\
+  \ as a Contributor to the Notice.  If it is not possible\nto put the Notice in a particular\
+  \ Source Code file due to its structure,\nthen you must include such Notice in a location\
+  \ (such as a relevant\ndirectory file) where a user would be likely to look for such a notice.\n\
+  You may choose to offer, and charge a fee for, warranty, support,\nindemnity or liability\
+  \ obligations to one or more recipients of Licensed\nProduct. However, you may do so only\
+  \ on your own behalf, and not on\nbehalf of the Licensor or any Contributor.  You must make\
+  \ it clear that\nany such warranty, support, indemnity or liability obligation is offered\n\
+  by you alone, and you hereby agree to indemnify the Licensor and every\nContributor for any\
+  \ liability incurred by the Licensor or such\nContributor as a result of warranty, support,\
+  \ indemnity or liability\nterms you offer.\n\nf.        Distribution of Executable Versions.\
+  \  You may distribute\nLicensed Product as an executable program under a license of your choice\n\
+  that may contain terms different from this License provided (i) you have\nsatisfied the requirements\
+  \ of Sections 4(a) through 4(e) for that\ndistribution, (ii) you include a conspicuous notice\
+  \ in the executable\nversion, related documentation and collateral materials stating that\
+  \ the\nSource Code version of the Licensed Product is available under the terms\nof this License,\
+  \ including a description of how and where you have\nfulfilled the obligations of Section\
+  \ 4(b), (iii) you retain all existing\ncopyright notices in the Licensed Product, and (iv)\
+  \ you make it clear\nthat any terms that differ from this License are offered by you alone,\n\
+  not by Licensor or any Contributor.  You hereby agree to indemnify the\nLicensor and every\
+  \ Contributor for any liability incurred by Licensor or\nsuch Contributor as a result of any\
+  \ terms you offer.\n\ng.       Distribution of Derivative Works.  You may create Derivative\n\
+  Works (e.g., combinations of some or all of the Licensed Product with\nother code) and distribute\
+  \ the Derivative Works as products under any\nother license you select, with the proviso that\
+  \ the requirements of this\nLicense are fulfilled for those portions of the Derivative Works\
+  \ that\nconsist of the Licensed Product or any Modifications thereto.\n\n5.      Inability\
+  \ to Comply Due to Statute or Regulation.  If it is\nimpossible for you to comply with any\
+  \ of the terms of this License with\nrespect to some or all of the Licensed Product due to\
+  \ statute, judicial\norder, or regulation, then you must (i) comply with the terms of this\n\
+  License to the maximum extent possible, (ii) cite the statute or\nregulation that prohibits\
+  \ you from adhering to the License, and (iii)\ndescribe the limitations and the code they\
+  \ affect. Such description must\nbe included in the LEGAL file described in Section 4(d),\
+  \ and must be\nincluded with all distributions of the Source Code.  Except to the\nextent\
+  \ prohibited by statute or regulation, such description must be\nsufficiently detailed for\
+  \ a recipient of ordinary skill at computer\nprogramming to be able to understand it.\n\n\
+  6.      Application of This License.  This License applies to code to\nwhich Licensor or Contributor\
+  \ has attached the Notice in Exhibit A,\nwhich is incorporated herein by this reference.\n\
+  \n7.      Versions of This License.\n\na.       New Versions.  Licensor may publish from time\
+  \ to time revised\nand/or new versions of the License.\n\nb.       Effect of New Versions.\
+  \  Once Licensed Product has been\npublished under a particular version of the License, you\
+  \ may always\ncontinue to use it under the terms of that version.  You may also choose\nto\
+  \ use such Licensed Product under the terms of any subsequent version\nof the License published\
+  \ by Licensor.  No one other than Licensor has\nthe right to modify the terms applicable to\
+  \ Licensed Product created\nunder this License.\n\nc.       Derivative Works of this License.\
+  \  If you create or use a\nmodified version of this License, which you may do only in order\
+  \ to\napply it to software that is not already a Licensed Product under this\nLicense, you\
+  \ must rename your license so that it is not confusingly\nsimilar to this License, and must\
+  \ make it clear that your license\ncontains terms that differ from this License.  In so naming\
+  \ your\nlicense, you may not use any trademark of Licensor or any Contributor.\n\n8.     \
+  \ Disclaimer of Warranty.  LICENSED PRODUCT IS PROVIDED UNDER THIS\nLICENSE ON AN AS IS BASIS,\
+  \ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS\nOR IMPLIED, INCLUDING, WITHOUT LIMITATION,\
+  \ WARRANTIES THAT THE LICENSED\nPRODUCT IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR\
+  \ PURPOSE\nOR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF\nTHE LICENSED\
+  \ PRODUCT IS WITH YOU.  SHOULD LICENSED PRODUCT PROVE\nDEFECTIVE IN ANY RESPECT, YOU (AND\
+  \ NOT THE LICENSOR OR ANY OTHER\nCONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING,\
+  \ REPAIR OR\nCORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF\nTHIS\
+  \ LICENSE. NO USE OF LICENSED PRODUCT IS AUTHORIZED HEREUNDER EXCEPT\nUNDER THIS DISCLAIMER.\n\
+  \n9.      Termination.  \n\na.       Automatic Termination Upon Breach.  This license and\
+  \ the rights\ngranted hereunder will terminate automatically if you fail to comply\nwith the\
+  \ terms herein and fail to cure such breach within thirty (30)\ndays of becoming aware of\
+  \ the breach.  All sublicenses to the Licensed\nProduct that are properly granted shall survive\
+  \ any termination of this\nlicense.  Provisions that, by their nature, must remain in effect\
+  \ beyond\nthe termination of this License, shall survive.\n\nb.       Termination Upon Assertion\
+  \ of Patent Infringement.  If you\ninitiate litigation by asserting a patent infringement\
+  \ claim (excluding\ndeclaratory judgment actions) against Licensor or a Contributor\n(Licensor\
+  \ or Contributor against whom you file such an action is\nreferred to herein as Respondent)\
+  \ alleging that Licensed Product\ndirectly or indirectly infringes any patent, then any and\
+  \ all rights\ngranted by such Respondent to you under Sections 1 or 2 of this License\nshall\
+  \ terminate prospectively upon sixty (60) days notice from\nRespondent (the \"Notice Period\"\
+  ) unless within that Notice Period you\neither agree in writing (i) to pay Respondent a mutually\
+  \ agreeable\nreasonably royalty for your past or future use of Licensed Product made\nby such\
+  \ Respondent, or (ii) withdraw your litigation claim with respect\nto Licensed Product against\
+  \ such Respondent. If within said Notice\nPeriod a reasonable royalty and payment arrangement\
+  \ are not mutually\nagreed upon in writing by the parties or the litigation claim is not\n\
+  withdrawn, the rights granted by Licensor to you under Sections 1 and 2\nautomatically terminate\
+  \ at the expiration of said Notice Period.\n\nc.       Reasonable Value of This License. \
+  \ If you assert a patent\ninfringement claim against Respondent alleging that Licensed Product\n\
+  directly or indirectly infringes any patent where such claim is resolved\n(such as by license\
+  \ or settlement) prior to the initiation of patent\ninfringement litigation, then the reasonable\
+  \ value of the licenses\ngranted by said Respondent under Sections 1 and 2 shall be taken\
+  \ into\naccount in determining the amount or value of any payment or license.\n\nd.      \
+  \ No Retroactive Effect of Termination.  In the event of\ntermination under Sections 9(a)\
+  \ or 9(b) above, all end user license\nagreements (excluding licenses to distributors and\
+  \ resellers) that have\nbeen validly granted by you or any distributor hereunder prior to\n\
+  termination shall survive termination.\n\n10.  Limitation of Liability.  UNDER NO CIRCUMSTANCES\
+  \ AND UNDER NO LEGAL\nTHEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE,\n\
+  SHALL THE LICENSOR, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF LICENSED\nPRODUCT, OR ANY SUPPLIER\
+  \ OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON\nFOR ANY INDIRECT, SPECIAL, INCIDENTAL,\
+  \ OR CONSEQUENTIAL DAMAGES OF ANY\nCHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS\
+  \ OF GOODWILL,\nWORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER\nCOMMERCIAL\
+  \ DAMAGES OR LOSSES, EVEN IF SUCH PARTY SHALL HAVE BEEN\nINFORMED OF THE POSSIBILITY OF SUCH\
+  \ DAMAGES.  THIS LIMITATION OF\nLIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL\
+  \ INJURY\nRESULTING FROM SUCH PARTYS NEGLIGENCE TO THE EXTENT APPLICABLE LAW\nPROHIBITS SUCH\
+  \ LIMITATION.  SOME JURISDICTIONS DO NOT ALLOW THE\nEXCLUSION OR LIMITATION OF INCIDENTAL\
+  \ OR CONSEQUENTIAL DAMAGES, SO THIS\nEXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.\n\n11.\
+  \  Responsibility for Claims.  As between Licensor and Contributors,\neach party is responsible\
+  \ for claims and damages arising, directly or\nindirectly, out of its utilization of rights\
+  \ under this License.  You\nagree to work with Licensor and Contributors to distribute such\n\
+  responsibility on an equitable basis.  Nothing herein is intended or\nshall be deemed to constitute\
+  \ any admission of liability.\n\n12.  U.S. Government End Users.  The Licensed Product is\
+  \ a commercial\nitem, as that term is defined in 48 C.F.R. 2.101 (Oct. 1995), consisting\n\
+  of commercial computer software and commercial computer software\ndocumentation, as such terms\
+  \ are used in 48 C.F.R. 12.212 (Sept. 1995).\nConsistent with 48 C.F.R. 12.212 and 48 C.F.R.\
+  \ 227.7202-1 through\n227.7202-4 (June 1995), all U.S. Government End Users acquire Licensed\n\
+  Product with only those rights set forth herein.\n\n13.  Miscellaneous.  This License represents\
+  \ the complete agreement\nconcerning the subject matter hereof.  If any provision of this\
+  \ License\nis held to be unenforceable, such provision shall be reformed only to\nthe extent\
+  \ necessary to make it enforceable. Any action or suit relating\nto this License may be brought\
+  \ only in the courts of a jurisdiction\nwherein the Licensor resides or in which Licensor\
+  \ conducts its primary\nbusiness, and under the laws of that jurisdiction excluding its\n\
+  conflict-of-law provisions. The losing party is responsible for costs\nincluding, without\
+  \ limitation, court costs and reasonable attorneys fees\nand expenses.  You and Licensor expressly\
+  \ waive any rights to a jury\ntrial in any litigation concerning Licensed Product or this\
+  \ License.\nAny law or regulation that provides that the language of a contract\nshall be\
+  \ construed against the drafter shall not apply to this License.\nThe application of the United\
+  \ Nations Convention on Contracts for the\nInternational Sale of Goods is expressly excluded.\
+  \ Any use of the\nOriginal Work outside the scope of this License or after its termination\n\
+  shall be subject to the requirements and penalties of the U.S. Copyright\nAct, 17 U.S.C. 101\
+  \ et seq., the equivalent laws of other countries, and\ninternational treaty. This section\
+  \ shall survive the termination of this\nLicense.\n\n14.  Definition of You in This License.\
+  \ You throughout this License,\nwhether in upper or lower case, means an individual or a legal\
+  \ entity\nexercising rights under, and complying with all of the terms of, this\nLicense or\
+  \ a future version of this License issued under Section 7.  For\nlegal entities, you includes\
+  \ any entity that controls, is controlled by,\nor is under common control with you.  For purposes\
+  \ of this definition,\ncontrol means (i) the power, direct or indirect, to cause the direction\n\
+  or management of such entity, whether by contract or otherwise, or (ii)\nownership of fifty\
+  \ percent (50%) or more of the outstanding shares, or\n(iii) beneficial ownership of such\
+  \ entity.\n\n15.  Glossary.  All defined terms in this License that are used in more\nthan\
+  \ one Section of this License are repeated here, in alphabetical\norder, for the convenience\
+  \ of the reader.  The Section of this License\nin which each defined term is first used is\
+  \ shown in parentheses.\n\nContributor:  Each person or entity who created or contributed\
+  \ to the\ncreation of, and distributed, a Modification.  (See Section 2)\n\nDerivative Works:\
+  \ That term as used in this License is defined under\nU.S. copyright law.  (See Section 1(b))\n\
+  \nFile: A persistent or transient representation, including without\nlimitation, a computer\
+  \ system file, an information resource, and a web\nresource.\n\nLicense:  This CognitiveWeb\
+  \ Open Source License.  (See first paragraph\nof License)\n\nLicensed Product:  Any CognitiveWeb\
+  \ Product licensed pursuant to this\nLicense.  The term \"Licensed Product\" includes all\
+  \ previous\nModifications from any Contributor that you receive. (See first\nparagraph of\
+  \ License and Section 2)\n\nLicensor:  Bryan Thompson dba CognitiveWeb  (See first paragraph\
+  \ of\nLicense)\n\nModifications:  Any additions to or deletions from the substance or\nstructure\
+  \ of (i) a file containing Licensed Product, or (ii) any new\nfile that contains any part\
+  \ of Licensed Product.  (See Section 2)\n\nNotice:  The notice contained in Exhibit A.  (See\
+  \ Section 4(e))\n\nSource Code: The preferred form for making modifications to the Licensed\n\
+  Product, including all modules contained therein, plus any associated\ninterface definition\
+  \ files, scripts used to control compilation and\ninstallation of an executable program, or\
+  \ a list of differential\ncomparisons against the Source Code of the Licensed Product.  (See\n\
+  Section 1(a))\n\nYou:  This term is defined in Section 14 of this License.\n\nEXHIBIT A\n\n\
+  The Notice below must appear in each file of the Source Code of any copy\nyou distribute of\
+  \ the Licensed Product.  Contributors to any\nModifications may add their own copyright notices\
+  \ to identify their own\ncontributions.\n\nLicense:\n\nThe contents of this file are subject\
+  \ to the CognitiveWeb Open Source\nLicense Version 1.1 (the License).  You may not copy or\
+  \ use this file,\nin either source code or executable form, except in compliance with the\n\
+  License.  You may obtain a copy of the License from\nhttp://www.CognitiveWeb.org/legal/license/.\
+  \ Software distributed under\nthe License is distributed on an AS IS basis, WITHOUT WARRANTY\
+  \ OF ANY\nKIND, either express or implied. See the License for the specific\nlanguage governing\
+  \ rights and limitations under the License.\n\nCopyrights:\n\nPortions created by or assigned\
+  \ to CognitiveWeb are Copyright (c)\n2003-2003 CognitiveWeb.  All Rights Reserved.  Contact\
+  \ information for\nCognitiveWeb is available at http://www.CognitiveWeb.org. Portions\nCopyright\
+  \ (c) 2002-2003 Bryan Thompson. Acknowledgements Special thanks\nto the developers of the\
+  \ Jabber Open Source License 1.0 (JOSL), from\nwhich this License was derived.  This License\
+  \ contains terms that differ\nfrom JOSL. Special thanks to the CognitiveWeb Open Source Contributors\n\
+  for their suggestions and support of the Cognitive Web. \n\nModifications:"

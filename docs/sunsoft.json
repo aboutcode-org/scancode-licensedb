@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Oracle (Sun)",
   "notes": "this is a legacy license that is highly simialr to the sgi-freeb-2.0 license",
-  "spdx_license_key": "LicenseRef-scancode-sunsoft"
+  "spdx_license_key": "LicenseRef-scancode-sunsoft",
+  "text": "Permission is hereby granted, free of charge, to any person\nobtaining a copy of this software and associated documentation\nfiles (the \"Software\"), to deal in the Software without restrict-\nion, including without limitation the rights to use, copy, modify,\nmerge, publish distribute, sublicense, and/or sell copies of the\nSoftware, and to permit persons to whom the Software is furnished\nto do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\nOF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-\nINFRINGEMENT.  IN NO EVENT SHALL SUNSOFT, INC. OR ITS PARENT\nCOMPANY BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of SunSoft, Inc.\nshall not be used in advertising or otherwise to promote the\nsale, use or other dealings in this Software without written\nauthorization from SunSoft Inc."
 }

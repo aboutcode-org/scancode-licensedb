@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Amazon Web Services",
   "homepage_url": "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense",
-  "spdx_license_key": "ADSL"
+  "spdx_license_key": "ADSL",
+  "text": "This software code is made available \"AS IS\" without warranties of any kind.\n\nYou may copy, display, modify and redistribute the software code either by\nitself or as incorporated into your code; provided that you do not remove any\nproprietary notices.\n\nYour use of this software code is at your own risk and you waive any claim\nagainst Amazon Digital Services, Inc. or its affiliates with respect to your use\nof this software code."
 }

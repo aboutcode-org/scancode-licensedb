@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Simon Marlow",
   "homepage_url": "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License",
-  "spdx_license_key": "HaskellReport"
+  "spdx_license_key": "HaskellReport",
+  "text": "The authors intend this Report to belong to the entire Haskell community, and\nso we grant permission to copy and distribute it for any purpose, provided that\nit is reproduced in its entirety, including this Notice.  Modified versions of\nthis Report may also be copied and distributed for any purpose, provided that\nthe modified version is clearly presented as such, and that it does not claim\nto be a definition of the Haskell 2010 Language."
 }

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Advanced Micro Devices",
   "notes": "this is a short historical permissive license seen in the newlib C library",
-  "spdx_license_key": "LicenseRef-scancode-amd-historical"
+  "spdx_license_key": "LicenseRef-scancode-amd-historical",
+  "text": "This software is the property of Advanced Micro Devices, Inc  (AMD)  which\nspecifically  grants the user the right to modify, use and distribute this\nsoftware provided this notice is not removed or altered.  All other rights\nare reserved by AMD.\n\nAMD MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS\nSOFTWARE.  IN NO EVENT SHALL AMD BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL\nDAMAGES IN CONNECTION WITH OR ARISING FROM THE FURNISHING, PERFORMANCE, OR\nUSE OF THIS SOFTWARE."
 }

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Hans-Peter Nilsson",
   "notes": "this is a short historical permissive license seen in the newlib C library",
-  "spdx_license_key": "LicenseRef-scancode-nilsson-historical"
+  "spdx_license_key": "LicenseRef-scancode-nilsson-historical",
+  "text": "Permission to use, copy, modify, and distribute this software is\nfreely granted, provided that the above copyright notice, this notice\nand the following disclaimer are preserved with no changes.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\nPURPOSE."
 }

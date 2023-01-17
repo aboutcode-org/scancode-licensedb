@@ -15,3 +15,55 @@ ignorable_holders:
   - vhf interservice GmbH, Im Marxle
 ignorable_emails:
   - service@vhf.de
+text: "                          vhf Public License\n\nBelow is a version of the license for\
+  \ the vhf Free Software. The license is\ncalled the vhf Public License (or \"vhfPL\"), and\
+  \ is an Open Source license.\nIt is thus appropriate for people wishing to write software\
+  \ as Open Source\nwhere all source code to the software is made available to all users and\
+  \ can\nbe freely modified and redistributed.\n\nTo use the free vhf software or develop software\
+  \ based on free vhf software,\nyou have to meet the requirements in the vhfPL.\n\n----------------------------------------------------------------------------\n\
+  \n                       vhf PUBLIC LICENSE (vhfPL)\n                       Version 1.1, February\
+  \ 2004\n\nCopyright (C) 2003/2004 vhf interservice GmbH,\n                        Im Marxle\
+  \ 3, 72119 Altingen, Germany.\nEveryone is permitted to copy and distribute verbatim copies\n\
+  of this license document, but changing it is not allowed.\n\nThis license applies to any software\
+  \ containing a notice placed by the\ncopyright holder saying that it may be distributed under\
+  \ the terms of this\nvhf Public License. Such software is herein referred to as vhf Software.\n\
+  This license covers modification and distribution of the vhf software, use\nof third-party\
+  \ application programs based on the vhf software, and\ndevelopment of free software which\
+  \ uses the vhf software.\n\n                               Granted Rights\n\n1. You are granted\
+  \ the rights set forth in this license provided you agree\n   to any and all conditions in\
+  \ this license. Whole or partial distribution\n   of the vhf software in any form signifies\
+  \ acceptance of this license.   \n\n2. You may copy and distribute the vhf software provided\
+  \ that\n   the entire package is distributed, including this License.\n\n3. You may make modifications\
+  \ to the vhf software files and distribute your\n   modifications. The following restrictions\
+  \ apply to modifications:\n\n     a. You must cause the modified files to carry prominent\
+  \ notices\n        stating that you changed the files and the date of any change.\n\n    \
+  \ b. Modifications must not alter or remove any copyright notices in the\n        vhf software.\n\
+  \n4. You may distribute the vhf software (or work based on it) in\n   objective code or machine-executable\
+  \ forms, provided that you\n   meet these restrictions:\n\n     a. You accompany the vhf software\
+  \ with this license.\n\n     b. You must ensure that all recipients of the machine-executable\n\
+  \        forms are also able to receive the complete machine-readable\n        source code\
+  \ to the distributed vhf software, including all\n        modifications, without any charge\
+  \ beyond the costs of data\n        transfer.\n\n     c. You ensure that all modifications\
+  \ included in the\n        machine-executable forms are available under the terms of this\n\
+  \        license.\n\n5. You may use the original or modified versions of the vhf software\n\
+  \   to compile, link and run application programs developed by you or\n   third parties under\
+  \ this license.\n\n6. You may develop application programs, reusable components (eg. Bundles)\n\
+  \   and other software items that link with the original or modified\n   versions of the vhf\
+  \ software. These items, when distributed in\n   machine-executable form, have the following\
+  \ restrictions:\n\n     a. You must ensure that all recipients of the machine-executable\n\
+  \        forms of these items are also able to receive the complete\n        source code to\
+  \ the items without any charge beyond the costs of\n        data transfer.\n\n     b. You\
+  \ must explicitly license all recipients of your items to use\n        and re-distribute original\
+  \ and modified versions of the items\n        under terms identical to those under which they\
+  \ received the items.\n\n7. The trademarks or software titles 'vhf', 'Cenon' etc. may be used\
+  \ for\n   promoting software, products or services which use or contain the\n   vhf software.\n\
+  \   The associated names of the authors of the vhf software may not be used\n   to endorse\
+  \ or promote products or services derived from or linking the\n   vhf Software without specific\
+  \ prior written permission.\n\n\n                          Limitations of Liability\n\nIn\
+  \ no event shall the authors of the vhf software or the copyright holder\nor their employers\
+  \ be liable for any lost revenue or profits or other\ndirect, indirect, special, incidental\
+  \ or consequential damages, even if\nthey have been advised of the possibility of such damages.\n\
+  \n                                No Warranty\n\nThe vhf software is provided AS IS with NO\
+  \ WARRANTY OF ANY KIND,\nINCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR\
+  \ A\nPARTICULAR PURPOSE.\n\n----------------------------------------------------------------------------\n\
+  Copyright (C) 2003 vhf interservice GmbH                      service@vhf.de"

@@ -4,5 +4,6 @@
   "name": "Vitesse Proprietary Notice",
   "category": "Proprietary Free",
   "owner": "Vitesse Semiconductor Corporation",
-  "spdx_license_key": "LicenseRef-scancode-vitesse-prop"
+  "spdx_license_key": "LicenseRef-scancode-vitesse-prop",
+  "text": " Unpublished rights reserved under the copyright laws of the United States of\n America, other countries and international treaties. Permission to use, copy,\n store and modify, the software and its source code is granted. Permission to\n integrate into other products, disclose, transmit and distribute the software\n in an absolute machine readable format (e.g. HEX file) is also granted.  The\n source code of the software may not be disclosed, transmitted or distributed\n without the written permission of Vitesse. The software and its source code\n may only be used in products utilizing the Vitesse switch products.\n \n This copyright notice must appear in any copy, modification, disclosure,\n transmission or distribution of the software. Vitesse retains all ownership,\n copyright, trade secret and proprietary rights in the software.\n \n THIS SOFTWARE HAS BEEN PROVIDED \"AS IS,\" WITHOUT EXPRESS OR IMPLIED WARRANTY\n INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS\n FOR A PARTICULAR USE AND NON-INFRINGEMENT."
 }

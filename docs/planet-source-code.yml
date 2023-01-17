@@ -4,3 +4,11 @@ name: Planet Source Code License
 category: Free Restricted
 owner: Planet Source Code
 spdx_license_key: LicenseRef-scancode-planet-source-code
+text: "Terms of Agreement:   \nBy using this code, you agree to the following terms...   \n\n\
+  You may use this code in your own programs (and may compile it into a program and distribute\
+  \ it in compiled format for languages that allow it) freely and with no charge.\n\nYou MAY\
+  \ NOT redistribute this code (for example to a web site) without written permission from the\
+  \ original author. Failure to do so is a violation of copyright laws.   \n\nYou may link to\
+  \ this code from another website, but ONLY if it is not wrapped in a frame.\n\nYou will abide\
+  \ by any additional copyright restrictions which the author may have placed in the code or\
+  \ code's description."

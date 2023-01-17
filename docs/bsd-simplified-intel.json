@@ -6,5 +6,6 @@
   "owner": "Intel Corporation",
   "homepage_url": "https://github.com/ofiwg/libfabric/blob/master/include/linux/rdpmc.h",
   "notes": "This license is a custom variation on the BSD simplified seen in\nlibfabric.\n",
-  "spdx_license_key": "LicenseRef-scancode-bsd-simplified-intel"
+  "spdx_license_key": "LicenseRef-scancode-bsd-simplified-intel",
+  "text": "Redistribution and use in source and binary forms, with or without modification,\nare permitted provided that: (1) source code distributions retain the above\ncopyright notice and this paragraph in its entirety, (2) distributions including\nbinary code include the above copyright notice and this paragraph in its\nentirety in the documentation or other materials provided with the distribution\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE."
 }

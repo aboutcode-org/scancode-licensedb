@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "nexB",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-unlimited-binary-use-exception"
+  "spdx_license_key": "LicenseRef-scancode-unlimited-binary-use-exception",
+  "text": "As a special exception, you may use, copy, link, modify and distribute\nunder the user's own terms, binary object code versions of works based\non the library."
 }

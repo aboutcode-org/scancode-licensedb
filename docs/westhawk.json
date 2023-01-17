@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-westhawk",
   "other_urls": [
     "http://sourceforge.net/projects/westhawksnmp/?source=navbar"
-  ]
+  ],
+  "text": "Permission to use, copy, modify, and distribute this software for any purpose\nand without fee is hereby granted, provided that the above copyright notices\nappear in all copies and that both the copyright notice and this permission\nnotice appear in supporting documentation.\n\nThis software is provided \"as is\" without express or implied warranty."
 }

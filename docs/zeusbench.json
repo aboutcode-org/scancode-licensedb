@@ -4,5 +4,6 @@
   "name": "ZeusBench notice",
   "category": "Permissive",
   "owner": "Unspecified",
-  "spdx_license_key": "LicenseRef-scancode-zeusbench"
+  "spdx_license_key": "LicenseRef-scancode-zeusbench",
+  "text": "This program may be used and copied freely providing this copyright notice\nis not removed.\n\nThis software is provided \"as is\" and any express or implied waranties, \nincluding but not limited to, the implied warranties of merchantability and\nfitness for a particular purpose are disclaimed.  In no event shall \nZeus Technology Ltd. be liable for any direct, indirect, incidental, special, \nexemplary, or consequential damaged (including, but not limited to, \nprocurement of substitute good or services; loss of use, data, or profits;\nor business interruption) however caused and on theory of liability.  Whether\nin contract, strict liability or tort (including negligence or otherwise) \narising in any way out of the use of this software, even if advised of the\npossibility of such damage."
 }

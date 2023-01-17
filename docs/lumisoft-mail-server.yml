@@ -7,3 +7,13 @@ homepage_url: http://www.lumisoft.ee/lsWWW/ENG/Products/Mail_Server/mail_index_e
 spdx_license_key: LicenseRef-scancode-lumisoft-mail-server
 other_urls:
   - http://www.lumisoft.ee/lsWWW/ENG/Products/Mail_Server/mail_index_eng.aspx?type=download
+text: "General usage terms:\n\n  *) If you use/redistribute compiled binary, there are no restrictions.\n\
+  \     You can use it in any project, commercial and no-commercial.\n\n  *) It's allowed to\
+  \ complile source code parts to your application,\n     but then you may not rename class\
+  \ names and namespaces.\n\n  *) Anything is possible, if special agreement between LumiSoft.\n\
+  \nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, \n\
+  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR \n\
+  PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE\
+  \ \nFOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\
+  \ \nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\
+  \ THE SOFTWARE."

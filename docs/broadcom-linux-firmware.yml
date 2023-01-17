@@ -5,3 +5,50 @@ category: Proprietary Free
 owner: Broadcom
 homepage_url: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/LICENCE.broadcom_bcm43xx
 spdx_license_key: LicenseRef-scancode-broadcom-linux-firmware
+text: "SOFTWARE LICENSE AGREEMENT\n\nThe accompanying software in binary code form (“Software”),\
+  \ is licensed to you,\nor, if you are accepting on behalf of an entity, the entity and its\
+  \ affiliates\nexercising rights hereunder (“Licensee”) subject to the terms of this software\n\
+  license agreement (“Agreement”), unless Licensee and Broadcom Corporation\n(“Broadcom”) execute\
+  \ a separate written software license agreement governing\nuse of the Software. ANY USE, REPRODUCTION,\
+  \ OR DISTRIBUTION OF THE SOFTWARE\nCONSTITUTES LICENSEE’S ACCEPTANCE OF THIS AGREEMENT.\n\n\
+  1.\tLicense. Subject to the terms and conditions of this Agreement,\nBroadcom hereby grants\
+  \ to Licensee a limited, non-exclusive, non-transferable,\nroyalty-free license: (i) to use\
+  \ and integrate the Software with any other\nsoftware; and (ii) to reproduce and distribute\
+  \ the Software complete,\nunmodified, and as provided by Broadcom, solely for use with Broadcom\n\
+  proprietary integrated circuit product(s) sold by Broadcom with which the\nSoftware was designed\
+  \ to be used, or their successors.\n\n2.\tRestrictions. Licensee shall distribute Software\
+  \ with a copy of this\nAgreement. Licensee shall not remove, efface or obscure any copyright\
+  \ or\ntrademark notices from the Software. Reproductions of the Broadcom copyright\nnotice\
+  \ shall be included with each copy of the Software, except where such\nSoftware is embedded\
+  \ in a manner not readily accessible to the end user.\nLicensee shall not: (i) use, license,\
+  \ sell or otherwise distribute the Software\nexcept as provided in this Agreement; (ii) attempt\
+  \ to modify in any way,\nreverse engineer, decompile or disassemble any portion of the Software;\
+  \ or\n(iii) use the Software or other material in violation of any applicable law or\nregulation,\
+  \ including but not limited to any regulatory agency. This Agreement\nshall automatically\
+  \ terminate upon Licensee’s failure to comply with any of the\nterms of this Agreement. In\
+  \ such event, Licensee will destroy all copies of the\nSoftware and its component parts.\n\
+  \n3.\tOwnership. The Software is licensed and not sold.  Title to and\nownership of the Software,\
+  \ including all intellectual property rights thereto,\nand any portion thereof remain with\
+  \ Broadcom or its licensors. Licensee hereby\ncovenants that it will not assert any claim\
+  \ that the Software created by or for\nBroadcom infringe any intellectual property right owned\
+  \ or controlled by\nLicensee.\n\n4.     \tDisclaimer. THE SOFTWARE IS OFFERED “AS IS,” AND\
+  \ BROADCOM PROVIDES AND\nGRANTS AND LICENSEE RECEIVES NO SUPPORT AND NO WARRANTIES OF ANY\
+  \ KIND, EXPRESS\nOR IMPLIED, BY STATUTE, COMMUNICATION OR CONDUCT WITH LICENSEE, OR OTHERWISE.\n\
+  BROADCOM SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A\
+  \ SPECIFIC PURPOSE, OR NONINFRINGEMENT CONCERNING THE SOFTWARE OR\nANY UPGRADES TO OR DOCUMENTATION\
+  \ FOR THE SOFTWARE. WITHOUT LIMITATION OF THE\nABOVE, BROADCOM GRANTS NO WARRANTY THAT THE\
+  \ SOFTWARE IS ERROR-FREE OR WILL\nOPERATE WITHOUT INTERRUPTION, AND GRANTS NO WARRANTY REGARDING\
+  \ ITS USE OR THE\nRESULTS THEREFROM INCLUDING, WITHOUT LIMITATION, ITS CORRECTNESS, ACCURACY,\
+  \ OR\nRELIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM\nOR\
+  \ ANY OF ITS LICENSORS HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT,\nINCIDENTAL, SPECIAL,\
+  \ OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED AND ON ANY THEORY\nOF LIABILITY, WHETHER FOR BREACH\
+  \ OF CONTRACT, TORT (INCLUDING NEGLIGENCE) OR\nOTHERWISE, ARISING OUT OF THIS AGREEMENT OR\
+  \ USE, REPRODUCTION, OR DISTRIBUTION\nOF THE SOFTWARE, INCLUDING BUT NOT LIMITED TO LOSS OF\
+  \ DATA AND LOSS OF PROFITS,\nEVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\
+  \ DAMAGES. THESE\nLIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE\
+  \ OF ANY\nLIMITED REMEDY.\n\n5. \tExport Laws.  LICENSEE UNDERSTANDS AND AGREES THAT THE SOFTWARE\
+  \ IS\nSUBJECT TO UNITED STATES AND OTHER APPLICABLE EXPORT-RELATED LAWS AND\nREGULATIONS AND\
+  \ THAT LICENSEE MAY NOT EXPORT, RE-EXPORT OR TRANSFER THE\nSOFTWARE OR ANY DIRECT PRODUCT\
+  \ OF THE SOFTWARE EXCEPT AS PERMITTED UNDER THOSE\nLAWS. WITHOUT LIMITING THE FOREGOING, EXPORT,\
+  \ RE-EXPORT, OR TRANSFER OF THE\nSOFTWARE TO CUBA, IRAN, NORTH KOREA, SUDAN, AND SYRIA IS\
+  \ PROHIBITED."

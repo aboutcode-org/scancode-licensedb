@@ -4,3 +4,7 @@ name: Tested Software License
 category: Permissive
 owner: Autonomous Zone Industries
 spdx_license_key: LicenseRef-scancode-tested-software
+text: "License: \nThis is free software.  You may use this software for any\npurpose including\
+  \ modification/redistribution, so long as\nthis header remains intact and that you do not\
+  \ claim any\nrights of ownership or authorship of this software.  This\nsoftware has been\
+  \ tested, but no warranty is expressed or\nimplied."

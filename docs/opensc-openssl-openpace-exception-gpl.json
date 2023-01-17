@@ -13,5 +13,6 @@
   "other_urls": [
     "https://github.com/frankmorgner/openpace/issues/46",
     "https://github.com/frankmorgner/openpace/commit/3077280a49992c2d947fbde327ef53add8576587"
-  ]
+  ],
+  "text": "Additional permission under GNU GPL version 3 section 7\n\nIf you modify this Program, or any covered work, by linking or combining it\nwith OpenSSL (or a modified version of that library), containing\nparts covered by the terms of OpenSSL's license, the licensors of\nthis Program grant you additional permission to convey the resulting work.\nCorresponding Source for a non-source form of such a combination shall include\nthe source code for the parts of OpenSSL used as well as that of the\ncovered work.\n\nIf you modify this Program, or any covered work, by linking or combining it\nwith OpenSC (or a modified version of that library), containing\nparts covered by the terms of OpenSC's license, the licensors of\nthis Program grant you additional permission to convey the resulting work. \nCorresponding Source for a non-source form of such a combination shall include\nthe source code for the parts of OpenSC used as well as that of the\ncovered work."
 }

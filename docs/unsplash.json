@@ -6,5 +6,6 @@
   "owner": "Unsplash",
   "homepage_url": "https://unsplash.com/license",
   "spdx_license_key": "LicenseRef-scancode-unsplash",
-  "faq_url": "https://help.unsplash.com/en/collections/1463188-unsplash-license"
+  "faq_url": "https://help.unsplash.com/en/collections/1463188-unsplash-license",
+  "text": "Unsplash grants you an irrevocable, nonexclusive, worldwide copyright license to\ndownload, copy, modify, distribute, perform, and use photos from Unsplash for free,\nincluding for commercial purposes, without permission from or attributing the photographer\nor Unsplash. This license does not include the right to compile photos from Unsplash to\nreplicate a similar or competing service."
 }

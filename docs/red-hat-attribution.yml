@@ -5,3 +5,5 @@ category: Permissive
 owner: Red Hat
 notes: a very short permissive license, seen in newlib
 spdx_license_key: LicenseRef-scancode-red-hat-attribution
+text: "Permission to use, copy, modify, and distribute this software \nis freely granted, provided\
+  \ that this notice is preserved."

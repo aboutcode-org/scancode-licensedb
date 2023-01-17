@@ -6,3 +6,9 @@ owner: CTAN
 homepage_url: https://fedoraproject.org/wiki/Licensing/Abstyles
 notes: the latext2e, verbatim-manual and abstyles are similar licenses
 spdx_license_key: Abstyles
+text: "This program is distributed WITHOUT ANY WARRANTY, express or implied.  \n\nPermission\
+  \ is granted to make and distribute verbatim copies of this\ndocument provided that the copyright\
+  \ notice and this permission notice are\npreserved on all copies.\n\nPermission is granted\
+  \ to copy and distribute modified versions of this\ndocument under the conditions for verbatim\
+  \ copying, provided that the\nentire resulting derived work is distributed under the terms\
+  \ of a\npermission notice identical to this one."

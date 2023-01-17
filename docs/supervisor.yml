@@ -28,3 +28,111 @@ ignorable_urls:
   - http://www.agendaless.com/
   - http://www.repoze.org/LICENSE.txt
   - https://github.com/Supervisor/supervisor/blob/master/LICENSES.txt
+text: "Supervisor License\nhttps://github.com/Supervisor/supervisor/blob/master/LICENSES.txt\n\
+  \nSupervisor is licensed under the following license:\n\n  A copyright notice accompanies\
+  \ this license document that identifies\n  the copyright holders.\n\n  Redistribution and\
+  \ use in source and binary forms, with or without\n  modification, are permitted provided\
+  \ that the following conditions are\n  met:\n\n  1.  Redistributions in source code must retain\
+  \ the accompanying\n      copyright notice, this list of conditions, and the following\n \
+  \     disclaimer.\n\n  2.  Redistributions in binary form must reproduce the accompanying\n\
+  \      copyright notice, this list of conditions, and the following\n      disclaimer in the\
+  \ documentation and/or other materials provided\n      with the distribution.\n\n  3.  Names\
+  \ of the copyright holders must not be used to endorse or\n      promote products derived\
+  \ from this software without prior\n      written permission from the copyright holders.\n\
+  \n  4.  If any files are modified, you must cause the modified files to\n      carry prominent\
+  \ notices stating that you changed the files and\n      the date of any change.\n\n  Disclaimer\n\
+  \n    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND\n    ANY EXPRESSED\
+  \ OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\n    TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY\
+  \ AND FITNESS FOR A\n    PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n\
+  \    HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n    EXEMPLARY, OR CONSEQUENTIAL\
+  \ DAMAGES (INCLUDING, BUT NOT LIMITED\n    TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\
+  \ LOSS OF USE,\n    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\n  \
+  \  ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR\n    TORT (INCLUDING\
+  \ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF\n    THE USE OF THIS SOFTWARE, EVEN IF\
+  \ ADVISED OF THE POSSIBILITY OF\n    SUCH DAMAGE.\n\nhttp_client.py code is based on code\
+  \ by Daniel Krech, which was\nreleased under this license:\n\n  LICENSE AGREEMENT FOR RDFLIB\
+  \ 0.9.0 THROUGH 2.3.1\n  ------------------------------------------------\n  Copyright (c)\
+  \ 2002-2005, Daniel Krech, http://eikeon.com/\n  All rights reserved.\n\n  Redistribution\
+  \ and use in source and binary forms, with or without\n  modification, are permitted provided\
+  \ that the following conditions are\n  met:\n\n    * Redistributions of source code must retain\
+  \ the above copyright\n  notice, this list of conditions and the following disclaimer.\n\n\
+  \    * Redistributions in binary form must reproduce the above\n  copyright notice, this list\
+  \ of conditions and the following\n  disclaimer in the documentation and/or other materials\
+  \ provided\n  with the distribution.\n\n    * Neither the name of Daniel Krech nor the names\
+  \ of its\n  contributors may be used to endorse or promote products derived\n  from this software\
+  \ without specific prior written permission.\n\n  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT\
+  \ HOLDERS AND CONTRIBUTORS\n  \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,\
+  \ BUT NOT\n  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n  A PARTICULAR\
+  \ PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n  OWNER OR CONTRIBUTORS BE LIABLE\
+  \ FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\
+  \ BUT NOT\n  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n  DATA,\
+  \ OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n  THEORY OF LIABILITY,\
+  \ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING\
+  \ IN ANY WAY OUT OF THE USE\n  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH\
+  \ DAMAGE.\n\nMedusa, the asynchronous communications framework upon which\nsupervisor's server\
+  \ and client code is based, was created by Sam\nRushing:\n\n  Medusa was once distributed\
+  \ under a 'free for non-commercial use'\n  license, but in May of 2000 Sam Rushing changed\
+  \ the license to be\n  identical to the standard Python license at the time.  The standard\n\
+  \  Python license has always applied to the core components of Medusa,\n  this change just\
+  \ frees up the rest of the system, including the http\n  server, ftp server, utilities, etc.\
+  \  Medusa is therefore under the\n  following license:\n\n  ==============================\
+  \ \n  Permission to use, copy, modify, and distribute this software and\n  its documentation\
+  \ for any purpose and without fee is hereby granted,\n  provided that the above copyright\
+  \ notice appear in all copies and\n  that both that copyright notice and this permission notice\
+  \ appear in\n  supporting documentation, and that the name of Sam Rushing not be\n  used in\
+  \ advertising or publicity pertaining to distribution of the\n  software without specific,\
+  \ written prior permission.\n\n  SAM RUSHING DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS\
+  \ SOFTWARE,\n  INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN\n  NO EVENT\
+  \ SHALL SAM RUSHING BE LIABLE FOR ANY SPECIAL, INDIRECT OR\n  CONSEQUENTIAL DAMAGES OR ANY\
+  \ DAMAGES WHATSOEVER RESULTING FROM LOSS\n  OF USE, DATA OR PROFITS, WHETHER IN AN ACTION\
+  \ OF CONTRACT,\n  NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION\n \
+  \ WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n  ==============================\n\nSome\
+  \ software in this distribution is released under the Zope Public\nLicense (as marked in its\
+  \ file header):\n\n  Zope Public License (ZPL) Version 2.1\n  -------------------------------------\n\
+  \n  A copyright notice accompanies this license document that\n  identifies the copyright\
+  \ holders.\n\n  This license has been certified as open source. It has also\n  been designated\
+  \ as GPL compatible by the Free Software\n  Foundation (FSF).\n\n  Redistribution and use\
+  \ in source and binary forms, with or\n  without modification, are permitted provided that\
+  \ the\n  following conditions are met:\n\n  1. Redistributions in source code must retain\
+  \ the\n     accompanying copyright notice, this list of conditions,\n     and the following\
+  \ disclaimer.\n\n  2. Redistributions in binary form must reproduce the accompanying\n   \
+  \  copyright notice, this list of conditions, and the\n     following disclaimer in the documentation\
+  \ and/or other\n     materials provided with the distribution.\n\n  3. Names of the copyright\
+  \ holders must not be used to\n     endorse or promote products derived from this software\n\
+  \     without prior written permission from the copyright\n     holders.\n\n  4. The right\
+  \ to distribute this software or to use it for\n     any purpose does not give you the right\
+  \ to use\n     Servicemarks (sm) or Trademarks (tm) of the copyright\n     holders. Use of\
+  \ them is covered by separate agreement\n     with the copyright holders.\n\n  5. If any files\
+  \ are modified, you must cause the modified\n     files to carry prominent notices stating\
+  \ that you changed\n     the files and the date of any change.\n\n  Disclaimer\n\n    THIS\
+  \ SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS''\n    AND ANY EXPRESSED OR IMPLIED\
+  \ WARRANTIES, INCLUDING, BUT\n    NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY\n\
+  \    AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN\n    NO EVENT SHALL THE COPYRIGHT\
+  \ HOLDERS BE\n    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n    EXEMPLARY, OR\
+  \ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\
+  \ OR SERVICES;\n    LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n    HOWEVER\
+  \ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\n    CONTRACT, STRICT LIABILITY, OR TORT\
+  \ (INCLUDING NEGLIGENCE\n    OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n   \
+  \ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH\n    DAMAGE.\n\n\nSupervisor Copyright\
+  \ Notice\n\nSupervisor is Copyright (c) 2006-2011 Agendaless Consulting and Contributors.\n\
+  (http://www.agendaless.com), All Rights Reserved\n\n  This software is subject to the provisions\
+  \ of the license at\n  http://www.repoze.org/LICENSE.txt . A copy of this license should\n\
+  \  accompany this distribution.  THIS SOFTWARE IS PROVIDED \"AS IS\" AND\n  ANY AND ALL EXPRESS\
+  \ OR IMPLIED WARRANTIES ARE DISCLAIMED, INCLUDING,\n  BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\
+  \ OF TITLE,\n  MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE.\n\
+  \nTrackRefs code Copyright (c) 2007 Zope Corporation and Contributors\n\n  This software is\
+  \ subject to the provisions of the Zope Public License, \n  Version 2.1 (ZPL). A copy of the\
+  \ ZPL should accompany this distribution. \n  THIS SOFTWARE IS PROVIDED \"AS IS\" AND ANY\
+  \ AND ALL EXPRESS OR IMPLIED \n  WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO,\
+  \ THE IMPLIED \n  WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS\
+  \ \n  FOR A PARTICULAR PURPOSE. \n\nmedusa was (is?) Copyright (c) Sam Rushing.\n\nhttp_client.py\
+  \ code Copyright (c) by Daniel Krech, http://eikeon.com/.\n\n  THIS SOFTWARE IS PROVIDED BY\
+  \ THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n  \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES,\
+  \ INCLUDING, BUT NOT\n  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS\
+  \ FOR\n  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n  OWNER OR\
+  \ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\
+  \ DAMAGES (INCLUDING, BUT NOT\n  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\
+  \ LOSS OF USE,\n  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n\
+  \  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n  (INCLUDING NEGLIGENCE\
+  \ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n  OF THIS SOFTWARE, EVEN IF ADVISED OF\
+  \ THE POSSIBILITY OF SUCH DAMAGE."

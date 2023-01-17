@@ -4,5 +4,6 @@
   "name": "Intel Confidential",
   "category": "Commercial",
   "owner": "Intel Corporation",
-  "spdx_license_key": "LicenseRef-scancode-intel-confidential"
+  "spdx_license_key": "LicenseRef-scancode-intel-confidential",
+  "text": "INTEL CONFIDENTIAL\nThe source code contained or described herein and all documents related to the source\ncode (\"\"Material\"\") are owned by Intel Corporation or its suppliers or licensors. Title to\nthe Material remains with Intel Corporation or its suppliers and licensors. The Material\ncontains trade secrets and proprietary and confidential information of Intel or its\nsuppliers and licensors. The Material is protected by worldwide copyright and trade\nsecret laws and treaty provisions. No part of the Material may be used, copied,\nreproduced, modified, published, uploaded, posted, transmitted, distributed, or disclosed\nin any way without Intel's prior express written permission.\n\nNo license under any patent, copyright, trade secret or other intellectual property\nright is granted to or conferred upon you by disclosure or delivery of the Materials,\neither expressly, by implication, inducement, estoppel or otherwise. Any license under\nsuch intellectual property rights must be express and approved by Intel in writing.\nUnless otherwise agreed by Intel in writing, you may not remove or alter this notice\nor any other notice embedded in Materials by Intel or Intel\u2019s suppliers or licensors in any way"
 }

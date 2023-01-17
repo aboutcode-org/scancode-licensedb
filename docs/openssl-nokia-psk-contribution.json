@@ -9,5 +9,6 @@
   "ignorable_authors": [
     "Mika Kousa and Pasi Eronen of Nokia Corporation",
     "Nokia Corporation"
-  ]
+  ],
+  "text": "The portions of the attached software (\"Contribution\") is developed by\nNokia Corporation and is licensed pursuant to the OpenSSL open source\nlicense.\n\nThe Contribution, originally written by Mika Kousa and Pasi Eronen of\nNokia Corporation, consists of the \"PSK\" (Pre-Shared Key) ciphersuites\nsupport (see RFC 4279) to OpenSSL.\n\nNo patent licenses or other rights except those expressly stated in\nthe OpenSSL open source license shall be deemed granted or received\nexpressly, by implication, estoppel, or otherwise.\n\nNo assurances are provided by Nokia that the Contribution does not\ninfringe the patent or other intellectual property rights of any third\nparty or that the license provides you with all the necessary rights\nto make use of the Contribution.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND. IN\nADDITION TO THE DISCLAIMERS INCLUDED IN THE LICENSE, NOKIA\nSPECIFICALLY DISCLAIMS ANY LIABILITY FOR CLAIMS BROUGHT BY YOU OR ANY\nOTHER ENTITY BASED ON INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS OR\nOTHERWISE."
 }

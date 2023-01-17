@@ -4,5 +4,6 @@
   "name": "HERE Disclaimer",
   "category": "Unstated License",
   "owner": "HERE Global B.V.",
-  "spdx_license_key": "LicenseRef-scancode-here-disclaimer"
+  "spdx_license_key": "LicenseRef-scancode-here-disclaimer",
+  "text": "This content is provided \"as-is\" and without warranties of any kind, either\nexpress or implied, including, but not limited to, the implied warranties of\nmerchantability, fitness for a particular purpose, satisfactory quality and non-\ninfringement. HERE does not warrant that the content is error free and HERE does\nnot warrant or make any representations regarding the quality, correctness,\naccuracy, or reliability of the content. You should therefore verify any\ninformation contained in the content before acting on it. To the furthest extent\npermitted by law, under no circumstances, including without limitation the\nnegligence of HERE, shall HERE be liable for any damages, including, without\nlimitation, direct, special, indirect, punitive, consequential, exemplary and/\nor incidental damages that result from the use or application of this content,\neven if HERE or an authorized representative has been advised of the possibility\nof such damages."
 }

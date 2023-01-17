@@ -5,3 +5,13 @@ category: Permissive
 owner: Adobe Systems
 homepage_url: https://fedoraproject.org/wiki/Licensing/Afmparse
 spdx_license_key: Afmparse
+text: "This file may be freely copied and redistributed as long as:  \n\n     1) This entire\
+  \ notice continues to be included in the file,  \n\n     2) If the file has been modified\
+  \ in any way, a notice of such modification\n     is conspicuously indicated.\n\nPostScript,\
+  \ Display PostScript,and Adobe are registered trademarks of Adobe\nSystems Incorporated.\n\
+  \nTHE INFORMATION BELOW IS FURNISHED AS IS, IS SUBJECT TO CHANGE WITHOUT NOTICE,\nAND SHOULD\
+  \ NOT BE CONSTRUED AS A COMMITMENT BY ADOBE SYSTEMS INCORPORATED. ADOBE\nSYSTEMS INCORPORATED\
+  \ ASSUMES NO RESPONSIBILITY OR LIABILITY FOR ANY ERRORS OR\nINACCURACIES, MAKES NO WARRANTY\
+  \ OF ANY KIND (EXPRESS, IMPLIED OR STATUTORY) WITH\nRESPECT TO THIS INFORMATION, AND EXPRESSLY\
+  \ DISCLAIMS ANY AND ALL WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSES AND\
+  \ NONINFRINGEMENT OF THIRD\nPARTY RIGHTS."

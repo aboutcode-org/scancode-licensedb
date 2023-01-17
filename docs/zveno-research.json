@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-zveno-research",
   "other_urls": [
     "http://sourceforge.net/p/tclxml/svn/HEAD/tree/trunk/LICENSE"
-  ]
+  ],
+  "text": "Zveno makes this software available free of charge for any purpose. This\nsoftware may be copied, and distributed, with or without modifications; but this\nnotice must be included on any copy.\n\nThe software was developed for research purposes only and Zveno does not warrant\nthat it is error free or fit for any purpose.  Zveno disclaims any liability for\nall claims, expenses, losses, damages and costs any user may incur as a result\nof using, copying or modifying this software."
 }

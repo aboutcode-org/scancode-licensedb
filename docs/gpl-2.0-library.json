@@ -9,5 +9,6 @@
   "is_exception": true,
   "other_urls": [
     "http://grammatica.percederberg.net/index.html"
-  ]
+  ],
+  "text": "The software in this package is distributed under the GNU General Public\nLicense with the \"Library Exception\" described below. A copy of GNU\nGeneral Public License (GPL) is included in this distribution, in the\nfile LICENSE-GPL.txt. All the files distributed under GPL also include\nthe following special exception:\n\nAs a special exception, the copyright holders of this library give you\npermission to link this library with independent modules to produce an\nexecutable, regardless of the license terms of these independent\nmodules, and to copy and distribute the resulting executable under terms\nof your choice, provided that you also meet, for each linked independent\nmodule, the terms and conditions of the license of that module. An\nindependent module is a module which is not derived from or based on\nthis library. If you modify this library, you may extend this exception\nto your version of the library, but you are not obligated to do so. If\nyou do not wish to do so, delete this exception statement from your\nversion.\n\nAs such, this software can be used to run free as well as proprietary\napplications and applets. Modifications made to the classes in this\ndistribution must however be distributed under the GPL, optionally with\nthe same exception as above."
 }

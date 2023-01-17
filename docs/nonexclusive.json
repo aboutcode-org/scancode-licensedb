@@ -4,5 +4,6 @@
   "name": "Nonexclusive License",
   "category": "Permissive",
   "owner": "O'Reilly Media, Inc.",
-  "spdx_license_key": "LicenseRef-scancode-nonexclusive"
+  "spdx_license_key": "LicenseRef-scancode-nonexclusive",
+  "text": "The recipient, and any party obtaining a copy of these files from\nthe recipient, directly or indirectly, is granted, free of charge, a\nfull and unrestricted irrevocable, world-wide, paid up, royalty-free,\nnonexclusive right and license to deal in this software and\ndocumentation files (the \"Software\"), including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons who receive\ncopies from any such party to do so.  This license includes without\nlimitation a license to do the foregoing actions under any patents of\nthe party supplying this software to the recipient."
 }

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Quarterdeck",
   "spdx_license_key": "LicenseRef-scancode-x11-quarterdeck",
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Permission to use, copy, modify, distribute, and sell this software and software and its\ndocumentation for any purpose is hereby granted without fee, provided that the\nabove copyright notice appear in all copies and that both that copyright\nnotice and this permission notice appear in supporting documentation, and that\nthe name Quarterdeck Office Systems, Inc. not be used in advertising\nor publicity pertaining to distribution of this software without specific,\nwritten prior permission.\n\nTHIS SOFTWARE IS PROVIDED `AS-IS'.\n\nQUARTERDECK OFFICE SYSTEMS, INC., DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,\nINCLUDING WITHOUT LIMITATION ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. IN NO EVENT SHALL\nQUARTERDECK OFFICE SYSTEMS, INC.,\nBE LIABLE FOR ANY DAMAGES WHATSOEVER, INCLUDING SPECIAL, INCIDENTAL OR CONSEQUENTIAL\nDAMAGES, INCLUDING LOSS OF USE, DATA, OR PROFITS, EVEN IF ADVISED OF THE\nPOSSIBILITY THEREOF, AND REGARDLESS OF WHETHER IN AN ACTION IN CONTRACT, TORT OR\nNEGLIGENCE, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS\nSOFTWARE."
 }

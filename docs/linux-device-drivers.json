@@ -4,5 +4,6 @@
   "name": "Linux Device Drivers License",
   "category": "Permissive",
   "owner": "O'Reilly Media, Inc.",
-  "spdx_license_key": "LicenseRef-scancode-linux-device-drivers"
+  "spdx_license_key": "LicenseRef-scancode-linux-device-drivers",
+  "text": "The source code in this file can be freely used, adapted,\nand redistributed in source or binary form, so long as an\nacknowledgment appears in derived source files.  The citation\nshould list that the code comes from the book \"\"Linux Device\nDrivers\"\" by Alessandro Rubini and Jonathan Corbet, published\nby O'Reilly & Associates.   No warranty is attached;\nwe cannot take responsibility for errors or fitness for use."
 }

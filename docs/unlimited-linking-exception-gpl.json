@@ -9,5 +9,6 @@
   "spdx_license_key": "LicenseRef-scancode-unlimited-link-exception-gpl",
   "other_spdx_license_keys": [
     "LicenseRef-scancode-unlimited-linking-exception-gpl"
-  ]
+  ],
+  "text": "In addition to the permissions in the GNU General Public License, the\nFree Software Foundation gives you unlimited permission to link the\ncompiled version of this file with other programs, and to distribute\nthose programs without any restriction coming from the use of this\nfile.  (The General Public License restrictions do apply in other\nrespects; for example, they cover modification of the file, and\ndistribution when not linked into another program.)"
 }

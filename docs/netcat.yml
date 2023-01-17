@@ -7,3 +7,12 @@ homepage_url: http://nc110.sourceforge.net/
 spdx_license_key: LicenseRef-scancode-netcat
 ignorable_emails:
   - nc110-devel@lists.sourceforge.net
+text: |
+  Netcat is entirely my own creation, although plenty of other code was used as
+  examples.  It is freely given away to the Internet community in the hope that
+  it will be useful, with no restrictions except giving credit where it is due.
+  No GPLs, Berkeley copyrights or any of that nonsense.  The author assumes NO
+  responsibility for how anyone uses it.  If netcat makes you rich somehow and
+  you're feeling generous, mail me a check.  If you are affiliated in any way
+  with Microsoft Network, get a life.  Always ski in control.  Comments,
+  questions, and patches to nc110-devel@lists.sourceforge.net.

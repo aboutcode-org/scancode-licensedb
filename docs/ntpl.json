@@ -15,5 +15,6 @@
   "other_urls": [
     "http://www.opensource.org/licenses/NTP",
     "http://www.pgpool.net/mediawiki/index.php/pgpool-II_License"
-  ]
+  ],
+  "text": "Permission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose with or without fee is hereby granted,\nprovided that the above copyright notice appears in all copies and\nthat both the copyright notice and this permission notice appear in\nsupporting documentation, and that the name of the authors not be\nused in advertising or publicity pertaining to distribution of the\nsoftware without specific, written prior permission. The authors\nmakes no representations about the suitability this software for any\npurpose. It is provided \"as is\" without express or implied warranty."
 }

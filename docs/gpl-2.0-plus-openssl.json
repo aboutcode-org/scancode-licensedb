@@ -7,5 +7,6 @@
   "owner": "magnumripper",
   "homepage_url": "https://github.com/magnumripper/JohnTheRipper/blob/1.8.0/doc/LICENSE",
   "notes": "replaced by openssl-exception-gpl-2.0-plus",
-  "is_exception": true
+  "is_exception": true,
+  "text": "As a special exception to the GNU General Public License terms,\npermission is hereby granted to link the code of this program, with or\nwithout modification, with any version of the OpenSSL library and/or any\nversion of unRAR, and to distribute such linked combinations.  You must\nobey the GNU GPL in all respects for all of the code used other than\nOpenSSL and unRAR.  If you modify this program, you may extend this\nexception to your version of the program, but you are not obligated to\ndo so.  (In other words, you may release your derived work under pure\nGNU GPL version 2 or later as published by the FSF.)"
 }

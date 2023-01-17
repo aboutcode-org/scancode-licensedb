@@ -4,5 +4,6 @@
   "name": "PngSuite License",
   "category": "Permissive",
   "owner": "Unspecified",
-  "spdx_license_key": "LicenseRef-scancode-pngsuite"
+  "spdx_license_key": "LicenseRef-scancode-pngsuite",
+  "text": "Permission to use, copy, modify and distribute these images for any\npurpose and without fee is hereby granted."
 }

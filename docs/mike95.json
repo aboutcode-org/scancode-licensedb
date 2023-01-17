@@ -14,5 +14,6 @@
   ],
   "ignorable_emails": [
     "mike95@mike95.com"
-  ]
+  ],
+  "text": "This library was downloaded from: http://www.mike95.com\n\nThis library is copyright.  It may freely be used for personal purposes\nif the restriction listed below is adhered to.\n    Author: Michael Olivero\n    Email:  mike95@mike95.com\n\n//===============================\n//Start of Restriction Definition\n//===============================\nAnyone can have full use of the library provided they keep this complete comment\nwith the source.  Also I would like to ask if any changes are made to the\ncode for efficiency reasons, please let me know so I may look into your change and\nlikewise incorporate it into library.  If a suggestion makes it into the library,\nyour credits will be added to this information.\n\nAuthors of Computer related books are welcome to include this source code as part\nof their publishing, provided credit the Author and make note of where the source\ncode was obtained from: http://www.mike95.com\n//=============================\n//End of Restriction Definition\n//============================="
 }

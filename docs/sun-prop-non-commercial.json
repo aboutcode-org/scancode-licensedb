@@ -4,5 +4,6 @@
   "name": "Sun Proprietary Non-Commercial License",
   "category": "Proprietary Free",
   "owner": "Oracle (Sun)",
-  "spdx_license_key": "LicenseRef-scancode-sun-prop-non-commercial"
+  "spdx_license_key": "LicenseRef-scancode-sun-prop-non-commercial",
+  "text": "Permission to use, copy, modify, and distribute this software\nand its documentation for NON-COMMERCIAL purposes and without\nfee is hereby granted provided that this copyright notice\nappears in all copies.\n\nThe Java source code is the confidential and proprietary information\nof Sun Microsystems, Inc. (\"Confidential Information\").  You shall\nnot disclose such Confidential Information and shall use it only in\naccordance with the terms of the license agreement you entered into\nwith Sun.\n\nSUN MAKES NO REPRESENTATIONS OR WARRANTIES ABOUT THE SUITABILITY OF\nTHE SOFTWARE, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED\nTO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE, OR NON-INFRINGEMENT. SUN SHALL NOT BE LIABLE FOR\nANY DAMAGES SUFFERED BY LICENSEE AS A RESULT OF USING, MODIFYING OR\nDISTRIBUTING THIS SOFTWARE OR ITS DERIVATIVES."
 }

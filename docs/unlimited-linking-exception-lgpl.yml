@@ -35,3 +35,9 @@ standard_notice: |
   License for more details.
   You should have received a copy of the GNU Lesser General Public License
   along with the GNU C Library; if not, see <http://www.gnu.org/licenses/>.
+text: "In addition to the permissions in the GNU Lesser General Public License, the\nFree Software\
+  \ Foundation gives you unlimited permission to link the compiled\nversion of this file with\
+  \ other programs, and to distribute those programs\nwithout any restriction coming from the\
+  \ use of this file. \n(The GNU Lesser General Public License restrictions do apply in other\
+  \ respects;\nfor example, they cover modification of the file, and distribution when not\n\
+  linked into another program.)"

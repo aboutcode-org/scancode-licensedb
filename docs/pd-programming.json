@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-pd-programming",
   "other_urls": [
     "http://www.pdmagic.com/"
-  ]
+  ],
+  "text": "Coords.js is free for both commercial and non-commercial use and\nredistribution, provided that PD'Programming's copyright and disclaimer are\nretained intact.  You are free to modify coords.js for your own use and\nto redistribute coords.js with your modifications, provided that the\nmodifications are clearly documented.\n\nThis program is distributed in the hope that it will be useful, but\nWITHOUT ANY WARRANTY; without even the implied warranty of\nmerchantability or fitness for a particular purpose.  Please use it AT\nYOUR OWN RISK."
 }

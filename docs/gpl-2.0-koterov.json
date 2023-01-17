@@ -14,5 +14,6 @@
   ],
   "ignorable_emails": [
     "dmitry.koterov@gmail.com"
-  ]
+  ],
+  "text": "This library is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this library; see the file COPYING.  If not, write to the Free Software Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n\nADDITIONAL LICENSE TERMS\n\nIn addition to the standard GPL 2.0 license, here are some \nconditions I'd like clarify.\n\n0. If you modify this product, you MUST publish your changes. Period.\n\n1. If you re-write this product in other language (e.g. C++) and \n   \"intently view\" the product's Perl sources while coding, you must \n   also license your results as GPL 2.0.\n\n2. The author of this product (Dmitry Koterov, http://dmitry.moikrug.ru) may \n   change the product's license type and any of license conditions.\n   He is also permitted to make private modifications and do not publish them.\n\nIf you have questions, fill free to contact the author:\ndmitry.koterov@gmail.com"
 }

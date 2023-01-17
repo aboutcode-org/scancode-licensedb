@@ -46,3 +46,23 @@ standard_notice: |
   at the chunk level.
   (future modifications may include some more support for creation
   and or editing)
+text: "The MNG Library is supplied \"AS IS\".  The Contributing Authors         \ndisclaim all\
+  \ warranties, expressed or implied, including, without      \nlimitation, the warranties of\
+  \ merchantability and of fitness for any   \npurpose.  The Contributing Authors assume no\
+  \ liability for direct,     \nindirect, incidental, special, exemplary, or consequential damages,\
+  \    \nwhich may result from the use of the MNG Library, even if advised of   \nthe possibility\
+  \ of such damage.                                        \n                              \
+  \                                         \nPermission is hereby granted to use, copy, modify,\
+  \ and distribute this \nsource code, or portions hereof, for any purpose, without fee, subject\
+  \ \nto the following restrictions:                                         \n            \
+  \                                                           \n1. The origin of this source\
+  \ code must not be misrepresented;          \n   you must not claim that you wrote the original\
+  \ software.            \n                                                                \
+  \       \n2. Altered versions must be plainly marked as such and must not be     \n   misrepresented\
+  \ as being the original source.                        \n                                \
+  \                                       \n3. This Copyright notice may not be removed or altered\
+  \ from any source \n   or altered source distribution.                                   \
+  \  \n                                                                       \nThe Contributing\
+  \ Authors specifically permit, without fee, and         \nencourage the use of this source\
+  \ code as a component to supporting     \nthe MNG and JNG file format in commercial products.\
+  \  If you use this   \nsource code in a product, acknowledgment would be highly appreciated."

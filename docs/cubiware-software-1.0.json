@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-cubiware-software-1.0",
   "other_urls": [
     "https://blog.tivo.com/2015/05/tivo-acquires-cubiware/"
-  ]
+  ],
+  "text": "Cubiware Sp. z o.o. Software License Version 1.0\n\nAny rights which are not expressly granted in this License are entirely and\nexclusively reserved to and by Cubiware Sp. z o.o. You may not rent, lease,\nmodify, translate, reverse engineer, decompile, disassemble, or create\nderivative works based on this Software. You may not make access to this\nSoftware available to others in connection with a service bureau,\napplication service provider, or similar business, or make any other use of\nthis Software without express written permission from Cubiware Sp. z o.o.\n\nAny User wishing to make use of this Software must contact\nCubiware Sp. z o.o. to arrange an appropriate license. Use of the Software\nincludes, but is not limited to:\n(1) integrating or incorporating all or part of the code into a product for\n    sale or license by, or on behalf of, User to third parties;\n(2) distribution of the binary or source code to third parties for use with\n    a commercial product sold or licensed by, or on behalf of, User."
 }

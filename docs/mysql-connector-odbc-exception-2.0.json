@@ -12,5 +12,6 @@
   "other_urls": [
     "http://www.gnu.org/licenses/gpl-2.0.txt"
   ],
-  "standard_notice": "\nAs a special exception to the MySQL Connector/ODBC GPL license, one is\nallowed to use the product with any ODBC manager, even if the ODBC manager\nis not licensed under the GPL. In other words: The ODBC manager itself is\nnot affected by the MySQL Connector/ODBC GPL license.\n"
+  "standard_notice": "\nAs a special exception to the MySQL Connector/ODBC GPL license, one is\nallowed to use the product with any ODBC manager, even if the ODBC manager\nis not licensed under the GPL. In other words: The ODBC manager itself is\nnot affected by the MySQL Connector/ODBC GPL license.\n",
+  "text": "As a special exception to the MySQL Connector/ODBC GPL license, one is allowed \nto use the product with any ODBC manager, even if the ODBC manager is not licensed under the GPL. In other words: The ODBC manager itself is not affected by the MySQL Connector/ODBC GPL license."
 }

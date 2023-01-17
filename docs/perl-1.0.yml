@@ -8,3 +8,6 @@ ignorable_copyrights:
   - Copyright (c) 1987, Larry Wall
 ignorable_holders:
   - Larry Wall
+text: "Perl Kit, Version 1.0\n\n\t\t    Copyright (c) 1987, Larry Wall\n\nYou may copy the perl\
+  \ kit in whole or in part as long as you don't try to\nmake money off it, or pretend that\
+  \ you wrote it."

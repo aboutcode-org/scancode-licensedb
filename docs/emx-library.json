@@ -8,5 +8,6 @@
   "faq_url": "http://web.lemoyne.edu/courseinformation/emtex/emx/doc/COPYING.EMX",
   "other_urls": [
     "http://web.lemoyne.edu/courseinformation/emtex/emx/doc/COPYING.EMX"
-  ]
+  ],
+  "text": "The emx libraries are not distributed under the GPL.  Linking an\napplication with the emx libraries does not cause the executable\nto be covered by the GNU General Public License.  You are allowed\nto change and copy the emx library sources if you keep the copyright\nmessage intact.  If you improve the emx libraries, please send your\nenhancements to the emx author (you should copyright your\nenhancements similar to the existing emx libraries)."
 }

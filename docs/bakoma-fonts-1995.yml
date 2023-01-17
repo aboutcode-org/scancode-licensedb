@@ -17,3 +17,19 @@ ignorable_urls:
 ignorable_emails:
   - bakoma@mail.ru
   - malyshev@mail.ihep.ru
+text: "\t\t\tBaKoMa Fonts Licence\n\t\t\t--------------------\n\n  This licence covers two font\
+  \ packs (known as BaKoMa Fonts Colelction,\n  which is available at `CTAN:fonts/cm/ps-type1/bakoma/'):\n\
+  \n    1) BaKoMa-CM (1.1/12-Nov-94)\n       Computer Modern Fonts in PostScript Type 1 and\
+  \ TrueType font formats.\n\n    2) BaKoMa-AMS (1.2/19-Jan-95)\n       AMS TeX fonts in PostScript\
+  \ Type 1 and TrueType font formats.\n   \n  Copyright (C) 1994, 1995, Basil K. Malyshev. All\
+  \ Rights Reserved.\n\n  Permission to copy and distribute these fonts for any purpose is \n\
+  \  hereby granted without fee, provided that the above copyright notice, \n  author statement\
+  \ and this permission notice appear in all copies of \n  these fonts and related documentation.\n\
+  \n  Permission to modify and distribute modified fonts for any purpose is \n  hereby granted\
+  \ without fee, provided that the copyright notice, \n  author statement, this permission notice\
+  \ and location of original \n  fonts (http://www.ctan.org/tex-archive/fonts/cm/ps-type1/bakoma)\n\
+  \  appear in all copies of modified fonts and related documentation.\n\n  Permission to use\
+  \ these fonts (embedding into PostScript, PDF, SVG\n  and printing by using any software)\
+  \ is hereby granted without fee. \n  It is not required to provide any notices about using\
+  \ these fonts.\n\n Basil K. Malyshev\n INSTITUTE FOR HIGH ENERGY PHYSICS\n IHEP, OMVT\n Moscow\
+  \ Region\n 142281 PROTVINO\n RUSSIA\n\n E-Mail:\tbakoma@mail.ru\n      or\tmalyshev@mail.ihep.ru"

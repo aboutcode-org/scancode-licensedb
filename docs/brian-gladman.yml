@@ -7,3 +7,16 @@ homepage_url: http://www.gladman.me.uk/AES
 spdx_license_key: LicenseRef-scancode-brian-gladman
 text_urls:
   - http://gladman.plushost.co.uk/oldsite/AES/aes-src-12-09-11.zip
+text: |
+  The redistribution and use of this software (with or without changes)
+  is allowed without the payment of fees or royalties provided that:
+
+    source code distributions include the above copyright notice, this
+    list of conditions and the following disclaimer;
+
+    binary distributions include the above copyright notice, this list
+    of conditions and the following disclaimer in their documentation.
+
+  This software is provided 'as is' with no explicit or implied warranties
+  in respect of its operation, including, but not limited to, correctness
+  and fitness for purpose.

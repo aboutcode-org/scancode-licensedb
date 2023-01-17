@@ -8,3 +8,7 @@ is_exception: yes
 spdx_license_key: GPL-3.0-linking-source-exception
 other_urls:
   - https://github.com/mirror/wget/blob/master/src/http.c#L20
+text: |
+  Additional permission under GNU GPL version 3 section 7
+
+  If you modify this Program, or any covered work, by linking or combining it with [name of library] (or a modified version of that library), containing parts covered by the terms of [name of library's license], the licensors of this Program grant you additional permission to convey the resulting work. {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of [name of library] used as well as that of the covered work.}

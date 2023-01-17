@@ -8,3 +8,8 @@ notes: |
   number of ancillary yet similar licenses may be reported as one.
 is_generic: yes
 spdx_license_key: LicenseRef-scancode-other-copyleft
+text: |
+  This component contains third-party subcomponents licensed under
+  one or more copyleft licenses in the style of GPL, LGPL, MPL or EPL.
+  The license obligations of these subcomponents may apply when a subcomponent
+  depending on how the subcomponent is used and/or redistributed.

@@ -5,5 +5,6 @@
   "name": "Broadcom Dual GPL-Commercial",
   "category": "Copyleft",
   "owner": "Broadcom",
-  "notes": "composite"
+  "notes": "composite",
+  "text": "Unless you and Broadcom execute a separate written software license agreement\ngoverning use of this software, this software is licensed to you under the\nterms of the GNU General Public License version 2, available at\n\nhttp://www.broadcom.com/licenses/GPLv2.php (the \"GPL\").\n\nNotwithstanding the above, under no circumstances may you combine this software\nin any way with any other Broadcom software provided under a license other than\nthe GPL, without Broadcom's express prior written consent."
 }

@@ -8,3 +8,184 @@ spdx_license_key: LicenseRef-scancode-oracle-entitlement-05-15
 ignorable_urls:
   - http://www.java.net/
   - http://www.sun.com/service/servicelist
+text: "Oracle Corporation (\"ORACLE\") ENTITLEMENT for SOFTWARE\n\nLicensee/Company: Entity\
+  \ receiving Software.\n\nEffective Date: Date of delivery of the Software to You.\n\nSoftware:\
+  \ Product\n\nLicense Term:  Perpetual (subject to termination under the SLA).\n\nLicensed\
+  \ Unit: Software Copy.\n\nLicensed unit Count: Unlimited.\n\nPermitted Uses: \n\n1. You may\
+  \ reproduce and use the Software for Your own Individual,\nCommercial and Research and Instructional\
+  \ Use only for the purposes of\ndesigning, developing, testing, and running Your applets and\n\
+  applications (\"Programs\").\n\n2. Subject to the terms and conditions of this Agreement and\n\
+  restrictions and exceptions set forth in the Software's documentation,\nYou may reproduce\
+  \ and distribute portions of Software identified as a\nredistributable in the documentation\
+  \ (each a \"Redistributable\"),\nprovided that You comply with the following (note that You\
+  \ may be\nentitled to reproduce and distribute other portions of the Software not\ndefined\
+  \ in the documentation as a Redistributable under certain other\nlicenses as described in\
+  \ the THIRDPARTYLICENSEREADME, if applicable):\n\n(a) You distribute Redistributable complete\
+  \ and unmodified and only\nbundled as part of Your Programs,\n\n(b) Your Programs add significant\
+  \ and primary functionality to the\nRedistributable,\n\n(c) You distribute Redistributable\
+  \ for the sole purpose of running Your\nPrograms,\n\n(d) You do not distribute additional\
+  \ software intended to replace any\ncomponent(s) of the Redistributable,\n\n(e) You do not\
+  \ remove or alter any proprietary legends or notices\ncontained in or on the Redistributable.\n\
+  \n(f) You only distribute the Redistributable subject to a license\nagreement that protects\
+  \ Oracle's interests consistent with the terms\ncontained in this Agreement, and\n\n(g) You\
+  \ agree to defend and indemnify Oracle and its licensors from and\nagainst any damages, costs,\
+  \ liabilities, settlement amounts and/or\nexpenses  (including attorneys' fees) incurred in\
+  \ connection with any\nclaim, lawsuit or action by any third party that arises or results\
+  \ from\nthe use or distribution of any and all Programs and/or\nRedistributable.\n\n3. Java\
+  \ Technology Restrictions.  You may not create, modify, or change\nthe behavior of, or authorize\
+  \ Your licensees to create, modify, or\nchange the behavior of, classes, interfaces, or subpackages\
+  \ that are in\nany way identified as \"java\", \"javax\", \"sun\" or similar convention as\n\
+  specified by Oracle in any naming convention designation.\n\n4. No Diagnostic, Maintenance,\
+  \ Repair or Technical Support Services.\nThe scope of Your license does not include any right,\
+  \ express or\nimplied, (i) to access, copy, distribute, display or use the Software\nto provide\
+  \ diagnostic, maintenance, repair or technical support\nservices for Oracle software or Oracle\
+  \ hardware on behalf of any third party\nfor Your direct or indirect commercial gain or advantage,\
+  \ without Oracle's\nprior written authorization, or (ii) for any third party to access,\n\
+  copy, distribute, display or use the Software to provide diagnostic,\nmaintenance, repair\
+  \ or technical support services for Oracle software or\nOracle hardware on Your behalf for\
+  \ such party's direct or indirect\ncommercial gain or advantage, without Oracle's prior written\n\
+  authorization. The limitations set forth in this paragraph apply to any\nand all error corrections,\
+  \ patches, updates, and upgrades to the\nSoftware You may receive, access, download or otherwise\
+  \ obtain from\nOracle.\n\n5. Records and Documentation.  During the term of the SLA and\n\
+  Entitlement, and for a period of three (3) years thereafter, You agree\nto keep proper records\
+  \ and documentation of Your compliance with the\nSLA and Entitlement. Upon Oracle's reasonable\
+  \ request, You will provide\ncopies of such records and documentation to Oracle for the purpose\
+  \ of\nconfirming Your compliance with the terms and conditions of the SLA and\nEntitlement.\
+  \ This section will survive any termination of the SLA and\nEntitlement. You may terminate\
+  \ this SLA and Entitlement at any time by\ndestroying all copies of the Software in which\
+  \ case the obligations set\nforth in Section 7 of the SLA shall apply.\n\n\nOracle Corporation\
+  \ (\"ORACLE\")\nSOFTWARE LICENSE AGREEMENT\n\nREAD THE TERMS OF THIS AGREEMENT (\"AGREEMENT\"\
+  ) CAREFULLY BEFORE OPENING\nSOFTWARE MEDIA PACKAGE. BY OPENING SOFTWARE MEDIA PACKAGE, YOU\
+  \ AGREE TO\nTHE TERMS OF THIS AGREEMENT. IF YOU ARE ACCESSING SOFTWARE\nELECTRONICALLY, INDICATE\
+  \ YOUR ACCEPTANCE OF THESE TERMS BY SELECTING\nTHE \"ACCEPT\" BUTTON AT THE END OF THIS AGREEMENT.\
+  \ IF YOU DO NOT AGREE\nTO ALL OF THE TERMS, PROMPTLY RETURN THE UNUSED SOFTWARE TO YOUR PLACE\n\
+  OF PURCHASE FOR A REFUND OR, IF SOFTWARE IS ACCESSED ELECTRONICALLY,\nSELECT THE \"DECLINE\"\
+  \ (OR \"EXIT\") BUTTON AT THE END OF THIS AGREEMENT.\nIF YOU HAVE SEPARATELY AGREED TO LICENSE\
+  \ TERMS (\"MASTER TERMS\") FOR\nYOUR LICENSE TO THIS SOFTWARE, THEN SECTIONS 1-6 OF THIS AGREEMENT\n\
+  (\"SUPPLEMENTAL LICENSE TERMS\") SHALL SUPPLEMENT AND SUPERSEDE THE\nMASTER TERMS IN RELATION\
+  \ TO THIS SOFTWARE.\n\n1.\tDefinitions.\n\n(a)     \"Entitlement\" means the collective set\
+  \ of applicable documents\nauthorized by Oracle evidencing your obligation to pay associated\
+  \ fees (if\nany) for the license, associated Services, and the authorized scope of\nuse of\
+  \ Software under this Agreement.\n\n(b)     \"Licensed Unit\" means the unit of measure by\
+  \ which your use of\nSoftware and/or Service is licensed, as described in your Entitlement.\n\
+  \n(c)     \"Permitted Use\" means the licensed Software use(s) authorized\nin this Agreement\
+  \ as specified in your Entitlement. The Permitted Use\nfor any bundled Oracle software not\
+  \ specified in your Entitlement will be\nevaluation use as provided in Section 3.\n\n(d) \
+  \    \"Service\" means the service(s) that Oracle or its delegate will\nprovide, if any, as\
+  \ selected in your Entitlement and as further\ndescribed in the applicable service listings\
+  \ at\nwww.sun.com/service/servicelist.\n\n(e)     \"Software\" means the Oracle software described\
+  \ in your\nEntitlement. Also, certain software may be included for evaluation use\nunder Section\
+  \ 3.\n\n(f)     \"You\" and \"Your\" means the individual or legal entity specified\nin the\
+  \ Entitlement, or for evaluation purposes, the entity performing\nthe evaluation.\n\n2.  \
+  \    License Grant and Entitlement.\n\nSubject to the terms of your Entitlement, Oracle grants\
+  \ you a\nnonexclusive, nontransferable limited license to use Software for its\nPermitted\
+  \ Use for the license term. Your Entitlement will specify (a)\nSoftware licensed, (b) the\
+  \ Permitted Use, (c) the license term, and (d)\nthe Licensed Units.\n\nAdditionally, if your\
+  \ Entitlement includes Services, then it will also\nspecify the (e) Service and (f) service\
+  \ term.\n\nIf your rights to Software or Services are limited in duration and the\ndate such\
+  \ rights begin is other than the purchase date, your\nEntitlement will provide that beginning\
+  \ date(s).\n\nThe Entitlement may be delivered to you in various ways depending on\nthe manner\
+  \ in which you obtain Software and Services, for example, the\nEntitlement may be provided\
+  \ in your receipt, invoice or your contract\nwith Oracle or authorized Oracle reseller. It\
+  \ may also be in electronic\nformat if you download Software.\n\n3.      Permitted Use.\n\n\
+  As selected in your Entitlement, one or more of the following Permitted\nUses will apply to\
+  \ your use of Software. Unless you have an Entitlement\nthat expressly permits it, you may\
+  \ not use Software for any of the\nother Permitted Uses. If you don't have an Entitlement,\
+  \ or if your\nEntitlement doesn't cover additional software delivered to you, then\nsuch software\
+  \ is for your Evaluation Use.\n\n(a) Evaluation Use. You may evaluate Software internally\
+  \ for a period\nof 90 days from your first use.\n\n(b) Research and Instructional Use. You\
+  \ may use Software internally to\ndesign, develop and test, and also to provide instruction\
+  \ on such\nuses.\n\n(c) Individual Use. You may use Software internally for personal,\nindividual\
+  \ use.\n\n(d) Commercial Use. You may use Software internally for your own\ncommercial purposes.\n\
+  \n(e) Service Provider Use. You may make Software functionality\naccessible (but not by providing\
+  \ Software itself or through outsourcing\nservices) to your end users in an extranet deployment,\
+  \ but not to your\naffiliated companies or to government agencies.\n\n4.      Licensed Units.\n\
+  \nYour Permitted Use is limited to the number of Licensed Units stated in\nyour Entitlement.\
+  \ If you require additional Licensed Units, you will\nneed additional Entitlement(s).\n\n\
+  5.      Restrictions.\n\n(a) The copies of Software provided to you under this Agreement are\n\
+  licensed, not sold, to you by Oracle. Oracle reserves all rights not\nexpressly granted. (b)\
+  \ You may make a single archival copy of Software,\nbut otherwise may not copy, modify, or\
+  \ distribute Software. However if\nthe Oracle documentation accompanying Software lists specific\
+  \ portions of\nSoftware, such as header files, class libraries, reference source code,\nand/or\
+  \ redistributable files, that may be handled differently, you may\ndo so only as provided\
+  \ in the Oracle documentation. (c) You may not rent,\nlease, lend or encumber Software. (d)\
+  \ Unless enforcement is prohibited\nby applicable law, you may not decompile, or reverse engineer\
+  \ Software.\n(e) The terms and conditions of this Agreement will apply to any\nSoftware updates,\
+  \ provided to you at Oracle's discretion, that replace\nand/or supplement the original Software,\
+  \ unless such update contains a\nseparate license. (f) You may not publish or provide the\
+  \ results of any\nbenchmark or comparison tests run on Software to any third party\nwithout\
+  \ the prior written consent of Oracle. (g) Software is confidential\nand copyrighted. (h)\
+  \ Unless otherwise specified, if Software is\ndelivered with embedded or bundled software\
+  \ that enables functionality\nof Software, you may not use such software on a stand-alone\
+  \ basis or\nuse any portion of such software to interoperate with any program(s)\nother than\
+  \ Software. (i) Software may contain programs that perform\nautomated collection of system\
+  \ data and/or automated software updating\nservices. System data collected through such programs\
+  \ may be used by\nOracle, its subcontractors, and its service delivery partners for the\n\
+  purpose of providing you with remote system services and/or improving\nOracle's software and\
+  \ systems. (j) Software is not designed, licensed or\nintended for use in the design, construction,\
+  \ operation or maintenance\nof any nuclear facility and Oracle and its licensors disclaim\
+  \ any express\nor implied warranty of fitness for such uses. (k) No right, title or\ninterest\
+  \ in or to any trademark, service mark, logo or trade name of\nOracle or its licensors is\
+  \ granted under this Agreement.\n\n6.      Java Compatibility and Open Source.\n\nSoftware\
+  \ may contain Java technology. You may not create additional\nclasses to, or modifications\
+  \ of, the Java technology, except under\ncompatibility requirements available under a separate\
+  \ agreement\navailable at www.java.net.\n\nOracle supports and benefits from the global community\
+  \ of open source\ndevelopers, and thanks the community for its important contributions\nand\
+  \ open standards-based technology, which Oracle has adopted into many of\nits products.\n\n\
+  Please note that portions of Software may be provided with notices and\nopen source licenses\
+  \ from such communities and third parties that\ngovern the use of those portions, and any\
+  \ licenses granted hereunder do\nnot alter any rights and obligations you may have under such\
+  \ open\nsource licenses, however, the disclaimer of warranty and limitation of\nliability\
+  \ provisions in this Agreement will apply to all Software in\nthis distribution.\n\n7.   \
+  \   Term and Termination.\n\nThe license and service term are set forth in your Entitlement(s).\
+  \ Your\nrights under this Agreement will terminate immediately without notice\nfrom Oracle\
+  \ if you materially breach it or take any action in derogation\nof Oracle's and/or its licensors'\
+  \ rights to Software. Oracle may terminate\nthis Agreement should any Software become, or\
+  \ in Oracle's reasonable\nopinion likely to become, the subject of a claim of intellectual\n\
+  property infringement or trade secret misappropriation. Upon\ntermination, you will cease\
+  \ use of, and destroy, Software and confirm\ncompliance in writing to Oracle. Sections 1,\
+  \ 5, 6, 7, and 9-15 will\nsurvive termination of the Agreement.\n\n8.      Limited Warranty.\n\
+  \nOracle warrants to you that for a period of 90 days from the date of\npurchase, as evidenced\
+  \ by a copy of the receipt, the media on which\nSoftware is furnished (if any) will be free\
+  \ of defects in materials and\nworkmanship under normal use. Except for the foregoing, Software\
+  \ is\nprovided \"AS IS\". Your exclusive remedy and Oracle's entire liability\nunder this\
+  \ limited warranty will be at Oracle's option to replace Software\nmedia or refund the fee\
+  \ paid for Software. Some states do not allow\nlimitations on certain implied warranties,\
+  \ so the above may not apply\nto you. This limited warranty gives you specific legal rights.\
+  \ You may\nhave others, which vary from state to state.\n\n9.      Disclaimer of Warranty.\n\
+  \nUNLESS SPECIFIED IN THIS AGREEMENT, ALL EXPRESS OR IMPLIED CONDITIONS,\nREPRESENTATIONS\
+  \ AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR\
+  \ PURPOSE OR NON-INFRINGEMENT\nARE DISCLAIMED, EXCEPT TO THE EXTENT THAT THESE DISCLAIMERS\
+  \ ARE HELD TO\nBE LEGALLY INVALID.\n\n10.     Limitation of Liability.\n\nTO THE EXTENT NOT\
+  \ PROHIBITED BY LAW, IN NO EVENT WILL ORACLE OR ITS\nLICENSORS BE LIABLE FOR ANY LOST REVENUE,\
+  \ PROFIT OR DATA, OR FOR\nSPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL OR PUNITIVE DAMAGES,\n\
+  HOWEVER CAUSED REGARDLESS OF THE THEORY OF LIABILITY, ARISING OUT OF OR\nRELATED TO THE USE\
+  \ OF OR INABILITY TO USE SOFTWARE, EVEN IF ORACLE HAS\nBEEN ADVISED OF THE POSSIBILITY OF\
+  \ SUCH DAMAGES. In no event will Oracle's\nliability to you, whether in contract, tort (including\
+  \ negligence), or\notherwise, exceed the amount paid by you for Software under this\nAgreement.\
+  \ The foregoing limitations will apply even if the above\nstated warranty fails of its essential\
+  \ purpose. Some states do not\nallow the exclusion of incidental or consequential damages,\
+  \ so some of\nthe terms above may not be applicable to you.\n\n11.     Export Regulations.\n\
+  \nAll Software, documents, technical data, and any other materials\ndelivered under this Agreement\
+  \ are subject to U.S. export control laws\nand may be subject to export or import regulations\
+  \ in other countries.\nYou agree to comply strictly with these laws and regulations and\n\
+  acknowledge that you have the responsibility to obtain any licenses to\nexport, re-export,\
+  \ or import as may be required after delivery to you.\n\n12.     U.S. Government Restricted\
+  \ Rights.\n\nIf Software is being acquired by or on behalf of the U.S. Government or\nby a\
+  \ U.S. Government prime contractor or subcontractor (at any tier),\nthen the Government's\
+  \ rights in Software and accompanying documentation\nwill be only as set forth in this Agreement;\
+  \ this is in accordance with\n48 CFR 227.7201 through 227.7202-4 (for Department of Defense\
+  \ (DOD)\nacquisitions) and with 48 CFR 2.101 and 12.212 (for non-DOD\nacquisitions).\n\n13.\
+  \     Governing Law.\n\nAny action related to this Agreement will be governed by California\
+  \ law\nand controlling U.S. federal law. No choice of law rules of any\njurisdiction will\
+  \ apply.\n\n14.     Severability.\n\nIf any provision of this Agreement is held to be unenforceable,\
+  \ this\nAgreement will remain in effect with the provision omitted, unless\nomission would\
+  \ frustrate the intent of the parties, in which case this\nAgreement will immediately terminate.\n\
+  \n15.     Integration.\n\nThis Agreement, including any terms contained in your Entitlement,\
+  \ is\nthe entire agreement between you and Oracle relating to its subject\nmatter. It supersedes\
+  \ all prior or contemporaneous oral or written\ncommunications, proposals, representations\
+  \ and warranties and prevails\nover any conflicting or additional terms of any quote, order,\n\
+  acknowledgment, or other communication between the parties relating to\nits subject matter\
+  \ during the term of this Agreement. No modification\nof this Agreement will be binding, unless\
+  \ in writing and signed by an\nauthorized representative of each party.\n\nFor inquiries please\
+  \ contact: Oracle Corporation, 500 Oracle Parkway,\nRedwood Shores, California 94065, USA."

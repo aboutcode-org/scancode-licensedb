@@ -8,3 +8,6 @@ notes: |
   number of ancillary yet similar licenses may be reported as one.
 is_generic: yes
 spdx_license_key: LicenseRef-scancode-other-permissive
+text: |
+  This component contains multiple third-party subcomponents licensed
+  under permissive licenses in the style of MIT, BSD, X11, and/or Apache.

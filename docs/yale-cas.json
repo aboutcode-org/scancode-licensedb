@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-yale-cas",
   "ignorable_authors": [
     "Yale University"
-  ]
+  ],
+  "text": "THIS SOFTWARE IS PROVIDED \"AS IS,\" AND ANY EXPRESS OR IMPLIED\nWARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE EXPRESSLY\nDISCLAIMED. IN NO EVENT SHALL YALE UNIVERSITY OR ITS EMPLOYEES BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED, THE COSTS OF\nPROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA OR\nPROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED IN ADVANCE OF THE POSSIBILITY OF SUCH\nDAMAGE.\n\nRedistribution and use of this software in source or binary forms,\nwith or without modification, are permitted, provided that the\nfollowing conditions are met:\n\n1. Any redistribution must include the above copyright notice and\ndisclaimer and this list of conditions in any related documentation\nand, if feasible, in the redistributed software.\n\n2. Any redistribution must include the acknowledgment, \"This product\nincludes software developed by Yale University,\" in any related\ndocumentation and, if feasible, in the redistributed software.\n\n3. The names \"Yale\" and \"Yale University\" must not be used to endorse\nor promote products derived from this software."
 }

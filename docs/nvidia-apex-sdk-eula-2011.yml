@@ -16,3 +16,173 @@ ignorable_urls:
 ignorable_emails:
   - PHYSXLICENCING@NVIDIA.COM
   - PHYSXLICENSING@NVIDIA.COM
+text: "NVIDIA CORPORATION\nNVIDIA APEX SDK END USER LICENSE AGREEMENT\nWelcome to the new world\
+  \ of game development physical asset creation provided to you\nwith the APEX SDK from NVIDIA®.\n\
+  \nNVIDIA Corporation (“NVIDIA”) is willing to license the APEX SDK and the\naccompanying documentation,\
+  \ samples applications, utilities, and asset authoring\nlibraries to you only on the condition\
+  \ that you accept all the terms in this License\nAgreement (“Agreement”).\n\nIMPORTANT: READ\
+  \ THE FOLLOWING TERMS AND CONDITIONS BEFORE\nUSING THE ACCOMPANYING NVIDIA APEX SDK.\nIF YOU\
+  \ DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, NVIDIA IS\nNOT WILLING TO LICENSE THE APEX\
+  \ SDK TO YOU. IF YOU DO NOT AGREE\nTO THESE TERMS, YOU SHALL DESTROY THIS ENTIRE PRODUCT AND\n\
+  PROVIDE EMAIL VERIFICATION TO PHYSXLICENCING@NVIDIA.COM OF\nDELETION OF ALL COPIES OF THE\
+  \ ENTIRE PRODUCT.\nNVIDIA MAY MODIFY THE TERMS OF THIS AGREEMENT FROM TIME TO\nTIME. ANY USE\
+  \ OF THE APEX SDK WILL BE SUBJECT TO SUCH UPDATED\nTERMS. A CURRENT VERSION OF THIS AGREEMENT\
+  \ IS POSTED ON\nNVIDIA’S DEVELOPER WEBSITE: www.developer.nvidia.com/apex\n\n1. Definitions.\n\
+  “Physics Application” means a software application designed for use and fully\ncompatible\
+  \ with the PhysX and APEX SDK and/or NVIDIA Graphics processor\nproducts, including but not\
+  \ limited to, a video game, visual simulation, movie, or other\nproduct. “APEX Software Development\
+  \ Kit” or “APEX SDK” means the set of\ninstructions for computers, in executable form and\
+  \ in any media (which may include\ndiskette, CD-ROM, downloadable internet, hardware, or firmware)\
+  \ comprising\nNVIDIA’s proprietary Software Development Kit and related media and printed\n\
+  materials, including Redistributable Code, Sample Code, reference guides and manuals,\ninstallation\
+  \ routines, API’s, libraries, any subsequent updates or adaptations provided by\nNVIDIA, whether\
+  \ with this installation or as separately downloaded. “Sample Code”\nmeans the sample interface\
+  \ or application source and object code files contained within\nthe APEX SDK’s “Samples” directory\
+  \ or made available for download from the PhysX\ndeveloper site and designated as sample code.\n\
+  \n2. License. NVIDIA grants you (“you”) a limited, non-exclusive, non-transferable\nworld-wide,\
+  \ royalty-free license to (a) internally install, use and display the APEX SDK, \nsolely for\
+  \ purposes of developing APEX asset content for Physics Applications; (b)\ninternally use,\
+  \ copy, modify and compile the Sample Code to design, develop and test\nAPEX assets; and (c)\
+  \ reproduce and distribute the Redistributable Code only in object\ncode form and only as\
+  \ fully integrated into Physics Applications, provided you meet and\ncomply with all requirements\
+  \ of this Agreement.\n\nIn addition, you may not and shall not permit others to:\n(i) modify,\
+  \ reproduce, de-compile, reverse engineer or translate the APEX\nSDK; or\n(ii) distribute\
+  \ or transfer the APEX SDK other than as part of the Physics\nApplication.\n\nExcept as expressly\
+  \ granted herein, no other license under any patent, copyright, trade\nsecret, trademark or\
+  \ other intellectual property right is granted to or conferred upon you\nby this Agreement.\
+  \ All other rights are expressly reserved by NVIDIA and its licensors.\n\n3. Redistribution;\
+  \ Physics Applications. Any redistribution of the APEX SDK (in\naccordance with Section 2\
+  \ above) or portions thereof must be subject to an end user\nlicense agreement including language\
+  \ that\n(a) prohibits the end user from modifying, reproducing, de-compiling, reverse\nengineering\
+  \ or translating the APEX SDK;\n(b) prohibits the end user from distributing or transferring\
+  \ the APEX SDK other\nthan as part of the Physics Application;\n(c) disclaims any and all\
+  \ warranties on behalf of NVIDIA and its affiliated\ncompanies and licensors;\n(d) disclaims,\
+  \ to the maximum extent permitted by law, NVIDIA’s, its affiliated\ncompanies and its licensors'\
+  \ liability for all damages, direct or indirect, incidental or\nconsequential, that may arise\
+  \ from any use of the APEX SDK and/or Physics\nApplication;\n(e) requires the end user to\
+  \ agree not to export the APEX SDK and/or Physics\nApplication, directly or indirectly, in\
+  \ violation of any U.S. laws; and\n\nYOU ARE REQUIRED TO NOTIFY NVIDIA PRIOR TO USE OF THE\
+  \ APEX SDK\nIN THE DEVELOPMENT OF ANY COMMERCIAL PHYSICS APPLICATION.\nPLEASE SEND NOTIFICATION\
+  \ BY EMAIL TO:\nPHYSXLICENSING@NVIDIA.COM AND PROVIDE THE FOLLOWING\nINFORMATION IN THE EMAIL:\n\
+  - COMPANY NAME\n- PUBLISHER NAME\n- GAME TITLE\n- PLATFORMS (I.E. PC, XBOX, PS3, WII)\n- SCHEDULED\
+  \ SHIP DATE\n\nANY COMMERCIAL PHYSICS APPLICATION INTEGRATING THE APEX SDK IS\nSUBJECT TO\
+  \ A LICENSE TO NVIDIA FOR USE AND PUBLIC DISPLAY OF\nSUCH PHYSICS APPLICATION FOR ADVERTISING\
+  \ AND MARKETING\nPURPOSES.\n\nFAILURE TO NOTIFY NVIDIA PURSUANT TO THIS SECTION AND FAILURE\n\
+  TO PROVIDE ATTRIBUTION PURSUANT TO SECTION 6 SHALL BE\nCONSIDERED A MATERIAL BREACH OF THIS\
+  \ AGREEMENT.\n\n4. Ownership, Protections. The APEX SDK is owned by NVIDIA and NVIDIA\nlicensors,\
+  \ and is protected by United States copyright laws, international treaty\nprovisions, and\
+  \ other applicable laws. With regard to any copies made, you agree to\nreproduce any copyright\
+  \ notices and other proprietary legends included on the original.\nNVIDIA copyright notice(s)\
+  \ may appear in any of several forms, including machinereadable \nform, and you agree to reproduce\
+  \ such notice in each form in which it appears.\nTitle and copyrights to the APEX SDK and\
+  \ any copies made by you remain with\nNVIDIA and its licensors. You acknowledge that the APEX\
+  \ SDK contain valuable\nproprietary information and trade secrets and that unauthorized or\
+  \ improper use of the\nAPEX SDK will result in irreparable harm to NVIDIA and its licensors\
+  \ for which\nmonetary damages would be inadequate and for which NVIDIA and its licensors will\
+  \ be\nentitled to immediate injunctive relief. Subject to the rights of NVIDIA and its licensors\n\
+  in the APEX SDK and the Sample Code, you own your modifications to the Sample\nCode.\n\n5.\
+  \ Restrictions. You will not, and will not permit others to: (a) modify, translate,\ndecompile,\
+  \ bootleg, reverse engineer, disassemble, or extract the inner workings of any\nportion of\
+  \ the APEX SDK except the Sample Code, (b) copy the look-and-feel or\nfunctionality of any\
+  \ portion of the APEX SDK except the Sample Code; (c) remove any\nproprietary notices, marks,\
+  \ labels, or logos from the APEX SDK or any portion thereof;\n(d) rent, transfer or use as\
+  \ a service bureau all or some of the APEX SDK without\nNVIDIA’s prior written consent, except\
+  \ in the form of Physics Applications and subject\nto the requirements of this Agreement;\
+  \ (e) utilize any computer software or hardware\nwhich is designed to defeat any copy protection\
+  \ device, should the APEX SDK be\nequipped with such a protection device; or (f) use the NVIDIA\
+  \ Licensed Software in any\nmanner that would cause the NVIDIA Licensed Software to become\
+  \ subject to an Open\nSource License. \"Open Source License\" includes, without limitation,\
+  \ a software license\nthat requires as a condition of use, modification, and/or distribution\
+  \ of such software that\nthe NVIDIA Licensed Software be (i) disclosed or distributed in source\
+  \ code form; (ii) be\nlicensed for the purpose of making derivative works; or (iii) be redistributable\
+  \ at no\ncharge. Unauthorized copying of the APEX SDK, or failure to comply with any of the\n\
+  provisions of this Agreement, will result in automatic termination of this license.\n\n6.\
+  \ Attribution Requirements and Trademark License. You must provide attribution\nto NVIDIA.\n\
+  \nA: You will include a reference to the APEX SDK and NVIDIA in any press releases\nfor such\
+  \ Game that relate to NVIDIA, or in-game physics, and will identify \nNVIDIA as the provider\
+  \ of \"APEX\" (or such other term or phrase as indicated by\nNVIDIA from time to time).\n\n\
+  B: For Games, Demos, and Videos that incorporate the APEX SDK or portions\nthereof, the NVIDIA\
+  \ logos must appear:\na. on the back cover of the instruction manual or similar placement\
+  \ in an\nelectronic file for the purpose of acknowledgement/copyright/trademark\nnotice;\n\
+  b. on external packaging;\nc. during opening marquee or credits with inclusion of “NVIDIA”;\n\
+  d. must appear on title marketing feature list with a specific call-out of\nNVIDIA APEX Technology\n\
+  e. on the credit screen; and\nf. in the “About” or “Info” box menu items (or equivalent) of\
+  \ all Physics\nGames or Applications using any portion of the APEX SDK.\n\nC: Provide a quote\
+  \ citing the Licensee’s integration of the APEX SDK into the Game\nor Application for NVIDIA’s\
+  \ use in press materials and website.\n\nD: Refer to NVIDIA’s APEX SDK in all press coverage\
+  \ referring to the use APEX\nin the development of any Game or Application.\nFAILURE TO PROVIDE\
+  \ ATTRIBUTION PURSUANT TO THIS SECTION SHALL\nBE CONSIDERED A MATERIAL BREACH OF THIS AGREEMENT.\n\
+  \nExcept as expressly set forth in this Section 6, or in a separate written agreement with\n\
+  NVIDIA, you may not use NVIDIA's trademarks, whether registered or unregistered, in\nconnection\
+  \ with the Physics Application in any manner or imply that NVIDIA endorses\nor otherwise approves\
+  \ of the Physics Application or that you and NVIDIA are in any way\naffiliated. Your use of\
+  \ the NVIDIA name under this Agreement does not create any\nright, title or interest in the\
+  \ NVIDIA name or any NVIDIA trademarks and all goodwill\narising from your use inure solely\
+  \ to the benefit of NVIDIA.\n\n7. DISCLAIMER. EXCEPT FOR THE ABOVE EXPRESS LIMITED\nWARRANTY,\
+  \ THE APEX SDK IS PROVIDED “AS IS” AND NVIDIA AND ITS\nLICENSORS MAKE, AND YOU RECEIVE, NO\
+  \ OTHER WARRANTIES OF ANY\nKIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR IN ANY\nCOMMUNICATION\
+  \ WITH YOU. NVIDIA SPECIFICALLY DISCLAIMS ANY\nOTHER WARRANTY INCLUDING THE IMPLIED WARRANTIES\
+  \ OF\nMERCHANTABILITY, NON-INFRINGEMENT, OR FITNESS FOR A PARTICULAR\nPURPOSE. NVIDIA DOES\
+  \ NOT WARRANT THAT THE OPERATION OF THE\nSOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE OR THAT\
+  \ DEFECTS\nIN THE SOFTWARE WILL BE CORRECTED. NVIDIA MAKES NO WARRANTY\nWITH RESPECT TO THE\
+  \ CORRECTNESS, ACCURACY, OR RELIABILITY OF\nTHE SOFTWARE AND DOCUMENTATION. Some jurisdictions\
+  \ do not allow the\nexclusion of implied warranties, so the above exclusion may not apply\
+  \ to you.\n\n8. Remedies. The entire liability of NVIDIA and its licensors, and your exclusive\n\
+  remedy under the warranty provided herein will be, at NVIDIA’s option, to replace any\nmedia\
+  \ found to be defective within the warranty period, or to refund the purchase price \nand\
+  \ terminate this Agreement. To seek such a remedy, you must return the entire APEX\nSDK to\
+  \ NVIDIA, with a copy of the original purchase receipt within the warranty period.\n\n9. Confidential\
+  \ Information. All technical and business information disclosed by\nNVIDIA to you under this\
+  \ Agreement, including but not limited to source code,\ndocumentation, technical assistance\
+  \ and any confidential information pertaining to\nNVIDIA’s business or products, are to be\
+  \ considered “NVIDIA Confidential\nInformation.” You will not disclose any portion of NVIDIA\
+  \ Confidential Information to\nany third party and will protect all NVIDIA Confidential Information\
+  \ with the same\ndegree of care as you use to protect your own information of a confidential\
+  \ or proprietary\nnature, but always with at least a reasonable degree of care. This obligation\
+  \ of\nconfidentiality will survive termination and/or expiration of this Agreement for any\n\
+  reason.\n\n10. LIMITATION OF LIABILITY. THE TOTAL LIABILITY OF NVIDIA AND\nITS LICENSORS UNDER\
+  \ THIS AGREEMENT FOR DAMAGES WILL NOT\nEXCEED $100 IN THE AGGREGATE. IN NO EVENT WILL NVIDIA\
+  \ OR ITS\nLICENSORS BE LIABLE IN ANY WAY FOR INCIDENTAL, CONSEQUENTIAL,\nINDIRECT, SPECIAL\
+  \ OR PUNITIVE DAMAGES OF ANY NATURE, INCLUDING\nWITHOUT LIMITATION, LOST BUSINESS PROFITS,\
+  \ OR LIABILITY OR INJURY\nTO THIRD PERSONS, WHETHER FORESEEABLE OR NOT, REGARDLESS OF\nWHETHER\
+  \ NVIDIA OR ITS LICENSORS HAVE BEEN ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGES. Some jurisdictions\
+  \ do not permit limitations of\nliability for incidental or consequential damages, so the\
+  \ above exclusions may not apply\nto you.\n\n11. Customer and Technical Support. You will\
+  \ be solely responsible for providing\ncustomer and technical support to end users of the\
+  \ Physics Application for all features of\nthe Physics Application, including those features\
+  \ that relate to integration, functionality\nor compatibility of the Physics Application with\
+  \ NVIDIA products. NVIDIA may\nprovide you with technical support related to use of the APEX\
+  \ SDK under terms and\nconditions as posted on the NVIDIA PhysX developer website, which may,\
+  \ in NVIDIA’s\nsole discretion, be changed from time to time.\n\n12. Term of License; Termination.\
+  \ Your right to use the APEX SDK will begin when\nyou click the “ACCEPT” button, which constitutes\
+  \ acceptance of the terms and\nconditions herein. The license is effective until otherwise\
+  \ terminated. You may\nterminate it at any time by destroying the APEX SDK and all portions\
+  \ thereof, together\nwith all copies in any form. If you fail to comply with any material\
+  \ term or condition of\nthis Agreement and do not cure the noncompliance within 30 days of\
+  \ receipt of written\nnotice of noncompliance from NVIDIA, NVIDIA may terminate your rights\
+  \ to conduct\nany further development under Sections 2(a) and (b) of this Agreement (\"Partial\n\
+  Termination\"). Upon Partial Termination, you will certify to NVIDIA in writing that the\n\
+  original and all stand-alone copies, in whole or in part, of the APEX SDK have been\ndestroyed.\
+  \ Upon Partial Termination, you may continue to distribute any Physics\nApplication that has\
+  \ been commercially released prior to such termination subject to\nprospective compliance\
+  \ with this Agreement. Upon any other termination, you will\ncertify to NVIDIA in writing\
+  \ that the original and all copies, in whole or in part, of the \nAPEX SDK have been destroyed,\
+  \ including those portions contained within any\nunshipped Physics Applications.\n\n13. Governing\
+  \ Law. This Agreement will be governed by the laws of the United\nStates of America to the\
+  \ extent that they apply and otherwise by the laws of the State of\nCalifornia, without reference\
+  \ to principles of conflicts of law.\n\n14. Export. You agree and certify that no portion\
+  \ of the APEX SDK nor any other\ntechnical data received from NVIDIA will be exported outside\
+  \ the United States except\nas authorized and as permitted by the laws and regulations of\
+  \ the United States. If you\nhave rightfully obtained the APEX SDK outside of the United States,\
+  \ you agree that you\nwill not re-export any portion of the APEX SDK nor any other technical\
+  \ data received\nfrom NVIDIA, except as permitted by the laws and regulations of the United\
+  \ States and\nthe laws and regulations of the jurisdiction in which you obtained the APEX\
+  \ SDK.\n\n15. Assignment. You may not sublicense, assign or transfer this Agreement or the\n\
+  APEX SDK except as expressly provided in this Agreement. Any attempt to otherwise\nsublicense,\
+  \ assign or transfer any of the rights, duties or obligations hereunder is null and\nvoid.\n\
+  \n16. Survival. The parties agree that where the context of any provision indicates an\nintent\
+  \ that it will survive the term of this Agreement, then it will survive. All terms of\nthis\
+  \ Agreement survive Partial Termination except Sections 2(a) and (b).\n\n17. Entire Agreement.\
+  \ This Agreement contains the parties’ entire agreement\nregarding your use of the APEX SDK\
+  \ and may be amended only in writing signed by\nboth parties.\n\nCopyright 2011 NVIDIA Corporation.\
+  \ All rights reserved.\nUS AND INTERNATIONAL PATENTS PENDING.\nRev (7-22-11)"

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Noah Slater",
   "homepage_url": "https://github.com/nslater/DAMAIL",
-  "spdx_license_key": "LicenseRef-scancode-damail"
+  "spdx_license_key": "LicenseRef-scancode-damail",
+  "text": "The Don't Ask Me About It License\nFull License Text\n\nCopying and distribution of this file, with or without modification, are\npermitted in any medium provided you do not contact the author about the file or\nany problems you are having with the file.\n\nHow To Apply This To Your Stuff\n\nAdd a copyright notice to whatever you want to license and then copy the license\ntext verbatim.\n\nLicense\nLicensed under itself. Don't bother emailing me about it.\nYou can follow me on Twitter though!"
 }

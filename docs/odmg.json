@@ -11,5 +11,6 @@
   ],
   "ignorable_urls": [
     "http://www.odmg.org/"
-  ]
+  ],
+  "text": "License Agreement\n\nRedistribution of this software is permitted provided that the following\nconditions are met:\n\n1. Redistributions of source or binary code formats must retain the above\ncopyright notice.\n\n2. Redistribution in any product and all advertising materials mentioning\nfeatures or use of this software must display the following acknowledgment:\n\u201cThis product includes copyrighted software developed by E. Wray Johnson for use\nand distribution by the Object Data Management Group (http://www.odmg.org/).\u201d\n\nNo-Nonsense Disclaimer\n\nTHIS SOFTWARE IS FREE AND PROVIDED \u201cAS-IS\u201d BY THE AUTHOR E. WRAY JOHNSON WHO\nASSUMES LIABILITY TO THE EXTENT OF THE AMOUNT THAT IS HEREBY BEING CHARGED FOR\nTHE SOFTWARE."
 }

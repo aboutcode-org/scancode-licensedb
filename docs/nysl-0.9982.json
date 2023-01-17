@@ -14,5 +14,6 @@
   "other_urls": [
     "http://www.kmonos.net/nysl/",
     "http://search.cpan.org/~yakex/Software-License-NYSL-v0.0.1/"
-  ]
+  ],
+  "text": "NYSL Version 0.9982 (en) (Unofficial)\n----------------------------------------\nA. This software is \"Everyone'sWare\". It means:\n  Anybody who has this software can use it as if he/she is\n  the author.\n\n  A-1. Freeware. No fee is required.\n  A-2. You can freely redistribute this software.\n  A-3. You can freely modify this software. And the source\n      may be used in any software with no limitation.\n  A-4. When you release a modified version to public, you\n      must publish it with your name.\n\nB. The author is not responsible for any kind of damages or loss\n  while using or misusing this software, which is distributed\n  \"AS IS\". No warranty of any kind is expressed or implied.\n  You use AT YOUR OWN RISK.\n\nC. Copyrighted to <copyright holders>\n\nD. Above three clauses are applied both to source and binary\n  form of this software."
 }

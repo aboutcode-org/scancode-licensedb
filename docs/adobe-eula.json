@@ -10,5 +10,6 @@
   "minimum_coverage": 70,
   "ignorable_urls": [
     "http://www.adobe.com/products/eulas/"
-  ]
+  ],
+  "text": "Patents pending in the United States and \nother countries. Adobe and Flash are either trademarks or registered \ntrademarks in the United States and/or other countries.\n\nAdobe  End User License Agreement\n\nhttp://www.adobe.com/products/eulas/"
 }

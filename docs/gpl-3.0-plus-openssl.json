@@ -6,5 +6,6 @@
   "category": "Copyleft Limited",
   "owner": "Tildeslash",
   "notes": "replaced by openssl-exception-gpl-3.0-plus",
-  "is_exception": true
+  "is_exception": true,
+  "text": "This program is free software: you can redistribute it and/or modify it under\nthe terms of the GNU General Public License as published by the Free Software\nFoundation, either version 3 of the License, or (at your option) any later\nversion.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY\nWARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A\nPARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with\nthis program.  If not, see <http://www.gnu.org/licenses/>.\n\nIn addition, as a special exception, the copyright holders give permission to\nlink the code of portions of this program with the OpenSSL library under certain\nconditions as described in each individual source file, and distribute linked\ncombinations including the two.\n\nYou must obey the GNU General Public License in all respects for all of the code\nused other than OpenSSL.  If you modify file(s) with this exception, you may\nextend this exception to your version of the file(s), but you are not obligated\nto do so.  If you do not wish to do so, delete this exception statement from\nyour version.  If you delete this exception statement from all source files in\nthe program, then also delete it here."
 }

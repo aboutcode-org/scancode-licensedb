@@ -5,3 +5,38 @@ name: W3C Software Notice and License (2002-12-31)
 category: Permissive
 owner: W3C - World Wide Web Consortium
 homepage_url: https://www.w3.org/Consortium/Legal/2002/copyright-software-20021231
+text: "W3C Software Notice and License\n\nStatus: This license was applied to software published\
+  \ by W3C before 13 May,\n2015. On 13 May, 2015, W3C adopted a revised and renamed \"software\
+  \ and document\"\nlicense and applied the new license to all W3C documents that had previously\n\
+  been made available under this license. The new license grants all permissions\nthat had been\
+  \ granted under this 2002 license.\n\nThis work (and included software, documentation such\
+  \ as READMEs, or other\nrelated items) is being provided by the copyright holders under the\
+  \ following\nlicense. \n\nLicense\n\nBy obtaining, using and/or copying this work, you (the\
+  \ licensee) agree that you\nhave read, understood, and will comply with the following terms\
+  \ and conditions.\n\nPermission to copy, modify, and distribute this software and its documentation,\n\
+  with or without modification, for any purpose and without fee or royalty is\nhereby granted,\
+  \ provided that you include the following on ALL copies of the\nsoftware and documentation\
+  \ or portions thereof, including modifications:\n\n    The full text of this NOTICE in a location\
+  \ viewable to users of the\n    redistributed or derivative work.\n\n    Any pre-existing\
+  \ intellectual property disclaimers, notices, or terms and\n    conditions. If none exist,\
+  \ the W3C Software Short Notice should be included\n    (hypertext is preferred, text is permitted)\
+  \ within the body of any\n    redistributed or derivative code.\n\n    Notice of any changes\
+  \ or modifications to the files, including the date\n    changes were made. (We recommend\
+  \ you provide URIs to the location from which\n    the code is derived.)\n\nDisclaimers\n\n\
+  THIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE\nNO REPRESENTATIONS\
+  \ OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED\nTO, WARRANTIES OF MERCHANTABILITY\
+  \ OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT\nTHE USE OF THE SOFTWARE OR DOCUMENTATION\
+  \ WILL NOT INFRINGE ANY THIRD PARTY\nPATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\n\n\
+  COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR\nCONSEQUENTIAL DAMAGES\
+  \ ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright\
+  \ holders may NOT be used in advertising or\npublicity pertaining to the software without\
+  \ specific, written prior permission.\nTitle to copyright in this software and any associated\
+  \ documentation will at all\ntimes remain with copyright holders.\n\nNotes\n\nThis version:\
+  \ http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231\n\nThis formulation\
+  \ of W3C's notice and license became active on December 31 2002.\nThis version removes the\
+  \ copyright ownership notice such that this license can\nbe used with materials other than\
+  \ those owned by the W3C, reflects that ERCIM is\nnow a host of the W3C, includes references\
+  \ to this specific dated version of the\nlicense, and removes the ambiguous grant of \"use\"\
+  . Otherwise, this version is\nthe same as the previous version and is written so as to preserve\
+  \ the Free\nSoftware Foundation's assessment of GPL compatibility and OSI's certification\n\
+  under the Open Source Definition."

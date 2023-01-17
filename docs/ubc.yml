@@ -7,3 +7,13 @@ homepage_url: https://raw.github.com/orgcandman/esnacc-ng/master/c++-lib/src/asn
 spdx_license_key: LicenseRef-scancode-ubc
 text_urls:
   - https://github.com/esnacc/esnacc-ng/blob/55eb00bfb50439620f6fc64b1e8373dd2ad0abb5/cxx-lib/src/asn-len.cpp
+text: |
+  This library is free software; you can redistribute it and/or
+  modify it provided that this copyright/license information is retained
+  in original form.
+
+  If you modify this file, you must clearly indicate your changes.
+
+  This source code is distributed in the hope that it will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

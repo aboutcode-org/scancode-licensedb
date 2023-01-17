@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Biopython",
   "homepage_url": "http://www.biopython.org/DIST/LICENSE",
-  "spdx_license_key": "LicenseRef-scancode-biopython"
+  "spdx_license_key": "LicenseRef-scancode-biopython",
+  "text": "Biopython License Agreement\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation with or without modifications and for any purpose and\nwithout fee is hereby granted, provided that any copyright notices\nappear in all copies and that both those copyright notices and this\npermission notice appear in supporting documentation, and that the\nnames of the contributors or copyright holders not be used in\nadvertising or publicity pertaining to distribution of the software\nwithout specific prior permission.\n\nTHE CONTRIBUTORS AND COPYRIGHT HOLDERS OF THIS SOFTWARE DISCLAIM ALL\nWARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY SPECIAL, INDIRECT\nOR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS\nOF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE\nOR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE\nOR PERFORMANCE OF THIS SOFTWARE."
 }

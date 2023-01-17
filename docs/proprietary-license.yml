@@ -11,3 +11,6 @@ spdx_license_key: LicenseRef-scancode-proprietary-license
 other_spdx_license_keys:
   - LicenseRef-LICENSE
   - LicenseRef-LICENSE.md
+text: "This component is normally licensed under a proprietary license agreement with \na supplier\
+  \ that has terms and conditions that restrict the use of the code, \nbut may not require payment\
+  \ to the supplier."

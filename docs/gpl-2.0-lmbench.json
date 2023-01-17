@@ -6,5 +6,6 @@
   "category": "Copyleft",
   "owner": "Larry McVoy",
   "homepage_url": "http://lmbench.sourceforge.net/",
-  "is_exception": true
+  "is_exception": true,
+  "text": "Distributed under the FSF GPL with additional restriction that results may be\npublished only if\n(1) the benchmark is unmodified, and\n(2) the version in the sccsid below is included in the report.\n\nIn the file COPYING-1: \nThe set of programs and documentation known as \"lmbench\" are distributed under\nthe Free Software Foundation's General Public License with the following\nadditional restrictions (which override any conflicting restrictions in the GPL):\n\n1. You may not distribute results in any public forum, in any publication,\n   or in any other way if you have modified the benchmarks.  \n\n2. You may not distribute the results for a fee of any kind.  This includes\n   web sites which generate revenue from advertising."
 }

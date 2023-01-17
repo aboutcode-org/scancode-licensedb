@@ -8,3 +8,8 @@ ignorable_copyrights:
   - Copyright (c) Broadcom Corporation
 ignorable_holders:
   - Broadcom Corporation
+text: "Copyright (c) Broadcom Corporation  All Rights Reserved. \n\nTHIS SOFTWARE IS OFFERED\
+  \ \"AS IS\", AND BROADCOM GRANTS NO WARRANTIES OF\nANY KIND, EXPRESS OR IMPLIED, BY STATUTE,\
+  \ COMMUNICATION OR OTHERWISE.\nBROADCOM SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF\n\
+  MERCHANTABILITY, FITNESS FOR A SPECIFIC PURPOSE OR NONINFRINGEMENT\nCONCERNING THIS SOFTWARE.\n\
+  \nLow resolution timer interface linux specific implementation."

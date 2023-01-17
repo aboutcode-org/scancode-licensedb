@@ -19,5 +19,6 @@
   ],
   "ignorable_urls": [
     "https://cockroachlabs.com/"
-  ]
+  ],
+  "text": "Parameters\nLicensor:             Cockroach Labs, Inc.\nLicensed Work:        CockroachDB 19.2\n                      The Licensed Work is (c) 2019 Cockroach Labs, Inc.\n\nAdditional Use Grant: You may make use of the Licensed Work, provided that\n                      you may not use the Licensed Work for a Database\n                      Service.\n\n                      A \u201cDatabase Service\u201d is a commercial offering that\n                      allows third parties (other than your employees and\n                      contractors) to access the functionality of the\n                      Licensed Work by creating tables whose schemas are\n                      controlled by such third parties.\n\nChange Date:          2022-10-01\n\nChange License:       Apache License, Version 2.0\n\nFor information about alternative licensing arrangements for the Software,\nplease visit: https://cockroachlabs.com/\n\nNotice\n\nThe Business Source License (this document, or the \u201cLicense\u201d) is not an Open\nSource license. However, the Licensed Work will eventually be made available\nunder an Open Source License, as stated in this License."
 }

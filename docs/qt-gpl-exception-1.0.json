@@ -6,5 +6,6 @@
   "owner": "Qt Company",
   "homepage_url": "http://code.qt.io/cgit/qt/qtbase.git/tree/LICENSE.GPL3-EXCEPT",
   "is_exception": true,
-  "spdx_license_key": "Qt-GPL-exception-1.0"
+  "spdx_license_key": "Qt-GPL-exception-1.0",
+  "text": "The Qt Company GPL Exception 1.0\n\nException 1:\n\nAs a special exception you may create a larger work which contains the\noutput of this application and distribute that work under terms of your\nchoice, so long as the work is not otherwise derived from or based on\nthis application and so long as the work does not in itself generate\noutput that contains the output from this application in its original\nor modified form.\n\nException 2:\n\nAs a special exception, you have permission to combine this application\nwith Plugins licensed under the terms of your choice, to produce an\nexecutable, and to copy and distribute the resulting executable under\nthe terms of your choice. However, the executable must be accompanied\nby a prominent notice offering all users of the executable the entire\nsource code to this application, excluding the source code of the\nindependent modules, but including any changes you have made to this\napplication, under the terms of this license."
 }

@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "University of Michigan",
   "spdx_license_key": "LicenseRef-scancode-michigan-disclaimer",
-  "minimum_coverage": 70
+  "minimum_coverage": 70,
+  "text": "Permission is granted to use, copy, create derivative works\nand redistribute this software and such derivative works\nfor any purpose, so long as the name of The University of\nMichigan is not used in any advertising or publicity\npertaining to the use of distribution of this software\nwithout specific, written prior authorization.  If the\nabove copyright notice or any other identification of the\nUniversity of Michigan is included in any copy of any\nportion of this software, then the disclaimer below must\nalso be included.\n\nTHIS SOFTWARE IS PROVIDED AS IS, WITHOUT REPRESENTATION\nFROM THE UNIVERSITY OF MICHIGAN AS TO ITS FITNESS FOR ANY\nPURPOSE, AND WITHOUT WARRANTY BY THE UNIVERSITY OF\nMICHIGAN OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING\nWITHOUT LIMITATION THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE\nREGENTS OF THE UNIVERSITY OF MICHIGAN SHALL NOT BE LIABLE\nFOR ANY DAMAGES, INCLUDING SPECIAL, INDIRECT, INCIDENTAL, OR\nCONSEQUENTIAL DAMAGES, WITH RESPECT TO ANY CLAIM ARISING\nOUT OF OR IN CONNECTION WITH THE USE OF THE SOFTWARE, EVEN\nIF IT HAS BEEN OR IS HEREAFTER ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGES."
 }

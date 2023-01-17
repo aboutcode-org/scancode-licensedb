@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "DRDOS",
   "homepage_url": "http://www.cpm.z80.de/license.html",
-  "spdx_license_key": "LicenseRef-scancode-cpm-2022"
+  "spdx_license_key": "LicenseRef-scancode-cpm-2022",
+  "text": "Let this paragraph represent a right to use, distribute, modify, enhance, and otherwise \nmake available in a nonexclusive manner CP/M and its derivatives. This right comes from \nthe company, DRDOS, Inc.'s purchase of Digital Research, the company and all assets, \ndating back to the mid-1990's. DRDOS, Inc. and I, Bryan Sparks, President of DRDOS, \nInc. as its representative, is the owner of CP/M and the successor in interest of \nDigital Research assets."
 }

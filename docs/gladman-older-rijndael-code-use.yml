@@ -7,3 +7,9 @@ homepage_url: http://ccgi.gladman.plus.com/oldsite/cryptography_technology/rijnd
 spdx_license_key: LicenseRef-scancode-gladman-older-rijndael-code
 other_spdx_license_keys:
   - LicenseRef-scancode-gladman-older-rijndael-code-use
+text: "Code Use\n\nI am happy for this code to be used without payment provided that I don't\
+  \ carry \nany risks as a result.  \n\nI would appreciate an appropriate acknowledgement of\
+  \ the source of the code if \nyou do use it in a product or activity provided to third parties.\
+  \   I would also be \ngrateful for feedback on how the code is being used, any problems you\
+  \ \nencounter, any changes or additions that are desirable for particular processors \nand\
+  \ any more general improvements you would like to see (no promises mind!)."

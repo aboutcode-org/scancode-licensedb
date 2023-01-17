@@ -13,5 +13,6 @@
   "ignorable_urls": [
     "http://www.jasonmayes.com/",
     "http://www.jasonmayes.com/projects/twitterApi/"
-  ]
+  ],
+  "text": "#### Twitter Post Fetcher v10.0 ####\nCoded by Jason Mayes 2013. A present to all the developers out there.\nwww.jasonmayes.com\nPlease keep this disclaimer with my code if you use it. Thanks. :)\nGot feedback or questions, ask here:\nhttp://www.jasonmayes.com/projects/twitterApi/\nUpdates will be posted to this site."
 }

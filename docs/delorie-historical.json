@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "DJ Delorie",
   "notes": "this is a short historical permissive license seen in the newlib C library. This is close to a bsla text.",
-  "spdx_license_key": "LicenseRef-scancode-delorie-historical"
+  "spdx_license_key": "LicenseRef-scancode-delorie-historical",
+  "text": "Redistribution, modification, and use in source and binary forms is permitted\nprovided that the above copyright notice and following paragraph are\nduplicated in all such forms.\n\nThis file is distributed WITHOUT ANY WARRANTY; without even the implied\nwarranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
 }

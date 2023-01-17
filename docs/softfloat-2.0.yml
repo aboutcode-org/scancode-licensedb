@@ -12,3 +12,17 @@ ignorable_authors:
   - John R. Hauser
 ignorable_urls:
   - http://www.jhauser.us/arithmetic/SoftFloat-2b/SoftFloat-source.txt
+text: "SoftFloat Legal Notice\n\nWritten by John R. Hauser.\n\nThis work was made possible in\
+  \ part by the International Computer Science\nInstitute, located at Suite 600, 1947 Center\
+  \ Street, Berkeley, California 94704.\nFunding was partially provided by the National Science\
+  \ Foundation under grant\nMIP-9311980.\n\nThe original version of this code was written as\
+  \ part of a project to build\na fixed-point vector processor in collaboration with the University\
+  \ of\nCalifornia at Berkeley, overseen by Profs. Nelson Morgan and John Wawrzynek.\n\nMore\
+  \ information is available through the Web page \nhttp://www.jhauser.us/arithmetic/SoftFloat-2b/SoftFloat-source.txt\n\
+  \nTHIS SOFTWARE IS DISTRIBUTED AS IS, FOR FREE.  Although reasonable effort\nhas been made\
+  \ to avoid it, THIS SOFTWARE MAY CONTAIN FAULTS THAT WILL AT\nTIMES RESULT IN INCORRECT BEHAVIOR.\
+  \  USE OF THIS SOFTWARE IS RESTRICTED TO\nPERSONS AND ORGANIZATIONS WHO CAN AND WILL TAKE\
+  \ FULL RESPONSIBILITY FOR ANY\nAND ALL LOSSES, COSTS, OR OTHER PROBLEMS ARISING FROM ITS USE.\n\
+  \nDerivative works are acceptable, even for commercial purposes, so long as\n(1) they include\
+  \ prominent notice that the work is derivative, and (2) they\ninclude prominent notice akin\
+  \ to these three paragraphs for those parts of\nthis code that are retained."

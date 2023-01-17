@@ -8,3 +8,9 @@ is_exception: yes
 spdx_license_key: LicenseRef-scancode-ecma-no-patent
 ignorable_urls:
   - http://www.ecma-international.org/memento/codeofconduct.htm
+text: "This Software may be subject to third party rights (rights from parties other than\n\
+  Ecma International), including patent rights, and no licenses under such third\nparty rights\
+  \ are granted under this license even if the third party concerned is\na member of Ecma International.\
+  \ \n\nSEE THE ECMA CODE OF CONDUCT IN PATENT MATTERS\nAVAILABLE AT http://www.ecma-international.org/memento/codeofconduct.htm\
+  \ FOR\nINFORMATION REGARDING THE LICENSING OF PATENT CLAIMS THAT ARE REQUIRED TO\nIMPLEMENT\
+  \ ECMA INTERNATIONAL STANDARDS*."

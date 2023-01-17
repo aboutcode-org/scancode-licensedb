@@ -5,5 +5,6 @@
   "category": "Free Restricted",
   "owner": "Thomas Bandt",
   "homepage_url": "https://github.com/aspnetde/UrlRewritingNet/blob/master/LICENSE",
-  "spdx_license_key": "LicenseRef-scancode-thomas-bandt"
+  "spdx_license_key": "LicenseRef-scancode-thomas-bandt",
+  "text": "This Library is provided as is. No warrenty is expressed or implied.\n\nYou can use these Library in free and commercial projects without a fee.\n\nNo charge should be made for providing these Library to a third party.\n\nIt is allowed to modify the source to fit your special needs. If you \nmade improvements you should make it public available by sending us \nyour modifications or publish it on your site. If you publish it on \nyour own site you have to notify us. This is not a commitment that we \ninclude your modifications. \n\nThis Copyright notice must be included in the modified source code.\n\nYou are not allowed to build a commercial rewrite engine based on \nthis code."
 }

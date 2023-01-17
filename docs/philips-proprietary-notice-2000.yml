@@ -6,3 +6,9 @@ owner: Philips Electronics
 spdx_license_key: LicenseRef-scancode-philips-proprietary-notice2000
 other_spdx_license_keys:
   - LicenseRef-scancode-philips-proprietary-notice-2000
+text: "This source code and any compilation or derivative thereof is the sole       \nproperty\
+  \ of Philips Corporation and is provided pursuant to a Software       \nLicense Agreement.\
+  \  This code is the proprietary information of              \nPhilips Corporation and is confidential\
+  \ in nature.  Its use and              \ndissemination by any party other than Philips Corporation\
+  \ is strictly        \nlimited by the confidential information provisions of the Agreement\
+  \          \nreferenced above."

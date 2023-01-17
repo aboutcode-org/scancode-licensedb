@@ -9,5 +9,6 @@
   "other_spdx_license_keys": [
     "LicenseRef-KDE-Accepted-LGPL"
   ],
-  "faq_url": "https://community.kde.org/Policies/Licensing_Policy"
+  "faq_url": "https://community.kde.org/Policies/Licensing_Policy",
+  "text": "This library is free software; you can redistribute it and/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 3 of the license or (at your option) any later version\nthat is accepted by the membership of KDE e.V. (or its successor\napproved by the membership of KDE e.V.), which shall act as a\nproxy as defined in Section 6 of version 3 of the license.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\nGNU General Public License for more details."
 }

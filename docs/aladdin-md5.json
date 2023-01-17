@@ -5,5 +5,6 @@
   "name": "Aladdin MD5 License",
   "category": "Permissive",
   "owner": "Aladdin Enterprises",
-  "notes": "This license is exactly the same as the zlib license."
+  "notes": "This license is exactly the same as the zlib license.",
+  "text": "This software is provided 'as-is', without any express or implied warranty. In\nno event will the authors be held liable for any damages arising from the use of\nthis software.\n\nPermission is granted to anyone to use this software for any purpose, including\ncommercial applications, and to alter it and redistribute it freely, subject to\nthe following restrictions:\n\n1. The origin of this software must not be misrepresented; you must not claim\n   that you wrote the original software. If you use this software in a product,\n   an acknowledgment in the product documentation would be appreciated but is\n   not required.\n\n2. Altered source versions must be plainly marked as such, and must not be\n   misrepresented as being the original software.\n\n3. This notice may not be removed or altered from any source distribution.\n\nL. Peter Deutsch ghost@aladdin.com"
 }

@@ -4,5 +4,6 @@
   "name": "Carnegie Mellon License",
   "category": "Permissive",
   "owner": "Carnegie Mellon University",
-  "spdx_license_key": "LicenseRef-scancode-carnegie-mellon"
+  "spdx_license_key": "LicenseRef-scancode-carnegie-mellon",
+  "text": "Permission to use, copy, modify, and distribute this program for any purpose and\nwithout fee is hereby granted, provided that this copyright and permission\nnotice appear on all copies and supporting documentation, the name of Carnegie\nMellon not be used in advertising or publicity pertaining to distribution of the\nprogram without specific prior permission, and notice be given in supporting\ndocumentation that copying and distribution is by permission of Carnegie Mellon\nand Stanford University. Carnegie Mellon makes no representations about the\nsuitability of this software for any purpose. It is provided \"as is\" without\nexpress or implied warranty."
 }

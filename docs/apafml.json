@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Adobe Systems",
   "homepage_url": "https://fedoraproject.org/wiki/Licensing/AdobePostscriptAFM",
-  "spdx_license_key": "APAFML"
+  "spdx_license_key": "APAFML",
+  "text": "This file and the 14 PostScript(R) AFM files it accompanies may be used, copied,\nand distributed for any purpose and without charge, with or without\nmodification, provided that all copyright notices are retained; that the AFM\nfiles are not distributed without this file; that all modifications to this file\nor any of the AFM files are prominently noted in the modified file(s); and that\nthis paragraph is not modified. Adobe Systems has no responsibility or\nobligation to support the use of the AFM files."
 }

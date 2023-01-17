@@ -11,5 +11,6 @@
     "http://www.gnu.org/licenses/gpl-2.0.txt",
     "http://www.gnu.org/software/classpathx/javamail/javamail.html"
   ],
-  "standard_notice": "As a special exception, if you link this library with other files to\nproduce an executable, this library does not by itself cause the resulting\nexecutable to be covered by the GNU General Public License. This exception\ndoes not however invalidate any other reasons why the executable file might\nbe covered by the GNU General Public License.\n"
+  "standard_notice": "As a special exception, if you link this library with other files to\nproduce an executable, this library does not by itself cause the resulting\nexecutable to be covered by the GNU General Public License. This exception\ndoes not however invalidate any other reasons why the executable file might\nbe covered by the GNU General Public License.\n",
+  "text": "As a special exception, if you link this library with other files to produce an\nexecutable, this library does not by itself cause the resulting executable to be\ncovered by the GNU General Public License. This exception does not however\ninvalidate any other reasons why the executable file might be covered by the\n GNU General Public License."
 }

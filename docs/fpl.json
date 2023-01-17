@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-fpl",
   "text_urls": [
     "https://github.com/abahdanovich/sha1/blob/master/c/license.txt"
-  ]
+  ],
+  "text": "Freeware Public License (FPL)\n\nThis software is licensed as \"freeware.\"  Permission to distribute\nthis software in source and binary forms, including incorporation \ninto other products, is hereby granted without a fee.  THIS SOFTWARE \nIS PROVIDED 'AS IS' AND WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES, \nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY \nAND FITNESS FOR A PARTICULAR PURPOSE.  THE AUTHOR SHALL NOT BE HELD \nLIABLE FOR ANY DAMAGES RESULTING FROM THE USE OF THIS SOFTWARE, EITHER \nDIRECTLY OR INDIRECTLY, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA \nOR DATA BEING RENDERED INACCURATE."
 }

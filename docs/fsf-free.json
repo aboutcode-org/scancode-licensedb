@@ -8,5 +8,6 @@
   "spdx_license_key": "FSFUL",
   "text_urls": [
     "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
-  ]
+  ],
+  "text": "This configure script is free software; the Free Software Foundation gives\nunlimited permission to copy, distribute and modify it."
 }

@@ -7,3 +7,9 @@ homepage_url: http://geomalgorithms.com/a05-_intersect-1.html#Intersection%20of%
 spdx_license_key: LicenseRef-scancode-softsurfer
 other_urls:
   - http://geomalgorithms.com/index.html
+text: |
+  This code may be freely used and modified for any purpose
+  providing that this copyright notice is included with it.
+  Copyright holder makes no warranty for this code, and cannot be held
+  liable for any real or imagined damage resulting from its use.
+  Users of this code must verify correctness for their application.

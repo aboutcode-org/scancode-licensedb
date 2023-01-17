@@ -4,5 +4,6 @@
   "name": "RSA Data Security MD2",
   "category": "Free Restricted",
   "owner": "RSA (the Security Division of EMC)",
-  "spdx_license_key": "LicenseRef-scancode-rsa-md2"
+  "spdx_license_key": "LicenseRef-scancode-rsa-md2",
+  "text": "License to copy and use this software is granted for non-commercial Internet Privacy-Enhanced Mail provided that it is identified as the \"RSA Data Security, Inc. MD2 Message Digest Algorithm\" in all material mentioning or referencing this software or this function.\n\nRSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided \"as is\" without express or implied warranty of any kind.\n\nThese notices must be retained in any copies of any part of this documentation and/or software."
 }

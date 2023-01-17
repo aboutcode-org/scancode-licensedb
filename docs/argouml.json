@@ -13,5 +13,6 @@
   ],
   "ignorable_holders": [
     "The Regents of the University of California"
-  ]
+  ],
+  "text": "Permission to use, copy, modify, and distribute this software and its\ndocumentation without fee, and without a written agreement is hereby\ngranted, provided that the above copyright notice and this paragraph\nappear in all copies.\n\nThis software program and documentation are copyrighted by The Regents\nof the University of California.\n\nThe software program and documentation are supplied \"AS IS\", without any\naccompanying services from The Regents. The Regents does not warrant\nthat the operation of the program will be uninterrupted or error-free.\n\nThe end-user understands that the program was developed for research\npurposes and is advised not to rely exclusively on the program for any\nreason.\n\nIN NO EVENT SHALL THE UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY\nFOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,\nINCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS\nDOCUMENTATION, EVEN IF THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF\nTHE POSSIBILITY OF SUCH DAMAGE. THE UNIVERSITY OF CALIFORNIA\nSPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,\nTHE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\nPURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND THE\nUNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE,\nSUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS."
 }

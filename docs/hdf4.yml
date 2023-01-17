@@ -53,3 +53,22 @@ standard_notice: |
   ---------------------------------------------------------------------------
 ignorable_authors:
   - The HDF Group
+text: "Redistribution and use in source and binary forms, with or without \nmodification, are\
+  \ permitted for any purpose (including commercial purposes) \nprovided that the following\
+  \ conditions are met:\n\n1. Redistributions of source code must retain the above copyright\
+  \ notice, \n   this list of conditions, and the following disclaimer.\n\n2. Redistributions\
+  \ in binary form must reproduce the above copyright notice, \n   this list of conditions,\
+  \ and the following disclaimer in the documentation \n   and/or materials provided with the\
+  \ distribution.\n\n3. In addition, redistributions of modified forms of the source or binary\
+  \ \n   code must carry prominent notices stating that the original code was \n   changed and\
+  \ the date of the change.\n\n4. All publications or advertising materials mentioning features\
+  \ or use of \n   this software are asked, but not required, to acknowledge that it was \n\
+  \   developed by The HDF Group and by the National Center for Supercomputing \n   Applications\
+  \ at the University of Illinois at Urbana-Champaign and \n   credit the contributors.\n\n\
+  5. Neither the name of The HDF Group, the name of the University, nor the \n   name of any\
+  \ Contributor may be used to endorse or promote products derived \n   from this software without\
+  \ specific prior written permission from The HDF\n   Group, the University, or the Contributor,\
+  \ respectively.\n\nDISCLAIMER:\nTHIS SOFTWARE IS PROVIDED BY THE HDF GROUP AND THE CONTRIBUTORS\
+  \ \"AS IS\" \nWITH NO WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED.  In no event \nshall\
+  \ The HDF Group or the Contributors be liable for any damages suffered \nby the users arising\
+  \ out of the use of this software, even if advised of \nthe possibility of such damage."

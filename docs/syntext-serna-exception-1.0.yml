@@ -103,3 +103,35 @@ standard_notice: |
   file
   GPL_Exception_Addendum.txt in your source package).
   ------------------------------------------------------------------
+text: "Syntext, Inc. GPL License Exception for Syntext Serna Free Edition \n\nVersion 1.0\n\n\
+  Additional rights granted beyond the GPL (the \"Exception\").\n\nAs a special exception to\
+  \ the terms and conditions of GPL version 2.0 \nor GPL version 3.0, Syntext, Inc. hereby grants\
+  \ you the rights described below,\nprovided you agree to the terms and conditions in this\
+  \ Exception, including its\nobligations and restrictions on use.    \n\nNothing in this Exception\
+  \ gives you or anyone else the right to change the\nlicensing terms of the Syntext Serna Free\
+  \ Editon.\n\n1) Definitions\n\n\"FOSS Application\" means a free and open source software\
+  \ application \ndistributed subject to a license listed in the section below titled \n\"FOSS\
+  \ License List.\"\n\n\"Licensed Software\" shall refer to the software licensed under the\
+  \ GPL \n version 2.0 or GPL version 3.0 and this exception.\n\n\"Derivative Work\" means a\
+  \ derivative work, as defined under applicable\ncopyright law, formed entirely from the Licensed\
+  \ Software and one or more FOSS\nApplications.\n\n\"Independent Work\" means portions of the\
+  \ Derivative Work that are not derived \nfrom the Licensed Software and can reasonably be\
+  \ considered independent and\nseparate works.\n\n2) The right to use open source licenses\
+  \ not compatible with the GNU General\nPublic License version 2.0 or GNU General Public License\
+  \ version 3.0: You may\ndistribute Derivative Work in object code or executable form, provided\
+  \ that:\n\nA) You distribute Independent Works subject to a license listed in the \nsection\
+  \ 4 below, titled \"FOSS License List\";\n\nand\n\nB) You obey the GPL in all respects for\
+  \ the Licensed Software and all portions \n(including modifications and extensions) of the\
+  \ Licensed Software included in\nthe Derivative Work (provided that this condition does not\
+  \ apply to \nIndependent Works);\n\nC) You must, on request, make a complete package including\
+  \ the complete source\ncode of Derivative Work (as defined in the GNU General Public License\
+  \ \nversion 2, section 3, but excluding anything excluded by the special exception \nin the\
+  \ same section) available to Syntext, Inc. under the same license as that\ngranted to other\
+  \ recipients of the source code of Derivative Work;\n\nand\n\nD) Your or any other contributor's\
+  \ rights to:\n\ni) distribute the source code of Derivative Work to anyone for any purpose;\n\
+  \nand\n\nii) publicly discuss the development project for Derivative Work and its goals\n\
+  in any form and in any forum are not prohibited by any legal instrument, \nincluding but not\
+  \ limited to contracts, non-disclosure agreements, and \nemployee contracts.\n\n3) Syntext,\
+  \ Inc. reserves all rights not expressly granted in these terms and \nconditions. If all of\
+  \ the above conditions are not met, then this FOSS License\nException does not apply to you\
+  \ or your Derivative Work."

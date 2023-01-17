@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "CodeSourcery",
   "homepage_url": "https://git.linaro.org/toolchain/newlib.git/tree/newlib/libc/misc/init.c",
-  "spdx_license_key": "LicenseRef-scancode-codesourcery-2004"
+  "spdx_license_key": "LicenseRef-scancode-codesourcery-2004",
+  "text": "Permission to use, copy, modify, and distribute this file\nfor any purpose is hereby granted without fee, provided that\nthe above copyright notice and this notice appears in all\ncopies.\n\nThis file is distributed WITHOUT ANY WARRANTY; without even the implied\nwarranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
 }

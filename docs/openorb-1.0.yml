@@ -16,3 +16,28 @@ ignorable_authors:
 ignorable_urls:
   - http://sourceforge.net/projects/openorb
   - http://sourceforge.net/projects/openorb/
+text: "================================================================================\nThe\
+  \ OpenORB Community Software License, Version 1.0\n================================================================================\n\
+  \n Copyright (C) 2002 The OpenORB Project. All rights reserved.\n\n Redistribution and use\
+  \ in source and binary forms, with or without modifica-\n tion, are permitted provided that\
+  \ the following conditions are met:\n \n 1. Redistributions of  source code must  retain the\
+  \ above copyright  notice,\n    this list of conditions and the following disclaimer.\n \n\
+  \ 2. Redistributions in binary form must reproduce the above copyright notice,\n    this list\
+  \ of conditions and the following disclaimer in the documentation\n    and/or other materials\
+  \ provided with the distribution.\n \n 3. The end-user documentation included with the redistribution,\
+  \ if any, must\n    include  the following  acknowledgment:  \"This product includes  software\n\
+  \    developed  by the OpenORB Community Project \n    (http://sourceforge.net/projects/openorb/).\"\
+  \ together with the due credit \n    statements listed below.\n    Alternately, this  acknowledgment\
+  \ and due credits may appear in the soft-\n    ware  itself, if and wherever such  third-party\
+  \  acknowledgments normally \n    appear.\n   \n THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY\
+  \ EXPRESSED OR IMPLIED WARRANTIES,\n INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\
+  \ OF MERCHANTABILITY AND\n FITNESS  FOR A PARTICULAR  PURPOSE ARE  DISCLAIMED.  IN NO  EVENT\
+  \ SHALL  THE\n MEMBERS OF THE OPENORB COMMUNITY PROJECT  OR ITS CONTRIBUTORS  BE LIABLE FOR\
+  \  \n ANY  DIRECT,  INDIRECT,  INCIDENTAL,  SPECIAL,  EXEMPLARY,  OR CONSEQUENTIAL  \n DAMAGES\
+  \ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT  OF  SUBSTITUTE GOODS OR \n SERVICES; LOSS OF\
+  \ USE, DATA, OR  PROFITS; OR BUSINESS  INTERRUPTION) HOWEVER \n CAUSED AND ON ANY THEORY OF\
+  \ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,  \n OR TORT (INCLUDING  NEGLIGENCE OR\
+  \  OTHERWISE) ARISING IN  ANY WAY OUT OF THE  \n USE OF THIS SOFTWARE, EVEN IF ADVISED OF\
+  \ THE POSSIBILITY OF SUCH DAMAGE.\n \n This software consists of voluntary contributions made\
+  \ by many individuals to \n the OpenORB Community Project. For more information on the OpenORB\
+  \  Community  \n Project, please refer to <http://sourceforge.net/projects/openorb/>."

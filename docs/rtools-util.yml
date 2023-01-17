@@ -6,3 +6,10 @@ owner: Ryan Seghers
 spdx_license_key: LicenseRef-scancode-rtools-util
 other_urls:
   - http://www.codeproject.com/Articles/3143/RTools-Util-C-Library
+text: "This software is provided AS IS. No warranty is granted, \nneither expressed nor implied.\
+  \ USE THIS SOFTWARE AT YOUR OWN RISK.\nNO REPRESENTATION OF MERCHANTABILITY or FITNESS FOR\
+  \ ANY \nPURPOSE is given.\n\nLicense to use this software is limited by the following terms:\n\
+  \n1) This code may be used in any program, including programs developed\n   for commercial\
+  \ purposes, provided that this notice is included verbatim.\n\nAlso, in return for using this\
+  \ code, please attempt to make your fixes and\nupdates available in some way, such as by sending\
+  \ your updates to the\nauthor."

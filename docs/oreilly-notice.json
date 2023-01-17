@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-oreilly-notice",
   "ignorable_emails": [
     "permissions@oreilly.com"
-  ]
+  ],
+  "text": "Our books are here to help you get your job done. In general, you may use the\ncode in our books in your programs and documentation. You do not need to contact\nus for permission unless you're reproducing a significant portion of the code.\nFor example, writing a program that uses several chunks of code from our books\ndoes not require permission. Answering a question by citing our books and\nquoting example code does not require permission. On the other hand, selling or\ndistributing a CD-ROM of examples from O'Reilly books does require permission.\nIncorporating a significant amount of example code from our books into your\nproduct's documentation does require permission.\n\nWe appreciate, but do not require, attribution. An attribution usually includes\nthe title, author, publisher, and ISBN.\n\nIf you think your use of code examples falls outside fair use or the permission\ngiven here, feel free to contact us at permissions@oreilly.com."
 }

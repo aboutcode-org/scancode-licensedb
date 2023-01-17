@@ -35,3 +35,9 @@ standard_notice: |
   farcolorW.pas, farkeysW.pas and pluginW.pas; can be distributed under any
   other
   possible license with no implications from the above license on them.
+text: |
+  EXCEPTION:
+  Far Manager plugins that use only the following header files from this
+  distribution (none or any): farcolor.hpp, farkeys.hpp, plugin.hpp,
+  farcolorW.pas, farkeysW.pas and pluginW.pas; can be distributed under any other
+  possible license with no implications from the above license on them.

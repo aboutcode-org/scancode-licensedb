@@ -12,5 +12,6 @@
     "http://www.fsf.org/licensing/licenses/ecos-license.html",
     "http://www.gnu.org/licenses/ecos-license.html"
   ],
-  "faq_url": "http://ecos.sourceware.org/license-overview.html"
+  "faq_url": "http://ecos.sourceware.org/license-overview.html",
+  "text": "As a special exception, if other files instantiate templates or use macros\nor inline functions from this file, or you compile this file and link it\nwith other works to produce a work based on this file, this file does not\nby itself cause the resulting work to be covered by the GNU General Public\nLicense. However the source code for this file must still be made available\nin accordance with section (3) of the GNU General Public License.\n\nThis exception does not invalidate any other reasons why a work based on\nthis file might be covered by the GNU General Public License."
 }

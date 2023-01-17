@@ -9,5 +9,6 @@
   "is_exception": true,
   "other_urls": [
     "https://swift.org/"
-  ]
+  ],
+  "text": "## Runtime Library Exception to the Apache 2.0 License: ##\n\n    As an exception, if you use this Software to compile your source code and\n    portions of this Software are embedded into the binary product as a result,\n    you may redistribute such product without providing attribution as would\n    otherwise be required by Sections 4(a), 4(b) and 4(d) of the License."
 }

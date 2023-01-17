@@ -6,5 +6,6 @@
   "owner": "nexB",
   "notes": "this is a catch all and ellipsis to deal with some cases when a large\nnumber of ancillary yet similar licenses may be reported as one.\n",
   "is_generic": true,
-  "spdx_license_key": "LicenseRef-scancode-other-copyleft"
+  "spdx_license_key": "LicenseRef-scancode-other-copyleft",
+  "text": "This component contains third-party subcomponents licensed under\none or more copyleft licenses in the style of GPL, LGPL, MPL or EPL.\nThe license obligations of these subcomponents may apply when a subcomponent\ndepending on how the subcomponent is used and/or redistributed."
 }

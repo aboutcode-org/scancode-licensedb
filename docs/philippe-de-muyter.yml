@@ -5,3 +5,7 @@ category: Permissive
 owner: Unspecified
 spdx_license_key: LicenseRef-scancode-philippe-de-muyter
 minimum_coverage: 50
+text: |
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+  FITNESS FOR A PARTICULAR PURPOSE.

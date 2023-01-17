@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "LANL",
   "homepage_url": "http://www.lanl.gov/index.php",
-  "spdx_license_key": "LicenseRef-scancode-linuxbios"
+  "spdx_license_key": "LicenseRef-scancode-linuxbios",
+  "text": "This software and ancillary information (herein called SOFTWARE)\ncalled LinuxBIOS is made available under the terms described here.\n\nThe SOFTWARE has been approved for release with associated\nLA-CC Number 00-34. Unless otherwise indicated, this SOFTWARE has\nbeen authored by an employee or employees of the University of\nCalifornia, operator of the Los Alamos National Laboratory under\nContract No. W-7405-ENG-36 with the U.S. Department of Energy.\n\nThe U.S. Government has rights to use, reproduce, and distribute this\nSOFTWARE. The public may copy, distribute, prepare derivative works\nand publicly display this SOFTWARE without charge, provided that this\nNotice and any statement of authorship are reproduced on all copies.\n\nNeither the Government nor the University makes any warranty, express\nor implied, or assumes any liability or responsibility for the use of\nthis SOFTWARE.  If SOFTWARE is modified to produce derivative works,\nsuch modified SOFTWARE should be clearly marked, so as not to confuse\nit with the version available from LANL."
 }

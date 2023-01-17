@@ -10,5 +10,6 @@
   "spdx_license_key": "LicenseRef-scancode-mysql-linking-exception-2018",
   "other_urls": [
     "https://github.com/mysql/mysql-server/commit/c019b26f951a6ace68629c731933c2dfaae2239c"
-  ]
+  ],
+  "text": " This program is also distributed with certain software (including\n but not limited to OpenSSL) that is licensed under separate terms,\n as designated in a particular file or component or in included license\n documentation.  The authors of MySQL hereby grant you an additional\n permission to link the program and your derivative works with the\n separately licensed software that they have included with MySQL."
 }

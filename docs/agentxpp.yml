@@ -7,3 +7,187 @@ homepage_url: https://agentpp.com/licenses/LICENSE_AgentX++.txt
 spdx_license_key: LicenseRef-scancode-agentxpp
 ignorable_urls:
   - http://www.agentpp.com/
+text: "AGENTX++ LICENSE AGREEMENT \n==========================\n\nTHIS LICENSE AGREEMENT (this\
+  \ \"Agreement\") is  made effective as of the date  the\nproduct is  installed by  and between\
+  \  (i) Frank  Fock, the  author of  AgentX++\n(\"LICENSOR\") and the party executing this\
+  \ Agreement as Licensee (\"LICENSEE\").\n\n\n1. DEFINITIONS.\n\n1.1 The term  \"Software Product\"\
+  \ means  Frank Fock's AgentX++  computer software\n(including Source  Code, derived  Object\
+  \ Code,  and derived  Executable Code  as\ndefined in Section 1.3, 1.4, and 1.5) and documentation\
+  \ thereof, as specified in\nExhibit A,  that is  provided by  LICENSOR to  LICENSEE hereunder,\
+  \ including bug\nfixes and updates  thereto provided by  LICENSOR to LICENSEE  in connection\
+  \ with\nthis Agreement. The term \"derived\" in the above context refers to the process of\n\
+  creating machine executable  code from  the original Source Code only.  It  does\nnot refer\
+  \  to amendment or alteration  of the original  Source Code by  LICENSOR\nor any  third party.\n\
+  \n1.2  The  term \"Intellectual  Property  Rights\" means  patent  rights, copyright\nrights,\
+  \ trade secret rights, and any other intellectual property rights.\n\n1.3 The  term \"Executable\
+  \  Code\" is  a fully  compiled and  linked program  that\ncontains any code derived from\
+  \ the Software Product. It can no longer be altered\nor combined with any  other code. Executable\
+  \ code  is ready to be  executed by a\ncomputer and  is essentially  a complete  software\
+  \ image  for use  in a specific\nproduct. \n\n1.4 The term \"Object Code\" is any compiled\
+  \ version of the Software Product  that\ncan be linked and therefore combined with other code\
+  \ to create Executable  Code.\nExamples  of  Object  Code  are  libraries  and  software \
+  \ development  kits, in\nparticular SNMP agent development kits. \n\n1.5 The term \"Source\
+  \ Code\" is  the human readable form of the  Software Product,\nas specified in Exhibit A.\n\
+  \n1.6  Documentation  means  the  documentation  regarding  the  Licensed Software\nprovided\
+  \ by LICENSOR to LICENSEE hereunder.\n\n1.7 The term \"Site\"  is a specific address  belonging\
+  \ to a single  business unit\noperating at that address.\n\n\n2. GRANT OF LICENSE.\n\n2.1\
+  \ Source  Code Site  License.  Subject  to the  terms and  conditions of  this\nAgreement,\
+  \ and upon payment by LICENSEE to LICENSOR of the one-time license  fee\nset  forth in  Addendum\
+  \ A,  LICENSOR grants  LICENSEE a  perpetual (subject   to\ntermination rights  in Section\
+  \  6), non-exclusive,  non-transferable license  to\nreproduce, use,   modify,  or   have\
+  \  modified   by a   third  party  contractor\n(modifications  in  accordance to  Section\
+  \  2.6) subject   to  a confidentiality\nagreement  no   less restrictive  than   this Agreement,\
+  \  the   Source Code  for\ninternal  use  only, for   the sole  purpose  of  developing AgentX-enabled\
+  \ SNMP\nagents at  the Site  (hereafter \"Licensed  Site\") specified  by LICENSEE  during\n\
+  license purchase. Additionally,  Customer’s contractors and  employees reporting\ndirectly\
+  \ and only to a manager at the Licensed Site, such as telecommuters,  may\nuse the Software\
+  \ Product at  remote locations. Off-site employees re-porting  in\nany way to a manager at\
+  \ their location are not covered under this Site License.  \n\n2.2 Except as  specified in\
+  \ 2.1,  neither the Software  Product Source Code  nor\nObject Code derived  from the Software\
+  \  Product may be  redistributed or resold.\nExecutable Code programs derived from the Software\
+  \ Product may be  redistributed\nand  resold  without limitation  and   without royalty, \
+  \ provided  that LICENSEE\nadded  significant functionality  to those  derived Excecutable\
+  \  Code programs.\nFunctionality in this context refers to the program's behavior, not appearance.\n\
+  \n2.3  No Sublicense  Right.  LICENSEE  has no  right to  transfer, or  sublicense\nthe Licensed\
+  \ Software  to  any third   party, except  as  specified in 2.2   and\nexcept if the third\
+  \  party takes over  the business  of LICENSEE. \n\n2.4  Other Restrictions  in License  Grants.\
+  \  LICENSEE  may not:  (i) copy   the\nLicensed  Software,  except  as  necessary  to  use\
+  \  the  Licensed  Software  in\naccordance   with   the  license   granted  under  Section\
+  \   2.1  and 2.2,   and\nexcept for  a reasonable number of backup copies.\n\n2.5 No Trademark\
+  \ License. LICENSEE has no right or license to use any  trademark\nof LICENSOR during or after\
+  \ the term of this Agreement.\n\n2.6 Proprietary Notices.  The Licensed Software is copyrighted.\
+  \  All proprietary\nnotices  incorporated in,  marked on,  or affixed  to the  Licensed Software\
+  \  by\nLICENSOR shall be duplicated by LICENSEE on all copies, in whole or in part,  in\n\
+  any form of the Licensed Software and not be altered, removed, or obliterated on\nsuch copies.\n\
+  \n2.7  Reservation.  LICENSOR reserve  all  rights and  licenses  to the  Licensed\nSoftware\
+  \ not expressly granted to LICENSEE under this Agreement.\n\n2.8 Delivery.  Upon execution\
+  \ of this Agreement, and payment of the amounts  due\nand owing under this Agreement, LICENSOR\
+  \ will provide LICENSEE with one (1) copy\nof the Software Product by downloading from LICENSOR's\
+  \ Web site.\n\n\n\n3. PRODUCT WARRANTY.\n\n3.1. LICENSOR warrants to LICENSEE that, at the\
+  \ date of delivery of the Software\nProduct to LICENSEE  and for  a  period ending 90   days\
+  \ following the  date  of\ndelivery of the Software Product to LICENSEE the Software Product\
+  \ shall  perform\nsubstantially   in    accordance   with   the   published   specifications\
+  \   and\nDocumentation.   If  notified in  writing   by LICENSEE,  LICENSOR  may, at  its\n\
+  option, correct  significant program  errors in  the Software  Product within  a\nreasonable\
+  \ time period.  THE FOREGOING PRODUCT WARRANTY IS  IN LIEU OF ALL OTHER\nWARRANTIES,  EXPRESS\
+  \ OR  IMPLIED, INCLUDING,  BUT NOT  LIMITED TO,  THE  IMPLIED\nWARRANTIES OF  MERCHANTABILITY\
+  \ AND  FITNESS FOR  A PARTICULAR   PURPOSE, WHETHER\nIMPOSED   BY  CONTRACT,   STATUTE,  COURSE\
+  \  OF  DEALING,   CUSTOM  OR   USAGE OR\nOTHERWISE.\n\n3.2.  In  no  event  shall  LICENSOR\
+  \  be liable   to LICENSEE, in excess  of the\nprice  paid to LICENSOR by LICENSEE for  the\
+  \ Software Product hereunder, for any\nbreach of warranty or any claim, loss or damage arising\
+  \  from or relating to the\ninstallation, use or  performance of the  Software Product  (including,\
+  \  without\nlimitation, any indirect, special, incidental or consequential damages).\n\n3.3.\
+  \ LICENSOR reserves  the right at  any time to  make changes to  the Software\nProduct.\n\n\
+  3.4.  IN  NO  EVENT  SHALL LICENSOR  BE  LIABLE  (WHETHER  IN TORT,  NEGLIGENCE,\nCONTRACT,\
+  \  WARRANTY,   PRODUCT  LIABILITY   OR  OTHERWISE)   FOR  ANY  INDIRECT,\nINCIDENTAL,  SPECIAL\
+  \ OR  CONSEQUENTIAL DAMAGES  OR LOSS  OF PROFITS  OR  SAVINGS\nARISING OUT OF ITS PERFORMANCE\
+  \ OR  NONPERFORMANCE OF TERMS OF THIS AGREEMENT  OR\nTHE USE,  INABILITY TO  USE OR  RESULTS\
+  \ OF  USE OF  THE SOFTWARE PRODUCT EVEN IF\nLICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF\
+  \ SUCH DAMAGES.\n\n3.5 In no event will LICENSOR be liable for any third-party products used\
+  \  with,\nor  installed  in,   the  Software Product.   LICENSOR   does  not  warrant  the\n\
+  compatibility of  the Software  Product with  any third-party  products, whether\nhardware\
+  \ or software.\n\n3.6 The above sections  do not apply for  liability for damages caused \
+  \ by gross\nnegligence or wilful default.\n\n3.7 General Provision. This warranty shall not\
+  \ apply in any case of amendment or\nalterations of the Software Product made by LICENSEE.\
+  \  \n\n\n\n4. INTELLECTUAL AND PROPERTY INDEMNIFICATION.\n\n4.1. LICENSOR  agrees to  indemnify\
+  \ and  hold LICENSEE  harmless from  any final\naward of costs and damages against LICENSEE\
+  \ for any action based on infringement\nof  any German  intellectual property  rights as \
+  \ a result  of  the  use of  the\nLicensed Software:  (i) under the  terms and  conditions\
+  \ specified  herein; (ii)\nunder normal   use; and  (iii) not  in  combination  with other\
+  \  items; provided\nthat  LICENSOR is  promptly notified in   writing of  any  such  suit\
+  \ or   claim\nagainst   LICENSEE  and   further provided  that  LICENSEE  permits LICENSOR\
+  \  to\ndefend,  compromise or  settle the  same and   gives  LICENSOR   all   available\n\
+  information,  reasonable  assistance    and authority to  enable LICENSOR to  do\nso. LICENSOR'S\
+  \ LIABILITY TO LICENSEE PURSUANT TO THIS ARTICLE IS LIMITED TO  THE\nTOTAL FEES PAID BY LICENSEE\
+  \ TO LICENSOR IN THE CALENDAR YEAR IN WHICH ANY  FINAL\nAWARD OF COSTS AND DAMAGES IS DUE\
+  \ AND OWING.\n\n\n5. TRADE SECRETS AND PROPRIETARY INFORMATION.\n\n5.1. LICENSEE acknowledges\
+  \ that LICENSOR  is the owner of the  Software Product,\nthat  the  Software Product  is confidential\
+  \  in nature  and not  in the  public\ndomain, that  LICENSOR claims all intellectual  and\
+  \ industrial property   rights\ngranted by  law therein and that, except as set forth herein,\
+  \ LICENSOR does  not\nhereby grant any  rights or ownership  of the  Software Product to \
+  \ LICENSEE  or\nany third  party.  Except  as set forth herein,  LICENSEE agrees not to  copy\
+  \ or\notherwise  reproduce  the  Software  Product,  in  whole  or  in   part, without\nLICENSOR's\
+  \   prior  written  consent.    LICENSEE  further  agrees  to  take all\nreasonable steps\
+  \ to ensure that no unauthorized persons shall have access to the\nSoftware Product and that\
+  \ all authorized persons having access to  the  Software\nProduct   shall   refrain   from\
+  \    any   such   disclosure,   duplication    or\nreproduction except  to the  extent reasonably\
+  \  required in  the performance  of\nLICENSEE'S rights under this Agreement.\n\n5.2. LICENSEE\
+  \ agrees  to accord the  Software Product and  the Documentation and\nall  other confidential\
+  \ information relating  to this Agreement the same  degree\nand  methods of  protection  as\
+  \  LICENSEE   undertakes  with  respect  to    its\nconfidential information, trade secrets\
+  \ and other proprietary data.\n\n5.3. LICENSEE agrees not to challenge, directly or indirectly,\
+  \ the right,  title\nand   interest  of   LICENSOR  in   and  to   the  Software  Product,\
+  \  nor   the\nvalidity  or enforceability of LICENSOR's rights under applicable law.  LICENSEE\n\
+  agrees  not to  directly  or  indirectly, register,  apply  for  registration or\nattempt\
+  \  to   acquire any  legal  protection for  the  Software Product  or  any\nproprietary rights\
+  \   therein or  to take  any other  action  which may adversely\naffect LICENSOR's right,\
+  \  title or interest in or to the Software Product in any\njurisdiction.\n\n5.4. LICENSEE\
+  \ acknowledges  that, in the  event of a material breach by LICENSEE\nof  its  obligations\
+  \   under   this   Article  5,   LICENSOR   may   immediately\nterminate  this Agreement,\
+  \  without  liability to   LICENSEE and  may  bring  an\nappropriate   legal action  to enjoin\
+  \  any such  breach  hereof,  and  shall  be\nentitled  to   recover from  LICENSEE   reasonable\
+  \  legal  fees   and  costs  in\naddition  to other  appropriate relief.\n\n5.5.  LICENSEE\
+  \ agrees  to notify  LICENSOR immediately  and in  writing of   all\ncircumstances surrounding\
+  \  the unauthorized  possession or  use of  the Software\nProduct and Documentation by any\
+  \ person or entity.  LICENSEE agrees to cooperate\nfully  with LICENSOR  in  any  litigation\
+  \  relating to  or  arising  from   such\nunauthorized possession or use.\n\n\n6. TERMINATION.\
+  \  \n\n6.1. LICENSOR may terminate this Agreement  at any time after the occurrence  of\n\
+  any of the following events if LICENSOR provides 30 days notice of its intention\nto terminate\
+  \  as a  result of  the occurrence  and LICENSEE  fails to  cure such\noccurrence within such\
+  \ 30 days:\n\n(a)  LICENSEE is  declared or  acknowledges that  it is  insolvent or  otherwise\n\
+  unable to pay its debts as they become due or upon the filing of any  proceeding\n(whether\
+  \ voluntary  or involuntary)  for bankruptcy,  insolvency or  relief from\ncreditors of LICENSEE;\
+  \  \n\n(b)  LICENSEE  assigns or  transfers  this Agreement  or  any of  its  rights to\n\
+  obligations hereunder, without LICENSOR's  prior written consent;  or \n\n(c) LICENSEE  violates\
+  \  any  material provision   of this  Agreement,  including\nwithout limitation,  the payment\
+  \ obligations set forth in Addendum A.\n\n6.2. LICENSEE may terminate this Agreement  at any\
+  \ time after the occurrence  of\nany of the following events if LICENSEE provides 30 days\
+  \ notice of its intention\nto terminate  as a  result of  the occurrence  and LICENSOR  fails\
+  \ to  cure such\noccurrence within such 30 days: \n\n(a)  LICENSOR is  declared or  acknowledges\
+  \ that  it is  insolvent or  otherwise\nunable   to pay  its debts   as they  become due \
+  \  or upon  the filing   of any\nproceeding (whether  voluntary or   involuntary) for  bankruptcy,\
+  \ insolvency  or\nrelief  from creditors or  LICENSOR; or \n\n(b)  LICENSOR violates any material\
+  \ provision of this Agreement.\n\n6.3.  Upon the  termination of  this Agreement  for any\
+  \  reason, LICENSEE   will\ndiscontinue all  use of  the Software  Product and,  within ten\
+  \  (10) days after\ntermination, will  destroy or  delete all  copies of  the Software Product\
+  \  then\nin  its possession, including but not limited to, any back-up or archival copies\n\
+  of the Software Product  and Documentation.   At  LICENSOR's   request, LICENSEE\nwill  verify\
+  \  in writing  to LICENSOR that such actions have been taken.\n\n6.4. No termination of this\
+  \ Agreement for any reason whatsoever shall in any way\naffect the continuing obligations\
+  \ of the parties under Articles 5 hereof.\n\n\n7. APPLICABLE LAW\n\nThis  LICENSE shall  be\
+  \ deemed  to have  been made  in, and  shall be  construed\npursuant  to,  the laws  of  Germany,\
+  \ without  reference  to conflicts  of  laws\nprinciples. All controversies  and disputes\
+  \ arising  out of or  relating to this\nAgreement  shall be  submitted to  the exclusive \
+  \ jurisdiction of  Esslingen  am\nNeckar,  Germany, as long as LICENSEE is deemed to be a\
+  \ merchant (as  defined by\nHandelsgesetzbuch,  §1-7).  The   United   Nations   Convention\
+  \   on   Contracts\nfor the International Sale of Goods is specifically disclaimed. \n\n\n\
+  \n8. GENERAL PROVISIONS.\n\n8.1.  This  Agreement   does  not  create   any  relationship\
+  \  of   association,\npartnership, joint venture or agency between the parties.\n\n8.2.  This\
+  \  Agreement  (including  the  Exhibit and  Addendum  attached  to  the\nAgreement)  sets\
+  \ forth  the entire   agreement and  understandings  between  the\nparties  hereto with respect\
+  \  to  the subject  matter  hereof.  This   Agreement\nmerges  all   previous  discussions\
+  \ and  negotiations  between  the parties  and\nsupersedes and replaces  any and every  other\
+  \ agreement, which  may have existed\nbetween LICENSOR and  LICENSEE with respect to the contents\
+  \ hereof.\n\n8.3. Except to  the extent and  in the manner  specified in this  Agreement,\
+  \ any\nmodification or amendment of any provision of this Agreement must be in  writing\n\
+  and bear the signature of the duly authorized representative of each party.\n\n8.4. The failure\
+  \  of either party  to exercise any  right granted herein,  or to\nrequire the  performance\
+  \ by  the other  party hereto  of any  provision if  this\nAgreement, or the waiver by either\
+  \ party of any breach of this Agreement,  shall\nnot prevent a subsequent exercise or enforcement\
+  \ of such provisions or be deemed\na waiver of  any subsequent breach  of the same  or any\
+  \ other  provision of this\nAgreement.\n\n8.5. Except in the case of merger, acquisition or\
+  \ the sale of substantial assets\nor equity  of Licensee  or assignment  to any  direct or\
+  \  indirect subsidiary or\naffiliate of LICENSEE, LICENSEE shall not  sell, assign or transfer\
+  \  any of  its\nrights,  duties or obligations hereunder without  the prior written  consent\
+  \  of\nLICENSOR.  LICENSOR reserves the right to  assign or transfer this  Agreement or\n\
+  any of   its rights,  duties  and   obligations hereunder,   to  any  direct  or\nindirect\
+  \ subsidiary  or affiliate of LICENSOR.\n\n8.6.  All notices required by this  Agreement must\
+  \ be sent by certified  mail in\norder to be deemed effective when sent to the following:\n\
+  \nFOR LICENSOR:\n\nFrank Fock \nMaximilian-Kolbe-Str. 10 \n73257 Koengen, Germany\n\n\nEXHIBIT\
+  \ A\n\nLicensed Software\n\nAgentX++\n\na.   Source  Code  - (ANSI  C++  for  Linux, Solaris,\
+  \  Win32) \n     Includes AgentX++ and Agent++Win32 Source Code.\n\nb.   Executable Code -\
+  \ AgentX++Win32 Master Agent (Win XP/2000/NT4)\n\n\nADDENDUM A\n\nFor evaluation purposes\
+  \ and non commercial use only, a free license is  granted,\nprovided that the LINCENSEE accepts\
+  \ this license agreement. \n\nIn  order to  obtain a  license to  use AgentX++  in a  commercial\
+  \ environment,\nLICENSEE has to purchase a commercial license from LICENSOR. The actual  pricing\n\
+  list and other related information can be found at http://www.agentpp.com"

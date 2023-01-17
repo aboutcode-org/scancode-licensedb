@@ -6,5 +6,6 @@
   "owner": "Jive Software",
   "homepage_url": "http://download.igniterealtime.org/spark/docs/latest/README.html",
   "spdx_license_key": "LicenseRef-scancode-spark-jive",
-  "minimum_coverage": 15
+  "minimum_coverage": 15,
+  "text": "License Agreement\n \nThis is a legal agreement between You, the User of the Spark application\n(\"The Software\"), and Jive Software (\"Jive Software\"). By downloading the Software,\nyou agree to be bound by the terms of this agreement.\n \nAll ownership and copyright of the images and icons included in the Software\ndistribution remain the property of Jive Software and INCORS GmbH. Jive Software\ngrants to you a nonexclusive, non-sublicensable right to use the icons royalty-free\nas part of Spark.\n \nYou may not lease, license or sub-license the icons, or a subset of the icons,\nor any modified icons to any third party. You may not incorporate them into your\nown software or design products.\n \nAll icon files are provided \"As is\" without warranties of merchantability and\nfitness for a particular purpose. You agree to hold Jive Software harmless for\nany result that may occur during the course of using the licensed icons.\n \nThis License Agreement shall be governed and construed in accordance with the\nlaws of Oregon. If any provision of this License Agreement is held to be\nunenforceable, this License Agreement will remain in effect with the provision\nomitted."
 }

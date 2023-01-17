@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-openssl-exception-agpl3.0plus",
   "other_spdx_license_keys": [
     "LicenseRef-scancode-openssl-exception-agpl-3.0-plus"
-  ]
+  ],
+  "text": "In addition, as a special exception, the copyright holders give\npermission to link the code of portions of this program with the\nOpenSSL library under certain conditions as described in each\nindividual source file, and distribute linked combinations\nincluding the two.\n\nYou must obey the GNU Affero General Public License V3 or later in all respects\nfor all of the code used other than OpenSSL or the components mentioned\nabove.  If you modify file(s) with this exception, you may extend this\nexception to your version of the file(s), but you are not obligated to\ndo so.  If you do not wish to do so, delete this exception statement from your\nversion.  If you delete this exception statement from all source files in the\nprogram, then also delete it here."
 }

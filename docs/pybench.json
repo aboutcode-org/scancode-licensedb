@@ -17,5 +17,6 @@
   "ignorable_emails": [
     "info@egenix.com",
     "mal@lemburg.com"
-  ]
+  ],
+  "text": "pybench License\n---------------\nThis copyright notice and license applies to all files in the pybench\ndirectory of the pybench distribution.\nCopyright (c), 1997-2006, Marc-Andre Lemburg (mal@lemburg.com)\nCopyright (c), 2000-2006, eGenix.com Software GmbH (info@egenix.com)\n                   All Rights Reserved.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee or royalty is hereby\ngranted, provided that the above copyright notice appear in all copies\nand that both that copyright notice and this permission notice appear\nin supporting documentation or portions thereof, including\nmodifications, that you make.\n\nTHE AUTHOR MARC-ANDRE LEMBURG DISCLAIMS ALL WARRANTIES WITH REGARD TO\nTHIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS, IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL,\nINDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING\nFROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\nNEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION\nWITH THE USE OR PERFORMANCE OF THIS SOFTWARE !"
 }

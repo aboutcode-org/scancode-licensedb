@@ -6,3 +6,14 @@ owner: MaxLinear
 spdx_license_key: LicenseRef-scancode-dual-commercial-gpl
 ignorable_urls:
   - http://www.gnu.org/licenses/
+text: "This file is licensed under GNU General Public license, except that if you have entered\
+  \ \ninto a signed, written license agreement with the copyright holder covering this file,\
+  \ \nthat agreement applies to this file instead of the GNU General Public License.\n\nThis\
+  \ file is free software: you can redistribute and/or modify it under the\nterms of the GNU\
+  \ General Public License, Version 2, as published by the Free\nSoftware Foundation, unless\
+  \ a different license applies as provided above.\n\nThis program is distributed in the hope\
+  \ that it will be useful, but AS-IS and\nWITHOUT ANY WARRANTY; without even the implied warranties\
+  \ of MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE, TITLE, or NONINFRINGEMENT. Redistribution,\n\
+  except as permitted by the GNU General Public License or another license\nagreement between\
+  \ you and the copyright holder, is prohibited.\n\nYou should have received a copy of the GNU\
+  \ General Public License, Version 2\nalong with this file; if not, see <http://www.gnu.org/licenses/>."

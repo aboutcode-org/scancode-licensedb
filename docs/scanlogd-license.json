@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-scanlogd-license",
   "other_urls": [
     "http://www.openwall.com/scanlogd/"
-  ]
+  ],
+  "text": "You're allowed to do whatever you like with this software (including\nre-distribution in any form, with or without modification), provided\nthat credit is given where it is due and any modified versions are\nmarked as such.\n\nThere's absolutely no warranty."
 }

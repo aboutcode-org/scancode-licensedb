@@ -16,5 +16,6 @@
   ],
   "ignorable_authors": [
     "Qualcomm, Inc."
-  ]
+  ],
+  "text": "This software module was originally developed by Qualcomm, Inc. in\nthe course of development of the ISO/IEC MPEG-B DASH standard for\nreference purposes and its performance may not have been optimized.\nThis software module is an implementation of one or more tools as\nspecified by the ISO/IEC MPEG-B DASH standard.\n\nISO/IEC gives users free license to this software module or\nmodifications thereof for use in products claiming conformance to\naudiovisual and image-coding related ITU Recommendations and/or ISO/IEC\nInternational Standards.\n\nISO/IEC gives users the same free license to this software module or\nmodifications thereof for research purposes and further ISO/IEC\nstandardisation.\n\nThose intending to use this software module in products are advised that\nits use may infringe existing patents. ISO/IEC have no liability for use\nof this software module or modifications thereof.  Copyright is not\nreleased for products that do not conform to audiovisual and\nimage-coding related ITU Recommendations and/or ISO/IEC International\nStandards.\n\nQualcomm, Inc. retains full right to modify and use the code for its own\npurpose, assign or donate the code to a third party and to inhibit third\nparties from using the code for products that do not conform to\naudiovisual and image-coding related ITU Recommendations and/or ISO/IEC\nInternational Standards.\n\nThis copyright notice must be included in all copies or derivative\nworks.  Copyright (c) ISO/IEC 2010."
 }

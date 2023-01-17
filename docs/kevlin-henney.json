@@ -4,5 +4,6 @@
   "name": "Kevlin Henney License",
   "category": "Permissive",
   "owner": "Kevlin Henney",
-  "spdx_license_key": "LicenseRef-scancode-kevlin-henney"
+  "spdx_license_key": "LicenseRef-scancode-kevlin-henney",
+  "text": "Permission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose is hereby granted without fee, provided\nthat this copyright and permissions notice appear in all copies and\nderivatives.\n\nThis software is supplied \"as is\" without express or implied warranty.\n\nBut that said, if there are any problems please get in touch."
 }

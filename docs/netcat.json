@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-netcat",
   "ignorable_emails": [
     "nc110-devel@lists.sourceforge.net"
-  ]
+  ],
+  "text": "Netcat is entirely my own creation, although plenty of other code was used as\nexamples.  It is freely given away to the Internet community in the hope that\nit will be useful, with no restrictions except giving credit where it is due.\nNo GPLs, Berkeley copyrights or any of that nonsense.  The author assumes NO\nresponsibility for how anyone uses it.  If netcat makes you rich somehow and\nyou're feeling generous, mail me a check.  If you are affiliated in any way\nwith Microsoft Network, get a life.  Always ski in control.  Comments,\nquestions, and patches to nc110-devel@lists.sourceforge.net."
 }

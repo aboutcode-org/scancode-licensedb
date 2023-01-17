@@ -10,5 +10,6 @@
   ],
   "ignorable_authors": [
     "Apple Computer, Inc."
-  ]
+  ],
+  "text": "This software module was originally developed by Apple Computer, Inc. in the\ncourse of development of MPEG-4. This software module is an implementation of\na part of one or more MPEG-4 tools as specified by MPEG-4. ISO/IEC gives users\nof MPEG-4 free license to this software module or modifications thereof for\nuse in hardware or software products claiming conformance to MPEG-4. Those\nintending to use this software module in hardware or software products are\nadvised that its use may infringe existing patents. The original developer of\nthis software module and his/her company, the subsequent editors and their\ncompanies, and ISO/IEC have no liability for use of this software module or\nmodifications thereof in an implementation. Copyright is not released for non\nMPEG-4 conforming products. Apple Computer, Inc. retains full right to use the\ncode for its own purpose, assign or donate the code to a third party and to\ninhibit third parties from using the code for non MPEG-4 conforming products.\nThis copyright notice must be included in all copies or\tderivative works.\nCopyright (c) 1999."
 }

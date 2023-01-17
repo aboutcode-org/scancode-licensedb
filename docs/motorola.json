@@ -4,5 +4,6 @@
   "name": "Motorola Microprocessor & Memory Technology Group License",
   "category": "Permissive",
   "owner": "Motorola",
-  "spdx_license_key": "LicenseRef-scancode-motorola"
+  "spdx_license_key": "LicenseRef-scancode-motorola",
+  "text": "THE SOFTWARE is provided on an \"AS IS\" basis and without warranty.\nTo the maximum extent permitted by applicable law,\nMOTOROLA DISCLAIMS ALL WARRANTIES WHETHER EXPRESS OR IMPLIED, \nINCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE\nand any warranty against infringement with regard to the SOFTWARE\n(INCLUDING ANY MODIFIED VERSIONS THEREOF) and any accompanying written materials.\n\nTo the maximum extent permitted by applicable law,\nIN NO EVENT SHALL MOTOROLA BE LIABLE FOR ANY DAMAGES WHATSOEVER\n(INCLUDING WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS,\nBUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR OTHER PECUNIARY LOSS)\nARISING OF THE USE OR INABILITY TO USE THE SOFTWARE.\nMotorola assumes no responsibility for the maintenance and support of the SOFTWARE.\n\nYou are hereby granted a copyright license to use, modify, and distribute the SOFTWARE\nso long as this entire notice is retained without alteration in any modified and/or\nredistributed versions, and that such modified versions are clearly identified as such.\nNo licenses are granted by implication, estoppel or otherwise under any patents\nor trademarks of Motorola, Inc."
 }

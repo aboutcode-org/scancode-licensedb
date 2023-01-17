@@ -8,5 +8,6 @@
   "other_urls": [
     "http://pypi.python.org/packages/source/C/Cheetah/Cheetah-2.4.4.tar.gz"
   ],
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Permission to use, copy, modify, and distribute this software for any purpose\nand without fee is hereby granted, provided that the above copyright notice\nappear in all copies and that both that copyright notice and this permission\nnotice appear in supporting documentation, and that the names of the authors not\nbe used in advertising or publicity pertaining to distribution of the software\nwithout specific, written prior permission.\n\nTHE AUTHORS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHORS\nBE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF\nCONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION\nWITH THE USE OR PERFORMANCE OF THIS SOFTWARE."
 }

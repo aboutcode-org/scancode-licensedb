@@ -8,3 +8,23 @@ spdx_license_key: LicenseRef-scancode-jj2000
 ignorable_authors:
   - Raphael Grosbois and Diego Santa Cruz (Swiss Federal Institute of Technology-EPFL) Joel
     Askelof
+text: "This software module was originally developed by Raphaël Grosbois and\nDiego Santa Cruz\
+  \ (Swiss Federal Institute of Technology-EPFL); Joel\nAskelöf (Ericsson Radio Systems AB);\
+  \ and Bertrand Berthelot, David\nBouchard, Félix Henry, Gerard Mozelle and Patrice Onno (Canon\
+  \ Research\nCentre France S.A) in the course of development of the JPEG2000\nstandard as specified\
+  \ by ISO/IEC 15444 (JPEG 2000 Standard). \n\nThis software module is an implementation of\
+  \ a part of the JPEG 2000 Standard. \n\nSwiss Federal Institute of Technology-EPFL, Ericsson\
+  \ Radio\nSystems AB and Canon Research Centre France S.A (collectively JJ2000\nPartners) agree\
+  \ not to assert against ISO/IEC and users of the JPEG\n2000 Standard (Users) any of their\
+  \ rights under the copyright, not\nincluding other intellectual property rights, for this\
+  \ software module\nwith respect to the usage by ISO/IEC and Users of this software module\n\
+  or modifications thereof for use in hardware or software products\nclaiming conformance to\
+  \ the JPEG 2000 Standard. Those intending to use\nthis software module in hardware or software\
+  \ products are advised that\ntheir use may infringe existing patents. The original developers\
+  \ of\nthis software module, JJ2000 Partners and ISO/IEC assume no liability\nfor use of this\
+  \ software module or modifications thereof. No license\nor right to this software module is\
+  \ granted for non JPEG 2000 Standard\nconforming products. JJ2000 Partners have full right\
+  \ to use this\nsoftware module for his/her own purpose, assign or donate this\nsoftware module\
+  \ to any third party and to inhibit third parties from\nusing this software module for non\
+  \ JPEG 2000 Standard conforming\nproducts. This copyright notice must be included in all copies\
+  \ or\nderivative works of this software module."

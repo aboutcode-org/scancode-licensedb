@@ -7,3 +7,10 @@ homepage_url: https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#HP_V
 spdx_license_key: LicenseRef-scancode-osf-1990
 text_urls:
   - https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#HP_Variant
+text: "To anyone who acknowledges that this file is provided \"AS IS\"\nwithout any express\
+  \ or implied warranty: \npermission to use, copy, modify, and distribute this file \nfor any\
+  \ purpose is hereby granted without fee, \nprovided that the above copyright notices and\n\
+  this notice appears in all source code copies, \nand that none of the names of {copyright\
+  \ holders} \nbe used in advertising or publicity pertaining to distribution \nof the software\
+  \ without specific, written prior permission.  \nNeither {copyright holders} makes \nany representations\
+  \ about the suitability of\nthis software for any purpose."

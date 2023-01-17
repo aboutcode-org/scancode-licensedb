@@ -7,3 +7,14 @@ homepage_url: http://www.windriver.com/licensing/
 spdx_license_key: LicenseRef-scancode-windriver-commercial
 ignorable_urls:
   - http://www.windriver.com/licensing/
+text: |
+  Wind River LICENSING SUPPORT
+  Product Activation
+
+  Use the Wind River® Product Activation Portal to activate your software and
+  manage your licenses.
+
+  To use the Product Activation Portal, you will need the License Administrator
+  Essentials sheet that was shipped with your product.
+
+  See http://www.windriver.com/licensing/

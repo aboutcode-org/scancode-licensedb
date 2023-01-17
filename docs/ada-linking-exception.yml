@@ -35,3 +35,8 @@ standard_notice: |
   -- covered by the GNU Public License. --
   ---------------------------------------------------------------------------
   ---
+text: "As a special exception, if other files instantiate generics from this \nunit, or you\
+  \ link this unit with other files to produce an executable, \nthis  unit  does not  by itself\
+  \ cause  the resulting executable to be \ncovered by the GNU General Public License. This\
+  \ exception does not \nhowever invalidate any other reasons why the executable file  might\
+  \ be \ncovered by the GNU Public License."

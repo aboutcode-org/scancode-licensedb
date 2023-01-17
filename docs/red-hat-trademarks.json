@@ -4,5 +4,6 @@
   "name": "Red Hat Trademarks License",
   "category": "Proprietary Free",
   "owner": "Red Hat",
-  "spdx_license_key": "LicenseRef-scancode-red-hat-trademarks"
+  "spdx_license_key": "LicenseRef-scancode-red-hat-trademarks",
+  "text": "Red Hat\u00ae, Red Hat Enterprise Linux, and the Shadowman logo, either\nseparately or in combination, are hereinafter referred to as \"Red Hat\nTrademarks\" and are trademarks of Red Hat, Inc., registered in the\nUnited States and other countries.\n\nThe redhat-logos package (\"Package\") contains images that are or include\nthe Red Hat Trademarks and Red Hat trade dress.  You are granted the\nright to use the Package only during the normal operation of software\nprograms that call upon the Package.  No other copyright or trademark\nlicense is granted herein.\n\nNO WARRANTY.  THIS PACKAGE IS PROVIDED \"AS IS\" AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND\nINTELLECTUAL PROPERTY NONINFRINGEMENT ARE DISCLAIMED.  IN NO EVENT SHALL\nRED HAT, INC. BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\nEXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\nPROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA OR\nPROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nPACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 }

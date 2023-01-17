@@ -7,5 +7,6 @@
   "spdx_license_key": "LicenseRef-scancode-csprng",
   "ignorable_emails": [
     "pgut001@cs.auckland.ac.nz"
-  ]
+  ],
+  "text": "Redistribution of the CSPRNG\nmodules and use in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice\nand this permission notice in its entirety.\n\n2. Redistributions in binary form must reproduce the copyright notice in\nthe documentation and/or other materials provided with the distribution.\n\n3. A copy of any bugfixes or enhancements made must be provided to the\nauthor, <pgut001@cs.auckland.ac.nz> to allow them to be added to the\nbaseline version of the code."
 }

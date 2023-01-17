@@ -17,3 +17,215 @@ ignorable_urls:
   - http://www.ca.com/catrdmrk.htm
 ignorable_emails:
   - opensource@ca.com
+text: "Computer Associates Trusted Open Source License\n\nVersion 1.1\n\nPLEASE READ THIS DOCUMENT\
+  \ CAREFULLY AND IN ITS ENTIRETY. THE\nACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF\
+  \ THIS COMPUTER\nASSOCIATES TRUSTED OPEN SOURCE LICENSE (\"LICENSE\"). ANY USE,\nREPRODUCTION,\
+  \ MODIFICATION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES\nTHE RECIPIENT'S ACCEPTANCE OF THIS\
+  \ LICENSE.\n\nLicense Background\n\nComputer Associates International, Inc. (CA) believes\
+  \ in open source. We\nbelieve that the open source development approach can take appropriate\n\
+  software programs to unprecedented levels of quality, growth, and\ninnovation. To demonstrate\
+  \ our continuing commitment to open source, we\nare releasing the Program (as defined below)\
+  \ under this License.\n\nThis License is intended to permit contributors and recipients of\
+  \ the\nProgram to use the Program, including its source code, freely and\nwithout many of\
+  \ the concerns of some other open source licenses.\nAlthough we expect the underlying Program,\
+  \ and Contributions (as defined\nbelow) made to such Program, to remain open, this License\
+  \ is designed to\npermit you to maintain your own software programs free of this License\n\
+  unless you choose to do so. Thus, only your Contributions to the Program\nmust be distributed\
+  \ under the terms of this License.\n\nThe provisions that follow set forth the terms and conditions\
+  \ under\nwhich you may use the Program.\n\n1. DEFINITIONS\n\n1.1 Contribution means (a) in\
+  \ the case of CA, the Original Program; and\n(b) in the case of each Contributor (including\
+  \ CA), changes and\nadditions to the Program, where such changes and/or additions to the\n\
+  Program originate from and are distributed by that particular\nContributor to unaffiliated\
+  \ third parties. A Contribution originates\nfrom a Contributor if it was added to the Program\
+  \ by such Contributor\nitself or anyone acting on such Contributors behalf. Contributions\
+  \ do\nnot include additions to the Program which: (x) are separate modules of\nsoftware distributed\
+  \ in conjunction with the Program under their own\nlicense agreement, and (y) are not derivative\
+  \ works of the Program.\n\n1.2 Contributor means CA and any other person or entity that distributes\n\
+  the Program.\n\n1.3 Contributor Version means as to a Contributor, that version of the\nProgram\
+  \ that includes the Contributors Contribution but not any\nContributions made to the Program\
+  \ thereafter.\n\n1.4 Larger Work means a work that combines the Program or portions\nthereof\
+  \ with code not governed by the terms of this License.\n\n1.5 Licensed Patents mean patents\
+  \ licensable by a Contributor that are\ninfringed by the use or sale of its Contribution alone\
+  \ or when combined\nwith the Program.\n\n1.6 Original Program means the original version of\
+  \ the software to which\nthis License is attached and as released by CA, including source\
+  \ code,\nobject code and documentation, if any.\n\n1.7 Program means the Original Program\
+  \ and Contributions.\n\n1.8 Recipient means anyone who modifies, copies, uses or distributes\
+  \ the\nProgram.\n\n2. GRANT OF RIGHTS\n\n2.1 Subject to the terms of this License, each Contributor\
+  \ hereby grants\nRecipient an irrevocable, non-exclusive, worldwide, royalty-free license\n\
+  to reproduce, prepare derivative works of, publicly display, publicly\nperform, distribute\
+  \ and sublicense the Contribution of such Contributor,\nif any, and such derivative works,\
+  \ in source code and object code form.\nFor the avoidance of doubt, the license provided in\
+  \ this Section 2.1\nshall not include a license to any Licensed Patents of a Contributor.\n\
+  \n2.2 Subject to the terms of this License, each Contributor hereby grants\nRecipient an irrevocable,\
+  \ non-exclusive, worldwide, royalty-free license\nto the Licensed Patents to the extent necessary\
+  \ to make, use, sell,\noffer to sell and import the Contribution of such Contributor, if any,\n\
+  in source code and object code form. The license granted in this Section\n2.2 shall apply\
+  \ to the combination of the Contribution and the Program\nif, at the time the Contribution\
+  \ is added by the Contributor, such\naddition of the Contribution causes the Licensed Patents\
+  \ to be infringed\nby such combination. Notwithstanding the foregoing, no license is\ngranted\
+  \ under this Section 2.2: (a) for any code or works that do not\ninclude the Contributor Version,\
+  \ as it exists and is used in accordance\nwith the terms hereof; (b) for infringements caused\
+  \ by: (i) third party\nmodifications of the Contributor Version; or (ii) the combination of\n\
+  Contributions made by each such Contributor with other software (except\nas part of the Contributor\
+  \ Version) or other devices; or (c) with\nrespect to Licensed Patents infringed by the Program\
+  \ in the absence of\nContributions made by that Contributor.\n\n2.3 Recipient understands\
+  \ that although each Contributor grants the\nlicenses to its Contributions set forth herein,\
+  \ except as provided in\nSection 2.4, no assurances are provided by any Contributor that the\n\
+  Program does not infringe the patent or other intellectual property\nrights of any other person\
+  \ or entity. Each Contributor disclaims any\nliability to Recipient for claims brought by\
+  \ any other person or entity\nbased on infringement of intellectual property rights or otherwise.\
+  \ As a\ncondition to exercising the rights and licenses granted hereunder, each\nRecipient\
+  \ hereby assumes sole responsibility to secure any other\nintellectual property rights needed,\
+  \ if any.\n\n2.4 Each Contributor represents and warrants that it has all right,\ntitle and\
+  \ interest in the copyrights in its Contributions, and has the\nright to grant the copyright\
+  \ licenses set forth in this License.\n\n3. DISTRIBUTION REQUIREMENTS\n\n3.1 If the Program\
+  \ is distributed in object code form, then a prominent\nnotice must be included in the code\
+  \ itself as well as in any related\ndocumentation, stating that the source code for the Program\
+  \ is available\nfrom the Contributor with information on how and where to obtain the\nsource\
+  \ code. A Contributor may choose to distribute the Program in\nobject code form under its\
+  \ own license agreement, provided that:\n\na. it complies with the terms and conditions of\
+  \ this License; and \nb. its license agreement: \n\ti. effectively disclaims on behalf of\
+  \ all Contributors all warranties and \n\tconditions, express and implied, including warranties\
+  \ or conditions of title\n\tand non-infringement, and implied warranties or conditions of\
+  \ \n\tmerchantability and fitness for a particular purpose, to the maximum extent\n\tpermitted\
+  \ by applicable law;\n\tii. effectively excludes on behalf of all Contributors all liability\
+  \ for \n\tdamages, including direct, indirect, special, incidental and consequential \n\t\
+  damages, such as lost profits, to the maximum extent permitted by applicable\n\tlaw; \n\t\
+  iii. states that any provisions which are inconsistent with this License are\n\toffered by\
+  \ that Contributor alone and not by any other party; and \n\tiv. states that source code for\
+  \ the Program is available from such \n\tContributor at the cost of distribution, and informs\
+  \ licensees how to obtain\n\tit in a reasonable manner.\n\n3.2 When the Program is made available\
+  \ in source code form:\n\na. it must be made available under this License; and \nb. a copy\
+  \ of this License must be included with each copy of the Program.\n\n3.3 This License is intended\
+  \ to facilitate the commercial distribution\nof the Program by any Contributor. However, Contributors\
+  \ may only charge\nRecipients a one-time, upfront fee for the distribution of the Program.\n\
+  Contributors may not charge Recipients any recurring charge, license\nfee, or any ongoing\
+  \ royalty for the Recipients exercise of its rights\nunder this License to the Program. Contributors\
+  \ shall make the source\ncode for the Contributor Version they distribute available at a cost,\
+  \ if\nany, equal to the cost to the Contributor to physically copy and\ndistribute the work.\
+  \ It is not the intent of this License to prohibit a\nContributor from charging fees for any\
+  \ service or maintenance that a\nContributor may charge to a Recipient, so long as such fees\
+  \ are not an\nattempt to circumvent the foregoing restrictions on charging royalties\nor other\
+  \ recurring fees for the Program itself.\n\n3.4 A Contributor may create a Larger Work by\
+  \ combining the Program with\nother software code not governed by the terms of this License,\
+  \ and\ndistribute the Larger Work as a single product. In such a case, the\nContributor must\
+  \ make sure that the requirements of this License are\nfulfilled for the Program. Any Contributor\
+  \ who includes the Program in a\ncommercial product offering, including as part of a Larger\
+  \ Work, may\nsubject itself, but not any other Contributor, to additional contractual\ncommitments,\
+  \ including, but not limited to, performance warranties and\nnon-infringement representations\
+  \ on suchContributors behalf. No\nContributor may create any additional liability for other\
+  \ Contributors.\nTherefore, if a Contributor includes the Program in a commercial product\n\
+  offering, such Contributor (Commercial Contributor) hereby agrees to\ndefend and indemnify\
+  \ every other Contributor (Indemnified Contributor)\nwho made Contributions to the Program\
+  \ distributed by the Commercial\nContributor against any losses, damages and costs (collectively\
+  \ Losses)\narising from claims, lawsuits and other legal actions brought by a third\nparty\
+  \ against the Indemnified Contributor to the extent caused by the\nacts or omissions, including\
+  \ any additional contractual commitments, of\nsuch Commercial Contributor in connection with\
+  \ its distribution of the\nProgram. The obligations in this section do not apply to any claims\
+  \ or\nLosses relating to any actual or alleged intellectual property\ninfringement.\n\n3.5\
+  \ If Contributor has knowledge that a license under a third partys\nintellectual property\
+  \ rights is required to exercise the rights granted\nby such Contributor under Sections 2.1\
+  \ or 2.2, Contributor must (a)\ninclude a text file with the Program source code distribution\
+  \ titled\n../IP_ISSUES, and (b) notify CA in writing at Computer Associates\nInternational,\
+  \ Inc., One Computer Associates Plaza, Islandia, New York\n11749, Attn: Open Source Group\
+  \ or by email at opensource@ca.com, both\ndescribing the claim and the party making the claim\
+  \ in sufficient detail\nthat a Recipient and CA will know whom to contact with regard to such\n\
+  matter. If Contributor obtains such knowledge after the Contribution is\nmade available, Contributor\
+  \ shall also promptly modify the IP_ISSUES\nfile in all copies Contributor makes available\
+  \ thereafter and shall take\nother steps (such as notifying appropriate mailing lists or newsgroups)\n\
+  reasonably calculated to inform those who received the Program that such\nnew knowledge has\
+  \ been obtained.\n\n3.6 Recipient shall not remove, obscure, or modify any CA or other\nContributor\
+  \ copyright or patent proprietary notices appearing in the\nProgram, whether in the source\
+  \ code, object code or in any\ndocumentation. In addition to the obligations set forth in\
+  \ Section 4,\neach Contributor must identify itself as the originator of its\nContribution,\
+  \ if any, in a manner that reasonably allows subsequent\nRecipients to identify the originator\
+  \ of the Contribution.\n\n4. CONTRIBUTION RESTRICTIONS\n\n4.1 Each Contributor must cause\
+  \ the Program to which the Contributor\nprovides a Contribution to contain a file documenting\
+  \ the changes the\nContributor made to create its version of the Program and the date of\n\
+  any change. Each Contributor must also include a prominent statement\nthat the Contribution\
+  \ is derived, directly or indirectly, from the\nProgram distributed by a prior Contributor,\
+  \ including the name of the\nprior Contributor from which such Contribution was derived, in\
+  \ (a) the\nProgram source code, and (b) in any notice in an executable version or\nrelated\
+  \ documentation in which the Contributor describes the origin or\nownership of the Program.\n\
+  \n5. NO WARRANTY\n\n5.1 EXCEPT AS EXPRESSLY SET FORTH IN THIS LICENSE, THE PROGRAM IS\nPROVIDED\
+  \ AS IS AND IN ITS PRESENT STATE AND CONDITION. NO WARRANTY,\nREPRESENTATION, CONDITION, UNDERTAKING\
+  \ OR TERM, EXPRESS OR IMPLIED,\nSTATUTORY OR OTHERWISE, AS TO THE CONDITION, QUALITY, DURABILITY,\n\
+  PERFORMANCE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A\nPARTICULAR PURPOSE OR USE\
+  \ OF THE PROGRAM IS GIVEN OR ASSUMED BY ANY\nCONTRIBUTOR AND ALL SUCH WARRANTIES, REPRESENTATIONS,\
+  \ CONDITIONS,\nUNDERTAKINGS AND TERMS ARE HEREBY EXCLUDED TO THE FULLEST EXTENT\nPERMITTED\
+  \ BY LAW.\n\n5.2 Each Recipient is solely responsible for determining the\nappropriateness\
+  \ of using and distributing the Program and assumes all\nrisks associated with its exercise\
+  \ of rights under this License,\nincluding but not limited to the risks and costs of program\
+  \ errors,\ncompliance with applicable laws, damage to or loss of data, programs or\nequipment,\
+  \ and unavailability or interruption of operations.\n\n5.3 Each Recipient acknowledges that\
+  \ the Program is not intended for use\nin the operation of nuclear facilities, aircraft navigation,\n\
+  communication systems, or air traffic control machines in which case the\nfailure of the Program\
+  \ could lead to death, personal injury, or severe\nphysical or environmental damage.\n\n6.\
+  \ DISCLAIMER OF LIABILITY\n\n6.1 EXCEPT AS EXPRESSLY SET FORTH IN THIS LICENSE, AND TO THE\
+  \ EXTENT\nPERMITTED BY LAW, NO CONTRIBUTOR SHALL HAVE ANY LIABILITY FOR ANY\nDIRECT, INDIRECT,\
+  \ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING WITHOUT LIMITATION\
+  \ LOST PROFITS), HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\
+  \ LIABILITY, OR\nTORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE\n\
+  USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED\nHEREUNDER, EVEN\
+  \ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\n7. TRADEMARKS AND BRANDING\n\n7.1 This\
+  \ License does not grant any Recipient or any third party any\nrights to use the trademarks\
+  \ or trade names now or subsequently posted\nat http://www.ca.com/catrdmrk.htm, or any other\
+  \ trademarks, service\nmarks, logos or trade names belonging to CA (collectively CA Marks)\
+  \ or\nto any trademark, service mark, logo or trade name belonging to any\nContributor. Recipient\
+  \ agrees not to use any CA Marks in or as part of\nthe name of products derived from the Original\
+  \ Program or to endorse or\npromote products derived from the Original Program.\n\n7.2 Subject\
+  \ to Section 7.1, Recipients may distribute the Program under\ntrademarks, logos, and product\
+  \ names belonging to the Recipient provided\nthat all copyright and other attribution notices\
+  \ remain in the Program.\n\n8. PATENT LITIGATION\n\n8.1 If Recipient institutes patent litigation\
+  \ against any person or\nentity (including a cross-claim or counterclaim in a lawsuit) alleging\n\
+  that the Program itself (excluding combinations of the Program with\nother software or hardware)\
+  \ infringes such Recipients patent(s), then\nsuch Recipients rights granted under Section\
+  \ 2.2 shall terminate as of\nthe date such litigation is filed.\n\n9. OWNERSHIP\n\n9.1 Subject\
+  \ to the licenses granted under this License in Sections 2.1\nand 2.2 above, each Contributor\
+  \ retains all rights, title and interest\nin and to any Contributions made by such Contributor.\
+  \ CA retains all\nrights, title and interest in and to the Original Program and any\nContributions\
+  \ made by or on behalf of CA (CA Contributions), and such CA\nContributions will not be automatically\
+  \ subject to this License. CA may,\nat its sole discretion, choose to license such CA Contributions\
+  \ under\nthis License, or on different terms from those contained in this License\nor may\
+  \ choose not to license them at all.\n\n10. TERMINATION\n\n10.1 All of Recipients rights under\
+  \ this License shall terminate if it\nfails to comply with any of the material terms or conditions\
+  \ of this\nLicense and does not cure such failure in a reasonable period of time\nafter becoming\
+  \ aware of such noncompliance. If Recipients rights under\nthis License terminate, Recipient\
+  \ agrees to cease use and distribution\nof the Program as soon as reasonably practicable.\
+  \ However, Recipients\nobligations under this License and any licenses granted by Recipient\
+  \ as\na Contributor relating to the Program shall continue and survive\ntermination.\n\n11.\
+  \ GENERAL\n\n11.1 If any provision of this License is invalid or unenforceable under\napplicable\
+  \ law, it shall not affect the validity or enforceability of\nthe remainder of the terms of\
+  \ this License, and without further action\nby the parties hereto, such provision shall be\
+  \ reformed to the minimum\nextent necessary to make such provision valid and enforceable.\n\
+  \n11.2 CA may publish new versions (including revisions) of this License\nfrom time to time.\
+  \ Each new version of the License will be given a\ndistinguishing version number. The Program\
+  \ (including Contributions) may\nalways be distributed subject to the version of the License\
+  \ under which\nit was received. In addition, after a new version of the License is\npublished,\
+  \ Contributor may elect to distribute the Program (including\nits Contributions) under the\
+  \ new version. No one other than CA has the\nright to modify this License.\n\n11.3 If it is\
+  \ impossible for Recipient to comply with any of the terms\nof this License with respect to\
+  \ some or all of the Program due to\nstatute, judicial order, or regulation, then Recipient\
+  \ must: (a) comply\nwith the terms of this License to the maximum extent possible; and (b)\n\
+  describe the limitations and the code they affect. Such description must\nbe included in the\
+  \ IP_ISSUES file described in Section 3.5 and must be\nincluded with all distributions of\
+  \ the Program source code. Except to\nthe extent prohibited by statute or regulation, such\
+  \ description must be\nsufficiently detailed for a Recipient of ordinary skill to be able\
+  \ to\nunderstand it.\n\n11.4 This License is governed by the laws of the State of New York.\
+  \ No\nRecipient will bring a legal action under this License more than one\nyear after the\
+  \ cause of action arose. Each Recipient waives its rights\nto a jury trial in any resulting\
+  \ litigation. Any litigation or other\ndispute resolution between a Recipient and CA relating\
+  \ to this License\nshall take place in the State of New York, and Recipient and CA hereby\n\
+  consent to the personal jurisdiction of, and venue in, the state and\nfederal courts within\
+  \ that district with respect to this License. The\napplication of the United Nations Convention\
+  \ on Contracts for the\nInternational Sale of Goods is expressly excluded.\n\n11.5 Where Recipient\
+  \ is located in the province of Quebec, Canada, the\nfollowing clause applies: The parties\
+  \ hereby confirm that they have\nrequested that this License and all related documents be\
+  \ drafted in\nEnglish. Les parties contractantes confirment qu'elles ont exige que le\npresent\
+  \ contrat et tous les documents associes soient rediges en\nanglais.\n\n11.6 The Program is\
+  \ subject to all export and import laws, restrictions\nand regulations of the country in which\
+  \ Recipient receives the Program.\nRecipient is solely responsible for complying with and\
+  \ ensuring that\nRecipient does not export, re-export, or import the Program in violation\n\
+  of such laws, restrictions or regulations, or without any necessary\nlicenses and authorizations.\n\
+  \n11.7 This License constitutes the entire agreement between the parties\nwith respect to\
+  \ the subject matter hereof."

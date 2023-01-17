@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "ELM-ChaN",
   "homepage_url": "http://elm-chan.org/fsw/ff/doc/appnote.html#license",
-  "spdx_license_key": "LicenseRef-scancode-fatfs"
+  "spdx_license_key": "LicenseRef-scancode-fatfs",
+  "text": "/ FatFs module is an open source software. Redistribution and use of FatFs in\n/ source and binary forms, with or without modification, are permitted provided\n/ that the following condition is met:\n/\n/ 1. Redistributions of source code must retain the above copyright notice,\n/    this condition and the following disclaimer.\n/\n/ This software is provided by the copyright holder and contributors \"AS IS\"\n/ and any warranties related to this software are DISCLAIMED.\n/ The copyright owner or contributors be NOT LIABLE for any damages caused\n/ by use of this software."
 }

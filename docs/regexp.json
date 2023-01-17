@@ -9,5 +9,6 @@
   "other_spdx_license_keys": [
     "LicenseRef-scancode-regexp"
   ],
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Permission is granted to anyone to use this software for any\npurpose on any computer system, and to redistribute it freely,\nsubject to the following restrictions:\n\n1. The author is not responsible for the consequences of use of\n   this software, no matter how awful, even if they arise\n   from defects in it.\n\n2. The origin of this software must not be misrepresented, either\n   by explicit claim or by omission.\n\n3. Altered versions must be plainly marked as such, and must not\n   be misrepresented as being the original software."
 }

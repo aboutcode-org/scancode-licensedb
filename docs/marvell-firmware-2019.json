@@ -5,5 +5,6 @@
   "category": "Proprietary Free",
   "owner": "Marvell",
   "homepage_url": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/LICENCE.Marvell",
-  "spdx_license_key": "LicenseRef-scancode-marvell-firmware-2019"
+  "spdx_license_key": "LicenseRef-scancode-marvell-firmware-2019",
+  "text": "Redistribution and use in binary form is permitted provided that the following\nconditions are met:\n\n1. Redistributions must reproduce the above copyright notice, this list of\nconditions and the following disclaimer in the documentation and/or other\nmaterials provided with the distribution.\n\n2. Redistribution and use shall be used only with Marvell silicon products.\nAny other use, reproduction, modification, translation, or compilation of the\nSoftware is prohibited.\n\n3. No reverse engineering, decompilation, or disassembly is permitted.\n\nTO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED\n\u201cAS IS\u201d WITHOUT WARRANTY OF ANY KIND, INCLUDING, WITHOUT LIMITATION, ANY EXPRESS\nOR IMPLIED WARRANTIES OF MERCHANTABILITY, ACCURACY, FITNESS OR SUFFICIENCY FOR A\nPARTICULAR PURPOSE, SATISFACTORY QUALITY, CORRESPONDENCE WITH DESCRIPTION, QUIET\nENJOYMENT OR NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY RIGHTS.\nMARVELL, ITS AFFILIATES AND THEIR SUPPLIERS DISCLAIM ANY WARRANTY THAT THE\nDELIVERABLES WILL OPERATE WITHOUT INTERRUPTION OR BE ERROR-FREE."
 }

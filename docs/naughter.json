@@ -4,5 +4,6 @@
   "name": "Naughter Software License",
   "category": "Free Restricted",
   "owner": "Naughter Software",
-  "spdx_license_key": "LicenseRef-scancode-naughter"
+  "spdx_license_key": "LicenseRef-scancode-naughter",
+  "text": "Naughter Software License\n\nYou are allowed to include the source code in any product (commercial, shareware, freeware or otherwise) when your product is released in binary form.\n\nYou are allowed to modify the source code in any way you want except you cannot modify the copyright details at the top of each module.\n\nIf you want to distribute source code with your application, then you are only allowed to distribute versions released by the author. This is to maintain a single distribution point for the source code.\n\nThe executable file itself, namely \"ShelExec.exe\" can be freely redistributed by anyone."
 }

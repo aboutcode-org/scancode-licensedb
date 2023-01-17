@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "globalban Project",
   "homepage_url": "http://www.scs.stanford.edu/histar/src/pkg/lwip/netif/ppp/pppdebug.h",
-  "spdx_license_key": "LicenseRef-scancode-ppp"
+  "spdx_license_key": "LicenseRef-scancode-ppp",
+  "text": "The authors hereby grant permission to use, copy, modify, distribute,\nand license this software and its documentation for any purpose,\nprovided that existing copyright notices are retained in all copies and\nthat this notice and the following disclaimer are included verbatim in\nany distributions. No written agreement, license, or royalty fee is\nrequired for any of the authorized uses.\n\nTHIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS *AS IS* AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED.  IN NO EVENT SHALL THE CONTRIBUTORS BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\nOR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\nSTRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN\nANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE."
 }

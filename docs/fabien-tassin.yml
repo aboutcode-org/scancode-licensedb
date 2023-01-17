@@ -5,3 +5,8 @@ category: Permissive
 owner: Fabien Tassin
 homepage_url: http://search.cpan.org/~ftassin/SNMP-MIB-Compiler-0.06/lib/SNMP/MIB/Compiler.pm#COPYRIGHT
 spdx_license_key: LicenseRef-scancode-fabien-tassin
+text: |
+  It may be used and modified freely, but I do request that this copyright
+  notice remain attached to the file. You may modify this module as you
+  wish, but if you redistribute a modified version, please attach a note
+  listing the modifications you have made.

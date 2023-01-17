@@ -6,3 +6,22 @@ category: Permissive
 owner: QOS Project
 homepage_url: http://www.slf4j.org/license.html
 notes: composite
+text: "Licensing terms for SLF4J\n\nSLF4J source code and binaries are distributed under the\
+  \ MIT license.\n\nCopyright (c) 2004-2008 QOS.ch All rights reserved. \n\nPermission is hereby\
+  \ granted, free of charge, to any person obtaining a copy of this\nsoftware and associated\
+  \ documentation files (the \"Software\"), to deal in the Software\nwithout restriction, including\
+  \ without limitation the rights to use, copy, modify,\nmerge, publish, distribute, sublicense,\
+  \ and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished\
+  \ to do so, subject to the following\nconditions:\n\nThe above copyright notice and this permission\
+  \ notice shall be included in all copies\nor substantial portions of the Software.\n\nTHE\
+  \ SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING\
+  \ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE\
+  \ AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\nHOLDERS BE LIABLE FOR ANY\
+  \ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF\nCONTRACT, TORT OR OTHERWISE,\
+  \ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE\nOR THE USE OR OTHER DEALINGS IN\
+  \ THE SOFTWARE.\n\nThese terms are identical to those of the MIT License, also called the\
+  \ X License or\nthe X11 License, which is a simple, permissive non-copyleft free software\
+  \ license. It\nis deemed compatible with virtually all types of licenses, commercial or otherwise.\n\
+  In particular, the Free Software Foundation has declared it compatible with GNU GPL.\nIt is\
+  \ also known to be approved by the Apache Software Foundation as compatible with\nApache Software\
+  \ License."

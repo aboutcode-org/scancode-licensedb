@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-triptracker",
   "ignorable_urls": [
     "http://slideshow.triptracker.net/"
-  ]
+  ],
+  "text": "This code is the property of Klika d.o.o. The code\nmay not be included in, invoked from, or otherwise\nused in any software, service, device, or process\nwhich is sold, exchanged for profit, or for which\na license, subscription, or royalty fee is charged.\n\nPermission is granted to use this code for personal,\neducational, research, or commercial purposes, provided\nthis notice is included, and provided this code is not\nused as described in the above paragraph.\n\nThis code may not be modified without express\npermission of Klika. You may not delete, disable, or in\nany manner alter distinctive brand features rendered\nby the code. The use of this code in derivative work is\npermitted, provided that the code and this notice are\nincluded in full, and provided that the code is used in\naccordance with these terms.\n\nEmail: info at triptracker.net\nWeb:   http://slideshow.triptracker.net"
 }

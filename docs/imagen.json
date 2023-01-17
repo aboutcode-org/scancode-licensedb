@@ -4,5 +4,6 @@
   "name": "IMAGEN License",
   "category": "Free Restricted",
   "owner": "IMAGEN",
-  "spdx_license_key": "LicenseRef-scancode-imagen"
+  "spdx_license_key": "LicenseRef-scancode-imagen",
+  "text": "This code may be duplicated in whole or in part provided that\n[1] there is no commercial gain involved in the duplication, and\n[2] that this copyright notice is preserved on all copies. \nAny other duplication requires written notice of the author."
 }

@@ -16,3 +16,12 @@ standard_notice: |
   restrictions do apply in other respects; for example, they cover
   modification of the file, and distribution when not linked into
   a combined executable.)
+text: "Note that the only valid version of the GPL as far as this project\n is concerned is\
+  \ _this_ particular version of the license (ie v2, not\n v2.2 or v3.x or whatever), unless\
+  \ explicitly otherwise stated.\n\n----------------------------------------------------------------------\n\
+  \n\t\t\tLINKING EXCEPTION\n\n In addition to the permissions in the GNU General Public License,\n\
+  \ the authors give you unlimited permission to link the compiled\n version of this library\
+  \ into combinations with other programs,\n and to distribute those combinations without any\
+  \ restriction\n coming from the use of this file.  (The General Public License\n restrictions\
+  \ do apply in other respects; for example, they cover\n modification of the file, and distribution\
+  \ when not linked into\n a combined executable.)"

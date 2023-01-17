@@ -8,3 +8,16 @@ notes: This patent grant clause is similat to Apache-2.0 section 3 and is someti
   alone with the freetype license.
 spdx_license_key: LicenseRef-scancode-freetype-patent
 minimum_coverage: 70
+text: "Additionally, subject to the terms and conditions of the */\nFreeType Project License,\
+  \ each contributor to the Work hereby grants \nto any individual or legal entity exercising\
+  \ permissions granted by  \nthe FreeType Project License and this section (hereafter, \"You\"\
+  \ or   \n\"Your\") a perpetual, worldwide, non-exclusive, no-charge,            \nroyalty-free,\
+  \ irrevocable (except as stated in this section) patent  \nlicense to make, have made, use,\
+  \ offer to sell, sell, import, and    \notherwise transfer the Work, where such license applies\
+  \ only to those\npatent claims licensable by such contributor that are necessarily    \ninfringed\
+  \ by their contribution(s) alone or by combination of their  \ncontribution(s) with the Work\
+  \ to which such contribution(s) was      \nsubmitted.  If You institute patent litigation\
+  \ against any entity    \n(including a cross-claim or counterclaim in a lawsuit) alleging\
+  \ that \nthe Work or a contribution incorporated within the Work constitutes  \ndirect or\
+  \ contributory patent infringement, then any patent licenses \ngranted to You under this License\
+  \ for that Work shall terminate as of\nthe date such litigation is filed."

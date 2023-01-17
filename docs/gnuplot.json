@@ -8,5 +8,6 @@
   "spdx_license_key": "gnuplot",
   "other_urls": [
     "https://fedoraproject.org/wiki/Licensing/Gnuplot"
-  ]
+  ],
+  "text": "Permission to use, copy, and distribute this software and its documentation for\nany purpose with or without fee is hereby granted, provided that the above\ncopyright notice appear in all copies and that both that copyright notice and\nthis permission notice appear in supporting documentation.\n\nPermission to modify the software is granted, but not the right to distribute\nthe complete modified source code. Modifications are to be distributed as\npatches to the released version. \n\nPermission to distribute binaries produced by compiling modified sources is\ngranted, provided you \n\n     1. distribute the corresponding source modifications from the released\n        version in the form of a patch file along with the binaries, \n     2. add special version identification to distinguish your version in\n        addition to the base release version number, \n     3. provide your name and address as the primary contact for the support of\n        your modified version, and \n     4. retain our contact information in regard to use of the base software. \n\nPermission to distribute the released version of the source code along with\ncorresponding source modifications in the form of a patch file is granted with\nsame provisions 2 through 4 for binary distributions.\n\nThis software is provided \"as is\" without express or implied warranty to the\nextent permitted by applicable law."
 }

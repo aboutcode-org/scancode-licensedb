@@ -6,5 +6,6 @@
   "owner": "Purdue Research Foundation",
   "notes": "this is very similar to the hs-regexp license",
   "spdx_license_key": "LicenseRef-scancode-purdue-bsd",
-  "minimum_coverage": 70
+  "minimum_coverage": 70,
+  "text": "This software is not subject to any license of the American Telephone\nand Telegraph Company or the Regents of the University of California.\n\nPermission is granted to anyone to use this software for any purpose on any\ncomputer system, and to alter it and redistribute it freely, subject to the following\nrestrictions:\n\n1. Neither the authors nor Purdue University are responsible for any\nconsequences of the use of this software.\n\n2. The origin of this software must not be misrepresented, either by\nexplicit claim or by omission. Credit to the authors and Purdue\nUniversity must appear in documentation and sources.\n\n3. Altered versions must be plainly marked as such, and must not be\nmisrepresented as being the original software.\n\n4. This notice may not be removed or altered."
 }

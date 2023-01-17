@@ -8,3 +8,84 @@ spdx_license_key: LicenseRef-scancode-java-research-1.5
 ignorable_urls:
   - http://www.sun.com/its
   - http://www.sun.com/policies/trademarks
+text: "JAVA RESEARCH LICENSE Version 1.5 \n\nI.  DEFINITIONS.\n\n\"Licensee \" means You and\
+  \ any other party that has entered\ninto and has in effect a version of this License.\n\n\"\
+  Modifications\" means any (a) change or addition to the\nTechnology or (b) new source or object\
+  \ code implementing any\nportion of the Technology.\n\n\"Sun\" means Sun Microsystems, Inc.\
+  \  and its successors and\nassignees.\n\n\"Research Use\" means research, evaluation, or development\n\
+  for the purpose of advancing knowledge, teaching, learning,\nor customizing the Technology\
+  \ or Modifications for personal\nuse.  Research Use expressly excludes use or distribution\n\
+  for direct or indirect commercial (including strategic) gain\nor advantage.\n\n\"Technology\"\
+  \ means the source code, object code and\nspecifications of the technology made available\
+  \ by Sun\npursuant to this License.\n\n\"Technology Site\" means the website designated by\
+  \ Sun for\naccessing the Technology.\n\n\"You\" means the individual executing this License\
+  \ or the\nlegal entity or entities represented by the individual\nexecuting this License.\n\
+  \nII.  PURPOSE.\n\nSun is licensing the Technology under this Java Research\nLicense (the\
+  \ \"License\") to promote research, education,\ninnovation, and development using the Technology.\n\
+  \nCOMMERCIAL USE AND DISTRIBUTION OF TECHNOLOGY AND\nMODIFICATIONS IS PERMITTED ONLY UNDER\
+  \ A SUN COMMERCIAL\nLICENSE.\n\nIII.  RESEARCH USE RIGHTS.\n\nA.  License Grant.  Subject\
+  \ to the conditions contained\nherein, Sun grants to You a non-exclusive, non-transferable,\n\
+  worldwide, and royalty-free license to do the following for\nYour Research Use only:  \n\n\
+  \ 1. Reproduce, create Modifications of, and use the \nTechnology alone, or with Modifications;\
+  \ \n\n 2. Share source code of the Technology alone, or with\nModifications, with other Licensees;\
+  \ and \n\n 3.  Distribute object code of the Technology, alone, \nor with Modifications, to\
+  \ any third parties for Research \nUse only, under a license of Your choice that is consistent\
+  \ \nwith this License; and publish papers and books discussing \nthe Technology which may\
+  \ include relevant excerpts that \ndo not in the aggregate constitute a significant portion\
+  \ \nof the Technology.\n\nB.  Residual Rights.  You may use any information in\nintangible\
+  \ form that you remember after accessing the\nTechnology, except when such use violates Sun's\
+  \ copyrights\nor patent rights.\n\nC.  No Implied Licenses.  Other than the rights granted\n\
+  herein, Sun retains all rights, title, and interest in\nTechnology, and You retain all rights,\
+  \ title, and interest\nin Your Modifications and associated specifications, subject\nto the\
+  \ terms of this License.\n\nD.  Open Source Licenses.  Portions of the Technology may be\n\
+  provided with notices and open source licenses from open\nsource communities and third parties\
+  \ that govern the use of\nthose portions, and any licenses granted hereunder do not\nalter\
+  \ any rights and obligations you may have under such\nopen source licenses, however, the disclaimer\
+  \ of warranty\nand limitation of liability provisions in this License will\napply to all Technology\
+  \ in this distribution.\n\nIV.  INTELLECTUAL PROPERTY REQUIREMENTS\n\nAs a condition to Your\
+  \ License, You agree to comply with the\nfollowing restrictions and responsibilities:\n\n\
+  A.  License and Copyright Notices.  You must include a copy\nof this Java Research License\
+  \ in a Readme file for any\nTechnology or Modifications you distribute.  You must also\ninclude\
+  \ the following statement, \"Use and distribution of\nthis technology is subject to the Java\
+  \ Research License\nincluded herein\", (a) once prominently in the source code\ntree and/or\
+  \ specifications for Your source code\ndistributions, and (b) once in the same file as Your\n\
+  copyright or proprietary notices for Your binary code\ndistributions.  You must cause any\
+  \ files containing Your\nModification to carry prominent notice stating that You\nchanged\
+  \ the files.  You must not remove or alter any\ncopyright or other proprietary notices in\
+  \ the Technology.\n\nB.  Licensee Exchanges.  Any Technology and Modifications\nYou receive\
+  \ from any Licensee are governed by this License.\n\nV.  GENERAL TERMS.\n\nA.  Disclaimer\
+  \ Of Warranties.\n\nTHE TECHNOLOGY IS PROVIDED \"AS IS\", WITHOUT WARRANTIES OF\nANY KIND,\
+  \ EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT\nLIMITATION, WARRANTIES THAT THE TECHNOLOGY\
+  \ IS FREE OF\nDEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE, OR\nNON-INFRINGING OF THIRD\
+  \ PARTY RIGHTS.  YOU AGREE THAT YOU\nBEAR THE ENTIRE RISK IN CONNECTION WITH YOUR USE AND\n\
+  DISTRIBUTION OF ANY AND ALL TECHNOLOGY UNDER THIS LICENSE.\n\nB.  Infringement; Limitation\
+  \ Of Liability.\n\n 1.  If any portion of, or functionality implemented by, the\nTechnology\
+  \ becomes the subject of a claim or threatened\nclaim of infringement (\"Affected Materials\"\
+  ), Sun may, in\nits unrestricted discretion, suspend Your rights to use and\ndistribute the\
+  \ Affected Materials under this License.  Such\nsuspension of rights will be effective immediately\
+  \ upon\nSun's posting of notice of suspension on the Technology\nSite.\n\n 2.  IN NO EVENT\
+  \ WILL SUN BE LIABLE FOR ANY DIRECT, INDIRECT,\nPUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL\
+  \ DAMAGES IN\nCONNECTION WITH OR ARISING OUT OF THIS LICENSE (INCLUDING,\nWITHOUT LIMITATION,\
+  \ LOSS OF PROFITS, USE, DATA, OR ECONOMIC\nADVANTAGE OF ANY SORT), HOWEVER IT ARISES AND ON\
+  \ ANY THEORY\nOF LIABILITY (including negligence), WHETHER OR NOT SUN HAS\nBEEN ADVISED OF\
+  \ THE POSSIBILITY OF SUCH DAMAGE.  LIABILITY\nUNDER THIS SECTION V.B.2 SHALL BE SO LIMITED\
+  \ AND EXCLUDED,\nNOTWITHSTANDING FAILURE OF THE ESSENTIAL PURPOSE OF ANY\nREMEDY.\n\nC.  Termination.\n\
+  \n 1.  You may terminate this License at any time by notifying\nSun in writing.  \n\n 2. \
+  \ All Your rights will terminate under this License if \nYou fail to comply with any of its\
+  \ material terms or \nconditions and do not cure such failure within thirty (30) \ndays after\
+  \ becoming aware of such noncompliance.\n\n 3.  Upon termination, You must discontinue all\
+  \ uses and\ndistribution of the Technology, and all provisions of this\nSection V (\"General\
+  \ Terms\") shall survive termination.\n\nD.  Miscellaneous.\n\n 1.  Trademark.  You agree\
+  \ to comply with Sun's Trademark \n& Logo Usage Requirements, as modified from time to time,\n\
+  available at http://www.sun.com/policies/trademarks/.\nExcept as expressly provided in this\
+  \ License, You are\ngranted no rights in or to any Sun trademarks now or\nhereafter used or\
+  \ licensed by Sun.  \n\n 2.  Integration.  This License represents the complete \nagreement\
+  \ of the parties concerning the subject matter\nhereof.  \n\n 3.  Severability.  If any provision\
+  \ of this License is \nheld unenforceable, such provision shall be reformed \nto the extent\
+  \ necessary to make it enforceable unless \nto do so would defeat the intent of the parties,\
+  \ in \nwhich case, this License shall terminate.\n\n 4.  Governing Law.  This License is governed\
+  \ by the laws of\nthe United States and the State of California, as applied to\ncontracts\
+  \ entered into and performed in California between\nCalifornia residents.  In no event shall\
+  \ this License be\nconstrued against the drafter.  \n\n 5.  Export Control.  As further described\
+  \ at \nhttp://www.sun.com/its, you agree to comply with the U.S.\nexport controls and trade\
+  \ laws of other countries that \napply to Technology and Modifications."

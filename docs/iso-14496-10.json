@@ -4,5 +4,6 @@
   "name": "ISO 14496-10",
   "category": "Permissive",
   "owner": "ISO - International Organization for Standardization",
-  "spdx_license_key": "LicenseRef-scancode-iso-14496-10"
+  "spdx_license_key": "LicenseRef-scancode-iso-14496-10",
+  "text": "Software Copyright Licensing Disclaimer\n\nThis software module was originally developed by contributors to the\ncourse of the development of ISO/IEC 14496-10 for reference purposes\nand its performance may not have been optimized.  This software\nmodule is an implementation of one or more tools as specified by\nISO/IEC 14496-10.  ISO/IEC gives users free license to this software\nmodule or modifications thereof. Those intending to use this software\nmodule in products are advised that its use may infringe existing\npatents.  ISO/IEC have no liability for use of this software module\nor modifications thereof.  The original contributors retain full\nrights to modify and use the code for their own purposes, and to\nassign or donate the code to third-parties.\n\nThis copyright notice must be included in all copies or derivative\nworks."
 }

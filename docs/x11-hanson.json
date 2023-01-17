@@ -6,5 +6,6 @@
   "owner": "David R. Hanson",
   "homepage_url": "http://www.research.microsoft.com/~drh/",
   "spdx_license_key": "LicenseRef-scancode-x11-hanson",
-  "minimum_coverage": 80
+  "minimum_coverage": 80,
+  "text": "Permission to use, copy, modify, and distribute this software for any\npurpose, subject to the provisions described below, without fee is\nhereby granted, provided that this entire notice is included in all\ncopies of any software that is or includes a copy or modification of\nthis software and in all copies of the supporting documentation for\nsuch software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY. IN PARTICULAR, THE AUTHOR DOES MAKE ANY REPRESENTATION OR\nWARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR\nITS FITNESS FOR ANY PARTICULAR PURPOSE."
 }

@@ -16,3 +16,34 @@ ignorable_holders:
   - Image Power, Inc.
   - Michael David Adams
   - The University of British Columbia
+text: "JasPer License Version 2.0\n\nCopyright (c) 2001-2006 Michael David Adams\nCopyright\
+  \ (c) 1999-2000 Image Power, Inc.\nCopyright (c) 1999-2000 The University of British Columbia\n\
+  \nAll rights reserved.\n\nPermission is hereby granted, free of charge, to any person (the\n\
+  \"User\") obtaining a copy of this software and associated documentation\nfiles (the \"Software\"\
+  ), to deal in the Software without restriction,\nincluding without limitation the rights to\
+  \ use, copy, modify, merge,\npublish, distribute, and/or sell copies of the Software, and\
+  \ to permit\npersons to whom the Software is furnished to do so, subject to the\nfollowing\
+  \ conditions:\n\n1.  The above copyright notices and this permission notice (which\nincludes\
+  \ the disclaimer below) shall be included in all copies or\nsubstantial portions of the Software.\n\
+  \n2.  The name of a copyright holder shall not be used to endorse or\npromote products derived\
+  \ from the Software without specific prior\nwritten permission.\n\nTHIS DISCLAIMER OF WARRANTY\
+  \ CONSTITUTES AN ESSENTIAL PART OF THIS\nLICENSE.  NO USE OF THE SOFTWARE IS AUTHORIZED HEREUNDER\
+  \ EXCEPT UNDER\nTHIS DISCLAIMER.  THE SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS\n\"AS\
+  \ IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING\nBUT NOT LIMITED TO THE\
+  \ WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE AND NONINFRINGEMENT OF\
+  \ THIRD PARTY RIGHTS.  IN NO\nEVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, OR\
+  \ ANY SPECIAL\nINDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING\nFROM\
+  \ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\nNEGLIGENCE OR OTHER TORTIOUS\
+  \ ACTION, ARISING OUT OF OR IN CONNECTION\nWITH THE USE OR PERFORMANCE OF THIS SOFTWARE. \
+  \ \n\nNO ASSURANCES ARE\nPROVIDED BY THE COPYRIGHT HOLDERS THAT THE SOFTWARE DOES NOT INFRINGE\n\
+  THE PATENT OR OTHER INTELLECTUAL PROPERTY RIGHTS OF ANY OTHER ENTITY.\nEACH COPYRIGHT HOLDER\
+  \ DISCLAIMS ANY LIABILITY TO THE USER FOR CLAIMS\nBROUGHT BY ANY OTHER ENTITY BASED ON INFRINGEMENT\
+  \ OF INTELLECTUAL\nPROPERTY RIGHTS OR OTHERWISE.  AS A CONDITION TO EXERCISING THE RIGHTS\n\
+  GRANTED HEREUNDER, EACH USER HEREBY ASSUMES SOLE RESPONSIBILITY TO SECURE\nANY OTHER INTELLECTUAL\
+  \ PROPERTY RIGHTS NEEDED, IF ANY.  \n\nTHE SOFTWARE\nIS NOT FAULT-TOLERANT AND IS NOT INTENDED\
+  \ FOR USE IN MISSION-CRITICAL\nSYSTEMS, SUCH AS THOSE USED IN THE OPERATION OF NUCLEAR FACILITIES,\n\
+  AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL\nSYSTEMS, DIRECT LIFE SUPPORT\
+  \ MACHINES, OR WEAPONS SYSTEMS, IN WHICH\nTHE FAILURE OF THE SOFTWARE OR SYSTEM COULD LEAD\
+  \ DIRECTLY TO DEATH,\nPERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE (\"HIGH\n\
+  RISK ACTIVITIES\").  THE COPYRIGHT HOLDERS SPECIFICALLY DISCLAIM ANY\nEXPRESS OR IMPLIED WARRANTY\
+  \ OF FITNESS FOR HIGH RISK ACTIVITIES."

@@ -13,3 +13,71 @@ ignorable_copyrights:
   - Copyright (c) 2013-2016 PAYPAL, INC.
 ignorable_holders:
   - PAYPAL, INC.
+text: "The PayPal SDK is released under the following license:\n\nCopyright (c) 2013-2016 PAYPAL,\
+  \ INC.\n\nSDK LICENSE\n\nNOTICE TO USER:  PayPal, Inc. is providing the Software and Documentation\
+  \ for use under the terms of \nthis Agreement. Any use, reproduction, modification or distribution\
+  \ of the Software or Documentation, \nor any derivatives or portions hereof, constitutes your\
+  \ acceptance of this Agreement.\n\nAs used in this Agreement, \"PayPal\" means PayPal, Inc.\
+  \  \"Software\" means the software code accompanying\nthis agreement. \"Documentation\" means\
+  \ the documents, specifications and all other items accompanying \nthis Agreement other than\
+  \ the Software.   \n\n1.  LICENSE GRANT Subject to the terms of this Agreement, PayPal hereby\
+  \ grants you a non-exclusive, \nworldwide, royalty free license to use, reproduce, prepare\
+  \ derivative works from, publicly display, \npublicly perform, distribute and sublicense the\
+  \ Software for any purpose, provided the copyright notice\nbelow appears in a conspicuous\
+  \ location within the source code of the distributed Software and this \nlicense is distributed\
+  \ in the supporting documentation of the Software you distribute. Furthermore, \nyou must\
+  \ comply with all third party licenses in order to use the third party software contained\
+  \ in the \nSoftware.\n\nSubject to the terms of this Agreement, PayPal hereby grants you a\
+  \ non-exclusive, worldwide, royalty free\nlicense to use, reproduce, publicly display, publicly\
+  \ perform, distribute and sublicense the Documentation \nfor any purpose.  You may not modify\
+  \ the Documentation.\n\nNo title to the intellectual property in the Software or Documentation\
+  \ is transferred to you under the \nterms of this Agreement. You do not acquire any rights\
+  \ to the Software or the Documentation except as \nexpressly set forth in this Agreement.\n\
+  \nIf you choose to distribute the Software in a commercial product, you do so with the understanding\
+  \ that \nyou agree to defend, indemnify and hold harmless PayPal and its suppliers against\
+  \ any losses, damages and \ncosts arising from the claims, lawsuits or other legal actions\
+  \ arising out of such distribution.  You may \ndistribute the Software in object code form\
+  \ under your own license, provided that your license agreement:\n\n(a) complies with the terms\
+  \ and conditions of this license agreement; \n\n(b) effectively disclaims all warranties and\
+  \ conditions, express or implied, on behalf of PayPal;\n\n(c) effectively excludes all liability\
+  \ for damages on behalf of PayPal;\n\n(d) states that any provisions that differ from this\
+  \ Agreement are offered by you alone and not PayPal; and\n\n(e) states that the Software is\
+  \ available from you or PayPal and informs licensees how to obtain it in a \nreasonable manner\
+  \ on or through a medium customarily used for software exchange.  \n\n2.  DISCLAIMER OF WARRANTY\n\
+  PAYPAL LICENSES THE SOFTWARE AND DOCUMENTATION TO YOU ONLY ON AN \"AS IS\" BASIS WITHOUT WARRANTIES\
+  \ OR CONDITIONS \nOF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY\
+  \ WARRANTIES OR CONDITIONS OF TITLE, \nNON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A\
+  \ PARTICULAR PURPOSE.  PAYPAL MAKES NO WARRANTY THAT THE \nSOFTWARE OR DOCUMENTATION WILL\
+  \ BE ERROR-FREE. Each user of the Software or Documentation is solely responsible \nfor determining\
+  \ the appropriateness of using and distributing the Software and Documentation and assumes\
+  \ all \nrisks associated with its exercise of rights under this Agreement, including but not\
+  \ limited to the risks and \ncosts of program errors, compliance with applicable laws, damage\
+  \ to or loss of data, programs, or equipment, \nand unavailability or interruption of operations.\
+  \  Use of the Software and Documentation is made with the \nunderstanding that PayPal will\
+  \ not provide you with any technical or customer support or maintenance.  Some \nstates or\
+  \ jurisdictions do not allow the exclusion of implied warranties or limitations on how long\
+  \ an implied \nwarranty may last, so the above limitations may not apply to you.  To the extent\
+  \ permissible, any implied \nwarranties are limited to ninety (90) days.\n\n\n3.  LIMITATION\
+  \ OF LIABILITY\nPAYPAL AND ITS SUPPLIERS SHALL NOT BE LIABLE FOR LOSS OR DAMAGE ARISING OUT\
+  \ OF THIS AGREEMENT OR FROM THE USE \nOF THE SOFTWARE OR DOCUMENTATION.  IN NO EVENT WILL\
+  \ PAYPAL OR ITS SUPPLIERS BE LIABLE TO YOU OR ANY THIRD PARTY \nFOR ANY DIRECT, INDIRECT,\
+  \ CONSEQUENTIAL, INCIDENTAL, OR SPECIAL DAMAGES INCLUDING LOST PROFITS, LOST SAVINGS, \nCOSTS,\
+  \ FEES, OR EXPENSES OF ANY KIND ARISING OUT OF ANY PROVISION OF THIS AGREEMENT OR THE USE\
+  \ OR THE INABILITY \nTO USE THE SOFTWARE OR DOCUMENTATION, HOWEVER CAUSED AND UNDER ANY THEORY\
+  \ OF LIABILITY, WHETHER IN CONTRACT, \nSTRICT LIABILITY OR TORT INCLUDING NEGLIGENCE OR OTHERWISE),\
+  \ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. \nPAYPAL'S AGGREGATE LIABILITY AND THAT\
+  \ OF ITS SUPPLIERS UNDER OR IN CONNECTION WITH THIS AGREEMENT SHALL BE \nLIMITED TO THE AMOUNT\
+  \ PAID BY YOU FOR THE SOFTWARE AND DOCUMENTATION. \n\n4.  TRADEMARK USAGE\nPayPal is a trademark\
+  \ PayPal, Inc. in the United States and other countries.  Such trademarks may not be used\
+  \ \nto endorse or promote any product unless expressly permitted under separate agreement\
+  \ with PayPal.  \n\n5.  TERM\nYour rights under this Agreement shall terminate if you fail\
+  \ to comply with any of the material  terms or \nconditions of this Agreement and do not cure\
+  \ such failure in a reasonable period of time after becoming \naware of such noncompliance.\
+  \  If all your rights under this Agreement terminate, you agree to cease use \nand distribution\
+  \ of the Software and Documentation as soon as reasonably practicable. \n\n6. GOVERNING LAW\
+  \ AND JURISDICTION. This Agreement is governed by the statutes and laws of the State of \n\
+  California, without regard to the conflicts of law principles thereof.  If any part of this\
+  \ Agreement is \nfound void and unenforceable, it will not affect the validity of the balance\
+  \ of the Agreement, which shall \nremain valid and enforceable according to its terms.  Any\
+  \ dispute arising out of or related to this Agreement \nshall be brought in the courts of\
+  \ Santa Clara County, California, USA."

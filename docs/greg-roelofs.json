@@ -10,5 +10,6 @@
   ],
   "ignorable_authors": [
     "Greg Roelofs and contributors"
-  ]
+  ],
+  "text": " This software is provided \"as is,\" without warranty of any kind,\n express or implied.  In no event shall the author or contributors\n be held liable for any damages arising in any way from the use of\n this software.\n\n Permission is granted to anyone to use this software for any purpose,\n including commercial applications, and to alter it and redistribute\n it freely, subject to the following restrictions:\n\n 1. Redistributions of source code must retain the above copyright\n notice, disclaimer, and this list of conditions.\n\n 2. Redistributions in binary form must reproduce the above copyright\n notice, disclaimer, and this list of conditions in the documentation\n and/or other materials provided with the distribution.\n\n 3. All advertising materials mentioning features or use of this\n software must display the following acknowledgment:\n\n   This product includes software developed by Greg Roelofs\n   and contributors for the book, \"PNG: The Definitive Guide,\"\n   published by O'Reilly and Associates."
 }

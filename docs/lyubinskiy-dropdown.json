@@ -11,5 +11,6 @@
   ],
   "ignorable_urls": [
     "http://www.php-development.ru/javascripts/dropdown.php"
-  ]
+  ],
+  "text": "YOU MAY NOT\n(1) Remove or modify this copyright notice.\n(2) Re-distribute this code or any part of it.\n    Instead, you may link to the homepage of this code:\n    http:www.php-development.ru/javascripts/dropdown.php\n\nYOU MAY\n(1) Use this code on your website.\n(2) Use this code as part of another product.\n\nNO WARRANTY\nThis code is provided \"as is\" without warranty of any kind.\nYou expressly acknowledge and agree that use of this code is at your own risk."
 }

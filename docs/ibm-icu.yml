@@ -46,3 +46,219 @@ ignorable_urls:
   - https://sourceforge.net/project/?group_id=1519
 ignorable_emails:
   - c-tsai4@uiuc.edu
+text: "    ICU License - ICU 1.8.1 and later\n\nCOPYRIGHT AND PERMISSION NOTICE\n\nCopyright\
+  \ (c) 1995-2014 International Business Machines Corporation and others\n\nAll rights reserved.\n\
+  \nPermission is hereby granted, free of charge, to any person obtaining a copy of this software\
+  \ and associated documentation files (the \"Software\"), to deal in the Software without restriction,\
+  \ including without limitation the rights to use, copy, modify, merge, publish, distribute,\
+  \ and/or sell copies of the Software, and to permit persons to whom the Software is furnished\
+  \ to do so, provided that the above copyright notice(s) and this permission notice appear\
+  \ in all copies of the Software and that both the above copyright notice(s) and this permission\
+  \ notice appear in supporting documentation.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT\
+  \ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\
+  \ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.\
+  \ IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR\
+  \ ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING\
+  \ FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER\
+  \ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\
+  \nExcept as contained in this notice, the name of a copyright holder shall not be used in\
+  \ advertising or otherwise to promote the sale, use or other dealings in this Software without\
+  \ prior written authorization of the copyright holder.\n\nAll trademarks and registered trademarks\
+  \ mentioned herein are the property of their respective owners.\n\n\nThird-Party Software\
+  \ Licenses\nThis section contains third-party software notices and/or additional terms for\
+  \ licensed third-party software components included within ICU libraries.\n\n1. Unicode Data\
+  \ Files and Software\nCOPYRIGHT AND PERMISSION NOTICE\n\nCopyright © 1991-2014 Unicode, Inc.\
+  \ All rights reserved.\nDistributed under the Terms of Use in \nhttp://www.unicode.org/copyright.html.\n\
+  \nPermission is hereby granted, free of charge, to any person obtaining\na copy of the Unicode\
+  \ data files and any associated documentation\n(the \"Data Files\") or Unicode software and\
+  \ any associated documentation\n(the \"Software\") to deal in the Data Files or Software\n\
+  without restriction, including without limitation the rights to use,\ncopy, modify, merge,\
+  \ publish, distribute, and/or sell copies of\nthe Data Files or Software, and to permit persons\
+  \ to whom the Data Files\nor Software are furnished to do so, provided that\n(a) this copyright\
+  \ and permission notice appear with all copies \nof the Data Files or Software,\n(b) this\
+  \ copyright and permission notice appear in associated \ndocumentation, and\n(c) there is\
+  \ clear notice in each modified Data File or in the Software\nas well as in the documentation\
+  \ associated with the Data File(s) or\nSoftware that the data or software has been modified.\n\
+  \nTHE DATA FILES AND SOFTWARE ARE PROVIDED \"AS IS\", WITHOUT WARRANTY OF\nANY KIND, EXPRESS\
+  \ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE\nWARRANTIES OF MERCHANTABILITY, FITNESS FOR\
+  \ A PARTICULAR PURPOSE AND\nNONINFRINGEMENT OF THIRD PARTY RIGHTS.\nIN NO EVENT SHALL THE\
+  \ COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS\nNOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL\
+  \ INDIRECT OR CONSEQUENTIAL\nDAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,\n\
+  DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER\nTORTIOUS ACTION, ARISING\
+  \ OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THE DATA FILES OR SOFTWARE.\n\n\
+  Except as contained in this notice, the name of a copyright holder\nshall not be used in advertising\
+  \ or otherwise to promote the sale,\nuse or other dealings in these Data Files or Software\
+  \ without prior\nwritten authorization of the copyright holder.\n\n\n2. Chinese/Japanese Word\
+  \ Break Dictionary Data (cjdict.txt)\n #    The Google Chrome software developed by Google\
+  \ is licensed under the BSD license. Other software included in this distribution is provided\
+  \ under other licenses, as set forth below.\n #\t\n #\tThe BSD License\n #\thttp://opensource.org/licenses/bsd-license.php\
+  \ \n #\tCopyright (C) 2006-2008, Google Inc.\n #\t\n #\tAll rights reserved.\n #\t\n #\tRedistribution\
+  \ and use in source and binary forms, with or without modification, are permitted provided\
+  \ that the following conditions are met:\n #\t\n #\tRedistributions of source code must retain\
+  \ the above copyright notice, this list of conditions and the following disclaimer.\n #\t\
+  Redistributions in binary form must reproduce the above copyright notice, this list of conditions\
+  \ and the following disclaimer in the documentation and/or other materials provided with the\
+  \ distribution.\n #\tNeither the name of  Google Inc. nor the names of its contributors may\
+  \ be used to endorse or promote products derived from this software without specific prior\
+  \ written permission.\n #\t \n #\t\n #\tTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS\
+  \ AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\
+  \ TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\
+  \ IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,\
+  \ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\
+  \ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\
+  \ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\
+  \ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\
+  \ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n #\t\n #\t       \
+  \                                      \n #\tThe word list in cjdict.txt are generated by\
+  \ combining three word lists listed\n #\tbelow with further processing for compound word breaking.\
+  \ The frequency is generated\n #\twith an iterative training against Google web corpora. \n\
+  \ #\t\n #\t* Libtabe (Chinese)\n #\t  - https://sourceforge.net/project/?group_id=1519\n #\t\
+  \  - Its license terms and conditions are shown below.\n #\t\n #\t* IPADIC (Japanese)\n #\t\
+  \  - http://chasen.aist-nara.ac.jp/chasen/distribution.html\n #\t  - Its license terms and\
+  \ conditions are shown below.\n #\t\n #\t---------COPYING.libtabe ---- BEGIN--------------------\n\
+  \ #\t\n #\t/*\n #\t * Copyrighy (c) 1999 TaBE Project.\n #\t * Copyright (c) 1999 Pai-Hsiang\
+  \ Hsiao.\n #\t * All rights reserved.\n #\t *\n #\t * Redistribution and use in source and\
+  \ binary forms, with or without\n #\t * modification, are permitted provided that the following\
+  \ conditions\n #\t * are met:\n #\t *\n #\t * . Redistributions of source code must retain\
+  \ the above copyright\n #\t *   notice, this list of conditions and the following disclaimer.\n\
+  \ #\t * . Redistributions in binary form must reproduce the above copyright\n #\t *   notice,\
+  \ this list of conditions and the following disclaimer in\n #\t *   the documentation and/or\
+  \ other materials provided with the\n #\t *   distribution.\n #\t * . Neither the name of\
+  \ the TaBE Project nor the names of its\n #\t *   contributors may be used to endorse or promote\
+  \ products derived\n #\t *   from this software without specific prior written permission.\n\
+  \ #\t *\n #\t * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n #\t\
+  \ * \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n #\t * LIMITED TO,\
+  \ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS\n #\t * FOR A PARTICULAR PURPOSE ARE\
+  \ DISCLAIMED. IN NO EVENT SHALL THE\n #\t * REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\
+  \ INDIRECT,\n #\t * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n #\t * (INCLUDING,\
+  \ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n #\t * SERVICES; LOSS OF USE, DATA,\
+  \ OR PROFITS; OR BUSINESS INTERRUPTION)\n #\t * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\
+  \ WHETHER IN CONTRACT,\n #\t * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\n\
+  \ #\t * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n #\t * OF THE\
+  \ POSSIBILITY OF SUCH DAMAGE.\n #\t */\n #\t\n #\t/*\n #\t * Copyright (c) 1999 Computer Systems\
+  \ and Communication Lab,\n #\t *                    Institute of Information Science, Academia\
+  \ Sinica.\n #\t * All rights reserved.\n #\t *\n #\t * Redistribution and use in source and\
+  \ binary forms, with or without\n #\t * modification, are permitted provided that the following\
+  \ conditions\n #\t * are met:\n #\t *\n #\t * . Redistributions of source code must retain\
+  \ the above copyright\n #\t *   notice, this list of conditions and the following disclaimer.\n\
+  \ #\t * . Redistributions in binary form must reproduce the above copyright\n #\t *   notice,\
+  \ this list of conditions and the following disclaimer in\n #\t *   the documentation and/or\
+  \ other materials provided with the\n #\t *   distribution.\n #\t * . Neither the name of\
+  \ the Computer Systems and Communication Lab\n #\t *   nor the names of its contributors may\
+  \ be used to endorse or\n #\t *   promote products derived from this software without specific\n\
+  \ #\t *   prior written permission.\n #\t *\n #\t * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT\
+  \ HOLDERS AND CONTRIBUTORS\n #\t * \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,\
+  \ BUT NOT\n #\t * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS\n #\t\
+  \ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE\n #\t * REGENTS OR CONTRIBUTORS\
+  \ BE LIABLE FOR ANY DIRECT, INDIRECT,\n #\t * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\
+  \ DAMAGES\n #\t * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n #\t\
+  \ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n #\t * HOWEVER CAUSED\
+  \ AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\n #\t * STRICT LIABILITY, OR TORT (INCLUDING\
+  \ NEGLIGENCE OR OTHERWISE)\n #\t * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN\
+  \ IF ADVISED\n #\t * OF THE POSSIBILITY OF SUCH DAMAGE.\n #\t */\n #\t\n #\tCopyright 1996\
+  \ Chih-Hao Tsai @ Beckman Institute, University of Illinois\n #\tc-tsai4@uiuc.edu  http://casper.beckman.uiuc.edu/~c-tsai4\n\
+  \ #\t\n #\t---------------COPYING.libtabe-----END------------------------------------\n #\t\
+  \n #\t\n #\t---------------COPYING.ipadic-----BEGIN------------------------------------\n\
+  \ #\t\n #\tCopyright 2000, 2001, 2002, 2003 Nara Institute of Science\n #\tand Technology.\
+  \  All Rights Reserved.\n #\t\n #\tUse, reproduction, and distribution of this software is\
+  \ permitted.\n #\tAny copy of this software, whether in its original form or modified,\n #\t\
+  must include both the above copyright notice and the following\n #\tparagraphs.\n #\t\n #\t\
+  Nara Institute of Science and Technology (NAIST),\n #\tthe copyright holders, disclaims all\
+  \ warranties with regard to this\n #\tsoftware, including all implied warranties of merchantability\
+  \ and\n #\tfitness, in no event shall NAIST be liable for\n #\tany special, indirect or consequential\
+  \ damages or any damages\n #\twhatsoever resulting from loss of use, data or profits, whether\
+  \ in an\n #\taction of contract, negligence or other tortuous action, arising out\n #\tof\
+  \ or in connection with the use or performance of this software.\n #\t\n #\tA large portion\
+  \ of the dictionary entries\n #\toriginate from ICOT Free Software.  The following conditions\
+  \ for ICOT\n #\tFree Software applies to the current dictionary as well.\n #\t\n #\tEach User\
+  \ may also freely distribute the Program, whether in its\n #\toriginal form or modified, to\
+  \ any third party or parties, PROVIDED\n #\tthat the provisions of Section 3 (\"NO WARRANTY\"\
+  ) will ALWAYS appear\n #\ton, or be attached to, the Program, which is distributed substantially\n\
+  \ #\tin the same form as set out herein and that such intended\n #\tdistribution, if actually\
+  \ made, will neither violate or otherwise\n #\tcontravene any of the laws and regulations\
+  \ of the countries having\n #\tjurisdiction over the User or the intended distribution itself.\n\
+  \ #\t\n #\tNO WARRANTY\n #\t\n #\tThe program was produced on an experimental basis in the\
+  \ course of the\n #\tresearch and development conducted during the project and is provided\n\
+  \ #\tto users as so produced on an experimental basis.  Accordingly, the\n #\tprogram is provided\
+  \ without any warranty whatsoever, whether express,\n #\timplied, statutory or otherwise.\
+  \  The term \"warranty\" used herein\n #\tincludes, but is not limited to, any warranty of\
+  \ the quality,\n #\tperformance, merchantability and fitness for a particular purpose of\n\
+  \ #\tthe program and the nonexistence of any infringement or violation of\n #\tany right of\
+  \ any third party.\n #\t\n #\tEach user of the program will agree and understand, and be deemed\
+  \ to\n #\thave agreed and understood, that there is no warranty whatsoever for\n #\tthe program\
+  \ and, accordingly, the entire risk arising from or\n #\totherwise connected with the program\
+  \ is assumed by the user.\n #\t\n #\tTherefore, neither ICOT, the copyright holder, or any\
+  \ other\n #\torganization that participated in or was otherwise related to the\n #\tdevelopment\
+  \ of the program and their respective officials, directors,\n #\tofficers and other employees\
+  \ shall be held liable for any and all\n #\tdamages, including, without limitation, general,\
+  \ special, incidental\n #\tand consequential damages, arising out of or otherwise in connection\n\
+  \ #\twith the use or inability to use the program or any product, material\n #\tor result\
+  \ produced or otherwise obtained by using the program,\n #\tregardless of whether they have\
+  \ been advised of, or otherwise had\n #\tknowledge of, the possibility of such damages at\
+  \ any time during the\n #\tproject or thereafter.  Each user will be deemed to have agreed\
+  \ to the\n #\tforegoing by his or her commencement of use of the program.  The term\n #\t\"\
+  use\" as used herein includes, but is not limited to, the use,\n #\tmodification, copying\
+  \ and distribution of the program and the\n #\tproduction of secondary products from the program.\n\
+  \ #\t\n #\tIn the case where the program, whether in its original form or\n #\tmodified, was\
+  \ distributed or delivered to or received by a user from\n #\tany person, organization or\
+  \ entity other than ICOT, unless it makes or\n #\tgrants independently of ICOT any specific\
+  \ warranty to the user in\n #\twriting, such person, organization or entity, will also be\
+  \ exempted\n #\tfrom and not be held liable to the user for any such damages as noted\n #\t\
+  above as far as the program is concerned.\n #\t\n #\t---------------COPYING.ipadic-----END------------------------------------\n\
+  \n\n3. Lao Word Break Dictionary Data (laodict.txt)\n #\tCopyright (c) 2013 International\
+  \ Business Machines Corporation\n #\tand others. All Rights Reserved.\n #\n #\tProject:  \
+  \  http://code.google.com/p/lao-dictionary/\n #\tDictionary: http://lao-dictionary.googlecode.com/git/Lao-Dictionary.txt\n\
+  \ #\tLicense:    http://lao-dictionary.googlecode.com/git/Lao-Dictionary-LICENSE.txt\n #\t\
+  \            (copied below)\n #\n #\tThis file is derived from the above dictionary, with\
+  \ slight modifications.\n #\t--------------------------------------------------------------------------------\n\
+  \ #\tCopyright (C) 2013 Brian Eugene Wilson, Robert Martin Campbell.\n #\tAll rights reserved.\n\
+  \ #\n #\tRedistribution and use in source and binary forms, with or without modification,\n\
+  \ #\tare permitted provided that the following conditions are met:\n #\n #\t\tRedistributions\
+  \ of source code must retain the above copyright notice, this\n #\t\tlist of conditions and\
+  \ the following disclaimer. Redistributions in binary\n #\t\tform must reproduce the above\
+  \ copyright notice, this list of conditions and\n #\t\tthe following disclaimer in the documentation\
+  \ and/or other materials\n #\t\tprovided with the distribution.\n #\n #\tTHIS SOFTWARE IS\
+  \ PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n #\tANY EXPRESS OR IMPLIED\
+  \ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n #\tWARRANTIES OF MERCHANTABILITY\
+  \ AND FITNESS FOR A PARTICULAR PURPOSE ARE\n #\tDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\
+  \ HOLDER OR CONTRIBUTORS BE LIABLE FOR\n #\tANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,\
+  \ OR CONSEQUENTIAL DAMAGES\n #\t(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\
+  \ GOODS OR SERVICES;\n #\tLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\
+  \ CAUSED AND ON\n #\tANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n\
+  \ #\t(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n #\tSOFTWARE,\
+  \ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n #\t--------------------------------------------------------------------------------\n\
+  \n\n4. Burmese Word Break Dictionary Data (burmesedict.txt)\n #\tCopyright (c) 2014 International\
+  \ Business Machines Corporation\n #\tand others. All Rights Reserved.\n #\n #\tThis list is\
+  \ part of a project hosted at:\n #\t  github.com/kanyawtech/myanmar-karen-word-lists\n #\n\
+  \ #\t--------------------------------------------------------------------------------\n #\t\
+  Copyright (c) 2013, LeRoy Benjamin Sharon\n #\tAll rights reserved.\n #\n #\tRedistribution\
+  \ and use in source and binary forms, with or without modification,\n #\tare permitted provided\
+  \ that the following conditions are met:\n #\n #\t  Redistributions of source code must retain\
+  \ the above copyright notice, this\n #\t  list of conditions and the following disclaimer.\n\
+  \ #\n #\t  Redistributions in binary form must reproduce the above copyright notice, this\n\
+  \ #\t  list of conditions and the following disclaimer in the documentation and/or\n #\t \
+  \ other materials provided with the distribution.\n #\n #\t  Neither the name Myanmar Karen\
+  \ Word Lists, nor the names of its\n #\t  contributors may be used to endorse or promote products\
+  \ derived from\n #\t  this software without specific prior written permission.\n #\n #\tTHIS\
+  \ SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n #\tANY EXPRESS\
+  \ OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n #\tWARRANTIES OF MERCHANTABILITY\
+  \ AND FITNESS FOR A PARTICULAR PURPOSE ARE\n #\tDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\
+  \ HOLDER OR CONTRIBUTORS BE LIABLE FOR\n #\tANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,\
+  \ OR CONSEQUENTIAL DAMAGES\n #\t(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\
+  \ GOODS OR SERVICES;\n #\tLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\
+  \ CAUSED AND ON\n #\tANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n\
+  \ #\t(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n #\tSOFTWARE,\
+  \ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n #\t--------------------------------------------------------------------------------\n\
+  \n\n5. Time Zone Database\nICU uses the public domain data and code derived from Time Zone\
+  \ Database for its time zone support. The ownership of the TZ database is explained in BCP\
+  \ 175: Procedure for Maintaining the Time Zone Database section 7.\n7.  Database Ownership\n\
+  \n   The TZ database itself is not an IETF Contribution or an IETF\n   document.  Rather it\
+  \ is a pre-existing and regularly updated work\n   that is in the public domain, and is intended\
+  \ to remain in the public\n   domain.  Therefore, BCPs 78 [RFC5378] and 79 [RFC3979] do not\
+  \ apply\n   to the TZ Database or contributions that individuals make to it.\n   Should any\
+  \ claims be made and substantiated against the TZ Database,\n   the organization that is providing\
+  \ the IANA Considerations defined in\n   this RFC, under the memorandum of understanding with\
+  \ the IETF,\n   currently ICANN, may act in accordance with all competent court\n   orders.\
+  \  No ownership claims will be made by ICANN or the IETF Trust\n   on the database or the\
+  \ code.  Any person making a contribution to the\n   database or code waives all rights to\
+  \ future claims in that\n   contribution or in the TZ Database."

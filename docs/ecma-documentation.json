@@ -5,5 +5,6 @@
   "category": "Free Restricted",
   "owner": "Ecma International",
   "homepage_url": "http://www.ecma-international.org/publications/DISCLAIMER.pdf",
-  "spdx_license_key": "LicenseRef-scancode-ecma-documentation"
+  "spdx_license_key": "LicenseRef-scancode-ecma-documentation",
+  "text": "This document and possible translations of it may be copied and furnished to\nothers, and derivative works that comment on or otherwise explain it or assist\nin its implementation may be prepared, copied, published, and distributed, in\nwhole or in part, without restriction of any kind, provided that the above\ncopyright notice and this section are included on all such copies and derivative\nworks. However, this document itself may not be modified in any way, including\nby removing the copyright notice or references to Ecma International, except as\nneeded for the purpose of developing any document or deliverable produced by\nEcma International (in which case the rules applied to copyrights must be\nfollowed) or as required to translate it into languages other than English. The\nlimited permissions granted above are perpetual and will not be revoked by Ecma\nInternational or its successors or assigns. This document and the information\ncontained herein is provided on an \"AS IS\" basis and ECMA INTERNATIONAL\nDISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY\nWARRANTY THAT THE USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY OWNERSHIP\nRIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR\nPURPOSE."
 }

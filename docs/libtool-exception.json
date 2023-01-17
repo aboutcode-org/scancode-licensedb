@@ -9,5 +9,6 @@
   "is_exception": true,
   "other_urls": [
     "http://git.savannah.gnu.org/cgit/libtool.git/tree/m4/libtool.m4"
-  ]
+  ],
+  "text": "As a special exception to the GNU General Public License, if you\ndistribute this file as part of a program or library that is built using\nGNU Libtool, you may include this file under the same distribution terms\nthat you use for the rest of that program."
 }

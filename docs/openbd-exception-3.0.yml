@@ -138,3 +138,17 @@ standard_notice: |
   ______ Support Mailing List _______
   You can subscribe to the public mailing list at:
   http://groups.google.com/group/openbd
+text: "Additional Permission Granted by tagServlet Ltd: \n  tagServlet Ltd grants the user the\
+  \ exception to distribute the entire \n  Open BlueDragon runtime libraries without the web\
+  \ application (.cfml, .html, \n  .js, .css, etc) that Open BlueDragon powers, from itself\
+  \ being licensed\n  under the GNU General Public License (v3), as long the entire runtime\
+  \ \n  remains intact and includes all license information.\n  \n  This exception does not\
+  \ overrule the embedded JAR files and where applicable\n  the entire Open BlueDragon runtime\
+  \ only, must be available for inspection if \n  ever asked, complete with all these copyright\
+  \ and license information.\n  \n  This applies only to distribution for the purpose of powering\
+  \ end-user CFML\n  applications.  This exception does not include embedding/linking any part\
+  \ of the \n  runtime of Open BlueDragon within any other application other than a Servlet\
+  \ container \n  whose sole purpose is to render CFML applications.   Linking or usage by any\n\
+  \  Java application (even through CFML), is not permitted.\n    \n  Any modification, enhancements,\
+  \ linking, to the Open BlueDragon runtime still falls \n  under the GNU General Public License\
+  \ (v3)."

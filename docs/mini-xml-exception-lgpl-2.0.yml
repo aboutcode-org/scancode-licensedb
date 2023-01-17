@@ -39,3 +39,15 @@ standard_notice: |
   http://www.gnu.org/licenses/old-licenses/lgpl-2.0.html - TOC1
 ignorable_urls:
   - http://www.gnu.org/licenses/old-licenses/lgpl-2.0.html
+text: "Mini-XML License (LGPL 2.0 with Exception)\n\nThe Mini-XML library and included programs\
+  \ are provided under the terms of the\nGNU Library General Public License (LGPL) with the\
+  \ following exceptions:\n\n1.\tStatic linking of applications to the Mini-XML library does\
+  \ not constitute a derivative work and does not require the author to provide source code\
+  \ for the application, use the shared Mini-XML libraries, or link their applications against\
+  \ a user-supplied version of Mini-XML. \nIf you link the application to a modified version\
+  \ of Mini-XML, then the changes to Mini-XML must be provided under the terms of the LGPL in\
+  \ sections 1, 2, and 4.\n\n2.\tYou do not have to provide a copy of the Mini-XML license with\
+  \ programs that are linked to the Mini-XML library, nor do you have to identify the Mini-XML\
+  \ license in your program or documentation as required by section 6 of the LGPL.\n\nGNU Library\
+  \ General Public License (LGPL 2.0)\nhttp://www.gnu.org/licenses/old-licenses/lgpl-2.0.html\
+  \ - TOC1"

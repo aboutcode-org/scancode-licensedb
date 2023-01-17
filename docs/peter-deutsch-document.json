@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-peter-deutsch-document",
   "text_urls": [
     "http://www.ietf.org/rfc/rfc1952.txt"
-  ]
+  ],
+  "text": "Permission is granted to copy and distribute this document for any\npurpose and without charge, including translations into other\nlanguages and incorporation into compilations, provided that the\ncopyright notice and this notice are preserved, and that any\nsubstantive changes or deletions from the original are clearly\nmarked."
 }

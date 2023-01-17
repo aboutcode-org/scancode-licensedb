@@ -4,5 +4,6 @@
   "name": "Unicode Mappings License",
   "category": "Permissive",
   "owner": "Unicode Consortium",
-  "spdx_license_key": "LicenseRef-scancode-unicode-mappings"
+  "spdx_license_key": "LicenseRef-scancode-unicode-mappings",
+  "text": "This file is provided as-is by Unicode, Inc. (The Unicode Consortium).\nNo claims are made as to fitness for any particular purpose.  No\nwarranties of any kind are expressed or implied.  The recipient\nagrees to determine applicability of information provided.  If this\nfile has been provided on optical media by Unicode, Inc., the sole\nremedy for any claim will be exchange of defective media within 90\ndays of receipt.\n\nUnicode, Inc. hereby grants the right to freely use the information\nsupplied in this file in the creation of products supporting the\nUnicode Standard, and to make copies of this file in any form for\ninternal or external distribution as long as this notice remains\nattached."
 }

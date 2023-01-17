@@ -6,5 +6,6 @@
   "owner": "Atos",
   "notes": "a rare, NTP-like license found in NTP. Origin B.V. was merged into Atos",
   "spdx_license_key": "LicenseRef-scancode-ntpl-origin",
-  "minimum_coverage": 90
+  "minimum_coverage": 90,
+  "text": "Permission to use, copy, modify and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the above copyright notice appears in all copies and\nthat both the copyright notice and this permission notice appear in\nsupporting documentation. This software is supported as is and without\nany express or implied warranties, including, without limitation, the\nimplied warranties of merchantability and fitness for a particular\npurpose. The name Origin B.V. must not be used to endorse or promote\nproducts derived from this software without prior written permission."
 }

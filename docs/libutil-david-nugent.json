@@ -8,5 +8,6 @@
   "other_urls": [
     "http://web.mit.edu/freebsd/head/lib/libutil/login_ok.3",
     "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd"
-  ]
+  ],
+  "text": "Redistribution and use in source and binary forms, with or without\nmodification, is permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice immediately at the beginning of the file, without modification,\n   this list of conditions, and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n3. This work was done expressly for inclusion into FreeBSD. Other use\n   is permitted provided this notation is included.\n4. Absolutely no warranty of function or purpose is made by the author\n   David Nugent.\n5. Modifications may be freely made to this file providing the above\n   conditions are met."
 }

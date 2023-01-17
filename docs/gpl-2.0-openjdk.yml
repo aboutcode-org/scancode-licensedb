@@ -9,3 +9,54 @@ notes: |
   instead
 is_exception: yes
 faq_url: http://openjdk.java.net/legal/exception-modules-2007-05-08.html
+text: "This library is free software; you can redistribute it and/or modify it under the terms\
+  \ of the GNU General Public License as published by the Free Software Foundation; either version\
+  \ 2, or (at your option) any later version.\n\nThis library is distributed in the hope that\
+  \ it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY\
+  \ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\
+  \nYou should have received a copy of the GNU General Public License along with this library;\
+  \ see the file COPYING.  If not, write to the Free Software Foundation, 51 Franklin Street,\
+  \ Fifth Floor, Boston, MA 02110-1301, USA.\n\n\"CLASSPATH\" EXCEPTION TO THE GPL VERSION 2\n\
+  \nCertain source files distributed by Sun Microsystems, Inc. are subject to the following\
+  \ clarification and special exception to the GPL Version 2, but only where Sun has expressly\
+  \ included in the particular source file's header the words\n\n\"Sun designates this particular\
+  \ file as subject to the \"Classpath\" exception as provided by Sun in the License file that\
+  \ accompanied this code.\"\n\nLinking this library statically or dynamically with other modules\
+  \ is making a combined work based on this library. Thus, the terms and conditions of the GNU\
+  \ General Public License Version 2 cover the whole combination.\n\nAs a special exception,\
+  \ the copyright holders of this library give you permission to link this library with independent\
+  \ modules to produce an executable, regardless of the license terms of these independent modules,\
+  \ and to copy and distribute the resulting executable under terms of your choice, provided\
+  \ that you also meet, for each linked independent module, the terms and conditions of the\
+  \ license of that module. An independent module is a module which is not derived from or based\
+  \ on this library. If you modify this library, you may extend this exception to your version\
+  \ of the library,  but you are not obligated to do so. If you do not wish to do so, delete\
+  \ this exception statement from your version. \n\nOPENJDK ASSEMBLY EXCEPTION\n\nThe OpenJDK\
+  \ source code made available openjdk.dev.java.net (\"OpenJDK Code\") is distributed under\
+  \ the terms of the GNU General Public License <http://www.gnu.org/copyleft/gpl.html> version\
+  \ 2 only (\"GPL2\"), with the following clarification and special exception.\n\nLinking this\
+  \ OpenJDK Code statically or dynamically with other code is making a combined work based on\
+  \ this library. Thus, the terms and conditions of GPL2 cover the whole combination.\n\nAs\
+  \ a special exception, Sun gives you permission to link this OpenJDK Code with certain code\
+  \ licensed by Sun as indicated at http://openjdk.java.net/legal/exception-modules-2007-05-08.html\
+  \ (\"Designated Exception Modules\") to produce an executable, regardless of the license terms\
+  \ of the Designated Exception Modules, and to copy and distribute the resulting executable\
+  \ under GPL2, provided that the Designated Exception Modules continue to be governed by the\
+  \ licenses under which they were offered by Sun.\n\nAs such, it allows licensees and sublicensees\
+  \ of Sun's GPL2 OpenJDK Code to build an executable that includes those portions of necessary\
+  \ code that Sun could not provide under GPL2 (or that Sun has provided under GPL2 with the\
+  \ Classpath exception). If you modify or add to the OpenJDK code, that new GPL2 code may still\
+  \ be combined with Designated Exception Modules if the new code is made subject to this exception\
+  \ by its copyright holder.\n\nfrom http://openjdk.java.net/legal/exception-modules-2007-05-08.html\
+  \ \nOpenJDK Designated Exception Modules\n8 May 2007\nFor purposes of those files in the OpenJDK\
+  \ distribution that are subject to the Assembly Exception, the following shall be deemed Designated\
+  \ Exception Modules:\n\nThose files in the OpenJDK distribution available at openjdk.java.net,\
+  \ openjdk.dev.java.net, and download.java.net to which Sun has applied the Classpath Exception,\n\
+  \nAny of your derivative works of #1 above, to the extent you license them under the GPLv2\
+  \ with the Classpath Exception as defined in the OpenJDK distribution available at openjdk.java.net,\
+  \ openjdk.dev.java.net, or download.java.net,\n\nAny files in the OpenJDK distribution that\
+  \ are made available at openjdk.java.net, openjdk.dev.java.net, or download.java.net under\
+  \ a binary code license, and\n\nAny files in the OpenJDK distribution that are made available\
+  \ at openjdk.java.net, openjdk.dev.java.net, or download.java.net under an open source license\
+  \ other than GPL, and your derivatives thereof that are in compliance with the applicable\
+  \ open source license."

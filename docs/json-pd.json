@@ -13,5 +13,6 @@
   "ignorable_urls": [
     "http://javascript.crockford.com/jsmin.html",
     "http://www.json.org/js.html"
-  ]
+  ],
+  "text": " Public Domain.\n\n NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.\n\n See http://www.JSON.org/js.html\n\nThis code should be minified before deployment.\nSee http://javascript.crockford.com/jsmin.html\n\nUSE YOUR OWN COPY. IT IS EXTREMELY UNWISE TO LOAD CODE FROM SERVERS YOU DO NOT CONTROL."
 }

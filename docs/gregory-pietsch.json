@@ -4,5 +4,6 @@
   "name": "Gregory Pietsch Liberal License",
   "category": "Permissive",
   "owner": "Unspecified",
-  "spdx_license_key": "LicenseRef-scancode-gregory-pietsch"
+  "spdx_license_key": "LicenseRef-scancode-gregory-pietsch",
+  "text": "This file and the accompanying getopt.c implementation file are hereby placed\nin the public domain without restrictions. Just give the auth credit, don't\nclaim you wrote it or prevent anyone else from using it."
 }

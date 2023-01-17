@@ -5,5 +5,6 @@
   "category": "Permissive",
   "owner": "Script Asylum",
   "homepage_url": "http://web.archive.org/web/20030720033728/http://www.scriptasylum.com/faqpage.html#p7",
-  "spdx_license_key": "LicenseRef-scancode-script-asylum"
+  "spdx_license_key": "LicenseRef-scancode-script-asylum",
+  "text": "Use of these materials are limited to personal and commercial use as long as\nlong as credits are left intact. Modification of the original material is\npermitted as long as credits for the original developer(s) are left intact and\npermission is granted by the developer(s)."
 }

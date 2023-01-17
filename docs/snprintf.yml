@@ -4,3 +4,6 @@ name: snprintf License
 category: Permissive
 owner: Unspecified
 spdx_license_key: LicenseRef-scancode-snprintf
+text: |
+  It may be used for any purpose as long as this notice remains intact on all
+  source code distributions.

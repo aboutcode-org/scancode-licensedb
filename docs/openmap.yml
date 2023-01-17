@@ -7,3 +7,77 @@ homepage_url: http://openmap-java.org/License.html
 notes: this is highly similar to an artistic license
 spdx_license_key: LicenseRef-scancode-openmap
 minimum_coverage: 60
+text: "OpenMap Software License Agreement\n               ----------------------------------\n\
+  \nThis Agreement sets forth the terms and conditions under which\nthe software known as OpenMap(tm)\
+  \ will be licensed by BBN\nTechnologies (\"BBN\") to you (\"Licensee\"), and by which Derivative\
+  \ \nWorks (as hereafter defined) of OpenMap will be licensed by you to BBN.\n\nDefinitions:\n\
+  \n \"Derivative Work(s)\" shall mean any revision, enhancement,\n modification, translation,\
+  \ abridgement, condensation or\n expansion created by Licensee or BBN that is based upon the\n\
+  \ Software or a portion thereof that would be a copyright\n infringement if prepared without\
+  \ the authorization of the\n copyright owners of the Software or portion thereof.\n\n \"OpenMap\"\
+  \ shall mean a programmer's toolkit for building map\n based applications as originally created\
+  \ by BBN, and any\n Derivative Works thereof as created by either BBN or Licensee,\n but shall\
+  \ include only those Derivative Works BBN has approved\n for inclusion into, and BBN has integrated\
+  \ into OpenMap.\n\n \"Standard Version\" shall mean OpenMap, as originally created by\n BBN.\n\
+  \n \"Software\" shall mean OpenMap and the Derivative Works created\n by Licensee and the\
+  \ collection of files distributed by the\n Licensee with OpenMap, and the collection of files\
+  \ created\n through textual modifications.\n\n \"Copyright Holder\" is whoever is named in\
+  \ the copyright or\n copyrights for the Derivative Works.\n\n \"Licensee\" is you, only if\
+  \ you agree to be bound by the terms\n and conditions set forth in this Agreement.\n\n \"\
+  Reasonable copying fee\" is whatever you can justify on the\n basis of media cost, duplication\
+  \ charges, time of people\n involved.\n\n \"Freely Available\" means that no fee is charged\
+  \ for the item\n itself, though there may be fees involved in handling the item.\n It also\
+  \ means that recipients of the item may redistribute it\n under the same conditions that they\
+  \ received it.\n\n1. BBN maintains all rights, title and interest in and to\nOpenMap, including\
+  \ all applicable copyrights, trade secrets,\npatents and other intellectual rights therein.\
+  \  Licensee hereby\ngrants to BBN all right, title and interest into the compilation\nof OpenMap.\
+  \  Licensee shall own all rights, title and interest\ninto the Derivative Works created by\
+  \ Licensee (subject to the\ncompilation ownership by BBN).\n\n2. BBN hereby grants to Licensee\
+  \ a royalty free, worldwide right\nand license to use, copy, distribute and make Derivative\
+  \ Works of\nOpenMap, and sublicensing rights of any of the foregoing in\naccordance with the\
+  \ terms and conditions of this Agreement,\nprovided that you duplicate all of the original\
+  \ copyright notices\nand associated disclaimers.\n\n3. Licensee hereby grants to BBN a royalty\
+  \ free, worldwide right\nand license to use, copy, distribute and make Derivative Works of\n\
+  Derivative Works created by Licensee and sublicensing rights of\nany of the foregoing.\n\n\
+  4. Licensee's right to create Derivative Works in the Software is\nsubject to Licensee agreement\
+  \ to insert a prominent notice in\neach changed file stating how and when you changed that\
+  \ file, and\nprovided that you do at least ONE of the following:\n\n    a) place your modifications\
+  \ in the Public Domain or otherwise\n       make them Freely Available, such as by posting\
+  \ said\n       modifications to Usenet or an equivalent medium, or\n       placing the modifications\
+  \ on a major archive site and by\n       providing your modifications to the Copyright Holder.\n\
+  \n    b) use the modified Package only within your corporation or\n       organization.\n\n\
+  \    c) rename any non-standard executables so the names do not\n       conflict with standard\
+  \ executables, which must also be\n       provided, and provide a separate manual page for\
+  \ each\n       non-standard executable that clearly documents how it\n       differs from\
+  \ OpenMap.\n\n    d) make other distribution arrangements with the Copyright\n       Holder.\n\
+  \n5. Licensee may distribute the programs of this Software in\nobject code or executable form,\
+  \ provided that you do at least ONE\nof the following:\n\n    a) distribute an OpenMap version\
+  \ of the executables and\n       library files, together with instructions (in the manual\n\
+  \       page or equivalent) on where to get OpenMap.\n\n    b) accompany the distribution\
+  \ with the machine-readable\n       source code with your modifications.\n\n    c) accompany\
+  \ any non-standard executables with their\n       corresponding OpenMap executables, giving\
+  \ the non-standard\n       executables non-standard names, and clearly documenting\n     \
+  \  the differences in manual pages (or equivalent), together\n       with instructions on\
+  \ where to get OpenMap.\n\n    d) make other distribution arrangements with the Copyright\n\
+  \       Holder.\n\n6. You may charge a reasonable copying fee for any distribution\nof this\
+  \ Software.  You may charge any fee you choose for support\nof this Software.  You may not\
+  \ charge a fee for this Software\nitself.  However, you may distribute this Software in aggregate\n\
+  with other (possibly commercial) programs as part of a larger\n(possibly commercial) software\
+  \ distribution provided that you do\nnot advertise this Software as a product of your own.\n\
+  \n7. The data and images supplied as input to or produced as output\nfrom the Software do\
+  \ not automatically fall under the copyright\nof this Software, but belong to whomever generated\
+  \ them, and may\nbe sold commercially, and may be aggregated with this Software.\n\n8. BBN\
+  \ makes no representation about the suitability of OpenMap\nfor any purposes.  BBN shall have\
+  \ no duty or requirement to\ninclude any Derivative Works into OpenMap.\n\n9. Each party hereto\
+  \ represents and warrants that they have the\nfull unrestricted right to grant all rights\
+  \ and licenses granted\nto the other party herein.\n\n10. THIS PACKAGE IS PROVIDED \"AS IS\"\
+  \ WITHOUT WARRANTIES OF ANY\nKIND, WHETHER EXPRESS OR IMPLIED, INCLUDING (BUT NOT LIMITED\
+  \ TO)\nALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, AND\nWITHOUT ANY WARRANTIES\
+  \ AS TO NONINFRINGEMENT.\n\n11. IN NO EVENT SHALL COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT,\n\
+  SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER RESULTING\nFROM LOSS OF USE OF DATA\
+  \ OR PROFITS, WHETHER IN AN ACTION OF\nCONTRACT, NEGLIGENCE OR OTHER TORTIOUS CONDUCT, ARISING\
+  \ OUT OF OR\nIN CONNECTION WITH THE USE OR PERFORMANCE OF THIS PACKAGE.\n\n12. Without limitation\
+  \ of the foregoing, You agree to commit no\nact which, directly or indirectly, would violate\
+  \ any U.S. law,\nregulation, or treaty, or any other international treaty or\nagreement to\
+  \ which the United States adheres or with which the\nUnited States complies, relating to the\
+  \ export or re-export of\nany commodities, software, or technical data."

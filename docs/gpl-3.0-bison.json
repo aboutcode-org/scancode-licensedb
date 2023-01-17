@@ -9,5 +9,6 @@
   "is_exception": true,
   "other_urls": [
     "http://www.gnu.org/licenses/gpl-3.0.txt"
-  ]
+  ],
+  "text": "Skeleton implementation for Bison's Yacc-like parsers in C\n\nCopyright (C) 1984, 1989-1990, 2000-2006, 2009-2010 Free Software\nFoundation, Inc.\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n\nAs a special exception, you may create a larger work that contains\npart or all of the Bison parser skeleton and distribute that work\nunder terms of your choice, so long as that work isn't itself a\nparser generator using the skeleton or a modified version thereof\nas a parser skeleton.  Alternatively, if you modify or redistribute\nthe parser skeleton itself, you may (at your option) remove this\nspecial exception, which will cause the skeleton and the resulting\nBison output files to be licensed under the GNU General Public\nLicense without this special exception.\n\nThis special exception was added by the Free Software Foundation in\nversion 2.2 of Bison."
 }

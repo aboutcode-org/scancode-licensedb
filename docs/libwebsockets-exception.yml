@@ -51,3 +51,28 @@ standard_notice: |
   ------ end of exceptions
 ignorable_urls:
   - https://libwebsockets.org/
+text: "Libwebsockets and included programs are provided under the terms of the GNU\nLibrary\
+  \ General Public License (LGPL) 2.1, with the following exceptions:\n\n1) Any reference, whether\
+  \ in these modifications or in the GNU\nLibrary General Public License 2.1, to this License,\
+  \ these terms, the\nGNU Lesser Public License,  GNU Library General Public License, LGPL,\
+  \ or\nany similar reference shall refer to the GNU Library General Public\nLicense 2.1 as\
+  \ modified by these paragraphs 1) through 4).\n\n2) Static linking of programs with the libwebsockets\
+  \ library does not\nconstitute a derivative work and does not require the author to provide\
+  \ \nsource code for the program, use the shared libwebsockets libraries, or\nlink their program\
+  \ against a user-supplied version of libwebsockets.\n\nIf you link the program to a modified\
+  \ version of libwebsockets, then the\nchanges to libwebsockets must be provided under the\
+  \ terms of the LGPL in\nsections 1, 2, and 4.\n\n3) You do not have to provide a copy of the\
+  \ libwebsockets license with\nprograms that are linked to the libwebsockets library, nor do\
+  \ you have to\nidentify the libwebsockets license in your program or documentation as\nrequired\
+  \ by section 6 of the LGPL.\n\nHowever, programs must still identify their use of libwebsockets.\
+  \ The\nfollowing example statement can be included in user documentation to\nsatisfy this\
+  \ requirement:\n\n\"[program] is based in part on the work of the libwebsockets  project\n\
+  (https://libwebsockets.org)\"\n\n4) Some sources included have their own, more liberal licenses,\
+  \ or options\nto get original sources with the liberal terms.\n\nOriginal liberal license\
+  \ retained\n\n  - lib/sha-1.c         - 3-clause BSD license retained, link to original\n\
+  \  - win32port/zlib      - ZLIB license (see zlib.h)\n  - lib/mbedtls_wrapper - Apache 2.0\
+  \ (only built if linked against mbedtls)\n\nRelicensed to libwebsocket license\n\n  - lib/base64-decode.c\
+  \ - relicensed to LGPL2.1+SLE, link to original\n  - lib/daemonize.c     - relicensed from\
+  \ Public Domain to LGPL2.1+SLE,\n                          link to original Public Domain\
+  \ version\n\nPublic Domain (CC-zero) to simplify reuse\n\n  - test-apps/*.c\n  - test-apps/*.h\n\
+  \  - lwsws/*\n\n------ end of exceptions"

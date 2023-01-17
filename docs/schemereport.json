@@ -4,5 +4,6 @@
   "name": "Scheme Language Report License",
   "category": "Permissive",
   "owner": "ChezScheme",
-  "spdx_license_key": "SchemeReport"
+  "spdx_license_key": "SchemeReport",
+  "text": "; We intend this report to belong to the entire Scheme community, and so\n; we grant permission to copy it in whole or in part without fee.  In\n; particular, we encourage implementors of Scheme to use this report as\n; a starting point for manuals and other documentation, modifying it as\n; necessary."
 }

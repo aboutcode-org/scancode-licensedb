@@ -8,5 +8,6 @@
   "spdx_license_key": "LicenseRef-scancode-bsd-no-disclaimer",
   "other_urls": [
     "https://github.com/miekg/miek.nl/blob/17ef2d311da721ccb3ddb3649ec41ff51305952f/static/downloads/2009/tt.pl.txt#L5"
-  ]
+  ],
+  "text": "# Redistribution and use in source and binary forms, with or without\n# modification, are permitted provided that the following conditions\n# are met:\n# 1. Redistributions of source code must retain the above copyright\n#    notice and this list of conditions.\n# 2. Redistributions in binary form must reproduce the above copyright\n#    notice and this list of conditions in the\n#    documentation and/or other materials provided with the distribution."
 }
