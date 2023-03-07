@@ -4,11 +4,14 @@ name: CLIPS License 2017
 category: Permissive
 owner: CLIPS
 homepage_url: https://www.clipsrules.net/
-spdx_license_key: LicenseRef-scancode-clips-2017
+spdx_license_key: Clips
+other_spdx_license_keys:
+  - LicenseRef-scancode-clips-2017
 text_urls:
   - https://kumisystems.dl.sourceforge.net/project/clipsrules/CLIPS/6.40/clips_core_source_640.tar.gz
 other_urls:
   - https://sourceforge.net/projects/clipsrules
+  - https://github.com/DrItanium/maya/blob/master/LICENSE.CLIPS
 text: "CLIPS License Information\n\nPermission is hereby granted, free of charge, to any person\
   \ obtaining a \ncopy of this software (the \"Software\"), to deal in the Software without\
   \ \nrestriction, including without limitation the rights to use, copy, modify, \nmerge, publish,\

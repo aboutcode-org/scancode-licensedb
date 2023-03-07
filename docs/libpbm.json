@@ -5,12 +5,16 @@
   "category": "Permissive",
   "owner": "ACME Labs",
   "homepage_url": "http://web.mit.edu/tex/fontutil/fontutils-0.6/pbm/libpbm1.c",
-  "spdx_license_key": "LicenseRef-scancode-libpbm",
+  "spdx_license_key": "xlock",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-libpbm"
+  ],
   "text_urls": [
     "http://web.mit.edu/tex/fontutil/fontutils-0.6/pbm/libpbm1.c"
   ],
   "other_urls": [
-    "http://sourceforge.net/p/netpbm/code/HEAD/tree/trunk/doc/COPYRIGHT.PATENT"
+    "http://sourceforge.net/p/netpbm/code/HEAD/tree/trunk/doc/COPYRIGHT.PATENT",
+    "https://fossies.org/linux/tiff/contrib/ras/ras2tif.c"
   ],
   "text": "Permission to use, copy, modify, and distribute this software and its documentation\nfor any purpose and without fee is hereby granted, provided that the above copyright\nnotice appear in all copies and that both that copyright notice and this permission\nnotice appear in supporting documentation.  This software is provided \"as is\" without\nexpress or implied warranty."
 }

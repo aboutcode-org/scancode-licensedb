@@ -1,12 +1,15 @@
 {
   "key": "brian-gladman-dual",
-  "is_deprecated": true,
   "short_name": "Brian Gladman Dual BSD-GPL",
   "name": "Brian Gladman Dual BSD-GPL",
   "category": "Permissive",
   "owner": "Brian Gladman",
   "homepage_url": "http://www.gladman.me.uk/",
   "notes": "this is a composite of gpl-2.0-plus AND brian-gladman-3-clause. See the addition of \"of your choice\" to the text based on https://github.com/BrianGladman/aes/issues/7#issuecomment-155121598 BrianGladman commented on Nov 9, 2015 Hi Jonas, I really wish now that I had not done this dual licensing as the BSD license should have been sufficient. But someone at the time wouldn't accept this and insisted on the GPL. You can interpret the GPL license on any of my code wherever it appears as \"ALTERNATIVELY, provided that this notice is retained in full, this product may be distributed under the terms of a GNU General Public License (GPL) of your choice, in which case the provisions of this GPL apply INSTEAD OF those given above.\" I hope that helps, if not please get back to me.",
+  "spdx_license_key": "Brian-Gladman-3-Clause",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-brian-gladman-dual"
+  ],
   "text_urls": [
     "https://github.com/basho/skerl/blob/master/c_src/brg_types.h"
   ],
@@ -14,7 +17,8 @@
     "http://brgladman.org/",
     "http://fp.gladman.plus.com/",
     "http://www.ecrypt.eu.org/stream/svn/viewcvs.cgi/ecrypt/trunk/benchmarks/aes-ctr/aes-128/gladman/aes.h?diff_format=s&rev=190&view=auto",
-    "https://launchpad.net/ubuntu/oneiric/+source/silc-server/+copyright"
+    "https://launchpad.net/ubuntu/oneiric/+source/silc-server/+copyright",
+    "https://github.com/SWI-Prolog/packages-clib/blob/master/sha1/brg_endian.h"
   ],
   "text": "LICENSE TERMS\n\n The free distribution and use of this software in both source and binary\n form is allowed (with or without changes) provided that:\n\n   1. distributions of this source code include the above copyright\n      notice, this list of conditions and the following disclaimer;\n\n   2. distributions in binary form include the above copyright\n      notice, this list of conditions and the following disclaimer\n      in the documentation and/or other associated materials;\n\n   3. the copyright holder's name is not used to endorse products\n      built using this software without specific written permission.\n\n ALTERNATIVELY, provided that this notice is retained in full, this product\n may be distributed under the terms of the GNU General Public License (GPL),\n of your choice\n in which case the provisions of the GPL apply INSTEAD OF those given above.\n\n DISCLAIMER\n\n This software is provided 'as is' with no explicit or implied warranties\n in respect of its properties, including, but not limited to, correctness\n and/or fitness for purpose."
 }

@@ -5,12 +5,16 @@
   "category": "Permissive",
   "owner": "CLIPS",
   "homepage_url": "https://www.clipsrules.net/",
-  "spdx_license_key": "LicenseRef-scancode-clips-2017",
+  "spdx_license_key": "Clips",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-clips-2017"
+  ],
   "text_urls": [
     "https://kumisystems.dl.sourceforge.net/project/clipsrules/CLIPS/6.40/clips_core_source_640.tar.gz"
   ],
   "other_urls": [
-    "https://sourceforge.net/projects/clipsrules"
+    "https://sourceforge.net/projects/clipsrules",
+    "https://github.com/DrItanium/maya/blob/master/LICENSE.CLIPS"
   ],
   "text": "CLIPS License Information\n\nPermission is hereby granted, free of charge, to any person obtaining a \ncopy of this software (the \"Software\"), to deal in the Software without \nrestriction, including without limitation the rights to use, copy, modify, \nmerge, publish, distribute, and/or sell copies of the Software, and to \npermit persons to whom the Software is furnished to do so.                             \n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR \nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, \nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. \nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL \nINDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM \nLOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE \nOR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR \nPERFORMANCE OF THIS SOFTWARE."
 }

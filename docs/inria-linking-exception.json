@@ -6,10 +6,14 @@
   "owner": "INRIA",
   "homepage_url": "http://para.inria.fr/~maranget/hevea/distri/LICENSE",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-inria-linking-exception",
-  "other_urls": [
-    "http://para.inria.fr/~maranget/hevea/distri/hevea-2.32.tar.gz"
+  "spdx_license_key": "QPL-1.0-INRIA-2004-exception",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-inria-linking-exception"
   ],
-  "standard_notice": "As a special exception to the Q Public Licence, you may develop\napplication programs, reusable components and other software items\nthat link with the original or modified versions of the Software\nand are not made available to the general public, without any of the\nadditional requirements listed in clause 6c of the Q Public licence.\nTHE Q PUBLIC LICENSE version 1.0\n",
+  "other_urls": [
+    "http://para.inria.fr/~maranget/hevea/distri/hevea-2.32.tar.gz",
+    "https://git.frama-c.com/pub/frama-c/-/blob/master/licenses/Q_MODIFIED_LICENSE",
+    "https://github.com/maranget/hevea/blob/master/LICENSE"
+  ],
   "text": "As a special exception to the Q Public Licence, you may develop\napplication programs, reusable components and other software items\nthat link with the original or modified versions of the Software\nand are not made available to the general public, without any of the\nadditional requirements listed in clause 6c of the Q Public licence."
 }
