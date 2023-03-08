@@ -1,0 +1,11 @@
+{
+  "key": "object-form-exception-to-mit",
+  "short_name": "Object Form Exception to MIT",
+  "name": "Object Form Exception to MIT",
+  "category": "Permissive",
+  "owner": "Android Open Source Project",
+  "homepage_url": "https://android.googlesource.com/platform/external/fmtlib/+/refs/heads/master/LICENSE.rst",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-object-form-exception-to-mit",
+  "text": "Optional exception to the license\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into a machine-executable object form of such\nsource code, you may redistribute such embedded portions in such object form\nwithout including the above copyright and permission notices."
+}

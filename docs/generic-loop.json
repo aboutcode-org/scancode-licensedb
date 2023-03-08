@@ -1,0 +1,12 @@
+{
+  "key": "generic-loop",
+  "short_name": "Common Lisp Generic LOOP License",
+  "name": "Common Lisp Generic LOOP License",
+  "category": "Permissive",
+  "owner": "Clisp",
+  "spdx_license_key": "LicenseRef-scancode-generic-loop",
+  "other_urls": [
+    "https://github.com/search?l=Common+Lisp&p=19&q=\"Notice+must+be+given\"&type=Code"
+  ],
+  "text": "Permission to use, copy, modify and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted,\nprovided that the copyright notice appear in all copies and\nthat both that copyright notice and this permission notice appear in\nsupporting documentation.  The name of the author may not be used in\nadvertising or publicity pertaining to distribution of the software\nwithout specific, written prior permission.  Notice must be given in\nsupporting documentation that copying distribution is by permission of\nthe author. The author makes no representations about the suitability of\nthis software for any purpose.  It is provided \"as is\" without express\nor implied warranty."
+}

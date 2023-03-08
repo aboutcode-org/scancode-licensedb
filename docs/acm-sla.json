@@ -1,0 +1,25 @@
+{
+  "key": "acm-sla",
+  "short_name": "ACM SLA",
+  "name": "ACM Software License Agreement",
+  "category": "Proprietary Free",
+  "owner": "ACM",
+  "homepage_url": "https://www.acm.org/publications/policies/software-copyright-notice",
+  "spdx_license_key": "LicenseRef-scancode-acm-sla",
+  "other_urls": [
+    "https://github.com/search?q=\"ACM+Software+License+Agreement\"&type=code"
+  ],
+  "ignorable_copyrights": [
+    "copyrighted by ACM"
+  ],
+  "ignorable_holders": [
+    "ACM"
+  ],
+  "ignorable_authors": [
+    "the original work and others"
+  ],
+  "ignorable_emails": [
+    "permissions@acm.org"
+  ],
+  "text": "Permission to include in application software or to make digital or hard copies\nof part or all of this work is subject to the following licensing agreement.\n\nACM Software License Agreement\n\nAll software, both binary and source published by the Association for\nComputing Machinery (hereafter, Software) is copyrighted by the\nAssociation (hereafter, ACM) and ownership of all right, title and\ninterest in and to the Software remains with ACM. By using or copying\nthe Software, User agrees to abide by the terms of this Agreement.\n\nNoncommercial Use\n\nThe ACM grants to you (hereafter, User) a royalty-free, nonexclusive\nright to execute, copy, modify and distribute both the binary and\nsource code solely for academic, research and other similar\nnoncommercial uses, subject to the following conditions:\n\n   1. User acknowledges that the Software is still in the development\n   stage and that it is being supplied \"as is,\" without any support\n   services from ACM. Neither ACM nor the author makes any\n   representations or warranties, express or implied, including,\n   without limitation, any representations or warranties of the\n   merchantability or fitness for any particular purpose, or that the\n   application of the software, will not infringe on any patents or\n   other proprietary rights of others.\n\n   2. ACM shall not be held liable for direct, indirect, incidental or\n   consequential damages arising from any claim by User or any third\n   party with respect to uses allowed under this Agreement, or from\n   any use of the Software.\n   \n   3. User agrees to fully indemnify and hold harmless ACM and/or the\n   author(s) of the original work from and against any and all claims,\n   demands, suits, losses, damages, costs and expenses arising out of\n   the User's use of the Software, including, without limitation,\n   arising out of the User's modification of the Software.\n\n   4. User may modify the Software and distribute that modified work\n   to third parties provided that: (a) if posted separately, it\n   clearly acknowledges that it contains material copyrighted by ACM\n   (b) no charge is associated with such copies, (c) User agrees to\n   notify ACM and the Author(s) of the distribution, and (d) User\n   clearly notifies secondary users that such modified work is not the\n   original Software.\n   \n   5. User agrees that ACM, the authors of the original work and\n   others may enjoy a royalty-free, non-exclusive license to use,\n   copy, modify and redistribute these modifications to the Software\n   made by the User and distributed to third parties as a derivative\n   work under this agreement.\n   \n   6. This agreement will terminate immediately upon User's breach of,\n   or non-compliance with, any of its terms. User may be held liable\n   for any copyright infringement or the infringement of any other\n   proprietary rights in the Software that is caused or facilitated by\n   the User's failure to abide by the terms of this agreement.\n\n   7. This agreement will be construed and enforced in accordance with\n   the law of the state of New York applicable to contracts performed\n   entirely within the State. The parties irrevocably consent to the\n   exclusive jurisdiction of the state or federal courts located in\n   the City of New York for all disputes concerning this agreement.\n\nCommercial Use\n\nAny User wishing to make a commercial use of the Software must contact\nACM at permissions@acm.org to arrange an appropriate license.\nCommercial use includes (1) integrating or incorporating all or part\nof the source code into a product for sale or license by, or on behalf\nof, User to third parties, or (2) distribution of the binary or source\ncode to third parties for use with a commercial product sold or\nlicensed by, or on behalf of, User.\n\nRevised 6/98"
+}

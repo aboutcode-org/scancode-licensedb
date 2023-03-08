@@ -1,0 +1,15 @@
+key: kazlib
+short_name: Kazlib
+name: Kazlib License
+category: Permissive
+owner: Kaz Kylheku
+homepage_url: http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036
+spdx_license_key: Kazlib
+text: "Free Software License: \nAll rights are reserved by the author, with the following exceptions:\n\
+  Permission is granted to freely reproduce and distribute this software,\npossibly in exchange\
+  \ for a fee, provided that this copyright notice appears intact.\nPermission is also granted\
+  \ to adapt this software to produce derivative works,\nas long as the modified versions carry\
+  \ this copyright notice and additional notices\nstating that the work has been modified. This\
+  \ source code may be translated into\nexecutable form and incorporated into proprietary software;\
+  \ there is no requirement\nfor such software to contain a copyright notice related to this\
+  \ source."
