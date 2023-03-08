@@ -1,0 +1,13 @@
+{
+  "key": "cfitsio",
+  "short_name": "CFITSIO License",
+  "name": "CFITSIO License",
+  "category": "Permissive",
+  "owner": "NASA",
+  "homepage_url": "https://heasarc.gsfc.nasa.gov/docs/software/fitsio/c/f_user/node9.html",
+  "notes": "this is  a combination of us-govt-public-domain AND nist-pd licenses but SPDX\ndoes not recognize public-domain as a license so they have created a new license\nfor this specific text. Minimum coverage is added to ensure both parts are detected.\n",
+  "spdx_license_key": "CFITSIO",
+  "faq_url": "https://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html",
+  "minimum_coverage": 90,
+  "text": "Copyright (Unpublished-all rights reserved under the copyright laws of the United States),\nU.S. Government as represented by the Administrator of the National Aeronautics and Space\nAdministration. No copyright is claimed in the United States under Title 17, U.S. Code.\n\nPermission to freely use, copy, modify, and distribute this software and its documentation\nwithout fee is hereby granted, provided that this copyright notice and disclaimer of warranty\nappears in all copies.\n\nDISCLAIMER:\n\nTHE SOFTWARE IS PROVIDED 'AS IS' WITHOUT ANY WARRANTY OF ANY KIND, EITHER EXPRESSED, IMPLIED,\nOR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTY THAT THE SOFTWARE WILL CONFORM TO\nSPECIFICATIONS, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,\nAND FREEDOM FROM INFRINGEMENT, AND ANY WARRANTY THAT THE DOCUMENTATION WILL CONFORM TO\nTHE SOFTWARE, OR ANY WARRANTY THAT THE SOFTWARE WILL BE ERROR FREE. IN NO EVENT SHALL NASA\nBE LIABLE FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO, DIRECT, INDIRECT, SPECIAL OR\nCONSEQUENTIAL DAMAGES, ARISING OUT OF, RESULTING FROM, OR IN ANY WAY CONNECTED WITH THIS\nSOFTWARE, WHETHER OR NOT BASED UPON WARRANTY, CONTRACT, TORT , OR OTHERWISE, WHETHER OR NOT\nINJURY WAS SUSTAINED BY PERSONS OR PROPERTY OR OTHERWISE, AND WHETHER OR NOT LOSS WAS\nSUSTAINED FROM, OR AROSE OUT OF THE RESULTS OF, OR USE OF, THE SOFTWARE OR SERVICES\nPROVIDED HEREUNDER."
+}

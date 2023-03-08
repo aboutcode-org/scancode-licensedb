@@ -1,0 +1,10 @@
+{
+  "key": "w3m",
+  "short_name": "w3m License",
+  "name": "w3m License",
+  "category": "Permissive",
+  "owner": "tats",
+  "homepage_url": "https://github.com/tats/w3m/blob/master/COPYING",
+  "spdx_license_key": "w3m",
+  "text": "Use, modification and redistribution of this software is hereby granted,\nprovided that this entire copyright notice is included on any copies of\nthis software and applications and derivations thereof.\n\nThis software is provided on an \"as is\" basis, without warranty of any\nkind, either expressed or implied, as to any matter including, but not\nlimited to warranty of fitness of purpose, or merchantability, or\nresults obtained from use of this software."
+}
