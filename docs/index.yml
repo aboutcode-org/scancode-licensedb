@@ -1904,6 +1904,16 @@
   yaml: blas-2017.yml
   html: blas-2017.html
   license: blas-2017.LICENSE
+- license_key: blender-2010
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-blender-2010
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: blender-2010.json
+  yaml: blender-2010.yml
+  html: blender-2010.html
+  license: blender-2010.LICENSE
 - license_key: blessing
   category: Public Domain
   spdx_license_key: blessing
@@ -6677,6 +6687,16 @@
   yaml: gary-s-brown.yml
   html: gary-s-brown.html
   license: gary-s-brown.LICENSE
+- license_key: gatling-highcharts
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-gatling-highcharts
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: gatling-highcharts.json
+  yaml: gatling-highcharts.yml
+  html: gatling-highcharts.html
+  license: gatling-highcharts.LICENSE
 - license_key: gcc-compiler-exception-2.0
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-gcc-compiler-exception-2.0
@@ -8187,6 +8207,26 @@
   yaml: gplcc-1.0.yml
   html: gplcc-1.0.html
   license: gplcc-1.0.LICENSE
+- license_key: gradle-enterprise-sla-2022-11-08
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-gradle-enterprise-sla-2022-11-
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: gradle-enterprise-sla-2022-11-08.json
+  yaml: gradle-enterprise-sla-2022-11-08.yml
+  html: gradle-enterprise-sla-2022-11-08.html
+  license: gradle-enterprise-sla-2022-11-08.LICENSE
+- license_key: gradle-tou-2022-01-13
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-gradle-tou-2022-01-13
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: gradle-tou-2022-01-13.json
+  yaml: gradle-tou-2022-01-13.yml
+  html: gradle-tou-2022-01-13.html
+  license: gradle-tou-2022-01-13.LICENSE
 - license_key: graphics-gems
   category: Permissive
   spdx_license_key: Graphics-Gems
@@ -10822,6 +10862,16 @@
   yaml: license-file-reference.yml
   html: license-file-reference.html
   license: license-file-reference.LICENSE
+- license_key: liferay-ee
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-liferay-ee
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: liferay-ee.json
+  yaml: liferay-ee.yml
+  html: liferay-ee.html
+  license: liferay-ee.LICENSE
 - license_key: liferay-marketplace-tos
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-liferay-marketplace-tos
@@ -11760,6 +11810,16 @@
   yaml: mit-export-control.yml
   html: mit-export-control.html
   license: mit-export-control.LICENSE
+- license_key: mit-kyle-restrictions
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-mit-kyle-restrictions
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mit-kyle-restrictions.json
+  yaml: mit-kyle-restrictions.yml
+  html: mit-kyle-restrictions.html
+  license: mit-kyle-restrictions.LICENSE
 - license_key: mit-license-1998
   category: Permissive
   spdx_license_key: LicenseRef-scancode-mit-license-1998
@@ -18829,6 +18889,16 @@
   yaml: tatu-ylonen.yml
   html: tatu-ylonen.html
   license: tatu-ylonen.LICENSE
+- license_key: tcg-spec-license-v1
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-tcg-spec-license-v1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: tcg-spec-license-v1.json
+  yaml: tcg-spec-license-v1.yml
+  html: tcg-spec-license-v1.html
+  license: tcg-spec-license-v1.LICENSE
 - license_key: tcl
   category: Permissive
   spdx_license_key: TCL
@@ -18939,6 +19009,16 @@
   yaml: tfl.yml
   html: tfl.html
   license: tfl.LICENSE
+- license_key: tgc-spec-license-v2
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-tcg-spec-license-v2
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: tgc-spec-license-v2.json
+  yaml: tgc-spec-license-v2.yml
+  html: tgc-spec-license-v2.html
+  license: tgc-spec-license-v2.LICENSE
 - license_key: tgppl-1.0
   category: Copyleft
   spdx_license_key: LicenseRef-scancode-tgppl-1.0
@@ -19794,6 +19874,16 @@
   yaml: vim.yml
   html: vim.html
   license: vim.LICENSE
+- license_key: vince
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-vince
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: vince.json
+  yaml: vince.yml
+  html: vince.html
+  license: vince.LICENSE
 - license_key: visual-idiot
   category: Permissive
   spdx_license_key: LicenseRef-scancode-visual-idiot
