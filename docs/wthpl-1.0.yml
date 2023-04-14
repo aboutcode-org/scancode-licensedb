@@ -7,11 +7,7 @@ homepage_url: https://github.com/UltCombo/WTHPL
 notes: a fork of the WTFPL
 spdx_license_key: LicenseRef-scancode-wthpl-1.0
 minimum_coverage: 50
-text: |
-              DO WHAT THE HELL YOU WANT TO PUBLIC LICENSE
-                      Version 1.0.0, October 2014
-
-              DO WHAT THE HELL YOU WANT TO PUBLIC LICENSE
-     TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-    0. You just DO WHAT THE HELL YOU WANT TO.
+text: "            DO WHAT THE HELL YOU WANT TO PUBLIC LICENSE\n                    Version\
+  \ 1.0.0, October 2014\n \n            DO WHAT THE HELL YOU WANT TO PUBLIC LICENSE\n   TERMS\
+  \ AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n \n  0. You just DO WHAT THE\
+  \ HELL YOU WANT TO."
