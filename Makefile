@@ -39,6 +39,7 @@ conf:
 	@git clone https://github.com/nexB/scancode-toolkit.git
 	@venv/bin/pip install --upgrade pip
 	@venv/bin/pip install -e ./scancode-toolkit/
+	@venv/bin/scancode-reindex-licenses
 
 restore:
 	@echo "-> Restoring the repository to a clean state"
