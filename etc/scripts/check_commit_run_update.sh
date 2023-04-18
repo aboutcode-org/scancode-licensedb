@@ -3,7 +3,7 @@
 set -e
 
 # Clear the repository
-make restore
+make clean
 
 # Create a virtualenv and clone scancode
 make conf
@@ -19,7 +19,7 @@ cd ../
 venv/bin/python ./etc/scripts/check_commit.py --commit "$COMMIT_LATEST"
 
 # build docs
-make html
+make licensedb
 
 # delete cloned scancode as only the doc updates should be commited
 rm -rf scancode-toolkit/

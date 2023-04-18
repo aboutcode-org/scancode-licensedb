@@ -1,7 +1,7 @@
 name: Update LicenseDB with latest updates from scancode-toolkit develop daily
 on:
   schedule:
-    - cron: '0 16 * * 0-6'
+    - cron: '0 16 * * 1-5'
   workflow_dispatch:
 
 jobs:
@@ -21,9 +21,6 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Give execute access to the script
-        run: chmod u+x ./etc/scripts/check_commit_run_update.sh
-
       - name: Run script
         run: ./etc/scripts/check_commit_run_update.sh
 
@@ -31,5 +28,6 @@ jobs:
         run: |
           git config --global user.name 'LicenseDB Update GitHub Action'
           git config --global user.email 'asmahapatra@nexb.com'
-          git commit -am "Automated LicenseDB update with latest from scancode-toolkit develop"
+          git add docs/* etc/*
+          git commit -m "Automated LicenseDB update with latest from scancode-toolkit develop"
           git push
