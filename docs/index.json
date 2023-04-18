@@ -14817,7 +14817,7 @@
   },
   {
     "license_key": "ms-cla",
-    "category": "Patent License",
+    "category": "CLA",
     "spdx_license_key": "LicenseRef-scancode-ms-cla",
     "other_spdx_license_keys": [],
     "is_exception": false,
