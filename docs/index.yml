@@ -10176,6 +10176,16 @@
   yaml: kevlin-henney.yml
   html: kevlin-henney.html
   license: kevlin-henney.LICENSE
+- license_key: kfgqpc-uthmanic-script-hafs
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-kfgqpc-uthmanic-script-hafs
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: kfgqpc-uthmanic-script-hafs.json
+  yaml: kfgqpc-uthmanic-script-hafs.yml
+  html: kfgqpc-uthmanic-script-hafs.html
+  license: kfgqpc-uthmanic-script-hafs.LICENSE
 - license_key: kfqf-accepted-gpl
   category: Copyleft
   spdx_license_key: LicenseRef-scancode-kfqf-accepted-gpl
