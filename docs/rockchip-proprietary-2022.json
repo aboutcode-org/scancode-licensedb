@@ -1,0 +1,10 @@
+{
+  "key": "rockchip-proprietary-2022",
+  "short_name": "Rockchip Proprietary 2022",
+  "name": "Rockchip Proprietary 2022",
+  "category": "Proprietary Free",
+  "owner": "Rockchip",
+  "homepage_url": "https://github.com/BPI-SINOVOIP/BPI-Rockchip-Android11/blob/master/vendor/rockchip/hardware/interfaces/neuralnetworks/1.0/default/prebuilts/librknnrt/include/rknn_api.h",
+  "spdx_license_key": "LicenseRef-scancode-rockchip-proprietary-2022",
+  "text": "The material in this file is confidential and contains trade secrets\nof Rockchip Corporation. This is proprietary information owned by\nRockchip Corporation. No part of this work may be disclosed,\nreproduced, copied, transmitted, or used in any way for any purpose,\nwithout the express written permission of Rockchip Corporation."
+}

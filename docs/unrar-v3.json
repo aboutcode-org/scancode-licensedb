@@ -1,0 +1,13 @@
+{
+  "key": "unrar-v3",
+  "short_name": "UnRar License v3",
+  "name": "UnRar License v3",
+  "category": "Source-available",
+  "owner": "RAR",
+  "homepage_url": "https://git.congatec.com/yocto/meta-openembedded/-/raw/7e26a1eda9cb5056f2d676651715762188f747dd/meta-oe/licenses/unRAR",
+  "spdx_license_key": "LicenseRef-scancode-unrar-v3",
+  "other_urls": [
+    "https://web.archive.org/web/20021208085735/http://www.rarlab.com/rar/unrarsrc-3.1.2.tar.gz  or  https://www.rarlab.com/rar/unrarsrc-3.1.0.tar.gz"
+  ],
+  "text": "******    *****   ******   unRAR - free utility for RAR archives\n **   **  **   **  **   **  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n ******   *******  ******    License for use and distribution of\n **   **  **   **  **   **   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n **   **  **   **  **   **         FREE portable version\n                                   ~~~~~~~~~~~~~~~~~~~~~\n\n      The source code of unRAR utility is freeware. This means:\n\n   1. All copyrights to RAR and the utility unRAR are exclusively\n      owned by the author - Eugene Roshal.\n\n   2. The unRAR sources may be used in any software to handle RAR\n      archives without limitations free of charge, but cannot be used\n      to re-create the RAR compression algorithm, which is proprietary.\n      Distribution of modified unRAR sources in separate form or as a\n      part of other software is permitted, provided that it is clearly\n      stated in the documentation and source comments that the code may\n      not be used to develop a RAR (WinRAR) compatible archiver.\n\n   3. The unRAR utility may be freely distributed. No person or company \n      may charge a fee for the distribution of unRAR without written\n      permission from the copyright holder.\n\n   4. THE RAR ARCHIVER AND THE UNRAR UTILITY ARE DISTRIBUTED \"AS IS\".\n      NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED.  YOU USE AT \n      YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, \n      DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING\n      OR MISUSING THIS SOFTWARE.\n\n   5. Installing and using the unRAR utility signifies acceptance of\n      these terms and conditions of the license.\n\n   6. If you don't agree with terms of the license you must remove\n      unRAR files from your storage devices and cease to use the\n      utility.\n\n      Thank you for your interest in RAR and unRAR.\n\n\n                                            Eugene Roshal"
+}

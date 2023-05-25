@@ -1,0 +1,19 @@
+{
+  "key": "ms-specification",
+  "short_name": "MS Specification License",
+  "name": "Microsoft Specification License",
+  "category": "Free Restricted",
+  "owner": "Microsoft",
+  "spdx_license_key": "LicenseRef-scancode-ms-specification",
+  "ignorable_copyrights": [
+    "Copyright (c) Microsoft Corporation.All"
+  ],
+  "ignorable_holders": [
+    "Microsoft"
+  ],
+  "ignorable_urls": [
+    "http://msdn.microsoft.com/library/en-us/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true",
+    "http://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp"
+  ],
+  "text": "Permission to copy, display and distribute the contents of this document (the\n\"Specification\"), in any medium for any purpose without fee or royalty is\nhereby granted, provided that you include the following notice on ALL copies of\nthe Specification, or portions thereof, that you make:\nCopyright (c) Microsoft Corporation.All rights reserved.Permission to copy,\ndisplay and distribute this document is available at:\nhttp://msdn.microsoft.com/library/en-us/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.\n\nNo right to create modifications or derivatives of this Specification is\ngranted herein. There is a separate patent license available to parties\ninterested in implementing software programs that can read and write files that\nconform to the Specification.This patent license is available at this\nlocation:http://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp.\n\nTHE SPECIFICATION IS PROVIDED \"AS IS\" AND MICROSOFT MAKES NO REPRESENTATIONS OR\nWARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR TITLE;\nTHAT THE CONTENTS OF THE SPECIFICATION ARE SUITABLE FOR ANY PURPOSE; NOR THAT\nTHE IMPLEMENTATION OF SUCH CONTENTS WILL NOT INFRINGE ANY THIRD PARTY PATENTS,\nCOPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. MICROSOFT WILL NOT BE LIABLE FOR ANY\nDIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF\nOR RELATING TO ANY USE OR DISTRIBUTION OF THE SPECIFICATION.\n\nThe name and trademarks of Microsoft may NOT be used in any manner, including\nadvertising or publicity pertaining to the Specification or its contents\nwithout specific, written prior permission. Title to copyright in the\nSpecification will at all times remain with Microsoft. No other rights are\ngranted by implication, estoppel or otherwise."
+}

@@ -1371,6 +1371,26 @@
   yaml: artistic-perl-1.0.yml
   html: artistic-perl-1.0.html
   license: artistic-perl-1.0.LICENSE
+- license_key: ascender-eula
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-ascender-eula
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ascender-eula.json
+  yaml: ascender-eula.yml
+  html: ascender-eula.html
+  license: ascender-eula.LICENSE
+- license_key: ascender-web-fonts
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-ascender-web-fonts
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ascender-web-fonts.json
+  yaml: ascender-web-fonts.yml
+  html: ascender-web-fonts.html
+  license: ascender-web-fonts.LICENSE
 - license_key: aslp
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-aslp
@@ -1511,6 +1531,16 @@
   yaml: attribution.yml
   html: attribution.html
   license: attribution.LICENSE
+- license_key: authorizenet-sdk
+  category: Free Restricted
+  spdx_license_key: LicenseRef-scancode-authorizenet-sdk
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: authorizenet-sdk.json
+  yaml: authorizenet-sdk.yml
+  html: authorizenet-sdk.html
+  license: authorizenet-sdk.LICENSE
 - license_key: autoconf-exception-2.0
   category: Copyleft Limited
   spdx_license_key: Autoconf-exception-2.0
@@ -1612,6 +1642,16 @@
   yaml: avisynth-linking-exception.yml
   html: avisynth-linking-exception.html
   license: avisynth-linking-exception.LICENSE
+- license_key: avsystem-5-clause
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-avsystem-5-clause
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: avsystem-5-clause.json
+  yaml: avsystem-5-clause.yml
+  html: avsystem-5-clause.html
+  license: avsystem-5-clause.LICENSE
 - license_key: bacula-exception
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-bacula-exception
@@ -1723,6 +1763,16 @@
   yaml: beri-hw-sw-1.0.yml
   html: beri-hw-sw-1.0.html
   license: beri-hw-sw-1.0.LICENSE
+- license_key: bigcode-open-rail-m-v1
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-bigcode-open-rail-m-v1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: bigcode-open-rail-m-v1.json
+  yaml: bigcode-open-rail-m-v1.yml
+  html: bigcode-open-rail-m-v1.html
+  license: bigcode-open-rail-m-v1.LICENSE
 - license_key: bigdigits
   category: Permissive
   spdx_license_key: LicenseRef-scancode-bigdigits
@@ -4328,6 +4378,16 @@
   yaml: cockroachdb-use-grant-for-bsl-1.1.yml
   html: cockroachdb-use-grant-for-bsl-1.1.html
   license: cockroachdb-use-grant-for-bsl-1.1.LICENSE
+- license_key: code-credit-license-1.0-0
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-code-credit-license-1.0.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: code-credit-license-1.0-0.json
+  yaml: code-credit-license-1.0-0.yml
+  html: code-credit-license-1.0-0.html
+  license: code-credit-license-1.0-0.LICENSE
 - license_key: code-credit-license-1.0.1
   category: Permissive
   spdx_license_key: LicenseRef-scancode-code-credit-license-1.0.1
@@ -4338,6 +4398,16 @@
   yaml: code-credit-license-1.0.1.yml
   html: code-credit-license-1.0.1.html
   license: code-credit-license-1.0.1.LICENSE
+- license_key: code-credit-license-1.1.0
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-code-credit-license-1.1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: code-credit-license-1.1.0.json
+  yaml: code-credit-license-1.1.0.yml
+  html: code-credit-license-1.1.0.html
+  license: code-credit-license-1.1.0.LICENSE
 - license_key: codeguru-permissions
   category: Permissive
   spdx_license_key: LicenseRef-scancode-codeguru-permissions
@@ -5060,6 +5130,26 @@
   yaml: dbcl-1.0.yml
   html: dbcl-1.0.html
   license: dbcl-1.0.LICENSE
+- license_key: dbmx-foss-exception-1.0.9
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-dbmx-foss-exception-1.0.9
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: dbmx-foss-exception-1.0.9.json
+  yaml: dbmx-foss-exception-1.0.9.yml
+  html: dbmx-foss-exception-1.0.9.html
+  license: dbmx-foss-exception-1.0.9.LICENSE
+- license_key: dbmx-linking-exception-1.0
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-dbmx-linking-exception-1.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: dbmx-linking-exception-1.0.json
+  yaml: dbmx-linking-exception-1.0.yml
+  html: dbmx-linking-exception-1.0.html
+  license: dbmx-linking-exception-1.0.LICENSE
 - license_key: dco-1.1
   category: CLA
   spdx_license_key: LicenseRef-scancode-dco-1.1
@@ -5391,6 +5481,16 @@
   yaml: drl-1.0.yml
   html: drl-1.0.html
   license: drl-1.0.LICENSE
+- license_key: drl-1.1
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-drl-1.1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: drl-1.1.json
+  yaml: drl-1.1.yml
+  html: drl-1.1.html
+  license: drl-1.1.LICENSE
 - license_key: dropbear
   category: Permissive
   spdx_license_key: LicenseRef-scancode-dropbear
@@ -5882,6 +5982,36 @@
   yaml: ellis-lab.yml
   html: ellis-lab.html
   license: ellis-lab.LICENSE
+- license_key: embedthis-evaluation
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-embedthis-evaluation
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: embedthis-evaluation.json
+  yaml: embedthis-evaluation.yml
+  html: embedthis-evaluation.html
+  license: embedthis-evaluation.LICENSE
+- license_key: embedthis-extension
+  category: Free Restricted
+  spdx_license_key: LicenseRef-scancode-embedthis-extension
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: embedthis-extension.json
+  yaml: embedthis-extension.yml
+  html: embedthis-extension.html
+  license: embedthis-extension.LICENSE
+- license_key: embedthis-tou-2022
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-embedthis-tou-2022
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: embedthis-tou-2022.json
+  yaml: embedthis-tou-2022.yml
+  html: embedthis-tou-2022.html
+  license: embedthis-tou-2022.LICENSE
 - license_key: emit
   category: Permissive
   spdx_license_key: LicenseRef-scancode-emit
@@ -8388,6 +8518,16 @@
   yaml: h2-1.0.yml
   html: h2-1.0.html
   license: h2-1.0.LICENSE
+- license_key: hacking-license
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-hacking-license
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: hacking-license.json
+  yaml: hacking-license.yml
+  html: hacking-license.html
+  license: hacking-license.LICENSE
 - license_key: hacos-1.2
   category: Copyleft
   spdx_license_key: LicenseRef-scancode-hacos-1.2
@@ -10104,6 +10244,16 @@
   yaml: katharos-0.1.0.yml
   html: katharos-0.1.0.html
   license: katharos-0.1.0.LICENSE
+- license_key: katharos-0.2.0
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-katharos-0.2.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: katharos-0.2.0.json
+  yaml: katharos-0.2.0.yml
+  html: katharos-0.2.0.html
+  license: katharos-0.2.0.LICENSE
 - license_key: kazlib
   category: Permissive
   spdx_license_key: Kazlib
@@ -11063,6 +11213,16 @@
   yaml: linuxhowtos.yml
   html: linuxhowtos.html
   license: linuxhowtos.LICENSE
+- license_key: llama-license-2023
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-llama-license-2023
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: llama-license-2023.json
+  yaml: llama-license-2023.yml
+  html: llama-license-2023.html
+  license: llama-license-2023.LICENSE
 - license_key: llgpl
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-llgpl
@@ -11566,6 +11726,36 @@
   yaml: mediainfo-lib.yml
   html: mediainfo-lib.html
   license: mediainfo-lib.LICENSE
+- license_key: mediatek-firmware
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-mediatek-firmware
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mediatek-firmware.json
+  yaml: mediatek-firmware.yml
+  html: mediatek-firmware.html
+  license: mediatek-firmware.LICENSE
+- license_key: mediatek-no-warranty
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-mediatek-no-warranty
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mediatek-no-warranty.json
+  yaml: mediatek-no-warranty.yml
+  html: mediatek-no-warranty.html
+  license: mediatek-no-warranty.LICENSE
+- license_key: mediatek-proprietary-2008
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-mediatek-proprietary-2008
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mediatek-proprietary-2008.json
+  yaml: mediatek-proprietary-2008.yml
+  html: mediatek-proprietary-2008.html
+  license: mediatek-proprietary-2008.LICENSE
 - license_key: melange
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-melange
@@ -12172,6 +12362,16 @@
   yaml: mpl-2.0-no-copyleft-exception.yml
   html: mpl-2.0-no-copyleft-exception.html
   license: mpl-2.0-no-copyleft-exception.LICENSE
+- license_key: ms-api-code-pack-net
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-ms-api-code-pack-net
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ms-api-code-pack-net.json
+  yaml: ms-api-code-pack-net.yml
+  html: ms-api-code-pack-net.html
+  license: ms-api-code-pack-net.LICENSE
 - license_key: ms-asp-net-ajax-supplemental-terms
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-ms-asp-net-ajax-supp-terms
@@ -12386,6 +12586,16 @@
   yaml: ms-directx-sdk-eula.yml
   html: ms-directx-sdk-eula.html
   license: ms-directx-sdk-eula.LICENSE
+- license_key: ms-directx-sdk-eula-2020
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-ms-directx-sdk-eula-2020
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ms-directx-sdk-eula-2020.json
+  yaml: ms-directx-sdk-eula-2020.yml
+  html: ms-directx-sdk-eula-2020.html
+  license: ms-directx-sdk-eula-2020.LICENSE
 - license_key: ms-dxsdk-d3dx-9.29.952.3
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-ms-dxsdk-d3dx-9.29.952.3
@@ -12396,6 +12606,16 @@
   yaml: ms-dxsdk-d3dx-9.29.952.3.yml
   html: ms-dxsdk-d3dx-9.29.952.3.html
   license: ms-dxsdk-d3dx-9.29.952.3.LICENSE
+- license_key: ms-edge-webview2-fixed
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-ms-edge-webview2-fixed
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ms-edge-webview2-fixed.json
+  yaml: ms-edge-webview2-fixed.yml
+  html: ms-edge-webview2-fixed.html
+  license: ms-edge-webview2-fixed.LICENSE
 - license_key: ms-entity-framework-4.1
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-ms-entity-framework-4.1
@@ -12820,6 +13040,16 @@
   yaml: ms-silverlight-3.yml
   html: ms-silverlight-3.html
   license: ms-silverlight-3.LICENSE
+- license_key: ms-specification
+  category: Free Restricted
+  spdx_license_key: LicenseRef-scancode-ms-specification
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ms-specification.json
+  yaml: ms-specification.yml
+  html: ms-specification.html
+  license: ms-specification.LICENSE
 - license_key: ms-sql-server-compact-4.0
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-ms-sql-server-compact-4.0
@@ -13292,6 +13522,16 @@
   yaml: musl-exception.yml
   html: musl-exception.html
   license: musl-exception.LICENSE
+- license_key: mut-license
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-mut-license
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mut-license.json
+  yaml: mut-license.yml
+  html: mut-license.html
+  license: mut-license.LICENSE
 - license_key: mvt-1.1
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-mvt-1.1
@@ -14647,6 +14887,16 @@
   yaml: open-public.yml
   html: open-public.html
   license: open-public.LICENSE
+- license_key: openai-tou-20230314
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-openai-tou-20230314
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: openai-tou-20230314.json
+  yaml: openai-tou-20230314.yml
+  html: openai-tou-20230314.html
+  license: openai-tou-20230314.LICENSE
 - license_key: openbd-exception-3.0
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-openbd-exception-3.0
@@ -16235,6 +16485,16 @@
   yaml: ppp.yml
   html: ppp.html
   license: ppp.LICENSE
+- license_key: proconx-modbus-rev4
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-proconX-modbus-rev4
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: proconx-modbus-rev4.json
+  yaml: proconx-modbus-rev4.yml
+  html: proconx-modbus-rev4.html
+  license: proconx-modbus-rev4.LICENSE
 - license_key: proguard-exception-2.0
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-proguard-exception-2.0
@@ -16971,6 +17231,16 @@
   yaml: robert-hubley.yml
   html: robert-hubley.html
   license: robert-hubley.LICENSE
+- license_key: rockchip-proprietary-2022
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-rockchip-proprietary-2022
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: rockchip-proprietary-2022.json
+  yaml: rockchip-proprietary-2022.yml
+  html: rockchip-proprietary-2022.html
+  license: rockchip-proprietary-2022.LICENSE
 - license_key: rogue-wave
   category: Commercial
   spdx_license_key: LicenseRef-scancode-rogue-wave
@@ -17452,6 +17722,16 @@
   yaml: selinux-nsa-declaration-1.0.yml
   html: selinux-nsa-declaration-1.0.html
   license: selinux-nsa-declaration-1.0.LICENSE
+- license_key: semgrep-registry
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-semgrep-registry
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: semgrep-registry.json
+  yaml: semgrep-registry.yml
+  html: semgrep-registry.html
+  license: semgrep-registry.LICENSE
 - license_key: sencha-app-floss-exception
   category: Copyleft
   spdx_license_key: LicenseRef-scancode-sencha-app-floss-exception
@@ -17672,6 +17952,16 @@
   yaml: signal-gpl-3.0-exception.yml
   html: signal-gpl-3.0-exception.html
   license: signal-gpl-3.0-exception.LICENSE
+- license_key: silicon-image-2007
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-silicon-image-2007
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: silicon-image-2007.json
+  yaml: silicon-image-2007.yml
+  html: silicon-image-2007.html
+  license: silicon-image-2007.LICENSE
 - license_key: simpl-1.1
   category: Permissive
   spdx_license_key: LicenseRef-scancode-simpl-1.1
@@ -18397,6 +18687,16 @@
   yaml: sun-bsd-no-nuclear.yml
   html: sun-bsd-no-nuclear.html
   license: sun-bsd-no-nuclear.LICENSE
+- license_key: sun-cc-pp-1.0
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-sun-cc-pp-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: sun-cc-pp-1.0.json
+  yaml: sun-cc-pp-1.0.yml
+  html: sun-cc-pp-1.0.html
+  license: sun-cc-pp-1.0.LICENSE
 - license_key: sun-communications-api
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-sun-communications-api
@@ -18789,6 +19089,106 @@
   yaml: synthesis-toolkit.yml
   html: synthesis-toolkit.html
   license: synthesis-toolkit.LICENSE
+- license_key: t-engine-public
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-engine-public
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-engine-public.json
+  yaml: t-engine-public.yml
+  html: t-engine-public.html
+  license: t-engine-public.LICENSE
+- license_key: t-license-1.0
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-1.0.json
+  yaml: t-license-1.0.yml
+  html: t-license-1.0.html
+  license: t-license-1.0.LICENSE
+- license_key: t-license-2.0
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-2.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-2.0.json
+  yaml: t-license-2.0.yml
+  html: t-license-2.0.html
+  license: t-license-2.0.LICENSE
+- license_key: t-license-2.1
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-2.1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-2.1.json
+  yaml: t-license-2.1.yml
+  html: t-license-2.1.html
+  license: t-license-2.1.LICENSE
+- license_key: t-license-2.2
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-2.2
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-2.2.json
+  yaml: t-license-2.2.yml
+  html: t-license-2.2.html
+  license: t-license-2.2.LICENSE
+- license_key: t-license-amp-t-kernel
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-amp-t-kernel
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-amp-t-kernel.json
+  yaml: t-license-amp-t-kernel.yml
+  html: t-license-amp-t-kernel.html
+  license: t-license-amp-t-kernel.LICENSE
+- license_key: t-license-amp-tkse
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-amp-tkse
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-amp-tkse.json
+  yaml: t-license-amp-tkse.yml
+  html: t-license-amp-tkse.html
+  license: t-license-amp-tkse.LICENSE
+- license_key: t-license-smp-t-kernel
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-smp-t-kernel
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-smp-t-kernel.json
+  yaml: t-license-smp-t-kernel.yml
+  html: t-license-smp-t-kernel.html
+  license: t-license-smp-t-kernel.LICENSE
+- license_key: t-license-smp-tkse
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-smp-tkse
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-smp-tkse.json
+  yaml: t-license-smp-tkse.yml
+  html: t-license-smp-tkse.html
+  license: t-license-smp-tkse.LICENSE
+- license_key: t-license-tkse
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-t-license-tkse
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: t-license-tkse.json
+  yaml: t-license-tkse.yml
+  html: t-license-tkse.html
+  license: t-license-tkse.LICENSE
 - license_key: takao-abe
   category: Permissive
   spdx_license_key: LicenseRef-scancode-takao-abe
@@ -19320,6 +19720,16 @@
   yaml: truecrypt-3.1.yml
   html: truecrypt-3.1.html
   license: truecrypt-3.1.LICENSE
+- license_key: trustonic-proprietary-2013
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-trustonic-proprietary-2013
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: trustonic-proprietary-2013.json
+  yaml: trustonic-proprietary-2013.yml
+  html: trustonic-proprietary-2013.html
+  license: trustonic-proprietary-2013.LICENSE
 - license_key: tsl-2018
   category: Source-available
   spdx_license_key: LicenseRef-scancode-tsl-2018
@@ -19702,6 +20112,16 @@
   yaml: unrar.yml
   html: unrar.html
   license: unrar.LICENSE
+- license_key: unrar-v3
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-unrar-v3
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: unrar-v3.json
+  yaml: unrar-v3.yml
+  html: unrar-v3.html
+  license: unrar-v3.LICENSE
 - license_key: unsplash
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-unsplash
