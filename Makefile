@@ -41,30 +41,15 @@ conf:
 	@venv/bin/pip install -e ./scancode-toolkit/
 	@venv/bin/scancode-reindex-licenses
 
-restore:
+clean:
 	@echo "-> Restoring the repository to a clean state"
 	git clean -fd
 	rm -rf scancode-toolkit/
 	git restore --worktree docs/
 
-clean:
-	# Remove the whole content of docs/ except for the CNAME file
-	# Remove the whole content of scancode-toolkit/
-	find docs/* ! -name 'CNAME' -exec git rm -r {} +
-	find scancode-toolkit/* -exec git rm -r {} +
-
-html:
+licensedb:
 	@echo "-> Generate the HTML content"
 	@venv/bin/scancode-license-data --path docs/
 	@echo "Available at docs/index.html"
 
-build: conf html
-
-publish:
-	@echo "-> Add changes to git"
-	@git add .
-	git commit -m "Upgrade with latest updates from ScanCode-toolkit develop"
-	@echo "-> Push changes to main repo"
-	@git push
-
-.PHONY: conf clean html build publish
+.PHONY: conf clean licensedb

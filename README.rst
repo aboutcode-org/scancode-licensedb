@@ -85,9 +85,9 @@ Support
 Build
 -----
 
-To re/generate the HTML and API content use this command::
+To re/generate the HTML and API content run the following script::
 
-    $ make restore conf html
+    $ ./etc/scripts/check_commit_run_update.sh
 
 
 License
