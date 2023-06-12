@@ -7,6 +7,10 @@ homepage_url: http://tldp.org/COPYRIGHT.html
 spdx_license_key: LicenseRef-scancode-ldpl-2.0
 text_urls:
   - http://linuxmafia.com/faq/Licensing_and_Law/ldp-license-2.0.html
+ignorable_copyrights:
+  - copyright to each Linux Documentation Project
+ignorable_holders:
+  - each Linux Documentation Project
 ignorable_urls:
   - http://sunsite.unc.edu/LDP
 ignorable_emails:
@@ -50,4 +54,4 @@ text: "LINUX DOCUMENTATION PROJECT LICENSE (LDPL) v2.0, 12 January 1998\n\n    C
   \ the author's consent. \n\n    TO USE YOUR OWN LICENSE\n\n    LDP authors who want to include\
   \ their own license on LDP works may do so, as long as their terms are not more restrictive\
   \ than the LDP license, except that they may require that the document may not be modified.\n\
-  \n    If you have questions about the LDP License, please contact Guylhem Aznar, guylhem@metalab.unc.edu."
+  \n    If you have questions about the LDP License, please contact Guylhem Aznar, guylhem@metalab.unc.edu.\n"

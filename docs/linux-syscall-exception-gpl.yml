@@ -30,10 +30,8 @@ standard_notice: |
   with this library; see the file COPYING. If not, write to the Free Software
   Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 ignorable_copyrights:
-  - copyrighted by me and others
   - copyrighted by the Free Software Foundation
 ignorable_holders:
-  - me and others
   - the Free Software Foundation
 text: |
   NOTE! This copyright does *not* cover user programs that use kernel

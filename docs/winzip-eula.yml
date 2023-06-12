@@ -5,10 +5,6 @@ category: Commercial
 owner: WinZip Computing LLC.
 homepage_url: http://www.winzip.com/eula.html
 spdx_license_key: LicenseRef-scancode-winzip-eula
-ignorable_copyrights:
-  - Copyright (c) 20 Your name WinZip Computing, S.L. and its licensors
-ignorable_holders:
-  - Your name WinZip Computing, S.L. and its licensors
 ignorable_authors:
   - WinZip's Self Extractor
 ignorable_urls:
@@ -511,4 +507,4 @@ text: "PERPETUAL PROVISIONS APPLICABLE TO\nWINZIP\nWINZIP COURIER\nWINZIP SELF E
   \ and this EULA, including all copies (except copies incorporated\ninto Your work product\
   \ as permitted under this EULA), to such person or entity,\n(ii) You retain no copies, including\
   \ copies stored on a computer or other\nstorage device, and (iii) the receiving party agrees\
-  \ to be bound by the terms\nand conditions of this EULA.\n\nOctober 2012 (1.0)"
+  \ to be bound by the terms\nand conditions of this EULA.\n\nOctober 2012 (1.0)\n"

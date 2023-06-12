@@ -15,9 +15,9 @@ notes: |
   software-short-notice.html
 spdx_license_key: W3C-20150513
 ignorable_copyrights:
-  - Copyright (c) YEAR W3C(r) MIT, ERCIM, Keio
+  - Copyright (c) YEAR W3C(r) (MIT, ERCIM, Keio, Beihang)
 ignorable_holders:
-  - W3C(r) MIT, ERCIM, Keio
+  - W3C(r) (MIT, ERCIM, Keio, Beihang)
 text: "W3C Software and Document Notice and License\n\nStatus: This license takes effect 13\
   \ May, 2015.\n\nThis work is being provided by the copyright holders under the following license.\n\
   License\n\nBy obtaining and/or copying this work, you (the licensee) agree that you have\n\

@@ -17914,18 +17914,6 @@
     "license": "open-diameter.LICENSE"
   },
   {
-    "license_key": "open-group",
-    "category": "Copyleft Limited",
-    "spdx_license_key": "LicenseRef-scancode-open-group",
-    "other_spdx_license_keys": [],
-    "is_exception": false,
-    "is_deprecated": false,
-    "json": "open-group.json",
-    "yaml": "open-group.yml",
-    "html": "open-group.html",
-    "license": "open-group.LICENSE"
-  },
-  {
     "license_key": "open-public",
     "category": "Copyleft Limited",
     "spdx_license_key": "OPL-1.0",
@@ -17972,6 +17960,18 @@
     "yaml": "opengroup.yml",
     "html": "opengroup.html",
     "license": "opengroup.LICENSE"
+  },
+  {
+    "license_key": "opengroup-pl",
+    "category": "Copyleft Limited",
+    "spdx_license_key": "LicenseRef-scancode-opengroup-pl",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "opengroup-pl.json",
+    "yaml": "opengroup-pl.yml",
+    "html": "opengroup-pl.html",
+    "license": "opengroup-pl.LICENSE"
   },
   {
     "license_key": "openi-pl-1.0",
@@ -19029,7 +19029,9 @@
     "license_key": "other-permissive",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-other-permissive",
-    "other_spdx_license_keys": [],
+    "other_spdx_license_keys": [
+      "LicenseRef-Fedora-UltraPermissive"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "other-permissive.json",
@@ -20045,7 +20047,8 @@
     "category": "Public Domain",
     "spdx_license_key": "LicenseRef-scancode-public-domain",
     "other_spdx_license_keys": [
-      "LicenseRef-PublicDomain"
+      "LicenseRef-PublicDomain",
+      "LicenseRef-Fedora-Public-Domain"
     ],
     "is_exception": false,
     "is_deprecated": false,

@@ -11,7 +11,7 @@
   ],
   "minimum_coverage": 90,
   "ignorable_authors": [
-    "the U.S. Department",
+    "the U.S. Department of State",
     "the United States Department of State"
   ],
   "ignorable_urls": [

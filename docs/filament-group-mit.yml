@@ -9,7 +9,7 @@ text_urls:
   - http://filamentgroup.com/examples/mit-license.txt
 minimum_coverage: 85
 ignorable_authors:
-  - Filament Group, Inc (http://www.filamentgroup.com/)
+  - Filament Group, Inc (http://www.filamentgroup.com/) and its contributors
 ignorable_urls:
   - http://www.filamentgroup.com/
 text: "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this\

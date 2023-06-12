@@ -7,5 +7,8 @@
   "notes": "this is a catch all and ellipsis to deal with some cases when a large\nnumber of ancillary yet similar licenses may be reported as one.\n",
   "is_generic": true,
   "spdx_license_key": "LicenseRef-scancode-other-permissive",
+  "other_spdx_license_keys": [
+    "LicenseRef-Fedora-UltraPermissive"
+  ],
   "text": "This component contains multiple third-party subcomponents licensed\nunder permissive licenses in the style of MIT, BSD, X11, and/or Apache."
 }

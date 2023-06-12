@@ -6,10 +6,6 @@ owner: Esri
 homepage_url: http://www.esri.com/legal/pdfs/mla_e204_e300/english
 spdx_license_key: LicenseRef-scancode-esri
 minimum_coverage: 60
-ignorable_copyrights:
-  - copyright date(s) from the source materials Esri and its licensors
-ignorable_holders:
-  - date(s) from the source materials Esri and its licensors
 ignorable_urls:
   - http://links.esri.com/agol/transactiondef
   - http://support.esri.com/en/support
@@ -1004,4 +1000,4 @@ text: "IMPORTANT—READ CAREFULLY\n \nUnless superseded by a signed license agre
   \ use program not listed above, Licensee's use of the Products may be subject to the terms\
   \ set forth in the applicable launching page or enrollment form or as described on Esri's\
   \ website in addition to the nonconflicting terms of this Addendum 4. All such program terms\
-  \ are incorporated herein by reference."
+  \ are incorporated herein by reference.\n"

@@ -6,8 +6,7 @@ owner: JJ2000 Partners
 homepage_url: https://raw.githubusercontent.com/stain/jai-imageio-jpeg2000/master/LICENSE-JJ2000.txt
 spdx_license_key: LicenseRef-scancode-jj2000
 ignorable_authors:
-  - Raphael Grosbois and Diego Santa Cruz (Swiss Federal Institute of Technology-EPFL) Joel
-    Askelof
+  - Raphael Grosbois and Diego Santa Cruz Swiss Federal Institute
 text: "This software module was originally developed by Raphaël Grosbois and\nDiego Santa Cruz\
   \ (Swiss Federal Institute of Technology-EPFL); Joel\nAskelöf (Ericsson Radio Systems AB);\
   \ and Bertrand Berthelot, David\nBouchard, Félix Henry, Gerard Mozelle and Patrice Onno (Canon\
