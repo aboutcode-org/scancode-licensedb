@@ -1,0 +1,15 @@
+key: metamail
+short_name: metamail License
+name: metamail License
+category: Permissive
+owner: Bellcore
+spdx_license_key: metamail
+other_urls:
+  - https://github.com/Dual-Life/mime-base64/blob/master/Base64.xs#L12
+text: "Permission to use, copy, modify, and distribute this material\nfor any purpose and without\
+  \ fee is hereby granted, provided\nthat the above copyright notice and this permission notice\n\
+  appear in all copies, and that the name of Bellcore not be\nused in advertising or publicity\
+  \ pertaining to this\nmaterial without the specific, prior written permission\nof an authorized\
+  \ representative of Bellcore.\tBELLCORE\nMAKES NO REPRESENTATIONS ABOUT THE ACCURACY OR SUITABILITY\n\
+  OF THIS MATERIAL FOR ANY PURPOSE.  IT IS PROVIDED \"AS IS\",\nWITHOUT ANY EXPRESS OR IMPLIED\
+  \ WARRANTIES."

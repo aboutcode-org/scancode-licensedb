@@ -4,7 +4,13 @@
   "name": "X11-Style (Lucent)",
   "category": "Permissive",
   "owner": "Alcatel-Lucent",
-  "spdx_license_key": "LicenseRef-scancode-x11-lucent",
+  "spdx_license_key": "dtoa",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-x11-lucent"
+  ],
+  "other_urls": [
+    "https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c"
+  ],
   "minimum_coverage": 80,
   "text": "Permission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software and in all copies of the supporting\ndocumentation for such software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY\nREPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\nOF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE."
 }

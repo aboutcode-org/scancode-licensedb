@@ -6,9 +6,14 @@
   "owner": "Xfig Project",
   "homepage_url": "http://www.xfig.org",
   "notes": "From http://web.archive.org/web/2000212193456/http://www.xfig.org/xfigdist/\nxfig.README.3.2.4 The xfig copyright has changed slightly since the\nprevious version. The previous notice allowed the *selling* of xfig or any\ncode in xfig. This is not allowed now, unless xfig is simply included in a\ncollection of programs (e.g. on a CD) that you are selling.\n",
-  "spdx_license_key": "LicenseRef-scancode-mit-xfig",
+  "spdx_license_key": "Xfig",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-mit-xfig"
+  ],
   "other_urls": [
-    "https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#Xfig"
+    "https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#Xfig",
+    "https://github.com/Distrotech/transfig/blob/master/transfig/transfig.c",
+    "https://sourceforge.net/p/mcj/xfig/ci/master/tree/src/Makefile.am"
   ],
   "text": "Any party obtaining a copy of these files is granted, free of charge, a\nfull and unrestricted irrevocable, world-wide, paid up, royalty-free,\nnonexclusive right and license to deal in this software and\ndocumentation files (the \"Software\"), including without limitation the\nrights to use, copy, modify, merge, publish and/or distribute copies of\nthe Software, and to permit persons who receive copies from any such \nparty to do so, with the only requirement being that this copyright \nnotice remain intact."
 }

@@ -1,0 +1,13 @@
+{
+  "key": "cisco-avch264-patent",
+  "short_name": "AVC/H.264 Patent Portfolio License",
+  "name": "AVC/H.264 Patent Portfolio License",
+  "category": "Free Restricted",
+  "owner": "Cisco",
+  "homepage_url": "http://www.openh264.org/BINARY_LICENSE.txt",
+  "spdx_license_key": "LicenseRef-scancode-cisco-avch264-patent",
+  "ignorable_urls": [
+    "http://www.openh264.org/mpegla"
+  ],
+  "text": "-----------------------------------------\nAVC/H.264 Patent Portfolio License Notice\n-----------------------------------------\n\nThe binary form of this Software is distributed by Cisco under the AVC/H.264 Patent Portfolio License from MPEG LA, and is subject to the following requirements, which may or may not be applicable to your use of this software: \n\nTHIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO LICENSE FOR THE PERSONAL USE OF A CONSUMER OR OTHER USES IN WHICH IT DOES NOT RECEIVE REMUNERATION TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE AVC STANDARD (\u201cAVC VIDEO\u201d) AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED BY A CONSUMER ENGAGED IN A PERSONAL ACTIVITY AND/OR WAS OBTAINED FROM A VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO.  NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE.  ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG LA, L.L.C. SEE HTTP://WWW.MPEGLA.COM\n\nAccordingly, please be advised that content providers and broadcasters using AVC/H.264 in their service may be required to obtain a separate use license from MPEG LA, referred to as \"(b) sublicenses\" in the SUMMARY OF AVC/H.264 LICENSE TERMS from MPEG LA found at http://www.openh264.org/mpegla\n\n---------------------------------------------\nAVC/H.264 Patent Portfolio License Conditions\n---------------------------------------------\n\nIn addition, the Cisco-provided binary of this Software is licensed under Cisco's license from MPEG LA only if the following conditions are met:\n\n1. The Cisco-provided binary is separately downloaded to an end user\u2019s device, and not integrated into or combined with third party software prior to being downloaded to the end user\u2019s device;\n\n2. The end user must have the ability to control (e.g., to enable, disable, or re-enable) the use of the Cisco-provided binary;\n\n3. Third party software, in the location where end users can control the use of the Cisco-provided binary, must display the following text:\n\n       \"OpenH264 Video Codec provided by Cisco Systems, Inc.\"\n\n4.  Any third-party software that makes use of the Cisco-provided binary must reproduce all of the above text, as well as this last condition, in the EULA and/or in another location where licensing information is to be presented to the end user."
+}

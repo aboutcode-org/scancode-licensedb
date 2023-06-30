@@ -1,0 +1,10 @@
+{
+  "key": "on2-patent",
+  "short_name": "On2 VP3 Codec Software Patent grant",
+  "name": "On2 VP3 Codec Software Patent grant",
+  "category": "Patent License",
+  "owner": "On2 Technologies, Inc.",
+  "homepage_url": "https://github.com/xiph/theora/blob/master/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-on2-patent",
+  "text": "In addition to and irrespective of the copyright license associated\nwith this software, On2 Technologies, Inc. makes the following statement\nregarding technology used in this software:\n\n  On2 represents and warrants that it shall not assert any rights\n  relating to infringement of On2's registered patents, nor initiate\n  any litigation asserting such rights, against any person who, or\n  entity which utilizes the On2 VP3 Codec Software, including any\n  use, distribution, and sale of said Software; which make changes,\n  modifications, and improvements in said Software; and to use,\n  distribute, and sell said changes as well as applications for other\n  fields of use.\n\nThis reference implementation is originally derived from the On2 VP3\nCodec Software, and the Theora video format is essentially compatible\nwith the VP3 video format, consisting of a backward-compatible superset."
+}

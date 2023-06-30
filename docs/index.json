@@ -878,6 +878,18 @@
     "license": "allen-institute-software-2018.LICENSE"
   },
   {
+    "license_key": "alliance-open-media-patent-1.0",
+    "category": "Patent License",
+    "spdx_license_key": "LicenseRef-scancode-alliance-open-media-patent-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "alliance-open-media-patent-1.0.json",
+    "yaml": "alliance-open-media-patent-1.0.yml",
+    "html": "alliance-open-media-patent-1.0.html",
+    "license": "alliance-open-media-patent-1.0.LICENSE"
+  },
+  {
     "license_key": "altermime",
     "category": "Copyleft Limited",
     "spdx_license_key": "LicenseRef-scancode-altermime",
@@ -1727,6 +1739,18 @@
     "license": "asn1.LICENSE"
   },
   {
+    "license_key": "asterisk-exception",
+    "category": "Copyleft",
+    "spdx_license_key": "Asterisk-exception",
+    "other_spdx_license_keys": [],
+    "is_exception": true,
+    "is_deprecated": false,
+    "json": "asterisk-exception.json",
+    "yaml": "asterisk-exception.yml",
+    "html": "asterisk-exception.html",
+    "license": "asterisk-exception.LICENSE"
+  },
+  {
     "license_key": "aswf-digital-assets-1.0",
     "category": "Free Restricted",
     "spdx_license_key": "LicenseRef-scancode-aswf-digital-assets-1.0",
@@ -1885,8 +1909,10 @@
   {
     "license_key": "autoconf-macro-exception",
     "category": "Copyleft Limited",
-    "spdx_license_key": "LicenseRef-scancode-autoconf-macro-exception",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "Autoconf-exception-macro",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-autoconf-macro-exception"
+    ],
     "is_exception": true,
     "is_deprecated": false,
     "json": "autoconf-macro-exception.json",
@@ -2693,6 +2719,18 @@
     "yaml": "broadcom-linux-timer.yml",
     "html": "broadcom-linux-timer.html",
     "license": "broadcom-linux-timer.LICENSE"
+  },
+  {
+    "license_key": "broadcom-opus-patent",
+    "category": "Patent License",
+    "spdx_license_key": "LicenseRef-scancode-broadcom-opus-patent",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "broadcom-opus-patent.json",
+    "yaml": "broadcom-opus-patent.yml",
+    "html": "broadcom-opus-patent.html",
+    "license": "broadcom-opus-patent.LICENSE"
   },
   {
     "license_key": "broadcom-proprietary",
@@ -4466,6 +4504,18 @@
     "license": "cc-by-sa-3.0-de.LICENSE"
   },
   {
+    "license_key": "cc-by-sa-3.0-igo",
+    "category": "Copyleft Limited",
+    "spdx_license_key": "CC-BY-SA-3.0-IGO",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "cc-by-sa-3.0-igo.json",
+    "yaml": "cc-by-sa-3.0-igo.yml",
+    "html": "cc-by-sa-3.0-igo.html",
+    "license": "cc-by-sa-3.0-igo.LICENSE"
+  },
+  {
     "license_key": "cc-by-sa-4.0",
     "category": "Copyleft Limited",
     "spdx_license_key": "CC-BY-SA-4.0",
@@ -4980,6 +5030,18 @@
     "yaml": "christopher-velazquez.yml",
     "html": "christopher-velazquez.html",
     "license": "christopher-velazquez.LICENSE"
+  },
+  {
+    "license_key": "cisco-avch264-patent",
+    "category": "Free Restricted",
+    "spdx_license_key": "LicenseRef-scancode-cisco-avch264-patent",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "cisco-avch264-patent.json",
+    "yaml": "cisco-avch264-patent.yml",
+    "html": "cisco-avch264-patent.html",
+    "license": "cisco-avch264-patent.LICENSE"
   },
   {
     "license_key": "classic-vb",
@@ -8029,8 +8091,10 @@
   {
     "license_key": "freetts",
     "category": "Permissive",
-    "spdx_license_key": "LicenseRef-scancode-freetts",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "MIT-Festival",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-freetts"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "freetts.json",
@@ -9954,6 +10018,18 @@
     "yaml": "gpl-3.0-gcc.yml",
     "html": "gpl-3.0-gcc.html",
     "license": "gpl-3.0-gcc.LICENSE"
+  },
+  {
+    "license_key": "gpl-3.0-interface-exception",
+    "category": "Copyleft Limited",
+    "spdx_license_key": "GPL-3.0-interface-exception",
+    "other_spdx_license_keys": [],
+    "is_exception": true,
+    "is_deprecated": false,
+    "json": "gpl-3.0-interface-exception.json",
+    "yaml": "gpl-3.0-interface-exception.yml",
+    "html": "gpl-3.0-interface-exception.html",
+    "license": "gpl-3.0-interface-exception.LICENSE"
   },
   {
     "license_key": "gpl-3.0-linking-exception",
@@ -12573,6 +12649,18 @@
     "license": "latex2e.LICENSE"
   },
   {
+    "license_key": "latex2e-translated-notice",
+    "category": "Permissive",
+    "spdx_license_key": "Latex2e-translated-notice",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "latex2e-translated-notice.json",
+    "yaml": "latex2e-translated-notice.yml",
+    "html": "latex2e-translated-notice.html",
+    "license": "latex2e-translated-notice.LICENSE"
+  },
+  {
     "license_key": "lattice-osl-2017",
     "category": "Copyleft Limited",
     "spdx_license_key": "LicenseRef-scancode-lattice-osl-2017",
@@ -13172,6 +13260,18 @@
     "license": "libpng-v2.LICENSE"
   },
   {
+    "license_key": "libpri-openh323-exception",
+    "category": "Copyleft",
+    "spdx_license_key": "libpri-OpenH323-exception",
+    "other_spdx_license_keys": [],
+    "is_exception": true,
+    "is_deprecated": false,
+    "json": "libpri-openh323-exception.json",
+    "yaml": "libpri-openh323-exception.yml",
+    "html": "libpri-openh323-exception.html",
+    "license": "libpri-openh323-exception.LICENSE"
+  },
+  {
     "license_key": "librato-exception",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-librato-exception",
@@ -13460,6 +13560,42 @@
     "yaml": "linux-device-drivers.yml",
     "html": "linux-device-drivers.html",
     "license": "linux-device-drivers.LICENSE"
+  },
+  {
+    "license_key": "linux-man-pages-1-para",
+    "category": "Copyleft",
+    "spdx_license_key": "Linux-man-pages-1-para",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "linux-man-pages-1-para.json",
+    "yaml": "linux-man-pages-1-para.yml",
+    "html": "linux-man-pages-1-para.html",
+    "license": "linux-man-pages-1-para.LICENSE"
+  },
+  {
+    "license_key": "linux-man-pages-2-para",
+    "category": "Copyleft",
+    "spdx_license_key": "Linux-man-pages-copyleft-2-para",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "linux-man-pages-2-para.json",
+    "yaml": "linux-man-pages-2-para.yml",
+    "html": "linux-man-pages-2-para.html",
+    "license": "linux-man-pages-2-para.LICENSE"
+  },
+  {
+    "license_key": "linux-man-pages-copyleft-var",
+    "category": "Copyleft",
+    "spdx_license_key": "Linux-man-pages-copyleft-var",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "linux-man-pages-copyleft-var.json",
+    "yaml": "linux-man-pages-copyleft-var.yml",
+    "html": "linux-man-pages-copyleft-var.html",
+    "license": "linux-man-pages-copyleft-var.LICENSE"
   },
   {
     "license_key": "linux-openib",
@@ -14212,6 +14348,18 @@
     "license": "metageek-inssider-eula.LICENSE"
   },
   {
+    "license_key": "metamail",
+    "category": "Permissive",
+    "spdx_license_key": "metamail",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "metamail.json",
+    "yaml": "metamail.yml",
+    "html": "metamail.html",
+    "license": "metamail.LICENSE"
+  },
+  {
     "license_key": "metrolink-1.0",
     "category": "Copyleft",
     "spdx_license_key": "LicenseRef-scancode-metrolink-1.0",
@@ -14670,8 +14818,10 @@
   {
     "license_key": "mit-xfig",
     "category": "Permissive",
-    "spdx_license_key": "LicenseRef-scancode-mit-xfig",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "Xfig",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-mit-xfig"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "mit-xfig.json",
@@ -14766,8 +14916,10 @@
   {
     "license_key": "mozilla-gc",
     "category": "Permissive",
-    "spdx_license_key": "LicenseRef-scancode-mozilla-gc",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "Boehm-GC",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-mozilla-gc"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "mozilla-gc.json",
@@ -15192,6 +15344,30 @@
     "license": "ms-dxsdk-d3dx-9.29.952.3.LICENSE"
   },
   {
+    "license_key": "ms-edge-devtools-2022",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-ms-edge-devtools-2022",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "ms-edge-devtools-2022.json",
+    "yaml": "ms-edge-devtools-2022.yml",
+    "html": "ms-edge-devtools-2022.html",
+    "license": "ms-edge-devtools-2022.LICENSE"
+  },
+  {
+    "license_key": "ms-edge-webview2",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-ms-edge-webview2",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "ms-edge-webview2.json",
+    "yaml": "ms-edge-webview2.yml",
+    "html": "ms-edge-webview2.html",
+    "license": "ms-edge-webview2.LICENSE"
+  },
+  {
     "license_key": "ms-edge-webview2-fixed",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-ms-edge-webview2-fixed",
@@ -15534,6 +15710,18 @@
     "yaml": "ms-office-system-programs-eula.yml",
     "html": "ms-office-system-programs-eula.html",
     "license": "ms-office-system-programs-eula.LICENSE"
+  },
+  {
+    "license_key": "ms-opus-patent-2012",
+    "category": "Patent License",
+    "spdx_license_key": "LicenseRef-scancode-ms-opus-patent-2012",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "ms-opus-patent-2012.json",
+    "yaml": "ms-opus-patent-2012.yml",
+    "html": "ms-opus-patent-2012.html",
+    "license": "ms-opus-patent-2012.LICENSE"
   },
   {
     "license_key": "ms-patent-promise",
@@ -16020,6 +16208,18 @@
     "license": "ms-windows-sdk-win10.LICENSE"
   },
   {
+    "license_key": "ms-windows-sdk-win10-net-6",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-ms-windows-sdk-win10-net-6",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "ms-windows-sdk-win10-net-6.json",
+    "yaml": "ms-windows-sdk-win10-net-6.yml",
+    "html": "ms-windows-sdk-win10-net-6.html",
+    "license": "ms-windows-sdk-win10-net-6.LICENSE"
+  },
+  {
     "license_key": "ms-windows-sdk-win7-net-4",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-ms-windows-sdk-win7-net-4",
@@ -16090,6 +16290,18 @@
     "yaml": "ms-xml-core-4.0.yml",
     "html": "ms-xml-core-4.0.html",
     "license": "ms-xml-core-4.0.LICENSE"
+  },
+  {
+    "license_key": "msdn-magazine-sample-code-2007",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-msdn-magazine-sample-code-2007",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "msdn-magazine-sample-code-2007.json",
+    "yaml": "msdn-magazine-sample-code-2007.yml",
+    "html": "msdn-magazine-sample-code-2007.html",
+    "license": "msdn-magazine-sample-code-2007.LICENSE"
   },
   {
     "license_key": "msj-sample-code",
@@ -16756,6 +16968,18 @@
     "yaml": "nist-pd-fallback.yml",
     "html": "nist-pd-fallback.html",
     "license": "nist-pd-fallback.LICENSE"
+  },
+  {
+    "license_key": "nist-software",
+    "category": "Public Domain",
+    "spdx_license_key": "NIST-Software",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "nist-software.json",
+    "yaml": "nist-software.yml",
+    "html": "nist-software.html",
+    "license": "nist-software.LICENSE"
   },
   {
     "license_key": "nist-srd",
@@ -17878,6 +18102,18 @@
     "license": "olf-ccla-1.0.LICENSE"
   },
   {
+    "license_key": "olfl-1.3",
+    "category": "Permissive",
+    "spdx_license_key": "OLFL-1.3",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "olfl-1.3.json",
+    "yaml": "olfl-1.3.yml",
+    "html": "olfl-1.3.html",
+    "license": "olfl-1.3.LICENSE"
+  },
+  {
     "license_key": "oll-1.0",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-oll-1.0",
@@ -17888,6 +18124,18 @@
     "yaml": "oll-1.0.yml",
     "html": "oll-1.0.html",
     "license": "oll-1.0.LICENSE"
+  },
+  {
+    "license_key": "on2-patent",
+    "category": "Patent License",
+    "spdx_license_key": "LicenseRef-scancode-on2-patent",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "on2-patent.json",
+    "yaml": "on2-patent.yml",
+    "html": "on2-patent.html",
+    "license": "on2-patent.LICENSE"
   },
   {
     "license_key": "ooura-2001",
@@ -18436,8 +18684,10 @@
   {
     "license_key": "openssl-exception-gpl-3.0-plus",
     "category": "Copyleft",
-    "spdx_license_key": "LicenseRef-scancode-openssl-exception-gpl-3.0-plus",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "cryptsetup-OpenSSL-exception",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-openssl-exception-gpl-3.0-plus"
+    ],
     "is_exception": true,
     "is_deprecated": false,
     "json": "openssl-exception-gpl-3.0-plus.json",
@@ -18592,6 +18842,18 @@
     "yaml": "opl-1.0.yml",
     "html": "opl-1.0.html",
     "license": "opl-1.0.LICENSE"
+  },
+  {
+    "license_key": "opl-uk-3.0",
+    "category": "Permissive",
+    "spdx_license_key": "OPL-UK-3.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "opl-uk-3.0.json",
+    "yaml": "opl-uk-3.0.yml",
+    "html": "opl-uk-3.0.html",
+    "license": "opl-uk-3.0.LICENSE"
   },
   {
     "license_key": "opml-1.0",
@@ -18766,6 +19028,30 @@
     "yaml": "oracle-entitlement-05-15.yml",
     "html": "oracle-entitlement-05-15.html",
     "license": "oracle-entitlement-05-15.LICENSE"
+  },
+  {
+    "license_key": "oracle-free-2018",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-oracle-free-2018",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "oracle-free-2018.json",
+    "yaml": "oracle-free-2018.yml",
+    "html": "oracle-free-2018.html",
+    "license": "oracle-free-2018.LICENSE"
+  },
+  {
+    "license_key": "oracle-gftc-2023-06-12",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-oracle-gftc-2023-06-12",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "oracle-gftc-2023-06-12.json",
+    "yaml": "oracle-gftc-2023-06-12.yml",
+    "html": "oracle-gftc-2023-06-12.html",
+    "license": "oracle-gftc-2023-06-12.LICENSE"
   },
   {
     "license_key": "oracle-java-ee-sdk-2010",
@@ -21554,6 +21840,18 @@
     "license": "sglib.LICENSE"
   },
   {
+    "license_key": "sgp4",
+    "category": "Public Domain",
+    "spdx_license_key": "SGP4",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "sgp4.json",
+    "yaml": "sgp4.yml",
+    "html": "sgp4.html",
+    "license": "sgp4.LICENSE"
+  },
+  {
     "license_key": "shavlik-eula",
     "category": "Commercial",
     "spdx_license_key": "LicenseRef-scancode-shavlik-eula",
@@ -23346,8 +23644,10 @@
   {
     "license_key": "term-readkey",
     "category": "Permissive",
-    "spdx_license_key": "LicenseRef-scancode-term-readkey",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "TermReadKey",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-term-readkey"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "term-readkey.json",
@@ -24102,6 +24402,18 @@
     "license": "universal-foss-exception-1.0.LICENSE"
   },
   {
+    "license_key": "unixcrypt",
+    "category": "Permissive",
+    "spdx_license_key": "UnixCrypt",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "unixcrypt.json",
+    "yaml": "unixcrypt.yml",
+    "html": "unixcrypt.html",
+    "license": "unixcrypt.LICENSE"
+  },
+  {
     "license_key": "unknown",
     "category": "Unstated License",
     "spdx_license_key": "LicenseRef-scancode-unknown",
@@ -24613,6 +24925,18 @@
     "license": "vs10x-code-map.LICENSE"
   },
   {
+    "license_key": "vsftpd-openssl-exception",
+    "category": "Copyleft Limited",
+    "spdx_license_key": "vsftpd-openssl-exception",
+    "other_spdx_license_keys": [],
+    "is_exception": true,
+    "is_deprecated": false,
+    "json": "vsftpd-openssl-exception.json",
+    "yaml": "vsftpd-openssl-exception.yml",
+    "html": "vsftpd-openssl-exception.html",
+    "license": "vsftpd-openssl-exception.LICENSE"
+  },
+  {
     "license_key": "vsl-1.0",
     "category": "Permissive",
     "spdx_license_key": "VSL-1.0",
@@ -24839,6 +25163,18 @@
     "yaml": "wide-license.yml",
     "html": "wide-license.html",
     "license": "wide-license.LICENSE"
+  },
+  {
+    "license_key": "widget-workshop",
+    "category": "Permissive",
+    "spdx_license_key": "Widget-Workshop",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "widget-workshop.json",
+    "yaml": "widget-workshop.yml",
+    "html": "widget-workshop.html",
+    "license": "widget-workshop.LICENSE"
   },
   {
     "license_key": "wifi-alliance",
@@ -25315,8 +25651,10 @@
   {
     "license_key": "x11-lucent",
     "category": "Permissive",
-    "spdx_license_key": "LicenseRef-scancode-x11-lucent",
-    "other_spdx_license_keys": [],
+    "spdx_license_key": "dtoa",
+    "other_spdx_license_keys": [
+      "LicenseRef-scancode-x11-lucent"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "x11-lucent.json",
@@ -25533,6 +25871,18 @@
     "license": "xceed-community-2021.LICENSE"
   },
   {
+    "license_key": "xdebug-1.03",
+    "category": "Permissive",
+    "spdx_license_key": "Xdebug-1.03",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "xdebug-1.03.json",
+    "yaml": "xdebug-1.03.yml",
+    "html": "xdebug-1.03.html",
+    "license": "xdebug-1.03.LICENSE"
+  },
+  {
     "license_key": "xenomai-gpl-exception",
     "category": "Copyleft Limited",
     "spdx_license_key": "LicenseRef-scancode-xenomai-gpl-exception",
@@ -25591,6 +25941,18 @@
     "yaml": "xinetd.yml",
     "html": "xinetd.html",
     "license": "xinetd.LICENSE"
+  },
+  {
+    "license_key": "xiph-patent",
+    "category": "Patent License",
+    "spdx_license_key": "LicenseRef-scancode-xiph-patent",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "xiph-patent.json",
+    "yaml": "xiph-patent.yml",
+    "html": "xiph-patent.html",
+    "license": "xiph-patent.LICENSE"
   },
   {
     "license_key": "xming",
@@ -25783,6 +26145,18 @@
     "yaml": "zend-2.0.yml",
     "html": "zend-2.0.html",
     "license": "zend-2.0.LICENSE"
+  },
+  {
+    "license_key": "zendesk-appdev-api-2022",
+    "category": "Commercial",
+    "spdx_license_key": "LicenseRef-scancode-zendesk-appdev-api-2022",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "zendesk-appdev-api-2022.json",
+    "yaml": "zendesk-appdev-api-2022.yml",
+    "html": "zendesk-appdev-api-2022.html",
+    "license": "zendesk-appdev-api-2022.LICENSE"
   },
   {
     "license_key": "zeromq-exception-lgpl-3.0",

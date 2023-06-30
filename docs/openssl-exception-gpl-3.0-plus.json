@@ -5,9 +5,16 @@
   "category": "Copyleft",
   "owner": "Tildeslash",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-openssl-exception-gpl-3.0-plus",
+  "spdx_license_key": "cryptsetup-OpenSSL-exception",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-openssl-exception-gpl-3.0-plus"
+  ],
   "other_urls": [
-    "http://www.gnu.org/licenses/gpl-3.0.txt"
+    "http://www.gnu.org/licenses/gpl-3.0.txt",
+    "https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/COPYING",
+    "https://gitlab.nic.cz/datovka/datovka/-/blob/develop/COPYING",
+    "https://github.com/nbs-system/naxsi/blob/951123ad456bdf5ac94e8d8819342fe3d49bc002/naxsi_src/naxsi_raw.c",
+    "http://web.mit.edu/jgross/arch/amd64_deb60/bin/mosh"
   ],
   "standard_notice": "This program is free software: you can redistribute it and/or modify it\nunder the terms of the GNU General Public License as published by the Free\nSoftware Foundation, either version 3 of the License, or (at your option)\nany later version.\nThis program is distributed in the hope that it will be useful, but WITHOUT\nANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\nFITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for\nmore details.\nYou should have received a copy of the GNU General Public License along\nwith this program. If not, see <http://www.gnu.org/licenses/>.\nIn addition, as a special exception, the copyright holders give permission\nto link the code of portions of this program with the\nOpenSSL library under certain conditions as described in each individual\nsource file, and distribute linked combinations\nincluding the two.\nYou must obey the GNU General Public License in all respects for all of the\ncode used other than OpenSSL. If you modify\nfile(s) with this exception, you may extend this exception to your version\nof the file(s), but you are not obligated to do so. If you\ndo not wish to do so, delete this exception statement from your version. If\nyou delete this exception statement from all source\nfiles in the program, then also delete it here.\n",
   "text": "In addition, as a special exception, the copyright holders give permission to\nlink the code of portions of this program with the OpenSSL library under certain\nconditions as described in each individual source file, and distribute linked\ncombinations including the two.\n\nYou must obey the GNU General Public License in all respects for all of the code\nused other than OpenSSL.  If you modify file(s) with this exception, you may\nextend this exception to your version of the file(s), but you are not obligated\nto do so.  If you do not wish to do so, delete this exception statement from\nyour version.  If you delete this exception statement from all source files in\nthe program, then also delete it here."

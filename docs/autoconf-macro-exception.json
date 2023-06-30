@@ -7,6 +7,14 @@
   "homepage_url": "https://www.gnu.org/software/autoconf-archive/",
   "notes": "this is a variant of the Autonconf exception to the\nGPL 3.0 used in GNU Config config.guess and config.sub\n",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-autoconf-macro-exception",
+  "spdx_license_key": "Autoconf-exception-macro",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-autoconf-macro-exception"
+  ],
+  "other_urls": [
+    "https://github.com/freedesktop/xorg-macros/blob/39f07f7db58ebbf3dcb64a2bf9098ed5cf3d1223/xorg-macros.m4.in",
+    "https://www.gnu.org/software/autoconf-archive/ax_pthread.html",
+    "https://launchpad.net/ubuntu/precise/+source/xmltooling/+copyright"
+  ],
   "text": "As a special exception, the respective Autoconf Macro's copyright\nowner gives unlimited permission to copy, distribute and modify the\nconfigure scripts that are the output of Autoconf when processing\nthe Macro. You need not follow the terms of the GNU General Public\nLicense when using or distributing such scripts, even though\nportions of the text of the Macro appear in them. The GNU General\nPublic License (GPL) does govern all other use of the material that\nconstitutes the Autoconf Macro.\n\nThis special exception to the GPL applies to versions of the\nAutoconf Macro released by the Autoconf Macro Archive. When you\nmake and distribute a modified version of the Autoconf Macro, you\nmay extend this special exception to the GPL to apply to your\nmodified version as well."
 }

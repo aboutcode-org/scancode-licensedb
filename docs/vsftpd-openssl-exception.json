@@ -1,0 +1,15 @@
+{
+  "key": "vsftpd-openssl-exception",
+  "short_name": "vsftpd OpenSSL exception",
+  "name": "vsftpd OpenSSL exception",
+  "category": "Copyleft Limited",
+  "owner": "Richard Cochran",
+  "is_exception": true,
+  "spdx_license_key": "vsftpd-openssl-exception",
+  "other_urls": [
+    "https://git.stg.centos.org/source-git/vsftpd/blob/f727873674d9c9cd7afcae6677aa782eb54c8362/f/LICENSE",
+    "https://launchpad.net/debian/squeeze/+source/vsftpd/+copyright",
+    "https://github.com/richardcochran/vsftpd/blob/master/COPYING"
+  ],
+  "text": "vsftpd is licensed under version 2 of the GNU GPL.\nAs copyright holder, I give permission for vsftpd to be linked to the OpenSSL\nlibraries. This includes permission for vsftpd binaries to be distributed\nlinked against the OpenSSL libraries. All other obligations under the GPL v2\nremain intact."
+}

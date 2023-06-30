@@ -1,0 +1,12 @@
+{
+  "key": "latex2e-translated-notice",
+  "short_name": "Latex2e with translated notice permission",
+  "name": "Latex2e with translated notice permission",
+  "category": "Permissive",
+  "owner": "LaTeX",
+  "spdx_license_key": "Latex2e-translated-notice",
+  "other_urls": [
+    "https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74"
+  ],
+  "text": "Permission is granted to make and distribute verbatim copies of\nthis manual provided the copyright notice and this permission notice\nare preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this\nmanual under the conditions for verbatim copying, provided that the entire\nresulting derived work is distributed under the terms of a permission\nnotice identical to this one.\n\nPermission is granted to copy and distribute translations of this manual\ninto another language, under the above conditions for modified versions,\nexcept that this permission notice may be stated in a translation approved\nby the Foundation."
+}
