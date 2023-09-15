@@ -1,0 +1,11 @@
+{
+  "key": "codelite-exception-to-gpl",
+  "short_name": "CodeLite Exception to GPL",
+  "name": "CodeLite Exception to GPL",
+  "category": "Copyleft Limited",
+  "owner": "CodeLite Project",
+  "homepage_url": "https://github.com/eranif/codelite/blob/master/COPYING#L341",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-codelite-exception-to-gpl",
+  "text": "EXCEPTION:\n==========\n\nThe only exception is that plugins developed for CodeLite and are linking against CodeLite sources (either static linking or dynamic linking), and the plugin is NOT one of the official plugins (see list below):\n\n- Abbreviation\n- CodeFormatter\n- ContinousBuild\n- Copyright\n- Cscope\n- ExternalTools\n- Gizmos\n- QMakePlugin\n- snipwiz\n- Subversion\n- UnitTestPP\n- wxFormBuilder plugin\n- Tweaks\n- CMakePlugin\n- CodeLiteDiff\n- SFTP\n- ZoomNavigator\n- git\n- LLDB Debugger\n\nCan be distributed under a license other than the GPL"
+}
