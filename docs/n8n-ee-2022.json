@@ -1,0 +1,11 @@
+{
+  "key": "n8n-ee-2022",
+  "short_name": "n8n Enterprise License 2022",
+  "name": "n8n Enterprise License 2022",
+  "category": "Commercial",
+  "owner": "n8n",
+  "homepage_url": "https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md",
+  "spdx_license_key": "LicenseRef-scancode-n8n-ee-2022",
+  "faq_url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md#license",
+  "text": "# The n8n Enterprise License (the \u201cEnterprise License\u201d)\n\nWith regard to the n8n Software:\n\nThis software and associated documentation files (the \"Software\") may only be used in production, if\nyou (and any entity that you represent) hold a valid n8n Enterprise license corresponding to your\nusage. Subject to the foregoing sentence, you are free to modify this Software and publish patches\nto the Software. You agree that n8n and/or its licensors (as applicable) retain all right, title and\ninterest in and to all such modifications and/or patches, and all such modifications and/or patches\nmay only be used, copied, modified, displayed, distributed, or otherwise exploited with a valid n8n\nEnterprise license for the corresponding usage. Notwithstanding the foregoing, you may copy and\nmodify the Software for development and testing purposes, without requiring a subscription. You\nagree that n8n and/or its licensors (as applicable) retain all right, title and interest in and to\nall such modifications. You are not granted any other rights beyond what is expressly stated herein.\nSubject to the foregoing, it is forbidden to copy, merge, publish, distribute, sublicense, and/or\nsell the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT\nNOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES\nOR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nFor all third party components incorporated into the n8n Software, those components are licensed\nunder the original license provided by the owner of the applicable component."
+}

@@ -964,6 +964,18 @@
     "license": "amazon-sl.LICENSE"
   },
   {
+    "license_key": "amd-aspf-2023",
+    "category": "Free Restricted",
+    "spdx_license_key": "LicenseRef-scancode-amd-aspf-2023",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "amd-aspf-2023.json",
+    "yaml": "amd-aspf-2023.yml",
+    "html": "amd-aspf-2023.html",
+    "license": "amd-aspf-2023.LICENSE"
+  },
+  {
     "license_key": "amd-historical",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-amd-historical",
@@ -5932,6 +5944,18 @@
     "license": "crossword.LICENSE"
   },
   {
+    "license_key": "crunchbase-data-2019-12-17",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-crunchbase-data-2019-12-17",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "crunchbase-data-2019-12-17.json",
+    "yaml": "crunchbase-data-2019-12-17.yml",
+    "html": "crunchbase-data-2019-12-17.html",
+    "license": "crunchbase-data-2019-12-17.LICENSE"
+  },
+  {
     "license_key": "crypto-keys-redistribution",
     "category": "Copyleft",
     "spdx_license_key": "LicenseRef-scancode-crypto-keys-redistribution",
@@ -8065,6 +8089,18 @@
     "yaml": "free-fork.yml",
     "html": "free-fork.html",
     "license": "free-fork.LICENSE"
+  },
+  {
+    "license_key": "free-surfer-1.0",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-free-surfer-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "free-surfer-1.0.json",
+    "yaml": "free-surfer-1.0.yml",
+    "html": "free-surfer-1.0.html",
+    "license": "free-surfer-1.0.LICENSE"
   },
   {
     "license_key": "free-unknown",
@@ -13460,6 +13496,18 @@
     "license": "libtool-exception-2.0.LICENSE"
   },
   {
+    "license_key": "libtool-exception-lgpl",
+    "category": "Copyleft Limited",
+    "spdx_license_key": "LicenseRef-scancode-libtool-exception-lgpl",
+    "other_spdx_license_keys": [],
+    "is_exception": true,
+    "is_deprecated": false,
+    "json": "libtool-exception-lgpl.json",
+    "yaml": "libtool-exception-lgpl.yml",
+    "html": "libtool-exception-lgpl.html",
+    "license": "libtool-exception-lgpl.LICENSE"
+  },
+  {
     "license_key": "libutil-david-nugent",
     "category": "Permissive",
     "spdx_license_key": "libutil-David-Nugent",
@@ -15018,6 +15066,18 @@
     "yaml": "monkeysaudio.yml",
     "html": "monkeysaudio.html",
     "license": "monkeysaudio.LICENSE"
+  },
+  {
+    "license_key": "morbig-ieee-std-usage",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-morbig-ieee-std-usage",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "morbig-ieee-std-usage.json",
+    "yaml": "morbig-ieee-std-usage.yml",
+    "html": "morbig-ieee-std-usage.html",
+    "license": "morbig-ieee-std-usage.LICENSE"
   },
   {
     "license_key": "motorola",
@@ -16724,6 +16784,18 @@
     "license": "mysql-linking-exception-2018.LICENSE"
   },
   {
+    "license_key": "n8n-ee-2022",
+    "category": "Commercial",
+    "spdx_license_key": "LicenseRef-scancode-n8n-ee-2022",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "n8n-ee-2022.json",
+    "yaml": "n8n-ee-2022.yml",
+    "html": "n8n-ee-2022.html",
+    "license": "n8n-ee-2022.LICENSE"
+  },
+  {
     "license_key": "naist-2003",
     "category": "Permissive",
     "spdx_license_key": "NAIST-2003",
@@ -16904,6 +16976,18 @@
     "yaml": "netcomponents.yml",
     "html": "netcomponents.html",
     "license": "netcomponents.LICENSE"
+  },
+  {
+    "license_key": "netdata-ncul1",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-netdata-ncul1",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "netdata-ncul1.json",
+    "yaml": "netdata-ncul1.yml",
+    "html": "netdata-ncul1.html",
+    "license": "netdata-ncul1.LICENSE"
   },
   {
     "license_key": "netron",
@@ -22464,6 +22548,18 @@
     "license": "soundex.LICENSE"
   },
   {
+    "license_key": "sourcegraph-enterprise-2018",
+    "category": "Commercial",
+    "spdx_license_key": "LicenseRef-scancode-sourcegraph-enterprise-2018",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "sourcegraph-enterprise-2018.json",
+    "yaml": "sourcegraph-enterprise-2018.yml",
+    "html": "sourcegraph-enterprise-2018.html",
+    "license": "sourcegraph-enterprise-2018.LICENSE"
+  },
+  {
     "license_key": "spark-jive",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-spark-jive",
@@ -25353,6 +25449,18 @@
     "yaml": "w3c-software-20021231.yml",
     "html": "w3c-software-20021231.html",
     "license": "w3c-software-20021231.LICENSE"
+  },
+  {
+    "license_key": "w3c-software-2023",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-w3c-software-2023",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "w3c-software-2023.json",
+    "yaml": "w3c-software-2023.yml",
+    "html": "w3c-software-2023.html",
+    "license": "w3c-software-2023.LICENSE"
   },
   {
     "license_key": "w3c-software-doc-20150513",

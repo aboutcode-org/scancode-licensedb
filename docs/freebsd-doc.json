@@ -4,6 +4,7 @@
   "name": "FreeBSD Doc License",
   "category": "Permissive",
   "owner": "FreeBSD",
+  "homepage_url": "https://www.freebsd.org/copyright/freebsd-doc-license.html",
   "spdx_license_key": "FreeBSD-DOC",
   "other_spdx_license_keys": [
     "LicenseRef-scancode-freebsd-doc"
@@ -16,6 +17,7 @@
     "https://github.com/open-mpi/docs/blob/master/README.md"
   ],
   "other_urls": [
+    "https://en.wikipedia.org/wiki/FreeBSD_Documentation_License",
     "https://www.freebsd.org/copyright/freebsd-doc-license/"
   ],
   "text": "Redistribution and use in source and 'compiled' forms with or without\nmodification, are permitted provided that the following conditions are met:\n\n    Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer as the first lines of this\n    file unmodified.\n\n    Redistributions in compiled form must reproduce the above copyright notice,\n    this list of conditions and the following disclaimer in the documentation\n    and/or other materials provided with the distribution.\n\nTHIS DOCUMENTATION IS PROVIDED BY THE PROJECT \"AS IS\" AND ANY EXPRESS OR IMPLIED\nWARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT\nSHALL THE PROJECT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\nEXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT\nOF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE"
