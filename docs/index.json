@@ -14737,7 +14737,12 @@
     "license_key": "mit",
     "category": "Permissive",
     "spdx_license_key": "MIT",
-    "other_spdx_license_keys": [],
+    "other_spdx_license_keys": [
+      "LicenseRef-MIT-Bootstrap",
+      "LicenseRef-MIT-Discord",
+      "LicenseRef-MIT-TC",
+      "LicenseRef-MIT-Diehl"
+    ],
     "is_exception": false,
     "is_deprecated": false,
     "json": "mit.json",
