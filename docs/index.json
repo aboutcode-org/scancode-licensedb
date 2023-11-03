@@ -4652,6 +4652,18 @@
     "license": "cc-pdm-1.0.LICENSE"
   },
   {
+    "license_key": "cc-sa-1.0",
+    "category": "Copyleft",
+    "spdx_license_key": "LicenseRef-scancode-cc-sa-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "cc-sa-1.0.json",
+    "yaml": "cc-sa-1.0.yml",
+    "html": "cc-sa-1.0.html",
+    "license": "cc-sa-1.0.LICENSE"
+  },
+  {
     "license_key": "cc-sampling-1.0",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-cc-sampling-1.0",
