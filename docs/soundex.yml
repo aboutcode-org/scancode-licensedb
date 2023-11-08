@@ -4,7 +4,11 @@ name: Soundex License
 category: Permissive
 owner: Mark Mielke
 homepage_url: https://metacpan.org/release/RJBS/Text-Soundex-3.05/source/Soundex.pm#L3-11
-spdx_license_key: LicenseRef-scancode-soundex
+spdx_license_key: Soundex
+other_spdx_license_keys:
+  - LicenseRef-scancode-soundex
+other_urls:
+  - https://metacpan.org/release/RJBS/Text-Soundex-3.05/source/Soundex.pm#L3-11
 text: |
   Freedom to use these sources for whatever you want, as long as credit
   is given where credit is due, is hereby granted. You may make modifications

@@ -4,9 +4,14 @@
   "name": "MIT With Modification Obligations",
   "category": "Permissive",
   "owner": "MIT",
-  "spdx_license_key": "LicenseRef-scancode-mit-modification-obligations",
+  "spdx_license_key": "HPND-export-US-modify",
   "other_spdx_license_keys": [
-    "LicenseRef-scancode-mit-with-modification-obligations"
+    "LicenseRef-scancode-mit-with-modification-obligations",
+    "LicenseRef-scancode-mit-modification-obligations"
+  ],
+  "other_urls": [
+    "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L1157-L1182",
+    "https://github.com/pythongssapi/k5test/blob/v0.10.3/K5TEST-LICENSE.txt"
   ],
   "minimum_coverage": 80,
   "text": "Export of this software from the United States of America may\nrequire a specific license from the United States Government.\nIt is the responsibility of any person or organization contemplating\nexport to obtain such a license before exporting.\n\nWITHIN THAT CONSTRAINT, permission to use, copy, modify, and\ndistribute this software and its documentation for any purpose and\nwithout fee is hereby granted, provided that the above copyright\nnotice appear in all copies and that both that copyright notice and\nthis permission notice appear in supporting documentation, and that\nthe name of M.I.T. not be used in advertising or publicity pertaining\nto distribution of the software without specific, written prior\npermission.  Furthermore if you modify this software you must label\nyour software as modified software and not distribute it in such a\nfashion that it might be confused with the original M.I.T. software.\nM.I.T. makes no representations about the suitability of\nthis software for any purpose.  It is provided \"as is\" without express\nor implied warranty."

@@ -1,0 +1,12 @@
+{
+  "key": "furuseth",
+  "short_name": "Furuseth License",
+  "name": "Furuseth License",
+  "category": "Permissive",
+  "owner": "Unspecified",
+  "spdx_license_key": "Furuseth",
+  "other_urls": [
+    "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT?ref_type=heads#L39-51"
+  ],
+  "text": "Redistribution and use in source and binary forms, with or without\nmodification, are permitted provided that this notice is preserved.\nThe names of the copyright holders may not be used to endorse or\npromote products derived from this software without their specific\nprior written permission.  This software is provided ``as is''\nwithout express or implied warranty."
+}

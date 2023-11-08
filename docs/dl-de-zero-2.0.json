@@ -1,0 +1,15 @@
+{
+  "key": "dl-de-zero-2.0",
+  "short_name": "Data licence Germany \u2013 zero \u2013 version 2.0",
+  "name": "Data licence Germany \u2013 zero \u2013 version 2.0",
+  "category": "Permissive",
+  "owner": "Germany GovDataProject",
+  "spdx_license_key": "DL-DE-ZERO-2.0",
+  "other_urls": [
+    "https://www.govdata.de/dl-de/zero-2-0"
+  ],
+  "ignorable_urls": [
+    "https://www.govdata.de/dl-de/zero-2-0"
+  ],
+  "text": "DL-DE->Zero-2.0\nDatenlizenz Deutschland \u2013 Zero \u2013 Version 2.0\n\nJede Nutzung ist ohne Einschr\u00e4nkungen oder Bedingungen zul\u00e4ssig.\n\nDie bereitgestellten Daten und Metadaten d\u00fcrfen f\u00fcr die kommerzielle und nicht kommerzielle Nutzung insbesondere\n\n    vervielf\u00e4ltigt, ausgedruckt, pr\u00e4sentiert, ver\u00e4ndert, bearbeitet sowie an Dritte \u00fcbermittelt werden;\n    mit eigenen Daten und Daten Anderer zusammengef\u00fchrt und zu selbst\u00e4ndigen neuen Datens\u00e4tzen verbunden werden;\n    in interne und externe Gesch\u00e4ftsprozesse, Produkte und Anwendungen in \u00f6ffentlichen und nicht \u00f6ffentlichen elektronischen Netzwerken eingebunden werden.\n\n\nData licence Germany \u2013 Zero \u2013 version 2.0\n\nAny use is permitted without restrictions or conditions.\n\nThe data and meta-data provided may, for commercial and non-commercial use, in particular\n\n    be copied, printed, presented, altered, processed and transmitted to third parties;\n    be merged with own data and with the data of others and be combined to form new and independent datasets;\n    be integrated in internal and external business processes, products and applications in public and non-public electronic networks.\n\n\n\nURL: https://www.govdata.de/dl-de/zero-2-0"
+}
