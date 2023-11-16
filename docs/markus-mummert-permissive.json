@@ -1,0 +1,13 @@
+{
+  "key": "markus-mummert-permissive",
+  "short_name": "Markus Mummert Permissive",
+  "name": "Markus Mummert Permissive",
+  "category": "Permissive",
+  "owner": "Markus Mummert",
+  "homepage_url": "https://github.com/festvox/flite/blob/master/src/speech/rateconv.c",
+  "spdx_license_key": "LicenseRef-scancode-markus-mummert-permissive",
+  "other_urls": [
+    "https://github.com/festvox/flite/blob/master/COPYING"
+  ],
+  "text": "Redistribution and use of this software, modifcation and inclusion\ninto other forms of software are permitted provided that the following\nconditions are met:\n\n1. Redistributions of this software must retain the above copyright\n   notice, this list of conditions and the following disclaimer.\n2. If this software is redistributed in a modified condition\n   it must reveal clearly that it has been modified.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS''\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\nTO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\nPARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\nEXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\nPROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\nPROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY\nOF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE\nUSE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGE."
+}

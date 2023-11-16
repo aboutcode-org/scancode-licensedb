@@ -1,0 +1,12 @@
+{
+  "key": "lance-norskog-license",
+  "short_name": "Lance Norskog License",
+  "name": "Lance Norskog License",
+  "category": "Permissive",
+  "owner": "Lance Norskog",
+  "spdx_license_key": "LicenseRef-scancode-lance-norskog-license",
+  "other_urls": [
+    "https://github.com/search?q=%22Lance+Norskog+And+Sundry+Contributors%22&type=code"
+  ],
+  "text": "This source code is freely redistributable and may be used for\nany purpose.  This copyright notice must be maintained. \nLance Norskog And Sundry Contributors are not responsible for \nthe consequences of using this software."
+}

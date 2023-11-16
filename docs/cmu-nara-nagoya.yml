@@ -1,0 +1,24 @@
+key: cmu-nara-nagoya
+short_name: CMU Nara Nagoya License
+name: CMU Nara Nagoya License
+category: Permissive
+owner: Carnegie Mellon University
+homepage_url: https://github.com/festvox/flite/blob/master/COPYING
+spdx_license_key: LicenseRef-scancode-cmu-nara-nagoya
+text: "Permission is hereby granted, free of charge, to use and        \ndistribute this software\
+  \ and its documentation without          \nrestriction, including without limitation the rights\
+  \ to use,    \ncopy, modify, merge, publish, distribute, sublicense, and/or    \nsell copies\
+  \ of this work, and to permit persons to whom this    \nwork is furnished to do so, subject\
+  \ to the following conditions:\n                                                         \
+  \       \n  1. The code must retain the above copyright notice, this list \n     of conditions\
+  \ and the following disclaimer.                \n  2. Any modifications must be clearly marked\
+  \ as such.          \n  3. Original authors' names are not deleted.                   \n \
+  \                                                                   \nNAGOYA INSTITUTE OF\
+  \ TECHNOLOGY, NARA INSTITUTE OF SCIENCE AND   \nTECHNOLOGY, CARNEGIE MELLON UNIVERSITY, AND\
+  \ THE CONTRIBUTORS TO \nTHIS WORK DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, \n\
+  INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS,\nIN NO EVENT SHALL NAGOYA\
+  \ INSTITUTE OF TECHNOLOGY, NARA          \nINSTITUTE OF SCIENCE AND TECHNOLOGY, CARNEGIE MELLON\
+  \ UNIVERSITY,\nNOR THE CONTRIBUTORS BE LIABLE FOR ANY SPECIAL, INDIRECT OR     \nCONSEQUENTIAL\
+  \ DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM  \nLOSS OF USE, DATA OR PROFITS, WHETHER\
+  \ IN AN ACTION OF CONTRACT, \nNEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN  \
+  \     \nCONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE."

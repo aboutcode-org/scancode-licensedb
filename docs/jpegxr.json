@@ -1,0 +1,12 @@
+{
+  "key": "jpegxr",
+  "short_name": "JPEG XR License",
+  "name": "JPEG XR License",
+  "category": "Free Restricted",
+  "owner": "ITU - International Telecommunications Union",
+  "spdx_license_key": "LicenseRef-scancode-jpegxr",
+  "text_urls": [
+    "https://github.com/ArtifexSoftware/ghostpdl/blob/483ae47b729734a463c2753e4e9c5cbb4abf3997/jpegxr/COPYRIGHT.txt#L4"
+  ],
+  "text": "This software module was originally contributed by Microsoft\nCorporation in the course of development of the\nITU-T T.832 | ISO/IEC 29199-2 (\"JPEG XR\") format standard for\nreference purposes and its performance may not have been optimized.\n\nThis software module is an implementation of one or more\ntools as specified by the JPEG XR standard.\n\nITU/ISO/IEC give You a royalty-free, worldwide, non-exclusive\ncopyright license to copy, distribute, and make derivative works\nof this software module or modifications thereof for use in\nproducts claiming conformance to the JPEG XR standard as\nspecified by ITU-T T.832 | ISO/IEC 29199-2.\n\nITU/ISO/IEC give users the same free license to this software\nmodule or modifications thereof for research purposes and further\nITU/ISO/IEC standardization.\n\nThose intending to use this software module in products are advised\nthat its use may infringe existing patents. ITU/ISO/IEC have no\nliability for use of this software module or modifications thereof.\n\nCopyright is not released for products that do not conform to\nto the JPEG XR standard as specified by ITU-T T.832 |\nISO/IEC 29199-2.\n\nMicrosoft Corporation retains full right to modify and use the code\nfor its own purpose, to assign or donate the code to a third party,\nand to inhibit third parties from using the code for products that\ndo not conform to the JPEG XR standard as specified by ITU-T T.832 |\nISO/IEC 29199-2.\n\nThis copyright notice must be included in all copies or derivative\nworks."
+}

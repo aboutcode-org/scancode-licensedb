@@ -1,0 +1,10 @@
+{
+  "key": "punycode",
+  "short_name": "Punycode License",
+  "name": "Punycode License",
+  "category": "Permissive",
+  "owner": "nicemice",
+  "homepage_url": "https://git.savannah.gnu.org/gitweb/?p=libidn.git;a=blob;f=lib/punycode.c;h=14d70152b9c5723778af174ff6027cc3742b749e;hb=HEAD#l54",
+  "spdx_license_key": "LicenseRef-scancode-punycode",
+  "text": "Disclaimer and license: Regarding this entire document or any\nportion of it (including the pseudocode and C code), the author\nmakes no guarantees and is not responsible for any damage resulting\nfrom its use.  The author grants irrevocable permission to anyone\nto use, modify, and distribute it in any way that does not diminish\nthe rights of anyone else to use, modify, and distribute it,\nprovided that redistributed derivative works do not contain\nmisleading author or version information.  Derivative works need\nnot be licensed under similar terms."
+}
