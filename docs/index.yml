@@ -4717,7 +4717,8 @@
 - license_key: commercial-license
   category: Commercial
   spdx_license_key: LicenseRef-scancode-commercial-license
-  other_spdx_license_keys: []
+  other_spdx_license_keys:
+    - LicenseRef-Commercial
   is_exception: no
   is_deprecated: no
   json: commercial-license.json
@@ -5476,6 +5477,26 @@
   yaml: dgraph-cla.yml
   html: dgraph-cla.html
   license: dgraph-cla.LICENSE
+- license_key: dhb-lbnl-bsd-2007
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-dhb-lbnl-bsd-2007
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: dhb-lbnl-bsd-2007.json
+  yaml: dhb-lbnl-bsd-2007.yml
+  html: dhb-lbnl-bsd-2007.html
+  license: dhb-lbnl-bsd-2007.LICENSE
+- license_key: dhb-limited-bsd-2015
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-dhb-limited-bsd-2015
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: dhb-limited-bsd-2015.json
+  yaml: dhb-limited-bsd-2015.yml
+  html: dhb-limited-bsd-2015.html
+  license: dhb-limited-bsd-2015.LICENSE
 - license_key: dhtmlab-public
   category: Permissive
   spdx_license_key: LicenseRef-scancode-dhtmlab-public
@@ -7075,6 +7096,26 @@
   yaml: fsf-unlimited-no-warranty.yml
   html: fsf-unlimited-no-warranty.html
   license: fsf-unlimited-no-warranty.LICENSE
+- license_key: fsl-1.0-apache-2.0
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-fsl-1.0-apache-2.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: fsl-1.0-apache-2.0.json
+  yaml: fsl-1.0-apache-2.0.yml
+  html: fsl-1.0-apache-2.0.html
+  license: fsl-1.0-apache-2.0.LICENSE
+- license_key: fsl-1.0-mit
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-fsl-1.0-mit
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: fsl-1.0-mit.json
+  yaml: fsl-1.0-mit.yml
+  html: fsl-1.0-mit.html
+  license: fsl-1.0-mit.LICENSE
 - license_key: ftdi
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-ftdi
@@ -9168,6 +9209,16 @@
   yaml: hot-potato.yml
   html: hot-potato.html
   license: hot-potato.LICENSE
+- license_key: houdini-project
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-houdini
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: houdini-project.json
+  yaml: houdini-project.yml
+  html: houdini-project.html
+  license: houdini-project.LICENSE
 - license_key: hp
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-hp
@@ -9469,6 +9520,26 @@
   yaml: ibm-dhcp.yml
   html: ibm-dhcp.html
   license: ibm-dhcp.LICENSE
+- license_key: ibm-employee-written
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-ibm-employee-written
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ibm-employee-written.json
+  yaml: ibm-employee-written.yml
+  html: ibm-employee-written.html
+  license: ibm-employee-written.LICENSE
+- license_key: ibm-glextrusion
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-ibm-glextrusion
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ibm-glextrusion.json
+  yaml: ibm-glextrusion.yml
+  html: ibm-glextrusion.html
+  license: ibm-glextrusion.LICENSE
 - license_key: ibm-icu
   category: Permissive
   spdx_license_key: LicenseRef-scancode-ibm-icu
@@ -18125,6 +18196,26 @@
   yaml: repoze.yml
   html: repoze.html
   license: repoze.LICENSE
+- license_key: responsible-ai-source-1.0
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-responsible-ai-source-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: responsible-ai-source-1.0.json
+  yaml: responsible-ai-source-1.0.yml
+  html: responsible-ai-source-1.0.html
+  license: responsible-ai-source-1.0.LICENSE
+- license_key: responsible-ai-source-1.1
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-responsible-ai-source-1.1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: responsible-ai-source-1.1.json
+  yaml: responsible-ai-source-1.1.yml
+  html: responsible-ai-source-1.1.html
+  license: responsible-ai-source-1.1.LICENSE
 - license_key: rh-eula
   category: Copyleft
   spdx_license_key: LicenseRef-scancode-rh-eula
@@ -21130,6 +21221,16 @@
   yaml: unicode-tou.yml
   html: unicode-tou.html
   license: unicode-tou.LICENSE
+- license_key: unicode-v3
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-unicode-v3
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: unicode-v3.json
+  yaml: unicode-v3.yml
+  html: unicode-v3.html
+  license: unicode-v3.LICENSE
 - license_key: universal-foss-exception-1.0
   category: Copyleft Limited
   spdx_license_key: Universal-FOSS-exception-1.0

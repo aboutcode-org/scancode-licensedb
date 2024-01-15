@@ -7,5 +7,8 @@
   "notes": "this is a generic commercial license",
   "is_generic": true,
   "spdx_license_key": "LicenseRef-scancode-commercial-license",
+  "other_spdx_license_keys": [
+    "LicenseRef-Commercial"
+  ],
   "text": "This component is licensed under a commercial contract from the supplier."
 }
