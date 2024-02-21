@@ -5,6 +5,13 @@
   "category": "Permissive",
   "owner": "NRL",
   "homepage_url": "https://web.mit.edu/kerberos/krb5-1.14/doc/mitK5license.html",
-  "spdx_license_key": "LicenseRef-scancode-nrl-permission",
+  "spdx_license_key": "CMU-Mach-nodoc",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-nrl-permission"
+  ],
+  "other_urls": [
+    "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L718-L728",
+    "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html"
+  ],
   "text": "Permission to use, copy, modify and distribute this software and its\ndocumentation is hereby granted, provided that both the copyright\nnotice and this permission notice appear in all copies of the software,\nderivative works or modified versions, and any portions thereof, and\nthat both notices appear in supporting documentation.\n\nNRL ALLOWS FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION AND\nDISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES WHATSOEVER\nRESULTING FROM THE USE OF THIS SOFTWARE."
 }

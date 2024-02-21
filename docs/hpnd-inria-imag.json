@@ -1,0 +1,13 @@
+{
+  "key": "hpnd-inria-imag",
+  "short_name": "Historical - INRIA-IMAG variant",
+  "name": "Historical Permission Notice and Disclaimer - INRIA-IMAG variant",
+  "category": "Permissive",
+  "owner": "INRIA",
+  "notes": "Added in SPDX license list 3.23\nThis was previously the license rule: other-permissive_44.RULE\n",
+  "spdx_license_key": "HPND-INRIA-IMAG",
+  "other_urls": [
+    "https://github.com/ppp-project/ppp/blob/master/pppd/ipv6cp.c#L75-L83"
+  ],
+  "text": "This software is available with usual \"research\" terms with\nthe aim of retain credits of the software. Permission to use,\ncopy, modify and distribute this software for any purpose and\nwithout fee is hereby granted, provided that the above copyright\nnotice and this permission notice appear in all copies, and\nthe name of INRIA, IMAG, or any contributor not be used in\nadvertising or publicity pertaining to this material without\nthe prior explicit permission. The software is provided \"as\nis\" without any warranties, support or liabilities of any kind."
+}

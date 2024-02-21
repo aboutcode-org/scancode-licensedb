@@ -1,0 +1,13 @@
+{
+  "key": "sun-ppp",
+  "short_name": "Sun PPP License",
+  "name": "Sun PPP License",
+  "category": "Permissive",
+  "owner": "Sun Microsystems, Inc.",
+  "notes": "Added in SPDX license list 3.23\nThis was previously the license rule: other-permissive_43.RULE\n",
+  "spdx_license_key": "Sun-PPP",
+  "other_urls": [
+    "https://github.com/ppp-project/ppp/blob/master/pppd/eap.c#L7-L16"
+  ],
+  "text": "Non-exclusive rights to redistribute, modify, translate, and use\nthis software in source and binary forms, in whole or in part, is\nhereby granted, provided that the above copyright notice is\nduplicated in any source form, and that neither the name of the\ncopyright holder nor the author is used to endorse or promote\nproducts derived from this software.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE."
+}
