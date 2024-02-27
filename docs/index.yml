@@ -12108,7 +12108,7 @@
   spdx_license_key: LLGPL
   other_spdx_license_keys:
     - LicenseRef-scancode-llgpl
-  is_exception: no
+  is_exception: yes
   is_deprecated: no
   json: llgpl.json
   yaml: llgpl.yml
