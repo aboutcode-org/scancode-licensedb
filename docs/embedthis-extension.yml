@@ -5,6 +5,7 @@ category: Free Restricted
 owner: Embedthis
 homepage_url: https://www.embedthis.com/licensing/extension.html
 spdx_license_key: LicenseRef-scancode-embedthis-extension
+minimum_coverage: 95
 text: |
   Embedthis Extension License
 

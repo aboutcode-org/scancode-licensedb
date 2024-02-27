@@ -1437,6 +1437,18 @@
     "license": "apple-mfi-license.LICENSE"
   },
   {
+    "license_key": "apple-ml-ferret-2023",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-apple-ml-ferret-2023",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "apple-ml-ferret-2023.json",
+    "yaml": "apple-ml-ferret-2023.yml",
+    "html": "apple-ml-ferret-2023.html",
+    "license": "apple-ml-ferret-2023.LICENSE"
+  },
+  {
     "license_key": "apple-mpeg-4",
     "category": "Free Restricted",
     "spdx_license_key": "LicenseRef-scancode-apple-mpeg-4",
@@ -3956,6 +3968,30 @@
     "license": "can-ogl-toronto-1.0.LICENSE"
   },
   {
+    "license_key": "canonical-ha-cla-any-e-v1.2",
+    "category": "CLA",
+    "spdx_license_key": "LicenseRef-scancode-canonical-ha-cla-any-e-v1.2",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "canonical-ha-cla-any-e-v1.2.json",
+    "yaml": "canonical-ha-cla-any-e-v1.2.yml",
+    "html": "canonical-ha-cla-any-e-v1.2.html",
+    "license": "canonical-ha-cla-any-e-v1.2.LICENSE"
+  },
+  {
+    "license_key": "canonical-ha-cla-any-i-v1.2",
+    "category": "CLA",
+    "spdx_license_key": "LicenseRef-scancode-canonical-ha-cla-any-i-v1.2",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "canonical-ha-cla-any-i-v1.2.json",
+    "yaml": "canonical-ha-cla-any-i-v1.2.yml",
+    "html": "canonical-ha-cla-any-i-v1.2.html",
+    "license": "canonical-ha-cla-any-i-v1.2.LICENSE"
+  },
+  {
     "license_key": "capec-tou",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-capec-tou",
@@ -4004,6 +4040,18 @@
     "yaml": "carnegie-mellon-contributors.yml",
     "html": "carnegie-mellon-contributors.html",
     "license": "carnegie-mellon-contributors.LICENSE"
+  },
+  {
+    "license_key": "catharon-osl",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-catharon-osl",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "catharon-osl.json",
+    "yaml": "catharon-osl.yml",
+    "html": "catharon-osl.html",
+    "license": "catharon-osl.LICENSE"
   },
   {
     "license_key": "cavium-linux-firmware",
@@ -4247,7 +4295,7 @@
   },
   {
     "license_key": "cc-by-nc-3.0-de",
-    "category": "Free Restricted",
+    "category": "Source-available",
     "spdx_license_key": "CC-BY-NC-3.0-DE",
     "other_spdx_license_keys": [],
     "is_exception": false,
@@ -4295,7 +4343,7 @@
   },
   {
     "license_key": "cc-by-nc-nd-2.0-at",
-    "category": "Free Restricted",
+    "category": "Source-available",
     "spdx_license_key": "LicenseRef-scancode-cc-by-nc-nd-2.0-at",
     "other_spdx_license_keys": [],
     "is_exception": false,
@@ -4343,7 +4391,7 @@
   },
   {
     "license_key": "cc-by-nc-nd-3.0-de",
-    "category": "Free Restricted",
+    "category": "Source-available",
     "spdx_license_key": "CC-BY-NC-ND-3.0-DE",
     "other_spdx_license_keys": [],
     "is_exception": false,
@@ -4559,7 +4607,7 @@
   },
   {
     "license_key": "cc-by-nd-3.0-de",
-    "category": "Free Restricted",
+    "category": "Source-available",
     "spdx_license_key": "CC-BY-ND-3.0-DE",
     "other_spdx_license_keys": [],
     "is_exception": false,
@@ -8313,6 +8361,18 @@
     "license": "foobar2000.LICENSE"
   },
   {
+    "license_key": "fpdf",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-fpdf",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "fpdf.json",
+    "yaml": "fpdf.yml",
+    "html": "fpdf.html",
+    "license": "fpdf.LICENSE"
+  },
+  {
     "license_key": "fpl",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-fpl",
@@ -8717,6 +8777,18 @@
     "license": "fwlw.LICENSE"
   },
   {
+    "license_key": "g10-permissive",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-g10-permissive",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "g10-permissive.json",
+    "yaml": "g10-permissive.yml",
+    "html": "g10-permissive.html",
+    "license": "g10-permissive.LICENSE"
+  },
+  {
     "license_key": "gareth-mccaughan",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-gareth-mccaughan",
@@ -8840,7 +8912,7 @@
   },
   {
     "license_key": "gcr-docs",
-    "category": "Copyleft",
+    "category": "Copyleft Limited",
     "spdx_license_key": "GCR-docs",
     "other_spdx_license_keys": [],
     "is_exception": false,
@@ -12455,6 +12527,18 @@
     "license": "ipa-font.LICENSE"
   },
   {
+    "license_key": "ipca",
+    "category": "CLA",
+    "spdx_license_key": "LicenseRef-scancode-ipca",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "ipca.json",
+    "yaml": "ipca.yml",
+    "html": "ipca.html",
+    "license": "ipca.LICENSE"
+  },
+  {
     "license_key": "iptc-2006",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-iptc-2006",
@@ -13291,6 +13375,18 @@
     "yaml": "kevlin-henney.yml",
     "html": "kevlin-henney.html",
     "license": "kevlin-henney.LICENSE"
+  },
+  {
+    "license_key": "keypirinha",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-keypirinha",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "keypirinha.json",
+    "yaml": "keypirinha.yml",
+    "html": "keypirinha.html",
+    "license": "keypirinha.LICENSE"
   },
   {
     "license_key": "kfgqpc-uthmanic-script-hafs",
@@ -20546,6 +20642,18 @@
     "license": "owfa-1.0.LICENSE"
   },
   {
+    "license_key": "owl-0.9.4",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-owl-0.9.4",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "owl-0.9.4.json",
+    "yaml": "owl-0.9.4.yml",
+    "html": "owl-0.9.4.html",
+    "license": "owl-0.9.4.LICENSE"
+  },
+  {
     "license_key": "owtchart",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-owtchart",
@@ -21157,9 +21265,7 @@
     "license_key": "pnmstitch",
     "category": "Permissive",
     "spdx_license_key": "pnmstitch",
-    "other_spdx_license_keys": [
-      "pnmstitc"
-    ],
+    "other_spdx_license_keys": [],
     "is_exception": false,
     "is_deprecated": false,
     "json": "pnmstitch.json",
@@ -22182,6 +22288,18 @@
     "license": "repoze.LICENSE"
   },
   {
+    "license_key": "research-disclaimer",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-research-disclaimer",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "research-disclaimer.json",
+    "yaml": "research-disclaimer.yml",
+    "html": "research-disclaimer.html",
+    "license": "research-disclaimer.LICENSE"
+  },
+  {
     "license_key": "responsible-ai-source-1.0",
     "category": "Proprietary Free",
     "spdx_license_key": "LicenseRef-scancode-responsible-ai-source-1.0",
@@ -22662,6 +22780,18 @@
     "yaml": "sax-pd-2.0.yml",
     "html": "sax-pd-2.0.html",
     "license": "sax-pd-2.0.LICENSE"
+  },
+  {
+    "license_key": "saxix-mit",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-saxix-mit",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "saxix-mit.json",
+    "yaml": "saxix-mit.yml",
+    "html": "saxix-mit.html",
+    "license": "saxix-mit.LICENSE"
   },
   {
     "license_key": "saxpath",
@@ -26218,6 +26348,18 @@
     "yaml": "vcalendar.yml",
     "html": "vcalendar.html",
     "license": "vcalendar.LICENSE"
+  },
+  {
+    "license_key": "vcvrack-exception-to-gpl-3.0",
+    "category": "Copyleft Limited",
+    "spdx_license_key": "LicenseRef-scancode-vcvrack-exception-to-gpl-3.0",
+    "other_spdx_license_keys": [],
+    "is_exception": true,
+    "is_deprecated": false,
+    "json": "vcvrack-exception-to-gpl-3.0.json",
+    "yaml": "vcvrack-exception-to-gpl-3.0.yml",
+    "html": "vcvrack-exception-to-gpl-3.0.html",
+    "license": "vcvrack-exception-to-gpl-3.0.LICENSE"
   },
   {
     "license_key": "verbatim-manual",

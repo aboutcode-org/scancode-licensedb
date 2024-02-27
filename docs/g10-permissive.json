@@ -1,0 +1,10 @@
+{
+  "key": "g10-permissive",
+  "short_name": "g10-permissive",
+  "name": "g10-permissive",
+  "category": "Permissive",
+  "owner": "g10 Code GmbH",
+  "homepage_url": "https://changelogs.ubuntu.com/changelogs/pool/main/d/dbus/dbus_1.10.6-1ubuntu3.6/copyright",
+  "spdx_license_key": "LicenseRef-scancode-g10-permissive",
+  "text": "This file is free software; as a special exception the author gives\nunlimited permission to copy and/or distribute it, with or without\nmodifications, as long as this notice is preserved.\n\nThis program is distributed in the hope that it will be useful, but\nWITHOUT ANY WARRANTY, to the extent permitted by law; without even the\nimplied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+}

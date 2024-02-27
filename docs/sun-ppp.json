@@ -3,7 +3,7 @@
   "short_name": "Sun PPP License",
   "name": "Sun PPP License",
   "category": "Permissive",
-  "owner": "Sun Microsystems, Inc.",
+  "owner": "Oracle (Sun)",
   "notes": "Added in SPDX license list 3.23\nThis was previously the license rule: other-permissive_43.RULE\n",
   "spdx_license_key": "Sun-PPP",
   "other_urls": [

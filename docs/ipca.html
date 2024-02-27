@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: ipca</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
+  <script src="static/jquery.mark-8.11.1.min.js"></script>
+  <style>
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
+  </style>
+
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
+  <div class="container">
+    <hr>
+    <a href="index.html">back to list</a> -
+    <a href="ipca.yml">yml</a> -
+    <a href="ipca.json">json</a> -
+    <a href="ipca.LICENSE">text</a> -
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ipca.LICENSE" target="_blank">edit License</a>
+    <hr>
+    <dl>
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            ipca
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            IPCA
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            IPFire Project Contributor Agreement
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            CLA
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            IPFire
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://wiki.ipfire.org/legal/ipca" rel="noopener" target="_blank">https://wiki.ipfire.org/legal/ipca</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-ipca
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://www.ipfire.org/legal" rel="noopener" target="_blank">https://www.ipfire.org/legal</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="noopener" target="_blank">http://creativecommons.org/licenses/by-sa/3.0/legalcode</a></li><li><a href="http://wiki.ipfire.org/en/legal/licenses" rel="noopener" target="_blank">http://wiki.ipfire.org/en/legal/licenses</a></li><li><a href="https://opensource.org/licenses/MIT" rel="noopener" target="_blank">https://opensource.org/licenses/MIT</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:legal@ipfire.org">legal@ipfire.org</a></li>
+            </ul>
+          
+        </dd>
+      
+    </dl>
+    <div class="text-bold">license_text</div>
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>The IPFire Project Contributor Agreement
+
+Goal
+----
+
+We require that contributors to IPFire (as defined below) agree to
+this IPFire Project Contributor Agreement (IPCA) to ensure that
+contributions to IPFire have acceptable licensing terms.
+
+Non-Goals
+---------
+
+The IPCA is not a copyright assignment agreement.
+
+The IPCA does not somehow supersede the existing licensing terms
+that apply to IPFire contributions. There are two important subpoints
+here. First, the IPCA does not apply to upstream code (or other
+material) that you didn&#39;t write; indeed, it would be preposterous for
+it to attempt to do so. Note the narrow way in which we have defined
+capital-c &#34;Contribution&#34;. Second, the main provision of the IPCA
+specifies that a default license will apply to code that you wrote,
+but only to the extent that you have not bothered to put an explicit
+license on it. Therefore, the IPCA is not some sort of special
+permissive license granted to any party, despite the explicit choice
+of a more restrictive license by you or by upstream developers.
+
+Terms
+-----
+
+0. Definitions.
+
+&#34;Acceptable License For IPFire&#34; means a license selected from the
+appropriate categorical sublist of the full list of acceptable
+licenses for IPFire, currently located at
+http://wiki.ipfire.org/en/legal/licenses, as that list may be revised
+from time to time by the IPFire Core Developers. &#34;Acceptable Licenses
+For IPFire&#34; means that full list.
+
+&#34;CC-BY-SA&#34; means the Creative Commons Attribution-ShareAlike 3.0
+Unported license, as published at
+&lt;http://creativecommons.org/licenses/by-sa/3.0/legalcode&gt;.
+
+&#34;Code&#34; means (i) software code, (ii) any other functional material
+whose principal purpose is to control or facilitate the building of
+packages, such as a Pakfire makefile, (iii) font files, and (iv) other
+kinds of copyrightable material that the IPFire Core Developers has
+classified as &#34;code&#34; rather than &#34;content&#34;.
+
+&#34;Content&#34; means any copyrightable material that is not Code, such as,
+without limitation, (i) non-functional data sets, (ii) documentation,
+(iii) wiki edits, (iv) music files, (v) graphic image files, (vi) help
+files, and (vii) other kinds of copyrightable material that the IPFire
+Core Developers has classified as &#34;content&#34; rather than &#34;code&#34;.
+
+&#34;Contribution&#34; means a Work that You created, excluding any portion
+that was created by someone else. (For example, if You Submit a
+package to IPFire, the Pakfire Makefile You write may be a Contribution,
+but all the upstream code in the associated Source Package that You did not
+write is not a Contribution for purposes of this IPCA.)
+A Contribution consists either of Code or of Content.
+
+&#34;Current Default License&#34;, with respect to a Contribution, means (i)
+if the Contribution is Code, the MIT License, and (ii) if the
+Contribution is Content, CC-BY-SA supplemented by Moral Rights Clause
+Waiver and GPL Relicensing Permission.
+
+&#34;IPFire&#34; means the community project led by the IPFire Core Developers.
+
+&#34;IPFire Community&#34; means (i) all IPFire participants, and (ii) all
+persons receiving Contributions directly or indirectly from or through
+IPFire.
+
+&#34;GPL&#34; means the GNU General Public License, version 2 or any later
+version published by the Free Software Foundation, or the GNU Affero
+General Public License, version 3 or any later version published by
+the Free Software Foundation.
+
+&#34;GPL-Covered Derivative&#34; of a Contribution means an adaptation or
+derivative work of the Contribution, or a compilation that includes
+the Contribution (or such adaptation or derivative work), where such
+adaptation, derivative work, or compilation, if distributed or made
+available to the public, would be required to be licensed under the
+GPL because it is based on or includes a Work governed by the GPL.
+
+&#34;GPL Relicensing Permission&#34;, with respect to a Contribution licensed
+under CC-BY-SA, means a grant of additional copyright permission to
+distribute or make available to the public a copy of a GPL-Covered
+Derivative of the Contribution under the terms of the applicable
+version of the GPL, with no conditions of CC-BY-SA that would be
+treated as &#34;further restrictions&#34; within the meaning of the applicable
+version of the GPL surviving such distribution with respect to that
+copy.
+
+&#34;Licensed&#34; means covered by explicit licensing terms that are
+conspicuous and readily discernible to recipients.
+
+&#34;MIT License&#34; means the license identified as &#34;Modern Style with
+sublicense&#34; at &lt;https://opensource.org/licenses/MIT&gt;.
+
+&#34;Moral Rights Clause Waiver&#34; means a waiver of the right to enforce,
+and an agreement not to assert, Section 4d of CC-BY-SA against the
+IPFire Community, to the fullest extent permitted by applicable law.
+
+&#34;Submit&#34; means to use some mode of digital communication (for example,
+without limitation, mailing lists, bug tracking systems, and source
+code version control systems administered by IPFire) to voluntarily
+provide a Contribution to IPFire.
+
+&#34;Unlicensed&#34; means not Licensed.
+
+&#34;Work&#34; means a copyrightable work of authorship. A Work may be a
+portion of a larger Work, and a Work may be a modification of or
+addition to another Work.
+
+&#34;You&#34; means the individual accepting this instance of the IPCA.
+
+1. Copyright Permission Required for All Contributions.
+
+If You are not the copyright holder of a given Contribution that You
+wish to Submit to IPFire (for example, if Your employer or university
+holds copyright in it), it is Your responsibility to first obtain
+authorization from the copyright holder to Submit the Contribution
+under the terms of this IPCA on behalf of, or otherwise with the
+permission of, that copyright holder. One form of such authorization
+is for the copyright holder to place, or permit You to place, an
+Acceptable License For IPFire on the Contribution.
+
+2. Licensed Contributions.
+
+If Your Contribution is Licensed, Your Contribution will be governed
+by the terms under which it has been licensed.
+
+3. Default Licensing of Unlicensed Contributions.
+
+If You Submit an Unlicensed Contribution to IPFire, the license to the
+IPFire Community for that Contribution shall be the Current Default
+License.
+
+The IPFire Core Developers may, by public announcement, subsequently
+designate an additional or alternative default license for a given
+category of Contribution (a &#34;Later Default License&#34;). A Later Default
+License shall be chosen from the appropriate categorical sublist of
+Acceptable Licenses For IPFire.
+
+Once a Later Default License has been designated, Your Unlicensed
+Contribution shall also be licensed to the IPFire Community under that
+Later Default License. Such designation shall not affect the
+continuing applicability of the Current Default License to Your
+Contribution.
+
+You consent to having IPFire provide reasonable notice of Your
+licensing of Your Contribution under the Current Default License (and,
+if applicable, a Later Default License) in a manner determined by
+IPFire.
+
+4. Public Domain United States Government Works.
+
+Sections 1 through 3 of this IPCA do not apply to any Contribution to
+the extent that it is a work of the United States Government for which
+copyright is unavailable under 17 U.S.C. 105.
+
+5. Acceptance.
+
+You must signify Your assent to the terms of this IPCA through
+specific electronic means established by IPFire (such as by
+click-through acceptance means).
+
+You may also, at Your option, and without eliminating the requirement
+set forth in the preceding paragraph, send a copy of this IPCA,
+bearing Your written signature indicating Your acceptance of its
+terms, by email to legal@ipfire.org, by fax to +49 2363 6035 9
+or by postal mail to:
+
+IPFire Legal Team
+c/o Michael Tremer
+Gerhardstraße 8
+45711 Datteln
+GERMANY</code></pre>
+  </div>
+
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.0.8 on 2024-02-27.</p>
+    <p>SPDX Licenses list version: 3.23</p>
+    
+  </footer>
+</div>
+    
+  <script>
+    $(document).ready(function() {
+      let url_params = new URLSearchParams(window.location.search);
+      let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
+      $.each(marks, function(index, value) {
+        let [start, end] = value.split("-");
+        $("#license-text").markRanges([{
+          start: start,
+          length: end - start,
+        }]);
+      });
+    });
+  </script>
+
+  </body>
+</html>

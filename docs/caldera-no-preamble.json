@@ -3,7 +3,7 @@
   "short_name": "Caldera License (without preamble)",
   "name": "Caldera License (without preamble)",
   "category": "Permissive",
-  "owner": "Caldera International Inc.",
+  "owner": "Caldera",
   "notes": "Added in SPDX license list 3.23\nThis was previously the license rule: bsd-original_46.RULE\n",
   "spdx_license_key": "Caldera-no-preamble",
   "other_urls": [

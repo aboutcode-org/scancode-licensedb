@@ -3,6 +3,7 @@ short_name: Pixar License
 name: Pixar License
 category: Permissive
 owner: Pixar
+notes: This was previously the free-unknown_68.RULE
 spdx_license_key: Pixar
 other_urls:
   - https://github.com/PixarAnimationStudios/OpenSubdiv/raw/v3_5_0/LICENSE.txt

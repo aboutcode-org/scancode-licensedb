@@ -1,0 +1,10 @@
+{
+  "key": "fpdf",
+  "short_name": "FPDF License",
+  "name": "FPDF License",
+  "category": "Permissive",
+  "owner": "FPDF",
+  "homepage_url": "http://fpdf.org/",
+  "spdx_license_key": "LicenseRef-scancode-fpdf",
+  "text": "Permission is hereby granted, free of charge, to any person obtaining a copy\nof this software to use, copy, modify, distribute, sublicense, and/or sell\ncopies of the software, and to permit persons to whom the software is furnished\nto do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED."
+}
