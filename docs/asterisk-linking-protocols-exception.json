@@ -1,0 +1,13 @@
+{
+  "key": "asterisk-linking-protocols-exception",
+  "short_name": "Asterisk linking protocols exception",
+  "name": "Asterisk linking protocols exception",
+  "category": "Copyleft Limited",
+  "owner": "Asterisk",
+  "is_exception": true,
+  "spdx_license_key": "Asterisk-linking-protocols-exception",
+  "other_urls": [
+    "https://github.com/asterisk/asterisk/blob/115d7c01e32ccf4566a99e9d74e2b88830985a0b/LICENSE#L27"
+  ],
+  "text": "Specific permission is also granted to link Asterisk with OpenSSL, OpenH323\nUniMRCP, and/or the UW IMAP Toolkit and distribute the resulting binary files.\n\nIn addition, Asterisk implements several management/control protocols.\nThis includes the Asterisk Manager Interface (AMI), the Asterisk Gateway\nInterface (AGI), and the Asterisk REST Interface (ARI). It is our belief\nthat applications using these protocols to manage or control an Asterisk\ninstance do not have to be licensed under the GPL or a compatible license,\nas we believe these protocols do not create a 'derivative work' as referred\nto in the GPL. However, should any court or other judiciary body find that\nthese protocols do fall under the terms of the GPL, then we hereby grant you a\nlicense to use these protocols in combination with Asterisk in external\napplications licensed under any license you wish."
+}

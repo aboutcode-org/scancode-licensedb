@@ -5,15 +5,19 @@ category: Copyleft Limited
 owner: RRDtool Project
 homepage_url: https://raw.github.com/oetiker/rrdtool-1.x/master/COPYRIGHT
 is_exception: yes
-spdx_license_key: LicenseRef-scancode-rrdtool-floss-exception-2.0
+spdx_license_key: RRDtool-FLOSS-exception-2.0
+other_spdx_license_keys:
+  - LicenseRef-scancode-rrdtool-floss-exception-2.0
 other_urls:
   - http://www.gnu.org/licenses/gpl-2.0.txt
+  - https://github.com/oetiker/rrdtool-1.x/blob/master/COPYRIGHT#L25-L90
+  - https://oss.oetiker.ch/rrdtool/license.en.html
 ignorable_urls:
   - http://www.mysql.com/company/legal/licensing/foss-exception.html
-text: "FLOSS License Exception \n=======================\n(Adapted from http://www.mysql.com/company/legal/licensing/foss-exception.html\
-  \ )\n\nI want specified Free/Libre and Open Source Software (\"FLOSS\")\napplications to be\
-  \ able to use specified GPL-licensed RRDtool\nlibraries (the \"Program\") despite the fact\
-  \ that not all FLOSS licenses are\ncompatible with version 2 of the GNU General Public License\
+text: "FLOSS License Exception \n=======================\n(Adapted from http://www.mysql.com/company/legal/licensing/foss-exception.html)\n\
+  \nI want specified Free/Libre and Open Source Software (\"FLOSS\")\napplications to be able\
+  \ to use specified GPL-licensed RRDtool\nlibraries (the \"Program\") despite the fact that\
+  \ not all FLOSS licenses are\ncompatible with version 2 of the GNU General Public License\
   \ (the \"GPL\").\n\nAs a special exception to the terms and conditions of version 2.0 of the\
   \ GPL:\n\nYou are free to distribute a Derivative Work that is formed entirely from\nthe Program\
   \ and one or more works (each, a \"FLOSS Work\") licensed under one\nor more of the licenses\

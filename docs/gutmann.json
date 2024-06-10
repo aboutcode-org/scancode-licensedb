@@ -1,0 +1,13 @@
+{
+  "key": "gutmann",
+  "short_name": "Gutmann License",
+  "name": "Gutmann License",
+  "category": "Permissive",
+  "owner": "Peter Gutmann",
+  "notes": "Added in SPDX license list 3.24\nThis was previously the license rule: other-permissive_bsdish_1.RULE\n",
+  "spdx_license_key": "Gutmann",
+  "other_urls": [
+    "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c"
+  ],
+  "text": "You can use this code in whatever way you want, as long as you don't try\nto claim you wrote it."
+}

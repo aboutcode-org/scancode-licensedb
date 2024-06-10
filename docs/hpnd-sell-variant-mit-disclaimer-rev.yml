@@ -1,0 +1,18 @@
+key: hpnd-sell-variant-mit-disclaimer-rev
+short_name: HPND sell variant with MIT disclaimer reverse
+name: HPND sell variant with MIT disclaimer - reverse
+category: Permissive
+owner: Ian Stapleton Cordasco
+notes: Added in SPDX license list 3.24
+spdx_license_key: HPND-sell-variant-MIT-disclaimer-rev
+other_urls:
+  - https://github.com/sigmavirus24/x11-ssh-askpass/blob/master/dynlist.c
+text: "Disclaimer:\n\nThe software is provided \"as is\", without warranty of any kind,\nexpress\
+  \ or implied, including but not limited to the warranties\nof merchantability, fitness for\
+  \ a particular purpose and\nnoninfringement. In no event shall the author(s) be liable for\n\
+  any claim, damages or other liability, whether in an action of\ncontract, tort or otherwise,\
+  \ arising from, out of or in connection\nwith the software or the use or other dealings in\
+  \ the software.\n         \nPermission to use, copy, modify, distribute, and sell this\nsoftware\
+  \ and its documentation for any purpose is hereby\ngranted without fee, provided that the\
+  \ above copyright notice\nappear in all copies and that both that copyright notice and\nthis\
+  \ permission notice appear in supporting documentation."

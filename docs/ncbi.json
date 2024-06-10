@@ -5,9 +5,18 @@
   "category": "Public Domain",
   "owner": "NCBI",
   "homepage_url": "https://github.com/ncbi/ngs/blob/master/LICENSE#L8",
-  "spdx_license_key": "LicenseRef-scancode-ncbi",
+  "notes": "Added in SPDX license list 3.24\nThis was before the us-govt-public-domain_25.RULE\nEarlier text is now a rule\n",
+  "spdx_license_key": "NCBI-PD",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-ncbi"
+  ],
   "other_urls": [
-    "https://blast.ncbi.nlm.nih.gov/Blast.cgi"
+    "https://blast.ncbi.nlm.nih.gov/Blast.cgi",
+    "https://github.com/ncbi/sra-tools/blob/e8e5b6af4edc460156ad9ce5902d0779cffbf685/LICENSE",
+    "https://github.com/ncbi/datasets/blob/0ea4cd16b61e5b799d9cc55aecfa016d6c9bd2bf/LICENSE.md",
+    "https://github.com/ncbi/gprobe/blob/de64d30fee8b4c4013094d7d3139ea89b5dd1ace/LICENSE",
+    "https://github.com/ncbi/egapx/blob/08930b9dec0c69b2d1a05e5153c7b95ef0a3eb0f/LICENSE",
+    "https://github.com/ncbi/datasets/blob/master/LICENSE.md"
   ],
   "text": "PUBLIC DOMAIN NOTICE\nNational Center for Biotechnology Information\n\nWith the exception of certain third-party files summarized below, this\nsoftware is a \"United States Government Work\" under the terms of the\nUnited States Copyright Act.  It was written as part of the authors'\nofficial duties as United States Government employees and thus cannot\nbe copyrighted.  This software is freely available to the public for\nuse. The National Library of Medicine and the U.S. Government have not\nplaced any restriction on its use or reproduction.\n\nAlthough all reasonable efforts have been taken to ensure the accuracy\nand reliability of the software and data, the NLM and the U.S.\nGovernment do not and cannot warrant the performance or results that\nmay be obtained by using this software or data. The NLM and the U.S.\nGovernment disclaim all warranties, express or implied, including\nwarranties of performance, merchantability or fitness for any\nparticular purpose.\n\nPlease cite the authors in any work or product based on this material."
 }

@@ -5,12 +5,16 @@
   "category": "Permissive",
   "owner": "NCAR",
   "homepage_url": "https://github.com/marton78/pffft/blob/master/pffft.c",
-  "spdx_license_key": "LicenseRef-scancode-fftpack-2004",
+  "spdx_license_key": "NCL",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-fftpack-2004"
+  ],
   "text_urls": [
     "https://bitbucket.org/jpommier/pffft/src/master/pffft.c"
   ],
   "other_urls": [
-    "https://github.com/nexB/scancode-toolkit/issues/1978"
+    "https://github.com/nexB/scancode-toolkit/issues/1978",
+    "https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52"
   ],
   "standard_notice": "http://www.cisl.ucar.edu/css/software/fftpack5/ftpk.html\nCopyright (c) 2004 the University Corporation for Atmospheric\nResearch (\"UCAR\"). All rights reserved. Developed by NCAR's\nComputational and Information Systems Laboratory, UCAR,\nwww.cisl.ucar.edu.\n",
   "text": "FFTPACK license:\nRedistribution and use of the Software in source and binary forms,\nwith or without modification, is permitted provided that the\nfollowing conditions are met:\n\n   - Neither the names of NCAR's Computational and Information Systems\n   Laboratory, the University Corporation for Atmospheric Research,\n   nor the names of its sponsors or contributors may be used to\n   endorse or promote products derived from this Software without\n   specific prior written permission.  \n\n   - Redistributions of source code must retain the above copyright\n   notices, this list of conditions, and the disclaimer below.\n\n   - Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions, and the disclaimer below in the\n   documentation and/or other materials provided with the\n   distribution.\n\n   THIS SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n   EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE WARRANTIES OF\n   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n   NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT\n   HOLDERS BE LIABLE FOR ANY CLAIM, INDIRECT, INCIDENTAL, SPECIAL,\n   EXEMPLARY, OR CONSEQUENTIAL DAMAGES OR OTHER LIABILITY, WHETHER IN AN\n   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\n   SOFTWARE."
