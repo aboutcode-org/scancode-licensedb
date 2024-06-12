@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: osvdb</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
+  <script src="static/jquery.mark-8.11.1.min.js"></script>
+  <style>
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
+  </style>
+
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
+  <div class="container">
+    <hr>
+    <a href="index.html">back to list</a> -
+    <a href="osvdb.yml">yml</a> -
+    <a href="osvdb.json">json</a> -
+    <a href="osvdb.LICENSE">text</a> -
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/osvdb.LICENSE" target="_blank">edit License</a>
+    <hr>
+    <dl>
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            osvdb
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            OSVDB License
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Open Sourced Vulnerability Database (OSVDB) License
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            OSVDB
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-osvdb
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://www.osvdb.org/osvdb_license" rel="noopener" target="_blank">https://www.osvdb.org/osvdb_license</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>(c) Copyright 2002 - 2016 Open Sourced Vulnerability Database (OSVDB)</li><li>Copyright, Open Security Foundation</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Open Security Foundation</li><li>Open Sourced Vulnerability Database (OSVDB)</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_authors</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>the Open Security Foundation</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://osvdb.org/" rel="noopener" target="_blank">http://osvdb.org/</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:officers@opensecurityfoundation.org">officers@opensecurityfoundation.org</a></li>
+            </ul>
+          
+        </dd>
+      
+    </dl>
+    <div class="text-bold">license_text</div>
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Open Sourced Vulnerability Database (OSVDB) License
+
+By using this website, including, without limitation copying any content, you agree to the following terms:
+
+This is the Open Sourced Vulnerability Database (OSVDB) License which is operated under the Open Security Foundation (OSF), a 501(c)(3) not-for-profit entity. This license, where applicable, covers all OSVDB data that is distributed via any means, including the web site, API, email, or data exports (e.g. CSV, SQLite, XML, etc.) under the OSVDB license provisions. This License is subject to change without notice.
+
+License Terms
+
+1. All material is Copyright, Open Security Foundation (OSF) / Open Sourced Vulnerability Database (OSVDB). All Rights Reserved.
+
+2. The OSVDB contains contributions made by many individuals on behalf of OSF and OSVDB, both voluntarily and commercially retained, based on published vulnerability information. All contributions made by volunteers become the property of OSF / OSVDB.
+
+3. If the OSVDB is the basis of, or integrated with in any manner a commercially available product or service you MUST notify OSVDB by providing details on the usage and reach a licensing agreement prior to usage. This includes using OSVDB data in security products, security services, generating vulnerability statistics/ metrics, funded academic research, or any form of analytics used in a commercial manner (including &#39;free&#39; reports used for marketing). Usage requests can be submitted for approval to officers[at]opensecurityfoundation.org. Use of OSVDB in a non-profit or educational organization, in the same manners listed prior requires explicit permission from OSF, and may require licensing.
+
+4. Obtaining data from this website in a programmatic fashion (e.g. scraping via enumeration, web robot, crawler, etc) is prohibited. Such activity is likely to trigger security software that will permanently block your IP from accessing the site.
+
+5. OSVDB must be given required credit if the data is used in any manner, both non-profit or commercially (see #3). The credit requirements are as follows:
+
+    OSVDB must be referenced as the data source in documentation, and
+    OSVDB must be referenced as the data source in any stored output such as reports, and
+    OSVDB must be referenced as the data source during the program&#39;s execution in one of the following ways:
+        displayed on screen while program is running, or
+        displayed on screen in &#34;About&#34; window, or
+        displayed on screen at end of program termination (command line tool only), or
+        displayed on screen during program help display (command line tool only).
+
+6. Areas that require reference to the OSVDB as described in section 4 must display the following acknowledgement: &#34;This product includes data from the Open Sourced Vulnerability Database (OSVDB.org) developed by the Open Security Foundation (OSF) and its partners.&#34;
+
+7. If you wish to re-brand the OSVDB without meeting the requirements of Section 4, you must secure permission and agree to an alternate commercial license. Contact officers@opensecurityfoundation.org for additional information. Linking to http://osvdb.org/ in any fashion is permitted and encouraged, and does not require any form of license.
+
+8. Redistribution of the OSVDB can only be done under commercial license, with explicit permission by OSF or their commercial partners, and must retain this entire license document whether it is packaged in a distribution, posted on a website, or any other distribution method, unless explicitly stated otherwise in a licensing agreement.
+
+9. NON TRANSFERABILITY: This License is non-transferable. This means that it applies to you and your company, not the people you distribute the product to in any fashion (e.g., customers or users). Customers or users are subject to the original OSVDB License and Copyright and must retain permission or their own license agreement for further redistribution.
+
+10. CONTRIBUTIONS &amp; MODIFICATIONS. OSVDB recognizes the huge benefit in open-source collaboration. OSVDB has gone to great pains to allow the OSVDB data to be used freely, up to a point, while retaining the right to ensure the proper credit is given the project and licensed accordingly. OSVDB believes the copyright and this license together represent a compromise heavily weighted to the benefit of the open-source community and requests that any entities using the OSVDB should consider becoming supporters of the project by contributing information to the database.
+
+In order for OSVDB to maintain control over the database, it is a condition of the License that any modifications (i.e., edits, deletions, or contributions to the OSVDB) you suggest or submit be unencumbered. This means that any contributions or modifications fall under the license terms defined under OSVDB. Note that OSVDB assumes that any information submitted to us via email or committed by the project participants to be free of any encumbrance and which can be incorporated into our master database solely under our own copyright.
+
+11. Trademarked names appear throughout the OSVDB. Rather than list the names and entities that own the trademarks or insert a trademark symbol with each mention of the trademarked name, the names are used only for editorial purposes and to the benefit of the trademark owner with no intention of infringing upon that trademark.
+
+12. NO WARRANTY: THERE IS NO WARRANTY FOR THE OSVDB, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE OSVDB &#34;AS IS&#34; WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK OF USE OF THE OSVDB IS WITH YOU. SHOULD THE OSVDB PROVE FAULTY, INACCURATE, OR OTHERWISE UNACCEPTABLE YOU ASSUME THE COST OF ALL NECESSARY REPAIR OR CORRECTION.
+
+13. DISCLAIMER OF LIABILITY: THE OSVDB IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &#34;AS IS&#34; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE OSVDB, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The database information may change without any notice. Use of the information constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to this information or its use. Any use of this information is at the user&#39;s risk. In no event shall the copyright holder or distributor (OSVDB or OSF) be held liable for any damages whatsoever arising out of or in connection with the use or spread of this information.
+
+© Copyright 2002 - 2016 Open Sourced Vulnerability Database (OSVDB), All Rights Reserved.</code></pre>
+  </div>
+
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.1.0 on 2024-06-12.</p>
+    <p>SPDX Licenses list version: 3.23</p>
+    
+  </footer>
+</div>
+    
+  <script>
+    $(document).ready(function() {
+      let url_params = new URLSearchParams(window.location.search);
+      let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
+      $.each(marks, function(index, value) {
+        let [start, end] = value.split("-");
+        $("#license-text").markRanges([{
+          start: start,
+          length: end - start,
+        }]);
+      });
+    });
+  </script>
+
+  </body>
+</html>

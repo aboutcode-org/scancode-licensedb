@@ -1,0 +1,15 @@
+{
+  "key": "cexcept-2008",
+  "short_name": "cexcept License 2008",
+  "name": "cexcept License 2008",
+  "category": "Permissive",
+  "owner": "nicemice",
+  "spdx_license_key": "LicenseRef-scancode-cexcept-2008",
+  "text_urls": [
+    "https://github.com/cloudflare/pngcrush/blob/deflate.gcc.amd64/cexcept.h"
+  ],
+  "other_urls": [
+    "http://www.nicemice.net/cexcept/"
+  ],
+  "text": "This software may be modified only if its author and version\ninformation is updated accurately, and may be redistributed\nonly if accompanied by this unaltered notice.  Subject to those\nrestrictions, permission is granted to anyone to do anything\nwith this software.  The copyright holders make no guarantees\nregarding this software, and are not responsible for any damage\nresulting from its use."
+}
