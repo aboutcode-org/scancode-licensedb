@@ -9,7 +9,6 @@ other_urls:
   - https://www.qt.io/contact-us
 ignorable_authors:
   - The Qt Company
-  - permission from The Qt Company
 ignorable_urls:
   - https://opensource.org/licenses
 text: "Qt LICENSE AGREEMENT \n\nAgreement version 4.4.1 \n\nThis Qt License Agreement (“Agreement”)\
@@ -630,4 +629,4 @@ text: "Qt LICENSE AGREEMENT \n\nAgreement version 4.4.1 \n\nThis Qt License Agre
   \ to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum\
   \ extent necessary so that this Agreement shall otherwise remain in full force and effect\
   \ and enforceable. \n\n14.13. Marketing Rights \n\nParties have agreed upon Marketing Rights\
-  \ pursuant to Appendix 7, if any."
+  \ pursuant to Appendix 7, if any.\n"

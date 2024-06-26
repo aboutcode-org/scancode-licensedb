@@ -6,11 +6,13 @@ owner: Open Cascade
 homepage_url: http://www.opencascade.com/content/occt-public-license
 spdx_license_key: OCCT-PL
 ignorable_copyrights:
+  - Copyright The Initial Developer
   - copyright (c) OPEN CASCADE SAS, 2001
   - copyright (c) Open CASCADE SAS, 2001
 ignorable_holders:
   - OPEN CASCADE SAS
   - Open CASCADE SAS
+  - The Initial Developer
 text: "Open CASCADE Technology Public License \nVersion 6.6, April 2013\nOPEN CASCADE releases\
   \ and makes publicly available the source code of the software Open CASCADE Technology to\
   \ the free software development community under the terms and conditions of this license.\n\
@@ -165,4 +167,4 @@ text: "Open CASCADE Technology Public License \nVersion 6.6, April 2013\nOPEN CA
   \ all such warranties, including without limitation, any warranties of merchantability, fitness\
   \ for a particular purpose or non-infringement.\n\nPlease see the License for the specific\
   \ terms and conditions governing rights and limitations under the License\" \nEnd of Schedule\
-  \ \"B\""
+  \ \"B\"\n"

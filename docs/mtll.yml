@@ -12,7 +12,6 @@ spdx_license_key: MTLL
 ignorable_authors:
   - at the University of Notre Dame, the Pervasive Technology Labs at Indiana University, and
     Dresden University of Technology
-  - permission, please contact Indiana University Advanced Research & Technology
 text: "Software License for MTL\n\n\nThis file is part of the Matrix Template Library\n\nDresden\
   \ University of Technology -- short TUD -- and Indiana University \n-- short IU -- have the\
   \ exclusive rights to license this product under the\nfollowing license.\n\nRedistribution\
@@ -45,4 +44,4 @@ text: "Software License for MTL\n\n\nThis file is part of the Matrix Template Li
   \ MAKE NO WARRANTIES THAT SOFTWARE IS FREE FROM \"BUGS\", \"VIRUSES\", \"TROJAN HORSES\",\
   \ \"TRAP DOORS\", \"WORMS\", OR OTHER HARMFUL CODE. LICENSEE ASSUMES THE ENTIRE RISK AS TO\
   \ THE PERFORMANCE OF SOFTWARE AND/OR ASSOCIATED MATERIALS, AND TO THE PERFORMANCE AND VALIDITY\
-  \ OF INFORMATION GENERATED USING SOFTWARE."
+  \ OF INFORMATION GENERATED USING SOFTWARE.\n"
