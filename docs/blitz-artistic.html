@@ -1,133 +1,225 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: blitz-artistic</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: blitz-artistic</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="blitz-artistic.yml">yml</a> -
     <a href="blitz-artistic.json">json</a> -
     <a href="blitz-artistic.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/blitz-artistic.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/blitz-artistic.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            blitz-artistic
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Blitz++ Artistic
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Blitz++ Artistic License
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Copyleft Limited
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Blitz++
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://github.com/blitzpp/blitz/blob/master/COPYRIGHT" rel="noopener" target="_blank">https://github.com/blitzpp/blitz/blob/master/COPYRIGHT</a>
-          
-        </dd>
-      
-        <dt style="">notes</dt>
-        <dd>
-          
-            This is a modified artistic license, no longer in use.
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-blitz-artistic
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://raw.githubusercontent.com/blitzpp/blitz/e3c973d68e5ee17aec779bf9711b38fd4afc355f/LICENSE" rel="noopener" target="_blank">https://raw.githubusercontent.com/blitzpp/blitz/e3c973d68e5ee17aec779bf9711b38fd4afc355f/LICENSE</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        blitz-artistic
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Blitz++ Artistic
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Blitz++ Artistic License
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Copyleft Limited
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Blitz++
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://github.com/blitzpp/blitz/blob/master/COPYRIGHT" rel="noopener"
+          target="_blank">https://github.com/blitzpp/blitz/blob/master/COPYRIGHT</a>
+
+      </dd>
+
+      <dt style="">notes</dt>
+      <dd>
+
+        This is a modified artistic license, no longer in use.
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-blitz-artistic
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://raw.githubusercontent.com/blitzpp/blitz/e3c973d68e5ee17aec779bf9711b38fd4afc355f/LICENSE"
+              rel="noopener"
+              target="_blank">https://raw.githubusercontent.com/blitzpp/blitz/e3c973d68e5ee17aec779bf9711b38fd4afc355f/LICENSE</a>
+          </li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>The `Blitz++ Artistic License&#39;
@@ -135,7 +227,7 @@
 
 Preamble
 
-The intent of this document is to state the conditions under which 
+The intent of this document is to state the conditions under which
 Blitz++ may be copied, such that the authors maintains some
 semblance of artistic control over the development of the package,
 while giving the users of the package the right to use and
@@ -159,7 +251,7 @@ copyrights for the package.
 distributing this Library.
 
 `Freely Available&#39; means that no fee is charged for the item.
-It also means that recipients of the item may redistribute it 
+It also means that recipients of the item may redistribute it
 under the same conditions they received it.
 
 ``Reasonable copying fee&#39;&#39; is whatever you can justify on the basis
@@ -168,10 +260,10 @@ on. (You will not be required to justify it to the Copyright Holder,
 but only to the computing community at large as a market that must
 bear the fee.)
 
-1. You may make and give away verbatim copies of the 
+1. You may make and give away verbatim copies of the
 Standard Version of this Library without restriction, provided that
 you duplicate all of the original copyright notices, this license,
-and associated disclaimers. 
+and associated disclaimers.
 
 2. The Standard Version of the Library may be distributed as part
 of a collection of software, provided no more than a reasonable
@@ -189,12 +281,12 @@ at least ONE of the following:
 
 a. place your modifications in the Public Domain or otherwise
 make them Freely Available, such as by posting said
-modifications to the Blitz++ development list, 
+modifications to the Blitz++ development list,
 and allowing the Copyright Holder to include
 your modifications in the Standard Version of the Library.
 
 b. use the modified Library only within your corporation or
-organization. 
+organization.
 
 c. make other distribution arrangements with the Copyright
 Holder.
@@ -202,12 +294,12 @@ Holder.
 5. You may distribute programs which use this Library
 in object code or executable form without restriction.
 
-6. Any object code generated as a result of using this Library 
+6. Any object code generated as a result of using this Library
 does not fall under the copyright of this Library, but
 belongs to whomever generated it, and may be sold commercially.
 
-7. The name of the Copyright Holder or the Library may not be used to 
-endorse or promote products derived from this software without 
+7. The name of the Copyright Holder or the Library may not be used to
+endorse or promote products derived from this software without
 specific prior written permission.
 
 8. THIS PACKAGE IS PROVIDED `AS IS&#39; AND WITHOUT ANY EXPRESS OR
@@ -215,28 +307,28 @@ IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
 WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -246,5 +338,6 @@ WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

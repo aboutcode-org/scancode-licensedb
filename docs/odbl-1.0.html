@@ -1,135 +1,226 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: odbl-1.0</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: odbl-1.0</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="odbl-1.0.yml">yml</a> -
     <a href="odbl-1.0.json">json</a> -
     <a href="odbl-1.0.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/odbl-1.0.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/odbl-1.0.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            odbl-1.0
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            ODbL 1.0
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            ODC Open Database License v1.0
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Copyleft
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Open Data Commons
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.opendatacommons.org/licenses/odbl/1.0/" rel="noopener" target="_blank">http://www.opendatacommons.org/licenses/odbl/1.0/</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            ODbL-1.0
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://www.opendatacommons.org/licenses/odbl/1.0/" rel="noopener" target="_blank">https://www.opendatacommons.org/licenses/odbl/1.0/</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener" target="_blank">https://opendatacommons.org/licenses/odbl/1-0/</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        odbl-1.0
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        ODbL 1.0
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        ODC Open Database License v1.0
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Copyleft
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Open Data Commons
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.opendatacommons.org/licenses/odbl/1.0/" rel="noopener"
+          target="_blank">http://www.opendatacommons.org/licenses/odbl/1.0/</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        ODbL-1.0
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://www.opendatacommons.org/licenses/odbl/1.0/" rel="noopener"
+              target="_blank">https://www.opendatacommons.org/licenses/odbl/1.0/</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://opendatacommons.org/licenses/odbl/1-0/" rel="noopener"
+              target="_blank">https://opendatacommons.org/licenses/odbl/1-0/</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>## ODC Open Database License (ODbL)
@@ -153,7 +244,7 @@ together with another license for the contents, if the contents have a
 single set of rights that uniformly covers all of the contents. If the
 contents have multiple sets of different rights, Licensors should
 describe what rights govern what contents together in the individual
-record or in some other way that clarifies what rights apply. 
+record or in some other way that clarifies what rights apply.
 
 Sometimes the contents of a database, or the database itself, can be
 covered by other rights not addressed here (such as private contracts,
@@ -164,13 +255,13 @@ activities not covered by this License.
 
 ------
 
-The Licensor (as defined below) 
+The Licensor (as defined below)
 
-and 
+and
 
-You (as defined below) 
+You (as defined below)
 
-agree as follows: 
+agree as follows:
 
 ### 1.0 Definitions of Capitalised Words
 
@@ -202,7 +293,7 @@ of databases, as amended or succeeded.
 generis&#34;) rights in the Database Directive (as amended and as transposed
 by member states), which includes the Extraction and Re-utilisation of
 the whole or a Substantial part of the Contents, as well as any similar
-rights available in the relevant jurisdiction under Section 10.4. 
+rights available in the relevant jurisdiction under Section 10.4.
 
 &#34;Derivative Database&#34; – Means a database based upon the Database, and
 includes any translation, adaptation, arrangement, modification, or any
@@ -219,7 +310,7 @@ any form.
 such as copyright and Database Rights and an agreement in contract.
 
 &#34;Licensor&#34; – Means the Person that offers the Database under the terms
-of this License. 
+of this License.
 
 &#34;Person&#34; – Means a natural or legal person or a body of persons
 corporate or incorporate.
@@ -227,11 +318,11 @@ corporate or incorporate.
 &#34;Produced Work&#34; – a work (such as an image, audiovisual material, text,
 or sounds) resulting from using the whole or a Substantial part of the
 Contents (via a search or other query) from this Database, a Derivative
-Database, or this Database as part of a Collective Database. 
+Database, or this Database as part of a Collective Database.
 
 &#34;Publicly&#34; – means to Persons other than You or under Your control by
 either more than 50% ownership or by the power to direct their
-activities (such as contracting with an independent consultant). 
+activities (such as contracting with an independent consultant).
 
 &#34;Re-utilisation&#34; – means any form of making available to the public all
 or a Substantial part of the Contents by the distribution of copies, by
@@ -247,7 +338,7 @@ or Database Rights whether in the original medium or any other; and
 includes without limitation distributing, copying, publicly performing,
 publicly displaying, and preparing derivative works of the Database, as
 well as modifying the Database as may be technically necessary to use it
-in a different mode or format. 
+in a different mode or format.
 
 &#34;You&#34; – Means a Person exercising rights under this License who has not
 previously violated the terms of this License with respect to the
@@ -288,18 +379,18 @@ not infringe any applicable copyright; and
 
 c. Contract. This is an agreement between You and the Licensor for
 access to the Database. In return you agree to certain conditions of
-use on this access as outlined in this License. 
+use on this access as outlined in this License.
 
-2.3 Rights not covered. 
+2.3 Rights not covered.
 
 a. This License does not apply to computer programs used in the making
-or operation of the Database; 
+or operation of the Database;
 
 b. This License does not cover any patents over the Contents or the
 Database; and
 
 c. This License does not cover any trademarks associated with the
-Database. 
+Database.
 
 2.4 Relationship to Contents in the Database. The individual items of
 the Contents contained in this Database may be covered by other rights,
@@ -309,7 +400,7 @@ Rights or in contract) in individual Contents contained in the Database.
 For example, if used on a Database of images (the Contents), this
 License would not apply to copyright over individual images, which could
 have their own separate licenses, or one single license covering all of
-the rights over the images. 
+the rights over the images.
 
 ### 3.0 Rights granted
 
@@ -320,7 +411,7 @@ any applicable copyright and Database Rights. These rights explicitly
 include commercial use, and do not exclude any field of endeavour. To
 the extent possible in the relevant jurisdiction, these rights may be
 exercised in all media and formats whether now known or created in the
-future. 
+future.
 
 The rights granted cover, for example:
 
@@ -375,7 +466,7 @@ in material breach of its terms.
 
 4.2 Notices. If You Publicly Convey this Database, any Derivative
 Database, or the Database as part of a Collective Database, then You
-must: 
+must:
 
 a. Do so only under the terms of this License or another license
 permitted under Section 4.4;
@@ -414,24 +505,24 @@ contain a hyperlink to the URI of the text of this License. If
 hyperlinks are not possible, You should include the plain text of the
 required URI&#39;s with the above notice.
 
-4.4 Share alike. 
+4.4 Share alike.
 
 a. Any Derivative Database that You Publicly Use must be only under
-the terms of: 
+the terms of:
 
 i. This License;
 
 ii. A later version of this License similar in spirit to this
 License; or
 
-iii. A compatible license. 
+iii. A compatible license.
 
 If You license the Derivative Database under one of the licenses
-mentioned in (iii), You must comply with the terms of that license. 
+mentioned in (iii), You must comply with the terms of that license.
 
 b. For the avoidance of doubt, Extraction or Re-utilisation of the
 whole or a Substantial part of the Contents into a new database is a
-Derivative Database and must comply with Section 4.4. 
+Derivative Database and must comply with Section 4.4.
 
 c. Derivative Databases and Produced Works. A Derivative Database is
 Publicly Used and so must comply with Section 4.4. if a Produced Work
@@ -439,7 +530,7 @@ created from the Derivative Database is Publicly Used.
 
 d. Share Alike and additional Contents. For the avoidance of doubt,
 You must not add Contents to Derivative Databases under Section 4.4 a
-that are incompatible with the rights granted under this License. 
+that are incompatible with the rights granted under this License.
 
 e. Compatible licenses. Licensors may authorise a proxy to determine
 compatible licenses under Section 4.4 a iii. If they do so, the
@@ -454,7 +545,7 @@ a. For the avoidance of doubt, You are not required to license
 Collective Databases under this License if You incorporate this
 Database or a Derivative Database in the collection, but this License
 still applies to this Database or a Derivative Database as a part of
-the Collective Database; 
+the Collective Database;
 
 b. Using this Database, a Derivative Database, or this Database as
 part of a Collective Database to create a Produced Work does not
@@ -511,7 +602,7 @@ Derivative Database in an authenticated environment, behind a
 password, or within a similar access control scheme provided that You
 do not alter or restrict the terms of this License or any rights
 granted under it or have the effect or intent of restricting the
-ability of any person to exercise those rights. 
+ability of any person to exercise those rights.
 
 4.8 Licensing of others. You may not sublicense the Database. Each time
 You communicate the Database, the whole or Substantial part of the
@@ -535,7 +626,7 @@ any other derogatory treatment:
 a. For jurisdictions allowing waiver of moral rights, Licensor waives
 all moral rights that Licensor may have in the Database to the fullest
 extent possible by the law of the relevant jurisdiction under Section
-10.4; 
+10.4;
 
 b. If waiver of moral rights under Section 5.1 a in the relevant
 jurisdiction is not possible, Licensor agrees not to assert any moral
@@ -551,7 +642,7 @@ Please note that some jurisdictions do not allow for the waiver of moral
 rights, and so moral rights may still subsist over the Database in some
 jurisdictions.
 
-### 6.0 Fair dealing, Database exceptions, and other rights not affected 
+### 6.0 Fair dealing, Database exceptions, and other rights not affected
 
 6.1 This License does not affect any rights that You or anyone else may
 independently have under any applicable law to make any use of this
@@ -561,10 +652,10 @@ a. Exceptions to the Database Right including: Extraction of Contents
 from non-electronic Databases for private purposes, Extraction for
 purposes of illustration for teaching or scientific research, and
 Extraction or Re-utilisation for public security or an administrative
-or judicial procedure. 
+or judicial procedure.
 
 b. Fair dealing, fair use, or any other legally recognised limitation
-or exception to infringement of copyright or other applicable laws. 
+or exception to infringement of copyright or other applicable laws.
 
 6.2 This License does not affect any rights of lawful users to Extract
 and Re-utilise insubstantial parts of the Contents, evaluated
@@ -616,17 +707,17 @@ under Section 4.8 of this License. Sections 1, 2, 7, 8, 9 and 10 will
 survive any termination of this License.
 
 9.2 If You are not in breach of the terms of this License, the Licensor
-will not terminate Your rights under it. 
+will not terminate Your rights under it.
 
 9.3 Unless terminated under Section 9.1, this License is granted to You
-for the duration of applicable rights in the Database. 
+for the duration of applicable rights in the Database.
 
 9.4 Reinstatement of rights. If you cease any breach of the terms and
 conditions of this License, then your full rights under this License
 will be reinstated:
 
 a. Provisionally and subject to permanent termination until the 60th
-day after cessation of breach; 
+day after cessation of breach;
 
 b. Permanently on the 60th day after cessation of breach unless
 otherwise reasonably notified by the Licensor; or
@@ -654,16 +745,16 @@ stated above.
 unenforceable, that must not affect the validity or enforceability of
 the remainder of the terms and conditions of this License and each
 remaining provision of this License shall be valid and enforced to the
-fullest extent permitted by law. 
+fullest extent permitted by law.
 
 10.2 This License is the entire agreement between the parties with
 respect to the rights granted here over the Database. It replaces any
 earlier understandings, agreements or representations with respect to
-the Database. 
+the Database.
 
 10.3 If You are in breach of the terms of this License, You will not be
 entitled to rely on the terms of this License or to complain of any
-breach by the Licensor. 
+breach by the Licensor.
 
 10.4 Choice of law. This License takes effect in and will be governed by
 the laws of the relevant jurisdiction in which the License terms are
@@ -674,28 +765,28 @@ these additional rights are granted in this License in order to meet the
 terms of this License.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -705,5 +796,6 @@ terms of this License.</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

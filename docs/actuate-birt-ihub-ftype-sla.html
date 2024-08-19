@@ -1,144 +1,234 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: actuate-birt-ihub-ftype-sla</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: actuate-birt-ihub-ftype-sla</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="actuate-birt-ihub-ftype-sla.yml">yml</a> -
     <a href="actuate-birt-ihub-ftype-sla.json">json</a> -
     <a href="actuate-birt-ihub-ftype-sla.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/actuate-birt-ihub-ftype-sla.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/actuate-birt-ihub-ftype-sla.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            actuate-birt-ihub-ftype-sla
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            BIRT iHub F-Type Software License Agreement
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Actuate Corporation BIRT iHub F-Type Software License Agreement
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Actuate
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://spp.actuate.com/DM/DownloadOpenFile.aspx?docId=4637" rel="noopener" target="_blank">http://spp.actuate.com/DM/DownloadOpenFile.aspx?docId=4637</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-actuate-birt-ihub-ftype-sla
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>copyrighted by Actuate</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Actuate</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.actuate.com/documentation/ihubftype3/license" rel="noopener" target="_blank">http://www.actuate.com/documentation/ihubftype3/license</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        actuate-birt-ihub-ftype-sla
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        BIRT iHub F-Type Software License Agreement
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Actuate Corporation BIRT iHub F-Type Software License Agreement
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Actuate
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://spp.actuate.com/DM/DownloadOpenFile.aspx?docId=4637" rel="noopener"
+          target="_blank">http://spp.actuate.com/DM/DownloadOpenFile.aspx?docId=4637</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-actuate-birt-ihub-ftype-sla
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>copyrighted by Actuate</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Actuate</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.actuate.com/documentation/ihubftype3/license" rel="noopener"
+              target="_blank">http://www.actuate.com/documentation/ihubftype3/license</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Actuate Corporation BIRT iHub F-Type Software License Agreement
@@ -156,7 +246,7 @@ THIS ACTUATE CORPORATION F-TYPE LICENSE AGREEMENT (&#34;AGREEMENT&#34;) GOVERNS 
 4.	THIRD PARTY SOFTWARE COMPONENTS. Software contains components licensed by third-parties (&#34;Third-Party Components&#34;). Additional information and applicable license terms related to Third-Party Components is contained in the actual files for such Third-Party Components and/or in the third party license file accompanying the Software. In the case of any conflict between the license terms related to Third-Party Components and this license agreement, the license terms related to the Third Party Components shall prevail with respect to the relevant Third Party Component and this license shall prevail with respect to the portion of the Software created by Actuate.
 
 5.	INDEMNIFICATION. Actuate agrees, to defend or at its option to settle any claim or action brought against You by a third- party, and to indemnify You and Your officers, directors, and employees against all damages and costs finally awarded that are attributable to such claim or action, or the settlement by Actuate thereof, if and to the extent such claim or action is based on actual infringement of the third-party claimant’s United States or Canadian patent, copyright, trade secret or trademark and caused by Your use of the Software in accordance with the rights granted by Actuate under this Agreement. Actuate shall be released from this obligation unless You provide Actuate with (i) prompt written notice of any such claim or action, or possibility thereof, (ii) sole control and authority over the defense or settlement of such claim or action, and (iii) proper and full information and assistance to settle and/or defend any such claim or action. Without limiting this indemnification, if a final injunction is, or Actuate believes in its sole discretion is likely to be, entered prohibiting the use of the Software as contemplated, Actuate will, at its sole option and expense, either (i) procure the right to use the infringing Software as provided herein, (ii) replace the infringing Software with   non-infringing,
- 
+
 functionally equivalent product, (iii) suitably modify the infringing Software so that it is not infringing, or if (i), (ii) or (iii) above is not obtainable on commercially reasonable terms, (iv) accept return of the infringing Software. Except as specified above, Actuate will not be liable for any costs or expenses incurred without its prior written authorization. Actuate assumes no liability for infringement claims arising from (i) the combination of the Software with products not provided by Actuate, (ii) any modifications to the Software unless such modification was made by Actuate, or (iii) use of the Software that is not in accordance with its documentation. THIS SECTION 5 STATES THE ENTIRE LIABILITY AND OBLIGATIONS OF ACTUATE, AND YOUR EXCLUSIVE REMEDY WITH RESPECT TO ANY ACTUAL OR ALLEGED INFRINGEMENT OF ANY PATENT, COPYRIGHT, TRADE SECRET, TRADEMARK OR OTHER INTELLECTUAL PROPERTY RIGHT BY THE SOFTWARE.
 
 6.	DISCLAIMER OF WARRANTY. UNLESS SPECIFIED IN THIS AGREEMENT, ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS AND WARRANTIES, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT ARE DISCLAIMED, EXCEPT TO THE EXTENT THAT THESE DISCLAIMERS ARE HELD TO BE LEGALLY INVALID.
@@ -179,28 +269,28 @@ functionally equivalent product, (iii) suitably modify the infringing Software s
 Actuate BIRT iHub F-Type – Actuate License Version 2014-12-10</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -210,5 +300,6 @@ Actuate BIRT iHub F-Type – Actuate License Version 2014-12-10</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

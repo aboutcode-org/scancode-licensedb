@@ -1,165 +1,260 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: oculus-sdk-3.5</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: oculus-sdk-3.5</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="oculus-sdk-3.5.yml">yml</a> -
     <a href="oculus-sdk-3.5.json">json</a> -
     <a href="oculus-sdk-3.5.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/oculus-sdk-3.5.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/oculus-sdk-3.5.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            oculus-sdk-3.5
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Oculus SDK License Agreement v3.5
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Oculus Software Development Kit License Agreement v3.5
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Facebook
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://developer.oculus.com/licenses/sdk-3.5/" rel="noopener" target="_blank">https://developer.oculus.com/licenses/sdk-3.5/</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-oculus-sdk-3.5
-          
-        </dd>
-      
-        <dt style="">standard_notice</dt>
-        <dd>
-          
-            Licensed under the Oculus SDK License Version 3.5 (the &#34;License&#34;);
-you may not use the Oculus SDK except in compliance with the License,
-which is provided at the time of installation or download, or which
-otherwise accompanies this software in either electronic or hard copy form.
-You may obtain a copy of the License at
-<a href="https://developer.oculus.com/licenses/sdk-3.5/" rel="noopener" target="_blank">https://developer.oculus.com/licenses/sdk-3.5/</a>
-Unless required by applicable law or agreed to in writing, the Oculus SDK
-distributed under the License is distributed on an &#34;AS IS&#34; BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>(c) Facebook Technologies, LLC and its affiliates</li><li>Copyright (c) Facebook Technologies, LLC and its affiliates</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Facebook Technologies, LLC and its affiliates</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://developer.oculus.com/" rel="noopener" target="_blank">https://developer.oculus.com/</a></li><li><a href="https://developer.oculus.com/licenses/sdk-3.5/" rel="noopener" target="_blank">https://developer.oculus.com/licenses/sdk-3.5/</a></li>
-            </ul>
-          
-        </dd>
-      
+      <dt style="">key</dt>
+      <dd>
+
+        oculus-sdk-3.5
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Oculus SDK License Agreement v3.5
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Oculus Software Development Kit License Agreement v3.5
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Facebook
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://developer.oculus.com/licenses/sdk-3.5/" rel="noopener"
+          target="_blank">https://developer.oculus.com/licenses/sdk-3.5/</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-oculus-sdk-3.5
+
+      </dd>
+
+      <dt style="">standard_notice</dt>
+      <dd>
+
+        Licensed under the Oculus SDK License Version 3.5 (the &#34;License&#34;);
+        you may not use the Oculus SDK except in compliance with the License,
+        which is provided at the time of installation or download, or which
+        otherwise accompanies this software in either electronic or hard copy form.
+        You may obtain a copy of the License at
+        <a href="https://developer.oculus.com/licenses/sdk-3.5/" rel="noopener"
+          target="_blank">https://developer.oculus.com/licenses/sdk-3.5/</a>
+        Unless required by applicable law or agreed to in writing, the Oculus SDK
+        distributed under the License is distributed on an &#34;AS IS&#34; BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>(c) Facebook Technologies, LLC and its affiliates</li>
+          <li>Copyright (c) Facebook Technologies, LLC and its affiliates</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Facebook Technologies, LLC and its affiliates</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://developer.oculus.com/" rel="noopener" target="_blank">https://developer.oculus.com/</a>
+          </li>
+          <li><a href="https://developer.oculus.com/licenses/sdk-3.5/" rel="noopener"
+              target="_blank">https://developer.oculus.com/licenses/sdk-3.5/</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Oculus Software Development Kit License Agreement
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>Oculus Software Development Kit License Agreement
 
 Copyright © Facebook Technologies, LLC and its affiliates. All rights reserved.
 
@@ -257,28 +352,28 @@ GENERAL PROVISIONS
 18. This License shall be governed by the laws of the State of California, without giving effect to conflict of laws provisions or principles thereof. The parties agree that, except as provided below, all disputes relating to this License shall be resolved by binding non-appearance-based arbitration before a single neutral arbitrator in San Francisco, California. The arbitration will be conducted in the English language by a single arbitrator who is an attorney-at-law with at least fifteen (15) years’ experience in consumer and technology transactions and who is also a member of the JAMS roster of arbitrators. If You and Oculus cannot agree on a mutually acceptable arbitrator within thirty (30) days after the arbitration is initiated, then JAMS will pick a neutral arbitrator who meets such qualifications. The arbitration shall be conducted in accordance with the rules and procedures of JAMS then in effect, and the judgment of the arbitrator shall be final and capable of entry in any court of competent jurisdiction. The parties undertake to keep confidential all awards in their arbitration, together with all materials in the proceedings created for the purpose of the arbitration and all other documents produced by another party in the proceedings not otherwise in the public domain, save and to the extent that disclosure may be required of a party by legal duty, to protect or pursue a legal right or to enforce or challenge an award in legal proceedings before a court or other judicial authority. You and Oculus agree the following may be submitted to a court of competent jurisdiction located within San Francisco, California and further agree to submit to the personal jurisdiction of the courts located within San Francisco, California in connection with (a) any entrance of an arbitrator&#39;s judgment or decision, (b) any dispute with respect to the arbitration process or procedure, (c) Oculus’ exercise of any of its equitable rights or remedies or (d) any claims regarding the ownership, validity, enforceability and/or infringement of any intellectual property rights.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -288,5 +383,6 @@ GENERAL PROVISIONS
     });
   </script>
 
-  </body>
+</body>
+
 </html>

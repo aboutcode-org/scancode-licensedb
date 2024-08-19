@@ -8,7 +8,7 @@ homepage_url: https://git.savannah.gnu.org/cgit/libtool.git/tree/libltdl/slist.c
 is_exception: yes
 spdx_license_key: LicenseRef-scancode-libtool-exception-lgpl
 other_urls:
-    - https://github.com/nexB/scancode-licensedb/issues/43
+    - https://github.com/aboutcode-org/scancode-licensedb/issues/43
 ---
 
 As a special exception to the GNU Lesser General Public License,

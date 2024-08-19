@@ -1,162 +1,254 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: nvidia-apex-sdk-eula-2011</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: nvidia-apex-sdk-eula-2011</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="nvidia-apex-sdk-eula-2011.yml">yml</a> -
     <a href="nvidia-apex-sdk-eula-2011.json">json</a> -
     <a href="nvidia-apex-sdk-eula-2011.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/nvidia-apex-sdk-eula-2011.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/nvidia-apex-sdk-eula-2011.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            nvidia-apex-sdk-eula-2011
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            NVIDIA APEX SDK EULA 2011
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            NVIDIA APEX SDK End User License Agreement 2011
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            NVIDIA
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://developer.download.nvidia.com/assets/gamedev/docs/NVIDIA%20APEX%20EULA.pdf" rel="noopener" target="_blank">https://developer.download.nvidia.com/assets/gamedev/docs/NVIDIA%20APEX%20EULA.pdf</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-nvidia-apex-sdk-eula-2011
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://www.developer.nvidia.com/apex" rel="noopener" target="_blank">www.developer.nvidia.com/apex</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Copyright 2011 NVIDIA Corporation</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>NVIDIA Corporation</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.developer.nvidia.com/apex" rel="noopener" target="_blank">http://www.developer.nvidia.com/apex</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_emails</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="mailto:PHYSXLICENCING@NVIDIA.COM">PHYSXLICENCING@NVIDIA.COM</a></li><li><a href="mailto:PHYSXLICENSING@NVIDIA.COM">PHYSXLICENSING@NVIDIA.COM</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        nvidia-apex-sdk-eula-2011
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        NVIDIA APEX SDK EULA 2011
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        NVIDIA APEX SDK End User License Agreement 2011
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        NVIDIA
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://developer.download.nvidia.com/assets/gamedev/docs/NVIDIA%20APEX%20EULA.pdf" rel="noopener"
+          target="_blank">https://developer.download.nvidia.com/assets/gamedev/docs/NVIDIA%20APEX%20EULA.pdf</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-nvidia-apex-sdk-eula-2011
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://www.developer.nvidia.com/apex" rel="noopener"
+              target="_blank">www.developer.nvidia.com/apex</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Copyright 2011 NVIDIA Corporation</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>NVIDIA Corporation</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.developer.nvidia.com/apex" rel="noopener"
+              target="_blank">http://www.developer.nvidia.com/apex</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_emails</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="mailto:PHYSXLICENCING@NVIDIA.COM">PHYSXLICENCING@NVIDIA.COM</a></li>
+          <li><a href="mailto:PHYSXLICENSING@NVIDIA.COM">PHYSXLICENSING@NVIDIA.COM</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>NVIDIA CORPORATION
@@ -197,7 +289,7 @@ the APEX SDK’s “Samples” directory or made available for download from the
 developer site and designated as sample code.
 
 2. License. NVIDIA grants you (“you”) a limited, non-exclusive, non-transferable
-world-wide, royalty-free license to (a) internally install, use and display the APEX SDK, 
+world-wide, royalty-free license to (a) internally install, use and display the APEX SDK,
 solely for purposes of developing APEX asset content for Physics Applications; (b)
 internally use, copy, modify and compile the Sample Code to design, develop and test
 APEX assets; and (c) reproduce and distribute the Redistributable Code only in object
@@ -254,7 +346,7 @@ CONSIDERED A MATERIAL BREACH OF THIS AGREEMENT.
 licensors, and is protected by United States copyright laws, international treaty
 provisions, and other applicable laws. With regard to any copies made, you agree to
 reproduce any copyright notices and other proprietary legends included on the original.
-NVIDIA copyright notice(s) may appear in any of several forms, including machinereadable 
+NVIDIA copyright notice(s) may appear in any of several forms, including machinereadable
 form, and you agree to reproduce such notice in each form in which it appears.
 Title and copyrights to the APEX SDK and any copies made by you remain with
 NVIDIA and its licensors. You acknowledge that the APEX SDK contain valuable
@@ -287,7 +379,7 @@ provisions of this Agreement, will result in automatic termination of this licen
 to NVIDIA.
 
 A: You will include a reference to the APEX SDK and NVIDIA in any press releases
-for such Game that relate to NVIDIA, or in-game physics, and will identify 
+for such Game that relate to NVIDIA, or in-game physics, and will identify
 NVIDIA as the provider of &#34;APEX&#34; (or such other term or phrase as indicated by
 NVIDIA from time to time).
 
@@ -336,7 +428,7 @@ exclusion of implied warranties, so the above exclusion may not apply to you.
 
 8. Remedies. The entire liability of NVIDIA and its licensors, and your exclusive
 remedy under the warranty provided herein will be, at NVIDIA’s option, to replace any
-media found to be defective within the warranty period, or to refund the purchase price 
+media found to be defective within the warranty period, or to refund the purchase price
 and terminate this Agreement. To seek such a remedy, you must return the entire APEX
 SDK to NVIDIA, with a copy of the original purchase receipt within the warranty period.
 
@@ -384,7 +476,7 @@ original and all stand-alone copies, in whole or in part, of the APEX SDK have b
 destroyed. Upon Partial Termination, you may continue to distribute any Physics
 Application that has been commercially released prior to such termination subject to
 prospective compliance with this Agreement. Upon any other termination, you will
-certify to NVIDIA in writing that the original and all copies, in whole or in part, of the 
+certify to NVIDIA in writing that the original and all copies, in whole or in part, of the
 APEX SDK have been destroyed, including those portions contained within any
 unshipped Physics Applications.
 
@@ -418,28 +510,28 @@ US AND INTERNATIONAL PATENTS PENDING.
 Rev (7-22-11)</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -449,5 +541,6 @@ Rev (7-22-11)</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

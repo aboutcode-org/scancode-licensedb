@@ -1,295 +1,385 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: llama-2-license-2023</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: llama-2-license-2023</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="llama-2-license-2023.yml">yml</a> -
     <a href="llama-2-license-2023.json">json</a> -
     <a href="llama-2-license-2023.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/llama-2-license-2023.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/llama-2-license-2023.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            llama-2-license-2023
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Llama 2 Community License Agreement 2023
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Llama 2 Community License Agreement 2023
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Facebook
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://github.com/facebookresearch/llama/blob/main/LICENSE" rel="noopener" target="_blank">https://github.com/facebookresearch/llama/blob/main/LICENSE</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-llama-2-license-2023
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Copyright (c) Meta Platforms, Inc.</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Meta Platforms, Inc.</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://ai.meta.com/llama/use-policy" rel="noopener" target="_blank">https://ai.meta.com/llama/use-policy</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        llama-2-license-2023
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Llama 2 Community License Agreement 2023
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Llama 2 Community License Agreement 2023
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Facebook
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://github.com/facebookresearch/llama/blob/main/LICENSE" rel="noopener"
+          target="_blank">https://github.com/facebookresearch/llama/blob/main/LICENSE</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-llama-2-license-2023
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Copyright (c) Meta Platforms, Inc.</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Meta Platforms, Inc.</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://ai.meta.com/llama/use-policy" rel="noopener"
+              target="_blank">https://ai.meta.com/llama/use-policy</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>LLAMA 2 COMMUNITY LICENSE AGREEMENT	
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>LLAMA 2 COMMUNITY LICENSE AGREEMENT
 Llama 2 Version Release Date: July 18, 2023
 
-&#34;Agreement&#34; means the terms and conditions for use, reproduction, distribution and 
+&#34;Agreement&#34; means the terms and conditions for use, reproduction, distribution and
 modification of the Llama Materials set forth herein.
 
-&#34;Documentation&#34; means the specifications, manuals and documentation 
+&#34;Documentation&#34; means the specifications, manuals and documentation
 accompanying Llama 2 distributed by Meta at ai.meta.com/resources/models-and-
 libraries/llama-downloads/.
 
-&#34;Licensee&#34; or &#34;you&#34; means you, or your employer or any other person or entity (if 
-you are entering into this Agreement on such person or entity&#39;s behalf), of the age 
-required under applicable laws, rules or regulations to provide legal consent and that 
-has legal authority to bind your employer or such other person or entity if you are 
+&#34;Licensee&#34; or &#34;you&#34; means you, or your employer or any other person or entity (if
+you are entering into this Agreement on such person or entity&#39;s behalf), of the age
+required under applicable laws, rules or regulations to provide legal consent and that
+has legal authority to bind your employer or such other person or entity if you are
 entering in this Agreement on their behalf.
 
-&#34;Llama 2&#34; means the foundational large language models and software and 
-algorithms, including machine-learning model code, trained model weights, 
-inference-enabling code, training-enabling code, fine-tuning enabling code and other 
+&#34;Llama 2&#34; means the foundational large language models and software and
+algorithms, including machine-learning model code, trained model weights,
+inference-enabling code, training-enabling code, fine-tuning enabling code and other
 elements of the foregoing distributed by Meta at ai.meta.com/resources/models-and-
 libraries/llama-downloads/.
 
-&#34;Llama Materials&#34; means, collectively, Meta&#39;s proprietary Llama 2 and 
+&#34;Llama Materials&#34; means, collectively, Meta&#39;s proprietary Llama 2 and
 Documentation (and any portion thereof) made available under this Agreement.
 
-&#34;Meta&#34; or &#34;we&#34; means Meta Platforms Ireland Limited (if you are located in or, if you 
-are an entity, your principal place of business is in the EEA or Switzerland) and Meta 
-Platforms, Inc. (if you are located outside of the EEA or Switzerland). 
+&#34;Meta&#34; or &#34;we&#34; means Meta Platforms Ireland Limited (if you are located in or, if you
+are an entity, your principal place of business is in the EEA or Switzerland) and Meta
+Platforms, Inc. (if you are located outside of the EEA or Switzerland).
 
-By clicking &#34;I Accept&#34; below or by using or distributing any portion or element of the 
+By clicking &#34;I Accept&#34; below or by using or distributing any portion or element of the
 Llama Materials, you agree to be bound by this Agreement.
 
-1. License Rights and Redistribution. 
+1. License Rights and Redistribution.
 
       a. Grant of Rights. You are granted a non-exclusive, worldwide, non-
-transferable and royalty-free limited license under Meta&#39;s intellectual property or 
-other rights owned by Meta embodied in the Llama Materials to use, reproduce, 
-distribute, copy, create derivative works of, and make modifications to the Llama 
-Materials.  
-      
-      b. Redistribution and Use.  
+transferable and royalty-free limited license under Meta&#39;s intellectual property or
+other rights owned by Meta embodied in the Llama Materials to use, reproduce,
+distribute, copy, create derivative works of, and make modifications to the Llama
+Materials.
 
-            i. If you distribute or make the Llama Materials, or any derivative works 
-thereof, available to a third party, you shall provide a copy of this Agreement to such 
-third party. 
-            ii.  If you receive Llama Materials, or any derivative works thereof, from 
-a Licensee as part of an integrated end user product, then Section 2 of this 
-Agreement will not apply to you. 
+      b. Redistribution and Use.
 
-            iii. You must retain in all copies of the Llama Materials that you 
-distribute the following attribution notice within a &#34;Notice&#34; text file distributed as a 
-part of such copies: &#34;Llama 2 is licensed under the LLAMA 2 Community License, 
+            i. If you distribute or make the Llama Materials, or any derivative works
+thereof, available to a third party, you shall provide a copy of this Agreement to such
+third party.
+            ii.  If you receive Llama Materials, or any derivative works thereof, from
+a Licensee as part of an integrated end user product, then Section 2 of this
+Agreement will not apply to you.
+
+            iii. You must retain in all copies of the Llama Materials that you
+distribute the following attribution notice within a &#34;Notice&#34; text file distributed as a
+part of such copies: &#34;Llama 2 is licensed under the LLAMA 2 Community License,
 Copyright (c) Meta Platforms, Inc. All Rights Reserved.&#34;
 
-            iv. Your use of the Llama Materials must comply with applicable laws 
-and regulations (including trade compliance laws and regulations) and adhere to the 
-Acceptable Use Policy for the Llama Materials (available at 
-https://ai.meta.com/llama/use-policy), which is hereby incorporated by reference into 
+            iv. Your use of the Llama Materials must comply with applicable laws
+and regulations (including trade compliance laws and regulations) and adhere to the
+Acceptable Use Policy for the Llama Materials (available at
+https://ai.meta.com/llama/use-policy), which is hereby incorporated by reference into
 this Agreement.
 
-            v. You will not use the Llama Materials or any output or results of the 
-Llama Materials to improve any other large language model (excluding Llama 2 or 
-derivative works thereof).  
+            v. You will not use the Llama Materials or any output or results of the
+Llama Materials to improve any other large language model (excluding Llama 2 or
+derivative works thereof).
 
-2. Additional Commercial Terms. If, on the Llama 2 version release date, the 
-monthly active users of the products or services made available by or for Licensee, 
-or Licensee&#39;s affiliates, is greater than 700 million monthly active users in the 
-preceding calendar month, you must request a license from Meta, which Meta may 
-grant to you in its sole discretion, and you are not authorized to exercise any of the 
-rights under this Agreement unless or until Meta otherwise expressly grants you 
+2. Additional Commercial Terms. If, on the Llama 2 version release date, the
+monthly active users of the products or services made available by or for Licensee,
+or Licensee&#39;s affiliates, is greater than 700 million monthly active users in the
+preceding calendar month, you must request a license from Meta, which Meta may
+grant to you in its sole discretion, and you are not authorized to exercise any of the
+rights under this Agreement unless or until Meta otherwise expressly grants you
 such rights.
-            
-3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE 
-LLAMA MATERIALS AND ANY OUTPUT AND RESULTS THEREFROM ARE 
-PROVIDED ON AN &#34;AS IS&#34; BASIS, WITHOUT WARRANTIES OF ANY KIND, 
-EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY 
-WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR 
-FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE 
-FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING 
-THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR 
+
+3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE
+LLAMA MATERIALS AND ANY OUTPUT AND RESULTS THEREFROM ARE
+PROVIDED ON AN &#34;AS IS&#34; BASIS, WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY
+WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR
+FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE
+FOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING
+THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED WITH YOUR
 USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.
 
-4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE 
-LIABLE UNDER ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, TORT, 
-NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS 
-AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, 
-CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN 
-IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF 
+4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE
+LIABLE UNDER ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, TORT,
+NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS
+AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL,
+CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN
+IF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF
 ANY OF THE FOREGOING.
- 
+
 5. Intellectual Property.
 
-      a. No trademark licenses are granted under this Agreement, and in 
-connection with the Llama Materials, neither Meta nor Licensee may use any name 
-or mark owned by or associated with the other or any of its affiliates, except as 
-required for reasonable and customary use in describing and redistributing the 
+      a. No trademark licenses are granted under this Agreement, and in
+connection with the Llama Materials, neither Meta nor Licensee may use any name
+or mark owned by or associated with the other or any of its affiliates, except as
+required for reasonable and customary use in describing and redistributing the
 Llama Materials.
 
-      b. Subject to Meta&#39;s ownership of Llama Materials and derivatives made by or 
-for Meta, with respect to any derivative works and modifications of the Llama 
-Materials that are made by you, as between you and Meta, you are and will be the 
+      b. Subject to Meta&#39;s ownership of Llama Materials and derivatives made by or
+for Meta, with respect to any derivative works and modifications of the Llama
+Materials that are made by you, as between you and Meta, you are and will be the
 owner of such derivative works and modifications.
 
-      c. If you institute litigation or other proceedings against Meta or any entity 
-(including a cross-claim or counterclaim in a lawsuit) alleging that the Llama 
-Materials or Llama 2 outputs or results, or any portion of any of the foregoing, 
-constitutes an infringement of intellectual property or other rights owned or licensable 
-by you, then any licenses granted to you under this Agreement shall terminate as of 
-the date such litigation or claim is filed or instituted. You will indemnify and hold 
-harmless Meta from and against any claim by any third party arising out of or related 
+      c. If you institute litigation or other proceedings against Meta or any entity
+(including a cross-claim or counterclaim in a lawsuit) alleging that the Llama
+Materials or Llama 2 outputs or results, or any portion of any of the foregoing,
+constitutes an infringement of intellectual property or other rights owned or licensable
+by you, then any licenses granted to you under this Agreement shall terminate as of
+the date such litigation or claim is filed or instituted. You will indemnify and hold
+harmless Meta from and against any claim by any third party arising out of or related
 to your use or distribution of the Llama Materials.
 
-6. Term and Termination. The term of this Agreement will commence upon your 
-acceptance of this Agreement or access to the Llama Materials and will continue in 
-full force and effect until terminated in accordance with the terms and conditions 
-herein. Meta may terminate this Agreement if you are in breach of any term or 
-condition of this Agreement. Upon termination of this Agreement, you shall delete 
-and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the 
-termination of this Agreement. 
+6. Term and Termination. The term of this Agreement will commence upon your
+acceptance of this Agreement or access to the Llama Materials and will continue in
+full force and effect until terminated in accordance with the terms and conditions
+herein. Meta may terminate this Agreement if you are in breach of any term or
+condition of this Agreement. Upon termination of this Agreement, you shall delete
+and cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the
+termination of this Agreement.
 
-7. Governing Law and Jurisdiction. This Agreement will be governed and 
-construed under the laws of the State of California without regard to choice of law 
-principles, and the UN Convention on Contracts for the International Sale of Goods 
-does not apply to this Agreement. The courts of California shall have exclusive 
+7. Governing Law and Jurisdiction. This Agreement will be governed and
+construed under the laws of the State of California without regard to choice of law
+principles, and the UN Convention on Contracts for the International Sale of Goods
+does not apply to this Agreement. The courts of California shall have exclusive
 jurisdiction of any dispute arising out of this Agreement.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -299,5 +389,6 @@ jurisdiction of any dispute arising out of this Agreement.</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

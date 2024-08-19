@@ -1,119 +1,208 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: ms-windows-os-2018</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: ms-windows-os-2018</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ms-windows-os-2018.yml">yml</a> -
     <a href="ms-windows-os-2018.json">json</a> -
     <a href="ms-windows-os-2018.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-windows-os-2018.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-windows-os-2018.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            ms-windows-os-2018
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            MS Windows OS 2018
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Microsoft Windows Operating System License 2019
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Commercial
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Microsoft
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-ms-windows-os-2018
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://github.com/nexB/scancode-toolkit/files/6909005/license.zip" rel="noopener" target="_blank">https://github.com/nexB/scancode-toolkit/files/6909005/license.zip</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        ms-windows-os-2018
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        MS Windows OS 2018
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Microsoft Windows Operating System License 2019
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Commercial
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Microsoft
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-ms-windows-os-2018
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://github.com/aboutcode-org/scancode-toolkit/files/6909005/license.zip" rel="noopener"
+              target="_blank">https://github.com/aboutcode-org/scancode-toolit/files/6909005/license.zip</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Last updated June 2018
@@ -159,10 +248,10 @@ b.	Stand-alone software. If you acquired the software as stand-alone software (a
 6.	Updates. The software periodically checks for system and app updates, and downloads and installs them for you. You may obtain updates only from Microsoft or authorized sources, and Microsoft may need to update your system to provide you with those updates. By accepting this agreement, you agree to receive these types of automatic updates without any additional notice.
 7.	Downgrade Rights. If you acquired a device from a manufacturer or installer with a Professional version of Windows preinstalled on it and it is configured to run in full feature mode, you may use either a Windows 8.1 Pro or Windows 7 Professional version, but only for so long as Microsoft provides support for that earlier version as set forth in (aka.ms/windowslifecycle). This agreement applies to your use of the earlier versions. If the earlier version includes different components, any terms for those components in the agreement that comes with the earlier version apply to your use of such components. Neither the device manufacturer or installer, nor Microsoft, is obligated to supply earlier versions to you. You must obtain the earlier version separately, for which you may be charged a fee. At any time, you may replace an earlier version with the version you originally acquired.
 8.	Export Restrictions. You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit  (aka.ms/exporting).
-9.	Warranty, Disclaimer, Remedy, Damages and Procedures. 
+9.	Warranty, Disclaimer, Remedy, Damages and Procedures.
 a.	Limited Warranty. Depending on how you obtained the Windows software, Microsoft, or the device manufacturer or installer, warrants that properly licensed software will perform substantially as described in any Microsoft materials that accompany the software. This limited warranty does not cover problems that you cause, that arise when you fail to follow instructions, or that are caused by events beyond the reasonable control of Microsoft, or the device manufacturer or installer. The limited warranty starts when the first user acquires the software, and lasts for one year if acquired from Microsoft, or for 90 days if acquired from a device manufacturer or installer. If you obtain updates or supplements directly from Microsoft during the 90-day term of the device manufacturer’s or installer’s limited warranty, Microsoft provides the limited warranty for those updates or supplements. Any supplements, updates, or replacement software that you may receive from Microsoft during that year are also covered, but only for the remainder of that one-year period if acquired from Microsoft, or for 90 days if acquired from a device manufacturer or installer, or for 30 days, whichever is longer. Transferring the software will not extend the limited warranty.
 b.	Disclaimer. Neither Microsoft, nor the device manufacturer or installer, gives any other express warranties, guarantees, or conditions. Microsoft and the device manufacturer and installer exclude all implied warranties and conditions, including those of merchantability, fitness for a particular purpose, and non-infringement. If your local law does not allow the exclusion of implied warranties, then any implied warranties, guarantees, or conditions last only during the term of the limited warranty and are limited as much as your local law allows. If your local law requires a longer limited warranty term, despite this agreement, then that longer term will apply, but you can recover only the remedies this agreement allows.
-c.	Limited Remedy. If Microsoft, or the device manufacturer or installer, breaches its limited warranty, it will, at its election, either: (i) repair or replace the software at no charge, or (ii) accept return of the software (or at its election the device on which the software was preinstalled) for a refund of the amount paid, if any. The device manufacturer or installer (or Microsoft if you acquired them directly from Microsoft) may also repair or replace supplements, updates, and replacement of the software or provide a refund of the amount you paid for them, if any. These are your only remedies for breach of warranty. This limited warranty gives you specific legal rights, and you may also have other rights which vary from state to state or country to country. 
+c.	Limited Remedy. If Microsoft, or the device manufacturer or installer, breaches its limited warranty, it will, at its election, either: (i) repair or replace the software at no charge, or (ii) accept return of the software (or at its election the device on which the software was preinstalled) for a refund of the amount paid, if any. The device manufacturer or installer (or Microsoft if you acquired them directly from Microsoft) may also repair or replace supplements, updates, and replacement of the software or provide a refund of the amount you paid for them, if any. These are your only remedies for breach of warranty. This limited warranty gives you specific legal rights, and you may also have other rights which vary from state to state or country to country.
 d.	Damages. Except for any repair, replacement, or refund that Microsoft, or the device manufacturer or installer, may provide, you may not under this limited warranty, under any other part of this agreement, or under any theory, recover any damages or other remedy, including lost profits or direct, consequential, special, indirect, or incidental damages. The damage exclusions and remedy limitations in this agreement apply even if repair, replacement, or a refund does not fully compensate you for any losses, if Microsoft, or the device manufacturer or installer, knew or should have known about the possibility of the damages, or if the remedy fails of its essential purpose. Some states and countries do not allow the exclusion or limitation of incidental, consequential, or other damages, so those limitations or exclusions may not apply to you. If your local law allows you to recover damages from Microsoft, or the device manufacturer or installer, even though this agreement does not, you cannot recover more than you paid for the software (or up to $50 USD if you acquired the software for no charge).
 e.	Warranty and Refund Procedures. For service or refund, you must provide a copy of your proof of purchase and comply with Microsoft’s return policies if you acquired the software from Microsoft, or the device manufacturer’s or installer’s return policies if you acquired the software from a device manufacturer or installer. If you purchased stand-alone software, those return policies might require you to uninstall the software and return it to Microsoft. If you acquired the software pre-installed on a device, those return policies may require return of the software with the entire device on which the software is installed; the certificate of authenticity label including the product key (if provided with your device) must remain affixed. Contact the device manufacturer or installer at the address or toll-free telephone number provided with your device to find out how to obtain warranty service for the software. If Microsoft is your device manufacturer or if you acquired the software from a retailer, contact Microsoft at:
 (i)	United States and Canada. For warranty service or information about how to obtain a refund for software acquired in the United States or Canada, contact Microsoft via telephone at (800) MICROSOFT; via mail at Microsoft Customer Service and Support, One Microsoft Way, Redmond, WA 98052-6399; or visit (aka.ms/nareturns).
@@ -170,13 +259,13 @@ e.	Warranty and Refund Procedures. For service or refund, you must provide a cop
 (iii)	Australia. If you acquired the software in Australia, contact Microsoft to make a claim at 13 20 58; or Microsoft Pty Ltd, 1 Epping Road, North Ryde NSW 2113 Australia.
 (iv)	Other countries. If you acquired the software in another country, contact the Microsoft affiliate serving your country (aka.ms/msoffices).
 10.	Support.
-a.	For software preinstalled on a device. For the software generally, contact the device manufacturer or installer for support options. Refer to the support number provided with the software. For updates and supplements obtained directly from Microsoft, Microsoft may provide limited support services for properly licensed software as described at (aka.ms/mssupport). 
+a.	For software preinstalled on a device. For the software generally, contact the device manufacturer or installer for support options. Refer to the support number provided with the software. For updates and supplements obtained directly from Microsoft, Microsoft may provide limited support services for properly licensed software as described at (aka.ms/mssupport).
 b.	For software acquired from a retailer. Microsoft provides limited support services for properly licensed software as described at (aka.ms/mssupport).
 11.	Binding Arbitration and Class Action Waiver if You Live in (or, if a Business, Your Principal Place of Business is in) the United States.
 We hope we never have a dispute, but if we do, you and we agree to try for 60 days to resolve it informally. If we can’t, you and we agree to binding individual arbitration before the American Arbitration Association (“AAA”) under the Federal Arbitration Act (“FAA”), and not to sue in court in front of a judge or jury. Instead, a neutral arbitrator will decide and the arbitrator’s decision will be final except for a limited right of review under the FAA. Class action lawsuits, class-wide arbitrations, private attorney-general actions, and any other proceeding where someone acts in a representative capacity aren’t allowed. Nor is combining individual proceedings without the consent of all parties. “We,” “our,” and “us” includes Microsoft, the device manufacturer, and software installer.
 a.	Disputes covered—everything except IP. The term “dispute” is as broad as it can be. It includes any claim or controversy between you and the device manufacturer or installer, or you and Microsoft, concerning the software, its price, or this agreement, under any legal theory including contract, warranty, tort, statute, or regulation, except disputes relating to the enforcement or validity of your, your licensors’, our, or our licensors’ intellectual property rights.
 b.	Mail a Notice of Dispute first. If you have a dispute and our customer service representatives can’t resolve it, send a Notice of Dispute by U.S. Mail to the device manufacturer or installer, ATTN: LEGAL DEPARTMENT. If your dispute is with Microsoft, mail it to Microsoft Corporation, ATTN: CELA ARBITRATION, One Microsoft Way, Redmond, WA 98052-6399. Tell us your name, address, how to contact you, what the problem is, and what you want. A form is available at (aka.ms/disputeform). We’ll do the same if we have a dispute with you. After 60 days, you or we may start an arbitration if the dispute is unresolved.
-c.	Small claims court option. Instead of mailing a Notice of Dispute, and if you meet the court’s requirements, you may sue us in small claims court in your county of residence (or, if a business, your principal place of business) or our principal place of business—King County, Washington USA if your dispute is with Microsoft. 
+c.	Small claims court option. Instead of mailing a Notice of Dispute, and if you meet the court’s requirements, you may sue us in small claims court in your county of residence (or, if a business, your principal place of business) or our principal place of business—King County, Washington USA if your dispute is with Microsoft.
 d.	Arbitration procedure. The AAA will conduct any arbitration under its Commercial Arbitration Rules (or if you are an individual and use the software for personal or household use, or if the value of the dispute is $75,000 USD or less whether or not you are an individual or how you use the software, its Consumer Arbitration Rules). For more information, see (aka.ms/adr) or call 1-800-778-7879. To start an arbitration, submit the form available at (aka.ms/arbitration) to the AAA; mail a copy to the device manufacturer or installer (or to Microsoft if your dispute is with Microsoft). In a dispute involving $25,000 USD or less, any hearing will be telephonic unless the arbitrator finds good cause to hold an in-person hearing instead. Any in-person hearing will take place in your county of residence (or, if a business, your principal place of business) or our principal place of business—King County, Washington if your dispute is with Microsoft. You choose. The arbitrator may award the same damages to you individually as a court could. The arbitrator may award declaratory or injunctive relief only to you individually to satisfy your individual claim. Under AAA rules, the arbitrator rules on his or her own jurisdiction, including the arbitrability of any claim. But a court has exclusive authority to enforce the prohibition on arbitration on a class-wide basis or in a representative capacity.
 e.	Arbitration fees and payments.
 (i)	Disputes involving $75,000 USD or less. The device manufacturer or installer (or Microsoft if your dispute is with Microsoft) will promptly reimburse your filing fees and pay the AAA’s and arbitrator’s fees and expenses. If you reject our last written settlement offer made before the arbitrator was appointed, your dispute goes all the way to an arbitrator’s decision (called an “award”), and the arbitrator awards you more than this last written offer, the device manufacturer or installer (or Microsoft if your dispute is with Microsoft) will: (1) pay the greater of the award or $1,000 USD; (2) pay your reasonable attorney’s fees, if any; and (3) reimburse any expenses (including expert witness fees and costs) that your attorney reasonably accrues for investigating, preparing, and pursuing your claim in arbitration.
@@ -216,28 +305,28 @@ d.	Limited rights versions. If the software version you acquired is marked or ot
 ·	Adobe Flash Player License Terms (aka.ms/adobeflash)</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -247,5 +336,6 @@ d.	Limited rights versions. If the software version you acquired is marked or ot
     });
   </script>
 
-  </body>
+</body>
+
 </html>

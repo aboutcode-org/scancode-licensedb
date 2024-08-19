@@ -4,7 +4,7 @@
 # ScanCode is a trademark of nexB Inc.
 # SPDX-License-Identifier: Apache-2.0
 # See http://www.apache.org/licenses/LICENSE-2.0 for the license text.
-# See https://github.com/nexB/scancode-toolkit for support or download.
+# See https://github.com/aboutcode-org/scancode-toolit for support or download.
 # See https://aboutcode.org for more information about nexB OSS projects.
 #
 
@@ -30,10 +30,10 @@ class NoNewCommitException(Exception):
 
 @click.command()
 @click.option('--commit',
-    type=click.STRING,
-    default=None,
-    metavar='FILE',
-)
+              type=click.STRING,
+              default=None,
+              metavar='FILE',
+              )
 def cli(commit):
     """
     Check if the commit `commit` at which the licensedb was last generated
@@ -58,7 +58,8 @@ def cli(commit):
     if commit == commit_old:
         raise NoNewCommitException(msg)
     else:
-        click.secho(f" -> There are new commits in scancode-toolkit develop, updating last commit to {commit}.")
+        click.secho(
+            f" -> There are new commits in scancode-toolkit develop, updating last commit to {commit}.")
         data_commit_old["commit_hash"] = commit
         write_json(data=data_commit_old, path=path)
 

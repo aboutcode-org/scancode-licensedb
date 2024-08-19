@@ -1,151 +1,241 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: lppl-1.0</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: lppl-1.0</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="lppl-1.0.yml">yml</a> -
     <a href="lppl-1.0.json">json</a> -
     <a href="lppl-1.0.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/lppl-1.0.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/lppl-1.0.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            lppl-1.0
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            LPPL 1.0
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            LaTeX Project Public License v1.0
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Copyleft
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            LaTeX
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.latex-project.org/lppl/lppl-1-0.txt" rel="noopener" target="_blank">http://www.latex-project.org/lppl/lppl-1-0.txt</a>
-          
-        </dd>
-      
-        <dt style="">notes</dt>
-        <dd>
-          
-            Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license was released 1 Mar 1999
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LPPL-1.0
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.latex-project.org/lppl/lppl-1-0.txt" rel="noopener" target="_blank">http://www.latex-project.org/lppl/lppl-1-0.txt</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Copyright 1999 LaTeX3 Project</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>LaTeX3 Project</li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        lppl-1.0
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        LPPL 1.0
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        LaTeX Project Public License v1.0
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Copyleft
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        LaTeX
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.latex-project.org/lppl/lppl-1-0.txt" rel="noopener"
+          target="_blank">http://www.latex-project.org/lppl/lppl-1-0.txt</a>
+
+      </dd>
+
+      <dt style="">notes</dt>
+      <dd>
+
+        Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license was released 1 Mar 1999
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LPPL-1.0
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.latex-project.org/lppl/lppl-1-0.txt" rel="noopener"
+              target="_blank">http://www.latex-project.org/lppl/lppl-1-0.txt</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Copyright 1999 LaTeX3 Project</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>LaTeX3 Project</li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>LaTeX Project Public License
@@ -160,7 +250,7 @@ Preamble
 ========
 The LaTeX Project Public License (LPPL) is the license under which the
 base LaTeX distribution is distributed. As described below you may use
-this licence for any software that you wish to distribute. 
+this licence for any software that you wish to distribute.
 
 It may be particularly suitable if your software is TeX related (such
 as a LaTeX package file) but it may be used for any software, even if
@@ -183,7 +273,7 @@ A typical example would be
 Given such a notice in the file, the conditions of this document would
 apply, with:
 
-`The Program&#39; referring to the software `pig.sty&#39;  and 
+`The Program&#39; referring to the software `pig.sty&#39;  and
 `The Copyright Holder&#39; referring to the person `M. Y. Name&#39;.
 
 To see a real example, see the file legal.txt which carries the
@@ -192,7 +282,7 @@ copyright notice for the base latex distribution.
 This license gives terms under which files of The Program may be
 distributed and modified. Individual files may have specific further
 constraints on modification, but no file should have restrictions on
-distribution other than those specified below. 
+distribution other than those specified below.
 This is to ensure that a distributor wishing to distribute a complete
 unmodified copy of The Program need only check the conditions in this
 file, and does not need to check every file in The Program for extra
@@ -201,7 +291,7 @@ files, do not refer to this license, instead distribute The Program
 under a different license. You may use the parts of the text of LPPL as
 a model for your own license, but your license should not directly refer
 to the LPPL or otherwise give the impression that The Program is
-distributed under the LPPL. 
+distributed under the LPPL.
 
 
 The LaTeX Project Public License
@@ -253,14 +343,14 @@ under the following restrictions:
  * It is allowed only if the legal notice in the file does not
    expressly forbid it.
    See note below, under &#34;Conditions on individual files&#34;.
- 
+
  * You rename the file before you make any changes to it, unless the
    file explicitly says that renaming is not required.  Any such changed
    files must be distributed under a license that forbids distribution
    of those files, and any files derived from them, under the names used
    by the original files in the distribution of The Program.
 
- * You change any `identification string&#39; in The Program to clearly 
+ * You change any `identification string&#39; in The Program to clearly
    indicate that the file is not part of the standard system.
 
  * If The Program includes an `error report address&#39; so that errors
@@ -268,7 +358,7 @@ under the following restrictions:
    addresses, this address must be changed in any modified versions of
    The Program, so that reports for files not maintained by the
    original program maintainers are directed to the maintainers of the
-   changed files. 
+   changed files.
 
  * You acknowledge the source and authorship of the original version
    in the modified file.
@@ -286,23 +376,23 @@ under the following restrictions:
    then files with the following file extensions which have special
    meaning in LaTeX Software, have special modification rules under the
    license:
- 
+
     - Files with extension `.ins&#39; (installation files): these files may
       not be modified at all because they contain the legal notices
       that are placed in the generated files.
- 
+
     - Files with extension `.fd&#39; (LaTeX font definitions files): these
       files are allowed to be modified without changing the name, but
       only to enable use of all available fonts and to prevent attempts
       to access unavailable fonts. However, modified files are not
       allowed to be distributed in place of original files.
- 
+
     - Files with extension `.cfg&#39; (configuration files): these files
       can be created or modified to enable easy configuration of the
       system.  The documentation in cfgguide.tex in the base LaTeX
       distribution describes when it makes sense to modify or generate
       such files.
- 
+
 
 The above restrictions are not intended to prohibit, and hence do
 not apply to, the updating, by any method, of a file so that it
@@ -317,7 +407,7 @@ modifications that conform with whatever technical specifications you
 wish, whilst maintaining the availability, integrity and reliability of
 The Program.  If you do not see how to achieve your goal whilst
 adhering to these requirements then read the document cfgguide.tex
-in the base LaTeX distribution for suggestions. 
+in the base LaTeX distribution for suggestions.
 
 Because of the portability and exchangeability aspects of systems
 like LaTeX, The LaTeX3 Project deprecates the distribution of
@@ -353,28 +443,28 @@ conditions would be files that contain the text of copyright notices.
    distribution meets these requirements.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -384,5 +474,6 @@ conditions would be files that contain the text of copyright notices.
     });
   </script>
 
-  </body>
+</body>
+
 </html>

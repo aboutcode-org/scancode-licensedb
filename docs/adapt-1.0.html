@@ -1,159 +1,254 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: adapt-1.0</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: adapt-1.0</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="adapt-1.0.yml">yml</a> -
     <a href="adapt-1.0.json">json</a> -
     <a href="adapt-1.0.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/adapt-1.0.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/adapt-1.0.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            adapt-1.0
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            APL 1.0
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Adaptive Public License
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Copyleft
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            OSI - Open Source Initiative
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.opensource.org/licenses/apl1.0.php" rel="noopener" target="_blank">http://www.opensource.org/licenses/apl1.0.php</a>
-          
-        </dd>
-      
-        <dt style="">notes</dt>
-        <dd>
-          
-            Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license is OSI certified.
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            APL-1.0
-          
-        </dd>
-      
-        <dt style="">osi_license_key</dt>
-        <dd>
-          
-            APL-1.0
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.opensource.org/licenses/apl1.0.php" rel="noopener" target="_blank">http://www.opensource.org/licenses/apl1.0.php</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">osi_url</dt>
-        <dd>
-          
-            <a href="http://www.opensource.org/licenses/apl1.0.php" rel="noopener" target="_blank">http://www.opensource.org/licenses/apl1.0.php</a>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.opensource.org/licenses/APL-1.0" rel="noopener" target="_blank">http://www.opensource.org/licenses/APL-1.0</a></li><li><a href="https://opensource.org/licenses/APL-1.0" rel="noopener" target="_blank">https://opensource.org/licenses/APL-1.0</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        adapt-1.0
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        APL 1.0
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Adaptive Public License
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Copyleft
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        OSI - Open Source Initiative
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.opensource.org/licenses/apl1.0.php" rel="noopener"
+          target="_blank">http://www.opensource.org/licenses/apl1.0.php</a>
+
+      </dd>
+
+      <dt style="">notes</dt>
+      <dd>
+
+        Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license is OSI certified.
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        APL-1.0
+
+      </dd>
+
+      <dt style="">osi_license_key</dt>
+      <dd>
+
+        APL-1.0
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.opensource.org/licenses/apl1.0.php" rel="noopener"
+              target="_blank">http://www.opensource.org/licenses/apl1.0.php</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">osi_url</dt>
+      <dd>
+
+        <a href="http://www.opensource.org/licenses/apl1.0.php" rel="noopener"
+          target="_blank">http://www.opensource.org/licenses/apl1.0.php</a>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.opensource.org/licenses/APL-1.0" rel="noopener"
+              target="_blank">http://www.opensource.org/licenses/APL-1.0</a></li>
+          <li><a href="https://opensource.org/licenses/APL-1.0" rel="noopener"
+              target="_blank">https://opensource.org/licenses/APL-1.0</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>ADAPTIVE PUBLIC LICENSE
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>ADAPTIVE PUBLIC LICENSE
 Version 1.0
 THE LICENSED WORK IS PROVIDED UNDER THE TERMS OF THIS ADAPTIVE PUBLIC LICENSE
 (&#34;LICENSE&#34;). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE LICENSED WORK CONSTITUTES
@@ -409,18 +504,18 @@ EXHIBIT A (to the Adaptive Public License)
 
 PART 1: INITIAL CONTRIBUTOR AND DESIGNATED WEB SITE
 
-The Initial Contributor is:	 
- 	
+The Initial Contributor is:
+
 [Enter full name of Initial Contributor]
 
-Address of Initial Contributor:	 
- 	 
- 	 
- 	
+Address of Initial Contributor:
+
+
+
 [Enter address above]
 
-The Designated Web Site is:	 
- 	
+The Designated Web Site is:
+
 [Enter URL for Designated Web Site of Initial Contributor]
 NOTE: The Initial Contributor is to complete this Part 1, along with Parts 2, 3, and 5, and, if applicable, Parts 4 and 6.
 
@@ -428,33 +523,33 @@ PART 2: INITIAL WORK
 
 The Initial Work comprises the computer program(s) distributed by the Initial Contributor having the following title(s):  .
 
-The date on which the Initial Work was first available under this License:  
+The date on which the Initial Work was first available under this License:
 
 PART 3: GOVERNING JURISDICTION
 
-For the purposes of this License, the Governing Jurisdiction is  . 
+For the purposes of this License, the Governing Jurisdiction is  .
 [Initial Contributor to Enter Governing Jurisdiction here]
 
 PART 4: THIRD PARTIES
 
 For the purposes of this License, &#34;Third Party&#34; has the definition set forth below in the ONE paragraph selected by the Initial Contributor from paragraphs A, B, C, D and E when the Initial Work is distributed or otherwise made available by the Initial Contributor. To select one of the following paragraphs, the Initial Contributor must place an &#34;X&#34; or &#34;x&#34; in the selection box alongside the one respective paragraph selected.
 
-SELECTION	 
+SELECTION
 BOX	PARAGRAPH
 [  ]	A. &#34;THIRD PARTY&#34; means any third party.
- 	 
+
 [  ]	B. &#34;THIRD PARTY&#34; means any third party except for any of the following:
 (a) a wholly owned subsidiary of the Subsequent Contributor in question; (b) a legal entity (the &#34;PARENT&#34;) that wholly owns the Subsequent Contributor in question; or (c) a wholly owned subsidiary of the wholly owned subsidiary in (a) or of the Parent in (b).
- 	 
+
 [  ]	C. &#34;THIRD PARTY&#34; means any third party except for any of the following:
 (a) any Person directly or indirectly owning a majority of the voting interest in the Subsequent Contributor or (b) any Person in which the Subsequent Contributor directly or indirectly owns a majority voting interest.
- 	 
+
 [  ]	D. &#34;THIRD PARTY&#34; means any third party except for any Person directly
 or indirectly controlled by the Subsequent Contributor. For purposes of this
 definition, &#34;control&#34; shall mean the power to direct or cause the direction
 of, the management and policies of such Person whether through the ownership
 of voting interests, by contract, or otherwise.
- 	 
+
 [  ]	E. &#34;THIRD PARTY&#34; means any third party except for any Person directly or indirectly controlling, controlled by, or under common control with the Subsequent Contributor. For purposes of this definition, &#34;control&#34; shall mean the power to direct or cause the direction of, the management and policies of such Person whether through the ownership of voting interests, by contract, or otherwise.
 The default definition of &#34;THIRD PARTY&#34; is the definition set forth in paragraph A, if NONE OR MORE THAN ONE of paragraphs A, B, C, D or E in this Part 4 are selected by the Initial Contributor.
 
@@ -498,28 +593,28 @@ PART 7: SAMPLE REQUIREMENTS FOR THE DESCRIPTION OF DISTRIBUTED MODIFICATIONS
 Each Subsequent Contributor (including the Initial Contributor where the Initial Contributor qualifies as a Subsequent Contributor) is invited (but not required) to cause each Subsequent Work created or contributed to by that Subsequent Contributor to contain a file documenting the changes such Subsequent Contributor made to create that Subsequent Work and the date of any change. //***EXHIBIT A ENDS HERE.***//</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -529,5 +624,6 @@ Each Subsequent Contributor (including the Initial Contributor where the Initial
     });
   </script>
 
-  </body>
+</body>
+
 </html>

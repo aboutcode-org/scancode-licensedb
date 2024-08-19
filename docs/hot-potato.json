@@ -1,14 +1,14 @@
 {
-  "key": "hot-potato",
-  "is_deprecated": true,
-  "short_name": "Hot Potato License",
-  "name": "Hot Potato",
-  "category": "Permissive",
-  "owner": "Unspecified",
-  "notes": "From https://github.com/ErikMcClure/bad-licenses",
-  "spdx_license_key": "LicenseRef-scancode-hot-potato",
-  "other_urls": [
-    "https://github.com/nexB/scancode-toolkit/issues/3446#issuecomment-1653518138"
-  ],
-  "text": "All rights reserved by the last person to commit a change to this\nrepository, except for the right to commit changes to this repository,\nwhich is hereby granted to all of earth's citizens for the purpose of\ncommitting changes to this repository."
+    "key": "hot-potato",
+    "is_deprecated": true,
+    "short_name": "Hot Potato License",
+    "name": "Hot Potato",
+    "category": "Permissive",
+    "owner": "Unspecified",
+    "notes": "From https://github.com/ErikMcClure/bad-licenses",
+    "spdx_license_key": "LicenseRef-scancode-hot-potato",
+    "other_urls": [
+        "https://github.com/aboutcode-org/scancode-toolit/issues/3446#issuecomment-1653518138"
+    ],
+    "text": "All rights reserved by the last person to commit a change to this\nrepository, except for the right to commit changes to this repository,\nwhich is hereby granted to all of earth's citizens for the purpose of\ncommitting changes to this repository."
 }

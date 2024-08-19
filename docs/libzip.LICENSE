@@ -6,7 +6,7 @@ name: NiH libzip License
 category: Permissive
 owner: NiH
 homepage_url: https://www.nih.at/libzip/LICENSE.html
-notes: deprecated in favor of bsd-new See https://github.com/nexB/scancode-toolkit/issues/2995
+notes: deprecated in favor of bsd-new See https://github.com/aboutcode-org/scancode-toolit/issues/2995
 ---
 
 Redistribution and use in source and binary forms, with or without modification,

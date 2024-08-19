@@ -1,129 +1,226 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: ms-nuget-package-manager</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: ms-nuget-package-manager</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ms-nuget-package-manager.yml">yml</a> -
     <a href="ms-nuget-package-manager.json">json</a> -
     <a href="ms-nuget-package-manager.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-nuget-package-manager.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-nuget-package-manager.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            ms-nuget-package-manager
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            MS NuGet-Based Package Manager License
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Microsoft NuGet-Based Package Manager License
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Microsoft
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.microsoft.com/web/webpi/eula/nuget_release_eula.htm" rel="noopener" target="_blank">http://www.microsoft.com/web/webpi/eula/nuget_release_eula.htm</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-ms-nuget-package-manager
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://docs.nuget.org/docs/reference/package-restore" rel="noopener" target="_blank">http://docs.nuget.org/docs/reference/package-restore</a></li><li><a href="http://docs.nuget.org/docs/start-here/managing-nuget-packages-using-the-dialog" rel="noopener" target="_blank">http://docs.nuget.org/docs/start-here/managing-nuget-packages-using-the-dialog</a></li><li><a href="http://www.microsoft.com/exporting" rel="noopener" target="_blank">http://www.microsoft.com/exporting</a></li><li><a href="http://www.microsoft.com/web/webpi/eula/package-manager-for-net-privacy.htm" rel="noopener" target="_blank">http://www.microsoft.com/web/webpi/eula/package-manager-for-net-privacy.htm</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        ms-nuget-package-manager
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        MS NuGet-Based Package Manager License
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Microsoft NuGet-Based Package Manager License
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Microsoft
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.microsoft.com/web/webpi/eula/nuget_release_eula.htm" rel="noopener"
+          target="_blank">http://www.microsoft.com/web/webpi/eula/nuget_release_eula.htm</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-ms-nuget-package-manager
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://docs.nuget.org/docs/reference/package-restore" rel="noopener"
+              target="_blank">http://docs.nuget.org/docs/reference/package-restore</a></li>
+          <li><a href="http://docs.nuget.org/docs/start-here/managing-nuget-packages-using-the-dialog" rel="noopener"
+              target="_blank">http://docs.nuget.org/docs/start-here/managing-nuget-packages-using-the-dialog</a></li>
+          <li><a href="http://www.microsoft.com/exporting" rel="noopener"
+              target="_blank">http://www.microsoft.com/exporting</a></li>
+          <li><a href="http://www.microsoft.com/web/webpi/eula/package-manager-for-net-privacy.htm" rel="noopener"
+              target="_blank">http://www.microsoft.com/web/webpi/eula/package-manager-for-net-privacy.htm</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>MICROSOFT SOFTWARE LICENSE TERMS
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>MICROSOFT SOFTWARE LICENSE TERMS
 
 NUGET-BASED MICROSOFT PACKAGE MANAGER
 
@@ -157,21 +254,21 @@ a. Consent for Internet-Based Services. The software features described below co
 
 · Package Restore.  This software feature will allow you to add package references to your project.  If you attempt to build a project that includes package references, the software will automatically download and install any missing packages from your configured package sources, some of which may reside on external computer systems.  For more information about this feature, see http://docs.nuget.org/docs/reference/package-restore. To prevent the software from automatically downloading missing packages during build time, open the Tools &gt; Options dialog from within Visual Studio, select &#34;Package Manager&#34; from the options, and uncheck the &#34;Allow NuGet to download missing packages&#34; checkbox.  By leaving this checkbox checked, you consent to the transmission of Computer Information.
 
-· Use of Information by Microsoft. We will treat any Computer Information that we receive from the software in accordance with our Privacy Statement set forth at http://www.microsoft.com/web/webpi/eula/package-manager-for-net-privacy.htm or another web page that we may specify from time to time. 
+· Use of Information by Microsoft. We will treat any Computer Information that we receive from the software in accordance with our Privacy Statement set forth at http://www.microsoft.com/web/webpi/eula/package-manager-for-net-privacy.htm or another web page that we may specify from time to time.
 
 · Use of Information by Third Parties. Computer Information may be sent to third-party external computer systems, as described above.  Any information you provide to a third party through your use of the software is governed by their privacy statements and policies.  We do not control, and we disclaim any responsibility for, how third-party service providers may use Computer Information.
 
 b. Misuse of Internet-based Services. You may not use these Internet-based Services in any way that could harm them or impair anyone else’s use of them. You may not use these Internet-based Services to try to gain unauthorized access to any service, data, account or network by any means.
 
-3. THIRD-PARTY SOFTWARE.  Packages that are downloaded from external package sources are offered and distributed in some cases by third parties and in some cases by Microsoft, but each such package is under its own license terms. Microsoft is not developing, distributing or licensing any third-party packages to you, but instead, as a convenience, enables you to use the software to access or obtain those packages directly from the third-party package providers. By using any of the above features, you acknowledge and agree that: 
+3. THIRD-PARTY SOFTWARE.  Packages that are downloaded from external package sources are offered and distributed in some cases by third parties and in some cases by Microsoft, but each such package is under its own license terms. Microsoft is not developing, distributing or licensing any third-party packages to you, but instead, as a convenience, enables you to use the software to access or obtain those packages directly from the third-party package providers. By using any of the above features, you acknowledge and agree that:
 
 ·  you are obtaining any third-party packages from such third parties and under separate license terms applicable to each package (including any terms applicable to software dependencies that may be included in the packages);
 
 ·  it is your responsibility to locate, understand and comply with all applicable license terms for each such package; and
 
-·  this includes your responsibility to follow the package source (feed) URL and to review the packages for embedded notices or license terms. 
+·  this includes your responsibility to follow the package source (feed) URL and to review the packages for embedded notices or license terms.
 
-Microsoft makes no representations, warranties or guarantees as to any package source, including any information or content contained therein, any package source URL, or any packages referenced in or accessed by you through such URLs or package sources. Microsoft grants you no license rights for any third-party software applications or packages that are obtained using the software. 
+Microsoft makes no representations, warranties or guarantees as to any package source, including any information or content contained therein, any package source URL, or any packages referenced in or accessed by you through such URLs or package sources. Microsoft grants you no license rights for any third-party software applications or packages that are obtained using the software.
 
 4. THIRD PARTY NOTICES. The software (not including any packages that you obtain using the software) includes third-party code. However, all such code is licensed to you by Microsoft under this license agreement, rather than licensed to you by any third party under some other license terms. Notices, if any, for the third-party code are included with this software for your information only.
 
@@ -218,28 +315,28 @@ This limitation applies to
 It also applies even if Microsoft knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your country may not allow the exclusion or limitation of incidental, consequential or other damages.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -249,5 +346,6 @@ It also applies even if Microsoft knew or should have known about the possibilit
     });
   </script>
 
-  </body>
+</body>
+
 </html>

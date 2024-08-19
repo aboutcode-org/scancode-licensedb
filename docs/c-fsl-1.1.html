@@ -1,147 +1,238 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: c-fsl-1.1</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: c-fsl-1.1</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="c-fsl-1.1.yml">yml</a> -
     <a href="c-fsl-1.1.json">json</a> -
     <a href="c-fsl-1.1.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/c-fsl-1.1.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/c-fsl-1.1.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            c-fsl-1.1
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            C-FSL 1.1
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Convertible Free Software License 1.1
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Copyleft Limited
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Elmar Stellnberger
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://www.elstel.org/license/C-FSL-v1.1.txt" rel="noopener" target="_blank">https://www.elstel.org/license/C-FSL-v1.1.txt</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-c-fsl-1.1
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://www.elstel.org/license/C-FSL-v1.1.txt" rel="noopener" target="_blank">https://www.elstel.org/license/C-FSL-v1.1.txt</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>copyright 2016, by Elmar Stellnberger</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Elmar Stellnberger</li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        c-fsl-1.1
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        C-FSL 1.1
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Convertible Free Software License 1.1
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Copyleft Limited
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Elmar Stellnberger
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://www.elstel.org/license/C-FSL-v1.1.txt" rel="noopener"
+          target="_blank">https://www.elstel.org/license/C-FSL-v1.1.txt</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-c-fsl-1.1
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://www.elstel.org/license/C-FSL-v1.1.txt" rel="noopener"
+              target="_blank">https://www.elstel.org/license/C-FSL-v1.1.txt</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>copyright 2016, by Elmar Stellnberger</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Elmar Stellnberger</li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>CONVERTIBLE FREE SOFTWARE LICENSE
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>CONVERTIBLE FREE SOFTWARE LICENSE
     Version 1.1, 2016-08-11
 copyright 2016, by Elmar Stellnberger
 Everyone is permitted to copy and distribute verbatim copies of this license document. You must not modify the license itself.
@@ -149,7 +240,7 @@ This license applies to any software containing a notice by the copyright holder
 
 1. Any work under this license comes completely without any warranty or any kind of liability such as lost revenues, profits, harm or damage of any kind even if the authors should have been advised of the possibility of such harm or damage. It may be seen as research work and does not claim for fitness to any particular usage purpose.
 
-2. The term &#39;source code&#39; applies to the preferred form that is used to develop or apply changes to a work under this license referred to herein as &#39;the work&#39;. You are allowed to modify or change the source code if you accept that the resulting changed work will become subject to this license. As soon as you apply any change this is an implicit consent to fully comply with this license and a consent that the work may be used under this license. 
+2. The term &#39;source code&#39; applies to the preferred form that is used to develop or apply changes to a work under this license referred to herein as &#39;the work&#39;. You are allowed to modify or change the source code if you accept that the resulting changed work will become subject to this license. As soon as you apply any change this is an implicit consent to fully comply with this license and a consent that the work may be used under this license.
 
 3. It is your obligation that the changed version of your sources will be available to the public for free within the time frame of a month at least if there is no undue hindrance by the authors to make it available. Modifications which result in a broken or unusable program which the authors do not plan to continue their work on are considered dead end and do not need to be published. Available for free means that there will be no undue hindrance in obtaining the given item like a registration of the person who wants to download or obtain the given item. Available for free also means that you must not charge for the given item itself apart from the possibility to require a reasonable charge for the physical reproduction of the data.
 
@@ -157,9 +248,9 @@ This license applies to any software containing a notice by the copyright holder
 
 5. When applying changes to the source code you need to leave your name, your email address and the date of your modifications so that other people may contact you. If a contributor should not have a steady access to the internet or a satisfying access to an emailing service he may leave another way by which he can be contacted. We suggest to list all changes by contributors either in a separate changelog file or in the header of the changed file. Several consecutive changes may be collapsed. Furthermore you need to give your changed version a &#39;marker&#39; which may be used to distinguish it from the upstream version when being distributed to other people. The distributed product needs to be of the form upstream name - dash upstream version - dash your marker optionally followed by a version number under your control. If there should be a chain of upstream contributors there only needs to be one marker by the party which is at the end of the chain as long as that chain remains to be documented in some place where it is shipped with your software. The marker needs to be unique, at least two letters in size. We suggest it to reflect the name of your company or distribution. You may always distribute an upstream version in unchanged form either with your own marker or without.
 
-6. You may choose to create a fork of a work under C-FSL by giving it a completely different name. However you need to assert that people will know that your fork is based on the original work. If your program has a graphical user interface the whole C-FSL license must be referenced via the GUI. Otherwise a plain text copy of this license needs to be given and packed alongside the distributed product. A complete reference to the base product including email address and web presence must be referenced via the GUI for any GUI program that is a fork of another C-FSL program. If your program has a comprehensive help, manual or info page and is a fork a similar reference to the base product must be given there. It does not apply to quick or short command line help output as long as a more comprehensive help page is also available. Any program under C-FSL which is a fork of another C-FSL program must ship with a reference to the base product. 
+6. You may choose to create a fork of a work under C-FSL by giving it a completely different name. However you need to assert that people will know that your fork is based on the original work. If your program has a graphical user interface the whole C-FSL license must be referenced via the GUI. Otherwise a plain text copy of this license needs to be given and packed alongside the distributed product. A complete reference to the base product including email address and web presence must be referenced via the GUI for any GUI program that is a fork of another C-FSL program. If your program has a comprehensive help, manual or info page and is a fork a similar reference to the base product must be given there. It does not apply to quick or short command line help output as long as a more comprehensive help page is also available. Any program under C-FSL which is a fork of another C-FSL program must ship with a reference to the base product.
 
-7. Contributing to a work under C-FSL means that you will give a group called the &#39;original authors&#39; a consensus based right to re-license your derived work so that it will be available under both licenses: the C-FSL and the newly applied license. In order to re-license consensus is only required between these original authors. The original authors are the group of people who have initially started to create a work. They shall be mentioned at the beginning of the changelog or the file header of changes. As soon as there is a consensus to do so by all original authors the work may either be re-licensed, published as upstream version without a marker or new people may be accepted and mentioned as &#39;original authors&#39;. 
+7. Contributing to a work under C-FSL means that you will give a group called the &#39;original authors&#39; a consensus based right to re-license your derived work so that it will be available under both licenses: the C-FSL and the newly applied license. In order to re-license consensus is only required between these original authors. The original authors are the group of people who have initially started to create a work. They shall be mentioned at the beginning of the changelog or the file header of changes. As soon as there is a consensus to do so by all original authors the work may either be re-licensed, published as upstream version without a marker or new people may be accepted and mentioned as &#39;original authors&#39;.
 
 8. No work under C-FSL shall be deemed part of an effective measure under anti-circumvention laws like under article 11 of the WIPO copyright treaty adopted on 1996-12-20 or any similar law. By your consent to work under this license you waive any legal power to forbid such circumventions regarding the work under C-FSL or any work combined with it. You must assert that the right to use, modify, generate object code and distribute any software under C-FSL will not be infringed by patent claims or similar law. If you modify a work under C-FSL so that it will knowingly rely on a patent license then it means that you will thereby grant to extend the patent license to any recipient of the work. Every contributor grants by the act of contributing to a work under C-FSL a non-exclusive, worldwide and royalty-free patent license to any prospective contributor or user of the given work applicable to all his &#39;essential patent claims&#39;. The essential patent claims comprise all claims owned or controlled by the contributor.
 
@@ -168,28 +259,28 @@ This license applies to any software containing a notice by the copyright holder
 10. This license is either governed by the Laws of Austria or by the laws of the country where the first mentioned original author lives or is a resident. Disputes shall be settled by the nearest proper court given the home town or location of the first original author unless there is a common consensus for another place of court by all original authors. If any of the terms stated in this license were not in accordance with the law of the country that governs this license all other parts of the license shall remain valid.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -199,5 +290,6 @@ This license applies to any software containing a notice by the copyright holder
     });
   </script>
 
-  </body>
+</body>
+
 </html>

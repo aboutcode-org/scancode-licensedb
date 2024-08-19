@@ -1,163 +1,288 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: google-maps-tos-2020-04-27</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: google-maps-tos-2020-04-27</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="google-maps-tos-2020-04-27.yml">yml</a> -
     <a href="google-maps-tos-2020-04-27.json">json</a> -
     <a href="google-maps-tos-2020-04-27.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/google-maps-tos-2020-04-27.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/google-maps-tos-2020-04-27.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            google-maps-tos-2020-04-27
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Google Maps Platform ToS 2020-04-27
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Google Maps Platform Terms of Service 2020-04-27
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Google
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://cloud.google.com/maps-platform/terms" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-google-maps-tos-2020-04-27
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://cloud.google.com/maps-platform/terms/index-20200427" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/index-20200427</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">minimum_coverage</dt>
-        <dd>
-          
-            90
-          
-        </dd>
-      
-        <dt style="">ignorable_authors</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>the U.S. Department of State</li><li>the United States Department of State</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://cloud.google.com/maps-platform/pricing/sheet" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/pricing/sheet</a></li><li><a href="https://cloud.google.com/maps-platform/terms" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms</a></li><li><a href="https://cloud.google.com/maps-platform/terms/aup" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/aup</a></li><li><a href="https://cloud.google.com/maps-platform/terms/maps-controller-terms" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/maps-controller-terms</a></li><li><a href="https://cloud.google.com/maps-platform/terms/maps-deprecation" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/maps-deprecation</a></li><li><a href="https://cloud.google.com/maps-platform/terms/maps-prohibited-territories" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/maps-prohibited-territories</a></li><li><a href="https://cloud.google.com/maps-platform/terms/maps-service-terms" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/maps-service-terms</a></li><li><a href="https://cloud.google.com/maps-platform/terms/maps-services" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/maps-services</a></li><li><a href="https://cloud.google.com/maps-platform/terms/sla" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/sla</a></li><li><a href="https://cloud.google.com/maps-platform/terms/tssg" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms/tssg</a></li><li><a href="https://developers.google.com/maps/documentation" rel="noopener" target="_blank">https://developers.google.com/maps/documentation</a></li><li><a href="https://www.google.com/about/company/user-consent-policy.html" rel="noopener" target="_blank">https://www.google.com/about/company/user-consent-policy.html</a></li><li><a href="https://www.google.com/dmca.html" rel="noopener" target="_blank">https://www.google.com/dmca.html</a></li><li><a href="https://www.google.com/help/legalnotices_maps.html" rel="noopener" target="_blank">https://www.google.com/help/legalnotices_maps.html</a></li><li><a href="https://www.google.com/permissions/geoguidelines.html#geotrademark" rel="noopener" target="_blank">https://www.google.com/permissions/geoguidelines.html#geotrademark</a></li><li><a href="https://www.google.com/permissions/trademark/brand-terms.html" rel="noopener" target="_blank">https://www.google.com/permissions/trademark/brand-terms.html</a></li><li><a href="https://www.google.com/policies/privacy" rel="noopener" target="_blank">https://www.google.com/policies/privacy</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_emails</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="mailto:legal-notices@google.com">legal-notices@google.com</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        google-maps-tos-2020-04-27
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Google Maps Platform ToS 2020-04-27
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Google Maps Platform Terms of Service 2020-04-27
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Google
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://cloud.google.com/maps-platform/terms" rel="noopener"
+          target="_blank">https://cloud.google.com/maps-platform/terms</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-google-maps-tos-2020-04-27
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://cloud.google.com/maps-platform/terms/index-20200427" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/index-20200427</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">minimum_coverage</dt>
+      <dd>
+
+        90
+
+      </dd>
+
+      <dt style="">ignorable_authors</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>the U.S. Department of State</li>
+          <li>the United States Department of State</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://cloud.google.com/maps-platform/pricing/sheet" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/pricing/sheet</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/aup" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/aup</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/maps-controller-terms" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/maps-controller-terms</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/maps-deprecation" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/maps-deprecation</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/maps-prohibited-territories" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/maps-prohibited-territories</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/maps-service-terms" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/maps-service-terms</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/maps-services" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/maps-services</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/sla" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/sla</a></li>
+          <li><a href="https://cloud.google.com/maps-platform/terms/tssg" rel="noopener"
+              target="_blank">https://cloud.google.com/maps-platform/terms/tssg</a></li>
+          <li><a href="https://developers.google.com/maps/documentation" rel="noopener"
+              target="_blank">https://developers.google.com/maps/documentation</a></li>
+          <li><a href="https://www.google.com/about/company/user-consent-policy.html" rel="noopener"
+              target="_blank">https://www.google.com/about/company/user-consent-policy.html</a></li>
+          <li><a href="https://www.google.com/dmca.html" rel="noopener"
+              target="_blank">https://www.google.com/dmca.html</a></li>
+          <li><a href="https://www.google.com/help/legalnotices_maps.html" rel="noopener"
+              target="_blank">https://www.google.com/help/legalnotices_maps.html</a></li>
+          <li><a href="https://www.google.com/permissions/geoguidelines.html#geotrademark" rel="noopener"
+              target="_blank">https://www.google.com/permissions/geoguidelines.html#geotrademark</a></li>
+          <li><a href="https://www.google.com/permissions/trademark/brand-terms.html" rel="noopener"
+              target="_blank">https://www.google.com/permissions/trademark/brand-terms.html</a></li>
+          <li><a href="https://www.google.com/policies/privacy" rel="noopener"
+              target="_blank">https://www.google.com/policies/privacy</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_emails</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="mailto:legal-notices@google.com">legal-notices@google.com</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Google Maps Platform Terms of Service
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>Google Maps Platform Terms of Service
 
 Last modified: April 27, 2020
 
@@ -251,7 +376,7 @@ This Agreement is effective as of the date Customer clicks to accept the Agreeme
 (j) No Modifying Search Results Integrity. Customer will not modify any of the Google Maps Core Service’s search results.
 
 3.2.4 Benchmarking. Customer may not publicly disclose directly or through a third party the results of any comparative or compatibility testing, benchmarking, or evaluation of the Services (each, a “Test”), unless the disclosure includes all information necessary for Google or a third party to replicate the Test. If Customer conducts, or directs a third party to conduct, a Test of the Services and publicly discloses the results directly or through a third party, then Google (or a Google directed third party) may conduct Tests of any publicly available cloud products or services provided by Customer and publicly disclose the results of any such Test (which disclosure will include all information necessary for Customer or a third party to replicate the Test).
-4. Customer Obligations. 
+4. Customer Obligations.
 
 4.1 Compliance. Customer will: (a) ensure that Customer’s and its End Users’ use of the Services complies with the Agreement; (b) prevent and terminate any unauthorized use of or access to its Account(s) or the Services; and (c) promptly notify Google of any unauthorized use of or access to its Account(s) or the Services of which Customer becomes aware.
 
@@ -271,8 +396,8 @@ This Agreement is effective as of the date Customer clicks to accept the Agreeme
 
 (b) End User Personal Data. Through the normal functioning of the Google Maps Core Services, End Users provide personally identifiable information and Personal Data directly to Google, subject to the then-current Google Privacy Policy at https://www.google.com/policies/privacy/. (a) However, Customer will not provide to Google (i) any End User’s personally identifiable information; or (ii) any European End User’s Personal Data (where “European” means “European Economic Area, Switzerland, or the UK”).
 
-(c) End User Location Privacy Requirements. To safeguard End Users’ location privacy, Customer will ensure that the Customer Application(s): (i) notify End Users in advance of (1) the type(s) of data that Customer intends to collect from the End Users or the End Users’ devices, and (2) the combination and use of End User&#39;s location with any other data provider&#39;s data; and (ii) will not obtain or cache any End User&#39;s location except with the End User&#39;s express, prior, revocable consent.         
-5. Suspension. 
+(c) End User Location Privacy Requirements. To safeguard End Users’ location privacy, Customer will ensure that the Customer Application(s): (i) notify End Users in advance of (1) the type(s) of data that Customer intends to collect from the End Users or the End Users’ devices, and (2) the combination and use of End User&#39;s location with any other data provider&#39;s data; and (ii) will not obtain or cache any End User&#39;s location except with the End User&#39;s express, prior, revocable consent.
+5. Suspension.
 
 5.1 For License Restrictions Breaches. Google may Suspend the Services without prior notice if Customer breaches Section 3.2 (License Requirements and Restrictions).
 
@@ -296,7 +421,7 @@ Certain components of the Services (including open source software) are subject 
 8.1 By Google.  Google will provide Maps Technical Support Services to Customer in accordance with the Maps Technical Support Services Guidelines.
 
 8.2 By Customer.  Customer is responsible for technical support of its Customer Applications and Projects.
-9. Deprecation Policy.  
+9. Deprecation Policy.
 
  Google will notify Customer at least 12 months before making a Significant Deprecation, unless Google reasonably determines that: (a) Google cannot do so by law or by contract (including if there is a change in applicable law or contract) or (b) continuing to provide the Services could create a security risk or substantial economic or technical burden.
 10. Confidentiality.
@@ -320,7 +445,7 @@ Certain components of the Services (including open source software) are subject 
 
 11.4 Termination for Convenience. Customer may stop using the Services at any time. Subject to any financial commitments expressly made by this Agreement, Customer may terminate the Agreement for its convenience at any time with 30 days&#39; prior written notice. Google may terminate the Agreement for its convenience at any time without liability to Customer.
 
-11.5 Effects of Termination. 
+11.5 Effects of Termination.
 
 11.5.1 If the Agreement terminates, then: (a) the rights and access to the Services will terminate; (b) all Fees owed by Customer to Google are immediately due upon receipt of the final electronic bill; and (c) Customer will delete the Software and any content from the Services by the termination effective date.
 
@@ -410,7 +535,7 @@ The Services were developed solely at private expense and are commercial compute
 
 19.13 Entire Agreement. The Agreement states all terms agreed between the parties and supersedes any prior or contemporaneous agreements between the parties relating to its subject matter. In entering into this Agreement, neither party has relied on, and neither party will have any right or remedy based on, any statement, representation or warranty (whether made negligently or innocently), except those expressly stated in the Agreement. The Agreement includes URL links to other terms (including the URL Terms), which are incorporated by reference into the Agreement. After the Effective Date, Google may provide an updated URL in place of any URL in the Agreement.
 
-19.14 Conflicting Terms. If there is a conflict between the documents that make up the Agreement, then the documents will control in the following order: the Agreement and the terms at any URL. 
+19.14 Conflicting Terms. If there is a conflict between the documents that make up the Agreement, then the documents will control in the following order: the Agreement and the terms at any URL.
 
 19.15 Conflicting Languages. If the Agreement is translated into any other language, and there is a discrepancy between the English text and the translated text, the English text will govern.
 20. Reseller Orders.
@@ -566,7 +691,7 @@ Gangnam Finance Center 20fl., 152 Teheran-ro, Gangnam-gu, Seoul, South Korea;
 22. Regional Terms.
 
 Customer agrees to the following modifications to the Agreement if Customer orders Services from the applicable Google entity as described below:
-Asia Pacific - Indonesia PT Google Cloud Indonesia 	
+Asia Pacific - Indonesia PT Google Cloud Indonesia
 
 1. The following is added as Section 11.6 (Termination Waiver):
 
@@ -599,28 +724,28 @@ Asia Pacific - Indonesia PT Google Cloud Indonesia
 19.15 Conflicting Languages. This Agreement is made in the Indonesian and the English language, and both versions are equally authentic. In the event of any inconsistency or different interpretation between the Indonesian version and the English version, the parties agree to amend the Indonesian version to make the relevant part of the Indonesian version consistent with the relevant part of the English version.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -630,5 +755,6 @@ Asia Pacific - Indonesia PT Google Cloud Indonesia
     });
   </script>
 
-  </body>
+</body>
+
 </html>
