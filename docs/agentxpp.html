@@ -1,129 +1,218 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: agentxpp</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: agentxpp</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="agentxpp.yml">yml</a> -
     <a href="agentxpp.json">json</a> -
     <a href="agentxpp.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/agentxpp.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/agentxpp.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            agentxpp
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            AgentX++ License Agreement
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            AgentX++ License Agreement
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Commercial
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            agentpp
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://agentpp.com/licenses/LICENSE_AgentX++.txt" rel="noopener" target="_blank">https://agentpp.com/licenses/LICENSE_AgentX++.txt</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-agentxpp
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.agentpp.com/" rel="noopener" target="_blank">http://www.agentpp.com/</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        agentxpp
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        AgentX++ License Agreement
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        AgentX++ License Agreement
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Commercial
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        agentpp
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://agentpp.com/licenses/LICENSE_AgentX++.txt" rel="noopener"
+          target="_blank">https://agentpp.com/licenses/LICENSE_AgentX++.txt</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-agentxpp
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.agentpp.com/" rel="noopener" target="_blank">http://www.agentpp.com/</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>AGENTX++ LICENSE AGREEMENT 
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>AGENTX++ LICENSE AGREEMENT
 ==========================
 
 THIS LICENSE AGREEMENT (this &#34;Agreement&#34;) is  made effective as of the date  the
@@ -150,12 +239,12 @@ rights, trade secret rights, and any other intellectual property rights.
 contains any code derived from the Software Product. It can no longer be altered
 or combined with any  other code. Executable code  is ready to be  executed by a
 computer and  is essentially  a complete  software image  for use  in a specific
-product. 
+product.
 
 1.4 The term &#34;Object Code&#34; is any compiled version of the Software Product  that
 can be linked and therefore combined with other code to create Executable  Code.
 Examples  of  Object  Code  are  libraries  and  software  development  kits, in
-particular SNMP agent development kits. 
+particular SNMP agent development kits.
 
 1.5 The term &#34;Source Code&#34; is  the human readable form of the  Software Product,
 as specified in Exhibit A.
@@ -181,7 +270,7 @@ agents at  the Site  (hereafter &#34;Licensed  Site&#34;) specified  by LICENSEE
 license purchase. Additionally,  Customer’s contractors and  employees reporting
 directly and only to a manager at the Licensed Site, such as telecommuters,  may
 use the Software Product at  remote locations. Off-site employees re-porting  in
-any way to a manager at their location are not covered under this Site License.  
+any way to a manager at their location are not covered under this Site License.
 
 2.2 Except as  specified in 2.1,  neither the Software  Product Source Code  nor
 Object Code derived  from the Software  Product may be  redistributed or resold.
@@ -192,7 +281,7 @@ Functionality in this context refers to the program&#39;s behavior, not appearan
 
 2.3  No Sublicense  Right.  LICENSEE  has no  right to  transfer, or  sublicense
 the Licensed Software  to  any third   party, except  as  specified in 2.2   and
-except if the third  party takes over  the business  of LICENSEE. 
+except if the third  party takes over  the business  of LICENSEE.
 
 2.4  Other Restrictions  in License  Grants.  LICENSEE  may not:  (i) copy   the
 Licensed  Software,  except  as  necessary  to  use  the  Licensed  Software  in
@@ -256,7 +345,7 @@ hardware or software.
 negligence or wilful default.
 
 3.7 General Provision. This warranty shall not apply in any case of amendment or
-alterations of the Software Product made by LICENSEE.  
+alterations of the Software Product made by LICENSEE.
 
 
 
@@ -320,7 +409,7 @@ fully  with LICENSOR  in  any  litigation  relating to  or  arising  from   such
 unauthorized possession or use.
 
 
-6. TERMINATION.  
+6. TERMINATION.
 
 6.1. LICENSOR may terminate this Agreement  at any time after the occurrence  of
 any of the following events if LICENSOR provides 30 days notice of its intention
@@ -330,10 +419,10 @@ occurrence within such 30 days:
 (a)  LICENSEE is  declared or  acknowledges that  it is  insolvent or  otherwise
 unable to pay its debts as they become due or upon the filing of any  proceeding
 (whether voluntary  or involuntary)  for bankruptcy,  insolvency or  relief from
-creditors of LICENSEE;  
+creditors of LICENSEE;
 
 (b)  LICENSEE  assigns or  transfers  this Agreement  or  any of  its  rights to
-obligations hereunder, without LICENSOR&#39;s  prior written consent;  or 
+obligations hereunder, without LICENSOR&#39;s  prior written consent;  or
 
 (c) LICENSEE  violates  any  material provision   of this  Agreement,  including
 without limitation,  the payment obligations set forth in Addendum A.
@@ -341,12 +430,12 @@ without limitation,  the payment obligations set forth in Addendum A.
 6.2. LICENSEE may terminate this Agreement  at any time after the occurrence  of
 any of the following events if LICENSEE provides 30 days notice of its intention
 to terminate  as a  result of  the occurrence  and LICENSOR  fails to  cure such
-occurrence within such 30 days: 
+occurrence within such 30 days:
 
 (a)  LICENSOR is  declared or  acknowledges that  it is  insolvent or  otherwise
 unable   to pay  its debts   as they  become due   or upon  the filing   of any
 proceeding (whether  voluntary or   involuntary) for  bankruptcy, insolvency  or
-relief  from creditors or  LICENSOR; or 
+relief  from creditors or  LICENSOR; or
 
 (b)  LICENSOR violates any material provision of this Agreement.
 
@@ -369,7 +458,7 @@ principles. All controversies  and disputes arising  out of or  relating to this
 Agreement  shall be  submitted to  the exclusive  jurisdiction of  Esslingen  am
 Neckar,  Germany, as long as LICENSEE is deemed to be a merchant (as  defined by
 Handelsgesetzbuch,  §1-7).  The   United   Nations   Convention   on   Contracts
-for the International Sale of Goods is specifically disclaimed. 
+for the International Sale of Goods is specifically disclaimed.
 
 
 
@@ -409,8 +498,8 @@ order to be deemed effective when sent to the following:
 
 FOR LICENSOR:
 
-Frank Fock 
-Maximilian-Kolbe-Str. 10 
+Frank Fock
+Maximilian-Kolbe-Str. 10
 73257 Koengen, Germany
 
 
@@ -420,7 +509,7 @@ Licensed Software
 
 AgentX++
 
-a.   Source  Code  - (ANSI  C++  for  Linux, Solaris,  Win32) 
+a.   Source  Code  - (ANSI  C++  for  Linux, Solaris,  Win32)
      Includes AgentX++ and Agent++Win32 Source Code.
 
 b.   Executable Code - AgentX++Win32 Master Agent (Win XP/2000/NT4)
@@ -429,35 +518,35 @@ b.   Executable Code - AgentX++Win32 Master Agent (Win XP/2000/NT4)
 ADDENDUM A
 
 For evaluation purposes and non commercial use only, a free license is  granted,
-provided that the LINCENSEE accepts this license agreement. 
+provided that the LINCENSEE accepts this license agreement.
 
 In  order to  obtain a  license to  use AgentX++  in a  commercial environment,
 LICENSEE has to purchase a commercial license from LICENSOR. The actual  pricing
 list and other related information can be found at http://www.agentpp.com</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -467,5 +556,6 @@ list and other related information can be found at http://www.agentpp.com</code>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

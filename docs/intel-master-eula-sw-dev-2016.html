@@ -1,135 +1,233 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: intel-master-eula-sw-dev-2016</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: intel-master-eula-sw-dev-2016</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="intel-master-eula-sw-dev-2016.yml">yml</a> -
     <a href="intel-master-eula-sw-dev-2016.json">json</a> -
     <a href="intel-master-eula-sw-dev-2016.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/intel-master-eula-sw-dev-2016.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/intel-master-eula-sw-dev-2016.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            intel-master-eula-sw-dev-2016
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Intel Master EULA for SW Dev 2016
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Intel Master EULA for SW Development Products March 2016
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Intel Corporation
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://registrationcenter.intel.com/en/forms/?productid=2558&amp;licensetype=2" rel="noopener" target="_blank">https://registrationcenter.intel.com/en/forms/?productid=2558&amp;licensetype=2</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-intel-master-eula-sw-dev-2016
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://software.intel.com/sites/default/files/managed/67/99/Master_EULA_for_Intel_Sw_Development_Products_March_2016.pdf" rel="noopener" target="_blank">https://software.intel.com/sites/default/files/managed/67/99/Master_EULA_for_Intel_Sw_Development_Products_March_2016.pdf</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.intel.com/privacy" rel="noopener" target="_blank">http://www.intel.com/privacy</a></li><li><a href="https://software.intel.com/en" rel="noopener" target="_blank">https://software.intel.com/en</a></li><li><a href="https://software.intel.com/en-us/articles/end-user-license-agreement" rel="noopener" target="_blank">https://software.intel.com/en-us/articles/end-user-license-agreement</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        intel-master-eula-sw-dev-2016
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Intel Master EULA for SW Dev 2016
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Intel Master EULA for SW Development Products March 2016
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Intel Corporation
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://registrationcenter.intel.com/en/forms/?productid=2558&amp;licensetype=2" rel="noopener"
+          target="_blank">https://registrationcenter.intel.com/en/forms/?productid=2558&amp;licensetype=2</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-intel-master-eula-sw-dev-2016
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a
+              href="https://software.intel.com/sites/default/files/managed/67/99/Master_EULA_for_Intel_Sw_Development_Products_March_2016.pdf"
+              rel="noopener"
+              target="_blank">https://software.intel.com/sites/default/files/managed/67/99/Master_EULA_for_Intel_Sw_Development_Products_March_2016.pdf</a>
+          </li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.intel.com/privacy" rel="noopener" target="_blank">http://www.intel.com/privacy</a>
+          </li>
+          <li><a href="https://software.intel.com/en" rel="noopener" target="_blank">https://software.intel.com/en</a>
+          </li>
+          <li><a href="https://software.intel.com/en-us/articles/end-user-license-agreement" rel="noopener"
+              target="_blank">https://software.intel.com/en-us/articles/end-user-license-agreement</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>IMPORTANT INFORMATION ABOUT YOUR RIGHTS, OBLIGATIONS AND THE USE OF YOUR DATA - READ AND AGREE BEFORE COPYING, INSTALLING OR USING
@@ -152,7 +250,7 @@ B.	&#34;Excluded License&#34; means a license that requires, as a condition of u
 C.	&#34;Licensed Patent Claims&#34; means the claims of Intel’s patents that are necessarily and directly infringed by the reproduction and distribution of the Materials that is authorized in Section 2 below, when the Materials is in its unmodified form as delivered by Intel to You and not modified or combined with anything else. Licensed Patent Claims are only those claims that Intel can license without paying, or getting the consent of, a third party.
 
 D.	&#34;Materials&#34; are defined as the software, documentation, the software product serial number and license key codes (if applicable), and other materials, including any modifications, updates and upgrades thereto, that are provided to You under this Agreement. Materials also include any
- 
+
 Redistributables, Source Code, and Pre-Release Materials, as defined below but do not include Third Party Programs.
 
 E.	&#34;Microsoft Platforms&#34; means any current and future Microsoft operating system products, Microsoft run-time technologies (such as the .NET Framework), and Microsoft application platforms (such as Microsoft Office or Microsoft Dynamics) that Microsoft offers.
@@ -182,7 +280,7 @@ A.	under its copyrights, to:
 (3)	modify or create derivative works of the Materials, or any portions thereof, that are provided in Source Code form, provided, however, that this license does not include the right to sublicense and may be exercised only by You or Your employees;
 
 (4)	publicly perform, display, and distribute (directly and through Your distributors, resellers and other channel partners) or otherwise make publicly available the Redistributables, including any modifications to or derivative works of the Redistributables made pursuant to Section 2.1.A(3), or any portions thereof, subject to the following restrictions:
- 
+
 (i)	any distribution of the Redistributables must only be as part of Your Product which must add significantly more functionality than the Redistributables themselves;
 
 (ii)	any additional restrictions which may appear in the Redistributables text files specified in Section 1.G above and in Section 3 below; and
@@ -208,7 +306,7 @@ B.	under Intel’s Licensed Patent Claims, to:
 Intel expressly does not grant You a patent license in this Agreement to any modifications or derivative works of the Materials, whether made by You, Your contractor, Your customer, or any other third party in creating the derivative works even to the extent creation of derivative works is permitted under Section 2.1(A)(3) above.
 
 3.	LICENSE CONDITIONS:
- 
+
 A.	If You are an entity, each of Your employees and Your contractors may use the Materials as specified in Section 2 above, provided: (i) their use of the Materials is solely on behalf of and in support of Your business, (ii) they agree to the terms and conditions of this Agreement, and (iii) You are solely responsible for their use of the Materials.
 
 B.	If Your Product is a software development library, then attribution (if any), as specified in the product release notes of the corresponding Materials shall be displayed prominently in Your Product’s associated documentation and on the web site (if any) for Your Product.
@@ -224,7 +322,7 @@ F.	Except as expressly provided in this Agreement, You may NOT: (i) use, copy, d
 G.	The scope and term of Your license depends on the type of license You are provided by Intel. The variety of license types are set forth below, which may not be available for all &#34;Intel(R) Software Development Products&#34; and therefore may not apply to the particular Materials You are licensing. For more information on the types of licenses, please contact Intel or Your sales representative.
 
 i.	EVALUATION LICENSE: If You obtained the Materials pursuant to an evaluation license, You may use the Materials only for  internal evaluation purposes and only for the term of the evaluation period, as specified on Intel’s download website or which may be controlled by the license key for the Materials. NOTWITHSTANDING ANYTHING TO THE CONTRARY ELSEWHERE IN THIS AGREEMENT, YOU MAY USE THE MATERIALS ONLY FOR EVALUATION PURPOSES AND ONLY FOR THE TERM OF THE EVALUATION, YOU MAY NOT DISTRIBUTE ANY PORTION OF THE MATERIALS, AND THE APPLICATION AND/OR PRODUCT DEVELOPED BY YOU MAY ONLY BE USED FOR EVALUATION PURPOSES AND ONLY FOR THE TERM OF THE EVALUATION. You may install copies of the Materials on a reasonable number of computers to conduct Your evaluation provided that You are the only individual using the Materials and only one copy of the Materials is in use at any one time. A separate license key is required for each additional use and/or individual user in all other cases, including without limitation, use by persons, computer systems, and other use methods
- 
+
 known now and in the future. Intel may provide You with a license key that enables the Materials for an evaluation license. If You are an entity, Intel grants You the right to designate one individual within Your organization to have the sole right to use the Materials in the manner provided above.
 
 ii.	NONCOMMERCIAL USE LICENSE: If You obtained the Materials under a noncommercial use license, You may use the Materials only for non-commercial use where You receive no fee, salary or any other form of compensation. The Materials may not be used for any other purpose, whether &#34;for profit&#34; or &#34;not for profit.&#34; Any work performed or produced as a result of use of the Materials cannot be performed or produced for the benefit of other parties for a fee, compensation or any other reimbursement or remuneration. You may install copies of the Materials on an unlimited number of computers provided that You are the only individual using the Materials and only one copy of the Materials is in use at any one time. A separate license is required for each additional use and/or individual user in all other cases, including without limitation, use by persons, computer systems, and other methods of use known now and in the future. Intel will provide You with a license key that enables the Materials for a noncommercial- use license. If You obtained a time-limited noncommercial-use license, the duration (time period) of Your license and Your ability to use the Materials is limited to the time period of the obtained license, which is specified on Intel’s download website, specified in the applicable documentation or controlled by the license key for the Materials.
@@ -257,7 +355,7 @@ C.	Intel’s Privacy Notice: Intel is committed to respecting Your privacy. To l
 Intel may make changes to the Materials, or to items referenced therein, at any time without notice, but is not obligated to support, update or provide training for the Materials. Intel may in its sole discretion offer such support, update or training services under separate terms at Intel’s then-current rates. You may request additional information on Intel’s service offerings from an Intel sales representative.
 
 7.	LIMITATION OF LIABILITY: Neither Intel nor its suppliers shall be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other loss) arising out of the use of or inability to use the Materials, even if Intel has been advised of the possibility of such damages. Because some jurisdictions prohibit the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.
- 
+
 8.	UNAUTHORIZED USE: The Materials are not designed, intended, or authorized for use in any type of a system or application in which the failure of the Materials could create a situation where personal injury or death may occur (e.g., medical systems, life sustaining or lifesaving systems). Should You use the Materials for any such unintended or unauthorized use, You hereby indemnify, defend, and hold Intel and its officers, subsidiaries and affiliates harmless against all claims, costs, damages, expenses, and reasonable attorney fees arising out of, directly or indirectly, such use and any claim of product liability, personal injury or death associated with such unintended or unauthorized use, even if such claim alleges that Intel was negligent regarding the design or manufacture of the Materials.
 
 9.	USER SUBMISSIONS: This Agreement does not obligate You to provide Intel with materials, information, comments, suggestions or other communication regarding the Materials. However, You agree that any material, information, comments, suggestions or other communication You transmit or post to an Intel website (including but not limited to, submissions to the Intel Premier Support and/or other customer support websites or online portals) or provide to Intel under this Agreement are not controlled by the International Traffic in Arms Regulations (ITAR) or the Export Administration Regulation (EAR), and if related to the features, functions, performance or use of the Materials are deemed non-confidential and non-proprietary (&#34;Communications&#34;). Intel will have no obligations with respect to the Communications. You hereby grant to Intel a non-exclusive, perpetual, irrevocable, royalty-free, copyright license to copy, modify, create derivative works, publicly display, disclose, distribute, license and sublicense through multiple tiers of distribution and licensees, incorporate and otherwise use the Communications and all data, images, sounds, text, and other things embodied therein, including derivative works thereto, for any and all commercial or non-commercial purposes. You are prohibited from posting or transmitting to or from an Intel website or provide to Intel any unlawful, threatening, libelous, defamatory, obscene, pornographic, or other material that would violate any law. If You wish to provide Intel with information that You intend to be treated as confidential information, Intel requires that such confidential information be provided pursuant to a non-disclosure agreement (&#34;NDA&#34;), so please contact Your Intel representative to ensure the proper NDA is in place.
@@ -285,28 +383,28 @@ Document Title and Version: End User License Agreement for the Intel(R) Software
 * Other names and brands may be claimed as the property of others</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -316,5 +414,6 @@ Document Title and Version: End User License Agreement for the Intel(R) Software
     });
   </script>
 
-  </body>
+</body>
+
 </html>

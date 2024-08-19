@@ -1,164 +1,255 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: otn-dev-dist-2014</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: otn-dev-dist-2014</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="otn-dev-dist-2014.yml">yml</a> -
     <a href="otn-dev-dist-2014.json">json</a> -
     <a href="otn-dev-dist-2014.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/otn-dev-dist-2014.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/otn-dev-dist-2014.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            otn-dev-dist-2014
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            OTN License 2014
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Oracle Technology Network Free Developer License 2014
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Oracle Corporation
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.oracle.com/technetwork/licenses/wls-dev-license-1703567.html" rel="noopener" target="_blank">http://www.oracle.com/technetwork/licenses/wls-dev-license-1703567.html</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-otn-dev-dist-2014
-          
-        </dd>
-      
-        <dt style="">minimum_coverage</dt>
-        <dd>
-          
-            50
-          
-        </dd>
-      
-        <dt style="">ignorable_authors</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>the OTN Program</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.oracle.com/technetwork/indexes/documentation/index.html" rel="noopener" target="_blank">http://www.oracle.com/technetwork/indexes/documentation/index.html</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        otn-dev-dist-2014
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        OTN License 2014
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Oracle Technology Network Free Developer License 2014
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Oracle Corporation
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.oracle.com/technetwork/licenses/wls-dev-license-1703567.html" rel="noopener"
+          target="_blank">http://www.oracle.com/technetwork/licenses/wls-dev-license-1703567.html</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-otn-dev-dist-2014
+
+      </dd>
+
+      <dt style="">minimum_coverage</dt>
+      <dd>
+
+        50
+
+      </dd>
+
+      <dt style="">ignorable_authors</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>the OTN Program</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.oracle.com/technetwork/indexes/documentation/index.html" rel="noopener"
+              target="_blank">http://www.oracle.com/technetwork/indexes/documentation/index.html</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Oracle Technology Network Free Developer License Terms
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>Oracle Technology Network Free Developer License Terms
 
 Export Controls on the Programs
 
-Export laws and regulations of the United States and any other relevant local export laws and regulations apply to the Programs.  You agree that such export control laws govern your use of the Programs (including technical data) and any services deliverables provided under this agreement, and you agree to comply with all such export laws and regulations (including &#34;deemed export&#34; and  &#34;deemed re-export&#34; regulations).  You agree that no data, information, program, and/or materials resulting from services (or direct product thereof) will be exported, directly or indirectly, in violation of these laws, or will be used for any purpose prohibited by these laws including, without limitation, nuclear, chemical, or biological weapons proliferation, or development of missile technology. 
+Export laws and regulations of the United States and any other relevant local export laws and regulations apply to the Programs.  You agree that such export control laws govern your use of the Programs (including technical data) and any services deliverables provided under this agreement, and you agree to comply with all such export laws and regulations (including &#34;deemed export&#34; and  &#34;deemed re-export&#34; regulations).  You agree that no data, information, program, and/or materials resulting from services (or direct product thereof) will be exported, directly or indirectly, in violation of these laws, or will be used for any purpose prohibited by these laws including, without limitation, nuclear, chemical, or biological weapons proliferation, or development of missile technology.
 
 Accordingly, you confirm:
 
 -You will not download, provide, make available or otherwise export or re-export the Programs, directly or indirectly, to countries prohibited by applicable laws and regulations nor to citizens, nationals or residents of those countries.
 -You are not listed on the United States Department of Treasury lists of Specially Designated Nationals and Blocked Persons, Specially Designated Terrorists, and Specially Designated Narcotic Traffickers, nor are you listed on the United States Department of Commerce Table of Denial Orders.
 - You will not download or otherwise export or re-export the Programs, directly or indirectly, to persons on the above mentioned lists.
-- You will not use the Program for, and will not allow the Program to be used for, any purposes prohibited by applicable law, including, without limitation, for the development, design, manufacture or production of nuclear, chemical or biological weapons of mass destruction. 
+- You will not use the Program for, and will not allow the Program to be used for, any purposes prohibited by applicable law, including, without limitation, for the development, design, manufacture or production of nuclear, chemical or biological weapons of mass destruction.
 
-Oracle Employees: Under no circumstances are Oracle Employees authorized to download software for the purpose of distributing it to customers. Oracle products are available to employees for internal use or demonstration purposes only. In keeping with Oracle&#39;s trade compliance obligations under U.S. and applicable multilateral law, failure to comply with this policy could result in disciplinary action up to and including termination. 
+Oracle Employees: Under no circumstances are Oracle Employees authorized to download software for the purpose of distributing it to customers. Oracle products are available to employees for internal use or demonstration purposes only. In keeping with Oracle&#39;s trade compliance obligations under U.S. and applicable multilateral law, failure to comply with this policy could result in disciplinary action up to and including termination.
 
-Note: You are bound by the Oracle Technology Network (&#34;OTN&#34;) License Agreement terms. The OTN License Agreement terms also apply to all updates you receive under your Technology Track subscription. 
+Note: You are bound by the Oracle Technology Network (&#34;OTN&#34;) License Agreement terms. The OTN License Agreement terms also apply to all updates you receive under your Technology Track subscription.
 
 The OTN License Agreement terms below supersede any shrinkwrap license on the OTN Technology Track software CDs and previous OTN License terms (including the Oracle Program License as modified by the OTN Program Use Certificate).
 
-ORACLE TECHNOLOGY NETWORK DEVELOPMENT LICENSE AGREEMENT 
+ORACLE TECHNOLOGY NETWORK DEVELOPMENT LICENSE AGREEMENT
 
 &#34;We,&#34; &#34;us,&#34; and &#34;our&#34; refers to Oracle America, Inc., for and on behalf of itself and its subsidiaries and affiliates under common control. &#34;You&#34; and &#34;your&#34; refers to the individual or entity that wishes to use the Programs from Oracle. &#34;Programs&#34; refers to the software product associated with this agreement that you wish to download and use and program documentation. &#34;Developer Desktop Computer&#34; refers to your physical computer that is accessed and used for software development and testing purposes by only one person (each &#34;Your Developer&#34;) and with respect to use of the Programs does not participate in a Shared Development Environment. A Developer Desktop Computer may, for Your Developer&#39;s sole use, host one or more multiple virtual machines containing the Programs. &#34;Shared Development Environment&#34; refers to (a) software development occurring in a network or computer infrastructure shared by multiple people; and/or (b) software development occurring on a computer that is not dedicated to use only by Your Developer. &#34;Unit Testing&#34; refers to the testing of sets of one or more computer program modules making up a portion of an application together with control data, usage procedures, and operating procedures to determine if such computer program module(s) meet operation objectives. &#34;License&#34; refers to your right to use the Programs under the terms of this agreement.
 
@@ -174,13 +265,13 @@ Ownership and Restrictions
 
 We retain all ownership and intellectual property rights in the Programs. For each of Your Developers, the Programs may be installed on one Developer Desktop Computer only, and used by Your Developer in the operating environment identified by us. You may make one copy of the Programs for backup purposes. You are responsible for each of Your Developer’s compliance with this agreement.
 
-You may not: 
-- use the Programs for your own internal data processing or for any commercial or production purposes, or use the Programs for any purpose except the development, testing, prototyping, and demonstrating of your application(s); 
-- use the application(s) you develop with the Programs for any internal data processing or commercial or production purposes , including testing or running production or commercial workloads on the developer desktop, without obtaining an appropriate license from us; 
-- remove or modify any program markings or any notice of our proprietary rights; 
-- make the Programs available in any manner to any third party; 
-- use the Programs to provide third party training; 
-- assign this agreement or give or transfer the Programs or an interest in them to another individual or entity; - cause or permit reverse engineering (unless required by law for interoperability), disassembly or decompilation of the Programs; 
+You may not:
+- use the Programs for your own internal data processing or for any commercial or production purposes, or use the Programs for any purpose except the development, testing, prototyping, and demonstrating of your application(s);
+- use the application(s) you develop with the Programs for any internal data processing or commercial or production purposes , including testing or running production or commercial workloads on the developer desktop, without obtaining an appropriate license from us;
+- remove or modify any program markings or any notice of our proprietary rights;
+- make the Programs available in any manner to any third party;
+- use the Programs to provide third party training;
+- assign this agreement or give or transfer the Programs or an interest in them to another individual or entity; - cause or permit reverse engineering (unless required by law for interoperability), disassembly or decompilation of the Programs;
 - disclose results of any program benchmark tests without our prior consent.
 
 Disclaimer of Warranty and Exclusive Remedies
@@ -216,36 +307,36 @@ You agree that this agreement is the complete agreement for the Programs and lic
 
 Last updated: 11 July 2014
 
-Should you have any questions concerning this License Agreement, or if you desire to contact Oracle for any reason, please write: 
-Oracle America, Inc. 
-500 Oracle Parkway, 
+Should you have any questions concerning this License Agreement, or if you desire to contact Oracle for any reason, please write:
+Oracle America, Inc.
+500 Oracle Parkway,
 Redwood City, CA 94065
 
 Oracle may contact you to ask if you had a satisfactory experience installing and using this OTN software download.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -255,5 +346,6 @@ Oracle may contact you to ask if you had a satisfactory experience installing an
     });
   </script>
 
-  </body>
+</body>
+
 </html>

@@ -1,147 +1,241 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: llama-license-2023</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: llama-license-2023</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="llama-license-2023.yml">yml</a> -
     <a href="llama-license-2023.json">json</a> -
     <a href="llama-license-2023.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/llama-license-2023.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/llama-license-2023.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            llama-license-2023
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            LLaMA License Agreement 2023
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            LLaMA License Agreement 2023
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Facebook
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform" rel="noopener" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-llama-license-2023
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://ai.facebook.com/blog/large-language-model-llama-meta-ai/" rel="noopener" target="_blank">https://ai.facebook.com/blog/large-language-model-llama-meta-ai/</a></li><li><a href="https://github.com/facebookresearch/llama" rel="noopener" target="_blank">https://github.com/facebookresearch/llama</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Copyright (c) Meta Platforms, Inc.</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Meta Platforms, Inc.</li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        llama-license-2023
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        LLaMA License Agreement 2023
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        LLaMA License Agreement 2023
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Facebook
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform"
+          rel="noopener"
+          target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-llama-license-2023
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://ai.facebook.com/blog/large-language-model-llama-meta-ai/" rel="noopener"
+              target="_blank">https://ai.facebook.com/blog/large-language-model-llama-meta-ai/</a></li>
+          <li><a href="https://github.com/facebookresearch/llama" rel="noopener"
+              target="_blank">https://github.com/facebookresearch/llama</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Copyright (c) Meta Platforms, Inc.</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Meta Platforms, Inc.</li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>LLaMA LICENSE AGREEMENT
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>LLaMA LICENSE AGREEMENT
 
 This License Agreement (as may be amended in accordance with this License Agreement, “License”), between you, or your employer or other entity (if you are entering into this agreement on behalf of your employer or other entity) (“Licensee” or “you”) and Meta Platforms, Inc. (“Meta” or “we”) applies to your use of any computer program, algorithm, source code, object code, or software that is made available by Meta under this License (“Software”) and any specifications, manuals, documentation, and other written information provided by Meta related to the Software (“Documentation”).
 
@@ -192,7 +286,7 @@ a. This License will automatically terminate upon any breach by you of the terms
 
 b. We may terminate this License, in whole or in part, at any time upon notice (including electronic) to you.
 
-c. The following sections survive termination of this License: 2 (Restrictions), 3 (Attribution), 4 (Disclaimers), 5 (Limitation on Liability), 6 (Indemnification) 7 (Termination; Survival), 8 (Third Party Materials), 9 (Trademarks), 10 (Applicable Law; Dispute Resolution), and 11 (Miscellaneous). 
+c. The following sections survive termination of this License: 2 (Restrictions), 3 (Attribution), 4 (Disclaimers), 5 (Limitation on Liability), 6 (Indemnification) 7 (Termination; Survival), 8 (Third Party Materials), 9 (Trademarks), 10 (Applicable Law; Dispute Resolution), and 11 (Miscellaneous).
 
 8. THIRD PARTY MATERIALS
 
@@ -211,28 +305,28 @@ This License will be governed and construed under the laws of the State of Calif
 If any provision or part of a provision of this License is unlawful, void or unenforceable, that provision or part of the provision is deemed severed from this License, and will not affect the validity and enforceability of any remaining provisions. The failure of Meta to exercise or enforce any right or provision of this License will not operate as a waiver of such right or provision. This License does not confer any third-party beneficiary rights upon any other person or entity. This License, together with the Documentation, contains the entire understanding between you and Meta regarding the subject matter of this License, and supersedes all other written or oral agreements and understandings between you and Meta regarding such subject matter. No change or addition to any provision of this License will be binding unless it is in writing and signed by an authorized representative of both you and Meta.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -242,5 +336,6 @@ If any provision or part of a provision of this License is unlawful, void or une
     });
   </script>
 
-  </body>
+</body>
+
 </html>

@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: CC-BY-4.0 AND Apache-2.0
 #
-# https://github.com/nexB/scancode-licensedb
+# https://github.com/aboutcode-org/scancode-licensedb
 # Copyright (c) nexB Inc. and others.
 # ScanCode is a trademark of nexB Inc.
 #
@@ -23,11 +23,11 @@
 # No content from ScanCode LicenseDB should be considered or used as legal advice.
 # Consult an attorney for any legal advice.
 #
-# Visit https://github.com/nexB/scancode-licensedb for support.
+# Visit https://github.com/aboutcode-org/scancode-licensedb for support.
 #
 # ScanCode Toolkit is a free Software Composition Analysis tool from nexB Inc. and
 # others.
-# Visit https://github.com/nexB/scancode-toolkit for support and download.
+# Visit https://github.com/aboutcode-org/scancode-toolit for support and download.
 
 PYTHON_EXE=python3
 ACTIVATE=. bin/activate;
@@ -36,7 +36,7 @@ BLACK_ARGS=--exclude="docs" .
 conf:
 	@echo "-> Configure the Python venv, clone and install scancode-toolkit"
 	${PYTHON_EXE} -m venv venv
-	@git clone https://github.com/nexB/scancode-toolkit.git
+	@git clone https://github.com/aboutcode-org/scancode-toolit.git
 	@venv/bin/pip install --upgrade pip
 	@venv/bin/pip install -e ./scancode-toolkit/
 	@venv/bin/scancode-reindex-licenses

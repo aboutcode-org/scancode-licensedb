@@ -1,178 +1,270 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: cmu-computing-services</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: cmu-computing-services</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="cmu-computing-services.yml">yml</a> -
     <a href="cmu-computing-services.json">json</a> -
     <a href="cmu-computing-services.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/cmu-computing-services.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/cmu-computing-services.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            cmu-computing-services
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            CMU Computing Services License
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Carnegie Mellon Computing Services License
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Permissive
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Carnegie Mellon University
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.cmu.edu/computing/" rel="noopener" target="_blank">http://www.cmu.edu/computing/</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            BSD-Attribution-HPND-disclaimer
-          
-        </dd>
-      
-        <dt style="">other_spdx_license_keys</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>LicenseRef-scancode-cmu-computing-services</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://cyrusimap.org/mediawiki/index.php/Downloads#Licensing" rel="noopener" target="_blank">http://cyrusimap.org/mediawiki/index.php/Downloads#Licensing</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://github.com/cyrusimap/cyrus-sasl/blob/master/COPYING" rel="noopener" target="_blank">https://github.com/cyrusimap/cyrus-sasl/blob/master/COPYING</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">minimum_coverage</dt>
-        <dd>
-          
-            70
-          
-        </dd>
-      
-        <dt style="">ignorable_authors</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Computing Services at Carnegie Mellon University (<a href="http://www.cmu.edu/computing/" rel="noopener" target="_blank">http://www.cmu.edu/computing/</a>)</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.cmu.edu/computing" rel="noopener" target="_blank">http://www.cmu.edu/computing</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_emails</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="mailto:tech-transfer@andrew.cmu.edu">tech-transfer@andrew.cmu.edu</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        cmu-computing-services
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        CMU Computing Services License
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Carnegie Mellon Computing Services License
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Permissive
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Carnegie Mellon University
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.cmu.edu/computing/" rel="noopener" target="_blank">http://www.cmu.edu/computing/</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        BSD-Attribution-HPND-disclaimer
+
+      </dd>
+
+      <dt style="">other_spdx_license_keys</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>LicenseRef-scancode-cmu-computing-services</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://cyrusimap.org/mediawiki/index.php/Downloads#Licensing" rel="noopener"
+              target="_blank">http://cyrusimap.org/mediawiki/index.php/Downloads#Licensing</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://github.com/cyrusimap/cyrus-sasl/blob/master/COPYING" rel="noopener"
+              target="_blank">https://github.com/cyrusimap/cyrus-sasl/blob/master/COPYING</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">minimum_coverage</dt>
+      <dd>
+
+        70
+
+      </dd>
+
+      <dt style="">ignorable_authors</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Computing Services at Carnegie Mellon University (<a href="http://www.cmu.edu/computing/" rel="noopener"
+              target="_blank">http://www.cmu.edu/computing/</a>)</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.cmu.edu/computing" rel="noopener" target="_blank">http://www.cmu.edu/computing</a>
+          </li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_emails</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="mailto:tech-transfer@andrew.cmu.edu">tech-transfer@andrew.cmu.edu</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Redistribution and use in source and binary forms, with or without
@@ -180,7 +272,7 @@ modification, are permitted provided that the following conditions
 are met:
 
 1. Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer. 
+notice, this list of conditions and the following disclaimer.
 
 2. Redistributions in binary form must reproduce the above copyright
 notice, this list of conditions and the following disclaimer in
@@ -190,7 +282,7 @@ distribution.
 3. The name &#34;Carnegie Mellon University&#34; must not be used to
 endorse or promote products derived from this software without
 prior written permission. For permission or any legal
-details, please contact  
+details, please contact
  Office of Technology Transfer
  Carnegie Mellon University
  5000 Forbes Avenue
@@ -212,28 +304,28 @@ AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
 OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -243,5 +335,6 @@ OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</code></pr
     });
   </script>
 
-  </body>
+</body>
+
 </html>

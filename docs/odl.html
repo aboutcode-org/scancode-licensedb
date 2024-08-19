@@ -1,147 +1,240 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: odl</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: odl</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="odl.yml">yml</a> -
     <a href="odl.json">json</a> -
     <a href="odl.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/odl.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/odl.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            odl
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Open Directory License
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Open Directory License
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Permissive
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Open Directory
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.dmoz.org/license.html" rel="noopener" target="_blank">http://www.dmoz.org/license.html</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-odl
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.dmoz.org/license.html" rel="noopener" target="_blank">http://www.dmoz.org/license.html</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://dmoz.org/become_an_editor" rel="noopener" target="_blank">http://dmoz.org/become_an_editor</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://dmoz.org/" rel="noopener" target="_blank">http://dmoz.org/</a></li><li><a href="http://dmoz.org/become_an_editor" rel="noopener" target="_blank">http://dmoz.org/become_an_editor</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        odl
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Open Directory License
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Open Directory License
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Permissive
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Open Directory
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.dmoz.org/license.html" rel="noopener" target="_blank">http://www.dmoz.org/license.html</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-odl
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.dmoz.org/license.html" rel="noopener"
+              target="_blank">http://www.dmoz.org/license.html</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://dmoz.org/become_an_editor" rel="noopener"
+              target="_blank">http://dmoz.org/become_an_editor</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://dmoz.org/" rel="noopener" target="_blank">http://dmoz.org/</a></li>
+          <li><a href="http://dmoz.org/become_an_editor" rel="noopener"
+              target="_blank">http://dmoz.org/become_an_editor</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Open Directory License
+    <pre id="license-text" class="code mt-1"
+      style="white-space: pre-wrap;"><code>Open Directory License
 
 The Open Directory is a compilation of many different editors&#39; contributions.  Netscape Communications Corporation (`Netscape&#39;) owns the copyright to the compilation of the different contributions, and makes the Open Directory available to you to use under the following license agreement terms and conditions (`Open Directory License&#39;).  For purposes of this Open Directory License, `Open Directory&#39; means only the Open Directory Project currently hosted at http://dmoz.org (or at another site as may be designated by Netscape in the future), and does not include any other versions of directories, even if referred to as an `Open Directory,&#39; that may be hosted by Netscape on other web pages (e.g., Netscape Netcenter).
 
@@ -155,7 +248,7 @@ Due to the nature of the content of the Open Directory, many third parties&#39; 
     3. If you are using or distributing the Open Directory in modified form (i.e., with additions or deletions), you must include a statement indicating you have made modifications to it.  Such statement should be placed with the attribution notices required by Sections 2(a) and 2(b) above.
 
 Netscape grants you the non-exclusive, royalty-free license to use the above identified Netscape attribution statements solely for the purpose of the above attribution requirements, and such use must be in accordance with the usage guidelines that may be published by Netscape from time to time as part of the above URLs.
- 
+
 3. Right To Identify Licensee.  You agree that Netscape has the right to publicly identify you as a user/licensee of the Open Directory.
 
 4. Errors and Changes.  From time to time Netscape may elect to post on the page(s) at the URL http://dmoz.org/become_an_editor certain specific changes to the Open Directory and/or above attribution statements, which changes may be to correct errors and/or remove content alleged to be improperly in the Open Directory.  So long as you are exercising the license to Open Directory hereunder, you agree to use commercially reasonable efforts to check the page(s) at the URL http://dmoz.org/become_an_editor from time to time, and to use commercially reasonable efforts to make the changes/corrections/deletion of content from the Open Directory and/or attribution statements as may be indicated at such URL.  Any changes to the Open Directory content posted at the page(s) at the URL http://dmoz.org/become_an_editor are part of Open Directory.
@@ -167,28 +260,28 @@ Netscape grants you the non-exclusive, royalty-free license to use the above ide
 7. California Law. This Open Directory License will be governed by the laws of the State of California, excluding its conflict of laws provisions.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -198,5 +291,6 @@ Netscape grants you the non-exclusive, royalty-free license to use the above ide
     });
   </script>
 
-  </body>
+</body>
+
 </html>

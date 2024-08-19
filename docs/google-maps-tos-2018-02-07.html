@@ -1,172 +1,277 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LicenseDB: google-maps-tos-2018-02-07</title>
     <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+        table.dataTable {
+            visibility: visible !important;
+        }
+
+        .dataTables_filter {
+            display: none;
+        }
+
+        table.dataTable thead th,
+        table.dataTable thead td {
+            padding: 8px !important;
+            border-top: 1px solid #111;
+        }
+
+        .dataTables_wrapper .dataTables_info {
+            padding: 0 0 2px !important;
+            font-size: .75rem !important;
+            color: #3b4351 !important;
+        }
+
+        header {
+            padding-top: .4rem;
+            padding-bottom: .4rem;
+        }
+
+        footer {
+            background-color: #f7f8f9;
+            color: #bcc3ce;
+            padding: 1.5rem .75rem 1rem;
+            margin-top: 1em;
+        }
+
+        a:visited {
+            color: #5755d9 !important;
+        }
+
+        .navbar .nav-item {
+            color: #66758c;
+            padding: .25rem .4rem;
+        }
+
+        .navbar .nav-item a,
+        .navbar .nav-item a:visited {
+            color: #66758c !important;
+        }
+
+        .anchor {
+            color: #6362dc;
+            display: none;
+            margin-left: .2rem;
+            padding: 0 .2rem;
+        }
+
+        h4:focus .anchor,
+        h4:hover .anchor {
+            display: inline;
+            text-decoration: none;
+        }
+
+        .help_text,
+        .help_text:hover,
+        .help_text:visited {
+            color: #3b4351 !important;
+            border-bottom: dotted 0.0625rem #cccccc;
+            text-decoration: inherit;
+        }
     </style>
     <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
     <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
-  <script src="static/jquery.mark-8.11.1.min.js"></script>
-  <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
-  </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
+    <script src="static/jquery.mark-8.11.1.min.js"></script>
+    <style>
+        table.dataTable {
+            visibility: visible !important;
+        }
+
+        #search-section {
+            display: none;
+        }
+
+        ul.list-style-none {
+            list-style: none;
+            margin: 0;
+        }
+
+        ul li:first-child {
+            margin-top: 0;
+        }
+
+        dl {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        dl dt,
+        dl dd {
+            margin: 0;
+            padding: 6px 10px;
+        }
+
+        dt {
+            flex-basis: 20%;
+            background: #555;
+            text-align: right;
+            color: #fff;
+        }
+
+        dd {
+            flex-basis: 70%;
+            flex-grow: 1;
+        }
+    </style>
+
+</head>
+
+<body style="padding: 0 7rem;">
     <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
-  <div class="container">
-    <hr>
-    <a href="index.html">back to list</a> -
-    <a href="google-maps-tos-2018-02-07.yml">yml</a> -
-    <a href="google-maps-tos-2018-02-07.json">json</a> -
-    <a href="google-maps-tos-2018-02-07.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/google-maps-tos-2018-02-07.LICENSE" target="_blank">edit License</a>
-    <hr>
-    <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            google-maps-tos-2018-02-07
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Google Maps Platform ToS 2018-02-07
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Google Maps Platform Terms of Service 2018-02-07
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Google
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://cloud.google.com/maps-platform/terms" rel="noopener" target="_blank">https://cloud.google.com/maps-platform/terms</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-google-maps-tos-2018-02-07
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://developers.google.com/maps/terms-20180207" rel="noopener" target="_blank">https://developers.google.com/maps/terms-20180207</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">minimum_coverage</dt>
-        <dd>
-          
-            90
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>(c) Google Australia Pty Ltd.</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Google Australia Pty Ltd.</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_authors</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>the U.S. Department of State. Remove</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://developers.google.com/maps/maps-api-list" rel="noopener" target="_blank">http://developers.google.com/maps/maps-api-list</a></li><li><a href="http://developers.google.com/maps/terms" rel="noopener" target="_blank">http://developers.google.com/maps/terms</a></li><li><a href="http://www.google.com/intl/en/about/company/software-principles.html" rel="noopener" target="_blank">http://www.google.com/intl/en/about/company/software-principles.html</a></li><li><a href="http://www.google.com/policies/privacy" rel="noopener" target="_blank">http://www.google.com/policies/privacy</a></li><li><a href="https://developers.google.com/products/" rel="noopener" target="_blank">https://developers.google.com/products/</a></li><li><a href="https://www.google.com/maps" rel="noopener" target="_blank">https://www.google.com/maps</a></li>
-            </ul>
-          
-        </dd>
-      
-    </dl>
-    <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Google Maps APIs Terms of Service
+        <header class="navbar">
+            <section class="navbar-section">
+                <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+                <a href="help.html" class="btn btn-link">Help</a>
+                <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+                <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank"
+                    class="btn btn-link">GitHub</a>
+                <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+            </section>
+            <section id="search-section">
+                <div class="input-group input-inline">
+                    <button class="btn btn-primary input-group-btn disabled" tabindex="-1"
+                        style="opacity: 0.9">Search</button>
+                    <input id="searchbox" class="form-input" type="search">
+                </div>
+            </section>
+        </header>
+    </div>
+
+    <div class="container">
+        <hr>
+        <a href="index.html">back to list</a> -
+        <a href="google-maps-tos-2018-02-07.yml">yml</a> -
+        <a href="google-maps-tos-2018-02-07.json">json</a> -
+        <a href="google-maps-tos-2018-02-07.LICENSE">text</a> -
+        <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/google-maps-tos-2018-02-07.LICENSE"
+            target="_blank">edit License</a>
+        <hr>
+        <dl>
+
+            <dt style="">key</dt>
+            <dd>
+
+                google-maps-tos-2018-02-07
+
+            </dd>
+
+            <dt style="">short_name</dt>
+            <dd>
+
+                Google Maps Platform ToS 2018-02-07
+
+            </dd>
+
+            <dt style="">name</dt>
+            <dd>
+
+                Google Maps Platform Terms of Service 2018-02-07
+
+            </dd>
+
+            <dt style="">category</dt>
+            <dd>
+
+                Proprietary Free
+
+            </dd>
+
+            <dt style="">owner</dt>
+            <dd>
+
+                Google
+
+            </dd>
+
+            <dt style="">homepage_url</dt>
+            <dd>
+
+                <a href="https://cloud.google.com/maps-platform/terms" rel="noopener"
+                    target="_blank">https://cloud.google.com/maps-platform/terms</a>
+
+            </dd>
+
+            <dt style="">spdx_license_key</dt>
+            <dd>
+
+                LicenseRef-scancode-google-maps-tos-2018-02-07
+
+            </dd>
+
+            <dt style="">text_urls</dt>
+            <dd>
+
+                <ul class="list-style-none">
+                    <li><a href="https://developers.google.com/maps/terms-20180207" rel="noopener"
+                            target="_blank">https://developers.google.com/maps/terms-20180207</a></li>
+                </ul>
+
+            </dd>
+
+            <dt style="">minimum_coverage</dt>
+            <dd>
+
+                90
+
+            </dd>
+
+            <dt style="">ignorable_copyrights</dt>
+            <dd>
+
+                <ul class="list-style-none">
+                    <li>(c) Google Australia Pty Ltd.</li>
+                </ul>
+
+            </dd>
+
+            <dt style="">ignorable_holders</dt>
+            <dd>
+
+                <ul class="list-style-none">
+                    <li>Google Australia Pty Ltd.</li>
+                </ul>
+
+            </dd>
+
+            <dt style="">ignorable_authors</dt>
+            <dd>
+
+                <ul class="list-style-none">
+                    <li>the U.S. Department of State. Remove</li>
+                </ul>
+
+            </dd>
+
+            <dt style="">ignorable_urls</dt>
+            <dd>
+
+                <ul class="list-style-none">
+                    <li><a href="http://developers.google.com/maps/maps-api-list" rel="noopener"
+                            target="_blank">http://developers.google.com/maps/maps-api-list</a></li>
+                    <li><a href="http://developers.google.com/maps/terms" rel="noopener"
+                            target="_blank">http://developers.google.com/maps/terms</a></li>
+                    <li><a href="http://www.google.com/intl/en/about/company/software-principles.html" rel="noopener"
+                            target="_blank">http://www.google.com/intl/en/about/company/software-principles.html</a>
+                    </li>
+                    <li><a href="http://www.google.com/policies/privacy" rel="noopener"
+                            target="_blank">http://www.google.com/policies/privacy</a></li>
+                    <li><a href="https://developers.google.com/products/" rel="noopener"
+                            target="_blank">https://developers.google.com/products/</a></li>
+                    <li><a href="https://www.google.com/maps" rel="noopener"
+                            target="_blank">https://www.google.com/maps</a></li>
+                </ul>
+
+            </dd>
+
+        </dl>
+        <div class="text-bold">license_text</div>
+        <pre id="license-text" class="code mt-1"
+            style="white-space: pre-wrap;"><code>Google Maps APIs Terms of Service
 
 Thank you for your interest in the Google Maps APIs. The Google Maps APIs are a collection of services that allow you to include maps, geocoding, places, and other content from Google in your web pages or applications.
 
@@ -182,8 +287,8 @@ This page contains the Google Maps Platform Terms of Service. If you have questi
     Unless otherwise agreed in writing with Google, the Terms will include the following:
         the terms and conditions in this document (the &#34;Maps APIs Terms&#34;);
         the Legal Notices; and
-        the Privacy Policy. 
-    Before you use the Maps API(s), you should read each of the documents comprising the Terms, and print or save a local copy for your records. 
+        the Privacy Policy.
+    Before you use the Maps API(s), you should read each of the documents comprising the Terms, and print or save a local copy for your records.
 
 1.3 Use of Other Google Services and Additional Terms. If you use the Maps API(s) in conjunction with any other Google products, including any other Google API(s), (collectively, the Service and all other Google products and services are referred to as the &#34;Google Services&#34;), your agreement with Google will also include the terms applicable to those Google Services. All of these are referred to as the &#34;Additional Terms.&#34; If Additional Terms apply, they will be accessible to you either within or through your use of the applicable Google Services. If there is any contradiction between the Additional Terms and the Maps APIs Terms, then the Maps APIs Terms will take precedence only as they relate to the Maps API(s), and not to any other Google Services.
 
@@ -195,7 +300,7 @@ This page contains the Google Maps Platform Terms of Service. If you have questi
 2.1 Clicking to Accept or Using the Maps API(s). In order to use the Maps API(s), you must agree to the Terms by:
 
     clicking to accept the Terms, where this option is made available to you by Google in the Service’s user interface; or
-    using the Maps API(s). You understand and agree that Google will treat your use of the Maps API(s) as acceptance of the Terms from that point onwards. 
+    using the Maps API(s). You understand and agree that Google will treat your use of the Maps API(s) as acceptance of the Terms from that point onwards.
 
 2.2 U.S. Law Restrictions. You may not use the Maps API(s) and may not accept the Terms if you are a person barred from using the Service under United States law.
 
@@ -225,18 +330,18 @@ This page contains the Google Maps Platform Terms of Service. If you have questi
     In maps images. Google also reserves the right to include advertising in the maps images provided to you through the Maps API(s), subject to the following provisions. In this Section, &#34;Ads Notice&#34; means a notice from Google that it will include advertising in a particular Maps API. The Ads Notice may be provided on relevant Google websites, including the Google Geo Developers Blog (or such other URL as Google may provide) and the applicable Google Maps API Groups.
         New Maps API(s) and major version upgrades of existing Maps API(s) launched with an Ads Notice. A &#34;major version&#34; of a Maps API is denoted by a new &#34;whole number&#34; in the version name (for example, a &#34;major version&#34; change occurs if API v4.5 is replaced by v5.0). By using the maps images in these new or major version upgrades of the Maps API(s), you agree to display the advertising included in those maps images in the form provided to you by Google.
         Maps API(s) and major version upgrades of existing Maps API(s) launched without an Ads Notice. For any Maps API that Google has launched (or launches in the future) without an Ads Notice, Google will not include advertising in that API’s maps images unless Google provides you with an Ads Notice at least 90 days beforehand (the &#34;Ads Notice Period&#34;).
-        Maps API Implementations that incorporated the Maps API(s) before April 8, 2011. If your Maps API Implementation incorporated a major version of a Maps API before April 8, 2011, you have a limited right to opt out of advertising in the maps images provided through that major version of that Maps API by providing written notice to Google during the Ads Notice Period; your notice must state that you refuse to accept advertising in the maps images and must be provided to Google in accordance with Google&#39;s notice requirements (as specified in Google&#39;s Ads Notice). 
+        Maps API Implementations that incorporated the Maps API(s) before April 8, 2011. If your Maps API Implementation incorporated a major version of a Maps API before April 8, 2011, you have a limited right to opt out of advertising in the maps images provided through that major version of that Maps API by providing written notice to Google during the Ads Notice Period; your notice must state that you refuse to accept advertising in the maps images and must be provided to Google in accordance with Google&#39;s notice requirements (as specified in Google&#39;s Ads Notice).
     Opting out of ads. You may at any time opt out of advertising in the places results and the maps images by either:
         contacting the Google Maps sales team to obtain a Google enterprise license; or
-        terminating your use of the Service. 
-    Indexing and caching for ads serving. By using an API that serves ads, you give Google the right to access, index, and cache the web pages or applications that contain your Maps API Implementation. 
+        terminating your use of the Service.
+    Indexing and caching for ads serving. By using an API that serves ads, you give Google the right to access, index, and cache the web pages or applications that contain your Maps API Implementation.
 
 4.4 Changes to the Service; Deprecation Policy. The following is the Service’s &#34;Deprecation Policy&#34;:
 
     Google will announce if it intends to remove major features from, or discontinue, an API or the Service.
     Google will use commercially reasonable efforts to continue to operate those Google Maps API versions and features identified at http://developers.google.com/maps/maps-api-list without these changes until one year after the announcement, unless Google determines in its reasonable good faith judgment that:
         it is required by law or third-party relationship (including changes in law or relationships) to make those changes earlier; or
-        doing so could create a security risk or substantial economic or material technical burden. 
+        doing so could create a security risk or substantial economic or material technical burden.
 
 5. Your Google Account.
 
@@ -252,7 +357,7 @@ You will use the Service only for purposes that:
 
     are permitted by the Terms (including the Licenses in Section 8);
     are permitted by any applicable law or third-party contract in the relevant jurisdictions; and
-    comply with all applicable policies or guidelines made available by Google, including in the Maps APIs Documentation and the Permission Guidelines for Google Maps and Google Earth. 
+    comply with all applicable policies or guidelines made available by Google, including in the Maps APIs Documentation and the Permission Guidelines for Google Maps and Google Earth.
 
 8. Licenses from Google to You.
 
@@ -261,14 +366,14 @@ You will use the Service only for purposes that:
     &#34;Brand Features&#34; means trade names, trademarks, logos, domain names, and other distinctive brand features.
     &#34;Content&#34; means any content provided through the Service (whether created by Google or its third-party licensors), including map and terrain data, imagery, traffic data, and places data (including business listings).
     &#34;Maps API Implementation&#34; means a software application, website, or other implementation that uses the Maps API(s) to obtain and display Content in conjunction with Your Content.
-    &#34;Your Content&#34; means any content that you provide in your Maps API Implementation, including data, images, video, or software. Your Content does not include the Content as defined in Subsection (b). 
+    &#34;Your Content&#34; means any content that you provide in your Maps API Implementation, including data, images, video, or software. Your Content does not include the Content as defined in Subsection (b).
 
 8.2 Service License. Subject to these Terms (including Section 9 (License Requirements) and Section 10 (License Restrictions)), during the term of this agreement, Google gives you a non-exclusive, worldwide, personal, non-transferable, non-assignable, non-sublicensable, royalty-free license to use the Service as provided by Google, in the manner permitted by the Terms.
 
 8.3 Content License. Subject to these Terms (including Sections 8.3(a) and (b), Section 9 (License Requirements), and Section 10 (License Restrictions)), during the term of this agreement, Google gives you a non-exclusive, worldwide, personal, non-transferable,non-assignable, non-sublicensable, royalty-free license to use the Content in your Maps API Implementation, as the Content is provided in the Service, and in the manner permitted by the Terms.
 
     Content (including map data, traffic, directions, and places) is provided for planning purposes only. You may find that weather conditions, construction projects, closures,or other events may cause road conditions or directions to differ from the results depicted in the Content. You should exercise judgment in your use of the Content.
-    Certain Content is provided under license from third parties, and is subject to copyright and other intellectual property rights owned by or licensed to such third parties. You may be held liable for any unauthorized use of this content. Your use of third-party Content (including certain business listings Content) is subject to additional restrictions located in the Legal Notices page. 
+    Certain Content is provided under license from third parties, and is subject to copyright and other intellectual property rights owned by or licensed to such third parties. You may be held liable for any unauthorized use of this content. Your use of third-party Content (including certain business listings Content) is subject to additional restrictions located in the Legal Notices page.
 
 8.4 Brand Features License.
 
@@ -281,8 +386,8 @@ You will use the Service only for purposes that:
         display a Google Brand Feature in a manner that is misleading, defamatory, infringing, libelous, disparaging, obscene, or otherwise objectionable to Google;
         use Google Brand Features to disparage Google or the Google Services;
         display a Google Brand Feature in your Maps API Implementation, site, or other propert(ies) that violate any law or regulation; or
-        remove, distort, or alter any element of a Google Brand Feature (including squeezing, stretching, inverting, or discoloring). 
-    No further license grant; no challenges. Except as stated in this Section, nothing in the Terms grants or will be deemed to grant you any right, title, or interest in Google’s Brand Features. Your use of Google’s Brand Features (including any goodwill associated with them) will inure to Google’s benefit. During and after the Term, and to the maximum extent permitted by applicable law, you will not challenge or assist others to challenge Google’s Brand Features (or their registration by Google), and you will not attempt to register any Brand Features (including domain names) that are confusingly similar to Google’s in any way (including in sound, appearance, or spelling). 
+        remove, distort, or alter any element of a Google Brand Feature (including squeezing, stretching, inverting, or discoloring).
+    No further license grant; no challenges. Except as stated in this Section, nothing in the Terms grants or will be deemed to grant you any right, title, or interest in Google’s Brand Features. Your use of Google’s Brand Features (including any goodwill associated with them) will inure to Google’s benefit. During and after the Term, and to the maximum extent permitted by applicable law, you will not challenge or assist others to challenge Google’s Brand Features (or their registration by Google), and you will not attempt to register any Brand Features (including domain names) that are confusingly similar to Google’s in any way (including in sound, appearance, or spelling).
 
 8.5 Proprietary Rights Notices. You will not remove, obscure, or alter any proprietary rights notices (including copyright and trademark notices, Terms of Use links, or Brand Features) displayed or provided through the Service. Where such notices are not displayed or provided within the Service, you must display such notices according to the Maps APIs Documentation.
 
@@ -298,20 +403,20 @@ Google’s licenses above are subject to your compliance with the following requ
 9.1.1 General Rules.
 
     Free access (no fees). Subject to Section 9.1.2 (Exceptions), your Maps API Implementation must be accessible to the general public without charge and must not require a fee-based subscription or other fee-based restricted access. This rule applies to Your Content and any other content in your Maps API Implementation, whether Your Content or the other content exists now or is added later.
-    Public access (no firewall). Your Maps API Implementation must not operate (i) only behind a firewall; or (ii) only on an internal network (except during the development and testing phase); or (iii) in a closed community (for example, through invitation-only access). 
+    Public access (no firewall). Your Maps API Implementation must not operate (i) only behind a firewall; or (ii) only on an internal network (except during the development and testing phase); or (iii) in a closed community (for example, through invitation-only access).
 
 9.1.2 Exceptions.
 
     Enterprise agreement with Google. The rules in Section 9.1.1 (Free access, Public access) do not apply if you have entered into a separate written agreement with Google (such as a Google Maps agreement) or obtained Google&#39;s written permission.
     Mobile applications.
         The rule in Section 9.1.1(a) (Free access) does not apply if your Maps API Implementation is used in a mobile application that is sold for a fee through an online store and is downloadable to a mobile device that can access the online store.
-        The rule in Section 9.1.1(b) (Public access) does not apply if your Maps API Implementation is an Android application that uses the Google Maps Android API. (However, the rule in Section 9.1.1(b) (Public access) will continue to apply if your Maps API Implementation is an Android application that uses any other Maps APIs, unless the Maps API Implementation qualifies for the exception in Section 9.1.2(a) (Enterprise agreement with Google).) 
+        The rule in Section 9.1.1(b) (Public access) does not apply if your Maps API Implementation is an Android application that uses the Google Maps Android API. (However, the rule in Section 9.1.1(b) (Public access) will continue to apply if your Maps API Implementation is an Android application that uses any other Maps APIs, unless the Maps API Implementation qualifies for the exception in Section 9.1.2(a) (Enterprise agreement with Google).)
 
 9.1.3 Examples.
 
     You can require users to log in to your Maps API Implementation if you do not require users to pay a fee.
     You can charge a fee for your Maps API Implementation if it is an Android application downloadable to mobile devices from the Google Play Store.
-    If you are a consultant who creates or hosts Maps API Implementations for third-party customers, you may charge those customers a fee for your consulting or hosting services (but not for the Maps API Implementations themselves, except as permitted under Section 9.1.2 (Exceptions)). 
+    If you are a consultant who creates or hosts Maps API Implementations for third-party customers, you may charge those customers a fee for your consulting or hosting services (but not for the Maps API Implementations themselves, except as permitted under Section 9.1.2 (Exceptions)).
 
 9.2 Reporting. You must implement those reporting mechanisms that Google requires (as updated from time to time in these Terms and in the Maps APIs Documentation).
 
@@ -324,15 +429,15 @@ Google’s licenses above are subject to your compliance with the following requ
             Geolocation privacy
                 Your Maps API Implementation must notify the user in advance of the type(s) of data that you intend to collect from the user or the user’s device. Your Maps API Implementation must not obtain or cache any user’s location in any manner except with the user&#39;s prior consent. Your Maps API Implementation must let the user revoke the user&#39;s consent at any time.
                 If your Maps API Implementation provides Google with geolocation data, that geolocation data must not enable Google to identify an individual user. For example, if your Maps API Implementation sends Google Your Content, and Your Content includes geolocation data, Your Content must not also include unique device identifiers associated with individual users.
-                If you intend to obtain the user’s location and use it with any other data provider&#39;s data, you must disclose this fact to the user. 
+                If you intend to obtain the user’s location and use it with any other data provider&#39;s data, you must disclose this fact to the user.
             Google’s Privacy Policy. Your privacy policy must notify users that you are using the Maps API(s) and incorporate by reference Google’s Privacy Policy by including a link to Google’s then-current Privacy Policy (at http://www.google.com/policies/privacy or such other URL as Google may provide).
-            Cookies. As noted in the Documentation, certain Maps API(s) store and access cookies and other information on end users’ devices. If you use any of these cookie-enabled Maps API(s) in your Maps API Implementation, then for end users in the European Union, you must comply with the EU User Consent Policy. 
+            Cookies. As noted in the Documentation, certain Maps API(s) store and access cookies and other information on end users’ devices. If you use any of these cookie-enabled Maps API(s) in your Maps API Implementation, then for end users in the European Union, you must comply with the EU User Consent Policy.
 
 9.4 Attribution.
 
     Content provided to you through the Service may contain the Brand Features of Google, its strategic partners, or other third-party rights holders of content that Google indexes. When Google provides those Brand Features or other attribution through the Service, you must display such attribution as provided (or as described in the Maps APIs Documentation) and must not delete or alter the attribution.
     You must conspicuously display the &#34;powered by Google&#34; attribution (and any other attribution(s) required by Google in the Maps APIs Documentation) on or adjacent to the relevant Service search box and Google search results. If you use the standard Google search control, or the standard Google search control form, this attribution will be included automatically, and you must not modify or obscure this automatically-generated attribution.
-    You understand and agree that Google has the sole right and discretion to determine whether your attribution(s) are in compliance with the above requirements. 
+    You understand and agree that Google has the sole right and discretion to determine whether your attribution(s) are in compliance with the above requirements.
 
 9.5 Preventing Unauthorized Use. You will use all reasonable efforts to prevent unauthorized use of the Service and to terminate any such unauthorized use.
 
@@ -345,7 +450,7 @@ Except as expressly permitted under the Terms, or unless you have received prior
 
     No access to APIs or Content except through the Service. You will not access the Maps API(s) or the Content except through the Service. For example, you must not access map tiles or imagery through interfaces or channels (including undocumented Google interfaces) other than the Maps API(s).
     No access to Service without applicable Developer Identifier(s). For certain versions or features of the Maps API(s), Google may require you to use a Developer Identifier to access and administer the Service. If a Developer Identifier is required under the Maps APIs Documentation, you will not access the Service without the Developer Identifier.
-    No hiding identity. You will not hide from Google the identity of your Maps API Implementation. You must follow the identification conventions in the Maps APIs Documentation. 
+    No hiding identity. You will not hide from Google the identity of your Maps API Implementation. You must follow the identification conventions in the Maps APIs Documentation.
 
 10.2 General Google API Restrictions. The following restrictions apply generally to all Google Services, including the Google application programming interfaces at https://developers.google.com/products/ (or such other URL as Google may provide) (the “Google API(s)”). You will not:
 
@@ -357,19 +462,19 @@ Except as expressly permitted under the Terms, or unless you have received prior
     Reverse engineer or attempt to extract the source code from any Google API or any related software, except to the extent that this restriction is expressly prohibited by applicable law.
     Use the Google APIs for any activities where the use or failure of the Google APIs could lead to death, personal injury, or environmental damage (such as the operation of nuclear facilities, air traffic control, or life support systems).
     Use the Google APIs to process or store any data that is subject to the International Traffic in Arms Regulations maintained by the U.S. Department of State.
-    Remove, obscure, or alter any Google terms of service, or any links to or notices of those terms. 
+    Remove, obscure, or alter any Google terms of service, or any links to or notices of those terms.
 
 10.3 Quality Standards Restrictions.
 
     No violation of Google’s Software Principles. You will not violate Google’s Software Principles at http://www.google.com/intl/en/about/company/software-principles.html (or such other URLs that Google may designate).
-    No modification of search results. You will not modify, reorder, augment, or manipulate search results in any way unless you explicitly notify the end user of your actions. 
+    No modification of search results. You will not modify, reorder, augment, or manipulate search results in any way unless you explicitly notify the end user of your actions.
 
 10.4 Restrictions on Unfair Exploitation of the Service and Content.
 
     No use except under these Terms. You will not use the Service or Content except as expressly permitted under these Terms. For example:
         No fees. You will not charge any third party a fee to use your Maps API Implementation, the Service, or the Content, unless you have purchased an applicable Google Maps Platform Premium Plan or Google Maps APIs for Work license that expressly permits this use.
         No printing 5,000+ copies for direct marketing. You will not print more than 5,000 copies of sales collateral materials containing a screenshot of the Content for purposes of commercial sales lead generation.
-        No use as a core part of printed matter. You will not incorporate the Content as a core part of printed matter (such as a printed map or guide book) that is redistributed for a fee. 
+        No use as a core part of printed matter. You will not incorporate the Content as a core part of printed matter (such as a printed map or guide book) that is redistributed for a fee.
     No use beyond transaction limits and usage policies. If your Maps API Implementation generates a high volume of transactions, Google reserves the right to set transaction limits, as described in the Maps APIs Documentation here. Google also reserves the right to set other usage policies in the Documentation from time to time. If you want to engage in use outside these transaction limits or usage policies, you can purchase more usage capacity through the Maps API Standard pricing plan, or you can contact the Google Maps sales team for licensing options to address your needs. Google may decline your request, or condition acceptance on your agreement to additional terms and/or charges for that use.
     Restrictions on your Maps API Implementations.
         No creation of a substitute service. You will not use the Service to create a Maps API Implementation that is a substitute for, or substantially similar service to, Google Maps (at https://www.google.com/maps (or such other URL as Google may provide)) (&#34;Google Maps&#34;) or the Service.
@@ -377,11 +482,11 @@ Except as expressly permitted under the Terms, or unless you have received prior
         No navigation. You will not use the Service or Content for or in connection with (a) real-time navigation or route guidance; or (b) automatic or autonomous vehicle control.
         No asset-tracking unless you have purchased the applicable enterprise license. Unless you have purchased an applicable Premium Plan or Maps APIs for Work license that expressly permits you to do so, you will not use the Service or Content for commercial asset-tracking or in Maps API Implementations whose primary purpose is to assess vehicle insurance risks.
             Commercial asset-tracking includes dispatch, fleet management, and Maps API Implementations that track your (or your end users’) assets (for example, private or commercial transportation applications, including taxi and vehicle-for-hire applications).
-            Non-commercial asset-tracking implementations include applications used for a non-commercial purpose (for example, a free, publicly accessible Maps API Implementation that displays real-time public transit or other transportation status information or that allows end users to share real-time location with others). 
+            Non-commercial asset-tracking implementations include applications used for a non-commercial purpose (for example, a free, publicly accessible Maps API Implementation that displays real-time public transit or other transportation status information or that allows end users to share real-time location with others).
         No use of Content in a listings service. You will not use business listings-related Content in any Customer Implementation that has the primary purpose of making available business, residential address, or telephone directory listings.
-        No use of Content for an Ads product. You will not use business listings-related Content to create or augment an advertising product. 
+        No use of Content for an Ads product. You will not use business listings-related Content to create or augment an advertising product.
     No use of Content without a Google map. Unless the Maps APIs Documentation expressly permits you to do so, you will not use the Content in a Maps API Implementation without a corresponding Google map. For example, you may display Street View imagery without a corresponding Google map because the Maps APIs Documentation expressly permits this use.
-    No use of Content with a non-Google map. You must not use the Content in a Maps API Implementation that contains a non-Google map. 
+    No use of Content with a non-Google map. You must not use the Content in a Maps API Implementation that contains a non-Google map.
 
 10.5 Intellectual Property Restrictions.
 
@@ -392,12 +497,12 @@ Except as expressly permitted under the Terms, or unless you have received prior
         is temporary (and in no event more than 30 calendar days);
         is secure;
         does not manipulate or aggregate any part of the Content or Service; and
-        does not modify attribution in any way. 
+        does not modify attribution in any way.
     No mass downloading. You will not use the Service in a manner that gives you or a third party access to mass downloads or bulk feeds of any Content. For example, you are not permitted to offer a batch geocoding service that uses Content contained in the Maps API(s).
     No incorporating Google software into other software. You will not incorporate any software provided as part of the Service into other software.
     No removing, obscuring, or altering terms of service, links, or proprietary rights notices. You will not:
         remove, obscure, or alter any Google terms of service or any links to or notices of those terms, or any copyright, trademark, or other proprietary rights notices; or
-        falsify or delete any author attributions, legal notices, or other labels of the origin or source of material. 
+        falsify or delete any author attributions, legal notices, or other labels of the origin or source of material.
 
 10.6 Restrictions on Trying to Shut Down the Service. We want to make sure that the Services remain online and available for all users. To help ensure this, during the agreement term, you will not try to shut down the Services that you have been using by seeking an injunction or exclusion order.
 11. Licenses from You to Google.
@@ -406,7 +511,7 @@ Except as expressly permitted under the Terms, or unless you have received prior
 
     enabling Google to provide you with the Service;
     if you opt to do so through your Maps API Implementation’s features, allowing end users to use Your Content in Google Services; and
-    if you opt to submit Your Content through the Google Places API(s), allowing Google to use that content in Google Services. 
+    if you opt to submit Your Content through the Google Places API(s), allowing Google to use that content in Google Services.
 
 11.2 Marketing License. During the term of this agreement, you give Google a non-exclusive, worldwide, sublicensable, royalty-free license to use Your Brand Features and Your Content to publicize or advertise that you are using the Service (for example, by using your marks in presentations, marketing materials, customer lists, financial reports, and website listings (including links to your website), or by creating marketing or advertising materials that show screenshots of the Service in which Your Content is featured).
 
@@ -444,7 +549,7 @@ This Section 12 applies if you purchase usage capacity (beyond the Service’s t
     THE SERVICE WILL MEET YOUR REQUIREMENTS;
     THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE;
     THE SERVICE WILL BE ACCURATE OR RELIABLE; AND
-    DEFECTS IN THE OPERATION OR FUNCTIONALITY OF ANY SOFTWARE PROVIDED TO YOU AS PART OF THE SERVICE WILL BE CORRECTED. 
+    DEFECTS IN THE OPERATION OR FUNCTIONALITY OF ANY SOFTWARE PROVIDED TO YOU AS PART OF THE SERVICE WILL BE CORRECTED.
 
 14.3 ANY CONTENT OBTAINED THROUGH THE GOOGLE SERVICES IS AT YOUR OWN DISCRETION AND RISK AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE, LOSS OF DATA, OR ANY OTHER DAMAGE OR INJURY THAT RESULTS FROM DOWNLOADING OR USING ANY SUCH CONTENT.
 
@@ -461,7 +566,7 @@ This Section 12 applies if you purchase usage capacity (beyond the Service’s t
         ANY CHANGES THAT GOOGLE MAY MAKE TO THE SERVICE, OR ANY PERMANENT OR TEMPORARY DISCONTINUATION OF THE SERVICE (OR ANY FEATURES WITHIN THE SERVICE);
         THE DELETION OR CORRUPTION OF, OR FAILURE TO STORE, ANY CONTENT AND OTHER DATA MAINTAINED OR TRANSMITTED BY OR THROUGH YOUR USE OF THE SERVICE;
         YOUR FAILURE TO PROVIDE GOOGLE WITH ACCURATE ACCOUNT INFORMATION; OR
-        YOUR FAILURE TO KEEP YOUR PASSWORD OR ACCOUNT DETAILS SECURE AND CONFIDENTIAL. 
+        YOUR FAILURE TO KEEP YOUR PASSWORD OR ACCOUNT DETAILS SECURE AND CONFIDENTIAL.
 
 15.2 THE LIMITATIONS ON GOOGLE’S LIABILITY IN SECTION 15.1 ABOVE WILL APPLY WHETHER OR NOT GOOGLE, ITS SUBSIDIARIES, AFFILIATES, LICENSORS OR THEIR SUPPLIERS HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES OR DAMAGES.
 16. Indemnities.
@@ -470,7 +575,7 @@ This Section 12 applies if you purchase usage capacity (beyond the Service’s t
 
     your use of the Service or the Content in breach of the Terms or applicable policies;
     your Maps API Implementation, including any claim that your Maps API Implementation infringes a third party’s rights or violates applicable law; or
-    Your Content. 
+    Your Content.
 
 16.2 You will cooperate as fully as reasonably required in the defense of any allegation or third-party legal proceeding. Google reserves the right, at its own expense, to assume the exclusive control and defense of any indemnified matter under this Section 16.
 17. Copyright Policies; Content Removal; Termination of Repeat Offenders’ Accounts.
@@ -500,38 +605,41 @@ It is Google’s policy to respond to notices of alleged copyright infringement 
 19.8 Conflicting Languages. If these Terms are translated into any other language, and there is a discrepancy between the English text and the translated text, the English text will govern.
 
 19.9 Governing Law. ALL CLAIMS ARISING OUT OF OR RELATING TO THESE TERMS OR ANY RELATED GOOGLE SERVICES WILL BE GOVERNED BY CALIFORNIA LAW, EXCLUDING CALIFORNIA&#39;S CONFLICT OF LAWS RULES, AND WILL BE LITIGATED EXCLUSIVELY IN THE FEDERAL OR STATE COURTS OF SANTA CLARA COUNTY, CALIFORNIA, USA; THE PARTIES CONSENT TO PERSONAL JURISDICTION IN THOSE COURTS.</code></pre>
-  </div>
+    </div>
 
     <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
-  <script>
-    $(document).ready(function() {
-      let url_params = new URLSearchParams(window.location.search);
-      let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
-        let [start, end] = value.split("-");
-        $("#license-text").markRanges([{
-          start: start,
-          length: end - start,
-        }]);
-      });
-    });
-  </script>
+        <footer class="section text-dark">
+            <p>
+                <a href="help.html">Help</a> ·
+                <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+                <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+                <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+            </p>
+            <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+                Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.
+            </p>
+            <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode
+                    toolkit</a>
+                32.2.1 on 2024-08-09.</p>
+            <p>SPDX Licenses list version: 3.24</p>
 
-  </body>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            let url_params = new URLSearchParams(window.location.search);
+            let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
+            $.each(marks, function (index, value) {
+                let [start, end] = value.split("-");
+                $("#license-text").markRanges([{
+                    start: start,
+                    length: end - start,
+                }]);
+            });
+        });
+    </script>
+
+</body>
+
 </html>

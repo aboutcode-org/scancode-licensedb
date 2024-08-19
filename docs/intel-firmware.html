@@ -1,135 +1,226 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: intel-firmware</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: intel-firmware</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="intel-firmware.yml">yml</a> -
     <a href="intel-firmware.json">json</a> -
     <a href="intel-firmware.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/intel-firmware.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/intel-firmware.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            intel-firmware
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Intel Firmware License
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Intel Firmware License
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Intel Corporation
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="https://github.com/coreos/portage-stable/blob/master/licenses/ipw2200-fw" rel="noopener" target="_blank">https://github.com/coreos/portage-stable/blob/master/licenses/ipw2200-fw</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-intel-firmware
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.redhat.com/licenses/thirdparty/intel_ipw2100.html" rel="noopener" target="_blank">http://www.redhat.com/licenses/thirdparty/intel_ipw2100.html</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>ftp://ftp.supermicro.com/CDR-X9_1.30_for_Intel_X9_platform/Intel/ME/INTEL_SOFTWARE_LICENSE_AGREEMENT.pdf</li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        intel-firmware
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Intel Firmware License
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Intel Firmware License
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Intel Corporation
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="https://github.com/coreos/portage-stable/blob/master/licenses/ipw2200-fw" rel="noopener"
+          target="_blank">https://github.com/coreos/portage-stable/blob/master/licenses/ipw2200-fw</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-intel-firmware
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.redhat.com/licenses/thirdparty/intel_ipw2100.html" rel="noopener"
+              target="_blank">http://www.redhat.com/licenses/thirdparty/intel_ipw2100.html</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>ftp://ftp.supermicro.com/CDR-X9_1.30_for_Intel_X9_platform/Intel/ME/INTEL_SOFTWARE_LICENSE_AGREEMENT.pdf
+          </li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>TERMS AND CONDITIONS
@@ -142,13 +233,13 @@ or use the Software.
 
 LICENSEES:
 
-Please note: 
+Please note:
 
 * If you are an End-User, only Exhibit A, the SOFTWARE LICENSE AGREEMENT,
   applies.
 * If you are an Original Equipment Manufacturer (OEM), Independent Hardware
   Vendor (IHV), or Independent Software Vendor (ISV), this complete Agreement
-  applies 
+  applies
 
 --------------------------------------------------------------------------------
 
@@ -164,7 +255,7 @@ to your end-users, but only under a license agreement with terms at least as
 restrictive as those contained in Intel&#39;s Final, Single User License Agreement,
 attached as Exhibit A; and (iii) modify, copy and distribute the end-user
 documentation which may accompany the Software, but only in association with
-the Software.  
+the Software.
 
 If you are not the final manufacturer or vendor of a computer system or software
 program incorporating the Software, then you may transfer a copy of the
@@ -180,23 +271,23 @@ data files generated by the Software. Your rights to redistribute the Software
 shall be contingent upon your installation of this Agreement in its entirety in
 the same directory as the Software.
 
-CONTRACTORS. For the purpose of this Agreement, and notwithstanding anything 
-to the contrary hereunder, solely with respect to the requirements for 
-compliance with the terms hereunder, any contractors or consultants that You 
-use to perform the work or otherwise assist You in the development or products 
-using this Software shall be deemed to be End Users and accordingly, upon 
-receipt of the Software, shall be bound by the terms of Exhibit A, Software 
-License Agreement. No additional agreement between You and such consultants or 
+CONTRACTORS. For the purpose of this Agreement, and notwithstanding anything
+to the contrary hereunder, solely with respect to the requirements for
+compliance with the terms hereunder, any contractors or consultants that You
+use to perform the work or otherwise assist You in the development or products
+using this Software shall be deemed to be End Users and accordingly, upon
+receipt of the Software, shall be bound by the terms of Exhibit A, Software
+License Agreement. No additional agreement between You and such consultants or
 contractors is required under this Agreement to detail such compliance.
 
-TRADEMARKS. Except as expressly provided herein, you shall not use Intel&#39;s 
-name in any publications, advertisements, or other announcements without 
-Intel&#39;s prior written consent. You do not have any rights to use any Intel 
+TRADEMARKS. Except as expressly provided herein, you shall not use Intel&#39;s
+name in any publications, advertisements, or other announcements without
+Intel&#39;s prior written consent. You do not have any rights to use any Intel
 trademarks or logos.
 
 OWNERSHIP OF SOFTWARE AND COPYRIGHTS. Software and accompanying materials, if
 any, are owned by Intel or its suppliers and licensors and may be protected by
-copyright, trademark, patent and trade secret law and international treaties. 
+copyright, trademark, patent and trade secret law and international treaties.
 Any rights, express or implied, in the intellectual property embodied in the
 foregoing, other than those specified in this Agreement, are reserved by Intel
 and its suppliers and licensors or otherwise as set forth in any applicable
@@ -214,7 +305,7 @@ SPECIAL DAMAGES OF ANY KIND, EVEN IF INTEL OR ITS SUPPLIERS AND LICENSORS HAS
 BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.   SOME JURISDICTIONS PROHIBIT
 EXCLUSION OR LIMITATION OF LIABILITY FOR IMPLIED WARRANTIES, CONSEQUENTIAL OR
 INCIDENTAL DAMAGES, SO CERTAIN LIMITATIONS MAY NOT APPLY.  YOU MAY ALSO HAVE
-OTHER LEGAL RIGHTS THAT VARY BETWEEN JURISDICTIONS. 
+OTHER LEGAL RIGHTS THAT VARY BETWEEN JURISDICTIONS.
 
 EXCLUSION OF WARRANTIES.  THE SOFTWARE IS PROVIDED &#34;AS IS&#34; AND POSSIBLY WITH
 FAULTS. UNLESS EXPRESSLY AGREED OTHERWISE, INTEL AND ITS SUPPLIERS AND
@@ -225,15 +316,15 @@ or assume responsibility for the accuracy or completeness of any information,
 text, graphics, links or other items contained within the Software.  You assume
 all liability, financial or otherwise, associated with Your use or disposition
 of the Software.
-		
+
 APPLICABLE LAW. Claims arising under this Agreement shall be governed by the
 laws of State of California], excluding its principles of conflict of laws and
-the United Nations Convention on Contracts for the Sale of Goods.  
+the United Nations Convention on Contracts for the Sale of Goods.
 
 WAIVER AND AMENDMENT. No modification, amendment or waiver of any provision of
 this Agreement shall be effective unless in writing and signed by an officer of
 Intel.  No failure or delay in exercising any right, power, or remedy under
-this Agreement shall operate as a waiver of any such right, power or remedy. 
+this Agreement shall operate as a waiver of any such right, power or remedy.
 Without limiting the foregoing, terms and conditions on any purchase orders or
 similar materials submitted by you to Intel, and any terms contained in Intels
 standard acknowledgment form that are in conflict with these terms, shall be of
@@ -280,17 +371,17 @@ read the following terms and conditions. By loading or using the Software, you
 agree to the terms of this Agreement. If you do not wish to so agree, do not
 install or use the Software.
 
-LICENSE. You may copy and use the Software, subject to these conditions: 
+LICENSE. You may copy and use the Software, subject to these conditions:
 1. This Software is licensed for use only in conjunction with Intel component
-   products. Use of the Software in conjunction with non-Intel component 
-   products is not licensed hereunder. 
+   products. Use of the Software in conjunction with non-Intel component
+   products is not licensed hereunder.
 2. You may not copy, modify, rent, sell, distribute or transfer any part of the
    Software except as provided in this Agreement, and you agree to prevent
-   unauthorized copying of the Software. 
-3. You may not reverse engineer, decompile, or disassemble the Software. 
-4. You may not sublicense the Software. 
+   unauthorized copying of the Software.
+3. You may not reverse engineer, decompile, or disassemble the Software.
+4. You may not sublicense the Software.
 5. The Software may contain the software or other property of third party
-   suppliers. 
+   suppliers.
 
 OWNERSHIP OF SOFTWARE AND COPYRIGHTS. Title to all copies of the Software
 remains with Intel or its suppliers. The Software is copyrighted and protected
@@ -300,7 +391,7 @@ may make changes to the Software, or items referenced therein, at any time
 without notice, but is not obligated to support or update the Software. Except
 as otherwise expressly provided, Intel grants no express or implied right under
 Intel patents, copyrights, trademarks, or other intellectual property rights.
-You may transfer the Software only if a copy of this license accompanies the 
+You may transfer the Software only if a copy of this license accompanies the
 Software and the recipient agrees to be fully bound by these terms.
 
 EXCLUSION OF OTHER WARRANTIES EXCEPT AS PROVIDED ABOVE, THE SOFTWARE IS PROVIDED
@@ -338,28 +429,28 @@ proprietary rights therein. Contractor or Manufacturer is Intel Corporation,
 2200 Mission College Blvd., Santa Clara, CA 95052.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -369,5 +460,6 @@ proprietary rights therein. Contractor or Manufacturer is Intel Corporation,
     });
   </script>
 
-  </body>
+</body>
+
 </html>

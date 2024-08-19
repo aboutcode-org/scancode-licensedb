@@ -1,192 +1,293 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: artistic-2.0</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: artistic-2.0</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="artistic-2.0.yml">yml</a> -
     <a href="artistic-2.0.json">json</a> -
     <a href="artistic-2.0.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/artistic-2.0.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/artistic-2.0.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            artistic-2.0
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Artistic 2.0
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Artistic License 2.0
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Copyleft Limited
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Perl Foundation
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://www.perlfoundation.org/" rel="noopener" target="_blank">http://www.perlfoundation.org/</a>
-          
-        </dd>
-      
-        <dt style="">notes</dt>
-        <dd>
-          
-            Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this version was released 2006 This license is OSI
-certifified.
 
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            Artistic-2.0
-          
-        </dd>
-      
-        <dt style="">osi_license_key</dt>
-        <dd>
-          
-            Artistic-2.0
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://www.perlfoundation.org/artistic_license_2_0" rel="noopener" target="_blank">https://www.perlfoundation.org/artistic_license_2_0</a></li><li><a href="https://www.perlfoundation.org/attachment/legal/artistic-2_0.txt" rel="noopener" target="_blank">https://www.perlfoundation.org/attachment/legal/artistic-2_0.txt</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">osi_url</dt>
-        <dd>
-          
-            <a href="https://www.opensource.org/licenses/artistic-license-2.0.php" rel="noopener" target="_blank">https://www.opensource.org/licenses/artistic-license-2.0.php</a>
-          
-        </dd>
-      
-        <dt style="">faq_url</dt>
-        <dd>
-          
-            <a href="https://www.perlfoundation.org/artistic-2-0-notes" rel="noopener" target="_blank">https://www.perlfoundation.org/artistic-2-0-notes</a>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://www.perlfoundation.org/artistic_license_2_0" rel="noopener" target="_blank">http://www.perlfoundation.org/artistic_license_2_0</a></li><li><a href="https://opensource.org/licenses/artistic-license-2.0" rel="noopener" target="_blank">https://opensource.org/licenses/artistic-license-2.0</a></li><li><a href="https://www.opensource.org/licenses/artistic-license-2.0" rel="noopener" target="_blank">https://www.opensource.org/licenses/artistic-license-2.0</a></li><li><a href="https://www.perlfoundation.org/artistic-license-20.html" rel="noopener" target="_blank">https://www.perlfoundation.org/artistic-license-20.html</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Copyright (c) 2000-2006, The Perl Foundation</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>The Perl Foundation</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_authors</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>The Perl Foundation</li>
-            </ul>
-          
-        </dd>
-      
+      <dt style="">key</dt>
+      <dd>
+
+        artistic-2.0
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Artistic 2.0
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Artistic License 2.0
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Copyleft Limited
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Perl Foundation
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://www.perlfoundation.org/" rel="noopener" target="_blank">http://www.perlfoundation.org/</a>
+
+      </dd>
+
+      <dt style="">notes</dt>
+      <dd>
+
+        Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this version was released 2006 This
+        license is OSI
+        certifified.
+
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        Artistic-2.0
+
+      </dd>
+
+      <dt style="">osi_license_key</dt>
+      <dd>
+
+        Artistic-2.0
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://www.perlfoundation.org/artistic_license_2_0" rel="noopener"
+              target="_blank">https://www.perlfoundation.org/artistic_license_2_0</a></li>
+          <li><a href="https://www.perlfoundation.org/attachment/legal/artistic-2_0.txt" rel="noopener"
+              target="_blank">https://www.perlfoundation.org/attachment/legal/artistic-2_0.txt</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">osi_url</dt>
+      <dd>
+
+        <a href="https://www.opensource.org/licenses/artistic-license-2.0.php" rel="noopener"
+          target="_blank">https://www.opensource.org/licenses/artistic-license-2.0.php</a>
+
+      </dd>
+
+      <dt style="">faq_url</dt>
+      <dd>
+
+        <a href="https://www.perlfoundation.org/artistic-2-0-notes" rel="noopener"
+          target="_blank">https://www.perlfoundation.org/artistic-2-0-notes</a>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://www.perlfoundation.org/artistic_license_2_0" rel="noopener"
+              target="_blank">http://www.perlfoundation.org/artistic_license_2_0</a></li>
+          <li><a href="https://opensource.org/licenses/artistic-license-2.0" rel="noopener"
+              target="_blank">https://opensource.org/licenses/artistic-license-2.0</a></li>
+          <li><a href="https://www.opensource.org/licenses/artistic-license-2.0" rel="noopener"
+              target="_blank">https://www.opensource.org/licenses/artistic-license-2.0</a></li>
+          <li><a href="https://www.perlfoundation.org/artistic-license-20.html" rel="noopener"
+              target="_blank">https://www.perlfoundation.org/artistic-license-20.html</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Copyright (c) 2000-2006, The Perl Foundation</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>The Perl Foundation</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_authors</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>The Perl Foundation</li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>               The Artistic License 2.0
@@ -208,7 +309,7 @@ You are always permitted to make arrangements wholly outside of this
 license directly with the Copyright Holder of a given Package.  If the
 terms of this license do not permit the full use that you propose to
 make of the Package, you should contact the Copyright Holder and seek
-a different licensing arrangement. 
+a different licensing arrangement.
 
 Definitions
 
@@ -241,7 +342,7 @@ Definitions
 
     &#34;Modified Version&#34; means the Package, if it has been changed, and
     such changes were not explicitly requested by the Copyright
-    Holder. 
+    Holder.
 
     &#34;Original License&#34; means this Artistic License as Distributed with
     the Standard Version of the Package, in its current version or as
@@ -277,7 +378,7 @@ Package will still be considered the Standard Version, and as such
 will be subject to the Original License.
 
 
-Distribution of Modified Versions of the Package as Source 
+Distribution of Modified Versions of the Package as Source
 
 (4)  You may Distribute your Modified Version as Source (either gratis
 or for a Distributor Fee, and with or without a Compiled form of the
@@ -299,7 +400,7 @@ you do at least ONE of the following:
     (c)  allow anyone who receives a copy of the Modified Version to
     make the Source form of the Modified Version available to others
     under
-        
+
     (i)  the Original License or
 
     (ii)  a license that permits the licensee to freely copy,
@@ -311,7 +412,7 @@ you do at least ONE of the following:
     Fees are allowed.
 
 
-Distribution of Compiled Forms of the Standard Version 
+Distribution of Compiled Forms of the Standard Version
 or Modified Versions without the Source
 
 (5)  You may Distribute Compiled forms of the Standard Version without
@@ -329,7 +430,7 @@ the Source, provided that you comply with Section 4 with respect to
 the Source of the Modified Version.
 
 
-Aggregating or Linking the Package 
+Aggregating or Linking the Package
 
 (7)  You may aggregate the Package (either the Standard Version or
 Modified Version) with other packages and Distribute the resulting
@@ -346,7 +447,7 @@ include the Package, and Distribute the result without restriction,
 provided the result does not expose a direct interface to the Package.
 
 
-Items That are Not Considered Part of a Modified Version 
+Items That are Not Considered Part of a Modified Version
 
 (9) Works (including, but not limited to, modules and scripts) that
 merely extend or make use of the Package, do not, by themselves, cause
@@ -392,28 +493,28 @@ DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -423,5 +524,6 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

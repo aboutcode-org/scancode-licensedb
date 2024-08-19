@@ -8,7 +8,7 @@ homepage_url: https://duendesoftware.com/license/SoftwareLicense.pdf
 spdx_license_key: LicenseRef-scancode-duende-sla-2022
 faq_url: https://www.nuget.org/packages/Duende.IdentityServer/6.0.4/License
 other_urls:
-    - https://github.com/nexB/scancode-toolkit/issues/2954
+    - https://github.com/aboutcode-org/scancode-toolit/issues/2954
     - https://www.nuget.org/packages/Duende.IdentityServer/6.0.4
 ignorable_urls:
     - https://duendesoftware.com/products/support

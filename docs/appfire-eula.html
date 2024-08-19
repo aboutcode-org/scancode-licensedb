@@ -1,135 +1,236 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: appfire-eula</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: appfire-eula</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="appfire-eula.yml">yml</a> -
     <a href="appfire-eula.json">json</a> -
     <a href="appfire-eula.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/appfire-eula.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/appfire-eula.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            appfire-eula
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            Appfire EULA
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Appfire EULA
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Appfire
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://appfire.com/eula" rel="noopener" target="_blank">http://appfire.com/eula</a>
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-appfire-eula
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://bobswift.atlassian.net/" rel="noopener" target="_blank">https://bobswift.atlassian.net/</a></li><li><a href="https://bobswift.atlassian.net/wiki/questions" rel="noopener" target="_blank">https://bobswift.atlassian.net/wiki/questions</a></li><li><a href="https://marketplace.atlassian.com/" rel="noopener" target="_blank">https://marketplace.atlassian.com/</a></li><li><a href="https://wittified.atlassian.net/" rel="noopener" target="_blank">https://wittified.atlassian.net/</a></li><li><a href="https://wittified.atlassian.net/wiki/questions" rel="noopener" target="_blank">https://wittified.atlassian.net/wiki/questions</a></li><li><a href="https://www.atlassian.com/licensing/marketplace/termsofuse" rel="noopener" target="_blank">https://www.atlassian.com/licensing/marketplace/termsofuse</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_emails</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="mailto:legal@appfire.com">legal@appfire.com</a></li><li><a href="mailto:operations@appfire.com">operations@appfire.com</a></li><li><a href="mailto:unsubscribe@appfire.com">unsubscribe@appfire.com</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        appfire-eula
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        Appfire EULA
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Appfire EULA
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Appfire
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://appfire.com/eula" rel="noopener" target="_blank">http://appfire.com/eula</a>
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-appfire-eula
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="https://bobswift.atlassian.net/" rel="noopener"
+              target="_blank">https://bobswift.atlassian.net/</a></li>
+          <li><a href="https://bobswift.atlassian.net/wiki/questions" rel="noopener"
+              target="_blank">https://bobswift.atlassian.net/wiki/questions</a></li>
+          <li><a href="https://marketplace.atlassian.com/" rel="noopener"
+              target="_blank">https://marketplace.atlassian.com/</a></li>
+          <li><a href="https://wittified.atlassian.net/" rel="noopener"
+              target="_blank">https://wittified.atlassian.net/</a></li>
+          <li><a href="https://wittified.atlassian.net/wiki/questions" rel="noopener"
+              target="_blank">https://wittified.atlassian.net/wiki/questions</a></li>
+          <li><a href="https://www.atlassian.com/licensing/marketplace/termsofuse" rel="noopener"
+              target="_blank">https://www.atlassian.com/licensing/marketplace/termsofuse</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_emails</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="mailto:legal@appfire.com">legal@appfire.com</a></li>
+          <li><a href="mailto:operations@appfire.com">operations@appfire.com</a></li>
+          <li><a href="mailto:unsubscribe@appfire.com">unsubscribe@appfire.com</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Appfire EULA
@@ -149,7 +250,7 @@ B. This EULA does not cover the sale or resale of Atlassian-manufactured softwar
 
 2. Account Registration
 
-You may need to register on the Atlassian Marketplace at https://marketplace.atlassian.com in order to place orders or access or receive any Products. Any registration information that you provide must be accurate, current and complete. You must also update your information so that Licensor may send notices, statements and other information to you by email or through your account. You are responsible for all actions taken through your accounts. 
+You may need to register on the Atlassian Marketplace at https://marketplace.atlassian.com in order to place orders or access or receive any Products. Any registration information that you provide must be accurate, current and complete. You must also update your information so that Licensor may send notices, statements and other information to you by email or through your account. You are responsible for all actions taken through your accounts.
 
 3. Orders
 
@@ -199,7 +300,7 @@ E. Licensor encourages feedback from its customers. If you have any feedback reg
 
 8. Data Security &amp; Privacy
 
-A. Licensor values your privacy and is committed to secure private information from loss, misuse, unauthorized access, disclosure, alteration and destruction. Licensor will not sell or otherwise redistribute to third parties the information Licensor collects from you, as described in this Section. 
+A. Licensor values your privacy and is committed to secure private information from loss, misuse, unauthorized access, disclosure, alteration and destruction. Licensor will not sell or otherwise redistribute to third parties the information Licensor collects from you, as described in this Section.
 
 B. Licensor constantly strives to improve its Products. To do so, Licensor needs to measure, analyze, and aggregate how users interact with the Products, such as usage patterns and characteristics of its user base. Licensor collects and uses analytics data regarding your use of the Products.
 
@@ -233,7 +334,7 @@ You agree that all code, inventions, know-how, business, technical and financial
 
 12. License Certifications and Audits
 
-At Licensor’s request, you agree to provide a signed certification that you are using all Products pursuant to the terms of this EULA, including the Scope of Use. You agree to allow Licensor or its agent, to audit your use of the Products. Licensor will provide you with at least 10 days advance notice prior to the audit, and the audit will be conducted during normal business hours. Licensor will bear all its own out-of-pocket costs for the audit, unless the audit reveals that you have exceeded the Scope of Use. You will provide reasonable assistance, cooperation, and access to relevant information in the course of any audit at your own cost. If you exceed your Scope of Use, Licensor may invoice you for any past or ongoing excessive use, and you will pay the invoice promptly after receipt. This remedy is without prejudice to any other remedies available to Licensor at law or equity or under this EULA. To the extent necessary, Licensor may share audit results with certain of its third party licensors or assign the audit rights specified in this Section to such licensors. 
+At Licensor’s request, you agree to provide a signed certification that you are using all Products pursuant to the terms of this EULA, including the Scope of Use. You agree to allow Licensor or its agent, to audit your use of the Products. Licensor will provide you with at least 10 days advance notice prior to the audit, and the audit will be conducted during normal business hours. Licensor will bear all its own out-of-pocket costs for the audit, unless the audit reveals that you have exceeded the Scope of Use. You will provide reasonable assistance, cooperation, and access to relevant information in the course of any audit at your own cost. If you exceed your Scope of Use, Licensor may invoice you for any past or ongoing excessive use, and you will pay the invoice promptly after receipt. This remedy is without prejudice to any other remedies available to Licensor at law or equity or under this EULA. To the extent necessary, Licensor may share audit results with certain of its third party licensors or assign the audit rights specified in this Section to such licensors.
 
 13. Publicity Rights
 
@@ -299,7 +400,7 @@ Licensor may update, modify or amend (together, “Revise”) this EULA from tim
 
 This EULA constitutes the entire agreement between the parties with respect to its subject matter, and supersedes all prior agreements, proposals, negotiations, representations or communications relating to the subject matter. Both parties acknowledge that they have not been induced to enter into this EULA by any representations or promises not specifically stated herein. This EULA may not be modified or amended by you without Licensor’s written agreement (which may be withheld in Licensor’s complete discretion).
 
-In the event of a conflict between the terms of this EULA and the terms of any open source licenses applicable to the Software, for the specific terms in conflict the terms of the open source licenses shall control with regard to the Software, or part-thereof. 
+In the event of a conflict between the terms of this EULA and the terms of any open source licenses applicable to the Software, for the specific terms in conflict the terms of the open source licenses shall control with regard to the Software, or part-thereof.
 
 26. Contact Information
 
@@ -308,28 +409,28 @@ For communications concerning this EULA, please write to legal@appfire.com.
 Last updated: October 6, 2016</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -339,5 +440,6 @@ Last updated: October 6, 2016</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>

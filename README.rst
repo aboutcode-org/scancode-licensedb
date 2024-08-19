@@ -49,13 +49,13 @@ license details and texts using this license key as an identifier:
 - as YAML: https://scancode-licensedb.aboutcode.org/<license key>.yml
   for instance: https://scancode-licensedb.aboutcode.org/gpl-2.0.yml
 
-- as text for the full license text: https://scancode-licensedb.aboutcode.org/<license key>.LICENSE 
+- as text for the full license text: https://scancode-licensedb.aboutcode.org/<license key>.LICENSE
   for instance: https://scancode-licensedb.aboutcode.org/gpl-2.0.LICENSE
 
 
 This index and the static website is also available offline with ScanCode Toolkit as a
 console script available at configure/install. Sample command::
-  
+
   scancode-license-data --path PATH
 
 
@@ -63,22 +63,22 @@ Git
 -----
 
 This git repository contains the full history of the generated HTML and JSON API
-documents: https://github.com/nexB/scancode-licensedb
+documents: https://github.com/aboutcode-org/scancode-licensedb
 
 
 This git repository contains the original and editable source files:
-https://github.com/nexB/scancode-toolkit
+https://github.com/aboutcode-org/scancode-toolit
 
 - for the text of a license and the metadata of a license as YAML frontmatter, for instance at
-  https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE
+  https://github.com/aboutcode-org/scancode-toolit/tree/develop/src/licensedcode/data/licenses/gpl-2.0.LICENSE
 
 
 Support
 --------
 
 - Chat with us at: https://gitter.im/aboutcode-org/discuss
-- Report issues or ask questions at: https://github.com/nexB/scancode-toolkit/issues and
-  https://github.com/nexB/scancode-licensedb/issues
+- Report issues or ask questions at: https://github.com/aboutcode-org/scancode-toolit/issues and
+  https://github.com/aboutcode-org/scancode-licensedb/issues
 - Visit https://www.aboutcode.org/ for more open source and open data projects.
 
 
@@ -95,7 +95,7 @@ License
 
 SPDX-License-Identifier: CC-BY-4.0 AND Apache-2.0
 
-https://github.com/nexB/scancode-licensedb
+https://github.com/aboutcode-org/scancode-licensedb
 Copyright (c) nexB Inc. and others.
 ScanCode is a trademark of nexB Inc.
 
@@ -118,8 +118,8 @@ either express or implied.
 No content from ScanCode LicenseDB should be considered or used as legal advice.
 Consult an attorney for any legal advice.
 
-Visit https://github.com/nexB/scancode-licensedb for support.
+Visit https://github.com/aboutcode-org/scancode-licensedb for support.
 
 ScanCode Toolkit is a free Software Composition Analysis tool from nexB Inc. and
 others.
-Visit https://github.com/nexB/scancode-toolkit for support and download.
+Visit https://github.com/aboutcode-org/scancode-toolit for support and download.

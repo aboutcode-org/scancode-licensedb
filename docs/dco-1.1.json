@@ -1,23 +1,19 @@
 {
-  "key": "dco-1.1",
-  "short_name": "DCO 1.1",
-  "name": "Developer Certificate of Origin 1.1",
-  "category": "CLA",
-  "owner": "Linux Foundation",
-  "homepage_url": "https://developercertificate.org/",
-  "spdx_license_key": "LicenseRef-scancode-dco-1.1",
-  "text_urls": [
-    "https://developercertificate.org/"
-  ],
-  "other_urls": [
-    "https://github.com/nexB/scancode-toolkit/issues/3038#issuecomment-1317511139"
-  ],
-  "minimum_coverage": 90,
-  "ignorable_copyrights": [
-    "Copyright (c) 2004, 2006 The Linux Foundation and its contributors"
-  ],
-  "ignorable_holders": [
-    "The Linux Foundation and its contributors"
-  ],
-  "text": "Developer Certificate of Origin\nVersion 1.1\n\nCopyright (C) 2004, 2006 The Linux Foundation and its contributors.\n1 Letterman Drive\nSuite D4700\nSan Francisco, CA, 94129\n\nEveryone is permitted to copy and distribute verbatim copies of this\nlicense document, but changing it is not allowed.\n\n\nDeveloper's Certificate of Origin 1.1\n\nBy making a contribution to this project, I certify that:\n\n(a) The contribution was created in whole or in part by me and I\n    have the right to submit it under the open source license\n    indicated in the file; or\n\n(b) The contribution is based upon previous work that, to the best\n    of my knowledge, is covered under an appropriate open source\n    license and I have the right under that license to submit that\n    work with modifications, whether created in whole or in part\n    by me, under the same open source license (unless I am\n    permitted to submit under a different license), as indicated\n    in the file; or\n\n(c) The contribution was provided directly to me by some other\n    person who certified (a), (b) or (c) and I have not modified\n    it.\n\n(d) I understand and agree that this project and the contribution\n    are public and that a record of the contribution (including all\n    personal information I submit with it, including my sign-off) is\n    maintained indefinitely and may be redistributed consistent with\n    this project or the open source license(s) involved."
+    "key": "dco-1.1",
+    "short_name": "DCO 1.1",
+    "name": "Developer Certificate of Origin 1.1",
+    "category": "CLA",
+    "owner": "Linux Foundation",
+    "homepage_url": "https://developercertificate.org/",
+    "spdx_license_key": "LicenseRef-scancode-dco-1.1",
+    "text_urls": ["https://developercertificate.org/"],
+    "other_urls": [
+        "https://github.com/aboutcode-org/scancode-toolit/issues/3038#issuecomment-1317511139"
+    ],
+    "minimum_coverage": 90,
+    "ignorable_copyrights": [
+        "Copyright (c) 2004, 2006 The Linux Foundation and its contributors"
+    ],
+    "ignorable_holders": ["The Linux Foundation and its contributors"],
+    "text": "Developer Certificate of Origin\nVersion 1.1\n\nCopyright (C) 2004, 2006 The Linux Foundation and its contributors.\n1 Letterman Drive\nSuite D4700\nSan Francisco, CA, 94129\n\nEveryone is permitted to copy and distribute verbatim copies of this\nlicense document, but changing it is not allowed.\n\n\nDeveloper's Certificate of Origin 1.1\n\nBy making a contribution to this project, I certify that:\n\n(a) The contribution was created in whole or in part by me and I\n    have the right to submit it under the open source license\n    indicated in the file; or\n\n(b) The contribution is based upon previous work that, to the best\n    of my knowledge, is covered under an appropriate open source\n    license and I have the right under that license to submit that\n    work with modifications, whether created in whole or in part\n    by me, under the same open source license (unless I am\n    permitted to submit under a different license), as indicated\n    in the file; or\n\n(c) The contribution was provided directly to me by some other\n    person who certified (a), (b) or (c) and I have not modified\n    it.\n\n(d) I understand and agree that this project and the contribution\n    are public and that a record of the contribution (including all\n    personal information I submit with it, including my sign-off) is\n    maintained indefinitely and may be redistributed consistent with\n    this project or the open source license(s) involved."
 }

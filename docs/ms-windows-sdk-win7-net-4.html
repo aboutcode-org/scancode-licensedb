@@ -1,137 +1,232 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: ms-windows-sdk-win7-net-4</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: ms-windows-sdk-win7-net-4</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ms-windows-sdk-win7-net-4.yml">yml</a> -
     <a href="ms-windows-sdk-win7-net-4.json">json</a> -
     <a href="ms-windows-sdk-win7-net-4.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-windows-sdk-win7-net-4.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-windows-sdk-win7-net-4.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            ms-windows-sdk-win7-net-4
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            MS Windows SDK Windows7 .NET Framework 4
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            Microsoft Windows SDK for Windows 7 and .NET Framework 4
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Proprietary Free
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            Microsoft
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            LicenseRef-scancode-ms-windows-sdk-win7-net-4
-          
-        </dd>
-      
-        <dt style="">ignorable_copyrights</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Copyright (c) 2006 Microsoft Corporation</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_holders</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li>Microsoft Corporation</li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://go.microsoft.com/fwlink/?LinkID=185267&amp;clcid=0x409" rel="noopener" target="_blank">http://go.microsoft.com/fwlink/?LinkID=185267&amp;clcid=0x409</a></li><li><a href="http://go.microsoft.com/fwlink/?LinkID=185268&amp;clcid=0x409" rel="noopener" target="_blank">http://go.microsoft.com/fwlink/?LinkID=185268&amp;clcid=0x409</a></li><li><a href="http://www.microsoft.com/exporting" rel="noopener" target="_blank">http://www.microsoft.com/exporting</a></li><li><a href="http://www.microsoft.com/licensing/userights" rel="noopener" target="_blank">http://www.microsoft.com/licensing/userights</a></li>
-            </ul>
-          
-        </dd>
-      
+
+      <dt style="">key</dt>
+      <dd>
+
+        ms-windows-sdk-win7-net-4
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        MS Windows SDK Windows7 .NET Framework 4
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        Microsoft Windows SDK for Windows 7 and .NET Framework 4
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Proprietary Free
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        Microsoft
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        LicenseRef-scancode-ms-windows-sdk-win7-net-4
+
+      </dd>
+
+      <dt style="">ignorable_copyrights</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Copyright (c) 2006 Microsoft Corporation</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_holders</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li>Microsoft Corporation</li>
+        </ul>
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://go.microsoft.com/fwlink/?LinkID=185267&amp;clcid=0x409" rel="noopener"
+              target="_blank">http://go.microsoft.com/fwlink/?LinkID=185267&amp;clcid=0x409</a></li>
+          <li><a href="http://go.microsoft.com/fwlink/?LinkID=185268&amp;clcid=0x409" rel="noopener"
+              target="_blank">http://go.microsoft.com/fwlink/?LinkID=185268&amp;clcid=0x409</a></li>
+          <li><a href="http://www.microsoft.com/exporting" rel="noopener"
+              target="_blank">http://www.microsoft.com/exporting</a></li>
+          <li><a href="http://www.microsoft.com/licensing/userights" rel="noopener"
+              target="_blank">http://www.microsoft.com/licensing/userights</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>MICROSOFT SOFTWARE LICENSE TERMS
@@ -139,37 +234,37 @@ MICROSOFT WINDOWS SOFTWARE DEVELOPMENT KIT FOR WINDOWS 7 and .NET FRAMEWORK 4
 These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you.  Please read them.  They apply to the software named above, which includes the media on which you received it, if any.  The terms also apply to any Microsoft
 •         updates,
 •         supplements,
-•         Internet-based services, and 
+•         Internet-based services, and
 •         support services
 for this software, unless other terms accompany those items.  If so, those terms apply.
 BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.  IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE.
 If you comply with these license terms, you have the rights below.
-1.      INSTALLATION AND USE RIGHTS.  
+1.      INSTALLATION AND USE RIGHTS.
 a.      Installation and Use.  You may install and use any number of copies of the software on your devices to design, develop and test your programs that run on a Microsoft Windows operating system.  Further, you may install, use and/or deploy via a network management system or as part of a desktop image, any number of copies of the software on computer devices within your internal corporate network to design, develop and test your programs that run on a Microsoft Windows operating system.  Each copy must be complete, including all copyright and trademark notices.  You must require end users to agree to the terms that protect the software as much as these License terms.
-b.      Included Microsoft Programs.  The software contains other Microsoft programs.  These license terms apply to your use of those programs. 
+b.      Included Microsoft Programs.  The software contains other Microsoft programs.  These license terms apply to your use of those programs.
 2.      ADDITIONAL LICENSING REQUIREMENTS AND/OR USE RIGHTS.
 a.      Distributable Code.  The software contains code that you are permitted to distribute in programs you develop if you comply with the terms below.
 i.         Right to Use and Distribute.  The code and text files listed below are &#34;Distributable Code.&#34;
 •         REDIST.TXT Files.  You may copy and distribute the object code form of code listed in REDIST.TXT files, plus any files listed on the REDIST list located at &lt;http://go.microsoft.com/fwlink/?LinkID=185268&amp;clcid=0x409&gt;.
 •         Sample Code.  You may modify, copy, and distribute the source and object code form of code marked as &#34;sample.&#34;
-•	Sample Code for Microsoft Bing Maps AJAX Control.  The software contains sample code that makes use of the Bing Maps AJAX Control.  Your use and access of the Bing Maps AJAX Control is subject to the &#34;Microsoft Bing Maps Platform API’s Terms of Use&#34; which is located at:  &lt;http://go.microsoft.com/fwlink/?LinkID=185267&amp;clcid=0x409&gt;.  
+•	Sample Code for Microsoft Bing Maps AJAX Control.  The software contains sample code that makes use of the Bing Maps AJAX Control.  Your use and access of the Bing Maps AJAX Control is subject to the &#34;Microsoft Bing Maps Platform API’s Terms of Use&#34; which is located at:  &lt;http://go.microsoft.com/fwlink/?LinkID=185267&amp;clcid=0x409&gt;.
 •         Microsoft Merge Modules.  You may copy and distribute the unmodified output of Microsoft Merge Modules.
 •         Third Party Distribution.  You may permit distributors of your programs to copy and distribute the Distributable Code as part of those programs.
 ii.       Distribution Requirements.  For any Distributable Code you distribute, you must
 •         add significant primary functionality to it in your programs;
 •         for any Distributable Code having a filename extension of .lib, distribute only the results of running such Distributable Code through a linker with your application;
 •         distribute Distributable Code included in a setup program only as part of that setup program without modification;
-•         require distributors and external end users to agree to terms that protect it at least as much as this agreement; 
-•         display your valid copyright notice on your programs; 
+•         require distributors and external end users to agree to terms that protect it at least as much as this agreement;
+•         display your valid copyright notice on your programs;
 •         for Distributable Code from the Windows Media Services SDK portions of the software, include in your program’s Help-About box (or in another obvious place if there is no box) the following copyright notice:  &#34;Portions utilize Microsoft Windows Media Technologies.  Copyright (c) 2006 Microsoft Corporation.  All Rights Reserved&#34;; and
 •         indemnify, defend, and hold harmless Microsoft from any claims, including attorneys’ fees, related to the distribution or use of your programs.
 iii.      Distribution Restrictions.  You may not
-•         alter any copyright, trademark or patent notice in the Distributable Code; 
-•         use Microsoft’s trademarks in your programs’ names or in a way that suggests your programs come from or are endorsed by Microsoft; 
+•         alter any copyright, trademark or patent notice in the Distributable Code;
+•         use Microsoft’s trademarks in your programs’ names or in a way that suggests your programs come from or are endorsed by Microsoft;
 •         distribute Distributable Code to run on a platform other than the Windows platform;
 •         include Distributable Code in malicious, deceptive or unlawful programs; or
 •         modify or distribute the source code of any Distributable Code so that any part of it becomes subject to an Excluded License.  An Excluded License is one that requires, as a condition of use, modification or distribution, that
-•         the code be disclosed or distributed in source code form; or 
+•         the code be disclosed or distributed in source code form; or
 •         others have the right to modify it.
 b.      Additional Functionality.  Microsoft may provide additional functionality for the software.  Other license terms and fees may apply.
 3.      INTERNET-BASED SERVICES.  Microsoft provides Internet-based services with the software.  It may change or cancel them at any time. You may not use this service in any way that could harm it or impair anyone else’s use of it.  You may not use the service to try to gain unauthorized access to any service, data, account or network by any means.
@@ -199,28 +294,28 @@ It also applies even if Microsoft knew or should have known about the possibilit
 (French text omitted)</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -230,5 +325,6 @@ It also applies even if Microsoft knew or should have known about the possibilit
     });
   </script>
 
-  </body>
+</body>
+
 </html>

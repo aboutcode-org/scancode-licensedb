@@ -1,160 +1,255 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LicenseDB: ofl-1.0-rfn</title>
-    <style>
-      table.dataTable {visibility: visible!important;}
-      .dataTables_filter {display: none;}
-      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
-      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
-      header {padding-top: .4rem; padding-bottom: .4rem;}
-      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
-      a:visited {color: #5755d9!important;}
-      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
-      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
-      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
-      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
-      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
-    </style>
-    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-    <script src="static/jquery-3.5.1.slim.min.js"></script>
-    
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LicenseDB: ofl-1.0-rfn</title>
+  <style>
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    .dataTables_filter {
+      display: none;
+    }
+
+    table.dataTable thead th,
+    table.dataTable thead td {
+      padding: 8px !important;
+      border-top: 1px solid #111;
+    }
+
+    .dataTables_wrapper .dataTables_info {
+      padding: 0 0 2px !important;
+      font-size: .75rem !important;
+      color: #3b4351 !important;
+    }
+
+    header {
+      padding-top: .4rem;
+      padding-bottom: .4rem;
+    }
+
+    footer {
+      background-color: #f7f8f9;
+      color: #bcc3ce;
+      padding: 1.5rem .75rem 1rem;
+      margin-top: 1em;
+    }
+
+    a:visited {
+      color: #5755d9 !important;
+    }
+
+    .navbar .nav-item {
+      color: #66758c;
+      padding: .25rem .4rem;
+    }
+
+    .navbar .nav-item a,
+    .navbar .nav-item a:visited {
+      color: #66758c !important;
+    }
+
+    .anchor {
+      color: #6362dc;
+      display: none;
+      margin-left: .2rem;
+      padding: 0 .2rem;
+    }
+
+    h4:focus .anchor,
+    h4:hover .anchor {
+      display: inline;
+      text-decoration: none;
+    }
+
+    .help_text,
+    .help_text:hover,
+    .help_text:visited {
+      color: #3b4351 !important;
+      border-bottom: dotted 0.0625rem #cccccc;
+      text-decoration: inherit;
+    }
+  </style>
+  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+  <script src="static/jquery-3.5.1.slim.min.js"></script>
+
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {visibility: visible!important;}
-    #search-section {display: none;}
-    ul.list-style-none {list-style: none; margin: 0;}
-    ul li:first-child {margin-top: 0;}
-    dl {display: flex; flex-flow: row wrap;}
-    dl dt, dl dd {margin: 0; padding: 6px 10px;}
-    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
-    dd {flex-basis: 70%; flex-grow: 1;}
+    table.dataTable {
+      visibility: visible !important;
+    }
+
+    #search-section {
+      display: none;
+    }
+
+    ul.list-style-none {
+      list-style: none;
+      margin: 0;
+    }
+
+    ul li:first-child {
+      margin-top: 0;
+    }
+
+    dl {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    dl dt,
+    dl dd {
+      margin: 0;
+      padding: 6px 10px;
+    }
+
+    dt {
+      flex-basis: 20%;
+      background: #555;
+      text-align: right;
+      color: #fff;
+    }
+
+    dd {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
   </style>
 
-  </head>
-  <body style="padding: 0 7rem;">
-    <div class="container">
-  <header class="navbar">
-    <section class="navbar-section">
-      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-      <a href="help.html" class="btn btn-link">Help</a>
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-    </section>
-    <section id="search-section">
-      <div class="input-group input-inline">
-        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-        <input id="searchbox" class="form-input" type="search">
-      </div>
-    </section>
-  </header>
-</div>
-    
+</head>
+
+<body style="padding: 0 7rem;">
+  <div class="container">
+    <header class="navbar">
+      <section class="navbar-section">
+        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+        <a href="help.html" class="btn btn-link">Help</a>
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+      </section>
+      <section id="search-section">
+        <div class="input-group input-inline">
+          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+          <input id="searchbox" class="form-input" type="search">
+        </div>
+      </section>
+    </header>
+  </div>
+
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ofl-1.0-rfn.yml">yml</a> -
     <a href="ofl-1.0-rfn.json">json</a> -
     <a href="ofl-1.0-rfn.LICENSE">text</a> -
-    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ofl-1.0-rfn.LICENSE" target="_blank">edit License</a>
+    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ofl-1.0-rfn.LICENSE"
+      target="_blank">edit License</a>
     <hr>
     <dl>
-      
-        <dt style="">key</dt>
-        <dd>
-          
-            ofl-1.0-rfn
-          
-        </dd>
-      
-        <dt style="">short_name</dt>
-        <dd>
-          
-            OFL 1.0 Reserved Font Name
-          
-        </dd>
-      
-        <dt style="">name</dt>
-        <dd>
-          
-            SIL Open Font License 1.0 with Reserved Font Name
-          
-        </dd>
-      
-        <dt style="">category</dt>
-        <dd>
-          
-            Permissive
-          
-        </dd>
-      
-        <dt style="">owner</dt>
-        <dd>
-          
-            SIL International
-          
-        </dd>
-      
-        <dt style="">homepage_url</dt>
-        <dd>
-          
-            <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" rel="noopener" target="_blank">http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web</a>
-          
-        </dd>
-      
-        <dt style="">notes</dt>
-        <dd>
-          
-            Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license has been superseded. This license was released
-in November 2005.
 
-          
-        </dd>
-      
-        <dt style="">spdx_license_key</dt>
-        <dd>
-          
-            OFL-1.0-RFN
-          
-        </dd>
-      
-        <dt style="">text_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="https://scripts.sil.org/cms/scripts/render_download.php?format=file&amp;media_id=OFL10_plaintext&amp;filename=OFL10.txt" rel="noopener" target="_blank">https://scripts.sil.org/cms/scripts/render_download.php?format=file&amp;media_id=OFL10_plaintext&amp;filename=OFL10.txt</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">other_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" rel="noopener" target="_blank">http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web</a></li>
-            </ul>
-          
-        </dd>
-      
-        <dt style="">minimum_coverage</dt>
-        <dd>
-          
-            99
-          
-        </dd>
-      
-        <dt style="">ignorable_urls</dt>
-        <dd>
-          
-            <ul class="list-style-none">
-             <li><a href="http://scripts.sil.org/OFL" rel="noopener" target="_blank">http://scripts.sil.org/OFL</a></li>
-            </ul>
-          
-        </dd>
-      
+      <dt style="">key</dt>
+      <dd>
+
+        ofl-1.0-rfn
+
+      </dd>
+
+      <dt style="">short_name</dt>
+      <dd>
+
+        OFL 1.0 Reserved Font Name
+
+      </dd>
+
+      <dt style="">name</dt>
+      <dd>
+
+        SIL Open Font License 1.0 with Reserved Font Name
+
+      </dd>
+
+      <dt style="">category</dt>
+      <dd>
+
+        Permissive
+
+      </dd>
+
+      <dt style="">owner</dt>
+      <dd>
+
+        SIL International
+
+      </dd>
+
+      <dt style="">homepage_url</dt>
+      <dd>
+
+        <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" rel="noopener"
+          target="_blank">http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web</a>
+
+      </dd>
+
+      <dt style="">notes</dt>
+      <dd>
+
+        Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license has been superseded.
+        This license was released
+        in November 2005.
+
+
+      </dd>
+
+      <dt style="">spdx_license_key</dt>
+      <dd>
+
+        OFL-1.0-RFN
+
+      </dd>
+
+      <dt style="">text_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a
+              href="https://scripts.sil.org/cms/scripts/render_download.php?format=file&amp;media_id=OFL10_plaintext&amp;filename=OFL10.txt"
+              rel="noopener"
+              target="_blank">https://scripts.sil.org/cms/scripts/render_download.php?format=file&amp;media_id=OFL10_plaintext&amp;filename=OFL10.txt</a>
+          </li>
+        </ul>
+
+      </dd>
+
+      <dt style="">other_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web" rel="noopener"
+              target="_blank">http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web</a></li>
+        </ul>
+
+      </dd>
+
+      <dt style="">minimum_coverage</dt>
+      <dd>
+
+        99
+
+      </dd>
+
+      <dt style="">ignorable_urls</dt>
+      <dd>
+
+        <ul class="list-style-none">
+          <li><a href="http://scripts.sil.org/OFL" rel="noopener" target="_blank">http://scripts.sil.org/OFL</a></li>
+        </ul>
+
+      </dd>
+
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>&lt;Font Name&gt; is a Reserved Font Name for this Font Software.
@@ -178,7 +273,7 @@ others.
 
 The OFL allows the licensed fonts to be used, studied, modified and
 redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded, 
+fonts, including any derivative works, can be bundled, embedded,
 redistributed and sold with any software provided that the font
 names of derivative works are changed. The fonts and derivatives,
 however, cannot be released under any other type of license.
@@ -223,7 +318,7 @@ binary files as long as those fields can be easily viewed by the user.
 
 3) No Modified Version of the Font Software may use the Reserved Font
 Name(s), in part or in whole, unless explicit written permission is
-granted by the Copyright Holder. This restriction applies to all 
+granted by the Copyright Holder. This restriction applies to all
 references stored in the Font Software, such as the font menu name and
 other font description fields, which are used to differentiate the
 font from others.
@@ -254,28 +349,28 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.</code></pre>
   </div>
 
-    <div class="container">
-  <footer class="section text-dark">
-    <p>
-      <a href="help.html">Help</a> ·
-      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
-      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-    </p>
-    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-    32.2.1 on 2024-08-09.</p>
-    <p>SPDX Licenses list version: 3.24</p>
-    
-  </footer>
-</div>
-    
+  <div class="container">
+    <footer class="section text-dark">
+      <p>
+        <a href="help.html">Help</a> ·
+        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
+        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+      </p>
+      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+        32.2.1 on 2024-08-09.</p>
+      <p>SPDX Licenses list version: 3.24</p>
+
+    </footer>
+  </div>
+
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function(index, value) {
+      $.each(marks, function (index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -285,5 +380,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</code></pre>
     });
   </script>
 
-  </body>
+</body>
+
 </html>
