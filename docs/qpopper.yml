@@ -14,7 +14,7 @@ ignorable_holders:
   - QUALCOMM Incorporated
   - The Regents of the University of California
 ignorable_authors:
-  - Austin Shelton
+  - Austin Shelton, Information Systems and Technology, University of California, Berkeley
 text: "Qpopper(tm) is licensed by QUALCOMM Incorporated under the following\n    terms and conditions.\
   \  ANY USE OF QPOPPER CONSTITUTES AGREEMENT TO\n    THESE TERMS.\n\n1.  Warranty Disclaimer.\
   \  QPOPPER SOFTWARE IS PROVIDED TO THE USER \"AS\n    IS.\" QUALCOMM MAKES NO WARRANTIES,\
@@ -103,4 +103,4 @@ text: "Qpopper(tm) is licensed by QUALCOMM Incorporated under the following\n   
   \ ANY\n    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\n    OF MERCHANTABILITY\
   \ AND FITNESS FOR A PARTICULAR PURPOSE.  THE\n    POPPER SOFTWARE PROVIDED HEREUNDER IS ON\
   \ AN \"AS IS\" BASIS, AND THE\n    UNIVERSITY OF CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE\n\
-  \    MAINTENANCE, SUPPORT, UPDATES, ENCHANCEMENTS, OR MODIFICATIONS."
+  \    MAINTENANCE, SUPPORT, UPDATES, ENCHANCEMENTS, OR MODIFICATIONS.\n"

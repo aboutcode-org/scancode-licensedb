@@ -1,242 +1,151 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: tanuki-development</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: tanuki-development</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="tanuki-development.yml">yml</a> -
     <a href="tanuki-development.json">json</a> -
     <a href="tanuki-development.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/tanuki-development.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/tanuki-development.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        tanuki-development
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Tanuki Development License 1.3
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Tanuki Development Software License Agreement 1.3
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Commercial
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Tanuki Software
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#text" rel="noopener"
-          target="_blank">https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#text</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-tanuki-development
-
-      </dd>
-
-      <dt style="">faq_url</dt>
-      <dd>
-
-        <a href="https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#overview" rel="noopener"
-          target="_blank">https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#overview</a>
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Copyright (c) 2001 Silver Egg Technology</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Silver Egg Technology</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://wrapper.tanukisoftware.org/" rel="noopener"
-              target="_blank">http://wrapper.tanukisoftware.org/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            tanuki-development
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Tanuki Development License 1.3
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Tanuki Development Software License Agreement 1.3
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Commercial
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Tanuki Software
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#text" rel="noopener" target="_blank">https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#text</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-tanuki-development
+          
+        </dd>
+      
+        <dt style="">faq_url</dt>
+        <dd>
+          
+            <a href="https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#overview" rel="noopener" target="_blank">https://wrapper.tanukisoftware.com/doc/english/licenseDevelopment.html#overview</a>
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Copyright (c) 2001 Silver Egg Technology</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Silver Egg Technology</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://wrapper.tanukisoftware.org/" rel="noopener" target="_blank">http://wrapper.tanukisoftware.org/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Tanuki Software, Ltd.
@@ -256,7 +165,7 @@ TERMS AND CONDITIONS INCORPORATED HEREIN BY REFERENCE.  The Licensee
 may optionally request that this agreement be signed by both parties:
 
 License Agreement Number: TSILA-____________
-
+          
 Pursuant to this DEVELOPMENT SOFTWARE LICENSE AGREEMENT (the
 &#34;Agreement&#34;) dated this __th day of ______, 20__ (the &#34;Effective
 Date&#34;), _____________________ (&#34;Licensee&#34;) and Tanuki Software, Ltd.
@@ -291,13 +200,13 @@ Section 2.5, the Product Group restriction is removed and all Licensee
 Products will be covered by this agreement.
 
 
-Section 2 - Definitions
+Section 2 - Definitions 
 
 2.1. &#34;Community Edition&#34; shall mean versions of the Software Program
 distributed in source form under the Tanuki Software, Ltd. Community
 Software License Agreement (CSLA), and all new releases, corrections,
 enhancements and updates to the Software Program, which TSI makes
-generally available under the CSLA.
+generally available under the CSLA.  
 
 2.2. &#34;Documentation&#34; shall mean the contents of the website describing
 the functionality and use of the Software Program, located at
@@ -362,7 +271,7 @@ Licensee shall ensure that each end user receiving a copy of any
 Product shall receive a license agreement containing terms no less
 protective of the Software Program than those contained in Exhibit 2,
 which shall include the Copyright Notices described therein in a
-location that is obvious to Licensee&#39;s customers.
+location that is obvious to Licensee&#39;s customers. 
 
 Neither the Software Program nor Product may be modified, nor in any
 way obfuscate or obstruct the copyright notice and license information
@@ -446,12 +355,12 @@ Program discloses that such nonconformity exists, and that the
 Software Program has not been (i) altered or modified, other than by
 TSI, (ii) subjected to negligence, or computer or electrical
 malfunctions, or (iii) used, adjusted, or installed other than in
-accordance with the Documentation.
+accordance with the Documentation.  
 
 TSIMS and Other Services Warranty: TSI warrants that any TSIMS or
 other services performed pursuant to the terms of this Agreement shall
 be performed in a professional and workmanlike manner consistent with
-generally accepted industry standards.
+generally accepted industry standards. 
 
 Disclaimer: THE EXPRESS LIMITED WARRANTIES SET FORTH ABOVE ARE
 EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES, EXPRESS, IMPLIED OR
@@ -653,7 +562,7 @@ prior to 2001 and released under the following license.
     modify, merge, publish, distribute, sub-license, and/or sell
     copies of the Software, and to permit persons to whom the Software
     is furnished to do so, subject to the following conditions:
-
+    
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
 
@@ -676,7 +585,7 @@ such code be (i) disclosed or distributed in Source Code Program form;
 redistributable at no charge.
 
 
-Section 14 - Confidentiality
+Section 14 - Confidentiality 
 
 Confidential Information means all technical, business, financial and
 other information that is disclosed by either party to the other,
@@ -703,7 +612,7 @@ terms of this paragraph.  Notwithstanding the foregoing, either party
 may disclose the other party&#39;s Confidential Information to the extent
 required by applicable law or regulation, or by order of a court or
 other governmental entity, in which case such party shall so notify
-the other party as soon as practicable.
+the other party as soon as practicable.  
 
 The confidentiality obligation hereunder shall survive termination or
 expiration of this Agreement.
@@ -730,21 +639,21 @@ Licensee agrees to furnish evidence of such paid taxes to the Licensor
 as is sufficient to enable the Licensor to obtain any tax credits
 available to it.  Such evidence must be translated into English or
 Japanese and be provided with the original, unless approved by the
-Licensor in writing.
+Licensor in writing. 
 
 
 ----------------------------------------------------------------------
 IN WITNESS WHEREOF, the parties have caused this Agreement to be
-executed by their respective duly authorized representatives.
+executed by their respective duly authorized representatives. 
 
-LICENSEE           					TSI
-
-__________________________          By: ______________________________
-
-Department name                     Title: ___________________________
+LICENSEE           					TSI 
+ 
+__________________________          By: ______________________________  
+  
+Department name                     Title: ___________________________ 
 
 __________________________          Date: ____________________________
-
+  
 
 Licensee&#39;s Authorized Signature
 
@@ -781,7 +690,7 @@ ___________________________
 
 Country
 ___________________________
-
+ 
 
 
 ----------------------------------------------------------------------
@@ -814,7 +723,7 @@ Licensee Product Group(s) Covered by this Agreement:
 
 FEES:
 Software License + first year of TSIMS
-$
+$ 
 
 TSIMS for year 2 and onward will be priced at 25% of the then current
 price of a new Software License.
@@ -873,33 +782,33 @@ and released under the following license.
     modify, merge, publish, distribute, sub-license, and/or sell
     copies of the Software, and to permit persons to whom the Software
     is furnished to do so, subject to the following conditions:
-
+    
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -909,6 +818,5 @@ and released under the following license.
     });
   </script>
 
-</body>
-
+  </body>
 </html>

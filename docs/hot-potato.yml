@@ -7,9 +7,9 @@ owner: Unspecified
 notes: From https://github.com/ErikMcClure/bad-licenses
 spdx_license_key: LicenseRef-scancode-hot-potato
 other_urls:
-    - https://github.com/aboutcode-org/scancode-toolit/issues/3446#issuecomment-1653518138
+  - https://github.com/nexB/scancode-toolkit/issues/3446#issuecomment-1653518138
 text: |
-    All rights reserved by the last person to commit a change to this
-    repository, except for the right to commit changes to this repository,
-    which is hereby granted to all of earth's citizens for the purpose of
-    committing changes to this repository.
+  All rights reserved by the last person to commit a change to this
+  repository, except for the right to commit changes to this repository,
+  which is hereby granted to all of earth's citizens for the purpose of
+  committing changes to this repository.

@@ -1,242 +1,142 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: adobe-air-sdk-2014</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: adobe-air-sdk-2014</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="adobe-air-sdk-2014.yml">yml</a> -
     <a href="adobe-air-sdk-2014.json">json</a> -
     <a href="adobe-air-sdk-2014.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/adobe-air-sdk-2014.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/adobe-air-sdk-2014.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        adobe-air-sdk-2014
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Adobe Air SDK EULA - 2014
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Adobe Air SDK EULA - 2014
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Adobe Systems
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://www.adobe.com/products/air/sdk-eula.html" rel="noopener"
-          target="_blank">http://www.adobe.com/products/air/sdk-eula.html</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-adobe-air-sdk-2014
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://www.adobe.com/go/redistributeairsdk" rel="noopener"
-              target="_blank">www.adobe.com/go/redistributeairsdk</a></li>
-          <li><a href="http://www.adobe.com/products/air/sdk-agreement.html" rel="noopener"
-              target="_blank">http://www.adobe.com/products/air/sdk-agreement.html</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.adobe.com/go/air_developer_privacy" rel="noopener"
-              target="_blank">http://www.adobe.com/go/air_developer_privacy</a></li>
-          <li><a href="http://www.adobe.com/go/redistributeairsdk" rel="noopener"
-              target="_blank">http://www.adobe.com/go/redistributeairsdk</a></li>
-          <li><a href="http://www.adobe.com/go/thirdparty" rel="noopener"
-              target="_blank">http://www.adobe.com/go/thirdparty</a></li>
-          <li><a href="http://www.adobe.com/products/air/crosspromotion-program-agreement.html" rel="noopener"
-              target="_blank">http://www.adobe.com/products/air/crosspromotion-program-agreement.html</a></li>
-          <li><a href="http://www.mpegla.com/" rel="noopener" target="_blank">http://www.mpegla.com/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            adobe-air-sdk-2014
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Adobe Air SDK EULA - 2014
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Adobe Air SDK EULA - 2014
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Adobe Systems
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://www.adobe.com/products/air/sdk-eula.html" rel="noopener" target="_blank">http://www.adobe.com/products/air/sdk-eula.html</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-adobe-air-sdk-2014
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://www.adobe.com/go/redistributeairsdk" rel="noopener" target="_blank">www.adobe.com/go/redistributeairsdk</a></li><li><a href="http://www.adobe.com/products/air/sdk-agreement.html" rel="noopener" target="_blank">http://www.adobe.com/products/air/sdk-agreement.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.adobe.com/go/air_developer_privacy" rel="noopener" target="_blank">http://www.adobe.com/go/air_developer_privacy</a></li><li><a href="http://www.adobe.com/go/redistributeairsdk" rel="noopener" target="_blank">http://www.adobe.com/go/redistributeairsdk</a></li><li><a href="http://www.adobe.com/go/thirdparty" rel="noopener" target="_blank">http://www.adobe.com/go/thirdparty</a></li><li><a href="http://www.adobe.com/products/air/crosspromotion-program-agreement.html" rel="noopener" target="_blank">http://www.adobe.com/products/air/crosspromotion-program-agreement.html</a></li><li><a href="http://www.mpegla.com/" rel="noopener" target="_blank">http://www.mpegla.com/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Adobe AIR SDK - Warranty disclaimer and license agreement
 ADOBE SYSTEMS INCORPORATED
 SDK LICENSE AGREEMENT
 ADOBE® AIR® SDK
-
+ 
 1. NO WARRANTY, LIMITATION OF LIABILITY, BINDING AGREEMENT AND ADDITIONAL TERMS AND AGREEMENTS.
 1.1 NO WARRANTY. YOU ACKNOWLEDGE THAT THE SDK (AS DEFINED BELOW) MAY BE PRONE TO BUGS AND/OR STABILITY ISSUES. THE SDK IS PROVIDED TO YOU &#34;AS IS,&#34; AND ADOBE AND ITS SUPPLIERS DISCLAIM ANY WARRANTY OR LIABILITY OBLIGATIONS TO YOU OF ANY KIND. YOU ACKNOWLEDGE THAT ADOBE MAKES NO EXPRESS, IMPLIED, OR STATUTORY WARRANTY OF ANY KIND WITH RESPECT TO THE SDK INCLUDING ANY WARRANTY WITH REGARD TO PERFORMANCE, MERCHANTABILITY, SATISFACTORY QUALITY, NONINFRINGEMENT OR FITNESS FOR ANY PARTICULAR PURPOSE. YOU BEAR THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SDK AND YOUR USE OF AND OUTPUT FROM THE SDK. Adobe is not obligated to provide maintenance, technical support or updates to you for any portion of the SDK. The foregoing limitations, exclusions and limitations shall apply to the maximum extent permitted by applicable law, even if any remedy fails its essential purpose.
 
@@ -288,7 +188,7 @@ Subject to the terms and conditions of this agreement, including the requirement
 
 (iii) Distribution of SDK Source Files. You may distribute SDK Source Files (but not the Sample Code) in source code or object code format on a stand-alone basis or as bundled with other components useful to developers, as long as you first make modifications to such files that result in Material Improvements, and provided that you (A) include a copyright notice reflecting copyright ownership in such modified files, and (B) do not use &#34;mx,&#34; &#34;mxml,&#34; &#34;flex,&#34; &#34;flash,&#34; &#34;fl&#34; or &#34;adobe&#34; in any new package or class names distributed with the SDK Source Files.
 
-(iv) No Distribution of Build Tools. This agreement does not grant you the right to distribute the Build Tools (except for files that are covered by third party licenses that allow you to do so), Documentation or Runtime Software. In no event may you take any action to make the SDK subject to a license or scheme in which there is or could be interpreted that, as a condition of use, modification and/or distribution, the SDK be (A) disclosed or distributed in source code form; (B) licensed for the purpose of making derivative works; or (C) redistributable at no charge. For information about obtaining the right to distribute such components with your product or service, please refer to www.adobe.com/go/redistributeairsdk.
+(iv) No Distribution of Build Tools. This agreement does not grant you the right to distribute the Build Tools (except for files that are covered by third party licenses that allow you to do so), Documentation or Runtime Software. In no event may you take any action to make the SDK subject to a license or scheme in which there is or could be interpreted that, as a condition of use, modification and/or distribution, the SDK be (A) disclosed or distributed in source code form; (B) licensed for the purpose of making derivative works; or (C) redistributable at no charge. For information about obtaining the right to distribute such components with your product or service, please refer to www.adobe.com/go/redistributeairsdk. 
 
 (b) Distribution Requirements. If you distribute the Sample Code or SDK Source Files under this agreement, you must include a copyright notice in such code, files, the relevant Developer Application or other larger work incorporating such code or files. You may not (i) make any statement that any Developer Application or other software is &#34;certified&#34; or otherwise guaranteed by Adobe or (ii) use Adobe’s name or trademarks to market any Developer Application or other software without written permission from Adobe. Adobe is not responsible to you or any other party for any software update or support or other liability that may arise from your distribution.
 
@@ -340,28 +240,28 @@ If any part of this agreement is found void and unenforceable, it will not affec
 AdobeAIR_SDK License-en_US-20140814_0852</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -371,6 +271,5 @@ AdobeAIR_SDK License-en_US-20140814_0852</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

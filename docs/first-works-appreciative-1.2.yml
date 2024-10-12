@@ -5,7 +5,7 @@ category: Proprietary Free
 owner: Jonathan Michael Davis
 spdx_license_key: LicenseRef-scancode-first-works-appreciative-1.2
 ignorable_copyrights:
-  - Copyright (c) 2005 Jonathan Michael Davis <jond_123@hotmail.com>
+  - Copyright (c) 2005 Jonathan Michael Davis <jond_123@hotmail.com> <jon@jondavis.net>
 ignorable_holders:
   - Jonathan Michael Davis
 ignorable_emails:
@@ -88,4 +88,4 @@ text: "First Works Appreciative License\n\nVersion 1.2\nJuly 7, 2005\nCopyright 
   \ of liability,\n   whether in contract, strict liability, or tort (including negligence or\n\
   \   otherwise) arising in any way out of the use or distribution of the Original\n   Work\
   \ or the exercise of any rights granted hereunder, even if advised of\n   the possibility\
-  \ of such damages."
+  \ of such damages.\n"

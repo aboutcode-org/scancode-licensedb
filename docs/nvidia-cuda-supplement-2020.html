@@ -1,318 +1,162 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: nvidia-cuda-supplement-2020</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: nvidia-cuda-supplement-2020</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="nvidia-cuda-supplement-2020.yml">yml</a> -
     <a href="nvidia-cuda-supplement-2020.json">json</a> -
     <a href="nvidia-cuda-supplement-2020.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/nvidia-cuda-supplement-2020.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/nvidia-cuda-supplement-2020.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        nvidia-cuda-supplement-2020
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        CUDA Toolkit Supplement to SLA for NVIDIA SDKs
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        CUDA Toolkit Supplement to SLA for NVIDIA SDKs
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        NVIDIA
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://docs.nvidia.com/cuda/eula/index.html#cuda-toolkit-supplement-license-agreement" rel="noopener"
-          target="_blank">https://docs.nvidia.com/cuda/eula/index.html#cuda-toolkit-supplement-license-agreement</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-nvidia-cuda-supplement-2020
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>(c) Copyright 2013 King Abdullah University of Science and Technology</li>
-          <li>Copyright (c) 1997-2012 University of Cambridge</li>
-          <li>Copyright (c) 2003-2010 University of Illinois at Urbana-Champaign</li>
-          <li>Copyright (c) 2007-2009, Regents of the University of California</li>
-          <li>Copyright (c) 2007-2012, Google Inc.</li>
-          <li>Copyright (c) 2008-2009 Davide Barbieri @ University of Rome Tor Vergata</li>
-          <li>Copyright (c) 2009, 2010 Mutsuo Saito, Makoto Matsumoto and Hiroshima University</li>
-          <li>Copyright (c) 2009-2012 Zoltan Herczeg</li>
-          <li>Copyright (c) 2010 The University of Tennessee</li>
-          <li>Copyright (c) 2010-2012 Zoltan Herczeg</li>
-          <li>Copyright (c) 2011 Mutsuo Saito, Makoto Matsumoto, Hiroshima University and University of Tokyo</li>
-          <li>Copyright (c) 2011-2013, Yann Collet</li>
-          <li>Copyright (c) 2012, The Science and Technology Facilities Council</li>
-          <li>Copyright (c) 2012, University of Illinois</li>
-          <li>Copyright (c) 2015-2017, Norbert Juffa</li>
-          <li>Copyright (c) 2016 OpenAI (<a href="http://openai.com" rel="noopener"
-              target="_blank">http://openai.com</a>), 2016 Google Inc.</li>
-          <li>Copyright (c) Microsoft Corporation</li>
-          <li>Copyright 2010-2011, D. E. Shaw Research</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>D. E. Shaw Research</li>
-          <li>Davide Barbieri @ University of Rome Tor Vergata</li>
-          <li>Google Inc.</li>
-          <li>King Abdullah University of Science and Technology</li>
-          <li>Microsoft Corporation</li>
-          <li>Mutsuo Saito, Makoto Matsumoto and Hiroshima University</li>
-          <li>Mutsuo Saito, Makoto Matsumoto, Hiroshima University and University of Tokyo</li>
-          <li>Norbert Juffa</li>
-          <li>OpenAI Google Inc.</li>
-          <li>Regents of the University of California</li>
-          <li>The Science and Technology Facilities Council</li>
-          <li>The University of Tennessee</li>
-          <li>University of Cambridge</li>
-          <li>University of Illinois</li>
-          <li>University of Illinois at Urbana-Champaign</li>
-          <li>Yann Collet</li>
-          <li>Zoltan Herczeg</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_authors</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Ahmad Abdelfattah (<a href="mailto:ahmad.ahmad@kaust.edu.sa">ahmad.ahmad@kaust.edu.sa</a>) David Keyes (<a
-              href="mailto:david.keyes@kaust.edu.sa">david.keyes@kaust.edu.sa</a>)</li>
-          <li>Ahmad M. Abdelfattah, David Keyes, and Hatem Ltaief</li>
-          <li>D. E. Shaw Research</li>
-          <li>Davide Barbieri</li>
-          <li>IMPACT Group, University of Illinois, <a href="http://impact.crhc.illinois.edu" rel="noopener"
-              target="_blank">http://impact.crhc.illinois.edu</a></li>
-          <li>Jonathan Hogg</li>
-          <li>LLVM Team</li>
-          <li>Li-Wen Chang</li>
-          <li>Mutsuo Saito and Makoto Matsumoto</li>
-          <li>Norbert Juffa</li>
-          <li>Vasily Volkov</li>
-          <li>the University of Tennessee</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://impact.crhc.illinois.edu/" rel="noopener"
-              target="_blank">http://impact.crhc.illinois.edu/</a></li>
-          <li><a href="http://llvm.org/" rel="noopener" target="_blank">http://llvm.org/</a></li>
-          <li><a href="http://openai.com/" rel="noopener" target="_blank">http://openai.com/</a></li>
-          <li><a href="http://www.apache.org/licenses/LICENSE-2.0.html" rel="noopener"
-              target="_blank">http://www.apache.org/licenses/LICENSE-2.0.html</a></li>
-          <li><a href="http://www.eclipse.org/" rel="noopener" target="_blank">http://www.eclipse.org/</a></li>
-          <li><a href="http://www.eclipse.org/legal/epl-v10.html" rel="noopener"
-              target="_blank">http://www.eclipse.org/legal/epl-v10.html</a></li>
-          <li><a href="http://www.gnu.org/licenses/gpl.txt" rel="noopener"
-              target="_blank">http://www.gnu.org/licenses/gpl.txt</a></li>
-          <li><a href="http://www.opensource.org/licenses/bsd-license.php" rel="noopener"
-              target="_blank">http://www.opensource.org/licenses/bsd-license.php</a></li>
-          <li><a href="https://github.com/openai/openai-gemm/blob/master/LICENSE" rel="noopener"
-              target="_blank">https://github.com/openai/openai-gemm/blob/master/LICENSE</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_emails</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="mailto:ahmad.ahmad@kaust.edu.sa">ahmad.ahmad@kaust.edu.sa</a></li>
-          <li><a href="mailto:david.keyes@kaust.edu.sa">david.keyes@kaust.edu.sa</a></li>
-          <li><a href="mailto:hatem.ltaief@kaust.edu.sa">hatem.ltaief@kaust.edu.sa</a></li>
-          <li><a
-              href="mailto:nvidia-compute-license-questions@nvidia.com">nvidia-compute-license-questions@nvidia.com</a>
-          </li>
-          <li><a href="mailto:oss-requests@nvidia.com">oss-requests@nvidia.com</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            nvidia-cuda-supplement-2020
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            CUDA Toolkit Supplement to SLA for NVIDIA SDKs
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            CUDA Toolkit Supplement to SLA for NVIDIA SDKs
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            NVIDIA
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://docs.nvidia.com/cuda/eula/index.html#cuda-toolkit-supplement-license-agreement" rel="noopener" target="_blank">https://docs.nvidia.com/cuda/eula/index.html#cuda-toolkit-supplement-license-agreement</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-nvidia-cuda-supplement-2020
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>(c) Copyright 2013 King Abdullah University of Science and Technology</li><li>Copyright (c) 1997-2012 University of Cambridge</li><li>Copyright (c) 2003-2010 University of Illinois at Urbana-Champaign</li><li>Copyright (c) 2007-2009, Regents of the University of California</li><li>Copyright (c) 2007-2012, Google Inc.</li><li>Copyright (c) 2008-2009 Davide Barbieri @ University of Rome Tor Vergata</li><li>Copyright (c) 2009, 2010 Mutsuo Saito, Makoto Matsumoto and Hiroshima University</li><li>Copyright (c) 2009-2012 Zoltan Herczeg</li><li>Copyright (c) 2010 The University of Tennessee</li><li>Copyright (c) 2010-2012 Zoltan Herczeg</li><li>Copyright (c) 2011 Mutsuo Saito, Makoto Matsumoto, Hiroshima University and University of Tokyo</li><li>Copyright (c) 2011-2013, Yann Collet</li><li>Copyright (c) 2012, The Science and Technology Facilities Council</li><li>Copyright (c) 2012, University of Illinois</li><li>Copyright (c) 2015-2017, Norbert Juffa</li><li>Copyright (c) 2016 OpenAI (<a href="http://openai.com" rel="noopener" target="_blank">http://openai.com</a>), 2016 Google Inc.</li><li>Copyright (c) Microsoft Corporation</li><li>Copyright 2010-2011, D. E. Shaw Research</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>D. E. Shaw Research</li><li>Davide Barbieri @ University of Rome Tor Vergata</li><li>Google Inc.</li><li>King Abdullah University of Science and Technology</li><li>Microsoft Corporation</li><li>Mutsuo Saito, Makoto Matsumoto and Hiroshima University</li><li>Mutsuo Saito, Makoto Matsumoto, Hiroshima University and University of Tokyo</li><li>Norbert Juffa</li><li>OpenAI Google Inc.</li><li>Regents of the University of California</li><li>The Science and Technology Facilities Council</li><li>The University of Tennessee</li><li>University of Cambridge</li><li>University of Illinois</li><li>University of Illinois at Urbana-Champaign</li><li>Yann Collet</li><li>Zoltan Herczeg</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_authors</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Ahmad Abdelfattah (<a href="mailto:ahmad.ahmad@kaust.edu.sa">ahmad.ahmad@kaust.edu.sa</a>) David Keyes (<a href="mailto:david.keyes@kaust.edu.sa">david.keyes@kaust.edu.sa</a>) Hatem Ltaief (<a href="mailto:hatem.ltaief@kaust.edu.sa">hatem.ltaief@kaust.edu.sa</a>)</li><li>Ahmad M. Abdelfattah, David Keyes, and Hatem Ltaief</li><li>D. E. Shaw Research</li><li>Davide Barbieri</li><li>IMPACT Group, University of Illinois, <a href="http://impact.crhc.illinois.edu" rel="noopener" target="_blank">http://impact.crhc.illinois.edu</a></li><li>Jonathan Hogg</li><li>LLVM Team</li><li>Li-Wen Chang</li><li>Mutsuo Saito and Makoto Matsumoto</li><li>Norbert Juffa</li><li>Vasily Volkov</li><li>the University of Tennessee</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://impact.crhc.illinois.edu/" rel="noopener" target="_blank">http://impact.crhc.illinois.edu/</a></li><li><a href="http://llvm.org/" rel="noopener" target="_blank">http://llvm.org/</a></li><li><a href="http://openai.com/" rel="noopener" target="_blank">http://openai.com/</a></li><li><a href="http://www.apache.org/licenses/LICENSE-2.0.html" rel="noopener" target="_blank">http://www.apache.org/licenses/LICENSE-2.0.html</a></li><li><a href="http://www.eclipse.org/" rel="noopener" target="_blank">http://www.eclipse.org/</a></li><li><a href="http://www.eclipse.org/legal/epl-v10.html" rel="noopener" target="_blank">http://www.eclipse.org/legal/epl-v10.html</a></li><li><a href="http://www.gnu.org/licenses/gpl.txt" rel="noopener" target="_blank">http://www.gnu.org/licenses/gpl.txt</a></li><li><a href="http://www.opensource.org/licenses/bsd-license.php" rel="noopener" target="_blank">http://www.opensource.org/licenses/bsd-license.php</a></li><li><a href="https://github.com/openai/openai-gemm/blob/master/LICENSE" rel="noopener" target="_blank">https://github.com/openai/openai-gemm/blob/master/LICENSE</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:ahmad.ahmad@kaust.edu.sa">ahmad.ahmad@kaust.edu.sa</a></li><li><a href="mailto:david.keyes@kaust.edu.sa">david.keyes@kaust.edu.sa</a></li><li><a href="mailto:hatem.ltaief@kaust.edu.sa">hatem.ltaief@kaust.edu.sa</a></li><li><a href="mailto:nvidia-compute-license-questions@nvidia.com">nvidia-compute-license-questions@nvidia.com</a></li><li><a href="mailto:oss-requests@nvidia.com">oss-requests@nvidia.com</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>The terms in this supplement govern your use of the NVIDIA CUDA Toolkit SDK under the terms of your license agreement (“Agreement”) as modified by this supplement. Capitalized terms used but not defined below have the meaning assigned to them in the Agreement.
@@ -441,28 +285,28 @@ In addition, Licensee acknowledges the following notice: Thrust includes source 
 Boost Software License - Version 1.0 - August 17th, 2003
 . . . .
 
-Permission is hereby granted, free of charge, to any person or
-organization obtaining a copy of the software and accompanying
-documentation covered by this license (the &#34;Software&#34;) to use,
-reproduce, display, distribute, execute, and transmit the Software,
-and to prepare derivative works of the Software, and to permit
-third-parties to whom the Software is furnished to do so, all
+Permission is hereby granted, free of charge, to any person or 
+organization obtaining a copy of the software and accompanying 
+documentation covered by this license (the &#34;Software&#34;) to use, 
+reproduce, display, distribute, execute, and transmit the Software, 
+and to prepare derivative works of the Software, and to permit 
+third-parties to whom the Software is furnished to do so, all 
 subject to the following:
 
-The copyright notices in the Software and this entire statement,
-including the above license grant, this restriction and the following
-disclaimer, must be included in all copies of the Software, in whole
-or in part, and all derivative works of the Software, unless such
-copies or derivative works are solely in the form of machine-executable
+The copyright notices in the Software and this entire statement, 
+including the above license grant, this restriction and the following 
+disclaimer, must be included in all copies of the Software, in whole 
+or in part, and all derivative works of the Software, unless such 
+copies or derivative works are solely in the form of machine-executable 
 object code generated by a source language processor.
 
-THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
-NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR
-OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND 
+NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR 
+ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR 
+OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
 OTHER DEALINGS IN THE SOFTWARE.
 Licensee&#39;s use of the LLVM third party component is subject to the following terms and conditions:
 ======================================================
@@ -483,28 +327,28 @@ Developed by:
     http://llvm.org
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &#34;Software&#34;), to
+of this software and associated documentation files (the &#34;Software&#34;), to 
 deal with the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the Software, and to permit persons to whom the Software is
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Software, and to permit persons to whom the Software is 
 furnished to do so, subject to the following conditions:
 
-*  Redistributions of source code must retain the above copyright notice,
+*  Redistributions of source code must retain the above copyright notice, 
    this list of conditions and the following disclaimers.
 
-*  Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimers in the
+*  Redistributions in binary form must reproduce the above copyright 
+   notice, this list of conditions and the following disclaimers in the 
    documentation and/or other materials provided with the distribution.
 
 *  Neither the names of the LLVM Team, University of Illinois at Urbana-
    Champaign, nor the names of its contributors may be used to endorse or
-   promote products derived from this Software without specific prior
+   promote products derived from this Software without specific prior 
    written permission.
 
 THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL 
+THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR 
 OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS WITH THE SOFTWARE.
@@ -515,11 +359,11 @@ PCRE LICENCE
 PCRE is a library of functions to support regular expressions whose syntax
 and semantics are as close as possible to those of the Perl 5 language.
 Release 8 of PCRE is distributed under the terms of the &#34;BSD&#34; licence, as
-specified below. The documentation for PCRE, supplied in the &#34;doc&#34;
+specified below. The documentation for PCRE, supplied in the &#34;doc&#34; 
 directory, is distributed under the same terms as the software itself. The
-basic library functions are written in C and are freestanding. Also
+basic library functions are written in C and are freestanding. Also 
 included in the distribution is a set of C++ wrapper functions, and a just-
-in-time compiler that can be used to optimize pattern matching. These are
+in-time compiler that can be used to optimize pattern matching. These are 
 both optional features that can be omitted when the library is built.
 
 THE BASIC LIBRARY FUNCTIONS
@@ -558,28 +402,28 @@ THE &#34;BSD&#34; LICENCE
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
-  * Redistributions of source code must retain the above copyright notice,
+  * Redistributions of source code must retain the above copyright notice, 
     this list of conditions and the following disclaimer.
 
-  * Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
+  * Redistributions in binary form must reproduce the above copyright 
+    notice, this list of conditions and the following disclaimer in the 
     documentation and/or other materials provided with the distribution.
 
-  * Neither the name of the University of Cambridge nor the name of Google
-    Inc. nor the names of their contributors may be used to endorse or
-    promote products derived from this software without specific prior
+  * Neither the name of the University of Cambridge nor the name of Google 
+    Inc. nor the names of their contributors may be used to endorse or 
+    promote products derived from this software without specific prior 
     written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &#34;AS IS&#34;
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
 POSSIBILITY OF SUCH DAMAGE.
 Some of the cuBLAS library routines were written by or derived from code written by Vasily Volkov and are subject to the Modified Berkeley Software Distribution License as follows:
 Copyright (c) 2007-2009, Regents of the University of California
@@ -715,8 +559,8 @@ Some of the cuBLAS library routines were written by or derived from code written
     notice,  this list of conditions and the following disclaimer in the
     documentation  and/or other materials provided with the distribution.
   * Neither  the  name of the King Abdullah University of Science and
-    Technology nor the names of its contributors may be used to endorse
-    or promote products derived from this software without specific prior
+    Technology nor the names of its contributors may be used to endorse 
+    or promote products derived from this software without specific prior 
     written permission.
 
   THIS  SOFTWARE  IS  PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
@@ -828,26 +672,26 @@ Some of the Math library routines were written by or derived from code developed
 Copyright (c) 2015-2017, Norbert Juffa
 All rights reserved.
 
-Redistribution and use in source and binary forms, with or without
+Redistribution and use in source and binary forms, with or without 
 modification, are permitted provided that the following conditions
 are met:
 
-1. Redistributions of source code must retain the above copyright
+1. Redistributions of source code must retain the above copyright 
    notice, this list of conditions and the following disclaimer.
 
 2. Redistributions in binary form must reproduce the above copyright
    notice, this list of conditions and the following disclaimer in the
    documentation and/or other materials provided with the distribution.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-&#34;AS IS&#34; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+&#34;AS IS&#34; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
 A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
 HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
 LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
 DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Licensee&#39;s use of the lz4 third party component is subject to the following terms and conditions:
@@ -880,28 +724,28 @@ The NPP library uses code from the Boost Math Toolkit, and is subject to the fol
 Boost Software License - Version 1.0 - August 17th, 2003
 . . . .
 
-Permission is hereby granted, free of charge, to any person or
-organization obtaining a copy of the software and accompanying
-documentation covered by this license (the &#34;Software&#34;) to use,
-reproduce, display, distribute, execute, and transmit the Software,
-and to prepare derivative works of the Software, and to permit
-third-parties to whom the Software is furnished to do so, all
+Permission is hereby granted, free of charge, to any person or 
+organization obtaining a copy of the software and accompanying 
+documentation covered by this license (the &#34;Software&#34;) to use, 
+reproduce, display, distribute, execute, and transmit the Software, 
+and to prepare derivative works of the Software, and to permit 
+third-parties to whom the Software is furnished to do so, all 
 subject to the following:
 
-The copyright notices in the Software and this entire statement,
-including the above license grant, this restriction and the following
-disclaimer, must be included in all copies of the Software, in whole
-or in part, and all derivative works of the Software, unless such
-copies or derivative works are solely in the form of machine-executable
+The copyright notices in the Software and this entire statement, 
+including the above license grant, this restriction and the following 
+disclaimer, must be included in all copies of the Software, in whole 
+or in part, and all derivative works of the Software, unless such 
+copies or derivative works are solely in the form of machine-executable 
 object code generated by a source language processor.
 
-THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND
-NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR
-ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR
-OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND 
+NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR 
+ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR 
+OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
 OTHER DEALINGS IN THE SOFTWARE.
 Portions of the Nsight Eclipse Edition is subject to the following license:
 The Eclipse Foundation makes available all content in this plug-in
@@ -920,10 +764,10 @@ contact the Redistributor. Unless otherwise indicated below, the terms
 and conditions of the EPL still apply to any source code in the
 Content and such source code may be obtained at http://www.eclipse.org.
 Some of the cuBLAS library routines uses code from OpenAI, which is subject to the following license:
-License URL
+License URL 
 https://github.com/openai/openai-gemm/blob/master/LICENSE
 
-License Text
+License Text 
 The MIT License
 
 Copyright (c) 2016 OpenAI (http://openai.com), 2016 Google Inc.
@@ -944,54 +788,55 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+THE SOFTWARE. 
 Licensee&#39;s use of the Visual Studio Setup Configuration Samples is subject to the following license:
-The MIT License (MIT)
+The MIT License (MIT) 
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the &#34;Software&#34;), to deal in the Software without restriction,
-including without limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the Software,
-and to permit persons to whom the Software is furnished to do so,
+Permission is hereby granted, free of charge, to any person 
+obtaining a copy of this software and associated documentation 
+files (the &#34;Software&#34;), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, 
+publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so, 
 subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included
+The above copyright notice and this permission notice shall be included 
 in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+THE SOFTWARE IS PROVIDED &#34;AS IS&#34;, WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Licensee&#39;s use of linmath.h header for CPU functions for GL vector/matrix operations from lunarG is subject to the Apache License Version 2.0.
-The DX12-CUDA sample uses the d3dx12.h header, which is subject to the MIT license .</code></pre>
+The DX12-CUDA sample uses the d3dx12.h header, which is subject to the MIT license .
+</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -1001,6 +846,5 @@ The DX12-CUDA sample uses the d3dx12.h header, which is subject to the MIT licen
     });
   </script>
 
-</body>
-
+  </body>
 </html>

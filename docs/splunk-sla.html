@@ -1,252 +1,150 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: splunk-sla</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: splunk-sla</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="splunk-sla.yml">yml</a> -
     <a href="splunk-sla.json">json</a> -
     <a href="splunk-sla.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/splunk-sla.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/splunk-sla.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        splunk-sla
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Splunk SLA
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Splunk Software License Agreement
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Commercial
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Splunk
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html" rel="noopener"
-          target="_blank">https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-splunk-sla
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html" rel="noopener"
-              target="_blank">https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.splunk.com/en_us/support-and-services/support-programs.html" rel="noopener"
-              target="_blank">http://www.splunk.com/en_us/support-and-services/support-programs.html</a></li>
-          <li><a href="https://splunkbase.splunk.com/" rel="noopener" target="_blank">https://splunkbase.splunk.com/</a>
-          </li>
-          <li><a href="https://www.splunk.com/en_us/legal/licensed-capacity.html" rel="noopener"
-              target="_blank">https://www.splunk.com/en_us/legal/licensed-capacity.html</a></li>
-          <li><a href="https://www.splunk.com/en_us/legal/privacy/privacy-policy.html" rel="noopener"
-              target="_blank">https://www.splunk.com/en_us/legal/privacy/privacy-policy.html</a></li>
-          <li><a href="https://www.splunk.com/en_us/legal/professional-services-agreement.html" rel="noopener"
-              target="_blank">https://www.splunk.com/en_us/legal/professional-services-agreement.html</a></li>
-          <li><a href="https://www.splunk.com/en_us/legal/splunk-software-support-policy.html" rel="noopener"
-              target="_blank">https://www.splunk.com/en_us/legal/splunk-software-support-policy.html</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            splunk-sla
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Splunk SLA
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Splunk Software License Agreement
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Commercial
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Splunk
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html" rel="noopener" target="_blank">https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-splunk-sla
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html" rel="noopener" target="_blank">https://www.splunk.com/en_us/legal/splunk-software-license-agreement.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.splunk.com/en_us/support-and-services/support-programs.html" rel="noopener" target="_blank">http://www.splunk.com/en_us/support-and-services/support-programs.html</a></li><li><a href="https://splunkbase.splunk.com/" rel="noopener" target="_blank">https://splunkbase.splunk.com/</a></li><li><a href="https://www.splunk.com/en_us/legal/licensed-capacity.html" rel="noopener" target="_blank">https://www.splunk.com/en_us/legal/licensed-capacity.html</a></li><li><a href="https://www.splunk.com/en_us/legal/privacy/privacy-policy.html" rel="noopener" target="_blank">https://www.splunk.com/en_us/legal/privacy/privacy-policy.html</a></li><li><a href="https://www.splunk.com/en_us/legal/professional-services-agreement.html" rel="noopener" target="_blank">https://www.splunk.com/en_us/legal/professional-services-agreement.html</a></li><li><a href="https://www.splunk.com/en_us/legal/splunk-software-support-policy.html" rel="noopener" target="_blank">https://www.splunk.com/en_us/legal/splunk-software-support-policy.html</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>SPLUNK SOFTWARE LICENSE AGREEMENT
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>SPLUNK SOFTWARE LICENSE AGREEMENT
 
-THIS SPLUNK SOFTWARE LICENSE AGREEMENT (“AGREEMENT”) GOVERNS THE LICENSING, INSTALLATION AND USE OF SPLUNK SOFTWARE. BY DOWNLOADING AND/OR INSTALLING SPLUNK SOFTWARE: (a) you are indicating that you have read and understand this Agreement, and agree to be legally bound by it on behalf of the company, GOVERNMENT, or other entity for which you are acting (for example, as an employee OR GOVERNMENT OFFICIAL) or, if there is no company, GOVERNMENT or other entity for which you are acting, on behalf of yourself as an individual; and (b) you represent and warrant that you have the authority to act on behalf of and bind SUCH company, GOVERNMENT OR OTHER ENTITY (if any).
+THIS SPLUNK SOFTWARE LICENSE AGREEMENT (“AGREEMENT”) GOVERNS THE LICENSING, INSTALLATION AND USE OF SPLUNK SOFTWARE. BY DOWNLOADING AND/OR INSTALLING SPLUNK SOFTWARE: (a) you are indicating that you have read and understand this Agreement, and agree to be legally bound by it on behalf of the company, GOVERNMENT, or other entity for which you are acting (for example, as an employee OR GOVERNMENT OFFICIAL) or, if there is no company, GOVERNMENT or other entity for which you are acting, on behalf of yourself as an individual; and (b) you represent and warrant that you have the authority to act on behalf of and bind SUCH company, GOVERNMENT OR OTHER ENTITY (if any). 
 
 WITHOUT LIMITING THE FOREGOING, YOU (AND YOUR ENTITY, IF ANY) ACKNOWLEDGE THAT BY SUBMITTING AN ORDER FOR THE SPLUNK SOFTWARE, YOU (AND YOUR ENTITY (IF ANY)) HAVE AGREED TO BE BOUND BY THIS AGREEMENT.
 
-As used in this Agreement, “Splunk,” refers to Splunk Inc., a Delaware corporation, with its principal place of business at 270 Brannan Street, San Francisco, California 94107, U.S.A.; and “Customer” refers to the company, government, or other entity on whose behalf you have entered into this Agreement or, if there is no such entity, you as an individual.
+As used in this Agreement, “Splunk,” refers to Splunk Inc., a Delaware corporation, with its principal place of business at 270 Brannan Street, San Francisco, California 94107, U.S.A.; and “Customer” refers to the company, government, or other entity on whose behalf you have entered into this Agreement or, if there is no such entity, you as an individual.   
 
     DEFINITIONS. Capitalized terms used but not otherwise defined in this Agreement have the meanings set forth in Exhibit A.
 
     LICENSE GRANTS
 
-        2.1             Purchased Software. Subject to Customer’s compliance with this Agreement, including Customer’s timely payment of all License Fees, Splunk grants to Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license during the applicable Term to install and use the Purchased Software within the Licensed Capacity solely for Customer’s Internal Business Purposes.
+        2.1             Purchased Software. Subject to Customer’s compliance with this Agreement, including Customer’s timely payment of all License Fees, Splunk grants to Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license during the applicable Term to install and use the Purchased Software within the Licensed Capacity solely for Customer’s Internal Business Purposes.  
 
         2.2             Evaluation Software. If the applicable Order specifies that any Software is provided under an evaluation license or a free trial license, then subject to Customer’s compliance with this Agreement, Splunk grants to Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license during the applicable Term to install and use the Evaluation Software within the Licensed Capacity solely for evaluating whether Customer wishes to purchase a commercial license for such Software. Notwithstanding anything to the contrary in this Agreement, Splunk does not provide maintenance and support (Section 7), warranty (Section 10), or indemnification (Section 13) with respect to Evaluation Software.
 
@@ -256,7 +154,7 @@ As used in this Agreement, “Splunk,” refers to Splunk Inc., a Delaware corpo
 
         2.5             Content Subscription.  When the applicable Order specifies a Content Subscription service as elected by Customer, Splunk will deliver or otherwise make available the applicable Content Subscription service to Customer during the subscription period, and subject to Customer’s compliance with this Agreement (including Customer’s timely payment of all applicable Content Subscription Fees), Splunk grants to such Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license during the applicable subscription period to install and use the subscribed content solely in connection with the designated Purchased Software and solely for Customer’s Internal Business Purposes.  Such content will be treated as Purchased Software under this Agreement except that Section 10 (Warranty) will not apply.
 
-        2.6             Splunk Extensions. Subject to Customer’s compliance with this Agreement, including Customer’s timely payment of all License Fees (if any), Splunk grants to Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license to use Splunk Extensions solely in connection with applicable Software that Customer has licensed from Splunk, subject to the same limitations and restrictions (including with respect to Term and Licensed Capacity) that apply to the Software with which the Splunk Extensions are used. Notwithstanding the foregoing, if any Splunk Extension is provided to Customer under a separate license agreement that grants Customer more permissive or broader rights with respect to such Splunk Extension (e.g., a separate license agreement that is provided to Customer as part of the download process for such Splunk Extension), then that separate license agreement, and not this Agreement, will govern Customer’s installation and use of such Splunk Extension (but, for clarity, this Agreement will apply to all other Splunk Extensions).
+        2.6             Splunk Extensions. Subject to Customer’s compliance with this Agreement, including Customer’s timely payment of all License Fees (if any), Splunk grants to Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license to use Splunk Extensions solely in connection with applicable Software that Customer has licensed from Splunk, subject to the same limitations and restrictions (including with respect to Term and Licensed Capacity) that apply to the Software with which the Splunk Extensions are used. Notwithstanding the foregoing, if any Splunk Extension is provided to Customer under a separate license agreement that grants Customer more permissive or broader rights with respect to such Splunk Extension (e.g., a separate license agreement that is provided to Customer as part of the download process for such Splunk Extension), then that separate license agreement, and not this Agreement, will govern Customer’s installation and use of such Splunk Extension (but, for clarity, this Agreement will apply to all other Splunk Extensions).  
 
         2.7             Customer Extensions. Subject to Customer’s compliance with this Agreement, Splunk grants to Customer a nonexclusive, worldwide, nontransferable, nonsublicensable license (a) to copy, modify and use the Splunk Developer Tools solely to develop Extensions for use with the designated Software or Splunk Extension (“Customer Extensions”), including to support interoperability between the Software or Splunk Extension and Customer’s system or environment and (b) to distribute the Customer Extensions exclusively for the use with the designated Software or Splunk Extension. The foregoing license is subject to the following conditions: (x) Splunk proprietary legends or notices contained in the Splunk Developer Tools may not be removed or altered when used in or with the Customer Extension; and (y) Customer may not make any statement that Customer Extension is certified or that its performance is guaranteed by Splunk. Customer retains title to the Customer Extensions, subject to Splunk’s ownership set forth in Section 5. If Customer allows end users of Customer Extensions to modify or distribute the Customer Extensions, Customer shall limit such modification or distribution to use with the designated Software or Splunk Extension only, and will flow down the conditions in (x) and (y) above to end users of Customer Extensions. Customer agrees to assume full responsibility for the performance and distribution of Customer Extensions.
 
@@ -298,7 +196,7 @@ As used in this Agreement, “Splunk,” refers to Splunk Inc., a Delaware corpo
         14.6   Injunctive Relief. Recipient agrees that, due to the unique nature of the Confidential Information, the unauthorized disclosure or use of the Confidential Information will cause irreparable harm and significant injury to Discloser, the extent of which will be difficult to ascertain and for which there will be no adequate remedy at law. Accordingly, Recipient agrees that Discloser, in addition to any other available remedies, will have the right to an immediate injunction and other equitable relief enjoining any breach or threatened breach of this Section 14, without the necessity of posting any bond or other security. Recipient will notify Discloser in writing immediately upon Recipient’s becoming aware of any such breach or threatened breach.
 
     TERM. This Agreement will commence upon Splunk’s first Delivery of the Software specified in the Order (or, Splunk’s other initial delivery of the Software to Customer) and will remain in effect until the expiration of the applicable Software license term, unless earlier terminated pursuant to Section 16 (the “Term”). For the avoidance of doubt, termination of a license term shall not affect the term of any other licenses applicable to other Splunk products and services that Customer has purchased. Further, termination of a Content Subscription shall not affect the term of the base license applicable to the Software that Customer has purchased.
-
+         
         15.1   Purchased Software, etc. Unless otherwise indicated in the Order, the Term for Purchased Software, Free Software, Splunk Extensions and Splunk Developer Tools, if applicable, will continue indefinitely, unless and until terminated pursuant to Section 16. If the Order indicates a Term of a specific duration for any of the foregoing, the licenses granted to Customer for such Purchased Software or Free Software will terminate automatically upon expiration of such Term. Upon expiration of any Term, the applicable Software will stop working automatically.
 
         15.2  Evaluation Software. If Customer is granted a license for Evaluation Software, then the Term for such Evaluation Software will be specified in the Order or with the license key. If no such term is specified, the Term for Evaluation Software is thirty (30) days from the date the license key is delivered. Any license keys provided for Evaluation Software will automatically expire and cause the Evaluation Software to become non-operational at the end of the Term. If Customer wishes to use the Evaluation Software after the Term expires, then Customer must obtain the applicable paid license.
@@ -308,7 +206,7 @@ As used in this Agreement, “Splunk,” refers to Splunk Inc., a Delaware corpo
 
     EXPORT. Customer will comply fully with all relevant export laws and regulations of the United States and any other country (“Export Laws”) where Customer uses any of the Splunk Materials. Customer certifies that Customer is not on any of the relevant U.S. government lists of prohibited persons, including the Treasury Department’s List of Specially Designated Nationals and the Commerce Department’s List of Denied Persons or Entity List. Customer further certifies that Customer will not export, re-export, ship, transfer or otherwise use the Splunk Materials in any country subject to an embargo or other sanction by the United States, and that Customer will not use the Splunk Materials for any purpose prohibited by the Export Laws, including, but not limited to, nuclear, chemical, missile or biological weapons related end uses.
 
-    GOVERNMENT END USER RIGHTS. Customer acknowledges that all Splunk Materials were developed entirely at private expense and that no part of the Splunk Materials was first produced in the performance of a government contract. Customer agrees that all Splunk Materials and any derivatives thereof are “Commercial Items” as defined in 48 C.F.R. § 2.101, and if Customer is the Government, then such use, duplication, reproduction, release, modification, disclosure or transfer of this commercial product and data, is restricted in accordance with 48 C.F.R. § 12.211, 48 C.F.R. § 12.212, 48 C.F.R. § 227.7102-2, and 48 C.F.R. § 227.7202, as applicable. Consistent with 48 C.F.R. § 12.211, 48 C.F.R. § 12.212, 48 C.F.R. § 227.7102-1 through 48 C.F.R. § 227.7102-3, and 48 C.F.R. §§ 227.7202-1 through 227.7202-4, as applicable, the Splunk Materials are licensed to Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other users pursuant to this Agreement and any related agreement(s), as applicable. Accordingly, Customer will have no rights in the Splunk Materials except as expressly agreed to in writing by Customer and Splunk.
+    GOVERNMENT END USER RIGHTS. Customer acknowledges that all Splunk Materials were developed entirely at private expense and that no part of the Splunk Materials was first produced in the performance of a government contract. Customer agrees that all Splunk Materials and any derivatives thereof are “Commercial Items” as defined in 48 C.F.R. § 2.101, and if Customer is the Government, then such use, duplication, reproduction, release, modification, disclosure or transfer of this commercial product and data, is restricted in accordance with 48 C.F.R. § 12.211, 48 C.F.R. § 12.212, 48 C.F.R. § 227.7102-2, and 48 C.F.R. § 227.7202, as applicable. Consistent with 48 C.F.R. § 12.211, 48 C.F.R. § 12.212, 48 C.F.R. § 227.7102-1 through 48 C.F.R. § 227.7102-3, and 48 C.F.R. §§ 227.7202-1 through 227.7202-4, as applicable, the Splunk Materials are licensed to Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other users pursuant to this Agreement and any related agreement(s), as applicable. Accordingly, Customer will have no rights in the Splunk Materials except as expressly agreed to in writing by Customer and Splunk. 
 
     PUBLICITY. Customer agrees that Splunk may publish a brief description of Customer’s deployment of the Software and identify Customer as a Splunk customer on any of Splunk’s websites, client lists, press releases, and/or other marketing materials.
 
@@ -334,9 +232,9 @@ As used in this Agreement, “Splunk,” refers to Splunk Inc., a Delaware corpo
 
         23.7    Operational Metrics and Usage Data. The Software and other Splunk Extensions may be configured to allow Splunk to collect and process technical and related information about Customer’s use of the Software (which may include, without limitation, ingest volume, search concurrency, number of unique user logins, Internet protocol addresses, page views, session duration, and other similar data) and certain aggregated, anonymized information about the Software environment (such as hardware identification, operating system, application version), performance, configuration and other usage information. Splunk uses this information to support and troubleshoot issues, provide updates, automate invoices, analyze trends and improve Splunk’s products or services. Participation in the collection and processing of such data by Splunk is voluntary (except for certain Free or Evaluation Software or other programs as designated by Splunk, which may require Customer’s participation in an in-product analytics program as a condition of receiving access to and using such Software) and instructions on how to disable these in-product collection features are set forth in Splunk’s end user documentation.  Splunk collects and processes the information it collects subject to Splunk’s Privacy Policy, which can be found at https://www.splunk.com/en_us/legal/privacy/privacy-policy.html and is hereby incorporated by reference and made a part of this Agreement.
 
-        23.8    Integration; Entire Agreement. This Agreement along with any additional terms incorporated herein by reference, including the Order and the Exhibits hereto, constitute the complete and exclusive understanding and agreement between the parties and supersedes any and all prior or contemporaneous agreements, communications and understandings, written or oral, relating to their subject matter. Any waiver, modification or amendment of any provision of this Agreement will be effective only if in writing and signed by duly authorized representatives of both parties. Any terms and conditions contained or referenced by either party in a quote, purchase order, acceptance, invoice or any similar document purporting to modify the terms and conditions contained in this Agreement will be disregarded and have no effect unless otherwise expressly agreed to by the parties in accordance with the preceding sentence.
+        23.8    Integration; Entire Agreement. This Agreement along with any additional terms incorporated herein by reference, including the Order and the Exhibits hereto, constitute the complete and exclusive understanding and agreement between the parties and supersedes any and all prior or contemporaneous agreements, communications and understandings, written or oral, relating to their subject matter. Any waiver, modification or amendment of any provision of this Agreement will be effective only if in writing and signed by duly authorized representatives of both parties. Any terms and conditions contained or referenced by either party in a quote, purchase order, acceptance, invoice or any similar document purporting to modify the terms and conditions contained in this Agreement will be disregarded and have no effect unless otherwise expressly agreed to by the parties in accordance with the preceding sentence.  
 
-
+ 
 EXHIBIT A
 DEFINITIONS
 
@@ -366,7 +264,7 @@ DEFINITIONS
 
     “Extension” means any separately downloadable suite, configuration file, add-on, technical add-on, example module, command, function or application that extends the features or functionality of the applicable Software.
 
-    “Feedback” means all suggestions for improvement or enhancement, recommendations, comments, opinions, code, input, ideas, reports, information, know-how or other feedback provided by Customer (whether in oral, electronic or written form) to Splunk in connection with Splunk’s Software.  Feedback does not include any data, results or output created or generated by Customer using the Software, unless specifically submitted or communicated by Customer to Splunk as part of the Feedback.
+    “Feedback” means all suggestions for improvement or enhancement, recommendations, comments, opinions, code, input, ideas, reports, information, know-how or other feedback provided by Customer (whether in oral, electronic or written form) to Splunk in connection with Splunk’s Software.  Feedback does not include any data, results or output created or generated by Customer using the Software, unless specifically submitted or communicated by Customer to Splunk as part of the Feedback. 
 
      “Free Software” means Software that is specified in an Order as provided to Customer without charge (other than Evaluation Software).
 
@@ -408,13 +306,13 @@ DEFINITIONS
 
     “Third-Party Content” has the meaning set forth in Section 20.
 
-
+ 
 EXHIBIT B
 LICENSED CAPACITY
 
-The Licensed Capacity and other license limitations associated with each Purchased Software can be found here: https://www.splunk.com/en_us/legal/licensed-capacity.html
+The Licensed Capacity and other license limitations associated with each Purchased Software can be found here: https://www.splunk.com/en_us/legal/licensed-capacity.html  
 
-
+ 
 EXHIBIT C
 
 SPLUNK INC.
@@ -437,7 +335,7 @@ Customer agrees that the following terms and conditions (“Terms and Conditions
 
         2.6    Support Descriptions.
 
-            2.6.1 Splunk Support.Customer’s Order will identify the level of Support Customer purchases for the applicable Purchased Software. A summary of the different support programs and levels are described here: http://www.splunk.com/en_us/support-and-services/support-programs.html (“Support Programs”). Support cases are handled based on case priority levels as described in the Support Programs. When submitting a case, Customer will select the priority for initial response by logging the case online, in accordance with the priority guidelines set forth in the Support Programs. When the case is received, Splunk Support may change the priority if the issue does not conform to the criteria for the selected priority and will provide Customer with notice (electronic or otherwise) of such change.
+            2.6.1 Splunk Support.Customer’s Order will identify the level of Support Customer purchases for the applicable Purchased Software. A summary of the different support programs and levels are described here: http://www.splunk.com/en_us/support-and-services/support-programs.html (“Support Programs”). Support cases are handled based on case priority levels as described in the Support Programs. When submitting a case, Customer will select the priority for initial response by logging the case online, in accordance with the priority guidelines set forth in the Support Programs. When the case is received, Splunk Support may change the priority if the issue does not conform to the criteria for the selected priority and will provide Customer with notice (electronic or otherwise) of such change.  
 
             2.6.2 Authorized Support Contacts. Support will be provided solely to the authorized individual(s) specified by Customer that Splunk will communicate with that individual(s) when providing Support (“Support Contacts”). Splunk strongly recommends that Customer’s support contact(s) be trained on the Purchased Software. Customer’s Order will indicate a maximum number of authorized Support Contacts for Customer’s license level. Customer will be asked to designate Customer’s authorized support contacts, including their primary email address and Splunk.com login ID, following Splunk’s acknowledgment of Customer’s Order.
 
@@ -450,7 +348,7 @@ Customer agrees that the following terms and conditions (“Terms and Conditions
             2.6.6 Software Upgrades and Software Support Policy. When available, Splunk provides updates, upgrades, maintenance releases and reset keys only to Splunk Support customers pursuant to Splunk’s Support Policy provided at: https://www.splunk.com/en_us/legal/splunk-software-support-policy.html (“Support Policy”). Software comes with a three-digit number version. The first digit represents the major release (i.e., upgrade), the second digit identifies the minor releases (i.e., updates) and the third digit identifies the maintenance releases. With a new major version, the number to the left of the decimal is changed and for minor releases, the number to the right of the decimal point is increased. Subject to the foregoing, Splunk provides Support for the duration specified in the Support Policy following the initial release date of each respective major or minor version.  The current version and the releases within the support period will be “Supported Versions”.
 
 
-
+             
         2.7     Changes in Support and Software. Subject to the Support Policy, Customer acknowledges that Splunk has the right to discontinue the manufacture and development of any Software and the Support for any Software, including the distribution of older Software versions, at any time in its sole discretion, provided that Splunk agrees not to discontinue Support for the Software during the current annual term of these Terms and Conditions, subject to the termination provisions herein. Splunk reserves the right to alter Support from time to time, using reasonable discretion but in no event will such alterations result in (i) diminished support from the level of Support set forth herein; (ii) materially diminished obligations for Splunk; (iii) materially diminished Customer’s rights; or (iv) higher Support Fees during the then-current term. Splunk will provide Customer with thirty (30) days’ prior written notice (delivered electronically or otherwise) of any permitted material changes to the Support contemplated herein.
 
 
@@ -464,28 +362,28 @@ Customer agrees that the following terms and conditions (“Terms and Conditions
     4. FORCE MAJEURE. Splunk will not be responsible for any failure or delay in its performance under these Terms and Conditions due to causes beyond its reasonable control, including, but not limited to, labor disputes, strikes, lockouts, shortages of or inability to obtain labor, energy, raw materials or supplies, war, acts of terror, riot, acts of God or governmental action.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -495,6 +393,5 @@ Customer agrees that the following terms and conditions (“Terms and Conditions
     });
   </script>
 
-</body>
-
+  </body>
 </html>

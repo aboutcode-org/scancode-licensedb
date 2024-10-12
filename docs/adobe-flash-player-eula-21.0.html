@@ -1,250 +1,126 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: adobe-flash-player-eula-21.0</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: adobe-flash-player-eula-21.0</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="adobe-flash-player-eula-21.0.yml">yml</a> -
     <a href="adobe-flash-player-eula-21.0.json">json</a> -
     <a href="adobe-flash-player-eula-21.0.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/adobe-flash-player-eula-21.0.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/adobe-flash-player-eula-21.0.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        adobe-flash-player-eula-21.0
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Adobe Flash Player EULA 21.0
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Adobe Flash Player EULA 21.0
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Adobe Systems
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://wwwimages.adobe.com/content/dam/acom/en/legal/licenses-terms/pdf/Flash_Player_21_0.pdf"
-          rel="noopener"
-          target="_blank">http://wwwimages.adobe.com/content/dam/acom/en/legal/licenses-terms/pdf/Flash_Player_21_0.pdf</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-adobe-flash-player-eula-21.0
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.adobe.com/" rel="noopener" target="_blank">http://www.adobe.com/</a></li>
-          <li><a href="http://www.adobe.com/go/RTMFP" rel="noopener" target="_blank">http://www.adobe.com/go/RTMFP</a>
-          </li>
-          <li><a href="http://www.adobe.com/go/aatl" rel="noopener" target="_blank">http://www.adobe.com/go/aatl</a>
-          </li>
-          <li><a href="http://www.adobe.com/go/acrobat_distribute" rel="noopener"
-              target="_blank">http://www.adobe.com/go/acrobat_distribute</a></li>
-          <li><a href="http://www.adobe.com/go/air_update_details" rel="noopener"
-              target="_blank">http://www.adobe.com/go/air_update_details</a></li>
-          <li><a href="http://www.adobe.com/go/flashplayer_security" rel="noopener"
-              target="_blank">http://www.adobe.com/go/flashplayer_security</a></li>
-          <li><a href="http://www.adobe.com/go/licensing" rel="noopener"
-              target="_blank">http://www.adobe.com/go/licensing</a></li>
-          <li><a href="http://www.adobe.com/go/mpegla" rel="noopener" target="_blank">http://www.adobe.com/go/mpegla</a>
-          </li>
-          <li><a href="http://www.adobe.com/go/partners_cds" rel="noopener"
-              target="_blank">http://www.adobe.com/go/partners_cds</a></li>
-          <li><a href="http://www.adobe.com/go/privacy" rel="noopener"
-              target="_blank">http://www.adobe.com/go/privacy</a></li>
-          <li><a href="http://www.adobe.com/go/protected_content" rel="noopener"
-              target="_blank">http://www.adobe.com/go/protected_content</a></li>
-          <li><a href="http://www.adobe.com/go/readerextensions" rel="noopener"
-              target="_blank">http://www.adobe.com/go/readerextensions</a></li>
-          <li><a href="http://www.adobe.com/go/rikla_program" rel="noopener"
-              target="_blank">http://www.adobe.com/go/rikla_program</a></li>
-          <li><a href="http://www.adobe.com/go/runtime_mobile_EULA" rel="noopener"
-              target="_blank">http://www.adobe.com/go/runtime_mobile_EULA</a></li>
-          <li><a href="http://www.adobe.com/go/settingsmanager" rel="noopener"
-              target="_blank">http://www.adobe.com/go/settingsmanager</a></li>
-          <li><a href="http://www.adobe.com/go/terms" rel="noopener" target="_blank">http://www.adobe.com/go/terms</a>
-          </li>
-          <li><a href="http://www.adobe.com/go/thirdparty" rel="noopener"
-              target="_blank">http://www.adobe.com/go/thirdparty</a></li>
-          <li><a href="http://www.adobe.com/go/update_details_url" rel="noopener"
-              target="_blank">http://www.adobe.com/go/update_details_url</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            adobe-flash-player-eula-21.0
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Adobe Flash Player EULA 21.0
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Adobe Flash Player EULA 21.0
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Adobe Systems
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://wwwimages.adobe.com/content/dam/acom/en/legal/licenses-terms/pdf/Flash_Player_21_0.pdf" rel="noopener" target="_blank">http://wwwimages.adobe.com/content/dam/acom/en/legal/licenses-terms/pdf/Flash_Player_21_0.pdf</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-adobe-flash-player-eula-21.0
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.adobe.com/" rel="noopener" target="_blank">http://www.adobe.com/</a></li><li><a href="http://www.adobe.com/go/RTMFP" rel="noopener" target="_blank">http://www.adobe.com/go/RTMFP</a></li><li><a href="http://www.adobe.com/go/aatl" rel="noopener" target="_blank">http://www.adobe.com/go/aatl</a></li><li><a href="http://www.adobe.com/go/acrobat_distribute" rel="noopener" target="_blank">http://www.adobe.com/go/acrobat_distribute</a></li><li><a href="http://www.adobe.com/go/air_update_details" rel="noopener" target="_blank">http://www.adobe.com/go/air_update_details</a></li><li><a href="http://www.adobe.com/go/flashplayer_security" rel="noopener" target="_blank">http://www.adobe.com/go/flashplayer_security</a></li><li><a href="http://www.adobe.com/go/licensing" rel="noopener" target="_blank">http://www.adobe.com/go/licensing</a></li><li><a href="http://www.adobe.com/go/mpegla" rel="noopener" target="_blank">http://www.adobe.com/go/mpegla</a></li><li><a href="http://www.adobe.com/go/partners_cds" rel="noopener" target="_blank">http://www.adobe.com/go/partners_cds</a></li><li><a href="http://www.adobe.com/go/privacy" rel="noopener" target="_blank">http://www.adobe.com/go/privacy</a></li><li><a href="http://www.adobe.com/go/protected_content" rel="noopener" target="_blank">http://www.adobe.com/go/protected_content</a></li><li><a href="http://www.adobe.com/go/readerextensions" rel="noopener" target="_blank">http://www.adobe.com/go/readerextensions</a></li><li><a href="http://www.adobe.com/go/rikla_program" rel="noopener" target="_blank">http://www.adobe.com/go/rikla_program</a></li><li><a href="http://www.adobe.com/go/runtime_mobile_EULA" rel="noopener" target="_blank">http://www.adobe.com/go/runtime_mobile_EULA</a></li><li><a href="http://www.adobe.com/go/settingsmanager" rel="noopener" target="_blank">http://www.adobe.com/go/settingsmanager</a></li><li><a href="http://www.adobe.com/go/terms" rel="noopener" target="_blank">http://www.adobe.com/go/terms</a></li><li><a href="http://www.adobe.com/go/thirdparty" rel="noopener" target="_blank">http://www.adobe.com/go/thirdparty</a></li><li><a href="http://www.adobe.com/go/update_details_url" rel="noopener" target="_blank">http://www.adobe.com/go/update_details_url</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>ADOBE
@@ -295,7 +171,7 @@ the terms and conditions of this agreement.
 &#34;Adobe&#34; means Adobe Systems Incorporated, a Delaware corporation, 345 Park Avenue, San Jose,
 California 95110, if subsection 12(a) of this agreement applies; otherwise it means Adobe Systems
 Software Ireland Limited, 4-6 Riverwalk, Citywest Business Campus, Dublin 24, Ireland, a company
-organized under the laws of Ireland and an affiliate and licensee of Adobe Systems Incorporated.
+organized under the laws of Ireland and an affiliate and licensee of Adobe Systems Incorporated. 
 &#34;Compatible Computer&#34; means a Computer that conforms to the system requirements of the Software
 as specified in the Documentation.
 &#34;Computer&#34; means a virtual machine or physical personal electronic device that accepts information in
@@ -346,7 +222,7 @@ http://www.adobe.com/go/licensing for information about the Adobe Runtimes.
 
 3.4 Backup Copy. You may make one backup copy of the Software, provided your backup copy is not
 installed or used other than for archival purposes. You may not transfer the rights to a backup copy
-unless you transfer all rights in the Software as provided under Section 5.
+unless you transfer all rights in the Software as provided under Section 5. 
 
 4. Obligations and Restrictions.
 
@@ -402,7 +278,7 @@ Feature or otherwise circumvent the technology that controls activation of any s
 information on disabled features, please refer to http://www.adobe.com/go/readerextensions.
 
 4.4 Notices. You shall not alter or remove any copyright or other proprietary notice that appears on or
-in the Software.
+in the Software. 
 
 4.5 No Modification or Reverse Engineering. You shall not modify, adapt, translate, or create derivative
 works based upon the Software. You shall not reverse engineer, decompile, disassemble, or otherwise
@@ -454,7 +330,7 @@ jurisdictions. The use of such information, including your IP Address, as provid
 process is governed by the Adobe Online Privacy Policy. Please consult the Documentation for
 information about changing default update settings at http://www.adobe.com/go/settingsmanager for
 Flash Player, http://www.adobe.com/go/update_details_url (or successor website) for Reader, and
-http://www.adobe.com/go/air_update_details for Adobe AIR.
+http://www.adobe.com/go/air_update_details for Adobe AIR. 
 
 7.3 Local Storage. Flash Player and Adobe AIR may allow third parties to store certain information on
 your Computer in a local data file known as a local shared object. The type and amount of information
@@ -511,7 +387,7 @@ Software connects to the Internet as a function of an Adobe Online Service, your
 and password may be sent to Adobe’s servers and stored by Adobe in accordance with the Additional
 Terms of Use or the &#34;help&#34; menu in the Software. This information may be used by Adobe to send you
 transactional messages to facilitate the Adobe Online Service. Adobe may display in-product marketing
-to provide information about the Software and other Adobe products and Services, including but not
+to provide information about the Software and other Adobe products and Services, including but not 
 limited to Adobe Online Services, based on certain Software specific features including but not limited
 to, the version of the Software, including without limitation, platform version, version of the Software,
 and language. For further information about in-product marketing, please see the &#34;help&#34; menu in the
@@ -564,7 +440,7 @@ Certification Authority services, you should review the applicable terms and con
 relevant Certification Authority provides services, including, for example, any subscriber agreements,
 relying party agreements, certificate policies, and practice statements. See the links on
 http://www.adobe.com/go/partners_cds for information about Adobe’s CDS vendors and
-http://www.adobe.com/go/aatl for information about Adobe’s AATL vendors.
+http://www.adobe.com/go/aatl for information about Adobe’s AATL vendors. 
 
 9.3 Acknowledgement. You agree that (a) a digital certificate may have been revoked prior to the time
 of verification, making the digital signature or certificate appear valid when in fact it is not, (b) the
@@ -613,7 +489,7 @@ controlled items under the Export Laws, you represent and warrant that you are n
 otherwise located within, an embargoed nation (including without limitation Iran, Syria, Sudan, Cuba,
 and North Korea) and that you are not otherwise prohibited under the Export Laws from receiving the
 Software. All rights to Use the Software are granted on condition that such rights are forfeited if you fail
-to comply with the terms of this agreement.
+to comply with the terms of this agreement. 
 
 12. Governing Law.
 If you are a consumer who uses the Software for only personal non-business purposes, then this
@@ -664,7 +540,7 @@ shall be incorporated by reference in this agreement.
 15. Compliance with Licenses.
 If you are a business or organization, you agree that upon request from Adobe or Adobe’s authorized
 representative, you will, within thirty (30) days, fully document and certify that use of any and all
-Software at the time of the request is in conformity with your valid licenses from Adobe.
+Software at the time of the request is in conformity with your valid licenses from Adobe. 
 
 16. European Union Provisions.
 Nothing included in this agreement (including Section 4.5) shall limit any non-waivable right to
@@ -709,28 +585,28 @@ trademarks of Adobe Systems Incorporated in the United States and/or other count
 PlatformClients_PC_WWEULA-en_US-20110809_1357</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -740,6 +616,5 @@ PlatformClients_PC_WWEULA-en_US-20110809_1357</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

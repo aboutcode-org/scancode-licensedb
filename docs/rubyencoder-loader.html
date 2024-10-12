@@ -1,250 +1,157 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: rubyencoder-loader</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: rubyencoder-loader</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="rubyencoder-loader.yml">yml</a> -
     <a href="rubyencoder-loader.json">json</a> -
     <a href="rubyencoder-loader.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/rubyencoder-loader.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/rubyencoder-loader.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        rubyencoder-loader
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        RubyEncoder Loader Licence
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        RubyEncoder Loader Licence
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        RubyEncoder
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://www.rubyencoder.com/loaders.html" rel="noopener"
-          target="_blank">https://www.rubyencoder.com/loaders.html</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-rubyencoder-loader
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://www.rubyencoder.com/terms.html" rel="noopener"
-              target="_blank">https://www.rubyencoder.com/terms.html</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_authors</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>assurances as SourceGuardian Ltd</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.rubyencoder.com/" rel="noopener" target="_blank">http://www.rubyencoder.com/</a></li>
-          <li><a href="http://www.rubyencoder.com/terms.html" rel="noopener"
-              target="_blank">http://www.rubyencoder.com/terms.html</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_emails</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="mailto:support@rubyencoder.com">support@rubyencoder.com</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            rubyencoder-loader
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            RubyEncoder Loader Licence
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            RubyEncoder Loader Licence
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            RubyEncoder
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://www.rubyencoder.com/loaders.html" rel="noopener" target="_blank">https://www.rubyencoder.com/loaders.html</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-rubyencoder-loader
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://www.rubyencoder.com/terms.html" rel="noopener" target="_blank">https://www.rubyencoder.com/terms.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_authors</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>assurances as SourceGuardian Ltd</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.rubyencoder.com/" rel="noopener" target="_blank">http://www.rubyencoder.com/</a></li><li><a href="http://www.rubyencoder.com/terms.html" rel="noopener" target="_blank">http://www.rubyencoder.com/terms.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:support@rubyencoder.com">support@rubyencoder.com</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>RUBYENCODER LOADER LICENCE
-
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>RUBYENCODER LOADER LICENCE 
+ 
 This Licence applies to the use of the Loaders for RubyEncoder by End Users and is granted by SourceGuardian Ltd (registered number 05663267) which is referred to in this Licence as “RubyEncoder”.  The licence terms for the use of RubyEncoder software are set out at http://www.rubyencoder.com/terms.html. If you are a licensee of RubyEncoder your use of the Loaders is governed by that licence.
 
 If you are an End User of RubyEncoder then, by downloading the Loader, you are accepting the terms of this Licence on behalf of yourself and any company, unincorporated association or partnership for which you work.  This Licence comes into effect on the date that you download the Loader.  If, having read the Licence, you do not agree to be bound to any of its terms you should not download the Loader and any enquiries on the content of this Licence should be directed to RubyEncoder, C/O SourceGuardian Ltd, Rotterdam House, 116 Quayside, Newcastle upon Tyne. NE16 5EG. Tel: 0845 155 2455 Email: support@rubyencoder.com.
@@ -252,11 +159,11 @@ If you are an End User of RubyEncoder then, by downloading the Loader, you are a
 1.    Definitions
 
 Defect    Any material error that prevents the Loader from uploading or downloading scripts to and from RubyEncoder (unless used in conjunction with third party software that is not on the list of maintained software on RubyEncoder’s website)
-End User(s)    Users of the Loader in commercial operation
+End User(s)    Users of the Loader in commercial operation 
 
 Loader    The software program that facilitates the conversion of scripts encoded with RubyEncoderto  readable form
 
-Maintainence    Issuing updates to RubyEncoder to ensure continuing compatibility with third party software programs with which RubyEncoder is designed to inter-operate.
+Maintainence    Issuing updates to RubyEncoder to ensure continuing compatibility with third party software programs with which RubyEncoder is designed to inter-operate. 
 
 RubyEncoder    The software encryption product of that name used to encrypt scripts from human-readable form into a form capable of being read only with the Loader, available at www.rubyencoder.com
 
@@ -286,28 +193,28 @@ This License shall be deemed to apply to and cover any use of the Loaders prior 
 4.6    The parties irrevocably agree that the courts of England have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with the Contract or its subject matter or formation (including non-contractual disputes or claims).</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -317,6 +224,5 @@ This License shall be deemed to apply to and cover any use of the Loaders prior 
     });
   </script>
 
-</body>
-
+  </body>
 </html>

@@ -15,6 +15,7 @@ ignorable_holders:
   - the University of Cambridge, England
 ignorable_authors:
   - Philip Hazel
+  - Philip Hazel <ph10@cam.ac.uk> University of Cambridge Computing Service, Cambridge, England
 ignorable_urls:
   - ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/
 ignorable_emails:
@@ -40,4 +41,4 @@ text: "PCRE LICENCE \n------------ \n\nPCRE is a library of functions to support
   \ or Lesser General Purpose Licence (LGPL),\nthen the terms of that licence shall supersede\
   \ any condition above with\nwhich it is incompatible.\n\nThe documentation for PCRE, supplied\
   \ in the \"doc\" directory, is\ndistributed under the same terms as the software itself.\n\
-  \nEnd PCRE LICENCE"
+  \nEnd PCRE LICENCE\n"

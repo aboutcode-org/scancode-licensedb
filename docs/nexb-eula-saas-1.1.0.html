@@ -1,224 +1,135 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: nexb-eula-saas-1.1.0</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: nexb-eula-saas-1.1.0</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="nexb-eula-saas-1.1.0.yml">yml</a> -
     <a href="nexb-eula-saas-1.1.0.json">json</a> -
     <a href="nexb-eula-saas-1.1.0.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/nexb-eula-saas-1.1.0.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/nexb-eula-saas-1.1.0.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        nexb-eula-saas-1.1.0
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        nexB EULA for SaaS 1.1.0
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        nexB EULA for SaaS 1.1.0
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Commercial
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        nexB
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-nexb-eula-saas-1.1.0
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://dejacode.zendesk.com/home" rel="noopener"
-              target="_blank">https://dejacode.zendesk.com/home</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_emails</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="mailto:marketing@nexb.com">marketing@nexb.com</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            nexb-eula-saas-1.1.0
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            nexB EULA for SaaS 1.1.0
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            nexB EULA for SaaS 1.1.0
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Commercial
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            nexB
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-nexb-eula-saas-1.1.0
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://dejacode.zendesk.com/home" rel="noopener" target="_blank">https://dejacode.zendesk.com/home</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:marketing@nexb.com">marketing@nexb.com</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>NEXB INC.
 END USER AGREEMENT FOR SOFTWARE AS A SERVICE
 READ THIS AGREEMENT CAREFULLY.
 
-This Agreement is a legally binding agreement between you (meaning the person or the entity that obtained the Service under the terms and conditions of this Agreement and referred to below as &#34;You&#34; or &#34;Customer&#34;) and nexB (meaning nexB Inc.). You are agreeing to be bound by all terms and conditions of this Agreement.
+This Agreement is a legally binding agreement between you (meaning the person or the entity that obtained the Service under the terms and conditions of this Agreement and referred to below as &#34;You&#34; or &#34;Customer&#34;) and nexB (meaning nexB Inc.). You are agreeing to be bound by all terms and conditions of this Agreement. 
 
 By clicking on the &#34;Agree&#34; or &#34;Accept&#34; or similar button in this Agreement, or proceeding with the use of the Service, or authorizing any other person to do so, You are representing that You are (i) authorized to bind the Customer to the terms of this Agreement; and (ii) agreeing on behalf of the Customer that the terms of this Agreement shall govern the relationship of the parties with regard to the subject matter in this Agreement, and waiving any rights, to the maximum extent permitted by applicable law, to any claim anywhere in the world concerning the enforceability or validity of this Agreement.
 
@@ -257,12 +168,12 @@ If You do not have authority to agree to the terms of this Agreement on behalf o
 2.	RIGHTS GRANTED
 
 Subject to the terms and conditions of this Agreement, nexB grants to Customer a non-exclusive, non-assignable right during the Subscription (or Evaluation) Period to:
-
+ 
 (a)	Use the Service for the number of Users and according to other parameters specified on an Order Form for your internal business purposes.
 
 (b)	Use, copy, reproduce, adapt and modify the Documentation for your internal business purposes.
 
-(c)	Back up and archive your data from the Service at any time.
+(c)	Back up and archive your data from the Service at any time. 
 
 
 3.	OWNERSHIP
@@ -356,35 +267,35 @@ Subscription Fees are exclusive of sales, use, value-added or other similar taxe
 
 (g)	This Agreement, including the third-party software license agreements and any Order Forms that incorporate this Agreement, represents the entire agreement between the parties relating to Customer&#39;s use of the Service and supersedes any and all prior or contemporaneous oral or written representations, communications, or advertising with respect to the Service.
 
-17.	CHANGES TO THIS AGREEMENT
+17.	CHANGES TO THIS AGREEMENT 
 
 We may update or modify this Agreement from time to time, including any referenced policies or other documents. If a revision meaningfully reduces your rights, we will use reasonable efforts to notify You (by, for example, sending an email to the billing or technical contact you designate in the applicable Order, posting on our blog, through your nexB account, or in the Product itself). If we modify the Agreement during Your Subscription Period, the modified version will be effective upon Your next renewal of a Subscription Period.. In this case, if You object to the updated Agreement, as Your exclusive remedy, you may choose not to renew, including cancelling any terms set to auto-renew. You may be required to click through the updated Agreement to show Your acceptance. For the avoidance of doubt, any Order Form is subject to the version of the Agreement in effect at the time the Order Form is accepted.
 
 Revision: 1.1.0 October 2017</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -394,6 +305,5 @@ Revision: 1.1.0 October 2017</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

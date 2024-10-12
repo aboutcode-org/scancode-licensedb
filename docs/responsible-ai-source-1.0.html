@@ -1,215 +1,126 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: responsible-ai-source-1.0</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: responsible-ai-source-1.0</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="responsible-ai-source-1.0.yml">yml</a> -
     <a href="responsible-ai-source-1.0.json">json</a> -
     <a href="responsible-ai-source-1.0.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/responsible-ai-source-1.0.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/responsible-ai-source-1.0.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        responsible-ai-source-1.0
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Reponsible AI Source Code License v1.0
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Reponsible AI Source Code License v1.0
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Responsible AI
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://www.licenses.ai/source-code-license-v1" rel="noopener"
-          target="_blank">https://www.licenses.ai/source-code-license-v1</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-responsible-ai-source-1.0
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://licenses.ai/" rel="noopener" target="_blank">http://licenses.ai/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            responsible-ai-source-1.0
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Reponsible AI Source Code License v1.0
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Reponsible AI Source Code License v1.0
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Responsible AI
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://www.licenses.ai/source-code-license-v1" rel="noopener" target="_blank">https://www.licenses.ai/source-code-license-v1</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-responsible-ai-source-1.0
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://licenses.ai/" rel="noopener" target="_blank">http://licenses.ai/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Responsible AI SOURCE CODE License
@@ -218,33 +129,33 @@ Version 1.0, February 12, 2019
 
 http://licenses.ai/
 
-TERMS AND CONDITIONS.
+TERMS AND CONDITIONS. 
 
-The Responsible Artificial Intelligence Source Code License (“License”) governs the use of the accompanying software. If you access or use the software, you accept the License.  If you do not accept the License, do not access or use the software.
+The Responsible Artificial Intelligence Source Code License (“License”) governs the use of the accompanying software. If you access or use the software, you accept the License.  If you do not accept the License, do not access or use the software.    
 
 1.         Definitions.
 
-As used in this License, the following capitalized terms have the following meanings:
+As used in this License, the following capitalized terms have the following meanings: 
 
-(i) &#34;License&#34; means the terms and conditions for use, reproduction, and distribution as defined by Sections one (1) through eight (8) of this document.
+(i) &#34;License&#34; means the terms and conditions for use, reproduction, and distribution as defined by Sections one (1) through eight (8) of this document.  
 
 (ii) &#34;Licensor&#34; means the copyright owner or legal entity authorized by the copyright owner that is granting the License.
 
 (iii) &#34;You&#34; (or &#34;Your&#34;) means an individual or legal entity exercising permissions granted by this License.
 
-(iv) The terms “reproduce”, “reproduction”, “derivative works”, and “distribution” have the same meaning here as under U.S. Copyright Law.
+(iv) The terms “reproduce”, “reproduction”, “derivative works”, and “distribution” have the same meaning here as under U.S. Copyright Law. 
 
-(v) “Contribution” means the original software, additions to the original software, modifications to the original software, or derivative works of the original software.
+(v) “Contribution” means the original software, additions to the original software, modifications to the original software, or derivative works of the original software.  
 
-(vi) &#34;Contributor&#34; means any person or Licensor who provides a Contribution.
+(vi) &#34;Contributor&#34; means any person or Licensor who provides a Contribution.  
 
-
+ 
 
 2.         Grant of Rights.
 
 Subject to this License, each Contributor grants You a non-exclusive, worldwide, royalty-free copyright license to reproduce its Contribution, prepare derivative works of its Contribution, and distribute its Contribution or any derivative works of its Contribution that You create.
 
-3.         Restrictions.
+3.         Restrictions. 
 
 1.         If You distribute any portion of the Contribution, You must include a complete copy of this License with the distribution; and
 
@@ -254,21 +165,21 @@ Subject to this License, each Contributor grants You a non-exclusive, worldwide,
 
  i.    Detect or infer any legally protected class or aspect of any person, as defined by U.S. Federal Law; and
 
- ii.   Detect or infer aspects and/or features of an identity any person, such as name, family name, address, gender, sexual orientation, race, religion, age, location (at any geographical level), skin color, society or political affiliations, employment status and/or employment history, and health and medical conditions.  Age and medical conditions may be inferred solely for the purpose of improving software/hardware accessibility and such data should not be cached or stored without the explicit and time limited permission of Licensor
+ ii.   Detect or infer aspects and/or features of an identity any person, such as name, family name, address, gender, sexual orientation, race, religion, age, location (at any geographical level), skin color, society or political affiliations, employment status and/or employment history, and health and medical conditions.  Age and medical conditions may be inferred solely for the purpose of improving software/hardware accessibility and such data should not be cached or stored without the explicit and time limited permission of Licensor    
 
-
+ 
 
 2.     Computer Generated Media
 
  i.  Synthesize  and/or modify audio-realistic and/or video-realistic representations (indistinguishable from photo/video recordings) of people and events, without including a caption, watermark, and/or metadata file indicating that the audio-realistic and/or video-realistic representations were generated using the Contribution.
 
-
+ 
 
 3.     Health Care
 
  i.   Predict the likelihood that any person will request to file an insurance claim;
 
- ii.  Determine an insurance premium or deny insurance applications or claims;
+ ii.  Determine an insurance premium or deny insurance applications or claims; 
 
  iii.  Predict  the likelihood that any person request to file an insurance claim based on determining a lifestyle of a person, medical-test reports, demographic details of a person and/or online activity of a person;
 
@@ -276,9 +187,9 @@ Subject to this License, each Contributor grants You a non-exclusive, worldwide,
 
  v.   Deny  an insurance claim based on any predicted likelihood of the possibility of insurance fraud; and
 
- vi.  Diagnose a medical condition without human oversight.
+ vi.  Diagnose a medical condition without human oversight.    
 
-
+ 
 
 4.     Criminal
 
@@ -288,17 +199,17 @@ Subject to this License, each Contributor grants You a non-exclusive, worldwide,
 
  iii.   Predict the likelihood, of any person, being a criminal, based on the person’s facial attributes or another person’s facial attributes;
 
-iv.    Predict the likelihood, of any person, having committed a crime, based on the person’s facial attributes or another person’s facial attributes;
+iv.    Predict the likelihood, of any person, having committed a crime, based on the person’s facial attributes or another person’s facial attributes;  
 
 v.    Predict  the likelihood that a crime will be committed by any person, based on the person’s facial attributes or another person’s facial attributes;
 
-vi.   Predict a likelihood of a crime being committed by any person, based on evidence collected, facial and emotion analysis, or other such features
+vi.   Predict a likelihood of a crime being committed by any person, based on evidence collected, facial and emotion analysis, or other such features    
 
 vii.  Use personal data and/or personal characteristics or features such as: name,  family name, address, gender, sexual orientation, race, religion, age,  location (at any geographical level), skin color, society or political affiliations, employment status and/or history, health and medical conditions (including physical, mental), family history, social media and publicly available data, image or video analysis of an individual or a group(s) of individuals, heart-rate, perspiration, breathing, and brain imaging and other metabolic data to predict the likelihood a person will engage in criminal behavior; and
 
 viii.  Predict the likelihood of a person being a criminal based on the person or other User’s facial attributes.
 
-
+ 
 
 4.         Termination
 
@@ -306,23 +217,23 @@ Upon the occurrence of any of the restricted uses listed above in “3. Restrict
 
 (i) terminate this License Agreement and disable any Contribution either by pre-installed or then installed disabling instructions, and to take immediate possession of the Contribution and all copies wherever located, without demand or notice;
 
-(ii) require You to immediately return to Licensor all copies of the Contribution, or upon request by Licensor destroy the Contribution and all copies and certify in writing that they have been destroyed;
+(ii) require You to immediately return to Licensor all copies of the Contribution, or upon request by Licensor destroy the Contribution and all copies and certify in writing that they have been destroyed;   
 
 (iii) for a period of 1 year, provide a prominent notice on the Licensor’s website indicating that this License was violated by the Licensor;
 
-(iv) release/delete any and all data collected through use of the Contribution; and
+(iv) release/delete any and all data collected through use of the Contribution; and    
 
-(v) notify all parties affected by use of the Contribution.
+(v) notify all parties affected by use of the Contribution.      
 
-Termination of this License Agreement shall be in addition to and not in lieu of any other remedies available to Licensor.  Licensor expressly reserves the right to pursue all legal and equitable remedies available under the law.
+Termination of this License Agreement shall be in addition to and not in lieu of any other remedies available to Licensor.  Licensor expressly reserves the right to pursue all legal and equitable remedies available under the law.  
 
-
+ 
 
 5.         Disclaimer of Warranty.
 
 Unless required by applicable law or agreed to in writing, Licensor provides any Contribution (and each Contributor provides its Contributions) on an &#34;As-Is&#34; basis, without WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing a Contribution and assume any risks associated with Your exercise of permissions under this License.
 
-
+ 
 
 6.         Limitation of Liability.
 
@@ -335,28 +246,28 @@ While redistributing the Contribution, You may choose to offer, and charge a fee
 END OF TERMS AND CONDITIONS</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -366,6 +277,5 @@ END OF TERMS AND CONDITIONS</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

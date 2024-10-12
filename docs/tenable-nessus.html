@@ -1,268 +1,176 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: tenable-nessus</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: tenable-nessus</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="tenable-nessus.yml">yml</a> -
     <a href="tenable-nessus.json">json</a> -
     <a href="tenable-nessus.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/tenable-nessus.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/tenable-nessus.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        tenable-nessus
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Tenable Nessus License
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Tenable Nessus Software License and Subscription Agreement
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Tenable
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf" rel="noopener"
-          target="_blank">https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-tenable-nessus
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf" rel="noopener"
-              target="_blank">https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>copyrighted by Tenable</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Tenable</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.nessus.org/" rel="noopener" target="_blank">http://www.nessus.org/</a></li>
-          <li><a href="http://www.tenable.com/" rel="noopener" target="_blank">http://www.tenable.com/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            tenable-nessus
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Tenable Nessus License
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Tenable Nessus Software License and Subscription Agreement
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Tenable
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf" rel="noopener" target="_blank">https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-tenable-nessus
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf" rel="noopener" target="_blank">https://static.tenable.com/prod_docs/Nessus_6_SLA_and_Subscription_Agreement.pdf</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>copyrighted by Tenable</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Tenable</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.nessus.org/" rel="noopener" target="_blank">http://www.nessus.org/</a></li><li><a href="http://www.tenable.com/" rel="noopener" target="_blank">http://www.tenable.com/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>TENABLE NETWORK SECURITY, INC.
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>TENABLE NETWORK SECURITY, INC. 
 NESSUS SOFTWARE LICENSE AND SUBSCRIPTION AGREEMENT
 
 This is a legal agreement (&#34;Agreement&#34;) between Tenable Network Security, Inc., a Delaware corporation having offices at 7021 Columbia Gateway Drive, Suite 500, Columbia, MD 21046 (&#34;Tenable&#34;), and you (&#34;You&#34;), the party licensing Software and/or downloading the Plugins through Tenable’s subscription service (as each capitalized term is defined below). This Agreement covers Your permitted use of the Software and/or the Plugins, as applicable (collectively, the &#34;Licensed Materials&#34;). BY CLICKING BELOW YOU INDICATE YOUR ACCEPTANCE OF THIS AGREEMENT AND YOU ACKNOWLEDGE THAT YOU HAVE READ ALL OF THE TERMS AND CONDITIONS OF THIS AGREEMENT, UNDERSTAND THEM, AND AGREE TO BE LEGALLY BOUND BY THEM. IN ADDITION, IF YOU HAVE PREVIOUSLY LICENSED THE SOFTWARE AND/OR THE PLUGINS, BY CLICKING BELOW YOU INDICATE YOUR ACCEPTANCE THAT THESE TERMS AND CONDITIONS SUPERSEDE ANY EARLIER AGREEMENTS AND THAT ALL COPIES OF THE LICENSED MATERIALS IN YOUR POSSESSION WILL BE DEEMED TO BE LICENSED UNDER AND SUBJECT TO THE TERMS AND CONDITIONS OF THIS AGREEMENT. If You do not agree with the terms of this Agreement, You may not use the Licensed Materials. The Licensed Materials can only be provided to You by Tenable. The term &#34;Agreement&#34; includes any exhibits to the document.
 
-1. Grant of Licenses.
-(a) Software License Grant. &#34;Software&#34; means
-(i) Nessus 5.x or higher that You download from any authorized Tenable website, including www.nessus.org, or obtain via Tenable authorized CD or any other Tenable authorized method;
-(ii) the associated user manuals and user documentation, if any, as well as any patches, updates, improvements, additions, enhancements and other modifications or revised versions of Nessus 5.x or higher that may be provided to You by Tenable from time to time that were developed by Tenable; and
-(iii) any Nessus daemons, command line interfaces, web server, application programming interfaces (&#34;APIs&#34;), and/or any graphical user interfaces You obtain from Tenable that were developed by Tenable. Any software that is not marked as copyrighted by Tenable is not Software as defined under this Agreement and is subject to other license terms as described in the documentation. For the avoidance of doubt, any components or software licensed as part of an open source license, if any, are not considered &#34;Software.&#34;
+1. Grant of Licenses. 
+(a) Software License Grant. &#34;Software&#34; means 
+(i) Nessus 5.x or higher that You download from any authorized Tenable website, including www.nessus.org, or obtain via Tenable authorized CD or any other Tenable authorized method; 
+(ii) the associated user manuals and user documentation, if any, as well as any patches, updates, improvements, additions, enhancements and other modifications or revised versions of Nessus 5.x or higher that may be provided to You by Tenable from time to time that were developed by Tenable; and 
+(iii) any Nessus daemons, command line interfaces, web server, application programming interfaces (&#34;APIs&#34;), and/or any graphical user interfaces You obtain from Tenable that were developed by Tenable. Any software that is not marked as copyrighted by Tenable is not Software as defined under this Agreement and is subject to other license terms as described in the documentation. For the avoidance of doubt, any components or software licensed as part of an open source license, if any, are not considered &#34;Software.&#34; 
 
-If You have obtained a copy of the Software, subject to the terms and conditions, and Your acceptance, of this Agreement, Tenable grants to You a perpetual, non-exclusive, nontransferable license in object code form only to use the Software
-(i) solely for Your internal operations and internal security purposes to seek and assess information technology vulnerabilities and misconfigurations for Your own networks or that you are otherwise authorized to scan; and
-(ii) provided that You have received all required consents, to provide services to third parties to seek and assess information technology vulnerabilities and misconfigurations on the third party’s network.
+If You have obtained a copy of the Software, subject to the terms and conditions, and Your acceptance, of this Agreement, Tenable grants to You a perpetual, non-exclusive, nontransferable license in object code form only to use the Software 
+(i) solely for Your internal operations and internal security purposes to seek and assess information technology vulnerabilities and misconfigurations for Your own networks or that you are otherwise authorized to scan; and 
+(ii) provided that You have received all required consents, to provide services to third parties to seek and assess information technology vulnerabilities and misconfigurations on the third party’s network. 
 
 Any rights in the Software not granted in this Agreement are expressly reserved by Tenable. You are entitled to one copy of the Software. If you license additional copies of the Software, they must be paid for separately and will be subject to their own terms and conditions.
 
 (b) Plugins License Grant. &#34;Plugins&#34; means any plugins (and related updates) that are marked as copyrighted by Tenable. Any plugins or components that are not marked as copyrighted by Tenable are not Plugins as defined under this Agreement and are subject to other license terms. Subject to the terms and conditions of this Agreement, Tenable grants to You for the Term (as defined below) a non-exclusive, non-transferable license in object code form only to use the Plugins as permitted in conjunction with the Software licensed in Section 1(c). The Plugins include vulnerability detection programs not developed by Tenable or its licensors and which are licensed to You under separate agreements. The terms and conditions of this Agreement do not apply to such vulnerability detection programs.
 
-(c) Products. Tenable licenses several variations of the Software, described in more detail below. Tenable reserves the right to withdraw features from the Software or move features between variations of the Software provided that either:
-(1) the core functionality of the Software remains the same; or
+(c) Products. Tenable licenses several variations of the Software, described in more detail below. Tenable reserves the right to withdraw features from the Software or move features between variations of the Software provided that either: 
+(1) the core functionality of the Software remains the same; or 
 (2) You are offered a license to the product to which the functionality was moved.
 
 (i) Nessus Home. Nessus Home is non-commercial Software that permits You to use the Plugins in conjunction with the Software for Your personal use solely to detect vulnerabilities only on Your own personal system (or for Your own personal network) that You use for non-commercial purposes or on the personal system (or for the personal network) of another natural person in a non-commercial arrangement. You are not eligible to use Nessus Home if You are a corporation, a governmental entity or any other form of organization. You may not use Nessus Home to use the Plugins on a computer owned by Your employer or otherwise use the Plugins for the benefit of or to perform any services for any corporation, governmental entity or any other form of organization. When using Nessus Home, Tenable may collect scan data from You (including results, configuration, and gathered artifacts) in order to provide feedback to Tenable and improve the Software. You may not use  Tenable Network Security Confidential and Proprietary 2 Nessus Software License and Subscription Agreement v13 03.03.15 Nessus Home with Nessus Manager or with any Software that is managed by a Nessus Manager installation. Tenable does not provide any support services in connection with Nessus Home.
@@ -316,28 +224,28 @@ Any rights in the Software not granted in this Agreement are expressly reserved 
 23. General. This Agreement constitutes the entire agreement between the parties, and supersedes all other prior or contemporaneous communications between the parties (whether written or oral) relating to the subject matter of this Agreement, provided, however, that this Agreement will not supersede (and will be subject to) any written agreements signed by both Tenable and You that contain license terms for the Licensed Materials and that specifically provide that such agreements are intended to supersede license agreements that may be included in subsequent orders of the Licensed Materials. Tenable will provide a reasonable replacement for damaged or lost Licensed Materials for You at no charge. No supplement, modification or amendment of this Agreement shall be binding, unless executed in writing by a duly authorized representative of each party to this Agreement. The provisions of this Agreement will be deemed severable, and the unenforceability of any one or more provisions will not affect the enforceability of any other provisions. In addition, if any provision of this Agreement, for any reason, is declared to be unenforceable, the parties will substitute an enforceable provision that, to the maximum extent possible under applicable law, preserves the original intentions and economic positions of the parties. Unless Tenable agrees otherwise, You agree that Tenable may use Your name in a customer list. Neither party shall be liable for any loss or delay (including failure to meet the service level commitment) resulting from any force majeure event, including, but not limited to, acts of God, fire, natural disaster, terrorism, labor stoppage, Internet service provider failures or delays, civil unrest, war or military hostilities, criminal acts of third parties, and any payment date or delivery date shall be extended to the extent of any delay resulting from any force majeure event. No failure or delay by a party in exercising any right, power or remedy will operate as a waiver of that right, power or remedy, and no waiver will be effective unless it is in writing and signed by the waiving party. If a party waives any right, power or remedy, the waiver will not waive any successive or other right, power or remedy the party may have under this Agreement. Any provision of this Agreement that imposes or contemplates continuing obligations on a party will survive the expiration or termination of this Agreement. &#34;Including&#34; and its derivatives (such as &#34;include&#34; and &#34;includes&#34;) mean including without limitation; this term is as defined, whether or not capitalized in this Agreement.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -347,6 +255,5 @@ Any rights in the Software not granted in this Agreement are expressly reserved 
     });
   </script>
 
-</body>
-
+  </body>
 </html>

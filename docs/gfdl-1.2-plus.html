@@ -1,305 +1,210 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: gfdl-1.2-plus</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: gfdl-1.2-plus</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="gfdl-1.2-plus.yml">yml</a> -
     <a href="gfdl-1.2-plus.json">json</a> -
     <a href="gfdl-1.2-plus.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gfdl-1.2-plus.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gfdl-1.2-plus.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        gfdl-1.2-plus
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        GFDL 1.2 or later
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        GNU Free Documentation License v1.2 or later
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft Limited
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Free Software Foundation (FSF)
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" rel="noopener"
-          target="_blank">http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</a>
-
-      </dd>
-
-      <dt style="">notes</dt>
-      <dd>
-
-        Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license was released November
-        2002
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        GFDL-1.2-or-later
-
-      </dd>
-
-      <dt style="">other_spdx_license_keys</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>GFDL-1.2+</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.gnu.org/licenses/fdl-1.2.txt" rel="noopener"
-              target="_blank">http://www.gnu.org/licenses/fdl-1.2.txt</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">faq_url</dt>
-      <dd>
-
-        <a href="http://www.fsf.org/licensing/licenses/fdl.html" rel="noopener"
-          target="_blank">http://www.fsf.org/licensing/licenses/fdl.html</a>
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" rel="noopener"
-              target="_blank">http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</a></li>
-          <li><a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" rel="noopener"
-              target="_blank">https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">minimum_coverage</dt>
-      <dd>
-
-        99
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Copyright (c) 2000,2001,2002 Free Software Foundation, Inc.</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Free Software Foundation, Inc.</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.gnu.org/copyleft" rel="noopener" target="_blank">http://www.gnu.org/copyleft</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            gfdl-1.2-plus
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            GFDL 1.2 or later
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            GNU Free Documentation License v1.2 or later
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft Limited
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Free Software Foundation (FSF)
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" rel="noopener" target="_blank">http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</a>
+          
+        </dd>
+      
+        <dt style="">notes</dt>
+        <dd>
+          
+            Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license was released November 2002
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            GFDL-1.2-or-later
+          
+        </dd>
+      
+        <dt style="">other_spdx_license_keys</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>GFDL-1.2+</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.gnu.org/licenses/fdl-1.2.txt" rel="noopener" target="_blank">http://www.gnu.org/licenses/fdl-1.2.txt</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">faq_url</dt>
+        <dd>
+          
+            <a href="http://www.fsf.org/licensing/licenses/fdl.html" rel="noopener" target="_blank">http://www.fsf.org/licensing/licenses/fdl.html</a>
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" rel="noopener" target="_blank">http://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</a></li><li><a href="https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt" rel="noopener" target="_blank">https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">minimum_coverage</dt>
+        <dd>
+          
+            99
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Copyright (c) 2000,2001,2002 Free Software Foundation, Inc.</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Free Software Foundation, Inc.</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.gnu.org/copyleft" rel="noopener" target="_blank">http://www.gnu.org/copyleft</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>    Permission is granted to copy, distribute and/or modify this document
     under the terms of the GNU Free Documentation License, Version 1.2
     or any later version published by the Free Software Foundation;
-
+ 
                 GNU Free Documentation License
                   Version 1.2, November 2002
-
+ 
 
  Copyright (C) 2000,2001,2002  Free Software Foundation, Inc.
      51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
-
+ 
 
 0. PREAMBLE
-
+ 
 The purpose of this License is to make a manual, textbook, or other
 functional and useful document &#34;free&#34; in the sense of freedom: to
 assure everyone the effective freedom to copy and redistribute it,
@@ -307,12 +212,12 @@ with or without modifying it, either commercially or noncommercially.
 Secondarily, this License preserves for the author and publisher a way
 to get credit for their work, while not being considered responsible
 for modifications made by others.
-
+ 
 This License is a kind of &#34;copyleft&#34;, which means that derivative
 works of the document must themselves be free in the same sense.  It
 complements the GNU General Public License, which is a copyleft
 license designed for free software.
-
+ 
 We have designed this License in order to use it for manuals for free
 software, because free software needs free documentation: a free
 program should come with manuals providing the same freedoms that the
@@ -320,10 +225,10 @@ software does.  But this License is not limited to software manuals;
 it can be used for any textual work, regardless of subject matter or
 whether it is published as a printed book.  We recommend this License
 principally for works whose purpose is instruction or reference.
-
+ 
 
 1. APPLICABILITY AND DEFINITIONS
-
+ 
 This License applies to any manual or other work, in any medium, that
 contains a notice placed by the copyright holder saying it can be
 distributed under the terms of this License.  Such a notice grants a
@@ -333,11 +238,11 @@ refers to any such manual or work.  Any member of the public is a
 licensee, and is addressed as &#34;you&#34;.  You accept the license if you
 copy, modify or distribute the work in a way requiring permission
 under copyright law.
-
+ 
 A &#34;Modified Version&#34; of the Document means any work containing the
 Document or a portion of it, either copied verbatim, or with
 modifications and/or translated into another language.
-
+ 
 A &#34;Secondary Section&#34; is a named appendix or a front-matter section of
 the Document that deals exclusively with the relationship of the
 publishers or authors of the Document to the Document&#39;s overall subject
@@ -348,7 +253,7 @@ mathematics.)  The relationship could be a matter of historical
 connection with the subject or with related matters, or of legal,
 commercial, philosophical, ethical or political position regarding
 them.
-
+ 
 The &#34;Invariant Sections&#34; are certain Secondary Sections whose titles
 are designated, as being those of Invariant Sections, in the notice
 that says that the Document is released under this License.  If a
@@ -356,12 +261,12 @@ section does not fit the above definition of Secondary then it is not
 allowed to be designated as Invariant.  The Document may contain zero
 Invariant Sections.  If the Document does not identify any Invariant
 Sections then there are none.
-
+ 
 The &#34;Cover Texts&#34; are certain short passages of text that are listed,
 as Front-Cover Texts or Back-Cover Texts, in the notice that says that
 the Document is released under this License.  A Front-Cover Text may
 be at most 5 words, and a Back-Cover Text may be at most 25 words.
-
+ 
 A &#34;Transparent&#34; copy of the Document means a machine-readable copy,
 represented in a format whose specification is available to the
 general public, that is suitable for revising the document
@@ -374,7 +279,7 @@ format whose markup, or absence of markup, has been arranged to thwart
 or discourage subsequent modification by readers is not Transparent.
 An image format is not Transparent if used for any substantial amount
 of text.  A copy that is not &#34;Transparent&#34; is called &#34;Opaque&#34;.
-
+ 
 Examples of suitable formats for Transparent copies include plain
 ASCII without markup, Texinfo input format, LaTeX input format, SGML
 or XML using a publicly available DTD, and standard-conforming simple
@@ -385,14 +290,14 @@ proprietary word processors, SGML or XML for which the DTD and/or
 processing tools are not generally available, and the
 machine-generated HTML, PostScript or PDF produced by some word
 processors for output purposes only.
-
+ 
 The &#34;Title Page&#34; means, for a printed book, the title page itself,
 plus such following pages as are needed to hold, legibly, the material
 this License requires to appear in the title page.  For works in
 formats which do not have any title page as such, &#34;Title Page&#34; means
 the text near the most prominent appearance of the work&#39;s title,
 preceding the beginning of the body of the text.
-
+ 
 A section &#34;Entitled XYZ&#34; means a named subunit of the Document whose
 title either is precisely XYZ or contains XYZ in parentheses following
 text that translates XYZ in another language.  (Here XYZ stands for a
@@ -400,17 +305,17 @@ specific section name mentioned below, such as &#34;Acknowledgements&#34;,
 &#34;Dedications&#34;, &#34;Endorsements&#34;, or &#34;History&#34;.)  To &#34;Preserve the Title&#34;
 of such a section when you modify the Document means that it remains a
 section &#34;Entitled XYZ&#34; according to this definition.
-
+ 
 The Document may include Warranty Disclaimers next to the notice which
 states that this License applies to the Document.  These Warranty
 Disclaimers are considered to be included by reference in this
 License, but only as regards disclaiming warranties: any other
 implication that these Warranty Disclaimers may have is void and has
 no effect on the meaning of this License.
-
+ 
 
 2. VERBATIM COPYING
-
+ 
 You may copy and distribute the Document in any medium, either
 commercially or noncommercially, provided that this License, the
 copyright notices, and the license notice saying this License applies
@@ -420,13 +325,13 @@ technical measures to obstruct or control the reading or further
 copying of the copies you make or distribute.  However, you may accept
 compensation in exchange for copies.  If you distribute a large enough
 number of copies you must also follow the conditions in section 3.
-
+ 
 You may also lend copies, under the same conditions stated above, and
 you may publicly display copies.
-
+ 
 
 3. COPYING IN QUANTITY
-
+ 
 If you publish printed copies (or copies in media that commonly have
 printed covers) of the Document, numbering more than 100, and the
 Document&#39;s license notice requires Cover Texts, you must enclose the
@@ -439,12 +344,12 @@ visible.  You may add other material on the covers in addition.
 Copying with changes limited to the covers, as long as they preserve
 the title of the Document and satisfy these conditions, can be treated
 as verbatim copying in other respects.
-
+ 
 If the required texts for either cover are too voluminous to fit
 legibly, you should put the first ones listed (as many as fit
 reasonably) on the actual cover, and continue the rest onto adjacent
 pages.
-
+ 
 If you publish or distribute Opaque copies of the Document numbering
 more than 100, you must either include a machine-readable Transparent
 copy along with each Opaque copy, or state in or with each Opaque copy
@@ -457,21 +362,21 @@ that this Transparent copy will remain thus accessible at the stated
 location until at least one year after the last time you distribute an
 Opaque copy (directly or through your agents or retailers) of that
 edition to the public.
-
+ 
 It is requested, but not required, that you contact the authors of the
 Document well before redistributing any large number of copies, to give
 them a chance to provide you with an updated version of the Document.
-
+ 
 
 4. MODIFICATIONS
-
+ 
 You may copy and distribute a Modified Version of the Document under
 the conditions of sections 2 and 3 above, provided that you release
 the Modified Version under precisely this License, with the Modified
 Version filling the role of the Document, thus licensing distribution
 and modification of the Modified Version to whoever possesses a copy
 of it.  In addition, you must do these things in the Modified Version:
-
+ 
 A. Use in the Title Page (and on the covers, if any) a title distinct
    from that of the Document, and from those of previous versions
    (which should, if there were any, be listed in the History section
@@ -519,20 +424,20 @@ M. Delete any section Entitled &#34;Endorsements&#34;.  Such a section
 N. Do not retitle any existing section to be Entitled &#34;Endorsements&#34;
    or to conflict in title with any Invariant Section.
 O. Preserve any Warranty Disclaimers.
-
+ 
 If the Modified Version includes new front-matter sections or
 appendices that qualify as Secondary Sections and contain no material
 copied from the Document, you may at your option designate some or all
 of these sections as invariant.  To do this, add their titles to the
 list of Invariant Sections in the Modified Version&#39;s license notice.
 These titles must be distinct from any other section titles.
-
+ 
 You may add a section Entitled &#34;Endorsements&#34;, provided it contains
 nothing but endorsements of your Modified Version by various
 parties--for example, statements of peer review or that the text has
 been approved by an organization as the authoritative definition of a
 standard.
-
+ 
 You may add a passage of up to five words as a Front-Cover Text, and a
 passage of up to 25 words as a Back-Cover Text, to the end of the list
 of Cover Texts in the Modified Version.  Only one passage of
@@ -542,21 +447,21 @@ includes a cover text for the same cover, previously added by you or
 by arrangement made by the same entity you are acting on behalf of,
 you may not add another; but you may replace the old one, on explicit
 permission from the previous publisher that added the old one.
-
+ 
 The author(s) and publisher(s) of the Document do not by this License
 give permission to use their names for publicity for or to assert or
 imply endorsement of any Modified Version.
-
+ 
 
 5. COMBINING DOCUMENTS
-
+ 
 You may combine the Document with other documents released under this
 License, under the terms defined in section 4 above for modified
 versions, provided that you include in the combination all of the
 Invariant Sections of all of the original documents, unmodified, and
 list them all as Invariant Sections of your combined work in its
 license notice, and that you preserve all their Warranty Disclaimers.
-
+ 
 The combined work need only contain one copy of this License, and
 multiple identical Invariant Sections may be replaced with a single
 copy.  If there are multiple Invariant Sections with the same name but
@@ -565,30 +470,30 @@ adding at the end of it, in parentheses, the name of the original
 author or publisher of that section if known, or else a unique number.
 Make the same adjustment to the section titles in the list of
 Invariant Sections in the license notice of the combined work.
-
+ 
 In the combination, you must combine any sections Entitled &#34;History&#34;
 in the various original documents, forming one section Entitled
 &#34;History&#34;; likewise combine any sections Entitled &#34;Acknowledgements&#34;,
 and any sections Entitled &#34;Dedications&#34;.  You must delete all sections
 Entitled &#34;Endorsements&#34;.
-
+ 
 
 6. COLLECTIONS OF DOCUMENTS
-
+ 
 You may make a collection consisting of the Document and other documents
 released under this License, and replace the individual copies of this
 License in the various documents with a single copy that is included in
 the collection, provided that you follow the rules of this License for
 verbatim copying of each of the documents in all other respects.
-
+ 
 You may extract a single document from such a collection, and distribute
 it individually under this License, provided you insert a copy of this
 License into the extracted document, and follow this License in all
 other respects regarding verbatim copying of that document.
-
+ 
 
 7. AGGREGATION WITH INDEPENDENT WORKS
-
+ 
 A compilation of the Document or its derivatives with other separate
 and independent documents or works, in or on a volume of a storage or
 distribution medium, is called an &#34;aggregate&#34; if the copyright
@@ -597,7 +502,7 @@ of the compilation&#39;s users beyond what the individual works permit.
 When the Document is included in an aggregate, this License does not
 apply to the other works in the aggregate which are not themselves
 derivative works of the Document.
-
+ 
 If the Cover Text requirement of section 3 is applicable to these
 copies of the Document, then if the Document is less than one half of
 the entire aggregate, the Document&#39;s Cover Texts may be placed on
@@ -605,10 +510,10 @@ covers that bracket the Document within the aggregate, or the
 electronic equivalent of covers if the Document is in electronic form.
 Otherwise they must appear on printed covers that bracket the whole
 aggregate.
-
+ 
 
 8. TRANSLATION
-
+ 
 Translation is considered a kind of modification, so you may
 distribute translations of the Document under the terms of section 4.
 Replacing Invariant Sections with translations requires special
@@ -621,15 +526,15 @@ the original English version of this License and the original versions
 of those notices and disclaimers.  In case of a disagreement between
 the translation and the original version of this License or a notice
 or disclaimer, the original version will prevail.
-
+ 
 If a section in the Document is Entitled &#34;Acknowledgements&#34;,
 &#34;Dedications&#34;, or &#34;History&#34;, the requirement (section 4) to Preserve
 its Title (section 1) will typically require changing the actual
 title.
-
+ 
 
 9. TERMINATION
-
+ 
 You may not copy, modify, sublicense, or distribute the Document except
 as expressly provided for under this License.  Any other attempt to
 copy, modify, sublicense or distribute the Document is void, and will
@@ -637,16 +542,16 @@ automatically terminate your rights under this License.  However,
 parties who have received copies, or rights, from you under this
 License will not have their licenses terminated so long as such
 parties remain in full compliance.
-
+ 
 
 10. FUTURE REVISIONS OF THIS LICENSE
-
+ 
 The Free Software Foundation may publish new, revised versions
 of the GNU Free Documentation License from time to time.  Such new
 versions will be similar in spirit to the present version, but may
 differ in detail to address new problems or concerns.  See
 http://www.gnu.org/copyleft/.
-
+ 
 Each version of the License is given a distinguishing version number.
 If the Document specifies that a particular numbered version of this
 License &#34;or any later version&#34; applies to it, you have the option of
@@ -655,14 +560,14 @@ of any later version that has been published (not as a draft) by the
 Free Software Foundation.  If the Document does not specify a version
 number of this License, you may choose any version ever published (not
 as a draft) by the Free Software Foundation.
-
+ 
 
 ADDENDUM: How to use this License for your documents
-
+ 
 To use this License in a document you have written, include a copy of
 the License in the document and put the following copyright and
 license notices just after the title page:
-
+ 
     Copyright (c)  YEAR  YOUR NAME.
     Permission is granted to copy, distribute and/or modify this document
     under the terms of the GNU Free Documentation License, Version 1.2
@@ -670,45 +575,45 @@ license notices just after the title page:
     with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
     A copy of the license is included in the section entitled &#34;GNU
     Free Documentation License&#34;.
-
+ 
 If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts,
 replace the &#34;with...Texts.&#34; line with this:
-
+ 
     with the Invariant Sections being LIST THEIR TITLES, with the
     Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.
-
+ 
 If you have Invariant Sections without Cover Texts, or some other
 combination of the three, merge those two alternatives to suit the
 situation.
-
+ 
 If your document contains nontrivial examples of program code, we
 recommend releasing these examples in parallel under your choice of
 free software license, such as the GNU General Public License,
 to permit their use in free software.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -718,6 +623,5 @@ to permit their use in free software.</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

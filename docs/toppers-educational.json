@@ -6,11 +6,5 @@
   "owner": "TOPPERS",
   "homepage_url": "https://www.toppers.jp/en/license.html",
   "spdx_license_key": "LicenseRef-scancode-toppers-educational",
-  "ignorable_copyrights": [
-    "copyright holder and the TOPPERS Project"
-  ],
-  "ignorable_holders": [
-    "the TOPPERS Project"
-  ],
-  "text": "The above copyright holder, limited to cases in which one satisfies\nconditions (1) ~ (3) below consents to the use, reproduction,\nalteration, and redistribution (hereafter called utilization) of this\nsoftware (this software includes alterations, likewise below) without\ncompensation.\n\n(1) When this software is utilized in the form of source code, the\nabove copyright declaration, these conditions of utilization, and the\nfollowing stipulation of no guarantee shall be included in unchanged\nform inside the source code.\n\n(2) When this software is redistributed in a form in which it can be\nused in the development of other software, library form, etc., the\nabove copyright display, these terms of utilization, and the following\nstipulation of no guarantee shall be inserted in documentation\naccompanying redistribution (user's manual, etc.).\n\n(3) The above copyright holder and the TOPPERS Project shall be exempt\nfrom responsibility for whatever damages occur either directly or\nindirectly through the utilization of this software."
+  "text": "The above copyright holder, limited to cases in which one satisfies\nconditions (1) ~ (3) below consents to the use, reproduction,\nalteration, and redistribution (hereafter called utilization) of this\nsoftware (this software includes alterations, likewise below) without\ncompensation.\n\n(1) When this software is utilized in the form of source code, the\nabove copyright declaration, these conditions of utilization, and the\nfollowing stipulation of no guarantee shall be included in unchanged\nform inside the source code.\n\n(2) When this software is redistributed in a form in which it can be\nused in the development of other software, library form, etc., the\nabove copyright display, these terms of utilization, and the following\nstipulation of no guarantee shall be inserted in documentation\naccompanying redistribution (user's manual, etc.).\n\n(3) The above copyright holder and the TOPPERS Project shall be exempt\nfrom responsibility for whatever damages occur either directly or\nindirectly through the utilization of this software.\n"
 }

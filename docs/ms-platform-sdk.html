@@ -1,230 +1,140 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: ms-platform-sdk</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: ms-platform-sdk</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ms-platform-sdk.yml">yml</a> -
     <a href="ms-platform-sdk.json">json</a> -
     <a href="ms-platform-sdk.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-platform-sdk.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-platform-sdk.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        ms-platform-sdk
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        MS Platform SDK License
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Microsoft Platform SDK License
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Commercial
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Microsoft
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-ms-platform-sdk
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Copyright (c) 1999-2002 Microsoft Corporation</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Microsoft Corporation</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.microsoft.com/exporting/" rel="noopener"
-              target="_blank">http://www.microsoft.com/exporting/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            ms-platform-sdk
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            MS Platform SDK License
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Microsoft Platform SDK License
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Commercial
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Microsoft
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-ms-platform-sdk
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Copyright (c) 1999-2002 Microsoft Corporation</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Microsoft Corporation</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.microsoft.com/exporting/" rel="noopener" target="_blank">http://www.microsoft.com/exporting/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>Microsoft Platform SDK License
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Microsoft Platform SDK License
 END-USER LICENSE AGREEMENT FOR MICROSOFT SOFTWARE
 MICROSOFT PLATFORM SOFTWARE DEVELOPMENT KIT
 
@@ -244,14 +154,14 @@ IMPORTANT—READ CAREFULLY: This End-User License Agreement (&#34;EULA&#34;) is 
 
 3.	DISTRIBUTION REQUIREMENTS AND LICENSE LIMITATIONS
 
-3.1	Your licenses under Section 2 to distribute Source Code, any modifications you make to the Source Code under Section 2.1, and Redistributable Code (collectively, &#34;Redistributables&#34;) are conditioned on the following: (a) you will distribute Redistributables only in object code form and in conjunction with and as a part of a software application developed by you that adds significant and primary functionality to the Redistributables (&#34;Application&#34;);
-(b) the Redistributables will operate only in conjunction with a Microsoft Operating System Product;
-(c) your Application will invoke the Software only via interfaces described in the documentation accompanying the Software;
-(d) you will distribute your Application containing the Redistributables only pursuant to an end-user license agreement (which may be break-the-seal, click- wrap or signed) with terms no less protective than those contained in this EULA;
-(e) you will not use Microsoft’s name, logo, or trademarks to market your Application;
-(f) you will include a valid copyright notice on your Application sufficient to protect Microsoft’s copyright in the Software;
-(g) you will not remove or obscure any copyright, trademark or patent notices that appear on or in the Software as delivered to you;
-(h) you will indemnify, hold harmless, and defend Microsoft from and against any claims or lawsuits, including attorneys’ and experts’ fees, that arise or result from the use or distribution of your Application; and
+3.1	Your licenses under Section 2 to distribute Source Code, any modifications you make to the Source Code under Section 2.1, and Redistributable Code (collectively, &#34;Redistributables&#34;) are conditioned on the following: (a) you will distribute Redistributables only in object code form and in conjunction with and as a part of a software application developed by you that adds significant and primary functionality to the Redistributables (&#34;Application&#34;); 
+(b) the Redistributables will operate only in conjunction with a Microsoft Operating System Product; 
+(c) your Application will invoke the Software only via interfaces described in the documentation accompanying the Software; 
+(d) you will distribute your Application containing the Redistributables only pursuant to an end-user license agreement (which may be break-the-seal, click- wrap or signed) with terms no less protective than those contained in this EULA; 
+(e) you will not use Microsoft’s name, logo, or trademarks to market your Application; 
+(f) you will include a valid copyright notice on your Application sufficient to protect Microsoft’s copyright in the Software; 
+(g) you will not remove or obscure any copyright, trademark or patent notices that appear on or in the Software as delivered to you; 
+(h) you will indemnify, hold harmless, and defend Microsoft from and against any claims or lawsuits, including attorneys’ and experts’ fees, that arise or result from the use or distribution of your Application; and 
 (i) you will otherwise comply with the terms of this EULA.  You may not permit further distribution of Redistributables by your end users except that you may permit further redistribution of Redistributables by your distributors to end users if your distributors only distribute the Redistributables in conjunction with and as part of your Application or Applications, you comply with all other terms of this EULA, and your distributors comply with all restrictions of this EULA that are applicable to you.
 
 3.2	Renaming MFC, ATL or CRTs. You must rename all files containing MFC, ATL or CRTs prior to distributing them or any modifications to them.
@@ -273,11 +183,11 @@ distribute those Redistributables as part of that setup program, without alterat
 
 6.	LIMITATIONS ON REVERSE ENGINEERING, DECOMPILATION, AND DISASSEMBLY. You may not reverse engineer, decompile, or disassemble the Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation.
 
-7.	NO RENTAL OR COMMERCIAL HOSTING. You may not rent, lease, lend or provide commercial hosting services with the Software.
+7.	NO RENTAL OR COMMERCIAL HOSTING. You may not rent, lease, lend or provide commercial hosting services with the Software. 
 
 8.	CONSENT TO USE OF DATA.You agree that Microsoft and its affiliates may collect and use technical information gathered as part of the product support services provided to you, if any, related to the Software. Microsoft may use this information solely to improve our products or to provide customized services or technologies to you and will not disclose this information in a form that personally identifies you.
 
-9.	LINKS TO THIRD-PARTY SITES. You may link to third-party sites through the use of the Software. The third-party sites are not under the control of Microsoft, and Microsoft is not responsible for the contents of any third-party sites, any links contained in third-party sites, or any changes or updates to third-party sites. Microsoft is not responsible for web-casting or any other form of transmission received from any third- party sites. Microsoft is providing these links to third-party sites to you only as a convenience, and the inclusion of any link does not imply an endorsement by Microsoft of the third-party site.
+9.	LINKS TO THIRD-PARTY SITES. You may link to third-party sites through the use of the Software. The third-party sites are not under the control of Microsoft, and Microsoft is not responsible for the contents of any third-party sites, any links contained in third-party sites, or any changes or updates to third-party sites. Microsoft is not responsible for web-casting or any other form of transmission received from any third- party sites. Microsoft is providing these links to third-party sites to you only as a convenience, and the inclusion of any link does not imply an endorsement by Microsoft of the third-party site. 
 
 10.	ADDITIONAL SOFTWARE OR SERVICES. This EULA applies to updates, supplements, add-on components or Internet-based services components of the Software that Microsoft may provide to you or make available to you after the date you obtain your initial copy of the Software, unless Microsoft provides other terms along with the update, supplement, add-on component, or Internet-based services component. Microsoft reserves the right to discontinue any Internet-based services provided to you or made available to you through the use of the Software.
 
@@ -301,28 +211,28 @@ In such event, you must destroy all copies of the Software and all of its compon
 19.	ENTIRE AGREEMENT; SEVERABILITY. This EULA (including any addendum or amendment to this EULA which is included with the Software) is the entire agreement between you and Microsoft relating to the Software and the support services (if any) and it supersedes all prior or contemporaneous oral or written communications, proposals and representations with respect to the Software or any other subject matter covered by this EULA. To the extent the terms of any Microsoft policies or programs for support services conflict with the terms of this EULA, the terms of this EULA shall control. If any provision of this EULA is held to be void, invalid, unenforceable or illegal, the other provisions shall continue in full force and effect.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -332,6 +242,5 @@ In such event, you must destroy all copies of the Software and all of its compon
     });
   </script>
 
-</body>
-
+  </body>
 </html>

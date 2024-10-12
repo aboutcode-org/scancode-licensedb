@@ -1,241 +1,138 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: gitleaks-action-eula</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: gitleaks-action-eula</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="gitleaks-action-eula.yml">yml</a> -
     <a href="gitleaks-action-eula.json">json</a> -
     <a href="gitleaks-action-eula.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gitleaks-action-eula.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/gitleaks-action-eula.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        gitleaks-action-eula
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Gitleaks-Action EULA
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Gitleaks-Action EULA
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Commercial
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Gitleaks
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://github.com/gitleaks/gitleaks-action/blob/master/COMMERCIAL-LICENSE.txt" rel="noopener"
-          target="_blank">https://github.com/gitleaks/gitleaks-action/blob/master/COMMERCIAL-LICENSE.txt</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-gitleaks-action-eula
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a
-              href="https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#organization-accounts"
-              rel="noopener"
-              target="_blank">https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#organization-accounts</a>
-          </li>
-          <li><a
-              href="https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#personal-accounts"
-              rel="noopener"
-              target="_blank">https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#personal-accounts</a>
-          </li>
-          <li><a href="https://github.com/zricethezav/gitleaks-action" rel="noopener"
-              target="_blank">https://github.com/zricethezav/gitleaks-action</a></li>
-          <li><a href="https://gitleaks.io/gitleaks-action/commercial-license.html" rel="noopener"
-              target="_blank">https://gitleaks.io/gitleaks-action/commercial-license.html</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_emails</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="mailto:andrew@gitleaks.io">andrew@gitleaks.io</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            gitleaks-action-eula
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Gitleaks-Action EULA
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Gitleaks-Action EULA
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Commercial
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Gitleaks
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://github.com/gitleaks/gitleaks-action/blob/master/COMMERCIAL-LICENSE.txt" rel="noopener" target="_blank">https://github.com/gitleaks/gitleaks-action/blob/master/COMMERCIAL-LICENSE.txt</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-gitleaks-action-eula
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#organization-accounts" rel="noopener" target="_blank">https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#organization-accounts</a></li><li><a href="https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#personal-accounts" rel="noopener" target="_blank">https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts#personal-accounts</a></li><li><a href="https://github.com/zricethezav/gitleaks-action" rel="noopener" target="_blank">https://github.com/zricethezav/gitleaks-action</a></li><li><a href="https://gitleaks.io/gitleaks-action/commercial-license.html" rel="noopener" target="_blank">https://gitleaks.io/gitleaks-action/commercial-license.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:andrew@gitleaks.io">andrew@gitleaks.io</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>GITLEAKS-ACTION END-USER LICENSE AGREEMENT
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>GITLEAKS-ACTION END-USER LICENSE AGREEMENT
 
 ------------------------------------------------------------------------------
 
@@ -265,7 +162,7 @@ In order to use the Software under this Agreement, you may be required to obtain
 
 1.5 Electronic Delivery. All Software and license documentation shall be delivered by electronic means. Software shall be deemed delivered when the License Key is made available to you.
 
-2. Restricted Uses.
+2. Restricted Uses. 
 
 2.1 You shall not (and shall not allow any third party to):
   (a) Distribute, sell, sublicense, rent, or lease the Software, except as expressly permitted under this Agreement, or as may be permitted by a separate reseller agreement between you and Gitleaks LLC;
@@ -277,20 +174,20 @@ In order to use the Software under this Agreement, you may be required to obtain
 
 2.2 UNDER NO CIRCUMSTANCES MAY YOU USE THE SOFTWARE AS PART OF A PRODUCT OR SERVICE THAT PROVIDES SIMILAR FUNCTIONALITY TO THE SOFTWARE ITSELF.
 
-3. Ownership. Notwithstanding anything to the contrary contained herein, except for the limited license rights expressly provided herein, Gitleaks LLC and its suppliers have and will retain all rights, title and interest (including, without limitation, all patent, copyright, trademark, trade secret and other intellectual property rights) in and to the Software and all copies, modifications and derivative works thereof (including any changes which incorporate any of your ideas, feedback or suggestions). You acknowledge that you are obtaining only a limited license right to the Software, and that irrespective of any use of the words “purchase”, “sale” or like terms hereunder no ownership rights are being conveyed to you under this Agreement or otherwise.
+3. Ownership. Notwithstanding anything to the contrary contained herein, except for the limited license rights expressly provided herein, Gitleaks LLC and its suppliers have and will retain all rights, title and interest (including, without limitation, all patent, copyright, trademark, trade secret and other intellectual property rights) in and to the Software and all copies, modifications and derivative works thereof (including any changes which incorporate any of your ideas, feedback or suggestions). You acknowledge that you are obtaining only a limited license right to the Software, and that irrespective of any use of the words “purchase”, “sale” or like terms hereunder no ownership rights are being conveyed to you under this Agreement or otherwise. 
 
-4. Fees and Payment. The Software license fees will be due and payable in full as set forth in the applicable invoice or at the time of purchase. If the Software does not function properly within two weeks of purchase, please contact us within those two weeks for a refund. You shall be responsible for all taxes, withholdings, duties and levies arising from the order (excluding taxes based on the net income of Gitleaks LLC).
+4. Fees and Payment. The Software license fees will be due and payable in full as set forth in the applicable invoice or at the time of purchase. If the Software does not function properly within two weeks of purchase, please contact us within those two weeks for a refund. You shall be responsible for all taxes, withholdings, duties and levies arising from the order (excluding taxes based on the net income of Gitleaks LLC). 
 
 5. Support, Maintenance and Services. Subject to the terms and conditions of this Agreement, as set forth in your invoice, support and maintenance services may be included with the purchase of your license subscription.
 
-6. Term of Agreement.
+6. Term of Agreement. 
 
 6.1 Term. This Agreement is effective as of the delivery of the License Key and expires at such time as all license and service subscriptions hereunder have expired in accordance with their own terms (the “Term”). The term of your license under this Agreement shall be specified at your time of purchase. Either party may terminate this Agreement (including all related Invoices) if the other party:
   (a) fails to cure any material breach of this Agreement within thirty (30) days after written notice of such breach, provided that Gitleaks LLC may terminate this Agreement immediately upon any breach of Section 1 or 2;
   (b) ceases operation without a successor; or
   (c) seeks protection under any bankruptcy, receivership, trust deed, creditors arrangement, composition or comparable proceeding, or if any such proceeding is instituted against such party (and not dismissed within sixty (60) days)). Termination is not an exclusive remedy and the exercise by either party of any remedy under this Agreement will be without prejudice to any other remedies it may have under this Agreement, by law, or otherwise.
 
-6.2 Termination. Upon any termination of this Agreement, you shall cease any and all use of the Software and destroy all copies of the Software and source code that you may have obtained.
+6.2 Termination. Upon any termination of this Agreement, you shall cease any and all use of the Software and destroy all copies of the Software and source code that you may have obtained. 
 
 6.3 Expiration of License. Upon the expiration of any term under this Agreement,
   (a) all Software updates and services pursuant to the license shall cease,
@@ -300,10 +197,10 @@ In order to use the Software under this Agreement, you may be required to obtain
  6.4 Use of User Logos
  During the term of this Agreement, we may publicly identify you as a Gitleaks-Action user, which includes use of your logo. If you do not want us to identify you as a user, please contact us. Neither you nor we will imply any untrue sponsorship, endorsement, or affiliation between you and Gitleaks LLC. Upon termination of your Gitleaks-Action subscription, Gitleaks LLC will remove any public references to our relationship from our websites.
 
-7. Disclaimer of Warranties. The Software is provided &#34;as is,&#34; with all faults, defects and errors, and without warranty of any kind. Gitleaks LLC does not warrant that the Software will be free of bugs, errors, viruses or other defects, and Gitleaks LLC shall have no liability of any kind for the use of or inability to use the Software, the Software content or any associated service, and you acknowledge that it is not technically practicable for Gitleaks LLC to do so.
+7. Disclaimer of Warranties. The Software is provided &#34;as is,&#34; with all faults, defects and errors, and without warranty of any kind. Gitleaks LLC does not warrant that the Software will be free of bugs, errors, viruses or other defects, and Gitleaks LLC shall have no liability of any kind for the use of or inability to use the Software, the Software content or any associated service, and you acknowledge that it is not technically practicable for Gitleaks LLC to do so. 
 To the maximum extent permitted by applicable law, Gitleaks LLC disclaims all warranties, express, implied, arising by law or otherwise, regarding the Software, the Software content and their respective performance or suitability for your intended use, including without limitation any implied warranty of merchantability or fitness for a particular purpose.
 
-8. Limitation of Liability.
+8. Limitation of Liability. 
 
 In no event will Gitleaks LLC be liable for any direct, indirect, consequential, incidental, special, exemplary, or punitive damages or liabilities whatsoever arising from or relating to the Software, the Software content or this Agreement, whether based on contract, tort (including negligence), strict liability or other theory, even if Gitleaks LLC has been advised of the possibility of such damages.
 
@@ -337,9 +234,9 @@ In no event will Gitleaks LLC&#39;s liability exceed the Software license price 
 
 12.5 Indemnification. You agree to defend, indemnify, and hold harmless Gitleaks LLC from and against any lawsuits, claims, losses, damages, fines and expenses (including attorneys&#39; fees and costs) arising out of your use of the Software or breach of this Agreement.
 
-12.6 Governing Law. This Agreement is governed by the laws of the State of Illinois and the United States without regard to conflicts of provisions thereof, and without regard to the United Nations Convention on the International Sale of Goods or the Uniform Computer Information Transactions Act, as currently enacted by any jurisdiction or as may be codified or amended from time to time by any jurisdiction. The jurisdiction and venue for actions related to the subject matter hereof shall be the state of Illinois and United States federal courts located in Chicago, Illinois, and both parties hereby submit to the jurisdiction of such courts.
+12.6 Governing Law. This Agreement is governed by the laws of the State of Illinois and the United States without regard to conflicts of provisions thereof, and without regard to the United Nations Convention on the International Sale of Goods or the Uniform Computer Information Transactions Act, as currently enacted by any jurisdiction or as may be codified or amended from time to time by any jurisdiction. The jurisdiction and venue for actions related to the subject matter hereof shall be the state of Illinois and United States federal courts located in Chicago, Illinois, and both parties hereby submit to the jurisdiction of such courts. 
 
-12.7 Attorneys&#39; Fees and Costs. The prevailing party in any action to enforce this Agreement will be entitled to recover its attorneys&#39; fees and costs in connection with such action.
+12.7 Attorneys&#39; Fees and Costs. The prevailing party in any action to enforce this Agreement will be entitled to recover its attorneys&#39; fees and costs in connection with such action. 
 
 12.8 Severability. If any provision of this Agreement is held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, the remainder of this Agreement will remain in full force and effect.
 
@@ -350,28 +247,28 @@ In no event will Gitleaks LLC&#39;s liability exceed the Software license price 
 13. Contact Information. If you have any questions about this EULA, or if you want to contact Gitleaks LLC for any reason, please direct correspondence to andrew@gitleaks.io.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -381,6 +278,5 @@ In no event will Gitleaks LLC&#39;s liability exceed the Software license price 
     });
   </script>
 
-</body>
-
+  </body>
 </html>

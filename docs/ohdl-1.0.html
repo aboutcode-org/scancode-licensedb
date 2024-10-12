@@ -1,223 +1,133 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: ohdl-1.0</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: ohdl-1.0</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ohdl-1.0.yml">yml</a> -
     <a href="ohdl-1.0.json">json</a> -
     <a href="ohdl-1.0.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ohdl-1.0.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ohdl-1.0.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        ohdl-1.0
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        OHDL-1.0
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Open Hardware Description License Version 1.0
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft Limited
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        FOSSi Foundation
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://juliusbaxter.net/ohdl/ohdl.txt" rel="noopener"
-          target="_blank">http://juliusbaxter.net/ohdl/ohdl.txt</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-ohdl-1.0
-
-      </dd>
-
-      <dt style="">faq_url</dt>
-      <dd>
-
-        <a href="http://juliusbaxter.net/ohdl/" rel="noopener" target="_blank">http://juliusbaxter.net/ohdl/</a>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://juliusbaxter.net/ohdl/ohdl.txt" rel="noopener"
-              target="_blank">http://juliusbaxter.net/ohdl/ohdl.txt</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            ohdl-1.0
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            OHDL-1.0
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Open Hardware Description License Version 1.0
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft Limited
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            FOSSi Foundation
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://juliusbaxter.net/ohdl/ohdl.txt" rel="noopener" target="_blank">http://juliusbaxter.net/ohdl/ohdl.txt</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-ohdl-1.0
+          
+        </dd>
+      
+        <dt style="">faq_url</dt>
+        <dd>
+          
+            <a href="http://juliusbaxter.net/ohdl/" rel="noopener" target="_blank">http://juliusbaxter.net/ohdl/</a>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://juliusbaxter.net/ohdl/ohdl.txt" rel="noopener" target="_blank">http://juliusbaxter.net/ohdl/ohdl.txt</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Open Hardware Description License Version 1.0
@@ -252,7 +162,7 @@
     means any form of the work other than Source Code Form.
 
 1.7. &#34;Larger Work&#34;
-    means a work that combines a Covered Hardware Description with code in a
+    means a work that combines a Covered Hardware Description with code in a 
     separate file or files not governed by the terms of this License.
 
 1.8. &#34;License&#34;
@@ -333,15 +243,15 @@ distribution or licensing of Covered Hardware Description under this License.
 Notwithstanding Section 2.1(b) above, no patent license is granted by a
 Contributor:
 
-(a) for any code that a Contributor has removed from Covered Hardware
+(a) for any code that a Contributor has removed from Covered Hardware 
     Description; or
 
 (b) for infringements caused by: (i) Your and any other third party&#39;s
-    modifications of a Covered Hardware Description, or (ii) the combination
+    modifications of a Covered Hardware Description, or (ii) the combination 
     of its Contributions with other Source (except as part of its Contributor
     Version); or
 
-(c) under Patent Claims infringed by a Covered Hardware Description in the
+(c) under Patent Claims infringed by a Covered Hardware Description in the 
     absence of its Contributions.
 
 This License does not grant any rights in the trademarks, service marks,
@@ -377,7 +287,7 @@ in Section 2.1.
 
 3.1. Distribution of Source Form
 
-All distribution of Covered Hardware Description in Source Code Form,
+All distribution of Covered Hardware Description in Source Code Form, 
 including any Modifications that You create or to which You contribute, must be
 under the terms of this License. You must inform recipients that the Source
 Code Form of the Covered Hardware Description is governed by the terms of this
@@ -389,7 +299,7 @@ Form.
 
 If You distribute Covered Hardware Description in Processed Form then:
 
-(a) such Covered Hardware Description must also be made available in Source
+(a) such Covered Hardware Description must also be made available in Source 
     Code Form, as described in Section 3.1, and You must inform recipients of
     the Processed Form how they can obtain a copy of such Source Code
     Form by reasonable means in a timely manner, at a charge no more
@@ -404,12 +314,12 @@ If You distribute Covered Hardware Description in Processed Form then:
 
 You may create and distribute a Larger Work under terms of Your choice,
 provided that You also comply with the requirements of this License for
-the Covered Hardware Description. If the Larger Work is a combination of a
-Covered Hardware Description with a work governed by a Secondary License, and
-the Covered Hardware Description is not Incompatible With Secondary Licenses,
-this License permits You to additionally distribute such Covered Hardware
+the Covered Hardware Description. If the Larger Work is a combination of a 
+Covered Hardware Description with a work governed by a Secondary License, and 
+the Covered Hardware Description is not Incompatible With Secondary Licenses, 
+this License permits You to additionally distribute such Covered Hardware 
 Description under the terms of that Secondary License, so that the recipient of
-the Larger Work may, at their option, further distribute the Covered Hardware
+the Larger Work may, at their option, further distribute the Covered Hardware 
 Description under the terms of either this License or that Secondary License.
 
 3.4. Notices
@@ -424,7 +334,7 @@ to the extent required to remedy known factual inaccuracies.
 
 You may choose to offer, and to charge a fee for, warranty, support,
 indemnity or liability obligations to one or more recipients of a Covered
-Hardware Description. However, You may do so only on Your own behalf, and not
+Hardware Description. However, You may do so only on Your own behalf, and not 
 on behalf of any Contributor. You must make it absolutely clear that any
 such warranty, support, indemnity, or liability obligation is offered by
 You alone, and You hereby agree to indemnify every Contributor for any
@@ -442,7 +352,7 @@ statute, judicial order, or regulation then You must: (a) comply with
 the terms of this License to the maximum extent possible; and (b)
 describe the limitations and the code they affect. Such description must
 be placed in a text file included with all distributions of the Covered
-Hardware Description under this License. Except to the extent prohibited by
+Hardware Description under this License. Except to the extent prohibited by 
 statute or regulation, such description must be sufficiently detailed for a
 recipient of ordinary skill to be able to understand it.
 
@@ -467,7 +377,7 @@ Your receipt of the notice.
 infringement claim (excluding declaratory judgment actions,
 counter-claims, and cross-claims) alleging that a Contributor Version
 directly or indirectly infringes any patent, then the rights granted to
-You by any and all Contributors for the Covered Hardware Description under
+You by any and all Contributors for the Covered Hardware Description under 
 Section 2.1 of this License shall terminate.
 
 5.3. In the event of termination under Sections 5.1 or 5.2 above, all
@@ -550,9 +460,9 @@ distinguishing version number.
 
 10.2. Effect of New Versions
 
-You may distribute the Covered Hardware Description under the terms of the
+You may distribute the Covered Hardware Description under the terms of the 
 version of the License under which You originally received the Covered Hardware
-Description, or under the terms of any subsequent version published by the
+Description, or under the terms of any subsequent version published by the 
 license steward.
 
 10.3. Modified Versions
@@ -573,9 +483,9 @@ notice described in Exhibit B of this License must be attached.
 Exhibit A - Source Code Form License Notice
 -------------------------------------------
 
-  This Source Code Form is subject to the terms of the
-  Open Hardware Description License, v. 1.0. If a copy
-  of the OHDL was not distributed with this file, You
+  This Source Code Form is subject to the terms of the 
+  Open Hardware Description License, v. 1.0. If a copy 
+  of the OHDL was not distributed with this file, You 
   can obtain one at http://juliusbaxter.net/ohdl/ohdl.txt
 
 If it is not possible or desirable to put the notice in a particular
@@ -592,28 +502,28 @@ Exhibit B - &#34;Incompatible With Secondary Licenses&#34; Notice
   defined by the Open Hardware Description License, v. 1.0.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -623,6 +533,5 @@ Exhibit B - &#34;Incompatible With Secondary Licenses&#34; Notice
     });
   </script>
 
-</body>
-
+  </body>
 </html>

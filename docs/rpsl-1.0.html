@@ -1,288 +1,183 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: rpsl-1.0</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: rpsl-1.0</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="rpsl-1.0.yml">yml</a> -
     <a href="rpsl-1.0.json">json</a> -
     <a href="rpsl-1.0.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/rpsl-1.0.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/rpsl-1.0.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        rpsl-1.0
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        RealNetworks Public Source License 1.0
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        RealNetworks Public Source License v1.0
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft Limited
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        RealNetworks
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://opensource.org/licenses/real.php" rel="noopener"
-          target="_blank">http://opensource.org/licenses/real.php</a>
-
-      </dd>
-
-      <dt style="">notes</dt>
-      <dd>
-
-        This license is OSI certified
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        RPSL-1.0
-
-      </dd>
-
-      <dt style="">osi_license_key</dt>
-      <dd>
-
-        RPSL-1.0
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://opensource.org/licenses/real.php" rel="noopener"
-              target="_blank">http://opensource.org/licenses/real.php</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">osi_url</dt>
-      <dd>
-
-        <a href="http://opensource.org/licenses/real.php" rel="noopener"
-          target="_blank">http://opensource.org/licenses/real.php</a>
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.opensource.org/licenses/RPSL-1.0" rel="noopener"
-              target="_blank">http://www.opensource.org/licenses/RPSL-1.0</a></li>
-          <li><a href="https://helixcommunity.org/content/rpsl" rel="noopener"
-              target="_blank">https://helixcommunity.org/content/rpsl</a></li>
-          <li><a href="https://opensource.org/licenses/RPSL-1.0" rel="noopener"
-              target="_blank">https://opensource.org/licenses/RPSL-1.0</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Copyright (c) 1995-2002 RealNetworks, Inc. and/or its licensors</li>
-          <li>Copyright (c) RealNetworks, Inc., 1995-2002</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>RealNetworks, Inc.</li>
-          <li>RealNetworks, Inc. and/or its licensors</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.realnetworks.com/info/helixlogo.html" rel="noopener"
-              target="_blank">http://www.realnetworks.com/info/helixlogo.html</a></li>
-          <li><a href="https://www.helixcommunity.org/content/complicense" rel="noopener"
-              target="_blank">https://www.helixcommunity.org/content/complicense</a></li>
-          <li><a href="https://www.helixcommunity.org/content/rcsl" rel="noopener"
-              target="_blank">https://www.helixcommunity.org/content/rcsl</a></li>
-          <li><a href="https://www.helixcommunity.org/content/rpsl" rel="noopener"
-              target="_blank">https://www.helixcommunity.org/content/rpsl</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            rpsl-1.0
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            RealNetworks Public Source License 1.0
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            RealNetworks Public Source License v1.0
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft Limited
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            RealNetworks
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://opensource.org/licenses/real.php" rel="noopener" target="_blank">http://opensource.org/licenses/real.php</a>
+          
+        </dd>
+      
+        <dt style="">notes</dt>
+        <dd>
+          
+            This license is OSI certified
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            RPSL-1.0
+          
+        </dd>
+      
+        <dt style="">osi_license_key</dt>
+        <dd>
+          
+            RPSL-1.0
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://opensource.org/licenses/real.php" rel="noopener" target="_blank">http://opensource.org/licenses/real.php</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">osi_url</dt>
+        <dd>
+          
+            <a href="http://opensource.org/licenses/real.php" rel="noopener" target="_blank">http://opensource.org/licenses/real.php</a>
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.opensource.org/licenses/RPSL-1.0" rel="noopener" target="_blank">http://www.opensource.org/licenses/RPSL-1.0</a></li><li><a href="https://helixcommunity.org/content/rpsl" rel="noopener" target="_blank">https://helixcommunity.org/content/rpsl</a></li><li><a href="https://opensource.org/licenses/RPSL-1.0" rel="noopener" target="_blank">https://opensource.org/licenses/RPSL-1.0</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Copyright (c) 1995-2002 RealNetworks, Inc. and/or its licensors</li><li>Copyright (c) RealNetworks, Inc., 1995-2002</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>RealNetworks, Inc.</li><li>RealNetworks, Inc. and/or its licensors</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.realnetworks.com/info/helixlogo.html" rel="noopener" target="_blank">http://www.realnetworks.com/info/helixlogo.html</a></li><li><a href="https://www.helixcommunity.org/content/complicense" rel="noopener" target="_blank">https://www.helixcommunity.org/content/complicense</a></li><li><a href="https://www.helixcommunity.org/content/rcsl" rel="noopener" target="_blank">https://www.helixcommunity.org/content/rcsl</a></li><li><a href="https://www.helixcommunity.org/content/rpsl" rel="noopener" target="_blank">https://www.helixcommunity.org/content/rpsl</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>RealNetworks Public Source License Version 1.0
@@ -606,7 +501,7 @@ choose to license such Licensor Modifications under this License, or on
 different terms from those contained in this License or may choose not to
 license them at all.
 
-11. Termination.
+11. Termination. 
 
 11.1 Term and Termination. The term of this License is perpetual unless
 terminated as provided below. This License and the rights granted hereunder will
@@ -706,7 +601,7 @@ and all related documents be drafted in English. Les parties ont exig&amp;eacute
 que le pr&amp;eacute;sent contrat et tous les documents connexes soient
 r&amp;eacute;dig&amp;eacute;s en anglais.
 
-                                EXHIBIT A.
+                                EXHIBIT A.  
 
 &#34;Copyright &amp;copy; 1995-2002
 RealNetworks, Inc. and/or its licensors. All Rights Reserved.
@@ -731,16 +626,16 @@ IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING
 WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
 
-Contributor(s):
+Contributor(s):   
 
 Technology Compatibility Kit Test
-Suite(s) Location (if licensed under the RCSL):
+Suite(s) Location (if licensed under the RCSL):   
 
 Object Code Notice: Helix DNA Client technology included. Copyright (c)
 RealNetworks, Inc., 1995-2002. All rights reserved.
 
 
-                                EXHIBIT B
+                                EXHIBIT B 
 
 Compatible Source Licenses for the RealNetworks Public Source License. The
 following list applies to the most recent version of the license as of October
@@ -789,9 +684,9 @@ code does not violate either the RPSL or the Compatible Source License.
 The latest version of this list can be found at:
 https://www.helixcommunity.org/content/complicense
 
-                                EXHIBIT C
+                                EXHIBIT C 
 
-RealNetworks&#39; Trademark policy.
+RealNetworks&#39; Trademark policy.  
 
 RealNetworks defines the following trademarks collectively as &#34;Licensor
 Trademarks&#34;: &#34;RealNetworks&#34;, &#34;RealPlayer&#34;, &#34;RealJukebox&#34;, &#34;RealSystem&#34;,
@@ -804,28 +699,28 @@ third party trademark usage guidelines which are posted at
 http://www.realnetworks.com/info/helixlogo.html.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -835,6 +730,5 @@ http://www.realnetworks.com/info/helixlogo.html.</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

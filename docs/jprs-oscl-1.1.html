@@ -1,265 +1,173 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: jprs-oscl-1.1</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: jprs-oscl-1.1</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="jprs-oscl-1.1.yml">yml</a> -
     <a href="jprs-oscl-1.1.json">json</a> -
     <a href="jprs-oscl-1.1.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/jprs-oscl-1.1.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/jprs-oscl-1.1.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        jprs-oscl-1.1
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        JPRS OSCL 1.1
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        JPRS Open Source Code License v1.1
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Free Restricted
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        JPRS
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://jprs.co.jp/idn/idnkit2-OSCL.txt" rel="noopener"
-          target="_blank">https://jprs.co.jp/idn/idnkit2-OSCL.txt</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-jprs-oscl-1.1
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://jprs.co.jp/idn/idnkit2-OSCL.txt" rel="noopener"
-              target="_blank">https://jprs.co.jp/idn/idnkit2-OSCL.txt</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">minimum_coverage</dt>
-      <dd>
-
-        70
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Copyright (c) 2000-2002 Japan Network Information Center</li>
-          <li>Copyright (c) 2010-2012 Japan Registry Services Co., Ltd.</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Japan Network Information Center</li>
-          <li>Japan Registry Services Co., Ltd.</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://jprs.co.jp/idn/" rel="noopener" target="_blank">http://jprs.co.jp/idn/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            jprs-oscl-1.1
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            JPRS OSCL 1.1
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            JPRS Open Source Code License v1.1
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Free Restricted
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            JPRS
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://jprs.co.jp/idn/idnkit2-OSCL.txt" rel="noopener" target="_blank">https://jprs.co.jp/idn/idnkit2-OSCL.txt</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-jprs-oscl-1.1
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://jprs.co.jp/idn/idnkit2-OSCL.txt" rel="noopener" target="_blank">https://jprs.co.jp/idn/idnkit2-OSCL.txt</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">minimum_coverage</dt>
+        <dd>
+          
+            70
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Copyright (c) 2000-2002 Japan Network Information Center</li><li>Copyright (c) 2010-2012 Japan Registry Services Co., Ltd.</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Japan Network Information Center</li><li>Japan Registry Services Co., Ltd.</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://jprs.co.jp/idn/" rel="noopener" target="_blank">http://jprs.co.jp/idn/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>                          TERMS AND CONDITIONS
                                   FOR
                         OPEN SOURCE CODE LICENSE
                               Version 1.1
-
+ 
 Japan Registry Services Co., Ltd. (&#34;JPRS&#34;), a Japanese corporation
 having its head office at Chiyoda First Bldg. East 13F 3-8-1 Nishi-Kanda,
 Chiyoda-ku, Tokyo 101-0065, Japan, grants you the license for open source
 code specified in EXHIBIT A the &#34;Code&#34; subject to the following Terms and
 Conditions (&#34;OSCL&#34;).
-
+ 
 1. License Grant.
   JPRS hereby grants you a worldwide, royalty-free, non-exclusive
   license, subject to third party intellectual property claims:
@@ -281,7 +189,7 @@ Conditions (&#34;OSCL&#34;).
       3)  for infringements caused by:
            i) modification of the Code; or
           ii) combination of the Code with other software or devices.
-
+ 
 2. Consents.
   You agree that:
   (a) you must include a copy of this OSCL and the notice set forth in
@@ -294,7 +202,7 @@ Conditions (&#34;OSCL&#34;).
       the recipients&#39; rights hereunder.
   (d) If the terms and conditions are set forth in EXHIBIT A, you must
       comply with those terms and conditions.
-
+ 
 3. Proprietary Information.
   All trademarks, service marks, patents, copyrights, trade secrets, and
   other proprietary rights in or related to the Code are and will remain
@@ -303,7 +211,7 @@ Conditions (&#34;OSCL&#34;).
   in this OSCL; provided however you agree and understand that the JPRS
   name may not be used to endorse or promote this Code without prior
   written approval of JPRS.
-
+ 
 4. WARRANTY DISCLAIMER.
   JPRS MAKES NO REPRESENTATIONS AND WARRANTIES REGARDING THE USE OF THE
   CODE, NOR DOES JPRS MAKE ANY REPRESENTATIONS THAT THE CODE WILL BECOME
@@ -317,7 +225,7 @@ Conditions (&#34;OSCL&#34;).
   DEALING, CUSTOM, TRADE USAGE, ORAL OR WRITTEN STATEMENT OR OTHERWISE,
   INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY
   OR FITNESS FOR A PARTICULAR PURPOSE CONCERNING THE CODE.
-
+ 
 5. NO LIABILITY.
   UNDER NO CIRCUMSTANCES SHALL JPRS AND/OR ITS AFFILIATES, LICENSORS, OR
   REPRESENTATIVES BE LIABLE FOR ANY DAMAGES INCLUDING BUT NOT LIMITED TO
@@ -327,12 +235,12 @@ Conditions (&#34;OSCL&#34;).
   MONEY, INTERRUPTION IN USE OR AVAILABILITY OF DATA, STOPPAGE, IMPLIED
   WARRANTY, BREACH OF CONTRACT, MISREPRESENTATION, NEGLIGENCE, STRICT
   LIABILITY IN TORT, OR OTHERWISE.
-
+ 
 6. Indemnification.
   You hereby agree to indemnify, defend, and hold harmless JPRS for any
   liability incurred by JRPS due to your terms of warranty, support,
   indemnity, or liability offered by you to any third party.
-
+ 
 7. Termination.
 7.1 This OSCL shall be automatically terminated in the events that:
   (a) You fail to comply with the terms herein and fail to cure such
@@ -346,53 +254,53 @@ Conditions (&#34;OSCL&#34;).
     all end user license agreements (excluding distributors and
     resellers) which have been validly granted by You or any distributor
     hereunder prior to termination shall survive termination.
-
+ 
 
 8. General.
   This OSCL shall be governed by, and construed and enforced in
   accordance with, the laws of Japan. Any litigation or arbitration
   between the parties shall be conducted exclusively in Tokyo, Japan
   except written consent of JPRS provides other venue.
-
+ 
 
                                EXHIBIT A
-
+ 
 The original open source code of idnkit-2 is idnkit-1.0 developed and
 conceived by Japan Network Information Center (&#34;JPNIC&#34;), a Japanese
 association, Kokusai-Kougyou-Kanda Bldg 6F, 2-3-4 Uchi-Kanda,
 Chiyoda-ku, Tokyo 101-0047, Japan, and JPRS modifies above original code
 under following Terms and Conditions set forth by JPNIC.
-
+ 
                                  JPNIC
-
+ 
 Copyright (c) 2000-2002 Japan Network Information Center.  All rights reserved.
-
+ 
 By using this file, you agree to the terms and conditions set forth bellow.
-
+ 
                       LICENSE TERMS AND CONDITIONS
-
+ 
 The following License Terms and Conditions apply, unless a different
 license is obtained from Japan Network Information Center (&#34;JPNIC&#34;),
 a Japanese association, Kokusai-Kougyou-Kanda Bldg 6F, 2-3-4 Uchi-Kanda,
 Chiyoda-ku, Tokyo 101-0047, Japan.
-
+ 
 1. Use, Modification and Redistribution (including distribution of any
    modified or derived work) in source and/or binary forms is permitted
    under this License Terms and Conditions.
-
+ 
 2. Redistribution of source code must retain the copyright notices as they
    appear in each source code file, this License Terms and Conditions.
-
+ 
 3. Redistribution in binary form must reproduce the Copyright Notice,
    this License Terms and Conditions, in the documentation and/or other
    materials provided with the distribution. For the purposes of binary
    distribution the &#34;Copyright Notice&#34; refers to the following language:
    &#34;Copyright (c) 2000-2002 Japan Network Information Center.  All rights reserved.&#34;
-
+ 
 4. The name of JPNIC may not be used to endorse or promote products
    derived from this Software without specific prior written approval of
    JPNIC.
-
+ 
 5. Disclaimer/Limitation of Liability: THIS SOFTWARE IS PROVIDED BY JPNIC
    &#34;AS IS&#34; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
@@ -404,12 +312,12 @@ Chiyoda-ku, Tokyo 101-0047, Japan.
    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
    OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
    ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
+ 
 
                        JPRS Public License Notice
                                   For
                                idnkit-2.
-
+ 
 The contents of this file are subject to the Terms and Conditions for
 the Open Source Code License (the &#34;OSCL&#34;). You may not use this file
 except in compliance with above terms and conditions. A copy of the OSCL
@@ -422,7 +330,7 @@ Kokusai-Kougyou-Kanda Bldg 6F, 2-3-4 Uchi-Kanda, Chiyoda-ku, Tokyo
 &#34;Copyright (c) 2000-2002 Japan Network Information Center.  All rights reserved.&#34;
 &#34;Copyright (c) 2010-2012 Japan Registry Services Co., Ltd.  All rights reserved.&#34;
 Contributor(s): ______________________________________.
-
+ 
 If you wish to allow use of your version of this file only under the
 above License(s) and not to allow others to use your version of this
 file, please indicate your decision by deleting the relevant provisions
@@ -432,28 +340,28 @@ a recipient may use your version of this file under either the above
 License(s).</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -463,6 +371,5 @@ License(s).</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

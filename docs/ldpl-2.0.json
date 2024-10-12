@@ -9,12 +9,6 @@
   "text_urls": [
     "http://linuxmafia.com/faq/Licensing_and_Law/ldp-license-2.0.html"
   ],
-  "ignorable_copyrights": [
-    "copyright to each Linux Documentation Project"
-  ],
-  "ignorable_holders": [
-    "each Linux Documentation Project"
-  ],
   "ignorable_urls": [
     "http://sunsite.unc.edu/LDP"
   ],

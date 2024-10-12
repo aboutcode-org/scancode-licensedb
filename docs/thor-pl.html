@@ -1,255 +1,164 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: thor-pl</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: thor-pl</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="thor-pl.yml">yml</a> -
     <a href="thor-pl.json">json</a> -
     <a href="thor-pl.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/thor-pl.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/thor-pl.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            thor-pl
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Thor Public License
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Thor Public License
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft Limited
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Thor Project
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://fedoraproject.org/wiki/Licensing:ThorPublicLicense?rd=Licensing/ThorPublicLicense" rel="noopener" target="_blank">https://fedoraproject.org/wiki/Licensing:ThorPublicLicense?rd=Licensing/ThorPublicLicense</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            TPL-1.0
+          
+        </dd>
+      
+        <dt style="">other_spdx_license_keys</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>LicenseRef-scancode-thor-pl</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://fedoraproject.org/wiki/Licensing:ThorPublicLicense" rel="noopener" target="_blank">https://fedoraproject.org/wiki/Licensing:ThorPublicLicense</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">standard_notice</dt>
+        <dd>
+          
+            The contents of this file are subject to the THOR Public License Version
+1.0 (the &#34;License&#34;); you may not use this file except in compliance with
+the License.
+Software distributed under the License is distributed on an &#34;AS IS&#34; basis,
+WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+for the specificlanguage governing rights and limitations under the
+License.
+The Original Code is ______________________________________.
+The Initial Developer of the Original Code is _____________.
+Portions created by ______________________ are Copyright (C) ______
+_______________________.
+All Rights Reserved.
+Contributor(s): ______________________________________.
+Alternatively, the contents of this file may be used under the terms of the
+_____ license (the [___] License), in which case the provisions of [______]
+License are applicable instead of those above. If you wish to allow use of
+your version of this file only under the terms of the [____] License and
+not to allow others to use your version of this file under the TPL,
+indicate your decision by deleting the provisions above and replace them
+with the notice and other provisions required by the [___] License. If you
+do not delete the provisions above, a recipient may use your version of
+this file under either the TPL or the [___] License.&#34;
 
-      <dt style="">key</dt>
-      <dd>
-
-        thor-pl
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Thor Public License
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Thor Public License
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft Limited
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Thor Project
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://fedoraproject.org/wiki/Licensing:ThorPublicLicense?rd=Licensing/ThorPublicLicense"
-          rel="noopener"
-          target="_blank">https://fedoraproject.org/wiki/Licensing:ThorPublicLicense?rd=Licensing/ThorPublicLicense</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        TPL-1.0
-
-      </dd>
-
-      <dt style="">other_spdx_license_keys</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>LicenseRef-scancode-thor-pl</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="https://fedoraproject.org/wiki/Licensing:ThorPublicLicense" rel="noopener"
-              target="_blank">https://fedoraproject.org/wiki/Licensing:ThorPublicLicense</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">standard_notice</dt>
-      <dd>
-
-        The contents of this file are subject to the THOR Public License Version
-        1.0 (the &#34;License&#34;); you may not use this file except in compliance with
-        the License.
-        Software distributed under the License is distributed on an &#34;AS IS&#34; basis,
-        WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-        for the specificlanguage governing rights and limitations under the
-        License.
-        The Original Code is ______________________________________.
-        The Initial Developer of the Original Code is _____________.
-        Portions created by ______________________ are Copyright (C) ______
-        _______________________.
-        All Rights Reserved.
-        Contributor(s): ______________________________________.
-        Alternatively, the contents of this file may be used under the terms of the
-        _____ license (the [___] License), in which case the provisions of [______]
-        License are applicable instead of those above. If you wish to allow use of
-        your version of this file only under the terms of the [____] License and
-        not to allow others to use your version of this file under the TPL,
-        indicate your decision by deleting the provisions above and replace them
-        with the notice and other provisions required by the [___] License. If you
-        do not delete the provisions above, a recipient may use your version of
-        this file under either the TPL or the [___] License.&#34;
-
-
-      </dd>
-
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>THOR Public Licence (TPL)
@@ -318,7 +227,7 @@ file containing Original Code or previous Modifications.
 
 B. Any new file that contains any part of the Original Code or
 previous Modifications.
-
+ 
 1.10. &#34;Original Code&#34; means Source Code of computer software code
 which is described in the Source Code notice required by Exhibit A as
 Original Code, and which, at the time of its release under this
@@ -361,7 +270,7 @@ Modifications, and/or as part of a Larger Work; and
 (b) under Patents Claims infringed by the making, using or selling of
 Original Code, to make, have made, use, practice, sell, and offer for
 sale, and/or otherwise dispose of the Original Code (or portions
-thereof).
+thereof).  
 
 (c) the licenses granted in this Section 2.1(a) and (b) are effective
 on the date Initial Developer first distributes Original Code under
@@ -372,11 +281,11 @@ granted: 1) for code that You delete from the Original Code; 2)
 separate from the Original Code; or 3) for infringements caused by: i)
 the modification of the Original Code or ii) the combination of the
 Original Code with other software or devices.
-
+ 
 2.2. Contributor Grant.  Subject to third party intellectual property
 claims, each Contributor hereby grants You a world-wide, royalty-free,
 non-exclusive license
-
+ 
 (a) under intellectual property rights (other than patent or
 trademark) Licensable by Contributor, to use, reproduce, modify,
 display, perform, sublicense and distribute the Modifications created
@@ -462,7 +371,7 @@ received the Covered Code that new knowledge has been obtained.
 application programming interface and Contributor has knowledge of
 patent licenses which are reasonably necessary to implement that API,
 Contributor must also include this information in the LEGAL file.
-
+ 
 (c) Representations.  Contributor represents that, except as disclosed
 pursuant to Section 3.4(a) above, Contributor believes that
 Contributor&#39;s Modifications are Contributor&#39;s original creation(s)
@@ -694,7 +603,7 @@ EXHIBIT A - THOR Public License.
 
 The contents of this file are subject to the THOR Public License
 Version 1.0 (the &#34;License&#34;); you may not use this file except in
-compliance with the License.
+compliance with the License. 
 
 Software distributed under the License is distributed on an &#34;AS IS&#34;
 basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
@@ -703,10 +612,10 @@ under the License.
 
 The Original Code is ______________________________________.
 
-The Initial Developer of the Original Code is _____________.
+The Initial Developer of the Original Code is _____________. 
 
-Portions created by  ______________________ are
-Copyright (C) ______ _______________________.
+Portions created by  ______________________ are 
+Copyright (C) ______ _______________________. 
 
 All Rights Reserved.
 
@@ -729,28 +638,28 @@ use the text of this Exhibit A rather than the text found in the
 Original Code Source Code for Your Modifications.]</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -760,6 +669,5 @@ Original Code Source Code for Your Modifications.]</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

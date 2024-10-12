@@ -16,7 +16,7 @@
   "minimum_coverage": 99,
   "standard_notice": "Permission is granted to copy, distribute\nand/or modify this document under the terms of the GNU Free Documentation\nLicense, Version 1.3 or any later version published by the Free Software\nFoundation; with no Invariant Sections, no Front-Cover Texts, and no Back-\nCover Texts. A copy of the license is included in the section entitled \"GNU\nFree Documentation License\".\n",
   "ignorable_copyrights": [
-    "Copyright (c) 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. <http://fsf.org/>"
+    "Copyright (c) 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. http://fsf.org"
   ],
   "ignorable_holders": [
     "Free Software Foundation, Inc."

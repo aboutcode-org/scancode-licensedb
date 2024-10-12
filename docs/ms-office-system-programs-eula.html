@@ -1,257 +1,167 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: ms-office-system-programs-eula</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: ms-office-system-programs-eula</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="ms-office-system-programs-eula.yml">yml</a> -
     <a href="ms-office-system-programs-eula.json">json</a> -
     <a href="ms-office-system-programs-eula.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-office-system-programs-eula.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/ms-office-system-programs-eula.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        ms-office-system-programs-eula
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        MS Office System Programs Software EULA
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Microsoft Office System Programs Software EULA
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Commercial
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Microsoft
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://www.dmcwest.com/software/Microsoft/Office/Office%202003%20Interop%20Assemblies/o2003PIA_EULA.txt"
-          rel="noopener"
-          target="_blank">http://www.dmcwest.com/software/Microsoft/Office/Office%202003%20Interop%20Assemblies/o2003PIA_EULA.txt</a>
-
-      </dd>
-
-      <dt style="">notes</dt>
-      <dd>
-
-        also contains some French language terms
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-ms-office-system-programs-eula
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.microsoft.com/" rel="noopener" target="_blank">http://www.microsoft.com/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            ms-office-system-programs-eula
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            MS Office System Programs Software EULA
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Microsoft Office System Programs Software EULA
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Commercial
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Microsoft
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://www.dmcwest.com/software/Microsoft/Office/Office%202003%20Interop%20Assemblies/o2003PIA_EULA.txt" rel="noopener" target="_blank">http://www.dmcwest.com/software/Microsoft/Office/Office%202003%20Interop%20Assemblies/o2003PIA_EULA.txt</a>
+          
+        </dd>
+      
+        <dt style="">notes</dt>
+        <dd>
+          
+            also contains some French language terms
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-ms-office-system-programs-eula
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.microsoft.com/" rel="noopener" target="_blank">http://www.microsoft.com/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>SUPPLEMENTAL END USER LICENSE AGREEMENT FOR
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>SUPPLEMENTAL END USER LICENSE AGREEMENT FOR 
 MICROSOFT OFFICE SYSTEM PROGRAMS SOFTWARE
 
 PLEASE READ THIS SUPPLEMENTAL END-USER LICENSE AGREEMENT (&#34;SUPPLEMENTAL EULA&#34;) CAREFULLY.  BY INSTALLING OR USING THE SOFTWARE THAT ACCOMPANIES THIS SUPPLEMENTAL EULA, YOU AGREE TO THE TERMS OF THIS SUPPLEMENTAL EULA.  IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.
 
 1.	General
 
-	The accompanying Microsoft software includes computer software and may include associated media, printed materials, online or electronic documentation, and Internet-based services (collectively, the &#34;Components&#34;).  The Components are provided to update, supplement, or replace existing functionality of the Microsoft Software named above which you previously licensed (the &#34;Software&#34;).   Your use of the Components is subject to the terms and conditions of this Supplemental EULA and, as set forth below, the end user license agreement (either from Microsoft or some other entity) under which you have previously licensed the Software (the &#34;Software EULA&#34;).
+	The accompanying Microsoft software includes computer software and may include associated media, printed materials, online or electronic documentation, and Internet-based services (collectively, the &#34;Components&#34;).  The Components are provided to update, supplement, or replace existing functionality of the Microsoft Software named above which you previously licensed (the &#34;Software&#34;).   Your use of the Components is subject to the terms and conditions of this Supplemental EULA and, as set forth below, the end user license agreement (either from Microsoft or some other entity) under which you have previously licensed the Software (the &#34;Software EULA&#34;).  
 
 IF YOU DO NOT HAVE A VALIDLY LICENSED COPY OF THE SOFTWARE, YOU ARE NOT AUTHORIZED TO INSTALL, COPY OR OTHERWISE USE THE COMPONENTS AND YOU HAVE NO RIGHTS UNDER THIS SUPPLEMENTAL EULA.
 
 2.	General Terms and Conditions of Your Use of the Components
 
-         2.1	Microsoft grants you a license to the Components equivalent to, and subject to the same conditions, limitations and restrictions as, the license that the Software EULA grants you with respect to the Software, except as set forth below.
-
-         2.2	You may reproduce, install and use one copy of the Components on each computer running a validly licensed copy of the Software.
-
-         2.3	The Components are protected by copyright and other intellectual property laws and treaties.  Microsoft Corporation or its suppliers own the title, copyright, and other intellectual property rights in the Components.  All rights not expressly granted to you in this Supplemental EULA are reserved.  The Components are licensed, not sold.
-
+         2.1	Microsoft grants you a license to the Components equivalent to, and subject to the same conditions, limitations and restrictions as, the license that the Software EULA grants you with respect to the Software, except as set forth below.  
+         
+         2.2	You may reproduce, install and use one copy of the Components on each computer running a validly licensed copy of the Software.  
+         
+         2.3	The Components are protected by copyright and other intellectual property laws and treaties.  Microsoft Corporation or its suppliers own the title, copyright, and other intellectual property rights in the Components.  All rights not expressly granted to you in this Supplemental EULA are reserved.  The Components are licensed, not sold.  
+         
          2.4	Microsoft also grants you the right to reproduce and distribute the .MSI file created on your computer upon installation of the Component (the &#34;Redistributable File&#34;) in object code form only, provided that you comply with the following distribution requirements:  (a) you distribute the Redistributable File only in conjunction with, and as a part of, your software program (&#34;Program&#34;); (b) your Program adds significant and primary functionality to the Redistributable File; (c) you do not permit further redistribution of the Redistributable File by your end-user customers; (d) you do not use Microsoft&#39;s name, logo, or trademarks to market your Program; (e) you include a valid copyright notice on your Program; and (f) you agree to indemnify, hold harmless, and defend Microsoft from and against any claims or lawsuits, including attorneys&#39; fees, that arise or result from the use or distribution of your Program..
-
+         
          2.5	Capitalized terms used in this Supplemental EULA and not otherwise defined herein shall have the meanings assigned to them in the Software EULA.
 
 3.	Additional Rights and Limitations
 
-If the Software was licensed to you by Microsoft or any of its wholly owned subsidiaries, the limited warranty (if any) included in the Software EULA applies to the Components provided that the Components have been licensed to you within the term of that limited warranty.  However, this Supplemental EULA does not extend the time period for which that limited warranty is provided.
+If the Software was licensed to you by Microsoft or any of its wholly owned subsidiaries, the limited warranty (if any) included in the Software EULA applies to the Components provided that the Components have been licensed to you within the term of that limited warranty.  However, this Supplemental EULA does not extend the time period for which that limited warranty is provided.  
 
 IF THE SOFTWARE WAS LICENSED TO YOU BY AN ENTITY OTHER THAN MICROSOFT OR ANY OF ITS WHOLLY OWNED SUBSIDIARIES, THEN THE FOLLOWING THREE PARAGRAPHS ALSO APPLY:
 
-DISCLAIMER OF WARRANTIES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MICROSOFT AND ITS SUPPLIERS PROVIDE TO YOU THE COMPONENTS AND SUPPORT SERVICES (IF ANY) AS IS AND WITH ALL FAULTS; AND MICROSOFT AND ITS SUPPLIERS HEREBY DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY (IF ANY) IMPLIED WARRANTIES, DUTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF RELIABILITY OR AVAILABILITY, OF ACCURACY OR COMPLETENESS OF RESPONSES, OF RESULTS, OF WORKMANLIKE EFFORT, OF LACK OF VIRUSES, AND OF LACK OF NEGLIGENCE, ALL WITH REGARD TO THE COMPONENTS, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT OR OTHER SERVICES, INFORMATION, SOFTWARE, AND RELATED CONTENT THROUGH THE COMPONENTS OR OTHERWISE ARISING OUT OF THE USE OF THE COMPONENTS.  ALSO, THERE IS NO WARRANTY OR CONDITION OF TITLE, QUIET ENJOYMENT, QUIET POSSESSION, CORRESPONDENCE TO DESCRIPTION OR NON-INFRINGEMENT WITH REGARD TO THE COMPONENTS.
+DISCLAIMER OF WARRANTIES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MICROSOFT AND ITS SUPPLIERS PROVIDE TO YOU THE COMPONENTS AND SUPPORT SERVICES (IF ANY) AS IS AND WITH ALL FAULTS; AND MICROSOFT AND ITS SUPPLIERS HEREBY DISCLAIM ALL OTHER WARRANTIES AND CONDITIONS, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY (IF ANY) IMPLIED WARRANTIES, DUTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF RELIABILITY OR AVAILABILITY, OF ACCURACY OR COMPLETENESS OF RESPONSES, OF RESULTS, OF WORKMANLIKE EFFORT, OF LACK OF VIRUSES, AND OF LACK OF NEGLIGENCE, ALL WITH REGARD TO THE COMPONENTS, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT OR OTHER SERVICES, INFORMATION, SOFTWARE, AND RELATED CONTENT THROUGH THE COMPONENTS OR OTHERWISE ARISING OUT OF THE USE OF THE COMPONENTS.  ALSO, THERE IS NO WARRANTY OR CONDITION OF TITLE, QUIET ENJOYMENT, QUIET POSSESSION, CORRESPONDENCE TO DESCRIPTION OR NON-INFRINGEMENT WITH REGARD TO THE COMPONENTS.  
 
-EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MICROSOFT OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS OR CONFIDENTIAL OR OTHER INFORMATION, FOR BUSINESS INTERRUPTION, FOR PERSONAL INJURY, FOR LOSS OF PRIVACY, FOR FAILURE TO MEET ANY DUTY INCLUDING OF GOOD FAITH OR OF REASONABLE CARE, NEGLIGENCE, AND ANY OTHER PECUNIARY OR OTHER LOSS WHATSOEVER) ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE COMPONENTS, THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT OR OTHER SERVICES, INFORMATION, SOFTWARE, AND RELATED CONTENT THROUGH THE COMPONENTS OR OTHERWISE ARISING OUT OF THE USE OF THE COMPONENTS, OR OTHERWISE UNDER OR IN CONNECTION WITH ANY PROVISION OF THIS SUPPLEMENTAL EULA, EVEN IN THE EVENT OF THE FAULT, TORT (INCLUDING NEGLIGENCE), MISREPRESENTATION, STRICT OR PRODUCT LIABILITY, BREACH OF CONTRACT OR BREACH OF WARRANTY OF MICROSOFT OR ANY SUPPLIER, AND EVEN IF MICROSOFT OR ANY SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MICROSOFT OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, PUNITIVE, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS OR CONFIDENTIAL OR OTHER INFORMATION, FOR BUSINESS INTERRUPTION, FOR PERSONAL INJURY, FOR LOSS OF PRIVACY, FOR FAILURE TO MEET ANY DUTY INCLUDING OF GOOD FAITH OR OF REASONABLE CARE, NEGLIGENCE, AND ANY OTHER PECUNIARY OR OTHER LOSS WHATSOEVER) ARISING OUT OF OR IN ANY WAY RELATED TO THE USE OF OR INABILITY TO USE THE COMPONENTS, THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT OR OTHER SERVICES, INFORMATION, SOFTWARE, AND RELATED CONTENT THROUGH THE COMPONENTS OR OTHERWISE ARISING OUT OF THE USE OF THE COMPONENTS, OR OTHERWISE UNDER OR IN CONNECTION WITH ANY PROVISION OF THIS SUPPLEMENTAL EULA, EVEN IN THE EVENT OF THE FAULT, TORT (INCLUDING NEGLIGENCE), MISREPRESENTATION, STRICT OR PRODUCT LIABILITY, BREACH OF CONTRACT OR BREACH OF WARRANTY OF MICROSOFT OR ANY SUPPLIER, AND EVEN IF MICROSOFT OR ANY SUPPLIER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  
 
 LIMITATION OF LIABILITY AND REMEDIES.  NOTWITHSTANDING ANY DAMAGES THAT YOU MIGHT INCUR FOR ANY REASON WHATSOEVER (INCLUDING, WITHOUT LIMITATION, ALL DAMAGES REFERENCED ABOVE AND ALL DIRECT OR GENERAL DAMAGES IN CONTRACT OR ANYTHING ELSE), THE ENTIRE LIABILITY OF MICROSOFT AND ANY OF ITS SUPPLIERS UNDER ANY PROVISION OF THIS SUPPLEMENTAL EULA AND YOUR EXCLUSIVE REMEDY FOR ALL OF THE FOREGOING SHALL BE LIMITED TO THE GREATER OF THE ACTUAL DAMAGES YOU INCUR IN REASONABLE RELIANCE ON THE COMPONENTS UP TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE COMPONENTS OR U.S.$5.00.  THE FOREGOING LIMITATIONS, EXCLUSIONS AND DISCLAIMERS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EVEN IF ANY REMEDY FAILS ITS ESSENTIAL PURPOSE.
 
@@ -270,28 +180,28 @@ Au cas où vous auriez des questions concernant cette licence ou que vous désir
 PIA EULA</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -301,6 +211,5 @@ PIA EULA</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

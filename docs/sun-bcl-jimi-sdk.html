@@ -1,211 +1,122 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: sun-bcl-jimi-sdk</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: sun-bcl-jimi-sdk</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="sun-bcl-jimi-sdk.yml">yml</a> -
     <a href="sun-bcl-jimi-sdk.json">json</a> -
     <a href="sun-bcl-jimi-sdk.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/sun-bcl-jimi-sdk.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/sun-bcl-jimi-sdk.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        sun-bcl-jimi-sdk
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        Sun BCL JIMI SDK
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Sun BCL JIMI SDK
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Oracle (Sun)
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-sun-bcl-jimi-sdk
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://java.sun.com/" rel="noopener" target="_blank">http://java.sun.com/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            sun-bcl-jimi-sdk
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            Sun BCL JIMI SDK
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Sun BCL JIMI SDK
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Oracle (Sun)
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-sun-bcl-jimi-sdk
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://java.sun.com/" rel="noopener" target="_blank">http://java.sun.com/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>SUN JIMI SDK
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>SUN JIMI SDK
 
 JIMI SDK Version 2.0 Sun Microsystems, Inc. Please see the file classes/LICENSE_JIMI.txt
 
@@ -239,21 +150,21 @@ For inquiries please contact: Sun Microsystems, Inc. 901 San Antonio Road, Palo 
 
 JIMI SDK, Version 2.0 SUPPLEMENTAL LICENSE TERMS
 
-These supplemental terms (&#34;Supplement&#34;) add to the terms of the Binary Code License Agreement (&#34;Agreement&#34;). Capitalized terms not defined herein shall have the same meanings ascribed toh them in the Agreement. The Supplement terms shall supersede any inconsistent or conflicting terms in the Agreement.
+These supplemental terms (&#34;Supplement&#34;) add to the terms of the Binary Code License Agreement (&#34;Agreement&#34;). Capitalized terms not defined herein shall have the same meanings ascribed toh them in the Agreement. The Supplement terms shall supersede any inconsistent or conflicting terms in the Agreement. 
 
 1. Limited License Grant.
 
 a. Software Development License. Subject to your obligation to indemnify Sun pursuant to Section 3 below, Sun grants to you a non-exclusive, non-transferable limited license to use the Software without fee for evaluation of the Software and for development of Java(TM) applets and applications provided that you may not re-distribute the Software in whole or in part, except as provided in Section 1.b below. The Software may contain source code which is provided for reference purposes only, and may not be modified (except for the purpose of correcting errors) or redistributed.
 
-b. License to Distribute Runtime. Subject to your obligation to indemnify Sun pursuant to Section 3 below, Sun grants to you a non-exclusive, non-transferable limited, royalty-free license to reproduce, distribute offer to sell and sell the Software provided that you:
-(i)distribute the Software complete and unmodified (except for error corrections), only as part of, and for the sole purpose of running, your Java applet or application (&#34;Program&#34;) into which the Software is incorporated;
-(ii) do not distribute additional software intended to replace any component(s) of the Software;
-(iii) do not remove or alter any proprietary legends or notices contained in the Software;
-(iv) only distribute the Program subject to a license agreement that protects Sun&#39;s interests consistent with the terms contained herein; and
+b. License to Distribute Runtime. Subject to your obligation to indemnify Sun pursuant to Section 3 below, Sun grants to you a non-exclusive, non-transferable limited, royalty-free license to reproduce, distribute offer to sell and sell the Software provided that you: 
+(i)distribute the Software complete and unmodified (except for error corrections), only as part of, and for the sole purpose of running, your Java applet or application (&#34;Program&#34;) into which the Software is incorporated; 
+(ii) do not distribute additional software intended to replace any component(s) of the Software; 
+(iii) do not remove or alter any proprietary legends or notices contained in the Software; 
+(iv) only distribute the Program subject to a license agreement that protects Sun&#39;s interests consistent with the terms contained herein; and 
 (v) may not create, or authorize your licensees to create additional classes, interfaces, or subpackages that are contained in the &#34;java&#34; or &#34;sun&#34; packages or similar as ! specified by Sun in any class file naming convention.
 
-2. Java Platform Interface. In the event that Licensee creates an additional API(s) which:
-(i) extends the functionality of a Java Environment; and,
+2. Java Platform Interface. In the event that Licensee creates an additional API(s) which: 
+(i) extends the functionality of a Java Environment; and, 
 (ii) is exposed to third party software developers for the purpose of developing additional software which invokes such additional API, Licensee must promptly publish broadly an accurate specification for such API for free use by all developers.
 
 3.Indemnity to Sun. As a condition precedent to each license grant in this Agreement, you agree to indemnify, hold harmless, and defend Sun and its licensors from and against any and all claims, lawsuits, liabilities, demands and expenses (including attorneys&#39; fees), that arise or result from the use or distribution of the Software or the Program, including without limitation, those brought by Unisys Corporation, its successors and assigns, with respect to U.S. Patent Number 4,558,302 and all foreign counterparts thereto which Unisys Corporation may now have or acquire in the future (the &#34;LZW Patents&#34;) relating to your making, using, selling, licensing, importing, offering to sell, or otherwise transferring the GIF encoding and/or decoding feature of the Software or the Program. This Agreement does not grant any rights to you with respect to the LZW Patents.
@@ -261,28 +172,28 @@ b. License to Distribute Runtime. Subject to your obligation to indemnify Sun pu
 4. Trademarks and Logos. This Agreement does not authorize you to use any Sun name, trademark or logo. Licensee acknowledges as between it and Sun that Sun owns the Java trademark and all Java-related trademarks, logos and icons including the Coffee Cup and Duke (&#34;Java Marks&#34;) and agrees to comply with the Java Trademark Guidelines at http://java.sun.com</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -292,6 +203,5 @@ b. License to Distribute Runtime. Subject to your obligation to indemnify Sun pu
     });
   </script>
 
-</body>
-
+  </body>
 </html>

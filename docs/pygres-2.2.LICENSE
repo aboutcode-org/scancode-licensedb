@@ -13,6 +13,8 @@ ignorable_copyrights:
 ignorable_holders:
     - D'Arcy J.M. Cain
     - Pascal Andre
+ignorable_authors:
+    - Pascal Andre, andre@chimay.via.ecp.fr
 ignorable_emails:
     - andre@chimay.via.ecp.fr
     - andre@via.ecp.fr

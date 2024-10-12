@@ -44,7 +44,8 @@ ignorable_holders:
   - Yann Collet
   - Zoltan Herczeg
 ignorable_authors:
-  - Ahmad Abdelfattah (ahmad.ahmad@kaust.edu.sa) David Keyes (david.keyes@kaust.edu.sa)
+  - Ahmad Abdelfattah (ahmad.ahmad@kaust.edu.sa) David Keyes (david.keyes@kaust.edu.sa) Hatem
+    Ltaief (hatem.ltaief@kaust.edu.sa)
   - Ahmad M. Abdelfattah, David Keyes, and Hatem Ltaief
   - D. E. Shaw Research
   - Davide Barbieri
@@ -492,4 +493,4 @@ text: "The terms in this supplement govern your use of the NVIDIA CUDA Toolkit S
   \ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\nLicensee's use of linmath.h\
   \ header for CPU functions for GL vector/matrix operations from lunarG is subject to the Apache\
   \ License Version 2.0.\nThe DX12-CUDA sample uses the d3dx12.h header, which is subject to\
-  \ the MIT license ."
+  \ the MIT license .\n"

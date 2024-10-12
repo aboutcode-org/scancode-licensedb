@@ -11,7 +11,7 @@ other_spdx_license_keys:
 text_urls:
     - https://bitbucket.org/jpommier/pffft/src/master/pffft.c
 other_urls:
-    - https://github.com/aboutcode-org/scancode-toolit/issues/1978
+    - https://github.com/nexB/scancode-toolkit/issues/1978
     - https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52
 standard_notice: |
     http://www.cisl.ucar.edu/css/software/fftpack5/ftpk.html
@@ -30,7 +30,7 @@ following conditions are met:
    Laboratory, the University Corporation for Atmospheric Research,
    nor the names of its sponsors or contributors may be used to
    endorse or promote products derived from this Software without
-   specific prior written permission.
+   specific prior written permission.  
 
    - Redistributions of source code must retain the above copyright
    notices, this list of conditions, and the disclaimer below.

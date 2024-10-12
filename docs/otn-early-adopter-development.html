@@ -1,239 +1,147 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: otn-early-adopter-development</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: otn-early-adopter-development</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="otn-early-adopter-development.yml">yml</a> -
     <a href="otn-early-adopter-development.json">json</a> -
     <a href="otn-early-adopter-development.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/otn-early-adopter-development.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/otn-early-adopter-development.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        otn-early-adopter-development
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        OTN Early Adopter Development License
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        OTN Early Adopter Development License Agreement
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Oracle Corporation
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html" rel="noopener"
-          target="_blank">http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-otn-early-adopter-development
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html" rel="noopener"
-              target="_blank">http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_authors</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>the OTN Program</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.oracle.com/us/legal/privacy/index.html" rel="noopener"
-              target="_blank">http://www.oracle.com/us/legal/privacy/index.html</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            otn-early-adopter-development
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            OTN Early Adopter Development License
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            OTN Early Adopter Development License Agreement
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Oracle Corporation
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html" rel="noopener" target="_blank">http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-otn-early-adopter-development
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html" rel="noopener" target="_blank">http://www.oracle.com/technetwork/licenses/ea-license-noexhibits-1938914.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_authors</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>the OTN Program</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.oracle.com/us/legal/privacy/index.html" rel="noopener" target="_blank">http://www.oracle.com/us/legal/privacy/index.html</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>Oracle Technology Network Early Adopter Development License Agreement
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>Oracle Technology Network Early Adopter Development License Agreement
 
 EXPORT CONTROLS
 Export laws and regulations of the United States and any other relevant local export laws and regulations apply to the Oracle Technology.  You agree that such export control laws govern your use of the Oracle Technology (including technical data) and any services deliverables provided under this agreement, and you agree to comply with all such export laws and regulations (including &#34;deemed export&#34; and  &#34;deemed re-export&#34; regulations).  You agree that no data, information, program and/or materials resulting from services (or direct product thereof) will be exported, directly or indirectly, in violation of these laws, or will be used for any purpose prohibited by these laws including, without limitation, nuclear, chemical, or biological weapons proliferation, or development of missile technology.
@@ -250,7 +158,7 @@ Accordingly, you confirm:
 
 Oracle Employees: Under no circumstances are Oracle Employees authorized to download software for the purpose of distributing it to customers. Oracle products are available to employees for internal use or demonstration purposes only. In keeping with Oracle&#39;s trade compliance obligations under U.S. and applicable multilateral law, failure to comply with this policy could result in disciplinary action up to and including termination.
 
-
+ 
 
 Note: You are bound by the Oracle Technology Network (&#34;OTN&#34;) Early Adopter Development License Agreement (&#34;OTN License Agreement&#34;) terms. The OTN License Agreement terms also apply to all updates You receive under Your Technology Track subscription.
 
@@ -297,7 +205,7 @@ Feedback
 &#34;Feedback&#34; shall mean any input provided to Us, in any manner, regarding Oracle’s products, documentation and/or services, including changes or suggested changes to Oracle’s current or future products, documentation, and/or services, and benchmark test results. You grant to Oracle a worldwide, royalty-free, non-exclusive, perpetual, and irrevocable right to use Feedback for any purpose, including but not limited to, incorporation of such Feedback into the Software or other software products without compensation to You. Any Feedback shall be Oracle Confidential Information. Company shall not be identified with Feedback if Oracle provides it to a third party.
 
 Export
-You agree to comply fully with export laws and regulations of the United States and any other applicable export laws (&#34;Export Laws&#34;) to assure that neither the Software, Confidential Information nor any direct product thereof are:  (1) exported, directly or indirectly, in violation of this Agreement or Export Laws; or (2) used for any purposes prohibited by the Export Laws, including, without limitation, nuclear, chemical, or biological weapons proliferation, or development of missile technology.
+You agree to comply fully with export laws and regulations of the United States and any other applicable export laws (&#34;Export Laws&#34;) to assure that neither the Software, Confidential Information nor any direct product thereof are:  (1) exported, directly or indirectly, in violation of this Agreement or Export Laws; or (2) used for any purposes prohibited by the Export Laws, including, without limitation, nuclear, chemical, or biological weapons proliferation, or development of missile technology.  
 
 Disclaimer of Warranty and Exclusive Remedies
 THE ORACLE TECHNOLOGY IS PROVIDED &#34;AS IS&#34; WITHOUT WARRANTY OF ANY KIND. WE FURTHER DISCLAIM ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, TIMELINESS OR NONINFRINGEMENT.
@@ -314,11 +222,11 @@ End of Agreement
 This agreement, and Your right to use the Programs, will be terminated: (i) automatically upon the general commercial availability of the Programs, or six months from the date You download the Programs, whichever is first to occur, in which case You shall cease using and destroy all copies of the Oracle Technology in Your possession or control; (ii) by You, by ceasing to use and destroying all copies of the Oracle Technology in Your possession or control; or, (iii) by Us if You fail to comply with any of the terms of this agreement, in which case You shall cease using and destroy all copies of the Oracle Technology in Your possession or control.
 
 Relationship Between the Parties
-The relationship between You and Us is that of licensee/licensor. Neither party will represent that it has any authority to assume or create any obligation, express or implied, on behalf of the other party, nor to represent the other party as agent, employee, franchisee, or in any other capacity. Nothing in this agreement shall be construed to limit either party&#39;s right to independently develop or distribute software that is functionally similar to the other party&#39;s products, so long as proprietary information of the other party is not included in such software.
+The relationship between You and Us is that of licensee/licensor. Neither party will represent that it has any authority to assume or create any obligation, express or implied, on behalf of the other party, nor to represent the other party as agent, employee, franchisee, or in any other capacity. Nothing in this agreement shall be construed to limit either party&#39;s right to independently develop or distribute software that is functionally similar to the other party&#39;s products, so long as proprietary information of the other party is not included in such software.  
 
 Third-Party Technology
 
-The Oracle Technology may be distributed to You with third party technology or derivatives of third party technology (&#34;Third Party Technology&#34;).  Oracle may provide certain notices to You in Oracle Technology documentation, readmes or otherwise in connection with such Third Party Technology.
+The Oracle Technology may be distributed to You with third party technology or derivatives of third party technology (&#34;Third Party Technology&#34;).  Oracle may provide certain notices to You in Oracle Technology documentation, readmes or otherwise in connection with such Third Party Technology. 
 
 Third Party Technology will be licensed to You either under the terms of this agreement, or, if specified in the Oracle Technology documentation, readme files or otherwise, under separate license terms (&#34;Separate Terms&#34;) and not under the terms of this agreement (&#34;Separately Licensed Third Party Technology&#34;).   Your rights to use such Separately Licensed Third Party Technology under the Separate Terms are not restricted or modified in any way by this agreement.
 
@@ -327,36 +235,36 @@ You agree that this agreement is the complete agreement for the Oracle Technolog
 
 Last updated: 19 April 2013
 
-Should You have any questions concerning this License Agreement, or if You desire to contact Oracle for any reason, please write:
-Oracle America, Inc.
-500 Oracle Parkway,
+Should You have any questions concerning this License Agreement, or if You desire to contact Oracle for any reason, please write: 
+Oracle America, Inc. 
+500 Oracle Parkway, 
 Redwood City, CA 94065
 
 Oracle may contact You to ask if You had a satisfactory experience installing and using this software download and/or accessing and using the hosted environment.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -366,6 +274,5 @@ Oracle may contact You to ask if You had a satisfactory experience installing an
     });
   </script>
 
-</body>
-
+  </body>
 </html>

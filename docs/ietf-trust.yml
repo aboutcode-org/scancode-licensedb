@@ -20,7 +20,6 @@ ignorable_holders:
   - IETF Trust
   - IETF Trust and the persons identified as the document authors
 ignorable_authors:
-  - IETF Trust
   - the IETF Trust
 ignorable_urls:
   - http://opensource.org/licenses/bsd-license.php
@@ -326,4 +325,4 @@ text: "IETF TRUST \nLegal Provisions Relating to IETF Documents \nEffective Date
   \ and published in the IRTF Document Stream following \nDecember 28, 2009.  Section 4 of these\
   \ Legal Provisions shall not apply to documents in the \nIRTF Document Stream, and all references\
   \ to Section 4 hereof shall be disregarded with respect \nto documents in the IRTF Document\
-  \ Stream."
+  \ Stream.\n"

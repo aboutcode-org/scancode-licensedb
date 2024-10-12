@@ -5,10 +5,6 @@ category: Permissive
 owner: Korean Manpage Project
 homepage_url: https://git.centos.org/rpms/man-pages-ko/blob/c7/f/SOURCES/Man_Page_Copyright
 spdx_license_key: LicenseRef-scancode-ko-man-page
-ignorable_copyrights:
-  - Copyright Man Page
-ignorable_holders:
-  - Man Page
 text: "Translated Copyright Man Page \n\t\nThe copyrights of all translated manpages in the\
   \ Korean Manpage Project are inherited from copyright of the original English. There are no\
   \ additional restrictions on the Korean Manpage Project. However, the secondary right which\
@@ -24,4 +20,4 @@ text: "Translated Copyright Man Page \n\t\nThe copyrights of all translated manp
   \ technical error or mistranslation. However, Korean Manpage Project does not guarantee anything\
   \ even in this case. If there is false information, please let administrator know or report\
   \ the error to the appropriate place on the homepage. The documents of this site are subject\
-  \ to change, delete, or move without notice due to error correction of the documents."
+  \ to change, delete, or move without notice due to error correction of the documents.\n"

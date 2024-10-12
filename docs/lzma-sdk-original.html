@@ -1,241 +1,147 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: lzma-sdk-original</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: lzma-sdk-original</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="lzma-sdk-original.yml">yml</a> -
     <a href="lzma-sdk-original.json">json</a> -
     <a href="lzma-sdk-original.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/lzma-sdk-original.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/lzma-sdk-original.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        lzma-sdk-original
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        LZMA SDK Original
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        LZMA SDK Original
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft Limited
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Igor Pavlov
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://www.7-zip.org/sdk.html" rel="noopener" target="_blank">http://www.7-zip.org/sdk.html</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-lzma-sdk-original
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://sourceforge.net/projects/sevenzip/" rel="noopener"
-              target="_blank">http://sourceforge.net/projects/sevenzip/</a></li>
-          <li><a href="http://www.7-zip.org/sdk.html" rel="noopener" target="_blank">http://www.7-zip.org/sdk.html</a>
-          </li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_authors</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Igor Pavlov</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.7-zip.org/support.html" rel="noopener"
-              target="_blank">http://www.7-zip.org/support.html</a></li>
-          <li><a href="http://www.gnu.org/" rel="noopener" target="_blank">http://www.gnu.org/</a></li>
-          <li><a href="http://www.opensource.org/" rel="noopener" target="_blank">http://www.opensource.org/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            lzma-sdk-original
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            LZMA SDK Original
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            LZMA SDK Original
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft Limited
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Igor Pavlov
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://www.7-zip.org/sdk.html" rel="noopener" target="_blank">http://www.7-zip.org/sdk.html</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-lzma-sdk-original
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://sourceforge.net/projects/sevenzip/" rel="noopener" target="_blank">http://sourceforge.net/projects/sevenzip/</a></li><li><a href="http://www.7-zip.org/sdk.html" rel="noopener" target="_blank">http://www.7-zip.org/sdk.html</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_authors</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Igor Pavlov</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.7-zip.org/support.html" rel="noopener" target="_blank">http://www.7-zip.org/support.html</a></li><li><a href="http://www.gnu.org/" rel="noopener" target="_blank">http://www.gnu.org/</a></li><li><a href="http://www.opensource.org/" rel="noopener" target="_blank">http://www.opensource.org/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>LZMA SDK provides the documentation, samples, header files, libraries,
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>LZMA SDK provides the documentation, samples, header files, libraries, 
 and tools you need to develop applications that use LZMA compression.
 
 LICENSE
@@ -245,47 +151,47 @@ LZMA SDK is available under any of the following licenses:
 
 1) GNU Lesser General Public License (GNU LGPL)
 2) Common Public License (CPL)
-3) Simplified license for unmodified code (read SPECIAL EXCEPTION)
-4) Proprietary license
+3) Simplified license for unmodified code (read SPECIAL EXCEPTION) 
+4) Proprietary license 
 
 It means that you can select one of these four options and follow rules of that license.
 
 1,2) GNU LGPL and CPL licenses are pretty similar and both these
-licenses are classified as
- - &#34;Free software licenses&#34; at http://www.gnu.org/
+licenses are classified as 
+ - &#34;Free software licenses&#34; at http://www.gnu.org/ 
  - &#34;OSI-approved&#34; at http://www.opensource.org/
 
 3) SPECIAL EXCEPTION
 
-Igor Pavlov, as the author of this code, expressly permits you
-to statically or dynamically link your code (or bind by name)
-to the files from LZMA SDK without subjecting your linked
-code to the terms of the CPL or GNU LGPL.
-Any modifications or additions to files from LZMA SDK, however,
+Igor Pavlov, as the author of this code, expressly permits you 
+to statically or dynamically link your code (or bind by name) 
+to the files from LZMA SDK without subjecting your linked 
+code to the terms of the CPL or GNU LGPL. 
+Any modifications or additions to files from LZMA SDK, however, 
 are subject to the GNU LGPL or CPL terms.
 
-SPECIAL EXCEPTION allows you to use LZMA SDK in applications with closed code,
+SPECIAL EXCEPTION allows you to use LZMA SDK in applications with closed code, 
 while you keep LZMA SDK code unmodified.
 
-SPECIAL EXCEPTION #2: Igor Pavlov, as the author of this code, expressly permits
-you to use this code under the same terms and conditions contained in the License
+SPECIAL EXCEPTION #2: Igor Pavlov, as the author of this code, expressly permits 
+you to use this code under the same terms and conditions contained in the License 
 Agreement you have for any previous version of LZMA SDK developed by Igor Pavlov.
 
-SPECIAL EXCEPTION #2 allows owners of proprietary licenses to use latest version
+SPECIAL EXCEPTION #2 allows owners of proprietary licenses to use latest version 
 of LZMA SDK as update for previous versions.
 
-SPECIAL EXCEPTION #3: Igor Pavlov, as the author of this code, expressly permits
-you to use code of the following files:
-BranchTypes.h, LzmaTypes.h, LzmaTest.c, LzmaStateTest.c, LzmaAlone.cpp,
+SPECIAL EXCEPTION #3: Igor Pavlov, as the author of this code, expressly permits 
+you to use code of the following files: 
+BranchTypes.h, LzmaTypes.h, LzmaTest.c, LzmaStateTest.c, LzmaAlone.cpp, 
 LzmaAlone.cs, LzmaAlone.java
-as public domain code.
+as public domain code. 
 
 4) Proprietary license
 
-LZMA SDK also can be available under a proprietary license which
+LZMA SDK also can be available under a proprietary license which 
 can include:
 
-1) Right to modify code without subjecting modified code to the
+1) Right to modify code without subjecting modified code to the 
 terms of the CPL or GNU LGPL
 2) Technical support for code
 
@@ -301,28 +207,28 @@ You should have received a copy of the Common Public License
 along with this library.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -332,6 +238,5 @@ along with this library.</code></pre>
     });
   </script>
 
-</body>
-
+  </body>
 </html>

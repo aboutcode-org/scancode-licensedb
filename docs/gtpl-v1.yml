@@ -9,9 +9,6 @@ ignorable_copyrights:
   - Copyright (c) 1999 University of Chicago and The University of Southern California
 ignorable_holders:
   - University of Chicago and The University of Southern California
-ignorable_authors:
-  - and/or derived from the Globus Project (http://www.globus.org/)
-  - and/or derived from the Globus project (http://www.globus.org/)
 ignorable_urls:
   - http://www.globus.org/
 text: "Globus Toolkit Public License (GTPL)\nCopyright (c) 1999 University of Chicago and The\
@@ -80,4 +77,4 @@ text: "Globus Toolkit Public License (GTPL)\nCopyright (c) 1999 University of Ch
   \ THE UNIVERSITY OF CHICAGO OR\n    THE UNIVERSITY OF SOUTHERN CALIFORNIA OR ANY CONTRIBUTORS\
   \ TO THE\n    GLOBUS PROJECT OR GLOBUS TOOLKIT BE LIABLE FOR ANY DAMAGES,\n    INCLUDING DIRECT,\
   \ INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES\n    RESULTING FROM EXERCISE OF THIS LICENSE\
-  \ AGREEMENT OR THE USE OF\n    THE SOFTWARE.\n\n                              END OF LICENSE"
+  \ AGREEMENT OR THE USE OF\n    THE SOFTWARE.\n\n                              END OF LICENSE\n"

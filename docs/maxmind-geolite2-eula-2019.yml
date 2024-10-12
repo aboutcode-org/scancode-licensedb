@@ -9,7 +9,7 @@ ignorable_authors:
   - the USA Department of Commerce
   - the USA Department of State. Specifically
   - the USA Treasury Department's Office of Foreign Assets Control, and the International Traffic
-    in Arms Regulations
+    in Arms
 ignorable_urls:
   - http://www.maxmind.com/
   - https://www.maxmind.com/
@@ -163,4 +163,4 @@ text: "GeoLite2 End User License Agreement\nRevised on December 20, 2019 \n\nBy 
   \ divert, or otherwise dispose of any Services (including products derived from or based on\
   \ such Services) to any destination, entity, or person prohibited by the laws or regulations\
   \ of the USA, without obtaining prior authorization from the competent government authorities\
-  \ as required by those laws and regulations."
+  \ as required by those laws and regulations.\n"

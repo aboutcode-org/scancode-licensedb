@@ -1,221 +1,128 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: msdn-magazine-sample-code-2007</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: msdn-magazine-sample-code-2007</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="msdn-magazine-sample-code-2007.yml">yml</a> -
     <a href="msdn-magazine-sample-code-2007.json">json</a> -
     <a href="msdn-magazine-sample-code-2007.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/msdn-magazine-sample-code-2007.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/msdn-magazine-sample-code-2007.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        msdn-magazine-sample-code-2007
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        MSDN Magazine Sample Code EULA 2007
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        Microsoft MSDN Magazine Sample Code EULA 2007
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Proprietary Free
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        Microsoft
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-msdn-magazine-sample-code-2007
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a
-              href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/april/net-matters-restart-manager-and-generic-method-compilation"
-              rel="noopener"
-              target="_blank">https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/april/net-matters-restart-manager-and-generic-method-compilation</a>
-          </li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.microsoft.com/exporting/" rel="noopener"
-              target="_blank">http://www.microsoft.com/exporting/</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            msdn-magazine-sample-code-2007
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            MSDN Magazine Sample Code EULA 2007
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            Microsoft MSDN Magazine Sample Code EULA 2007
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            Microsoft
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-msdn-magazine-sample-code-2007
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/april/net-matters-restart-manager-and-generic-method-compilation" rel="noopener" target="_blank">https://docs.microsoft.com/en-us/archive/msdn-magazine/2007/april/net-matters-restart-manager-and-generic-method-compilation</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.microsoft.com/exporting/" rel="noopener" target="_blank">http://www.microsoft.com/exporting/</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>IMPORTANT—READ CAREFULLY: This End-User License Agreement (“EULA”) is a legal agreement between you (either an individual or a single entity) and Microsoft Corporation for the Microsoft software that accompanies this EULA, which includes computer software and may include associated media, printed materials, “online” or electronic documentation, and Internet-based services (“Software”).  An amendment or addendum to this EULA may accompany the Software.  YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE. IF YOU DO NOT AGREE, DO NOT INSTALL, COPY, OR USE THE SOFTWARE.
@@ -226,11 +133,11 @@
 
     1.2	Solely with respect to the sample source code contained in the Software (“MS Samples”), Microsoft also grants you  a limited, nonexclusive, royalty-free license to: (a) use and modify the source code version of those portions of the MS Samples for the sole purposes of designing, developing, and testing your software product(s), and (b)  to reproduce and distribute the MS Samples, along with any modifications thereof, in object and/or source code form.  For applicable redistribution requirements for MS Samples, see Section 2 below.
 
-2.	DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+2.	DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS 
 
-    2.1	If you choose to redistribute the MS Samples, you agree:  (i) to distribute the MS Samples only as a part of a software application product developed by you (“Licensee Software”); (ii)  not to use Microsoft’s name, logo, or trademarks to market the Licensee Software; (iii) to display your own valid copyright notice which shall be sufficient to protect Microsoft’s copyright in the MS Samples; (iv) to indemnify, hold harmless, and defend Microsoft from and against any claims or lawsuits, including attorney’s fees, that arise or result from the use or distribution of the Licensee Software; (v) not to permit further distribution of the MS Samples by your end users; and (vi) that Microsoft reserves all rights not expressly granted.
+    2.1	If you choose to redistribute the MS Samples, you agree:  (i) to distribute the MS Samples only as a part of a software application product developed by you (“Licensee Software”); (ii)  not to use Microsoft’s name, logo, or trademarks to market the Licensee Software; (iii) to display your own valid copyright notice which shall be sufficient to protect Microsoft’s copyright in the MS Samples; (iv) to indemnify, hold harmless, and defend Microsoft from and against any claims or lawsuits, including attorney’s fees, that arise or result from the use or distribution of the Licensee Software; (v) not to permit further distribution of the MS Samples by your end users; and (vi) that Microsoft reserves all rights not expressly granted.  
 
-    2.2	If you use the MS Samples, then the following also applies.  Your license rights to the MS Samples are conditioned upon your (i) not incorporating Identified Software into, or combining Identified Software with, the MS Samples or a derivative work thereof; and (ii) not distributing Identified Software in conjunction with the MS Samples or a derivative work thereof.  “Identified Software” means software which is licensed pursuant to terms that directly or indirectly (A) create, or purport to create, obligations for Microsoft with respect to the MS Samples or derivative work thereof or (B) grant, or purport to grant, to any third party any rights or immunities under Microsoft’s intellectual property or proprietary rights in the MS Samples or derivative work thereof.  Identified Software includes, without limitation, any software that requires as a condition of its use, modification and/or distribution, that any other software incorporated into, derived from or distributed with such software must also be (1) disclosed or distributed in source code form; (2) licensed for the purpose of making derivative works; or (3) redistributable at no charge.
+    2.2	If you use the MS Samples, then the following also applies.  Your license rights to the MS Samples are conditioned upon your (i) not incorporating Identified Software into, or combining Identified Software with, the MS Samples or a derivative work thereof; and (ii) not distributing Identified Software in conjunction with the MS Samples or a derivative work thereof.  “Identified Software” means software which is licensed pursuant to terms that directly or indirectly (A) create, or purport to create, obligations for Microsoft with respect to the MS Samples or derivative work thereof or (B) grant, or purport to grant, to any third party any rights or immunities under Microsoft’s intellectual property or proprietary rights in the MS Samples or derivative work thereof.  Identified Software includes, without limitation, any software that requires as a condition of its use, modification and/or distribution, that any other software incorporated into, derived from or distributed with such software must also be (1) disclosed or distributed in source code form; (2) licensed for the purpose of making derivative works; or (3) redistributable at no charge.  
 
 3.	RESERVATION OF RIGHTS AND OWNERSHIP.  Microsoft reserves all rights not expressly granted to you in this EULA.  The Software is protected by copyright and other intellectual property laws and treaties. Microsoft or its suppliers own the title, copyright, and other intellectual property rights in the Software.  The Software is licensed, not sold.
 
@@ -240,9 +147,9 @@
 
 6.	LINKS TO THIRD PARTY SITES.  You may link to third party sites through the use of the Software.  The third party sites are not under the control of Microsoft, and Microsoft is not responsible for the contents of any third party sites, any links contained in third party sites, or any changes or updates to third party sites.  Microsoft is not responsible for webcasting or any other form of transmission received from any third party sites.  Microsoft is providing these links to third party sites to you only as a convenience, and the inclusion of any link does not imply an endorsement by Microsoft of the third party site.
 
-7.	ADDITIONAL SOFTWARE/SERVICES.  This EULA applies to updates, supplements, add-on components, or Internet-based services components, of the Software that Microsoft may provide to you or make available to you after the date you obtain your initial copy of the Software, unless we provide other terms along with the update, supplement, add-on component, or Internet-based services component.  Microsoft reserves the right to discontinue any Internet-based services provided to you or made available to you through the use of the Software.
+7.	ADDITIONAL SOFTWARE/SERVICES.  This EULA applies to updates, supplements, add-on components, or Internet-based services components, of the Software that Microsoft may provide to you or make available to you after the date you obtain your initial copy of the Software, unless we provide other terms along with the update, supplement, add-on component, or Internet-based services component.  Microsoft reserves the right to discontinue any Internet-based services provided to you or made available to you through the use of the Software.  
 
-8.	U.S. GOVERNMENT LICENSE RIGHTS. All Software provided to the U.S. Government pursuant to solicitations issued on or after December 1, 1995 is provided with the commercial license rights and restrictions described elsewhere herein.  All Software provided to the U.S. Government pursuant to solicitations issued prior to December 1, 1995 is provided with “Restricted Rights” as provided for in FAR, 48 CFR 52.227-14 (JUNE 1987) or DFAR, 48 CFR 252.227-7013 (OCT 1988), as applicable.
+8.	U.S. GOVERNMENT LICENSE RIGHTS. All Software provided to the U.S. Government pursuant to solicitations issued on or after December 1, 1995 is provided with the commercial license rights and restrictions described elsewhere herein.  All Software provided to the U.S. Government pursuant to solicitations issued prior to December 1, 1995 is provided with “Restricted Rights” as provided for in FAR, 48 CFR 52.227-14 (JUNE 1987) or DFAR, 48 CFR 252.227-7013 (OCT 1988), as applicable. 
 
 9.	EXPORT RESTRICTIONS.  You acknowledge that the Software is subject to U.S. export jurisdiction.  You agree to comply with all applicable international and national laws that apply to the Software, including the U.S. Export Administration Regulations, as well as end-user, end-use, and destination restrictions issued by U.S. and other governments.   For additional information see &lt;http://www.microsoft.com/exporting/&gt;.
 
@@ -250,13 +157,13 @@
 
 11.	TERMINATION.  Without prejudice to any other rights, Microsoft may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the Software and all of its component parts.
 
-12.	DISCLAIMER OF WARRANTIES.   To the maximum extent permitted by applicable law, Microsoft and its suppliers provide TO YOU the  Software, and support services (if any) AS IS AND WITH ALL FAULTS; and Microsoft and its suppliers hereby disclaim all OTHER warranties and conditions, whether express, implied or statutory, including, but not limited to, any (if any) IMPLIED warranties, DUTIES or conditions of MERCHANTABILITY, OF fitness for a particular purpose, OF RELIABILITY OR AVAILABILITY, OF ACCURACY OR COMPLETENESS OF RESPONSES, OF RESULTS, OF WORKMANLIKE EFFORT, OF LACK OF VIRUSES, AND OF LACK OF NEGLIGENCE, ALL WITH REGARD TO THE  SOFTWARE, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT OR OTHER SERVICES, INFORMATION, SOFTWARE, AND RELATED CONTENT THROUGH THE  SOFTWARE OR OTHERWISE ARISING OUT OF THE USE OF THE  SOFTWARE.  also, there is no warranty or condition of title, quiet enjoyment, quiet possession, correspondence to description or non-infringement with regard to the  Software.
+12.	DISCLAIMER OF WARRANTIES.   To the maximum extent permitted by applicable law, Microsoft and its suppliers provide TO YOU the  Software, and support services (if any) AS IS AND WITH ALL FAULTS; and Microsoft and its suppliers hereby disclaim all OTHER warranties and conditions, whether express, implied or statutory, including, but not limited to, any (if any) IMPLIED warranties, DUTIES or conditions of MERCHANTABILITY, OF fitness for a particular purpose, OF RELIABILITY OR AVAILABILITY, OF ACCURACY OR COMPLETENESS OF RESPONSES, OF RESULTS, OF WORKMANLIKE EFFORT, OF LACK OF VIRUSES, AND OF LACK OF NEGLIGENCE, ALL WITH REGARD TO THE  SOFTWARE, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT OR OTHER SERVICES, INFORMATION, SOFTWARE, AND RELATED CONTENT THROUGH THE  SOFTWARE OR OTHERWISE ARISING OUT OF THE USE OF THE  SOFTWARE.  also, there is no warranty or condition of title, quiet enjoyment, quiet possession, correspondence to description or non-infringement with regard to the  Software.  
 
-13.	EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.  To the maximum extent permitted by applicable law, in no event shall Microsoft or its suppliers be liable for any special, incidental, punitive, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits or confidential or other information, for business interruption, for personal injury, for loss of privacy, for failure to meet any duty including of good faith or of reasonable care, for negligence, and for any other pecuniary or other loss whatsoever) arising out of or in any way related to the use of or inability to use the PRODUCT, the provision of or failure to provide Support OR OTHER Services, informaton, software, and related CONTENT through the product or otherwise arising out of the use of the product, or otherwise under or in connection with any provision of this EULA, even in the event of the fault, tort (including negligence), misrepresentation, strict liability, breach of contract or breach of warranty of Microsoft or any supplier, and even if Microsoft or any supplier has been advised of the possibility of such damages.
+13.	EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.  To the maximum extent permitted by applicable law, in no event shall Microsoft or its suppliers be liable for any special, incidental, punitive, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits or confidential or other information, for business interruption, for personal injury, for loss of privacy, for failure to meet any duty including of good faith or of reasonable care, for negligence, and for any other pecuniary or other loss whatsoever) arising out of or in any way related to the use of or inability to use the PRODUCT, the provision of or failure to provide Support OR OTHER Services, informaton, software, and related CONTENT through the product or otherwise arising out of the use of the product, or otherwise under or in connection with any provision of this EULA, even in the event of the fault, tort (including negligence), misrepresentation, strict liability, breach of contract or breach of warranty of Microsoft or any supplier, and even if Microsoft or any supplier has been advised of the possibility of such damages. 
 
 14.	LIMITATION OF LIABILITY AND REMEDIES.  Notwithstanding any damages that you might incur for any reason whatsoever (including, without limitation, all damages referenced above and all direct or general damages IN CONTRACT OR ANYTHING ELSE), the entire liability of Microsoft and any of its suppliers under any provision of this Supplemental EULA and your exclusive remedy for all of the foregoing shall be limited to the greater of the ACTUAL DAMAGES YOU INCUR IN REASONABLE RELIANCE ON THE SOFTWARE UP TO THE AMOUNT actually paid by you for the  Software or U.S.$5.00.  The foregoing limitations, exclusions and disclaimers shall apply to the maximum extent permitted by applicable law, even if any remedy fails its essential purpose.
 
-15.	APPLICABLE LAW.  If you acquired this Software in the United States, this EULA is governed by the laws of the State of Washington.  If you acquired this Software in Canada, unless expressly prohibited by local law, this EULA is governed by the laws in force in the Province of Ontario, Canada; and, in respect of any dispute which may arise hereunder, you consent to the jurisdiction of the federal and provincial courts sitting in Toronto, Ontario. If you acquired this Software in the Eurpean Union, Iceland, Norway, or Switzerland, then local law applies.  If you acquired this Software in any other country, then local law may apply.
+15.	APPLICABLE LAW.  If you acquired this Software in the United States, this EULA is governed by the laws of the State of Washington.  If you acquired this Software in Canada, unless expressly prohibited by local law, this EULA is governed by the laws in force in the Province of Ontario, Canada; and, in respect of any dispute which may arise hereunder, you consent to the jurisdiction of the federal and provincial courts sitting in Toronto, Ontario. If you acquired this Software in the Eurpean Union, Iceland, Norway, or Switzerland, then local law applies.  If you acquired this Software in any other country, then local law may apply. 
 
 16.	ENTIRE AGREEMENT; SEVERABILITY.  This EULA (including any addendum or amendment to this EULA which is included with the Software) are the entire agreement between you and Microsoft relating to the Software and the support services (if any) and they supersede all prior or contemporaneous oral or written communications,  proposals and representations with respect to the Software or any other subject matter covered by this EULA.  To the extent the terms of any Microsoft policies or programs for support services conflict with the terms of this EULA, the terms of this EULA shall control.  If any provision of this EULA is held to be void, invalid, unenforceable or illegal, the other provisions shall continue in full force and effect.
 
@@ -270,33 +177,33 @@ LIMITATION DE RESPONSABILITÉ ET RECOURS.   MALGRÉ LES DOMMAGES QUE VOUS PUISSI
 
 À moins que cela ne soit prohibé par le droit local applicable, la présente Convention est régie par les lois de la province d’Ontario, Canada. Vous consentez Chacune des parties à la présente reconnaît irrévocablement à la compétence des tribunaux fédéraux et provinciaux siégeant à Toronto, dans de la province d’Ontario et consent à instituer tout litige qui pourrait découler de la présente auprès des tribunaux situés dans le district judiciaire de York, province d’Ontario.
 
-Au cas où vous auriez des questions concernant cette licence ou que vous désiriez vous mettre en rapport avec Microsoft pour quelque raison que ce soit, veuillez utiliser l’information contenue dans le Logiciel pour contacter la filiale de succursale Microsoft desservant votre pays, dont l’adresse est fournie dans ce produit, ou visitez écrivez à : Microsoft sur le World Wide Web à http://www.microsoft.comSales
+Au cas où vous auriez des questions concernant cette licence ou que vous désiriez vous mettre en rapport avec Microsoft pour quelque raison que ce soit, veuillez utiliser l’information contenue dans le Logiciel pour contacter la filiale de succursale Microsoft desservant votre pays, dont l’adresse est fournie dans ce produit, ou visitez écrivez à : Microsoft sur le World Wide Web à http://www.microsoft.comSales 
 
 Information Center, One Microsoft Way, Redmond, Washington 98052-6399.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -306,6 +213,5 @@ Information Center, One Microsoft Way, Redmond, Washington 98052-6399.</code></p
     });
   </script>
 
-</body>
-
+  </body>
 </html>

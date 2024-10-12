@@ -1,273 +1,178 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: lppl-1.3c</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: lppl-1.3c</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="lppl-1.3c.yml">yml</a> -
     <a href="lppl-1.3c.json">json</a> -
     <a href="lppl-1.3c.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/lppl-1.3c.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/lppl-1.3c.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            lppl-1.3c
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            LPPL 1.3c
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            LaTeX Project Public License v1.3c
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            LaTeX
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="http://www.latex-project.org/lppl/lppl-1-3c.txt" rel="noopener" target="_blank">http://www.latex-project.org/lppl/lppl-1-3c.txt</a>
+          
+        </dd>
+      
+        <dt style="">notes</dt>
+        <dd>
+          
+            Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license was released 4 May 2008 This license is OSI
+certified.
 
-      <dt style="">key</dt>
-      <dd>
-
-        lppl-1.3c
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        LPPL 1.3c
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        LaTeX Project Public License v1.3c
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        LaTeX
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="http://www.latex-project.org/lppl/lppl-1-3c.txt" rel="noopener"
-          target="_blank">http://www.latex-project.org/lppl/lppl-1-3c.txt</a>
-
-      </dd>
-
-      <dt style="">notes</dt>
-      <dd>
-
-        Per <a href="https://SPDX.org" rel="noopener" target="_blank">SPDX.org</a>, this license was released 4 May 2008
-        This license is OSI
-        certified.
-
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LPPL-1.3c
-
-      </dd>
-
-      <dt style="">osi_license_key</dt>
-      <dd>
-
-        LPPL-1.3c
-
-      </dd>
-
-      <dt style="">text_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.latex-project.org/lppl/lppl-1-3c.txt" rel="noopener"
-              target="_blank">http://www.latex-project.org/lppl/lppl-1-3c.txt</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">other_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.opensource.org/licenses/LPPL-1.3c" rel="noopener"
-              target="_blank">http://www.opensource.org/licenses/LPPL-1.3c</a></li>
-          <li><a href="https://opensource.org/licenses/LPPL-1.3c" rel="noopener"
-              target="_blank">https://opensource.org/licenses/LPPL-1.3c</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_copyrights</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>Copyright 1999 2002-2008 LaTeX3 Project</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_holders</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>LaTeX3 Project</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.latex-project.org/lppl.txt" rel="noopener"
-              target="_blank">http://www.latex-project.org/lppl.txt</a></li>
-        </ul>
-
-      </dd>
-
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LPPL-1.3c
+          
+        </dd>
+      
+        <dt style="">osi_license_key</dt>
+        <dd>
+          
+            LPPL-1.3c
+          
+        </dd>
+      
+        <dt style="">text_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.latex-project.org/lppl/lppl-1-3c.txt" rel="noopener" target="_blank">http://www.latex-project.org/lppl/lppl-1-3c.txt</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">other_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.opensource.org/licenses/LPPL-1.3c" rel="noopener" target="_blank">http://www.opensource.org/licenses/LPPL-1.3c</a></li><li><a href="https://opensource.org/licenses/LPPL-1.3c" rel="noopener" target="_blank">https://opensource.org/licenses/LPPL-1.3c</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_copyrights</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>Copyright 1999 2002-2008 LaTeX3 Project</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_holders</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>LaTeX3 Project</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.latex-project.org/lppl.txt" rel="noopener" target="_blank">http://www.latex-project.org/lppl.txt</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
     <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>The LaTeX Project Public License
@@ -288,8 +193,8 @@ which the LaTeX kernel and the base LaTeX packages are distributed.
 
 You may use this license for any work of which you hold the copyright
 and which you wish to distribute.  This license may be particularly
-suitable if your work is TeX-related (such as a LaTeX package), but
-it is written in such a way that you can use it even if your work is
+suitable if your work is TeX-related (such as a LaTeX package), but 
+it is written in such a way that you can use it even if your work is 
 unrelated to TeX.
 
 The section `WHETHER AND HOW TO DISTRIBUTE WORKS UNDER THIS LICENSE&#39;,
@@ -316,11 +221,11 @@ In this license document the following terms are used:
 
    `Work&#39;
     Any work being distributed under this License.
-
+    
    `Derived Work&#39;
     Any work that under any applicable law is derived from the Work.
 
-   `Modification&#39;
+   `Modification&#39; 
     Any procedure that produces a Derived Work under any applicable
     law -- for example, the production of a file containing an
     original file associated with the Work or a significant portion of
@@ -330,7 +235,7 @@ In this license document the following terms are used:
    `Modify&#39;
     To apply any procedure that produces a Derived Work under any
     applicable law.
-
+    
    `Distribution&#39;
     Making copies of the Work available from one person to another, in
     whole or in part.  Distribution includes (but is not limited to)
@@ -351,16 +256,16 @@ In this license document the following terms are used:
     no such explicit nomination then it is the `Copyright Holder&#39; under
     any applicable law.
 
-   `Base Interpreter&#39;
+   `Base Interpreter&#39; 
     A program or process that is normally needed for running or
-    interpreting a part or the whole of the Work.
+    interpreting a part or the whole of the Work.    
 
     A Base Interpreter may depend on external components but these
     are not considered part of the Base Interpreter provided that each
     external component clearly identifies itself whenever it is used
     interactively.  Unless explicitly specified when applying the
     license to the Work, the only applicable Base Interpreter is a
-    `LaTeX-Format&#39; or in the case of files belonging to the
+    `LaTeX-Format&#39; or in the case of files belonging to the 
     `LaTeX-format&#39; a program implementing the `TeX language&#39;.
 
 
@@ -401,8 +306,8 @@ the Derived Work.
 distribute a Derived Work provided the following conditions are met
 for every component of the Work unless that component clearly states
 in the copyright notice that it is exempt from that condition.  Only
-the Current Maintainer is allowed to add such statements of exemption
-to a component of the Work.
+the Current Maintainer is allowed to add such statements of exemption 
+to a component of the Work. 
 
   a. If a component of this Derived Work can be a direct replacement
      for a component of the Work when that component is used with the
@@ -412,13 +317,13 @@ to a component of the Work.
      clearly and unambiguously identifies itself as a modified version
      of this component to the user when used interactively with that
      Base Interpreter.
-
+     
   b. Every component of the Derived Work contains prominent notices
      detailing the nature of the changes to that component, or a
      prominent reference to another file that is distributed as part
      of the Derived Work and that contains a complete and accurate log
      of the changes.
-
+  
   c. No information in the Derived Work implies that any persons,
      including (but not limited to) the authors of the original version
      of the Work, provide any support, including (but not limited to)
@@ -428,7 +333,7 @@ to a component of the Work.
 
   d. You distribute at least one of the following with the Derived Work:
 
-       1. A complete, unmodified copy of the Work;
+       1. A complete, unmodified copy of the Work; 
           if your distribution of a modified component is made by
           offering access to copy the modified component from a
           designated place, then offering equivalent access to copy
@@ -455,15 +360,15 @@ format, where the Work or that Derived Work (in whole or in part) is
 then produced by applying some process to that format, does not relax or
 nullify any sections of this license as they pertain to the results of
 applying that process.
-
+     
 10. a. A Derived Work may be distributed under a different license
        provided that license itself honors the conditions listed in
        Clause 6 above, in regard to the Work, though it does not have
        to honor the rest of the conditions in this license.
-
+      
     b. If a Derived Work is distributed under a different license, that
        Derived Work must provide sufficient documentation as part of
-       itself to allow each recipient of that Derived Work to honor the
+       itself to allow each recipient of that Derived Work to honor the 
        restrictions in Clause 6 above, concerning changes from the Work.
 
 11. This license places no restrictions on works that are unrelated to
@@ -532,7 +437,7 @@ the Work through the following steps:
 
   a. If it is being maintained, then ask the Current Maintainer
      to update their communication data within one month.
-
+     
   b. If the search is unsuccessful or no action to resume active
      maintenance is taken by the Current Maintainer, then announce
      within the pertinent community your intention to take over
@@ -542,17 +447,17 @@ the Work through the following steps:
  3a. If the Current Maintainer is reachable and agrees to pass
      maintenance of the Work to you, then this takes effect
      immediately upon announcement.
-
+     
   b. If the Current Maintainer is not reachable and the Copyright
      Holder agrees that maintenance of the Work be passed to you,
-     then this takes effect immediately upon announcement.
-
+     then this takes effect immediately upon announcement.  
+    
  4.  If you make an `intention announcement&#39; as described in 2b. above
      and after three months your intention is challenged neither by
      the Current Maintainer nor by the Copyright Holder nor by other
      people, then you may arrange for the Work to be changed so as
      to name you as the (new) Current Maintainer.
-
+     
  5.  If the previously unreachable Current Maintainer becomes
      reachable once more within three months of a change completed
      under the terms of 3b) or 4), then that Current Maintainer must
@@ -635,7 +540,7 @@ Here is an example of such a notice and statement:
   % version 2005/12/01 or later.
   %
   % This work has the LPPL maintenance status `maintained&#39;.
-  %
+  % 
   % The Current Maintainer of this work is M. Y. Name.
   %
   % This work consists of the files pig.dtx and pig.ins
@@ -649,7 +554,7 @@ referring to any `LaTeX-Format&#39;, and both `Copyright Holder&#39; and
 `Current Maintainer&#39; referring to the person `M. Y. Name&#39;.
 
 If you do not want the Maintenance section of LPPL to apply to your
-Work, change `maintained&#39; above into `author-maintained&#39;.
+Work, change `maintained&#39; above into `author-maintained&#39;.  
 However, we recommend that you use `maintained&#39;, as the Maintenance
 section was added in order to ensure that your Work remains useful to
 the community even when you can no longer maintain and support it
@@ -679,7 +584,7 @@ Important Recommendations
    using a line such as:
 
     % This work consists of all files listed in manifest.txt.
-
+   
    in that place.  In the absence of an unequivocal list it might be
    impossible for the licensee to determine what is considered by you
    to comprise the Work and, in such a case, the licensee would be
@@ -687,28 +592,28 @@ Important Recommendations
    the Work.</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -718,6 +623,5 @@ Important Recommendations
     });
   </script>
 
-</body>
-
+  </body>
 </html>

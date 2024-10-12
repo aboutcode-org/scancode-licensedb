@@ -19,7 +19,7 @@
   ],
   "minimum_coverage": 98,
   "ignorable_copyrights": [
-    "Copyright (c) 2009 Free Software Foundation, Inc. <https://fsf.org/>"
+    "Copyright (c) 2009 Free Software Foundation, Inc. https://fsf.org"
   ],
   "ignorable_holders": [
     "Free Software Foundation, Inc."

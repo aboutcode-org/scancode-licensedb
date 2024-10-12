@@ -7,7 +7,7 @@ owner: Microsoft
 homepage_url: https://www.nuget.org/packages/Microsoft.VisualStudio.Debugger.Contracts/17.2.0/License
 spdx_license_key: LicenseRef-scancode-ms-vs-addons-ext-17.2.0
 other_urls:
-    - https://github.com/aboutcode-org/scancode-toolit/issues/2955
+    - https://github.com/nexB/scancode-toolkit/issues/2955
 ignorable_urls:
     - http://www.microsoft.com/exporting
     - https://docs.microsoft.com/en-us/legal/gdpr
@@ -16,38 +16,38 @@ ignorable_urls:
 
 MICROSOFT SOFTWARE LICENSE TERMS
 
-MICROSOFT VISUAL STUDIO ADD-ONs and EXTENSIONS
+MICROSOFT VISUAL STUDIO ADD-ONs and EXTENSIONS  
 
 These license terms are an agreement between Microsoft Corporation (or based on where you live, one of its affiliates) and you. They apply to the software named above. The terms also apply to any Microsoft services or updates for the software, except to the extent those have different terms.
 
 IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE RIGHTS BELOW.
 
-1. INSTALLATION AND USE RIGHTS.
+1. INSTALLATION AND USE RIGHTS. 
 
 	You may install and use any number of copies of the software to use solely with
-		* Visual Studio Community
-		* Visual Studio Professional
-		* Visual Studio Enterprise
-		* Visual Studio Code
+		* Visual Studio Community 
+		* Visual Studio Professional  
+		* Visual Studio Enterprise 
+		* Visual Studio Code 
 
 2. TERMS FOR SPECIFIC COMPONENTS.
 	a. Microsoft Platforms.  The software may include components from Microsoft Windows, Microsoft Windows Server, Microsoft SQL Server, Microsoft Exchange, Microsoft Office, or Microsoft SharePoint. These components are governed by separate agreements and their own product support policies, as described in the Microsoft Licenses folder accompanying the software, except that, if license terms for those components are also included in the associated installation directory, those license terms control.
-	b. Third Party Components. The software may include third party components with separate legal notices or governed by other agreements, as may be described in the ThirdPartyNotices file(s) accompanying the software.
+	b. Third Party Components. The software may include third party components with separate legal notices or governed by other agreements, as may be described in the ThirdPartyNotices file(s) accompanying the software. 
 	c. Package Managers. The software includes package managers, like NuGet, that give you the option to download other Microsoft and third party software packages to use with your applications. Those packages are under their own licenses, and not these license terms. Microsoft does not distribute, license or provide any warranties for any of the third party packages.
 
-3. DATA.
+3. DATA.  
 	a. Data Collection. The software may collect information about you and your use of the software, and send that to Microsoft. Microsoft may use this information to provide services and improve our products and services.  You may opt-out of many of these scenarios, but not all, as described in the software documentation.  There are also some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications and you should provide a copy of Microsoft's privacy statement to your users. The Microsoft privacy statement is located here https://go.microsoft.com/fwlink/?LinkID=824704. You can learn more about data collection and use from the software documentation and our privacy statement. Your use of the software operates as your consent to these practices.
 	b. Processing of Personal Data. To the extent Microsoft is a processor or subprocessor of personal data in connection with the software, Microsoft makes the commitments in the European Union General Data Protection Regulation Terms of the Online Services Terms to all customers effective May 25, 2018, at https://docs.microsoft.com/en-us/legal/gdpr.
 
 4. SCOPE OF LICENSE. The software is licensed, not sold. These license terms only give you some rights to use the software. Microsoft reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in these license terms. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. In addition, you may not
 	* work around any technical limitations in the software;
 	* reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software except, and only to the extent required by third party licensing terms governing the use of certain open source components that may be included in the software;
-	* remove, minimize, block or modify any notices of Microsoft or its suppliers in the software;
-	* use the software in any way that is against the law;
-	* share, publish, rent, or lease the software; or
+	* remove, minimize, block or modify any notices of Microsoft or its suppliers in the software; 
+	* use the software in any way that is against the law; 
+	* share, publish, rent, or lease the software; or 
 	* provide the software as a stand-alone offering or combine it with any of your applications for others to use, or transfer the software or this agreement to any third party.
 
-5. EXPORT RESTRICTIONS. You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit www.microsoft.com/exporting.
+5. EXPORT RESTRICTIONS. You must comply with all domestic and international export laws and regulations that apply to the software, which include restrictions on destinations, end users, and end use. For further information on export restrictions, visit www.microsoft.com/exporting. 
 
 6. SUPPORT SERVICES. Because this software is "as is", we may not provide support services for it.
 

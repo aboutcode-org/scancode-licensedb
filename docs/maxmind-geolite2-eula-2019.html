@@ -1,242 +1,148 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LicenseDB: maxmind-geolite2-eula-2019</title>
-  <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    .dataTables_filter {
-      display: none;
-    }
-
-    table.dataTable thead th,
-    table.dataTable thead td {
-      padding: 8px !important;
-      border-top: 1px solid #111;
-    }
-
-    .dataTables_wrapper .dataTables_info {
-      padding: 0 0 2px !important;
-      font-size: .75rem !important;
-      color: #3b4351 !important;
-    }
-
-    header {
-      padding-top: .4rem;
-      padding-bottom: .4rem;
-    }
-
-    footer {
-      background-color: #f7f8f9;
-      color: #bcc3ce;
-      padding: 1.5rem .75rem 1rem;
-      margin-top: 1em;
-    }
-
-    a:visited {
-      color: #5755d9 !important;
-    }
-
-    .navbar .nav-item {
-      color: #66758c;
-      padding: .25rem .4rem;
-    }
-
-    .navbar .nav-item a,
-    .navbar .nav-item a:visited {
-      color: #66758c !important;
-    }
-
-    .anchor {
-      color: #6362dc;
-      display: none;
-      margin-left: .2rem;
-      padding: 0 .2rem;
-    }
-
-    h4:focus .anchor,
-    h4:hover .anchor {
-      display: inline;
-      text-decoration: none;
-    }
-
-    .help_text,
-    .help_text:hover,
-    .help_text:visited {
-      color: #3b4351 !important;
-      border-bottom: dotted 0.0625rem #cccccc;
-      text-decoration: inherit;
-    }
-  </style>
-  <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
-  <script src="static/jquery-3.5.1.slim.min.js"></script>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: maxmind-geolite2-eula-2019</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
   <script src="static/jquery.mark-8.11.1.min.js"></script>
   <style>
-    table.dataTable {
-      visibility: visible !important;
-    }
-
-    #search-section {
-      display: none;
-    }
-
-    ul.list-style-none {
-      list-style: none;
-      margin: 0;
-    }
-
-    ul li:first-child {
-      margin-top: 0;
-    }
-
-    dl {
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    dl dt,
-    dl dd {
-      margin: 0;
-      padding: 6px 10px;
-    }
-
-    dt {
-      flex-basis: 20%;
-      background: #555;
-      text-align: right;
-      color: #fff;
-    }
-
-    dd {
-      flex-basis: 70%;
-      flex-grow: 1;
-    }
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
   </style>
 
-</head>
-
-<body style="padding: 0 7rem;">
-  <div class="container">
-    <header class="navbar">
-      <section class="navbar-section">
-        <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
-        <a href="help.html" class="btn btn-link">Help</a>
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
-        <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
-      </section>
-      <section id="search-section">
-        <div class="input-group input-inline">
-          <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
-          <input id="searchbox" class="form-input" type="search">
-        </div>
-      </section>
-    </header>
-  </div>
-
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
   <div class="container">
     <hr>
     <a href="index.html">back to list</a> -
     <a href="maxmind-geolite2-eula-2019.yml">yml</a> -
     <a href="maxmind-geolite2-eula-2019.json">json</a> -
     <a href="maxmind-geolite2-eula-2019.LICENSE">text</a> -
-    <a href="https://github.com/aboutcode-org/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/maxmind-geolite2-eula-2019.LICENSE"
-      target="_blank">edit License</a>
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/maxmind-geolite2-eula-2019.LICENSE" target="_blank">edit License</a>
     <hr>
     <dl>
-
-      <dt style="">key</dt>
-      <dd>
-
-        maxmind-geolite2-eula-2019
-
-      </dd>
-
-      <dt style="">short_name</dt>
-      <dd>
-
-        MaxMind GeoLite2 EULA 2019
-
-      </dd>
-
-      <dt style="">name</dt>
-      <dd>
-
-        MaxMind GeoLite2 End User License Agreement 2019
-
-      </dd>
-
-      <dt style="">category</dt>
-      <dd>
-
-        Copyleft
-
-      </dd>
-
-      <dt style="">owner</dt>
-      <dd>
-
-        MaxMind
-
-      </dd>
-
-      <dt style="">homepage_url</dt>
-      <dd>
-
-        <a href="https://www.maxmind.com/en/geolite2/eula" rel="noopener"
-          target="_blank">https://www.maxmind.com/en/geolite2/eula</a>
-
-      </dd>
-
-      <dt style="">spdx_license_key</dt>
-      <dd>
-
-        LicenseRef-scancode-maxmind-geolite2-eula-2019
-
-      </dd>
-
-      <dt style="">ignorable_authors</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li>the USA Department of Commerce</li>
-          <li>the USA Department of State. Specifically</li>
-          <li>the USA Treasury Department&#39;s Office of Foreign Assets Control, and the International Traffic in Arms
-            Regulations</li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_urls</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="http://www.maxmind.com/" rel="noopener" target="_blank">http://www.maxmind.com/</a></li>
-          <li><a href="https://www.maxmind.com/" rel="noopener" target="_blank">https://www.maxmind.com/</a></li>
-        </ul>
-
-      </dd>
-
-      <dt style="">ignorable_emails</dt>
-      <dd>
-
-        <ul class="list-style-none">
-          <li><a href="mailto:legal@maxmind.com">legal@maxmind.com</a></li>
-        </ul>
-
-      </dd>
-
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            maxmind-geolite2-eula-2019
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            MaxMind GeoLite2 EULA 2019
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            MaxMind GeoLite2 End User License Agreement 2019
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Copyleft
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            MaxMind
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://www.maxmind.com/en/geolite2/eula" rel="noopener" target="_blank">https://www.maxmind.com/en/geolite2/eula</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-maxmind-geolite2-eula-2019
+          
+        </dd>
+      
+        <dt style="">ignorable_authors</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li>the USA Department of Commerce</li><li>the USA Department of State. Specifically</li><li>the USA Treasury Department&#39;s Office of Foreign Assets Control, and the International Traffic in Arms</li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.maxmind.com/" rel="noopener" target="_blank">http://www.maxmind.com/</a></li><li><a href="https://www.maxmind.com/" rel="noopener" target="_blank">https://www.maxmind.com/</a></li>
+            </ul>
+          
+        </dd>
+      
+        <dt style="">ignorable_emails</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="mailto:legal@maxmind.com">legal@maxmind.com</a></li>
+            </ul>
+          
+        </dd>
+      
     </dl>
     <div class="text-bold">license_text</div>
-    <pre id="license-text" class="code mt-1"
-      style="white-space: pre-wrap;"><code>GeoLite2 End User License Agreement
-Revised on December 20, 2019
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>GeoLite2 End User License Agreement
+Revised on December 20, 2019 
 
 By downloading or using our GeoLite2 Database, you are accepting and agreeing to the terms and conditions set forth in this GeoLite2 End User License Agreement (this &#34;Agreement&#34;).
 
@@ -268,7 +174,7 @@ NO USE OF GEOLITE2 DATA FOR FCRA PURPOSES.
 
 The parties understand and agree that MaxMind is not a consumer reporting agency as defined by the Fair Credit Reporting Act, 15 U.S.C. §1681 et seq. (&#34;FCRA&#34;), and that the Services do not constitute &#34;consumer reports&#34; as defined in the FCRA. You agree that you will not use the Services to determine any consumer&#39;s eligibility for any product or service to be used by a consumer for personal, family, or household purposes. You also agree that you will not use the Services (i) as a factor in establishing a consumer&#39;s eligibility for credit, (ii) as a factor in establishing a consumer&#39;s eligibility for insurance, (iii) for employment purposes, (iv) in connection with a determination of an individual&#39;s eligibility for a license or other benefit granted by a governmental authority, or (v) in connection with any permissible purpose as defined by the FCRA.
 
-ACCURACY EXPECTATION: NO USE OF GEOLITE2 DATA FOR IDENTIFYING SPECIFIC HOUSEHOLDS OR INDIVIDUALS.
+ACCURACY EXPECTATION: NO USE OF GEOLITE2 DATA FOR IDENTIFYING SPECIFIC HOUSEHOLDS OR INDIVIDUALS. 
 
 Due to the nature of geolocation technology and other factors beyond its control, MaxMind cannot and does not guarantee the accuracy of the GeoLite2 Data. The GeoLite2 Databases contain only the geographic data available and the availability of such data is not consistent for all regions. Furthermore, none of the GeoLite2 Data reliably identifies any geographic level or division more precise than the zip code or postal code associated with an IP address. Accordingly, it is imperative that you and your end users not rely on the GeoLite2 Data to identify a specific household, individual,  or street address. You acknowledge the foregoing limitation of the GeoLite2 Data and agree represent and warrant that you will not use or encourage others to use the GeoLite2 Data for the purpose of identifying or locating a specific household, individual,  or street address.
 
@@ -331,31 +237,32 @@ Should any provision of this Agreement be held void, invalid, or inoperative, su
 
 COMPLIANCE WITH LAW.
 
-Notwithstanding any provisions of this Agreement to the contrary, you shall in performance of this Agreement comply with all applicable laws, executive orders, regulations ordinances and rules of all governments (“Applicable Laws”), including all applicable export and re-export control laws and regulations, such as the Export Administration Regulations (“EAR”) maintained by the USA Department of Commerce, trade and economic sanctions maintained by the USA Treasury Department’s Office of Foreign Assets Control, and the International Traffic in Arms Regulations (“ITAR”) maintained by the USA Department of State.  Specifically, and without limitation, you agree that you shall not, directly or indirectly, sell, export, re-export, transfer, divert, or otherwise dispose of any Services (including products derived from or based on such Services) to any destination, entity, or person prohibited by the laws or regulations of the USA, without obtaining prior authorization from the competent government authorities as required by those laws and regulations.</code></pre>
+Notwithstanding any provisions of this Agreement to the contrary, you shall in performance of this Agreement comply with all applicable laws, executive orders, regulations ordinances and rules of all governments (“Applicable Laws”), including all applicable export and re-export control laws and regulations, such as the Export Administration Regulations (“EAR”) maintained by the USA Department of Commerce, trade and economic sanctions maintained by the USA Treasury Department’s Office of Foreign Assets Control, and the International Traffic in Arms Regulations (“ITAR”) maintained by the USA Department of State.  Specifically, and without limitation, you agree that you shall not, directly or indirectly, sell, export, re-export, transfer, divert, or otherwise dispose of any Services (including products derived from or based on such Services) to any destination, entity, or person prohibited by the laws or regulations of the USA, without obtaining prior authorization from the competent government authorities as required by those laws and regulations.
+</code></pre>
   </div>
 
-  <div class="container">
-    <footer class="section text-dark">
-      <p>
-        <a href="help.html">Help</a> ·
-        <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
-        <a href="https://github.com/aboutcode-org/scancode-licensedb" target="_blank">GitHub</a> ·
-        <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
-      </p>
-      <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
-        Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
-      <p>Generated with <a href="https://github.com/aboutcode-org/scancode-toolkit" target="_blank">ScanCode toolkit</a>
-        32.2.1 on 2024-08-09.</p>
-      <p>SPDX Licenses list version: 3.24</p>
-
-    </footer>
-  </div>
-
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.2.1 on 2024-10-12.</p>
+    <p>SPDX Licenses list version: 3.25</p>
+    
+  </footer>
+</div>
+    
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       let url_params = new URLSearchParams(window.location.search);
       let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
-      $.each(marks, function (index, value) {
+      $.each(marks, function(index, value) {
         let [start, end] = value.split("-");
         $("#license-text").markRanges([{
           start: start,
@@ -365,6 +272,5 @@ Notwithstanding any provisions of this Agreement to the contrary, you shall in p
     });
   </script>
 
-</body>
-
+  </body>
 </html>
