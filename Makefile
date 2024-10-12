@@ -36,7 +36,7 @@ BLACK_ARGS=--exclude="docs" .
 conf:
 	@echo "-> Configure the Python venv, clone and install scancode-toolkit"
 	${PYTHON_EXE} -m venv venv
-	@git clone https://github.com/aboutcode-org/scancode-toolit.git
+	@git clone https://github.com/aboutcode-org/scancode-toolkit.git
 	@venv/bin/pip install --upgrade pip
 	@venv/bin/pip install -e ./scancode-toolkit/
 	@venv/bin/scancode-reindex-licenses
