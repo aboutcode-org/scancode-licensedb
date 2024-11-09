@@ -1,7 +1,7 @@
 name: Update LicenseDB with latest updates from scancode-toolkit develop daily
 on:
   schedule:
-    - cron: '0 16 * * 1-5'
+    - cron: '0 16 * * 0-6'
   workflow_dispatch:
 
 jobs:
@@ -14,20 +14,36 @@ jobs:
         shell: bash
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v1
         with:
-          python-version: 3.12
+          python-version: 3.8
+
+      - name: Give execute access to the script
+        run: chmod u+x ./etc/scripts/check_commit_run_update.sh
 
       - name: Run script
         run: ./etc/scripts/check_commit_run_update.sh
 
-      - name: Commit and Push to Publish
+      - name: Fetch latest SCTK commit hash
+        id: sctk_commit
         run: |
-          git config --global user.name 'LicenseDB Update GitHub Action'
-          git config --global user.email 'asmahapatra@nexb.com'
-          git add docs/* etc/*
-          git commit -m "Automated LicenseDB update with latest from scancode-toolkit develop"
-          git push
+          SCTK_REPO="https://github.com/nexB/scancode-toolkit.git"
+          SCTK_LATEST_COMMIT=$(git ls-remote $SCTK_REPO refs/heads/develop | cut -f1)
+          echo "sctk_commit=$SCTK_LATEST_COMMIT" >> $GITHUB_ENV
+
+      - name: Check for changes
+        run: |
+          if ! git diff-index --quiet HEAD --; then
+            git config --global user.name 'LicenseDB Update GitHub Action'
+            git config --global user.email 'asmahapatra@nexb.com'
+            git commit -am "Automated LicenseDB update with latest from scancode-toolkit develop
+
+            Link to SCTK commit: https://github.com/nexB/scancode-toolkit/commit/${{ env.sctk_commit }}
+            Signed-off-by: LicenseDB Update GitHub Action <asmahapatra@nexb.com>"
+            git push
+          else
+            echo "No changes detected, skipping commit and push."
+          fi
