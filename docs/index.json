@@ -26366,7 +26366,8 @@
     "category": "Copyleft Limited",
     "spdx_license_key": "Ubuntu-font-1.0",
     "other_spdx_license_keys": [
-      "LicenseRef-scancode-ubuntu-font-1.0"
+      "LicenseRef-scancode-ubuntu-font-1.0",
+      "LicenseRef-UFL-1.0"
     ],
     "is_exception": false,
     "is_deprecated": false,

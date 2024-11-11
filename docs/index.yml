@@ -21851,6 +21851,7 @@
   spdx_license_key: Ubuntu-font-1.0
   other_spdx_license_keys:
     - LicenseRef-scancode-ubuntu-font-1.0
+    - LicenseRef-UFL-1.0
   is_exception: no
   is_deprecated: no
   json: ubuntu-font-1.0.json
