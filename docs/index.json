@@ -2089,6 +2089,18 @@
     "license": "autoopts-exception-2.0.LICENSE"
   },
   {
+    "license_key": "autosar-proprietary",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-autosar-proprietary",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "autosar-proprietary.json",
+    "yaml": "autosar-proprietary.yml",
+    "html": "autosar-proprietary.html",
+    "license": "autosar-proprietary.LICENSE"
+  },
+  {
     "license_key": "avisynth-c-interface-exception",
     "category": "Copyleft Limited",
     "spdx_license_key": "LicenseRef-scancode-avisynth-c-exception",
@@ -6908,6 +6920,18 @@
     "license": "divx-open-2.1.LICENSE"
   },
   {
+    "license_key": "djangosnippets-tos",
+    "category": "CLA",
+    "spdx_license_key": "LicenseRef-scancode-djangosnippets-tos",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "djangosnippets-tos.json",
+    "yaml": "djangosnippets-tos.yml",
+    "html": "djangosnippets-tos.html",
+    "license": "djangosnippets-tos.LICENSE"
+  },
+  {
     "license_key": "dl-de-by-1-0-de",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-dl-de-by-1-0-de",
@@ -8701,6 +8725,18 @@
     "yaml": "freertos-exception-2.0.yml",
     "html": "freertos-exception-2.0.html",
     "license": "freertos-exception-2.0.LICENSE"
+  },
+  {
+    "license_key": "freertos-mit",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-freertos-mit",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "freertos-mit.json",
+    "yaml": "freertos-mit.yml",
+    "html": "freertos-mit.html",
+    "license": "freertos-mit.LICENSE"
   },
   {
     "license_key": "freetts",
@@ -13793,6 +13829,18 @@
     "yaml": "lance-norskog-license.yml",
     "html": "lance-norskog-license.html",
     "license": "lance-norskog-license.LICENSE"
+  },
+  {
+    "license_key": "lanl-bsd-3-variant",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-lanl-bsd-3-variant",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "lanl-bsd-3-variant.json",
+    "yaml": "lanl-bsd-3-variant.yml",
+    "html": "lanl-bsd-3-variant.html",
+    "license": "lanl-bsd-3-variant.LICENSE"
   },
   {
     "license_key": "larabie",
@@ -22904,6 +22952,18 @@
     "license": "rockchip-proprietary-2022.LICENSE"
   },
   {
+    "license_key": "rocket-master-terms-2022",
+    "category": "Commercial",
+    "spdx_license_key": "LicenseRef-scancode-rocket-master-terms-2022",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "rocket-master-terms-2022.json",
+    "yaml": "rocket-master-terms-2022.yml",
+    "html": "rocket-master-terms-2022.html",
+    "license": "rocket-master-terms-2022.LICENSE"
+  },
+  {
     "license_key": "rogue-wave",
     "category": "Commercial",
     "spdx_license_key": "LicenseRef-scancode-rogue-wave",
@@ -23192,6 +23252,18 @@
     "yaml": "safecopy-eula.yml",
     "html": "safecopy-eula.html",
     "license": "safecopy-eula.LICENSE"
+  },
+  {
+    "license_key": "salesforcesans-font",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-salesforcesans-font",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "salesforcesans-font.json",
+    "yaml": "salesforcesans-font.yml",
+    "html": "salesforcesans-font.html",
+    "license": "salesforcesans-font.LICENSE"
   },
   {
     "license_key": "san-francisco-font",
@@ -24060,6 +24132,42 @@
     "yaml": "snmp4j-smi.yml",
     "html": "snmp4j-smi.html",
     "license": "snmp4j-smi.LICENSE"
+  },
+  {
+    "license_key": "snowplow-cla-1.0",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-snowplow-cla-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "snowplow-cla-1.0.json",
+    "yaml": "snowplow-cla-1.0.yml",
+    "html": "snowplow-cla-1.0.html",
+    "license": "snowplow-cla-1.0.LICENSE"
+  },
+  {
+    "license_key": "snowplow-lula-1.0",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-snowplow-lula-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "snowplow-lula-1.0.json",
+    "yaml": "snowplow-lula-1.0.yml",
+    "html": "snowplow-lula-1.0.html",
+    "license": "snowplow-lula-1.0.LICENSE"
+  },
+  {
+    "license_key": "snowplow-person-academic-1.0",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-snowplow-person-academic-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "snowplow-person-academic-1.0.json",
+    "yaml": "snowplow-person-academic-1.0.yml",
+    "html": "snowplow-person-academic-1.0.html",
+    "license": "snowplow-person-academic-1.0.LICENSE"
   },
   {
     "license_key": "snprintf",

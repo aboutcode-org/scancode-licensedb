@@ -1,0 +1,13 @@
+{
+  "key": "autosar-proprietary",
+  "short_name": "AUTOSAR Proprietary Notice",
+  "name": "AUTOSAR Proprietary Notice",
+  "category": "Proprietary Free",
+  "owner": "AUTOSAR",
+  "spdx_license_key": "LicenseRef-scancode-autosar-proprietary",
+  "text_urls": [
+    "https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPProtocol.pdf",
+    "https://www.autosar.org/fileadmin/standards/R22-11/FO/AUTOSAR_PRS_SOMEIPServiceDiscoveryProtocol.pdf"
+  ],
+  "text": "Disclaimer\nThis work (specification and/or software implementation) and the material contained in\nit, as released by AUTOSAR, is for the purpose of information only. AUTOSAR and the\ncompanies that have contributed to it shall not be liable for any use of the work.\n\nThe material contained in this work is protected by copyright and other types of intel-\nlectual property rights. The commercial exploitation of the material contained in this\nwork requires a license to such intellectual property rights.\n\nThis work may be utilized or reproduced without any modification, in any form or by\nany means, for informational purposes only. For any other purpose, no part of the work\nmay be utilized or reproduced, in any form or by any means, without permission in\nwriting from the publisher.\n\nThe work has been developed for automotive applications only. It has neither been\ndeveloped, nor tested for non-automotive applications.\n\nThe word AUTOSAR and the AUTOSAR logo are registered trademarks."
+}
