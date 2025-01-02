@@ -56618,8 +56618,10 @@
 
       // https://datatables.net/reference/api/search()
       let searchbox = $("#searchbox");
-      searchbox.on("keyup", function() {
-        table.search(this.value).draw();
+      searchbox.on("keyup", function () {
+        table.columns([0, 1]) 
+          .search(this.value) 
+          .draw();
 
         // Inject the search value in the browser href
         if (history.replaceState) {
