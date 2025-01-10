@@ -1,0 +1,12 @@
+{
+  "key": "docbook-stylesheet",
+  "short_name": "DocBook Stylesheet License",
+  "name": "DocBook Stylesheet License",
+  "category": "Permissive",
+  "owner": "OASIS",
+  "spdx_license_key": "DocBook-Stylesheet",
+  "other_urls": [
+    "http://www.docbook.org/xml/5.0/docbook-5.0.zip"
+  ],
+  "text": "Permission to use, copy, modify and distribute this stylesheet\nand its accompanying documentation for any purpose and\nwithout fee is hereby granted in perpetuity, provided that\nthe above copyright notice and this paragraph appear in\nall copies. The copyright holders make no representation\nabout the suitability of the schema for any purpose. It\nis provided \"as is\" without expressed or implied warranty."
+}

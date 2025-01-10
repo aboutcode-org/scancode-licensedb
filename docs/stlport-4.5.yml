@@ -4,7 +4,11 @@ name: STLport License v4.5
 category: Permissive
 owner: STLport Consulting
 notes: stlport-4.5 and mozilla-gc are mostly the same
-spdx_license_key: LicenseRef-scancode-stlport-4.5
+spdx_license_key: Boehm-GC-without-fee
+other_spdx_license_keys:
+  - LicenseRef-scancode-stlport-4.5
+other_urls:
+  - https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc
 text: |
   This material is provided "as is", with absolutely no warranty expressed
   or implied. Any use is at your own risk.

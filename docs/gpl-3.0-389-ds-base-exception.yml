@@ -1,0 +1,17 @@
+key: gpl-3.0-389-ds-base-exception
+short_name: GPL-3.0 389 DS Base Exception
+name: GPL-3.0 389 DS Base Exception
+category: Copyleft Limited
+owner: Free Software Foundation (FSF)
+is_exception: yes
+spdx_license_key: GPL-3.0-389-ds-base-exception
+ignorable_urls:
+  - https://www.openssl.org/source/license.html
+text: "Additional permission under GPLv3 section 7:\n\nIf you modify this Program, or any covered\
+  \ work, by\nlinking or combining it with OpenSSL, or a modified\nversion of OpenSSL licensed\
+  \ under the OpenSSL license\n(https://www.openssl.org/source/license.html), the licensors\
+  \ of this\nProgram grant you additional permission to convey the resulting work.         \
+  \                                                                                        \
+  \  \nCorresponding Source for a non-source form of such a combination\nshall include the source\
+  \ code for the parts that are licensed\nunder the OpenSSL license as well as that of the covered\
+  \ work."

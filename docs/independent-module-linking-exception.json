@@ -6,9 +6,13 @@
   "owner": "Unspecified",
   "notes": "this is typically seen with the LGPL but is not L/GPL specific",
   "is_exception": true,
-  "spdx_license_key": "LicenseRef-scancode-indie-module-linking-exception",
+  "spdx_license_key": "Independent-modules-exception",
   "other_spdx_license_keys": [
+    "LicenseRef-scancode-indie-module-linking-exception",
     "LicenseRef-scancode-independent-module-linking-exception"
+  ],
+  "other_urls": [
+    "https://gitlab.com/freepascal.org/fpc/source/-/blob/release_3_2_2/rtl/COPYING.FPC"
   ],
   "text": "As a special exception, the copyright holders of this library give you\npermission to link this library with independent modules to produce an\nexecutable, regardless of the license terms of these independent modules, and to\ncopy and distribute the resulting executable under terms of your choice,\nprovided that you also meet, for each linked independent module, the terms and\nconditions of the license of that module. An independent module is a module\nwhich is neither derived from nor based on this library. If you modify this\nlibrary, you may extend this exception to your version of the library, but you\nare not obligated to do so. If you do not wish to do so, delete this exception\nstatement from your version."
 }

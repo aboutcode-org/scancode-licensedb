@@ -5,6 +5,12 @@
   "category": "Permissive",
   "owner": "STLport Consulting",
   "notes": "stlport-4.5 and mozilla-gc are mostly the same",
-  "spdx_license_key": "LicenseRef-scancode-stlport-4.5",
+  "spdx_license_key": "Boehm-GC-without-fee",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-stlport-4.5"
+  ],
+  "other_urls": [
+    "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc"
+  ],
   "text": "This material is provided \"as is\", with absolutely no warranty expressed\nor implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby\ngranted without fee, provided the above notices are retained on all\ncopies.\n\nPermission to modify the code and to distribute modified code is\ngranted, provided the above notices are retained, and a notice that\nthe code was modified is included with the above copyright notice."
 }

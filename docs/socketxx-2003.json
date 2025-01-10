@@ -1,0 +1,14 @@
+{
+  "key": "socketxx-2003",
+  "short_name": "Socketxx License 2003",
+  "name": "Socketxx License 2003",
+  "category": "Permissive",
+  "owner": "Herbert Straub",
+  "homepage_url": "https://github.com/hstraub/socketxx/blob/master/COPYING",
+  "spdx_license_key": "LicenseRef-scancode-socketxx-2003",
+  "text_urls": [
+    "https://github.com/malaterre/socketxx-1/blob/master/COPYING"
+  ],
+  "standard_notice": "Copyright Notice:\n-----------------\nPortions Copyright (C) 2002-2003 Herbert Straub for all my changes (see\nChangeLog)\n",
+  "text": "Permission is granted to use at your own risk and distribute this software\nin source and  binary forms provided  the above copyright notice and  this\nparagraph are  preserved on all copies.  This software is provided \"as is\"\nwith no express or implied warranty."
+}
