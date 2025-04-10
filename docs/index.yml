@@ -5659,6 +5659,16 @@
   yaml: dbmx-linking-exception-1.0.yml
   html: dbmx-linking-exception-1.0.html
   license: dbmx-linking-exception-1.0.LICENSE
+- license_key: dco-1.0
+  category: CLA
+  spdx_license_key: LicenseRef-scancode-dco-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: dco-1.0.json
+  yaml: dco-1.0.yml
+  html: dco-1.0.html
+  license: dco-1.0.LICENSE
 - license_key: dco-1.1
   category: CLA
   spdx_license_key: LicenseRef-scancode-dco-1.1
@@ -19545,6 +19555,16 @@
   yaml: salesforcesans-font.yml
   html: salesforcesans-font.html
   license: salesforcesans-font.LICENSE
+- license_key: samba-dco-1.0
+  category: CLA
+  spdx_license_key: LicenseRef-scancode-samba-dco-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: samba-dco-1.0.json
+  yaml: samba-dco-1.0.yml
+  html: samba-dco-1.0.html
+  license: samba-dco-1.0.LICENSE
 - license_key: san-francisco-font
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-san-francisco-font

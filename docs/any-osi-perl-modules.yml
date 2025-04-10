@@ -8,6 +8,7 @@ other_urls:
   - https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE
   - https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE
   - https://metacpan.org/pod/Net::MQTT::Simple#LICENSE
+minimum_coverage: 90
 ignorable_urls:
   - http://www.opensource.org/licenses/alphabetical
 text: |

@@ -10,8 +10,9 @@
     "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE",
     "https://metacpan.org/pod/Net::MQTT::Simple#LICENSE"
   ],
+  "minimum_coverage": 90,
   "ignorable_urls": [
     "http://www.opensource.org/licenses/alphabetical"
   ],
-  "text": "This software may be redistributed under the terms of the GPL, LGPL,\nmodified BSD, or Artistic license, or any of the other OSI approved\nlicenses listed at http://www.opensource.org/licenses/alphabetical.\nDistribution is allowed under all of these licenses, or any smaller\nsubset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see\nunder which license terms it was distributed. Alternatively, a distributor\nmay choose to replace the LICENSE section of the documentation and/or\ninclude a LICENSE file to reflect the license(s) they chose to redistribute\nunder."
+  "text": "This software may be redistributed under the terms of the GPL, LGPL,\nmodified BSD, or Artistic license, or any of the other OSI approved\nlicenses listed at http://www.opensource.org/licenses/alphabetical.\nDistribution is allowed under all of these licenses, or any smaller\nsubset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see\nunder which license terms it was distributed. Alternatively, a distributor\nmay choose to replace the LICENSE section of the documentation and/or\ninclude a LICENSE file to reflect the license(s) they chose to redistribute\nunder.\n"
 }
