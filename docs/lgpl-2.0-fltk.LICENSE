@@ -1,6 +1,8 @@
 ---
 key: lgpl-2.0-fltk
 is_deprecated: yes
+replaced_by:
+    - fltk-exception-lgpl-2.0
 short_name: LGPL 2.0 with FLTK exception
 name: LGPL 2.0 with FLTK exception
 category: Copyleft Limited

@@ -8,6 +8,7 @@ other_spdx_license_keys:
   - LicenseRef-scancode-baekmuk-fonts
 other_urls:
   - https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk
+minimum_coverage: 80
 ignorable_copyrights:
   - Copyright (c) Kim Jeong-Hwan
 ignorable_holders:

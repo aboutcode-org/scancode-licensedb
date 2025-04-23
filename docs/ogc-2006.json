@@ -1,6 +1,9 @@
 {
   "key": "ogc-2006",
   "is_deprecated": true,
+  "replaced_by": [
+    "ogc-1.0"
+  ],
   "short_name": "OGC Software Notice 2006",
   "name": "OGC Software Notice 2006",
   "category": "Permissive",

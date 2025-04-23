@@ -1,6 +1,9 @@
 {
   "key": "gpl-3.0-aptana",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-3.0 WITH aptana-exception-3.0 AND unknown"
+  ],
   "short_name": "GPL 3.0 with Aptana exception",
   "name": "GPL 3.0 with Aptana exception",
   "category": "Copyleft",

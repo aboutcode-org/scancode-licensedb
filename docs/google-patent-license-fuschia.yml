@@ -1,5 +1,7 @@
 key: google-patent-license-fuschia
 is_deprecated: yes
+replaced_by:
+  - google-patent-license-fuchsia
 short_name: Google Patent License for Fuschia
 name: Google Patent License for Fuschia
 category: Patent License

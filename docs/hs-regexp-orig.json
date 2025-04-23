@@ -1,6 +1,9 @@
 {
   "key": "hs-regexp-orig",
   "is_deprecated": true,
+  "replaced_by": [
+    "regexp"
+  ],
   "short_name": "Henry Spencer Original Regexp License",
   "name": "Henry Spencer Original Regexp License",
   "category": "Permissive",

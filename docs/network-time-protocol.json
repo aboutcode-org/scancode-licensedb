@@ -1,6 +1,10 @@
 {
   "key": "network-time-protocol",
   "is_deprecated": true,
+  "replaced_by": [
+    "mit-old-style-no-advert",
+    "mit-old-style-no-advert"
+  ],
   "short_name": "Duplicate Network Time Protocol License",
   "name": "Duplicate Network Time Protocol License",
   "category": "Permissive",

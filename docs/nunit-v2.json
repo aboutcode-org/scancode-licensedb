@@ -1,6 +1,9 @@
 {
   "key": "nunit-v2",
   "is_deprecated": true,
+  "replaced_by": [
+    "zlib-acknowledgement"
+  ],
   "short_name": "NUnit v2 License",
   "name": "NUnit v2 License",
   "category": "Permissive",

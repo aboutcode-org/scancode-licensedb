@@ -1,6 +1,8 @@
 ---
 key: dr-john-maddock
 is_deprecated: yes
+replaced_by:
+    - mit-old-style
 short_name: Dr John Maddock License
 name: Dr John Maddock License
 category: Permissive

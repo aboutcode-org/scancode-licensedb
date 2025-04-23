@@ -1,5 +1,7 @@
 key: gpl-3.0-bison
 is_deprecated: yes
+replaced_by:
+  - gpl-3.0-plus WITH bison-exception-2.2
 short_name: GPL 3.0 or later with Bison exception
 name: GPL 3.0 or later with Bison exception
 category: Copyleft Limited

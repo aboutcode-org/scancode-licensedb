@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-libtool",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH libtool-exception-2.0"
+  ],
   "short_name": "GPL 2.0 with GNU Libtool exception",
   "name": "GPL 2.0 with GNU Libtool exception",
   "category": "Copyleft Limited",

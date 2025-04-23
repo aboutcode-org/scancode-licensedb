@@ -1,6 +1,9 @@
 {
   "key": "ms-refl",
   "is_deprecated": true,
+  "replaced_by": [
+    "ms-rsl"
+  ],
   "short_name": "MS Reference License",
   "name": "Microsoft Reference License",
   "category": "Proprietary Free",

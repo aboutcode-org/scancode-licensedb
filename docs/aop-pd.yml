@@ -1,5 +1,7 @@
 key: aop-pd
 is_deprecated: yes
+replaced_by:
+  - cc-pd
 short_name: AOP-PD
 name: AOP Public Domain License
 category: Public Domain

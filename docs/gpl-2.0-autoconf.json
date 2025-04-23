@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-autoconf",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH autoconf-simple-exception-2.0"
+  ],
   "short_name": "GPL 2.0 with Autoconf exception",
   "name": "GPL 2.0 with Autoconf exception",
   "category": "Copyleft Limited",

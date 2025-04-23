@@ -1,6 +1,9 @@
 {
   "key": "madwifi-dual",
   "is_deprecated": true,
+  "replaced_by": [
+    "intel-bsd OR gpl-2.0"
+  ],
   "short_name": "MadWifi Dual BSD-GPL",
   "name": "MadWifi Dual BSD-GPL",
   "category": "Permissive",

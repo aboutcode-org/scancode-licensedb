@@ -1,6 +1,9 @@
 {
   "key": "sun-proprietary-jdk",
   "is_deprecated": true,
+  "replaced_by": [
+    "proprietary-license"
+  ],
   "short_name": "Sun proprietary notice for Java sources",
   "name": "Sun proprietary notice for Java sources",
   "category": "Commercial",

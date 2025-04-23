@@ -1,6 +1,10 @@
 {
   "key": "gpl-2.0-classpath",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus",
+    "classpath-exception-2.0"
+  ],
   "short_name": "GPL 2.0 with classpath exception",
   "name": "GPL 2.0 with classpath exception",
   "category": "Copyleft Limited",

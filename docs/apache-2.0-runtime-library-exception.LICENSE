@@ -1,6 +1,8 @@
 ---
 key: apache-2.0-runtime-library-exception
 is_deprecated: yes
+replaced_by:
+    - apple-runtime-library-exception
 short_name: Apache 2.0 with Runtime Library Exception
 name: Apache 2.0 with Runtime Library Exception
 category: Permissive

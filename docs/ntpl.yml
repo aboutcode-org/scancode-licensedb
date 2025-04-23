@@ -1,5 +1,7 @@
 key: ntpl
 is_deprecated: yes
+replaced_by:
+  - mit-old-style-no-advert
 short_name: NTP License
 name: Network Time Protocol License
 category: Permissive

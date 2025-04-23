@@ -1,6 +1,9 @@
 {
   "key": "ekioh",
   "is_deprecated": true,
+  "replaced_by": [
+    "mit-0"
+  ],
   "short_name": "Ekioh License",
   "name": "Ekioh License",
   "category": "Permissive",

@@ -1,6 +1,9 @@
 {
   "key": "wxwindows",
   "is_deprecated": true,
+  "replaced_by": [
+    "lgpl-2.0-plus WITH wxwindows-exception-3.1"
+  ],
   "short_name": "wxWindows Library Licence 3.1",
   "name": "wxWindows Library Licence 3.1",
   "category": "Copyleft Limited",

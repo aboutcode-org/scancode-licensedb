@@ -1,6 +1,9 @@
 {
   "key": "agpl-3.0-openssl",
   "is_deprecated": true,
+  "replaced_by": [
+    "openssl-exception-agpl-3.0"
+  ],
   "short_name": "AGPL 3.0 with OpenSSL exception",
   "name": "AGPL 3.0 with OpenSSL exception",
   "category": "Copyleft",

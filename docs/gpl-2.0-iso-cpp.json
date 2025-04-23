@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-iso-cpp",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH mif-exception"
+  ],
   "short_name": "GPL 2.0 with ISO C++ Library exception",
   "name": "GPL 2.0 with ISO C++ Library exception",
   "category": "Copyleft Limited",

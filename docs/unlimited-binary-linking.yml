@@ -1,5 +1,7 @@
 key: unlimited-binary-linking
 is_deprecated: yes
+replaced_by:
+  - unlimited-binary-use-exception
 short_name: Unlimited Binary Linking Exception
 name: Unlimited Binary Linking Exception
 category: Permissive

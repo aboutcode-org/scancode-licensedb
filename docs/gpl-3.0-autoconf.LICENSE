@@ -1,6 +1,8 @@
 ---
 key: gpl-3.0-autoconf
 is_deprecated: yes
+replaced_by:
+    - gpl-3.0-plus WITH autoconf-exception-3.0
 short_name: GPL 3.0 with Autoconf exception
 name: GPL 3.0 with Autoconf exception
 category: Copyleft Limited

@@ -1,6 +1,8 @@
 ---
 key: lgpl-2.1-plus-unlimited-linking
 is_deprecated: yes
+replaced_by:
+    - lgpl-2.1-plus WITH unlimited-linking-exception-lgpl
 short_name: LGPL 2.1 or later with Unlimited linking exception
 name: LGPL 2.1 or later with Unlimited linking exception
 category: Copyleft Limited

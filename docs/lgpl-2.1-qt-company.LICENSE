@@ -1,6 +1,8 @@
 ---
 key: lgpl-2.1-qt-company
 is_deprecated: yes
+replaced_by:
+    - lgpl-2.1-plus WITH qt-company-exception-lgpl-2.1
 short_name: LGPL 2.1 with Qt Company Exception
 name: LGPL 2.1 with Qt Company Exception
 category: Copyleft Limited

@@ -1,6 +1,9 @@
 {
   "key": "mentalis",
   "is_deprecated": true,
+  "replaced_by": [
+    "bsd-source-code"
+  ],
   "short_name": "Mentalis License",
   "name": "Mentalis Source Code License",
   "category": "Permissive",

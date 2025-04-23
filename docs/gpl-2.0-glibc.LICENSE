@@ -1,6 +1,8 @@
 ---
 key: gpl-2.0-glibc
 is_deprecated: yes
+replaced_by:
+    - gpl-2.0-plus WITH mif-exception
 short_name: GPL 2.0 with GLibC exception
 name: GPL 2.0 with GLibC exception
 category: Copyleft Limited

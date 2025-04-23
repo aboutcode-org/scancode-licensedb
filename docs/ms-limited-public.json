@@ -1,6 +1,9 @@
 {
   "key": "ms-limited-public",
   "is_deprecated": true,
+  "replaced_by": [
+    "ms-lpl"
+  ],
   "short_name": "MS Limited Public License",
   "name": "Microsoft Limited Public License",
   "category": "Permissive",

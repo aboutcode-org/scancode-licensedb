@@ -1,6 +1,8 @@
 ---
 key: lgpl-3.0-zeromq
 is_deprecated: yes
+replaced_by:
+    - zeromq-exception-lgpl-3.0
 short_name: LGPL 3.0 with ZeroMQ exception
 name: LGPL 3.0 with ZeroMQ exception
 category: Copyleft Limited

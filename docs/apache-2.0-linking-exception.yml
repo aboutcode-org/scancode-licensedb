@@ -1,5 +1,7 @@
 key: apache-2.0-linking-exception
 is_deprecated: yes
+replaced_by:
+  - compuphase-linking-exception
 short_name: Apache 2.0 with Linking Exception
 name: Apache 2.0 with Linking Exception
 category: Permissive

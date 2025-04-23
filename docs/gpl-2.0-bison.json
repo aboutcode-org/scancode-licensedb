@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-bison",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH bison-exception-2.0"
+  ],
   "short_name": "GPL 2.0 with bison exception",
   "name": "GPL 2.0 with bison exception",
   "category": "Copyleft Limited",

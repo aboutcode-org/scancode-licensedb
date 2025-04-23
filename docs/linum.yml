@@ -1,5 +1,7 @@
 key: linum
 is_deprecated: yes
+replaced_by:
+  - philippe-de-muyter
 short_name: Linum Software License
 name: Linum Software License
 category: Permissive

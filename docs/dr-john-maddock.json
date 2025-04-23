@@ -1,6 +1,9 @@
 {
   "key": "dr-john-maddock",
   "is_deprecated": true,
+  "replaced_by": [
+    "mit-old-style"
+  ],
   "short_name": "Dr John Maddock License",
   "name": "Dr John Maddock License",
   "category": "Permissive",

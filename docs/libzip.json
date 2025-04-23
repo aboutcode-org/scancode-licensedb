@@ -1,6 +1,9 @@
 {
   "key": "libzip",
   "is_deprecated": true,
+  "replaced_by": [
+    "bsd-new"
+  ],
   "short_name": "libzip License",
   "name": "NiH libzip License",
   "category": "Permissive",

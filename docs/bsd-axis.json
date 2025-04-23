@@ -1,6 +1,9 @@
 {
   "key": "bsd-axis",
   "is_deprecated": true,
+  "replaced_by": [
+    "bsd-source-code"
+  ],
   "short_name": "BSD-Axis",
   "name": "BSD-Axis",
   "category": "Permissive",

@@ -1,6 +1,9 @@
 {
   "key": "slf4j-2005",
   "is_deprecated": true,
+  "replaced_by": [
+    "x11"
+  ],
   "short_name": "SLF4J License 2005",
   "name": "SLF4J License 2005",
   "category": "Permissive",

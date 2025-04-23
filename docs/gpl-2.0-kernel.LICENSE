@@ -1,6 +1,8 @@
 ---
 key: gpl-2.0-kernel
 is_deprecated: yes
+replaced_by:
+    - gpl-2.0 WITH linux-syscall-exception-gpl
 short_name: GPL 2.0 with Kernel Exception
 name: GPL 2.0 with Kernel Exception
 category: Copyleft Limited

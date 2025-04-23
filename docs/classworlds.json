@@ -1,6 +1,9 @@
 {
   "key": "classworlds",
   "is_deprecated": true,
+  "replaced_by": [
+    "dom4j"
+  ],
   "short_name": "Classworlds License",
   "name": "Classworlds License",
   "category": "Permissive",

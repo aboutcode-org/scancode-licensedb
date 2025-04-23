@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-plus-nant",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH nant-exception-2.0-plus"
+  ],
   "short_name": "GPL 2.0 or later with NAnt exception",
   "name": "GPL 2.0 or later with NAnt exception",
   "category": "Copyleft Limited",

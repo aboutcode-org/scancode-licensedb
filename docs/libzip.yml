@@ -1,5 +1,7 @@
 key: libzip
 is_deprecated: yes
+replaced_by:
+  - bsd-new
 short_name: libzip License
 name: NiH libzip License
 category: Permissive

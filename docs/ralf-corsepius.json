@@ -1,6 +1,9 @@
 {
   "key": "ralf-corsepius",
   "is_deprecated": true,
+  "replaced_by": [
+    "red-hat-attribution"
+  ],
   "short_name": "Ralf Corsepius License",
   "name": "Ralf Corsepius License",
   "category": "Permissive",

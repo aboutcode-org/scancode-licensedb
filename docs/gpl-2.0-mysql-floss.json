@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-mysql-floss",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH mysql-floss-exception-2.0"
+  ],
   "short_name": "GPL 2.0 with MySQL FLOSS exception",
   "name": "GPL 2.0 with MySQL FLOSS exception",
   "category": "Copyleft",

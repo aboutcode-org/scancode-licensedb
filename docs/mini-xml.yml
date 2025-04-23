@@ -1,5 +1,8 @@
 key: mini-xml
 is_deprecated: yes
+replaced_by:
+  - lgpl-2.0-plus
+  - mini-xml-exception-lgpl-2.0
 short_name: LGPL 2.0 with Mini-XML exception
 name: LGPL 2.0 with Mini-XML exception
 category: Copyleft Limited

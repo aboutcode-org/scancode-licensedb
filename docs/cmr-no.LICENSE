@@ -1,6 +1,8 @@
 ---
 key: cmr-no
 is_deprecated: yes
+replaced_by:
+    - mit-old-style
 short_name: CMR License
 name: Christian Michelsen Research AS License
 category: Permissive

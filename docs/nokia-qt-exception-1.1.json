@@ -1,6 +1,9 @@
 {
   "key": "nokia-qt-exception-1.1",
   "is_deprecated": true,
+  "replaced_by": [
+    "qt-lgpl-exception-1.1"
+  ],
   "short_name": "Nokia Qt Exception to LGPL 2.1",
   "name": "Nokia Qt Exception to LGPL 2.1",
   "category": "Copyleft Limited",

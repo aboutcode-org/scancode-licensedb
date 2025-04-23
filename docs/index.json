@@ -7436,6 +7436,18 @@
     "license": "duende-sla-2022.LICENSE"
   },
   {
+    "license_key": "dumb",
+    "category": "Permissive",
+    "spdx_license_key": "DUMB",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "dumb.json",
+    "yaml": "dumb.yml",
+    "html": "dumb.html",
+    "license": "dumb.LICENSE"
+  },
+  {
     "license_key": "dune-exception",
     "category": "Copyleft Limited",
     "spdx_license_key": "LicenseRef-scancode-dune-exception",
@@ -10336,7 +10348,8 @@
     "spdx_license_key": "GPL-1.0-or-later",
     "other_spdx_license_keys": [
       "GPL-1.0+",
-      "LicenseRef-GPL"
+      "LicenseRef-GPL",
+      "GPL"
     ],
     "is_exception": false,
     "is_deprecated": false,
@@ -23603,16 +23616,16 @@
     "license": "salesforcesans-font.LICENSE"
   },
   {
-    "license_key": "samba-dco-1.0",
+    "license_key": "samba-dc-1.0",
     "category": "CLA",
-    "spdx_license_key": "LicenseRef-scancode-samba-dco-1.0",
+    "spdx_license_key": "LicenseRef-scancode-samba-dc-1.0",
     "other_spdx_license_keys": [],
     "is_exception": false,
     "is_deprecated": false,
-    "json": "samba-dco-1.0.json",
-    "yaml": "samba-dco-1.0.yml",
-    "html": "samba-dco-1.0.html",
-    "license": "samba-dco-1.0.LICENSE"
+    "json": "samba-dc-1.0.json",
+    "yaml": "samba-dc-1.0.yml",
+    "html": "samba-dc-1.0.html",
+    "license": "samba-dc-1.0.LICENSE"
   },
   {
     "license_key": "san-francisco-font",

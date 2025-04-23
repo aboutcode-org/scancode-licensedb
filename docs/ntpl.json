@@ -1,6 +1,9 @@
 {
   "key": "ntpl",
   "is_deprecated": true,
+  "replaced_by": [
+    "mit-old-style-no-advert"
+  ],
   "short_name": "NTP License",
   "name": "Network Time Protocol License",
   "category": "Permissive",

@@ -1,5 +1,7 @@
 key: gpl-2.0-libgit2
 is_deprecated: yes
+replaced_by:
+  - gpl-2.0 WITH gcc-linking-exception-2.0
 short_name: GPL 2.0 with libgit2 exception
 name: GPL 2.0 with libgit2 exception
 category: Copyleft Limited

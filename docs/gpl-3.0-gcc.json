@@ -1,6 +1,9 @@
 {
   "key": "gpl-3.0-gcc",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-3.0-plus WITH gcc-exception-3.1"
+  ],
   "short_name": "GPL 3.0 with GCC runtime library exception",
   "name": "GPL 3.0 with GCC runtime library exception",
   "category": "Copyleft Limited",

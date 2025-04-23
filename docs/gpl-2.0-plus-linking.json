@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-plus-linking",
   "is_deprecated": true,
+  "replaced_by": [
+    "gpl-2.0-plus WITH linking-exception-2.0-plus"
+  ],
   "short_name": "GPL 2.0 or later with Linking exception",
   "name": "GPL 2.0 or later with Linking exception",
   "category": "Copyleft Limited",

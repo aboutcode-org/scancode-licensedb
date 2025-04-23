@@ -1,6 +1,9 @@
 {
   "key": "gpl-2.0-openssl",
   "is_deprecated": true,
+  "replaced_by": [
+    "openssl-exception-gpl-2.0"
+  ],
   "short_name": "GPL 2.0 with OpenSSL exception",
   "name": "GPL 2.0 with OpenSSL exception",
   "category": "Copyleft Limited",

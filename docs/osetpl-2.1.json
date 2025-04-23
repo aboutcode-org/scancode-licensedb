@@ -1,6 +1,9 @@
 {
   "key": "osetpl-2.1",
   "is_deprecated": true,
+  "replaced_by": [
+    "oset-pl-2.1"
+  ],
   "short_name": "OSET 2.1",
   "name": "OSET Public License v2.1",
   "category": "Copyleft Limited",

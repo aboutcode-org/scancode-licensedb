@@ -1,6 +1,9 @@
 {
   "key": "etalab-2.0-fr",
   "is_deprecated": true,
+  "replaced_by": [
+    "etalab-2.0"
+  ],
   "language": "fr",
   "short_name": "Etalab Open License 2.0 French",
   "name": "Etalab Open License 2.0 French",

@@ -1,6 +1,12 @@
 {
   "key": "dejavu-font",
   "is_deprecated": true,
+  "replaced_by": [
+    "bitstream AND public-domain",
+    "bitstream",
+    "bitstream",
+    "bitstream"
+  ],
   "short_name": "DejaVu Font License",
   "name": "DejaVu Font License",
   "category": "Permissive",

@@ -1,5 +1,7 @@
 key: ms-refl
 is_deprecated: yes
+replaced_by:
+  - ms-rsl
 short_name: MS Reference License
 name: Microsoft Reference License
 category: Proprietary Free

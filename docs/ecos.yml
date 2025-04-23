@@ -1,5 +1,7 @@
 key: ecos
 is_deprecated: yes
+replaced_by:
+  - gpl-2.0-plus WITH ecos-exception-2.0
 short_name: GPL 2.0 or later with eCos Exception
 name: GPL 2.0 or later with eCos Exception
 category: Copyleft Limited

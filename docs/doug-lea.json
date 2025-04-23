@@ -1,6 +1,12 @@
 {
   "key": "doug-lea",
   "is_deprecated": true,
+  "replaced_by": [
+    "public-domain",
+    "public-domain",
+    "public-domain",
+    "public-domain"
+  ],
   "short_name": "Doug Lea License",
   "name": "Doug Lea License",
   "category": "Public Domain",

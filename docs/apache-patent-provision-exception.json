@@ -1,6 +1,9 @@
 {
   "key": "apache-patent-provision-exception",
   "is_deprecated": true,
+  "replaced_by": [
+    "apache-patent-exception"
+  ],
   "short_name": "Apache Patent Provision Exception Deprecated",
   "name": "Apache Patent Provision Exception Deprecated",
   "category": "Permissive",

@@ -1,6 +1,9 @@
 {
   "key": "unicode-data-software",
   "is_deprecated": true,
+  "replaced_by": [
+    "unicode"
+  ],
   "short_name": "Unicode - Data Files and Software",
   "name": "Unicode License Agreement - Data Files and Software",
   "category": "Permissive",

@@ -1,5 +1,7 @@
 key: gpl-2.0-oracle-mysql-foss
 is_deprecated: yes
+replaced_by:
+  - gpl-2.0 WITH oracle-mysql-foss-exception-2.0
 short_name: GPL 2.0 with Oracle MySQL FOSS exception
 name: GPL 2.0 with Oracle MySQL FOSS exception
 category: Copyleft

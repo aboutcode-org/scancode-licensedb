@@ -1,6 +1,8 @@
 ---
 key: gpl-2.0-plus-openmotif
 is_deprecated: yes
+replaced_by:
+    - gpl-2.0-plus WITH openmotif-exception-2.0-plus
 short_name: GPL 2.0 or later with Open Motif exception
 name: GPL 2.0 or later with Open Motif exception
 category: Copyleft Limited

@@ -1,6 +1,8 @@
 ---
 key: libtool-exception
 is_deprecated: yes
+replaced_by:
+    - libtool-exception-2.0
 short_name: Libtool Exception
 name: GNU Libtool Exception
 category: Copyleft Limited

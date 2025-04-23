@@ -1,5 +1,7 @@
 key: gpl-2.0-mysql-connector-odbc
 is_deprecated: yes
+replaced_by:
+  - gpl-2.0-plus WITH mysql-connector-odbc-exception-2.0
 short_name: GPL 2.0 with MySQL Connector ODBC exception
 name: GPL 2.0 with MySQL Connector ODBC exception
 category: Copyleft Limited

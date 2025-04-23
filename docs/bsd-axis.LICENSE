@@ -1,6 +1,8 @@
 ---
 key: bsd-axis
 is_deprecated: yes
+replaced_by:
+    - bsd-source-code
 short_name: BSD-Axis
 name: BSD-Axis
 category: Permissive
