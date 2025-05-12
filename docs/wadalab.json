@@ -1,0 +1,19 @@
+{
+  "key": "wadalab",
+  "short_name": "Wadalab Font License",
+  "name": "Wadalab Font License",
+  "category": "Permissive",
+  "owner": "Wadalab",
+  "homepage_url": "https://fedoraproject.org/wiki/Licensing:Wadalab?rd=Licensing/Wadalab",
+  "spdx_license_key": "LicenseRef-scancode-wadalab",
+  "other_urls": [
+    "https://ctan.org/pkg/wadalab?lang=en"
+  ],
+  "ignorable_urls": [
+    "http://ftp.ipl.t.u-tokyo.ac.jp/"
+  ],
+  "ignorable_emails": [
+    "tanaka@ipl.t.u-tokyo.ac.jp"
+  ],
+  "text": "You can use/modify/distribute this font as long as:\n\n  1) add a note which explains that the distributed fonts\n     are derived from wadalab fonts which is distributed\n     at ftp.ipl.t.u-tokyo.ac.jp\n\n  2) if the redistribution is the modified one from the original\n     font archives, then provide some documentations which explain\n     the changes/modifications from the original font archives.\n\nThese conditions are to inform users about where they\ncan get the most updated font from, because we plan\nto update it.\n\nIf you find the badly designed glyphs, or wrong kanji\ncharacters, please contact at tanaka@ipl.t.u-tokyo.ac.jp"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "mattermost-sal-2024",
+  "short_name": "Mattermost Source Available License 2024",
+  "name": "Mattermost Source Available License 2024",
+  "category": "Source-available",
+  "owner": "Mattermost",
+  "homepage_url": "https://github.com/mattermost/mattermost/blob/master/server/enterprise/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-mattermost-sal-2024",
+  "other_urls": [
+    "https://mattermost.com/enterprise-edition-terms/"
+  ],
+  "ignorable_urls": [
+    "https://mattermost.com/enterprise-edition-terms/"
+  ],
+  "text": "The Mattermost Source Available License license (the \u201cSource Available License\u201d)\n\nWith regard to the Mattermost Software:\n\nThis software and associated documentation files (the \"Software\") may only be\nused in production, if you (and any entity that you represent) have agreed to,\nand are in compliance with, the Mattermost Terms of Service, available at\nhttps://mattermost.com/enterprise-edition-terms/ (the \u201cEE Terms\u201d), or other\nagreement governing the use of the Software, as agreed by you and Mattermost,\nand otherwise have a valid Mattermost Enterprise E20 subscription for the\ncorrect number of user seats. Subject to the foregoing sentence, you are free\nto modify this Software and publish patches to the Software. You agree that\nMattermost and/or its licensors (as applicable) retain all right, title and\ninterest in and to all such modifications and/or patches, and all such\nmodifications and/or patches may only be used, copied, modified, displayed,\ndistributed, or otherwise exploited with a valid Mattermost Enterprise E20\nEdition subscription for the  correct number of user seats.  Notwithstanding\nthe foregoing, you may copy and modify the Software for development and testing\npurposes, without requiring a subscription.  You agree that Mattermost and/or\nits licensors (as applicable) retain all right, title and interest in and to\nall such modifications.  You are not granted any other rights beyond what is\nexpressly stated herein.  Subject to the foregoing, it is forbidden to copy,\nmerge, publish, distribute, sublicense, and/or sell the Software.\n\nThe full text of this EE License shall be included in all copies or substantial\nportions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nFor all third party components incorporated into the Mattermost Software, those\ncomponents are licensed under the original license provided by the owner of the\napplicable component."
+}

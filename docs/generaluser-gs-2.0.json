@@ -1,0 +1,10 @@
+{
+  "key": "generaluser-gs-2.0",
+  "short_name": "GeneralUser GS License v2.0",
+  "name": "GeneralUser GS License v2.0",
+  "category": "Permissive",
+  "owner": "S. Christian Collins",
+  "homepage_url": "https://github.com/mrbumpy409/GeneralUser-GS/blob/main/documentation/LICENSE.txt",
+  "spdx_license_key": "LicenseRef-scancode-generaluser-gs-2.0",
+  "text": "*** GeneralUser GS v2.0.1 ***\n***      License v2.0     ***\n\n** License of the complete work **\nYou may use GeneralUser GS without restriction for your own music creation,\nprivate or commercial. This SoundFont bank is provided to the community free of\ncharge. Please feel free to use it in your software projects, and to modify the\nSoundFont bank or its packaging to suit your needs.\n\n** License of contained samples **\nGeneralUser GS inherits the usage rights of the samples contained within, all of\nwhich allow full use in music production, including the ability to make profit\nfrom musical recordings created with GeneralUser GS.\n\nMany of the samples are original, but some were taken from other banks freely\n(and legally) available on the Internet from various SoundFont websites. Because\nGeneralUser GS originated as a personal project with no intention for\npublication, I cannot be 100% sure where all of the samples originated, although\nI do know that none of them came from commercially published SoundFont packages\nor sample CDs. Regardless, many \"free\" SoundFonts available on the web may\nindeed contain samples of questionable origin. My understanding of the\ncopyrights of all samples is only as good as the information provided by the\noriginal sources. If you become aware of any restricted samples being used in\nGeneralUser GS, please let me know so I can replace them.\n\nThis uncertainty may concern you if you intend to use GeneralUser GS in a\ncommercial software product. That being said, I have never received any\ncomplaint regarding sample ownership since I published the original GeneralUser\nGS back in 2000, and as far as I am aware, neither have any of the companies\ncreating commercial software products using GeneralUser GS."
+}

@@ -1,0 +1,13 @@
+{
+  "key": "volla-1.0",
+  "short_name": "Volla Licence 1.0",
+  "name": "Volla Licence 1.0",
+  "category": "Proprietary Free",
+  "owner": "Volla",
+  "homepage_url": "https://github.com/HelloVolla/volla-chat/blob/release-script/LICENSE.txt",
+  "spdx_license_key": "LicenseRef-scancode-volla-1.0",
+  "other_urls": [
+    "https://github.com/search?q=%22Volla+Licence+1.0%22&type=code"
+  ],
+  "text": "Volla Licence 1.0\n\nPermission is hereby granted, free of charge, to any person receiving or obtaining a copy\nof this software and/or the accompanying respectively associated documentation files\n(hereafter the \"Software\") to use, copy, modify, and/or merge in the Software for personal,\nnon-commercial use, but not to publish, distribute, sublicense, and/or sell the Software or\na copy of the Software, even in a part.\n\nThe above copyright notice and this permission notice shall be included in all copies or\nsubstantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\nINCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR\nPURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE\nFOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\nDEALINGS IN THE SOFTWARE."
+}

@@ -1,0 +1,20 @@
+{
+  "key": "radiance-sl-v1.0",
+  "short_name": "Radiance Software License v1.0",
+  "name": "Radiance Software License, Version 1.0",
+  "category": "Permissive",
+  "owner": "Radiance",
+  "homepage_url": "https://github.com/visual-accessibility/DeVAS-filter/blob/0cfe5124a359bcce9910d0a42c7f210844fd8df5/radiance/copyright.h#L3",
+  "spdx_license_key": "LicenseRef-scancode-radiance-sl-v1.0",
+  "ignorable_authors": [
+    "the Lawrence Berkeley National Laboratory (http://www.lbl.gov/)"
+  ],
+  "ignorable_urls": [
+    "http://radsite.lbl.gov/",
+    "http://www.lbl.gov/"
+  ],
+  "ignorable_emails": [
+    "radiance@radsite.lbl.gov"
+  ],
+  "text": "The Radiance Software License, Version 1.0\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n\n1. Redistributions of source code must retain the above copyright\n        notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright\n      notice, this list of conditions and the following disclaimer in\n      the documentation and/or other materials provided with the\n      distribution.\n\n3. The end-user documentation included with the redistribution,\n          if any, must include the following acknowledgment:\n            \"This product includes Radiance software\n                (http://radsite.lbl.gov/)\n                developed by the Lawrence Berkeley National Laboratory\n              (http://www.lbl.gov/).\"\n      Alternately, this acknowledgment may appear in the software itself,\n      if and wherever such third-party acknowledgments normally appear.\n\n4. The names \"Radiance,\" \"Lawrence Berkeley National Laboratory\"\n      and \"The Regents of the University of California\" must\n      not be used to endorse or promote products derived from this\n      software without prior written permission. For written\n      permission, please contact radiance@radsite.lbl.gov.\n\n5. Products derived from this software may not be called \"Radiance\",\n      nor may \"Radiance\" appear in their name, without prior written\n      permission of Lawrence Berkeley National Laboratory.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED\nWARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED.   IN NO EVENT SHALL Lawrence Berkeley National Laboratory OR\nITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF\nUSE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT\nOF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE."
+}

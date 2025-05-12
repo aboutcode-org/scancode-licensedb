@@ -1,0 +1,10 @@
+{
+  "key": "unicode-ucd",
+  "short_name": "Unicode UCD TOU",
+  "name": "Unicode Character Database (UCD) Terms of Use",
+  "category": "Permissive",
+  "owner": "Unicode Consortium",
+  "homepage_url": "https://fedoraproject.org/wiki/Licensing:UCD",
+  "spdx_license_key": "LicenseRef-scancode-unicode-ucd",
+  "text": "UCD Terms of Use\n\nDisclaimer\n\nThe Unicode Character Database is provided as is by Unicode, Inc. No claims are\nmade as to fitness for any particular purpose. No warranties of any kind are\nexpressed or implied. The recipient agrees to determine applicability of\ninformation provided. If this file has been purchased on magnetic or optical\nmedia from Unicode, Inc., the sole remedy for any claim will be exchange of\ndefective media within 90 days of receipt.\n\nThis disclaimer is applicable for all other data files accompanying the Unicode\nCharacter Database, some of which have been compiled by the Unicode Consortium,\nand some of which have been supplied by other sources.\n\nLimitations on Rights to Redistribute This Data\n\nRecipient is granted the right to make copies in any form for internal\ndistribution and to freely use the information supplied in the creation of\nproducts supporting the UnicodeTM Standard. The files in the Unicode Character\nDatabase can be redistributed to third parties or other organizations (whether\nfor profit or not) as long as this notice and the disclaimer notice are\nretained. Information can be extracted from these files and used in\ndocumentation or programs, as long as there is an accompanying notice\nindicating the source."
+}
