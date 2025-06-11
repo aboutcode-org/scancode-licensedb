@@ -5968,16 +5968,16 @@
     "license": "cockroachdb-use-grant-for-bsl-1.1.LICENSE"
   },
   {
-    "license_key": "code-credit-license-1.0-0",
+    "license_key": "code-credit-license-1.0.0",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-code-credit-license-1.0.0",
     "other_spdx_license_keys": [],
     "is_exception": false,
     "is_deprecated": false,
-    "json": "code-credit-license-1.0-0.json",
-    "yaml": "code-credit-license-1.0-0.yml",
-    "html": "code-credit-license-1.0-0.html",
-    "license": "code-credit-license-1.0-0.LICENSE"
+    "json": "code-credit-license-1.0.0.json",
+    "yaml": "code-credit-license-1.0.0.yml",
+    "html": "code-credit-license-1.0.0.html",
+    "license": "code-credit-license-1.0.0.LICENSE"
   },
   {
     "license_key": "code-credit-license-1.0.1",
