@@ -7594,7 +7594,7 @@
   {
     "license_key": "dumb",
     "category": "Permissive",
-    "spdx_license_key": "DUMB",
+    "spdx_license_key": "LicenseRef-scancode-dumb",
     "other_spdx_license_keys": [],
     "is_exception": false,
     "is_deprecated": false,
@@ -18978,6 +18978,18 @@
     "license": "new-relic.LICENSE"
   },
   {
+    "license_key": "new-relic-1.0",
+    "category": "Commercial",
+    "spdx_license_key": "LicenseRef-scancode-new-relic-1.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "new-relic-1.0.json",
+    "yaml": "new-relic-1.0.yml",
+    "html": "new-relic-1.0.html",
+    "license": "new-relic-1.0.LICENSE"
+  },
+  {
     "license_key": "newlib-historical",
     "category": "Permissive",
     "spdx_license_key": "LicenseRef-scancode-newlib-historical",
@@ -23902,6 +23914,18 @@
     "license": "rogue-wave.LICENSE"
   },
   {
+    "license_key": "root-cert-3.0",
+    "category": "Proprietary Free",
+    "spdx_license_key": "LicenseRef-scancode-root-cert-3.0",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "root-cert-3.0.json",
+    "yaml": "root-cert-3.0.yml",
+    "html": "root-cert-3.0.html",
+    "license": "root-cert-3.0.LICENSE"
+  },
+  {
     "license_key": "rpl-1.1",
     "category": "Copyleft Limited",
     "spdx_license_key": "RPL-1.1",
@@ -28454,6 +28478,18 @@
     "yaml": "w3c-community-cla.yml",
     "html": "w3c-community-cla.html",
     "license": "w3c-community-cla.LICENSE"
+  },
+  {
+    "license_key": "w3c-community-final-spec",
+    "category": "Permissive",
+    "spdx_license_key": "LicenseRef-scancode-w3c-community-final-spec",
+    "other_spdx_license_keys": [],
+    "is_exception": false,
+    "is_deprecated": false,
+    "json": "w3c-community-final-spec.json",
+    "yaml": "w3c-community-final-spec.yml",
+    "html": "w3c-community-final-spec.html",
+    "license": "w3c-community-final-spec.LICENSE"
   },
   {
     "license_key": "w3c-docs-19990405",
