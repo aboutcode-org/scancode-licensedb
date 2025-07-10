@@ -1,0 +1,12 @@
+key: jove
+short_name: Jove License
+name: Jove License
+category: Permissive
+owner: Jonathan Payne
+spdx_license_key: jove
+other_urls:
+  - https://github.com/jonmacs/jove/blob/4_17/LICENSE
+text: |
+  JOVE is provided by Jonathan and Jovehacks without charge and without
+  warranty.  You may copy, modify, and/or distribute JOVE, provided that
+  this notice is included in all the source files and documentation.

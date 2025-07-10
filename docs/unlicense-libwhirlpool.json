@@ -1,0 +1,12 @@
+{
+  "key": "unlicense-libwhirlpool",
+  "short_name": "Unlicense - libwhirlpool variant",
+  "name": "Unlicense - libwhirlpool variant",
+  "category": "Public Domain",
+  "owner": "Denis Fateyev",
+  "spdx_license_key": "Unlicense-libwhirlpool",
+  "other_urls": [
+    "https://github.com/dfateyev/libwhirlpool/blob/master/README#L27"
+  ],
+  "text": "This is free and unencumbered software released into the public domain.\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any means.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT."
+}

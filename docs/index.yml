@@ -1495,8 +1495,9 @@
   license: artistic-clarified.LICENSE
 - license_key: artistic-dist-1.0
   category: Copyleft Limited
-  spdx_license_key: LicenseRef-scancode-artistic-1988-1.0
-  other_spdx_license_keys: []
+  spdx_license_key: Artistic-dist
+  other_spdx_license_keys:
+    - LicenseRef-scancode-artistic-1988-1.0
   is_exception: no
   is_deprecated: no
   json: artistic-dist-1.0.json
@@ -1583,6 +1584,16 @@
   yaml: asn1.yml
   html: asn1.html
   license: asn1.LICENSE
+- license_key: aspell-ru
+  category: Permissive
+  spdx_license_key: Aspell-RU
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: aspell-ru.json
+  yaml: aspell-ru.yml
+  html: aspell-ru.html
+  license: aspell-ru.LICENSE
 - license_key: asterisk-exception
   category: Copyleft
   spdx_license_key: Asterisk-exception
@@ -2654,6 +2665,16 @@
   yaml: bsd-2-clause-netbsd.yml
   html: bsd-2-clause-netbsd.html
   license: bsd-2-clause-netbsd.LICENSE
+- license_key: bsd-2-clause-pkgconf-disclaimer
+  category: Permissive
+  spdx_license_key: BSD-2-Clause-pkgconf-disclaimer
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: bsd-2-clause-pkgconf-disclaimer.json
+  yaml: bsd-2-clause-pkgconf-disclaimer.yml
+  html: bsd-2-clause-pkgconf-disclaimer.html
+  license: bsd-2-clause-pkgconf-disclaimer.LICENSE
 - license_key: bsd-2-clause-plus-advertizing
   category: Permissive
   spdx_license_key: LicenseRef-scancode-bsd-2-clause-plus-advertizing
@@ -4692,8 +4713,9 @@
   license: classworlds.LICENSE
 - license_key: clause-6-exception-lgpl-2.1
   category: Copyleft Limited
-  spdx_license_key: LicenseRef-scancode-clause-6-exception-lgpl-2.1
-  other_spdx_license_keys: []
+  spdx_license_key: polyparse-exception
+  other_spdx_license_keys:
+    - LicenseRef-scancode-clause-6-exception-lgpl-2.1
   is_exception: yes
   is_deprecated: no
   json: clause-6-exception-lgpl-2.1.json
@@ -5439,8 +5461,9 @@
   license: cryptopp.LICENSE
 - license_key: cryptoswift
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-cryptoswift
-  other_spdx_license_keys: []
+  spdx_license_key: CryptoSwift
+  other_spdx_license_keys:
+    - LicenseRef-scancode-cryptoswift
   is_exception: no
   is_deprecated: no
   json: cryptoswift.json
@@ -5681,8 +5704,9 @@
   license: damail.LICENSE
 - license_key: dante-treglia
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-dante-treglia
-  other_spdx_license_keys: []
+  spdx_license_key: Game-Programming-Gems
+  other_spdx_license_keys:
+    - LicenseRef-scancode-dante-treglia
   is_exception: no
   is_deprecated: no
   json: dante-treglia.json
@@ -6111,6 +6135,16 @@
   yaml: docbook.yml
   html: docbook.html
   license: docbook.LICENSE
+- license_key: docbook-dtd
+  category: Permissive
+  spdx_license_key: DocBook-DTD
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: docbook-dtd.json
+  yaml: docbook-dtd.yml
+  html: docbook-dtd.html
+  license: docbook-dtd.LICENSE
 - license_key: docbook-schema
   category: Permissive
   spdx_license_key: DocBook-Schema
@@ -7692,6 +7726,16 @@
   yaml: fsfap-no-warranty-disclaimer.yml
   html: fsfap-no-warranty-disclaimer.html
   license: fsfap-no-warranty-disclaimer.LICENSE
+- license_key: fsfullrsd
+  category: Permissive
+  spdx_license_key: FSFULLRSD
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: fsfullrsd.json
+  yaml: fsfullrsd.yml
+  html: fsfullrsd.html
+  license: fsfullrsd.LICENSE
 - license_key: fsl-1.0-apache-2.0
   category: Source-available
   spdx_license_key: LicenseRef-scancode-fsl-1.0-apache-2.0
@@ -7714,8 +7758,9 @@
   license: fsl-1.0-mit.LICENSE
 - license_key: fsl-1.1-apache-2.0
   category: Source-available
-  spdx_license_key: LicenseRef-scancode-fsl-1.1-apache-2.0
-  other_spdx_license_keys: []
+  spdx_license_key: FSL-1.1-ALv2
+  other_spdx_license_keys:
+    - LicenseRef-scancode-fsl-1.1-apache-2.0
   is_exception: no
   is_deprecated: no
   json: fsl-1.1-apache-2.0.json
@@ -7724,8 +7769,9 @@
   license: fsl-1.1-apache-2.0.LICENSE
 - license_key: fsl-1.1-mit
   category: Source-available
-  spdx_license_key: LicenseRef-scancode-fsl-1.1-mit
-  other_spdx_license_keys: []
+  spdx_license_key: FSL-1.1-MIT
+  other_spdx_license_keys:
+    - LicenseRef-scancode-fsl-1.1-mit
   is_exception: no
   is_deprecated: no
   json: fsl-1.1-mit.json
@@ -9768,8 +9814,9 @@
   license: hdf4.LICENSE
 - license_key: hdf5
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-hdf5
-  other_spdx_license_keys: []
+  spdx_license_key: HDF5
+  other_spdx_license_keys:
+    - LicenseRef-scancode-hdf5
   is_exception: no
   is_deprecated: no
   json: hdf5.json
@@ -11500,6 +11547,16 @@
   yaml: josl-1.0.yml
   html: josl-1.0.html
   license: josl-1.0.LICENSE
+- license_key: jove
+  category: Permissive
+  spdx_license_key: jove
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: jove.json
+  yaml: jove.yml
+  html: jove.html
+  license: jove.LICENSE
 - license_key: jpegxr
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-jpegxr
@@ -12459,6 +12516,16 @@
   yaml: libpng.yml
   html: libpng.html
   license: libpng.LICENSE
+- license_key: libpng-1.6.35
+  category: Permissive
+  spdx_license_key: libpng-1.6.35
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: libpng-1.6.35.json
+  yaml: libpng-1.6.35.yml
+  html: libpng-1.6.35.html
+  license: libpng-1.6.35.LICENSE
 - license_key: libpng-v2
   category: Permissive
   spdx_license_key: libpng-2.0
@@ -13243,6 +13310,16 @@
   yaml: mame.yml
   html: mame.html
   license: mame.LICENSE
+- license_key: man2html
+  category: Permissive
+  spdx_license_key: man2html
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: man2html.json
+  yaml: man2html.yml
+  html: man2html.html
+  license: man2html.LICENSE
 - license_key: manfred-klein-fonts-tos
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-manfred-klein-fonts-tos
@@ -15806,6 +15883,16 @@
   yaml: ngpl.yml
   html: ngpl.html
   license: ngpl.LICENSE
+- license_key: ngrep
+  category: Permissive
+  spdx_license_key: ngrep
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ngrep.json
+  yaml: ngrep.yml
+  html: ngrep.html
+  license: ngrep.LICENSE
 - license_key: nice
   category: Permissive
   spdx_license_key: LicenseRef-scancode-nice
@@ -16168,6 +16255,16 @@
   yaml: nrl-permission.yml
   html: nrl-permission.html
   license: nrl-permission.LICENSE
+- license_key: ntia-pd
+  category: Public Domain
+  spdx_license_key: NTIA-PD
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ntia-pd.json
+  yaml: ntia-pd.yml
+  html: ntia-pd.html
+  license: ntia-pd.LICENSE
 - license_key: ntlm
   category: Permissive
   spdx_license_key: LicenseRef-scancode-ntlm
@@ -19293,8 +19390,9 @@
   license: qt-company-exception-2017-lgpl-2.1.LICENSE
 - license_key: qt-company-exception-lgpl-2.1
   category: Copyleft Limited
-  spdx_license_key: LicenseRef-scancode-qt-company-exception-lgpl-2.1
-  other_spdx_license_keys: []
+  spdx_license_key: Digia-Qt-LGPL-exception-1.1
+  other_spdx_license_keys:
+    - LicenseRef-scancode-qt-company-exception-lgpl-2.1
   is_exception: yes
   is_deprecated: no
   json: qt-company-exception-lgpl-2.1.json
@@ -20900,6 +20998,16 @@
   yaml: socketxx-2003.yml
   html: socketxx-2003.html
   license: socketxx-2003.LICENSE
+- license_key: sofa
+  category: Proprietary Free
+  spdx_license_key: SOFA
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: sofa.json
+  yaml: sofa.yml
+  html: sofa.html
+  license: sofa.LICENSE
 - license_key: softerra-ldap-browser-eula
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-softerra-ldap-browser-eula
@@ -21852,8 +21960,9 @@
   license: supervisor.LICENSE
 - license_key: sustainable-use-1.0
   category: Free Restricted
-  spdx_license_key: LicenseRef-scancode-sustainable-use-1.0
-  other_spdx_license_keys: []
+  spdx_license_key: SUL-1.0
+  other_spdx_license_keys:
+    - LicenseRef-scancode-sustainable-use-1.0
   is_exception: no
   is_deprecated: no
   json: sustainable-use-1.0.json
@@ -23089,6 +23198,26 @@
   yaml: unlicense.yml
   html: unlicense.html
   license: unlicense.LICENSE
+- license_key: unlicense-libtelnet
+  category: Public Domain
+  spdx_license_key: Unlicense-libtelnet
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: unlicense-libtelnet.json
+  yaml: unlicense-libtelnet.yml
+  html: unlicense-libtelnet.html
+  license: unlicense-libtelnet.LICENSE
+- license_key: unlicense-libwhirlpool
+  category: Public Domain
+  spdx_license_key: Unlicense-libwhirlpool
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: unlicense-libwhirlpool.json
+  yaml: unlicense-libwhirlpool.yml
+  html: unlicense-libwhirlpool.html
+  license: unlicense-libwhirlpool.LICENSE
 - license_key: unlimited-binary-linking
   category: Permissive
   spdx_license_key: LicenseRef-scancode-unlimited-binary-linking
