@@ -1,0 +1,64 @@
+key: fair-ai-public-1.0
+short_name: Fair AI Public License 1.0
+name: Fair AI Public License 1.0
+category: Copyleft
+owner: Freedom of Development Project
+homepage_url: https://freedevproject.org/faipl-1.0.txt
+spdx_license_key: LicenseRef-scancode-fair-ai-public-1.0
+other_urls:
+  - https://freedevproject.org/
+ignorable_urls:
+  - https://freedevproject.org/
+text: "# Fair AI Public License 1.0\n\nPublished by the [Freedom of Development Project](https://freedevproject.org).\n\
+  \n*This license comes with special requirements if you intend to allow users\nto access this\
+  \ software over a network. See [Notices](#notices) for more\ninformation.*\n\n## Purpose\n\
+  This license gives everyone as much permission to work with this software as \npossible, while\
+  \ protecting contributors from liability and protecting the \nfreedom of end users.\n\n##\
+  \ Definitions\nIn this license, \"model\" refers to machine learning model weights, biases,\n\
+  parameters, optimizer states, and any byproducts of a training or pretraining\nprocess, whether\
+  \ in the form of checkpoints or any other form.\n\nThe term \"derived model\" refers to any\
+  \ model based on this model.\n\nThe term \"software\" also refers to any model along with\
+  \ documentation or\nother resources provided with the software.\n\nThe term \"source code\"\
+  \ refers to the preferred form of making modifications\nto software. It also includes any\
+  \ models, if applicable, but it does not\ninclude any datasets used to train a model.\n\n\
+  To \"modify\" also means to perform any training on a model or to combine a\nmodel with another\
+  \ model.\n\n## Acceptance\nIn order to receive this license, you must agree to its rules.\
+  \ The rules of \nthis license are both obligations under that agreement and conditions to\
+  \ your \nlicense. You must not do anything with this software that triggers a rule that \n\
+  you cannot or will not follow. If you do not agree, then you cannot use this \nsoftware in\
+  \ any way.\n\n## Copyright\nEach contributor licenses you to do everything with this software\
+  \ that would \notherwise infringe that contributor's copyright in it.\n\n## Freedom\nNeither\
+  \ this software nor any work that is combined with this software will be \nconsidered a technological\
+  \ protection measure under the WIPO Copyright Treaty \nor any similar law. Reverse engineering\
+  \ of this software and of any work that \nis combined with this software is always allowed.\n\
+  \n## Notices\nYou must ensure that everyone who gets a copy of any part of this software from\
+  \ \nyou, with or without changes, also gets the text of this license along with\nthe corresponding\
+  \ source code.\n\nIf you modify this software and allow users to interact with it through\
+  \ a\ncomputer network, you must ensure they have a reasonable way to receive the\ncorresponding\
+  \ source code from you, whether that is via a download link or a\nprominent written offer.\
+  \ As a special case, if you are only allowing users to\ninteract with a derived model, then\
+  \ you may choose to provide a download link\nor written offer only for the derived model.\n\
+  \nThis software, all source code, and all modifications must be provided under\nthis license\
+  \ or another license that allows everything this license allows.\nNote that this does not\
+  \ give you permission to change the license for this\nsoftware.\n\n## Excuse\nIf anyone notifies\
+  \ you in writing that you have not complied with \n[Notices](#notices), you can keep your\
+  \ license by taking all practical steps\nto comply within 30 days after the notice. If you\
+  \ do not do so, your license\nends immediately.\n\n## Output\nThe output of this software\
+  \ is not covered by this license, and no contributor\nclaims any rights to it.\n\n## Patent\n\
+  Each contributor licenses you to do everything with this software that would \notherwise infringe\
+  \ any patent claims they can license or become able to license.\n\n## Reliability\nNo contributor\
+  \ can revoke this license.\n\n## Alternatives\nYou can also use this software under the terms\
+  \ of the GNU AGPL 3.0, or any later\nversion of that license. If you do, [No Harm](#no-harm)\
+  \ and\n[No Liability](#no-liability) still apply.\n\n## Revisions\nThe Freedom of Development\
+  \ Project may publish revised or new versions of the\nFair AI Public License. Those new versions\
+  \ will be similar in spirit to this\nlicense.\n\nUnless a contributor specifies otherwise,\
+  \ you have the option of following the\nterms of any later version of this license. Your choice\
+  \ to follow a later\nversion of the license will not impose additional obligations on any\n\
+  contributor.\n\n## Survival\nThe provisions of [No Harm](#no-harm) and [No Liability](#no-liability)\
+  \ survive\nthe end of your license.\n\n## No Harm\nYou agree that no contributor's conduct\
+  \ in the creation of this software has \ncaused you any harm. As far as the law allows, you\
+  \ give up your right to pursue \nany kind of legal claim against any contributor for actions\
+  \ related the \ncreation of this software, even if those actions broke a previous agreement.\n\
+  \n## No Liability\n***As far as the law allows, this software comes as is, without any warranty\
+  \ or \ncondition, and no contributor will be liable to anyone for any damages related \nto\
+  \ this software or this license, under any kind of legal claim.***"

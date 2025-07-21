@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LicenseDB: zugferd-datenformat-2.2.0</title>
+    <style>
+      table.dataTable {visibility: visible!important;}
+      .dataTables_filter {display: none;}
+      table.dataTable thead th, table.dataTable thead td {padding: 8px!important; border-top: 1px solid #111;}
+      .dataTables_wrapper .dataTables_info {padding: 0 0 2px!important; font-size: .75rem!important; color: #3b4351!important;}
+      header {padding-top: .4rem; padding-bottom: .4rem;}
+      footer {background-color: #f7f8f9; color: #bcc3ce; padding: 1.5rem .75rem 1rem; margin-top: 1em;}
+      a:visited {color: #5755d9!important;}
+      .navbar .nav-item {color:#66758c;padding: .25rem .4rem;}
+      .navbar .nav-item a, .navbar .nav-item a:visited {color:#66758c !important;}
+      .anchor {color: #6362dc; display: none; margin-left: .2rem; padding: 0 .2rem;}
+      h4:focus .anchor, h4:hover .anchor {display: inline; text-decoration: none;}
+      .help_text, .help_text:hover, .help_text:visited {color: #3b4351!important; border-bottom: dotted 0.0625rem #cccccc; text-decoration: inherit;}
+    </style>
+    <link rel="stylesheet" href="static/spectre-0.5.9.min.css">
+    <script src="static/jquery-3.5.1.slim.min.js"></script>
+    
+  <script src="static/jquery.mark-8.11.1.min.js"></script>
+  <style>
+    table.dataTable {visibility: visible!important;}
+    #search-section {display: none;}
+    ul.list-style-none {list-style: none; margin: 0;}
+    ul li:first-child {margin-top: 0;}
+    dl {display: flex; flex-flow: row wrap;}
+    dl dt, dl dd {margin: 0; padding: 6px 10px;}
+    dt {flex-basis: 20%; background: #555; text-align: right; color: #fff;}
+    dd {flex-basis: 70%; flex-grow: 1;}
+  </style>
+
+  </head>
+  <body style="padding: 0 7rem;">
+    <div class="container">
+  <header class="navbar">
+    <section class="navbar-section">
+      <a class="navbar-brand text-bold mr-2" style="font-size: 1rem;" href="index.html">ScanCode LicenseDB</a>
+      <a href="help.html" class="btn btn-link">Help</a>
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank" class="btn btn-link">Chat</a>
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank" class="btn btn-link">GitHub</a>
+      <span class="nav-item">Licensed under <a href="cc-by-4.0.html" class="text-bold">CC-BY-4.0</a></span>
+    </section>
+    <section id="search-section">
+      <div class="input-group input-inline">
+        <button class="btn btn-primary input-group-btn disabled" tabindex="-1" style="opacity: 0.9">Search</button>
+        <input id="searchbox" class="form-input" type="search">
+      </div>
+    </section>
+  </header>
+</div>
+    
+  <div class="container">
+    <hr>
+    <a href="index.html">back to list</a> -
+    <a href="zugferd-datenformat-2.2.0.yml">yml</a> -
+    <a href="zugferd-datenformat-2.2.0.json">json</a> -
+    <a href="zugferd-datenformat-2.2.0.LICENSE">text</a> -
+    <a href="https://github.com/nexB/scancode-toolkit/edit/develop/src/licensedcode/data/licenses/zugferd-datenformat-2.2.0.LICENSE" target="_blank">edit License</a>
+    <hr>
+    <dl>
+      
+        <dt style="">key</dt>
+        <dd>
+          
+            zugferd-datenformat-2.2.0
+          
+        </dd>
+      
+        <dt style="">language</dt>
+        <dd>
+          
+            de
+          
+        </dd>
+      
+        <dt style="">short_name</dt>
+        <dd>
+          
+            ZUGFeRD Data Format v2.2.0 14.02.2022
+          
+        </dd>
+      
+        <dt style="">name</dt>
+        <dd>
+          
+            ZUGFeRD Datenformat Version 2.2.0 14.02.2022
+          
+        </dd>
+      
+        <dt style="">category</dt>
+        <dd>
+          
+            Proprietary Free
+          
+        </dd>
+      
+        <dt style="">owner</dt>
+        <dd>
+          
+            ZUGFeRD Community
+          
+        </dd>
+      
+        <dt style="">homepage_url</dt>
+        <dd>
+          
+            <a href="https://github.com/ZUGFeRD/corpus/blob/master/XML-Rechnung/CII/EN16931_1_Teilrechnung.cii.xml" rel="noopener" target="_blank">https://github.com/ZUGFeRD/corpus/blob/master/XML-Rechnung/CII/EN16931_1_Teilrechnung.cii.xml</a>
+          
+        </dd>
+      
+        <dt style="">spdx_license_key</dt>
+        <dd>
+          
+            LicenseRef-scancode-zugferd-datenformat-2.2.0
+          
+        </dd>
+      
+        <dt style="">ignorable_urls</dt>
+        <dd>
+          
+            <ul class="list-style-none">
+             <li><a href="http://www.ferd-net.de/" rel="noopener" target="_blank">http://www.ferd-net.de/</a></li>
+            </ul>
+          
+        </dd>
+      
+    </dl>
+    <div class="text-bold">license_text</div>
+    <pre id="license-text" class="code mt-1" style="white-space: pre-wrap;"><code>&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39; ?&gt;
+&lt;!-- English disclaimer below.--&gt;
+&lt;!--Nutzungsrechte 
+ZUGFeRD Datenformat Version 2.2.0, 14.02.2022
+Beispiel Version 14.02.2022
+ 
+Zweck des Forums elektronisch Rechnung Deutschland, welches am 31. März 2010 unter der Arbeitsgemeinschaft für 
+wirtschaftliche Verwaltung e. V. gegründet wurde, ist u. a. die Schaffung und Spezifizierung eines offenen Datenformats 
+für strukturierten elektronischen Datenaustausch auf der Grundlage offener und nicht diskriminierender, standardisierter 
+Technologien („ZUGFeRD Datenformat“).
+ 
+Das ZUGFeRD Datenformat wird nach Maßgabe des FeRD sowohl Unternehmen als auch der öffentlichen Verwaltung 
+frei zugänglich gemacht. Hierfür bietet FeRD allen Unternehmen und Organisationen der öffentlichen Verwaltung eine 
+Lizenz für die Nutzung des urheberrechtlich geschützten ZUGFeRD-Datenformats zu fairen, sachgerechten und nicht 
+diskriminierenden Bedingungen an.
+ 
+Die Spezifikation des FeRD zur Implementierung des ZUGFeRD Datenformats ist in ihrer jeweils geltenden Fassung 
+abrufbar unter www.ferd-net.de.
+ 
+Im Einzelnen schließt die Nutzungsgewährung ein: 
+=====================================
+ 
+FeRD räumt eine Lizenz für die Nutzung des urheberrechtlich geschützten ZUGFeRD Datenformats in der jeweils 
+geltenden und akzeptierten Fassung (www.ferd-net.de) ein. 
+Die Lizenz beinhaltet ein unwiderrufliches Nutzungsrecht einschließlich des Rechts der Weiterentwicklung, 
+Weiterbearbeitung und Verbindung mit anderen Produkten.
+Die Lizenz gilt insbesondere für die Entwicklung, die Gestaltung, die Herstellung, den Verkauf, die Nutzung oder 
+anderweitige Verwendung des ZUGFeRD Datenformats für Hardware- und/oder Softwareprodukte sowie sonstige 
+Anwendungen und Dienste. 
+Diese Lizenz schließt nicht die wesentlichen Patente der Mitglieder von FeRD ein. Als wesentliche Patente sind Patente 
+und Patentanmeldungen weltweit zu verstehen, die einen oder mehrere Patentansprüche beinhalten, bei denen es sich um 
+notwendige Ansprüche handelt. Notwendige Ansprüche sind lediglich jene Ansprüche der Wesentlichen Patente, die durch 
+die Implementierung des ZUGFeRD Datenformats notwendigerweise verletzt würden. 
+Der Lizenznehmer ist berechtigt, seinen jeweiligen Konzerngesellschaften ein unbefristetes, weltweites, nicht übertragbares, 
+unwiderrufliches Nutzungsrecht einschließlich des Rechts der Weiterentwicklung, Weiterbearbeitung und Verbindung mit 
+anderen Produkten einzuräumen. 
+ 
+Die Lizenz wird kostenfrei zur Verfügung gestellt. 
+ 
+Außer im Falle vorsätzlichen Verschuldens oder grober Fahrlässigkeit haftet FeRD weder für Nutzungsausfall, entgangenen 
+Gewinn, Datenverlust, Kommunikationsverlust, Einnahmeausfall, Vertragseinbußen, Geschäftsausfall oder für Kosten, 
+Schäden, Verluste oder Haftpflichten im Zusammenhang mit einer Unterbrechung der Geschäftstätigkeit, noch für konkrete, 
+beiläufig entstandene, mittelbare Schäden, Straf- oder Folgeschäden und zwar auch dann nicht, wenn die Möglichkeit der 
+Kosten, Verluste bzw. Schäden hätte normalerweise vorhergesehen werden können.--&gt;
+ 
+ &lt;!--Right of use 
+ZUGFeRD Data format version 2.2.0, February 14th, 2022
+ 
+The purpose of the Forum elektronische Rechnung Deutschland (FeRD), which was founded on March 31, 2010 under the 
+umbrella of Arbeitsgemeinschaft für wirtschaftliche Verwaltung e. V., is, among other things, to create and specify an 
+open data format for structured electronic data exchange on the basis of open and non discriminatory, standardised 
+technologies (&#34;ZUGFeRD data format&#34;).
+ 
+The ZUGFeRD data format is used by both companies and public administration according to the FeRD 
+made freely accessible. For this purpose FeRD offers all companies and organisations of the public administration a 
+License to use the copyrighted ZUGFeRD data format in a fair, appropriate and non 
+discriminatory conditions.
+ 
+The specification of the FeRD for the implementation of the ZUGFeRD data format is, in its currently valid version 
+available at www.ferd-net.de.
+ 
+In detail, the grant of use includes 
+=====================================
+ 
+FeRD grants a license for the use of the copyrighted ZUGFeRD data format in the respective 
+valid and accepted version (www.ferd-net.de). 
+The license includes an irrevocable right of use including the right of further development, 
+Further processing and connection with other products.
+The license applies in particular to the development, design, production, sale, use or 
+other use of the ZUGFeRD data format for hardware and/or software products and other 
+applications and services. 
+This license does not include the essential patents of the members of FeRD. The essential patents are patents 
+and patent applications worldwide which contain one or more claims that are 
+necessary claims. Necessary claims are only those claims of the essential patents which are 
+the implementation of the ZUGFeRD data format would necessarily be violated. 
+The Licensee is entitled to provide its respective group companies with an unlimited, worldwide, non-transferable, 
+irrevocable right of use including the right of further development, further processing and connection with 
+other products. 
+ 
+The license is provided free of charge. 
+ 
+Except in the case of intentional fault or gross negligence, FeRD is not liable for loss of use, loss of 
+Profit, loss of data, loss of communication, loss of revenue, loss of contracts, loss of business or for costs 
+damages, losses or liabilities in connection with an interruption of business, nor for concrete, 
+incidental, indirect, punitive or consequential damages, even if the possibility of 
+costs, losses or damages could normally have been foreseen.--&gt;
+
+&lt;rsm:CrossIndustryInvoice xmlns:rsm=&#34;urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100&#34; xmlns:qdt=&#34;urn:un:unece:uncefact:data:standard:QualifiedDataType:100&#34; xmlns:ram=&#34;urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100&#34; xmlns:xs=&#34;http://www.w3.org/2001/XMLSchema&#34; xmlns:udt=&#34;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100&#34;&gt;
+  &lt;rsm:ExchangedDocumentContext&gt;
+    &lt;ram:GuidelineSpecifiedDocumentContextParameter&gt;
+      &lt;ram:ID&gt;urn:cen.eu:en16931:2017&lt;/ram:ID&gt;
+    &lt;/ram:GuidelineSpecifiedDocumentContextParameter&gt;
+  &lt;/rsm:ExchangedDocumentContext&gt;
+  &lt;rsm:ExchangedDocument&gt;
+    &lt;ram:ID&gt;471102&lt;/ram:ID&gt;
+    &lt;ram:TypeCode&gt;380&lt;/ram:TypeCode&gt;
+    &lt;ram:IssueDateTime&gt;
+      &lt;udt:DateTimeString format=&#34;102&#34;&gt;20180605&lt;/udt:DateTimeString&gt;
+    &lt;/ram:IssueDateTime&gt;
+    &lt;ram:IncludedNote&gt;
+      &lt;ram:Content&gt;Rechnung gemäß Bestellung Nr. 2018-471331 vom 01.03.2018.&lt;/ram:Content&gt;
+    &lt;/ram:IncludedNote&gt;
+    &lt;ram:IncludedNote&gt;
+      &lt;ram:Content&gt;Es bestehen Rabatt- und Bonusvereinbarungen.&lt;/ram:Content&gt;
+      &lt;ram:SubjectCode&gt;AAK&lt;/ram:SubjectCode&gt;
+    &lt;/ram:IncludedNote&gt;
+    &lt;ram:IncludedNote&gt;
+      &lt;ram:Content&gt;Lieferant GmbH				
+Lieferantenstraße 20				
+80333 München				
+Deutschland				
+Geschäftsführer: Hans Muster
+Handelsregisternummer: H A 123
+      &lt;/ram:Content&gt;
+      &lt;ram:SubjectCode&gt;REG&lt;/ram:SubjectCode&gt;
+    &lt;/ram:IncludedNote&gt;
+  &lt;/rsm:ExchangedDocument&gt;
+  &lt;rsm:SupplyChainTradeTransaction&gt;
+    &lt;ram:IncludedSupplyChainTradeLineItem&gt;
+      &lt;ram:AssociatedDocumentLineDocument&gt;
+        &lt;ram:LineID&gt;1&lt;/ram:LineID&gt;
+		  &lt;ram:IncludedNote&gt;
+          &lt;ram:Content&gt;Wir erlauben uns Ihnen folgende Positionen aus der Lieferung Nr. 2018-51112 in Rechnung zu stellen:&lt;/ram:Content&gt;
+        &lt;/ram:IncludedNote&gt;
+      &lt;/ram:AssociatedDocumentLineDocument&gt;
+      &lt;ram:SpecifiedTradeProduct&gt;
+        &lt;ram:GlobalID schemeID=&#34;0160&#34;&gt;4012345001235&lt;/ram:GlobalID&gt;
+        &lt;ram:SellerAssignedID&gt;KR3M&lt;/ram:SellerAssignedID&gt;
+        &lt;ram:BuyerAssignedID/&gt;
+        &lt;ram:Name&gt;Kunstrasen grün 3m breit&lt;/ram:Name&gt;
+        &lt;ram:Description&gt;300cm x 100 cm&lt;/ram:Description&gt;
+      &lt;/ram:SpecifiedTradeProduct&gt;
+      &lt;ram:SpecifiedLineTradeAgreement&gt;
+        &lt;ram:GrossPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;4.0000&lt;/ram:ChargeAmount&gt;
+          &lt;ram:AppliedTradeAllowanceCharge&gt;
+			&lt;ram:ChargeIndicator&gt;
+              &lt;udt:Indicator&gt;false&lt;/udt:Indicator&gt;
+			&lt;/ram:ChargeIndicator&gt;
+			&lt;ram:ActualAmount&gt;0.6667&lt;/ram:ActualAmount&gt;
+          &lt;/ram:AppliedTradeAllowanceCharge&gt;
+        &lt;/ram:GrossPriceProductTradePrice&gt;
+        &lt;ram:NetPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;3.3333&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:NetPriceProductTradePrice&gt;
+      &lt;/ram:SpecifiedLineTradeAgreement&gt;
+      &lt;ram:SpecifiedLineTradeDelivery&gt;
+        &lt;ram:BilledQuantity unitCode=&#34;MTK&#34;&gt;3.0000&lt;/ram:BilledQuantity&gt;
+      &lt;/ram:SpecifiedLineTradeDelivery&gt;
+      &lt;ram:SpecifiedLineTradeSettlement&gt;
+        &lt;ram:ApplicableTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;19.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:ApplicableTradeTax&gt;
+        &lt;ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+          &lt;ram:LineTotalAmount&gt;10.00&lt;/ram:LineTotalAmount&gt;
+        &lt;/ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+      &lt;/ram:SpecifiedLineTradeSettlement&gt;
+    &lt;/ram:IncludedSupplyChainTradeLineItem&gt;
+    &lt;ram:IncludedSupplyChainTradeLineItem&gt;
+      &lt;ram:AssociatedDocumentLineDocument&gt;
+        &lt;ram:LineID&gt;2&lt;/ram:LineID&gt;
+        &lt;ram:IncludedNote&gt;
+          &lt;ram:Content&gt;Bestellt wurden 5 kg Schweinesteak. Mit dieser Rechnung werden nur die bereits gelieferten Steaks berechnet. Die noch offenen 4 kg Schweinesteak werden separat geliefert und berechnet.&lt;/ram:Content&gt;
+        &lt;/ram:IncludedNote&gt;
+      &lt;/ram:AssociatedDocumentLineDocument&gt;
+      &lt;ram:SpecifiedTradeProduct&gt;
+        &lt;ram:GlobalID schemeID=&#34;0160&#34;&gt;4000050986428&lt;/ram:GlobalID&gt;
+        &lt;ram:SellerAssignedID&gt;SFK5&lt;/ram:SellerAssignedID&gt;
+        &lt;ram:BuyerAssignedID/&gt;
+        &lt;ram:Name&gt;Schweinesteak&lt;/ram:Name&gt;
+        &lt;ram:Description&gt;Schweinesteak aus Deutschland&lt;/ram:Description&gt;
+      &lt;/ram:SpecifiedTradeProduct&gt;
+      &lt;ram:SpecifiedLineTradeAgreement&gt;
+        &lt;ram:GrossPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;5.5000&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:GrossPriceProductTradePrice&gt;
+        &lt;ram:NetPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;5.5000&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:NetPriceProductTradePrice&gt;
+      &lt;/ram:SpecifiedLineTradeAgreement&gt;
+      &lt;ram:SpecifiedLineTradeDelivery&gt;
+        &lt;ram:BilledQuantity unitCode=&#34;KGM&#34;&gt;1.0000&lt;/ram:BilledQuantity&gt;
+      &lt;/ram:SpecifiedLineTradeDelivery&gt;
+      &lt;ram:SpecifiedLineTradeSettlement&gt;
+        &lt;ram:ApplicableTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;7.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:ApplicableTradeTax&gt;
+        &lt;ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+          &lt;ram:LineTotalAmount&gt;5.50&lt;/ram:LineTotalAmount&gt;
+        &lt;/ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+      &lt;/ram:SpecifiedLineTradeSettlement&gt;
+    &lt;/ram:IncludedSupplyChainTradeLineItem&gt;
+    &lt;ram:IncludedSupplyChainTradeLineItem&gt;
+      &lt;ram:AssociatedDocumentLineDocument&gt;
+        &lt;ram:LineID&gt;3&lt;/ram:LineID&gt;
+      &lt;/ram:AssociatedDocumentLineDocument&gt;
+      &lt;ram:SpecifiedTradeProduct&gt;
+        &lt;ram:GlobalID schemeID=&#34;0160&#34;&gt;4000001234561&lt;/ram:GlobalID&gt;
+        &lt;ram:SellerAssignedID&gt;GTRWA5&lt;/ram:SellerAssignedID&gt;
+        &lt;ram:BuyerAssignedID/&gt;
+        &lt;ram:Name&gt;Mineralwasser Medium 
+12 x 1,0l PET
+        &lt;/ram:Name&gt;
+      &lt;/ram:SpecifiedTradeProduct&gt;
+      &lt;ram:SpecifiedLineTradeAgreement&gt;
+        &lt;ram:GrossPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;5.4900&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:GrossPriceProductTradePrice&gt;
+        &lt;ram:NetPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;5.4900&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:NetPriceProductTradePrice&gt;
+      &lt;/ram:SpecifiedLineTradeAgreement&gt;
+      &lt;ram:SpecifiedLineTradeDelivery&gt;
+        &lt;ram:BilledQuantity unitCode=&#34;H87&#34;&gt;20.0000&lt;/ram:BilledQuantity&gt;
+      &lt;/ram:SpecifiedLineTradeDelivery&gt;
+      &lt;ram:SpecifiedLineTradeSettlement&gt;
+        &lt;ram:ApplicableTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;7.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:ApplicableTradeTax&gt;
+        &lt;ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+          &lt;ram:LineTotalAmount&gt;109.80&lt;/ram:LineTotalAmount&gt;
+        &lt;/ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+      &lt;/ram:SpecifiedLineTradeSettlement&gt;
+    &lt;/ram:IncludedSupplyChainTradeLineItem&gt;
+    &lt;ram:IncludedSupplyChainTradeLineItem&gt;
+      &lt;ram:AssociatedDocumentLineDocument&gt;
+        &lt;ram:LineID&gt;4&lt;/ram:LineID&gt;
+      &lt;/ram:AssociatedDocumentLineDocument&gt;
+      &lt;ram:SpecifiedTradeProduct&gt;
+        &lt;ram:GlobalID schemeID=&#34;0160&#34;&gt;4000001234578&lt;/ram:GlobalID&gt;
+        &lt;ram:SellerAssignedID&gt;PFA5&lt;/ram:SellerAssignedID&gt;
+        &lt;ram:BuyerAssignedID/&gt;
+        &lt;ram:Name&gt;Pfand&lt;/ram:Name&gt;
+      &lt;/ram:SpecifiedTradeProduct&gt;
+      &lt;ram:SpecifiedLineTradeAgreement&gt;
+        &lt;ram:GrossPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;2.7700&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:GrossPriceProductTradePrice&gt;
+        &lt;ram:NetPriceProductTradePrice&gt;
+          &lt;ram:ChargeAmount&gt;2.7700&lt;/ram:ChargeAmount&gt;
+        &lt;/ram:NetPriceProductTradePrice&gt;
+      &lt;/ram:SpecifiedLineTradeAgreement&gt;
+      &lt;ram:SpecifiedLineTradeDelivery&gt;
+        &lt;ram:BilledQuantity unitCode=&#34;C62&#34;&gt;20.0000&lt;/ram:BilledQuantity&gt;
+      &lt;/ram:SpecifiedLineTradeDelivery&gt;
+      &lt;ram:SpecifiedLineTradeSettlement&gt;
+        &lt;ram:ApplicableTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;19.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:ApplicableTradeTax&gt;
+        &lt;ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+          &lt;ram:LineTotalAmount&gt;55.46&lt;/ram:LineTotalAmount&gt;
+        &lt;/ram:SpecifiedTradeSettlementLineMonetarySummation&gt;
+      &lt;/ram:SpecifiedLineTradeSettlement&gt;
+    &lt;/ram:IncludedSupplyChainTradeLineItem&gt;
+    &lt;ram:ApplicableHeaderTradeAgreement&gt;
+      &lt;ram:SellerTradeParty&gt;
+		&lt;ram:ID&gt;549910&lt;/ram:ID&gt;
+        &lt;ram:GlobalID schemeID=&#34;0088&#34;&gt;4000001123452&lt;/ram:GlobalID&gt;
+        &lt;ram:Name&gt;Lieferant GmbH&lt;/ram:Name&gt;
+        &lt;ram:PostalTradeAddress&gt;
+          &lt;ram:PostcodeCode&gt;80333&lt;/ram:PostcodeCode&gt;
+          &lt;ram:LineOne&gt;Lieferantenstraße 20&lt;/ram:LineOne&gt;
+          &lt;ram:CityName&gt;München&lt;/ram:CityName&gt;
+          &lt;ram:CountryID&gt;DE&lt;/ram:CountryID&gt;
+        &lt;/ram:PostalTradeAddress&gt;
+        &lt;ram:SpecifiedTaxRegistration&gt;
+          &lt;ram:ID schemeID=&#34;FC&#34;&gt;201/113/40209&lt;/ram:ID&gt;
+        &lt;/ram:SpecifiedTaxRegistration&gt;
+        &lt;ram:SpecifiedTaxRegistration&gt;
+          &lt;ram:ID schemeID=&#34;VA&#34;&gt;DE123456789&lt;/ram:ID&gt;
+        &lt;/ram:SpecifiedTaxRegistration&gt;
+      &lt;/ram:SellerTradeParty&gt;
+      &lt;ram:BuyerTradeParty&gt;
+        &lt;ram:ID&gt;GE2020211&lt;/ram:ID&gt;
+        &lt;ram:Name&gt;Kunden AG Mitte&lt;/ram:Name&gt;
+        &lt;ram:PostalTradeAddress&gt;
+          &lt;ram:PostcodeCode&gt;69876&lt;/ram:PostcodeCode&gt;
+          &lt;ram:LineOne&gt;Kundenstraße 15&lt;/ram:LineOne&gt;
+          &lt;ram:CityName&gt;Frankfurt&lt;/ram:CityName&gt;
+          &lt;ram:CountryID&gt;DE&lt;/ram:CountryID&gt;
+        &lt;/ram:PostalTradeAddress&gt;
+      &lt;/ram:BuyerTradeParty&gt;
+      &lt;ram:BuyerOrderReferencedDocument&gt;
+        &lt;ram:IssuerAssignedID&gt;2018-471331&lt;/ram:IssuerAssignedID&gt;
+      &lt;/ram:BuyerOrderReferencedDocument&gt;
+    &lt;/ram:ApplicableHeaderTradeAgreement&gt;
+    &lt;ram:ApplicableHeaderTradeDelivery&gt;
+      &lt;ram:ActualDeliverySupplyChainEvent&gt;
+        &lt;ram:OccurrenceDateTime&gt;
+          &lt;udt:DateTimeString format=&#34;102&#34;&gt;20180603&lt;/udt:DateTimeString&gt;
+        &lt;/ram:OccurrenceDateTime&gt;
+      &lt;/ram:ActualDeliverySupplyChainEvent&gt;
+    &lt;/ram:ApplicableHeaderTradeDelivery&gt;
+    &lt;ram:ApplicableHeaderTradeSettlement&gt;
+      &lt;ram:InvoiceCurrencyCode&gt;EUR&lt;/ram:InvoiceCurrencyCode&gt;
+      &lt;ram:ApplicableTradeTax&gt;
+        &lt;ram:CalculatedAmount&gt;7.91&lt;/ram:CalculatedAmount&gt;
+        &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+        &lt;ram:BasisAmount&gt;113.03&lt;/ram:BasisAmount&gt;
+        &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+        &lt;ram:RateApplicablePercent&gt;7.00&lt;/ram:RateApplicablePercent&gt;
+      &lt;/ram:ApplicableTradeTax&gt;
+      &lt;ram:ApplicableTradeTax&gt;
+        &lt;ram:CalculatedAmount&gt;12.25&lt;/ram:CalculatedAmount&gt;
+        &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+        &lt;ram:BasisAmount&gt;64.46&lt;/ram:BasisAmount&gt;
+        &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+        &lt;ram:RateApplicablePercent&gt;19.00&lt;/ram:RateApplicablePercent&gt;
+      &lt;/ram:ApplicableTradeTax&gt;
+      &lt;ram:SpecifiedTradeAllowanceCharge&gt;
+        &lt;ram:ChargeIndicator&gt;
+          &lt;udt:Indicator&gt;false&lt;/udt:Indicator&gt;
+        &lt;/ram:ChargeIndicator&gt;
+        &lt;ram:BasisAmount&gt;10.00&lt;/ram:BasisAmount&gt;
+        &lt;ram:ActualAmount&gt;1.00&lt;/ram:ActualAmount&gt;
+        &lt;ram:Reason&gt;Sondernachlass&lt;/ram:Reason&gt;
+        &lt;ram:CategoryTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;19.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:CategoryTradeTax&gt;
+      &lt;/ram:SpecifiedTradeAllowanceCharge&gt;
+      &lt;ram:SpecifiedTradeAllowanceCharge&gt;
+        &lt;ram:ChargeIndicator&gt;
+          &lt;udt:Indicator&gt;false&lt;/udt:Indicator&gt;
+        &lt;/ram:ChargeIndicator&gt;
+        &lt;ram:BasisAmount&gt;115.30&lt;/ram:BasisAmount&gt;
+        &lt;ram:ActualAmount&gt;8.07&lt;/ram:ActualAmount&gt;
+        &lt;ram:Reason&gt;Sondernachlass&lt;/ram:Reason&gt;
+        &lt;ram:CategoryTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;7.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:CategoryTradeTax&gt;
+      &lt;/ram:SpecifiedTradeAllowanceCharge&gt;
+	    &lt;ram:SpecifiedTradeAllowanceCharge&gt;
+        &lt;ram:ChargeIndicator&gt;
+          &lt;udt:Indicator&gt;true&lt;/udt:Indicator&gt;
+        &lt;/ram:ChargeIndicator&gt;
+        &lt;ram:BasisAmount&gt;115.30&lt;/ram:BasisAmount&gt;
+        &lt;ram:ActualAmount&gt;5.80&lt;/ram:ActualAmount&gt;
+        &lt;ram:Reason&gt;Versandkosten&lt;/ram:Reason&gt;
+        &lt;ram:CategoryTradeTax&gt;
+          &lt;ram:TypeCode&gt;VAT&lt;/ram:TypeCode&gt;
+          &lt;ram:CategoryCode&gt;S&lt;/ram:CategoryCode&gt;
+          &lt;ram:RateApplicablePercent&gt;7.00&lt;/ram:RateApplicablePercent&gt;
+        &lt;/ram:CategoryTradeTax&gt;
+      &lt;/ram:SpecifiedTradeAllowanceCharge&gt;
+      &lt;ram:SpecifiedTradePaymentTerms&gt;
+        &lt;ram:Description&gt;Zahlbar innerhalb 30 Tagen netto bis 04.07.2018, 3% Skonto innerhalb 10 Tagen bis 15.06.2018&lt;/ram:Description&gt;
+      &lt;/ram:SpecifiedTradePaymentTerms&gt;
+      &lt;ram:SpecifiedTradeSettlementHeaderMonetarySummation&gt;
+        &lt;ram:LineTotalAmount&gt;180.76&lt;/ram:LineTotalAmount&gt;
+        &lt;ram:ChargeTotalAmount&gt;5.80&lt;/ram:ChargeTotalAmount&gt;
+        &lt;ram:AllowanceTotalAmount&gt;9.07&lt;/ram:AllowanceTotalAmount&gt;
+        &lt;ram:TaxBasisTotalAmount&gt;177.49&lt;/ram:TaxBasisTotalAmount&gt;
+		&lt;ram:TaxTotalAmount currencyID=&#34;EUR&#34;&gt;20.16&lt;/ram:TaxTotalAmount&gt;
+        &lt;ram:GrandTotalAmount&gt;197.65&lt;/ram:GrandTotalAmount&gt;
+        &lt;ram:TotalPrepaidAmount&gt;50.00&lt;/ram:TotalPrepaidAmount&gt;
+        &lt;ram:DuePayableAmount&gt;147.65&lt;/ram:DuePayableAmount&gt;
+      &lt;/ram:SpecifiedTradeSettlementHeaderMonetarySummation&gt;
+    &lt;/ram:ApplicableHeaderTradeSettlement&gt;
+  &lt;/rsm:SupplyChainTradeTransaction&gt;
+&lt;/rsm:CrossIndustryInvoice&gt;</code></pre>
+  </div>
+
+    <div class="container">
+  <footer class="section text-dark">
+    <p>
+      <a href="help.html">Help</a> ·
+      <a href="https://gitter.im/aboutcode-org/discuss" target="_blank">Chat</a> ·
+      <a href="https://github.com/nexB/scancode-licensedb" target="_blank">GitHub</a> ·
+      <a href="https://www.aboutcode.org/" target="_blank">AboutCode</a>
+    </p>
+    <p>Designed and built by <a href="https://www.nexb.com/" target="_blank">nexB</a>.
+    Licensed under the <a href="cc-by-4.0.html">Creative Commons Attribution License 4.0 (CC-BY-4.0)</a>.</p>
+    <p>Generated with <a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode toolkit</a>
+    32.4.0 on 2025-07-21.</p>
+    <p>SPDX Licenses list version: 3.27</p>
+    
+  </footer>
+</div>
+    
+  <script>
+    $(document).ready(function() {
+      let url_params = new URLSearchParams(window.location.search);
+      let marks = url_params.getAll('mark');  // ?mark=0-10&mark=30-40
+      $.each(marks, function(index, value) {
+        let [start, end] = value.split("-");
+        $("#license-text").markRanges([{
+          start: start,
+          length: end - start,
+        }]);
+      });
+    });
+  </script>
+
+  </body>
+</html>

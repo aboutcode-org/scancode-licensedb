@@ -2,7 +2,7 @@ key: bigscience-rail-1.0
 short_name: BigScience RAIL License v1.0
 name: BigScience RAIL License v1.0
 category: Proprietary Free
-owner: BigScience
+owner: HuggingFace
 homepage_url: https://huggingface.co/spaces/bigscience/license
 spdx_license_key: LicenseRef-scancode-bigscience-rail-1.0
 text: "BigScience RAIL License v1.0\ndated May 19, 2022\n\nThis is a license (the “License”)\

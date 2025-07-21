@@ -1,0 +1,14 @@
+{
+  "key": "reactos-exception-gpl-2.0",
+  "short_name": "ReactOS Exception to GPL 2.0",
+  "name": "ReactOS Exception to GPL 2.0",
+  "category": "Copyleft Limited",
+  "owner": "ReactOS",
+  "homepage_url": "https://github.com/reactos/reactos/blob/master/COPYING#L342",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-reactos-exception-gpl-2.0",
+  "other_urls": [
+    "https://reactos.org/intellectual-property-guideline/"
+  ],
+  "text": "ReactOS may be used, runtime linked, and distributed with non-free software\n(meaning that such software has no obligations to open-source, or render\nfree, their non-free code) such as commercial device drivers and commercial\napplications. This exception does not alter any other responsibilities of\nthe licensee under the GPL (meaning that such software must still obey\nthe GPL for the free (\"open-sourced\") code that has been integrated into\nthe said software)."
+}

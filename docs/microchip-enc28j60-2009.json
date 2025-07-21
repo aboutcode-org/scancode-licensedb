@@ -1,0 +1,10 @@
+{
+  "key": "microchip-enc28j60-2009",
+  "short_name": "Microchip ENC28J60 License 2009",
+  "name": "Microchip ENC28J60 License 2009",
+  "category": "Proprietary Free",
+  "owner": "Microchip",
+  "homepage_url": "https://github.com/mentatpsi/Microchip/blob/master/Microchip/TCPIP%20Stack/ENC28J60.c#L23",
+  "spdx_license_key": "LicenseRef-scancode-microchip-enc28j60-2009",
+  "text": "Software License Agreement\n\nMicrochip licenses to you the right to use, modify, copy, and\ndistribute:\n(i)  the Software when embedded on a Microchip microcontroller or\n     digital signal controller product (\"Device\") which is\n     integrated into Licensee's product; or\n(ii) ONLY the Software driver source files ENC28J60.c, ENC28J60.h,\n\t\tENCX24J600.c and ENCX24J600.h ported to a non-Microchip device\n\t\tused in conjunction with a Microchip ethernet controller for\n\t\tthe sole purpose of interfacing with the ethernet controller.\n\nYou should refer to the license agreement accompanying this\nSoftware for additional information regarding your rights and\nobligations.\n\nTHE SOFTWARE AND DOCUMENTATION ARE PROVIDED \"AS IS\" WITHOUT\nWARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT\nLIMITATION, ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A\nPARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL\nMICROCHIP BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT OR\nCONSEQUENTIAL DAMAGES, LOST PROFITS OR LOST DATA, COST OF\nPROCUREMENT OF SUBSTITUTE GOODS, TECHNOLOGY OR SERVICES, ANY CLAIMS\nBY THIRD PARTIES (INCLUDING BUT NOT LIMITED TO ANY DEFENSE\nTHEREOF), ANY CLAIMS FOR INDEMNITY OR CONTRIBUTION, OR OTHER\nSIMILAR COSTS, WHETHER ASSERTED ON THE BASIS OF CONTRACT, TORT\n(INCLUDING NEGLIGENCE), BREACH OF WARRANTY, OR OTHERWISE."
+}

@@ -1,0 +1,19 @@
+{
+  "key": "semaphore-ee-2025",
+  "short_name": "Semaphore EE License 2025",
+  "name": "Semaphore Enterprise Edition (EE) License 2025",
+  "category": "Proprietary Free",
+  "owner": "Semaphore",
+  "homepage_url": "https://github.com/semaphoreio/semaphore/blob/main/ee/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-semaphore-ee-2025",
+  "other_urls": [
+    "https://semaphoreci.com/tos"
+  ],
+  "ignorable_authors": [
+    "agreement with Semaphore Technologies"
+  ],
+  "ignorable_urls": [
+    "https://semaphoreci.com/tos"
+  ],
+  "text": "The Semaphore Enterprise Edition (EE) license (the \"EE License\")\n\nWith regard to the Semaphore Software:\n\nThis software and associated documentation files (the \"Software\") may only be\nused if you (and any entity that you represent) have:\n(1) agreed to, and are in compliance with, the Semaphore Terms of Service, available\nat https://semaphoreci.com/tos (the \"Terms\"), or other written\nagreement with Semaphore Technologies doo governing the use of the Software, and\n(2) have a valid Semaphore Enterprise Edition license for self-hosted deployments.\n\nSubject to the foregoing conditions, you are free to modify this Software and publish\npatches to the Software. You agree that Semaphore Technologies doo and/or its licensors\n(as applicable) retain all right, title and interest in and to all such\nmodifications and/or patches, and all such modifications and/or patches may only\nbe used, copied, modified, displayed, distributed, or otherwise exploited with a\nvalid subscription or license as described above. Notwithstanding the foregoing,\nyou may copy and modify the Software for development and testing purposes, without\nrequiring a subscription or license. You agree that Semaphore Technologies doo and/or its\nlicensors (as applicable) retain all right, title and interest in and to all such\nmodifications. You are not granted any other rights beyond what is expressly\nstated herein. Subject to the foregoing, it is forbidden to copy, merge, publish,\ndistribute, sublicense, and/or sell the Software.\n\nThis EE License applies only to the part of this Software that is not\ndistributed as part of Semaphore Community Edition (CE). Any part of this Software\ndistributed as part of Semaphore CE is copyrighted under the Apache License,\nVersion 2.0. The full text of this EE License shall be included in all copies or\nsubstantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nFor all third party components incorporated into the Semaphore Software, those\ncomponents are licensed under the original license provided by the owner of the\napplicable component."
+}

@@ -1,0 +1,15 @@
+{
+  "key": "libticables2-exception-gpl-2.0",
+  "short_name": "libticables2 exception to GPL 2.0",
+  "name": "libticables2 exception to GPL 2.0",
+  "category": "Copyleft Limited",
+  "owner": "Lionel Debroux",
+  "homepage_url": "https://github.com/debrouxl/tilibs/blob/master/libticables/trunk/COPYING",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-libticables2-exception-gpl-2.0",
+  "ignorable_urls": [
+    "http://lpg.ticalc.org/prj_tilem",
+    "http://www.komkon.org/~dekogel/misc.html"
+  ],
+  "text": "As a special exception, the authors give permission to link the code of the \nlibticables2 library with TilEm (http://lpg.ticalc.org/prj_tilem) and the \ncode derived from Marcel De Kogel's z80em \n(http://www.komkon.org/~dekogel/misc.html) it includes, and distribute linked \ncombinations including the two. You must obey the GNU General Public License \nin all respects for all of the code used other than the z80em-derived code in \nTilEm. If you modify this library, you may extend this exception to your \nversion of the library, but you are not obligated to do so. If you do not \nwish to do so, delete this exception statement from your version.\n\nThis exception does NOT apply to the dhahelper.sys and rwports.sys drivers."
+}

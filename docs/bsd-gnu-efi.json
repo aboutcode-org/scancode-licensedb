@@ -1,0 +1,14 @@
+{
+  "key": "bsd-gnu-efi",
+  "short_name": "BSD GNU EFI License 2000",
+  "name": "BSD GNU EFI License 2000",
+  "category": "Permissive",
+  "owner": "Intel Corporation",
+  "homepage_url": "https://github.com/ncroxon/gnu-efi/blob/master/licenses/LICENSE.efilib",
+  "spdx_license_key": "LicenseRef-scancode-bsd-gnu-efi",
+  "other_urls": [
+    "http://developer.intel.com/technology/efi"
+  ],
+  "standard_notice": "The files in the \"lib\" and \"inc\" subdirectories are using the EFI\nApplication\nToolkit distributed by Intel at http://developer.intel.com/technology/efi\nThis code is covered by the following agreement:\nCopyright (c) 1998-2000 Intel Corporation\n",
+  "text": "Redistribution and use in source and binary forms, with or without modification, are permitted\nprovided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and\nthe following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions\nand the following disclaimer in the documentation and/or other materials provided with the\ndistribution.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL INTEL BE\nLIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\nCONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF\nSUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\nINTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\nCONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\nARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\nPOSSIBILITY OF SUCH DAMAGE. THE EFI SPECIFICATION AND ALL OTHER INFORMATION\nON THIS WEB SITE ARE PROVIDED \"AS IS\" WITH NO WARRANTIES, AND ARE SUBJECT\nTO CHANGE WITHOUT NOTICE."
+}

@@ -1,0 +1,138 @@
+key: quadratic-sal-2024
+short_name: Quadratic Source Available License 2024
+name: Quadratic Source Available License 2024
+category: Source-available
+owner: Quadratic
+homepage_url: https://github.com/quadratichq/quadratic/blob/qa/LICENSE
+spdx_license_key: LicenseRef-scancode-quadratic-sal-2024
+faq_url: https://docs.quadratichq.com/company/quadratic-is-source-available
+text: "Quadratic Source Available License \n==================================\n\nTHIS SUMMARY\
+  \ PROVIDES AN OVERVIEW OF THE KEY TERMS OF THIS LICENSE, BUT YOU\nACKNOWLEDGE AND AGREE THE\
+  \ ACTUAL AGREEMENT IS SET FORTH IN THE TERMS IN SECTIONS\nBELOW.\n\nSummary \n-------\n\n\
+  You are free to do the following: \n- Read and reference the source code. \n- Install and\
+  \ use the Software and Derivatives for Your Personal Use. \n- Make Derivatives of the Software\
+  \ under your authorized Personal Use. \n- Submit Derivatives as contributions to Licensor.\n\
+  \nYou may not: \n- Distribute the Software or any Derivatives. \n- Deploy and use the Software\
+  \ inside of your business without a commercial license. \n- Resell or provide the software\
+  \ to any third parties. \n- Share the software or derivatives with any third parties.\n\n\
+  No warranties are given and Licensor shall have no liability to you related to\nyour use of\
+  \ the Software.\n\n1. Acceptance \n-------------\n\nThis Software License Agreement (this\
+  \ “License”) is entered into on the\nEffective Date (defined below) by and between Quadratic\
+  \ Growth, Inc.\n(“Licensor”), and You (defined below).  \n\nBy downloading or otherwise accessing\
+  \ or using the Software, You acknowledge and\nagree to be bound by the terms of this License.\
+  \  The parties agree as follows. \n\n2. DEFINITIONS \n--------------\n\n“Derivatives” means\
+  \ material created by You that is derived from or based upon\nthe Software and in which the\
+  \ Software is added to or modified in a manner that\nwould otherwise require permission by\
+  \ the Licensor. \n\n“Effective Date” means the date that You download or otherwise obtain\
+  \ a copy of\nthe Software from the Licensor.\n\n“Software” means the source and object code\
+  \ of Licensor’s Quadratic Software and\nany other related materials that are made available\
+  \ to You by Licensor under\nthis License.\n\n“Personal Use” means your individual use of the\
+  \ Software to learn about the\nfunctioning of the Software from the code, use the Software\
+  \ to familiarize\nyourself with its features and functionalities, review the quality of the\
+  \ code,\nperform a security review, create improvements for submission as a pull request\n\
+  related to one or more of the uses above, or other similar uses.\n\n“You” means the individual\
+  \ or entity entering into this License. “Your” has a\ncorresponding meaning.\n\n3.  SCOPE\
+  \ \n---------\n\n3.1  License grant. Subject to the terms and conditions of this License,\
+  \ the\nLicensor hereby grants You a limited, worldwide, royalty-free,\nnon-sublicensable,\
+  \ non-transferrable, and non-exclusive license during the Term\nto (a) create Derivatives\
+  \ of the Software, in whole or in part, for Your\nPersonal Use; (b) use one installed instance\
+  \ of the Software and any Derivatives\nsolely for Your Personal Use; and (c) reproduce one\
+  \ copy of the Software and any\nDerivatives solely for Your backup purposes.\n\n3.2  Restrictions.\
+  \  For the avoidance of doubt, the license granted herein does\nnot include any right or permission\
+  \ to: (a) distribute the Software or\nDerivatives; (b) share the Software or Derivatives with\
+  \ any third party; (c)\noffer the Software or Derivatives to the public or as part of a service\
+  \ bureau;\n(d) allow any third party to access or use the Software or Derivatives; (e)\noperate\
+  \ the Software or Derivatives in any collaborative, team, or multi-user\nenvironment; (f)\
+  \ host the Software or Derivatives on behalf of any third-party;\nand (g) disclose or publish\
+  \ all or any portion of the Software or Derivatives.\n\n3.3  No endorsement. Nothing in this\
+  \ License constitutes or may be construed as\npermission to assert or imply that You are,\
+  \ or that Your use of the Software is,\nconnected with, or sponsored, endorsed, or granted\
+  \ official status by, the\nLicensor.\n\n3.4  No right to updates.  The license granted herein\
+  \ does not include any right\nto receive any improvements, updates, fixes, or new versions\
+  \ and Licensors\nreserves the right to offer such to You in its sole discretion.\n\n3.5 Submitting\
+  \ Contributions to Licensor.  You may contribute Your Derivatives\nto Licensor’s GitHub repository,\
+  \ and you agree that if you make such\ncontributions, they will be governed by  the terms\
+  \ of Licensor’s then-current\ncontributor license agreement.  \n\n4.  INTELLECTUAL PROPERTY\
+  \ \n-------------------------\n\n4.1  Limited License. The Software is licensed, not sold.\
+  \ Licensor and its\nsuppliers exclusively own and retain all rights, title, and interest in\
+  \ and to\nthe Software, including all intellectual property rights therein.\nNotwithstanding\
+  \ anything to the contrary in this License, no license or right is\ngranted in this License\
+  \ except as specifically and expressly stated herein. \n\n4.2  Open Source Software. Certain\
+  \ items of independent, third-party code may be\nincluded in the Software that are subject\
+  \ to open source licenses (“Open Source\nSoftware”). Nothing in this License limits You’s\
+  \ rights under, or grants You\nrights that supersede, the terms and conditions of any applicable\
+  \ end user\nlicense for such Open Source Software. \n\n4.3  Feedback. If You provide any feedback,\
+  \ comments, or ideas to Licensor\nregarding the Software or improvements thereto (“Feedback”),\
+  \ You hereby grant\nLicensor a royalty-free, worldwide, transferable, sub-licensable, irrevocable,\n\
+  perpetual license to use or incorporate the Feedback into the Software.\n\n5.  DISCLAIMER\
+  \ OF WARRANTIES AND LIMITATION OF LIABILITY\n--------------------------------------------------------\n\
+  \n5.1  DISCLAIMER. TO THE EXTENT ALLOWED UNDER APPLICABLE LAW, THE LICENSOR\nPROVIDES THE\
+  \ SOFTWARE AS-IS AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR\nWARRANTIES OF ANY KIND\
+  \ CONCERNING THE SOFTWARE WHETHER EXPRESS, IMPLIED,\nSTATUTORY, OR OTHER. THIS INCLUDES, WITHOUT\
+  \ LIMITATION, WARRANTIES OF TITLE,\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT,\
+  \ ABSENCE OF\nLATENT OR OTHER DEFECTS, ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER\n\
+  OR NOT KNOWN OR DISCOVERABLE. \n\n5.2  LIMITATION OF LIABILITY. TO THE GREATEST EXTENT ALLOWED\
+  \ BY LAW, IN NO EVENT\nWILL THE LICENSOR BE LIABLE TO YOU UNDER ANY LEGAL THEORY (INCLUDING,\
+  \ WITHOUT\nLIMITATION, NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,\nINCIDENTAL,\
+  \ CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES, COSTS,\nEXPENSES, OR DAMAGES ARISING\
+  \ OUT OF THIS LICENSE OR USE OF THE SOFTWARE, EVEN IF\nTHE LICENSOR HAS BEEN ADVISED OF THE\
+  \ POSSIBILITY OF SUCH LOSSES, COSTS,\nEXPENSES, OR DAMAGES. \n\n5.3  Effect. The disclaimer\
+  \ of warranties and limitation of liability provided\nabove shall be interpreted in a manner\
+  \ that, to the extent possible, most\nclosely approximates an absolute disclaimer and waiver\
+  \ of all liability. \n\n6.  TERM AND TERMINATION \n------------------------\n\n6.1  Term.\
+  \ This License shall commence on the Effective Date and continue for\ntwo years or until otherwise\
+  \ terminated as provided in this section (the\n“Term”).\n\n6.2  Termination for Cause.  If\
+  \ You fail to comply with this License, then Your\nrights under this License terminate automatically.\
+  \  \n\n6.3  Reinstatement.  Where Your right to use the Software has terminated under\nSection\
+  \ 6.2, the license reinstates: (a) automatically as of the date the\nviolation is cured, provided\
+  \ it is cured within thirty (30) days of Your\ndiscovery of the violation: or (b) upon express\
+  \ reinstatement by the Licensor.\n\n6.4  Termination by Licensor.  Licensor may terminate\
+  \ this License at any time\nfor any reason by providing you written notice. \n\n6.5  Termination\
+  \ by You.  You may terminate this License by ceasing to use the\nSoftware and Derivatives\
+  \ and removing and permanently deleting any copies of the\nSoftware and Derivatives entirely\
+  \ from Your system.  \n\n6.6  Clarifications. For the avoidance of doubt, (a) the Licensor\
+  \ may also offer\nthe Software under separate terms or conditions or stop distributing the\n\
+  Software at any time; however, doing so will not terminate this License, and (b)\nthis Section\
+  \ 6 does not affect any right the Licensor may have to seek remedies\nfor Your violations\
+  \ of this License. \n\n6.7 Sections 2, 3.5, 4, 5, 6.7, and 7 survive termination of this License.\n\
+  \n7.  MISCELLANEOUS \n-----------------\n\n7.1  Assignment. You may not assign or transfer,\
+  \ by operation of law or\notherwise, this License or any of its rights under this License\
+  \ to any third\nparty without Licensor’s prior written consent, such consent shall not be\n\
+  unreasonably withheld or delayed.  The terms of this License will be binding\nupon the parties\
+  \ and their respective successors and permitted assigns. \n\n7.2  Notices. To be effective,\
+  \ notices, consents, and approvals under this\nLicense must be delivered in writing by electronic\
+  \ mail, courier, or certified\nor registered mail, (postage prepaid and return receipt requested)\
+  \ to the other\nparty at the address for each party and will be effective upon receipt, except\n\
+  that electronic mail may be used to distribute routine communications and to\nobtain approvals\
+  \ and consents but may not be used for any other notices. Each\nparty may change its email\
+  \ address and/or address for receipt of notice by\ngiving notice of such change to the other\
+  \ party. \n\n7.3  Governing Law. This License will be governed by and interpreted in\naccordance\
+  \ with the laws of the State of Colorado without reference to its\nchoice of law rules. If\
+  \ for any reason a dispute is of a nature that cannot be\nresolved through the arbitration\
+  \ provision provided herein, the parties hereby\nsubmit to the exclusive jurisdiction of,\
+  \ and waive any venue objections against,\nstate or federal courts sitting in Denver, Colorado\
+  \ in any litigation arising\nout of this License or the Services. The United Nations Convention\
+  \ on Contracts\nfor the International Sale of Goods does not apply to this License. \n\n7.4\
+  \ Remedies. Except as otherwise expressly provided in this License, the\nparties’ rights and\
+  \ remedies under this License are cumulative. Each party\nacknowledges and agrees that any\
+  \ actual or threatened breach of Sections 3.1, or\n3.2 will constitute immediate, irreparable\
+  \ harm to the non-breaching party for\nwhich monetary damages would be an inadequate remedy,\
+  \ that injunctive relief is\nan appropriate remedy for such breach, and that if granted, the\
+  \ breaching party\nagrees to waive any bond that would otherwise be required. If any legal\
+  \ action\nis brought by a party to enforce this License, the prevailing party will be\nentitled\
+  \ to receive its attorneys’ fees, court costs, and other legal expenses,\nin addition to any\
+  \ other relief it may receive from the non-prevailing party.\n\n7.5  Compliance with Laws.\
+  \ Each party shall comply with those laws, rules, and\nregulations in jurisdictions within\
+  \ the United States that are specifically\napplicable to the applicable party. \n\n7.6  Waivers.\
+  \ To be effective, any waivers must be in writing and signed by the\nparty to be charged.\
+  \ Any waiver or failure to enforce any provision of this\nLicense on one occasion will not\
+  \ be deemed a waiver of any other provision or of\nsuch provision on any other occasion.\n\
+  \n7.7  Severability. If any provision of this License is, for any reason, held to\nbe unenforceable,\
+  \ the other provisions of this License will be unimpaired, and\nthe invalid or unenforceable\
+  \ provision will be deemed modified so that it is\nvalid and enforceable to the maximum extent\
+  \ permitted by law (unless such\nmodification is not permitted by law, in which case such\
+  \ provision will be\ndisregarded).\n\n7.8  Entire License. This License constitutes the final\
+  \ and entire agreement\nbetween the parties regarding the subject hereof and supersedes all\
+  \ other\nagreements, whether written or oral, between the parties concerning such subject\n\
+  matter. No amendment to this License will be effective unless in writing and\nsigned by the\
+  \ party to be charged."

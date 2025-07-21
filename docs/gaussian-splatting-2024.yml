@@ -1,0 +1,75 @@
+key: gaussian-splatting-2024
+short_name: Gaussian-Splatting License 2024
+name: Gaussian-Splatting License 2024
+category: Proprietary Free
+owner: INRIA
+homepage_url: https://github.com/graphdeco-inria/gaussian-splatting/blob/main/LICENSE.md?plain=1
+spdx_license_key: LicenseRef-scancode-gaussian-splatting-2024
+text_urls:
+  - https://github.com/graphdeco-inria/gaussian-splatting/blob/main/LICENSE.md
+other_urls:
+  - https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/
+  - https://www.google.com/search?q=%22Gaussian-Splatting
+  - https://github.com/search?q=%22Gaussian-Splatting+License%22&type=code
+ignorable_copyrights:
+  - Copyright Evan Su, 2017
+ignorable_holders:
+  - Evan Su
+ignorable_urls:
+  - https://github.com/Po-Hsun-Su/pytorch-ssim
+  - https://github.com/Po-Hsun-Su/pytorch-ssim/blob/master/LICENSE.txt
+ignorable_emails:
+  - stip-sophia.transfert@inria.fr
+text: "Gaussian-Splatting License  \n===========================  \n\n**Inria** and **the Max\
+  \ Planck Institut for Informatik (MPII)** hold all the ownership rights on the *Software*\
+  \ named **gaussian-splatting**.  \nThe *Software* is in the process of being registered with\
+  \ the Agence pour la Protection des  \nProgrammes (APP).  \n\nThe *Software* is still being\
+  \ developed by the *Licensor*.  \n\n*Licensor*'s goal is to allow the research community to\
+  \ use, test and evaluate  \nthe *Software*.  \n\n## 1.  Definitions  \n\n*Licensee* means\
+  \ any person or entity that uses the *Software* and distributes  \nits *Work*.  \n\n*Licensor*\
+  \ means the owners of the *Software*, i.e Inria and MPII  \n\n*Software* means the original\
+  \ work of authorship made available under this  \nLicense ie gaussian-splatting.  \n\n*Work*\
+  \ means the *Software* and any additions to or derivative works of the  \n*Software* that\
+  \ are made available under this License.  \n\n\n## 2.  Purpose  \nThis license is intended\
+  \ to define the rights granted to the *Licensee* by  \nLicensors under the *Software*.  \n\
+  \n## 3.  Rights granted  \n\nFor the above reasons Licensors have decided to distribute the\
+  \ *Software*.  \nLicensors grant non-exclusive rights to use the *Software* for research purposes\
+  \  \nto research users (both academic and industrial), free of charge, without right  \nto\
+  \ sublicense.. The *Software* may be used \"non-commercially\", i.e., for research  \nand/or\
+  \ evaluation purposes only.  \n\nSubject to the terms and conditions of this License, you\
+  \ are granted a  \nnon-exclusive, royalty-free, license to reproduce, prepare derivative works\
+  \ of,  \npublicly display, publicly perform and distribute its *Work* and any resulting  \n\
+  derivative works in any form.  \n\n## 4.  Limitations  \n\n**4.1 Redistribution.** You may\
+  \ reproduce or distribute the *Work* only if (a) you do  \nso under this License, (b) you\
+  \ include a complete copy of this License with  \nyour distribution, and (c) you retain without\
+  \ modification any copyright,  \npatent, trademark, or attribution notices that are present\
+  \ in the *Work*.  \n\n**4.2 Derivative Works.** You may specify that additional or different\
+  \ terms apply  \nto the use, reproduction, and distribution of your derivative works of the\
+  \ *Work*  \n(\"Your Terms\") only if (a) Your Terms provide that the use limitation in  \n\
+  Section 2 applies to your derivative works, and (b) you identify the specific  \nderivative\
+  \ works that are subject to Your Terms. Notwithstanding Your Terms,  \nthis License (including\
+  \ the redistribution requirements in Section 3.1) will  \ncontinue to apply to the *Work*\
+  \ itself.  \n\n**4.3** Any other use without of prior consent of Licensors is prohibited.\
+  \ Research  \nusers explicitly acknowledge having received from Licensors all information\
+  \  \nallowing to appreciate the adequacy between of the *Software* and their needs and  \n\
+  to undertake all necessary precautions for its execution and use.  \n\n**4.4** The *Software*\
+  \ is provided both as a compiled library file and as source  \ncode. In case of using the\
+  \ *Software* for a publication or other results obtained  \nthrough the use of the *Software*,\
+  \ users are strongly encouraged to cite the  \ncorresponding publications as explained in\
+  \ the documentation of the *Software*.  \n\n## 5.  Disclaimer  \n\nTHE USER CANNOT USE, EXPLOIT\
+  \ OR DISTRIBUTE THE *SOFTWARE* FOR COMMERCIAL PURPOSES  \nWITHOUT PRIOR AND EXPLICIT CONSENT\
+  \ OF LICENSORS. YOU MUST CONTACT INRIA FOR ANY  \nUNAUTHORIZED USE: stip-sophia.transfert@inria.fr\
+  \ . ANY SUCH ACTION WILL  \nCONSTITUTE A FORGERY. THIS *SOFTWARE* IS PROVIDED \"AS IS\" WITHOUT\
+  \ ANY WARRANTIES  \nOF ANY NATURE AND ANY EXPRESS OR IMPLIED WARRANTIES, WITH REGARDS TO COMMERCIAL\
+  \  \nUSE, PROFESSIONNAL USE, LEGAL OR NOT, OR OTHER, OR COMMERCIALISATION OR  \nADAPTATION.\
+  \ UNLESS EXPLICITLY PROVIDED BY LAW, IN NO EVENT, SHALL INRIA OR THE  \nAUTHOR BE LIABLE FOR\
+  \ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR  \nCONSEQUENTIAL DAMAGES (INCLUDING,\
+  \ BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE  \nGOODS OR SERVICES, LOSS OF USE, DATA, OR\
+  \ PROFITS OR BUSINESS INTERRUPTION)  \nHOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER\
+  \ IN CONTRACT, STRICT  \nLIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING FROM,\
+  \ OUT OF OR  \nIN CONNECTION WITH THE *SOFTWARE* OR THE USE OR OTHER DEALINGS IN THE *SOFTWARE*.\
+  \  \n\n## 6.  Files subject to permissive licenses\nThe contents of the file ```utils/loss_utils.py```\
+  \ are based on publicly available code authored by Evan Su, which falls under the permissive\
+  \ MIT license. \n\nTitle: pytorch-ssim\\\nProject code: https://github.com/Po-Hsun-Su/pytorch-ssim\\\
+  \nCopyright Evan Su, 2017\\\nLicense: https://github.com/Po-Hsun-Su/pytorch-ssim/blob/master/LICENSE.txt\
+  \ (MIT)"
