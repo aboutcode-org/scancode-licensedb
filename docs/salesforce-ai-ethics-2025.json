@@ -1,0 +1,19 @@
+{
+  "key": "salesforce-ai-ethics-2025",
+  "short_name": "Salesforce AI Ethics Disclaimer 2025",
+  "name": "Salesforce AI Ethics Disclaimer 2025",
+  "category": "Proprietary Free",
+  "owner": "Salesforce.com",
+  "homepage_url": "https://github.com/salesforce/CodeGen/blob/533a6cc52b4dbd46286cfb12f492390f379ed8a1/AI_ETHICS.md",
+  "spdx_license_key": "LicenseRef-scancode-salesforce-ai-ethics-2025",
+  "other_urls": [
+    "https://github.com/search?q=org%3Asalesforce+Ethics+disclaimer+for+Salesforce+AI+models%2C+data%2C+code&type=code ",
+    "https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ExternalFacing_Services_Policy.pdf",
+    "https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+  ],
+  "ignorable_urls": [
+    "https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ExternalFacing_Services_Policy.pdf",
+    "https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
+  ],
+  "text": "Ethics disclaimer for Salesforce AI models, data, code\n\nThis release is for research purposes only in support of an academic\npaper. Our models, datasets, and code are not specifically designed or\nevaluated for all downstream purposes. We strongly recommend users\nevaluate and address potential concerns related to accuracy, safety, and\nfairness before deploying this model. We encourage users to consider the\ncommon limitations of AI, comply with applicable laws, and leverage best\npractices when selecting use cases, particularly for high-risk scenarios\nwhere errors or misuse could significantly impact people\u2019s lives, rights,\nor safety. For further guidance on use cases, refer to our standard\n[AUP](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ExternalFacing_Services_Policy.pdf)\nand [AI AUP](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf)."
+}

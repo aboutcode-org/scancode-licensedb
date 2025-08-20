@@ -5,8 +5,7 @@
   "category": "Copyleft Limited",
   "owner": "Mozilla",
   "homepage_url": "http://www.mozilla.org/MPL/2.0/",
-  "notes": "Per SPDX.org, this license was released in January 2012. This license list\nentry is for use when the MPL's Exhibit B, which removes the Sec 3.3\ncopyleft exception.\n",
-  "is_exception": true,
+  "notes": "Per SPDX.org, this license was released in January 2012. This license list\nentry is for use when the MPL's Exhibit B, which removes the Sec 3.3\ncopyleft exception. This is actually an alternative version of the\nMPL 2.0 license and not an exception.\n",
   "spdx_license_key": "MPL-2.0-no-copyleft-exception",
   "osi_url": "http://opensource.org/licenses/MPL-2.0",
   "other_urls": [
