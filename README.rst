@@ -29,8 +29,7 @@ used by at least one publicly available software project. Ideally, the license:
 
 - has a License Name
 - has a Version or Published Date
-- has a a web page dedicated to the license, but may also be in a source file that
-contains the license text
+- has a a web page dedicated to the license, or is contained in a source file
 - has a custodian
 
 
