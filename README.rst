@@ -25,7 +25,12 @@ License Inclusion Principles
 ----------------------------
 
 A license entry in the LicenseDB has a publicly available standard text and is actually
-used by at least one publicly available software project. Ideally, the license:
+used by at least one publicly available software project. Those are the basic
+requirements for inclusion.
+
+License clarity and quality vary greatly in actual software projects, but all software
+licenses need to be identified. When good license stewardship practices are followed,
+a well-defined license:
 
 - has a License Name
 - has a Version or Published Date
