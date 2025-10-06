@@ -21,6 +21,22 @@ LicenseDB is available as a web site, an JSON or YAML API and a git repository
 making it easy to reuse and integrate in tools that need a database of reference
 software licenses.
 
+License Inclusion Principles
+----------------------------
+
+A license entry in the LicenseDB has a publicly available standard text and is actually
+used by at least one publicly available software project. Those are the basic
+requirements for inclusion.
+
+License clarity and quality vary greatly in actual software projects, but all software
+licenses need to be identified. When good license stewardship practices are followed,
+a well-defined license:
+
+- has a License Name
+- has a Version or Published Date
+- has a a web page dedicated to the license, or is contained in a source file
+- has a custodian
+
 
 Browse
 ------
