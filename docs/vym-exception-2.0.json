@@ -1,0 +1,18 @@
+{
+  "key": "vym-exception-2.0",
+  "short_name": "VYM Exception to GPL 2.0",
+  "name": "VYM Exception to GPL 2.0",
+  "category": "Copyleft Limited",
+  "owner": "Uwe Drechsel",
+  "homepage_url": "https://github.com/insilmaril/vym/blob/develop/LICENSE.txt",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-vym-exception-2.0",
+  "text_urls": [
+    "https://raw.githubusercontent.com/insilmaril/vym/refs/heads/develop/LICENSE.txt"
+  ],
+  "standard_notice": "This program is free software; you can redistribute it and/or modify\nit under the terms of the GNU General Public License version 2 as published\nby\nthe Free Software Foundation.\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\nGNU General Public License below for more details.\n",
+  "ignorable_emails": [
+    "vym@insilmaril.de"
+  ],
+  "text": "VYM - View Your Mind\n\nIn addition, as a special exception, Uwe Drechsel\ngives permission to link the code of this program with the QT\nlibraries from trolltech.com (or with modified versions of QT that\nuse the same license as QT), and distribute linked combinations\nincluding the two. You must obey the GNU General Public License in\nall respects for all of the code used other than QT. If you modify\nthis file, you may extend this exception to your version of the\nfile, but you are not obligated to do so. If you do not wish to do\nso, delete this exception statement from your version.\n\nUwe Drechsel can be contacted at <vym@insilmaril.de>"
+}

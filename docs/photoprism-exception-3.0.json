@@ -1,0 +1,17 @@
+{
+  "key": "photoprism-exception-3.0",
+  "short_name": "PhotoPrism Exception to AGPL-3.0",
+  "name": "PhotoPrism Exception to AGPL-3.0",
+  "category": "Copyleft",
+  "owner": "PhotoPrism",
+  "homepage_url": "https://github.com/photoprism/photoprism/blob/cc0661eff67d9efd340bd479bc5c93628699988a/LICENSE#L623-L644",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-photoprism-exception-3.0",
+  "other_urls": [
+    "https://isitreallyfoss.com/projects/photoprism/"
+  ],
+  "ignorable_urls": [
+    "https://www.photoprism.app/trademark"
+  ],
+  "text": "ADDITIONAL TERMS\n\n18. PhotoPrism\u00ae Trademark and Brand Assets\n\n  (a) PhotoPrism\u2019s Brand Assets \u2014 including trademarks, logos, icons, fonts,\ncorporate design, product and service names, and any other brand features\nand elements, whether registered or unregistered (\u201eBrand Assets\u201c) \u2014 are\nproprietary assets owned exclusively by PhotoPrism UG (\u201ePhotoPrism\u201c). We\nreserve the right to object to any use or misuse in any jurisdiction\nworldwide. Visit <https://www.photoprism.app/trademark> to learn more.\n\n  (b) Contributors, licensees, business partners, and other third parties\nmay never claim ownership of PhotoPrism's Brand Assets or brands confusingly\nsimilar to PhotoPrism's Brand Assets in any way, including, without\nlimitation, as a trademark, service mark, company name or designation,\ndomain name, social media profile/handle, or in any other manner.\n\n  (c) You may not include the PhotoPrism trademark in the name of your app,\nproduct, or service, whether commercial or non-commercial in nature. This\nincludes online services such as e-commerce, community, blog, information,\nadvertising, and personal home pages, as well as apps, app stores, client\napps, or third-party apps that interact with PhotoPrism.\n\n  (d) In the event that any provision is found to be unenforceable by a court\nor other competent jurisdiction, the remaining portions hereof shall remain\nin full force and effect."
+}

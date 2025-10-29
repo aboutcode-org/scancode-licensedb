@@ -531,6 +531,16 @@
   yaml: aes-128-3.0.yml
   html: aes-128-3.0.html
   license: aes-128-3.0.LICENSE
+- license_key: affine-ee-2023
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-affine-ee-2023
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: affine-ee-2023.json
+  yaml: affine-ee-2023.yml
+  html: affine-ee-2023.html
+  license: affine-ee-2023.LICENSE
 - license_key: afl-1.1
   category: Permissive
   spdx_license_key: AFL-1.1
@@ -1725,6 +1735,16 @@
   yaml: atkinson-hyperlegible-font.yml
   html: atkinson-hyperlegible-font.html
   license: atkinson-hyperlegible-font.LICENSE
+- license_key: atl-1.0
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-atl-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: atl-1.0.json
+  yaml: atl-1.0.yml
+  html: atl-1.0.html
+  license: atl-1.0.LICENSE
 - license_key: atlassian-marketplace-tou
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-atlassian-marketplace-tou
@@ -2059,6 +2079,16 @@
   yaml: beal-screamer.yml
   html: beal-screamer.html
   license: beal-screamer.LICENSE
+- license_key: bear-blog-2.0
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-bear-blog-2.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: bear-blog-2.0.json
+  yaml: bear-blog-2.0.yml
+  html: bear-blog-2.0.html
+  license: bear-blog-2.0.LICENSE
 - license_key: beegfs-eula-2024
   category: Source-available
   spdx_license_key: LicenseRef-scancode-beegfs-eula-2024
@@ -2160,6 +2190,16 @@
   yaml: bigscience-rail-1.0.yml
   html: bigscience-rail-1.0.html
   license: bigscience-rail-1.0.LICENSE
+- license_key: bilibili-model-ula-2025-09-09
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-bilibili-model-ula-2025-09-09
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: bilibili-model-ula-2025-09-09.json
+  yaml: bilibili-model-ula-2025-09-09.yml
+  html: bilibili-model-ula-2025-09-09.html
+  license: bilibili-model-ula-2025-09-09.LICENSE
 - license_key: binary-linux-firmware
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-binary-linux-firmware
@@ -6142,6 +6182,16 @@
   yaml: dhtmlab-public.yml
   html: dhtmlab-public.html
   license: dhtmlab-public.LICENSE
+- license_key: diffgram-dlv2
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-diffgram-dlv2
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: diffgram-dlv2.json
+  yaml: diffgram-dlv2.yml
+  html: diffgram-dlv2.html
+  license: diffgram-dlv2.LICENSE
 - license_key: diffmark
   category: Public Domain
   spdx_license_key: diffmark
@@ -6444,6 +6494,16 @@
   yaml: dr-john-maddock.yml
   html: dr-john-maddock.html
   license: dr-john-maddock.LICENSE
+- license_key: drakvuf-exception-2.0
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-drakvuf-exception-2.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: drakvuf-exception-2.0.json
+  yaml: drakvuf-exception-2.0.yml
+  html: drakvuf-exception-2.0.html
+  license: drakvuf-exception-2.0.LICENSE
 - license_key: drl-1.0
   category: Permissive
   spdx_license_key: DRL-1.0
@@ -8167,6 +8227,26 @@
   yaml: futo-sfl-1.0.yml
   html: futo-sfl-1.0.html
   license: futo-sfl-1.0.LICENSE
+- license_key: futo-sfl-1.1
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-futo-sfl-1.1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: futo-sfl-1.1.json
+  yaml: futo-sfl-1.1.yml
+  html: futo-sfl-1.1.html
+  license: futo-sfl-1.1.LICENSE
+- license_key: futo-sfl-1.1-kb
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-futo-sfl-1.1-kb
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: futo-sfl-1.1-kb.json
+  yaml: futo-sfl-1.1-kb.yml
+  html: futo-sfl-1.1-kb.html
+  license: futo-sfl-1.1-kb.LICENSE
 - license_key: fwlw
   category: Permissive
   spdx_license_key: fwlw
@@ -13548,6 +13628,16 @@
   yaml: lppl-1.3a.yml
   html: lppl-1.3a.html
   license: lppl-1.3a.LICENSE
+- license_key: lppl-1.3b
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-lppl-1.3b
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: lppl-1.3b.json
+  yaml: lppl-1.3b.yml
+  html: lppl-1.3b.html
+  license: lppl-1.3b.LICENSE
 - license_key: lppl-1.3c
   category: Copyleft
   spdx_license_key: LPPL-1.3c
@@ -17558,6 +17648,26 @@
   yaml: odmg.yml
   html: odmg.html
   license: odmg.LICENSE
+- license_key: odoo-eel-1.0
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-odoo-eel-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: odoo-eel-1.0.json
+  yaml: odoo-eel-1.0.yml
+  html: odoo-eel-1.0.html
+  license: odoo-eel-1.0.LICENSE
+- license_key: odoo-pl-1.0
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-odoo-pl-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: odoo-pl-1.0.json
+  yaml: odoo-pl-1.0.yml
+  html: odoo-pl-1.0.html
+  license: odoo-pl-1.0.LICENSE
 - license_key: offis
   category: Permissive
   spdx_license_key: OFFIS
@@ -17948,6 +18058,16 @@
   yaml: openai-tou-20241211.yml
   html: openai-tou-20241211.html
   license: openai-tou-20241211.LICENSE
+- license_key: openatom-model-1.0
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-openatom-model-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: openatom-model-1.0.json
+  yaml: openatom-model-1.0.yml
+  html: openatom-model-1.0.html
+  license: openatom-model-1.0.LICENSE
 - license_key: openbd-exception-3.0
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-openbd-exception-3.0
@@ -19097,6 +19217,16 @@
   yaml: owfa-1.0.yml
   html: owfa-1.0.html
   license: owfa-1.0.LICENSE
+- license_key: owfa-1.0-2023-05
+  category: Patent License
+  spdx_license_key: LicenseRef-scancode-owfa-1.0-2023-05
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: owfa-1.0-2023-05.json
+  yaml: owfa-1.0-2023-05.yml
+  html: owfa-1.0-2023-05.html
+  license: owfa-1.0-2023-05.LICENSE
 - license_key: owl-0.9.4
   category: Permissive
   spdx_license_key: LicenseRef-scancode-owl-0.9.4
@@ -19521,6 +19651,16 @@
   yaml: phorum-2.0.yml
   html: phorum-2.0.html
   license: phorum-2.0.LICENSE
+- license_key: photoprism-exception-3.0
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-photoprism-exception-3.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: photoprism-exception-3.0.json
+  yaml: photoprism-exception-3.0.yml
+  html: photoprism-exception-3.0.html
+  license: photoprism-exception-3.0.LICENSE
 - license_key: php-2.0.2
   category: Permissive
   spdx_license_key: LicenseRef-scancode-php-2.0.2
@@ -19812,6 +19952,26 @@
   yaml: ppp.yml
   html: ppp.html
   license: ppp.LICENSE
+- license_key: pretalx-exception-3.0
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-pretalx-exception-3.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: pretalx-exception-3.0.json
+  yaml: pretalx-exception-3.0.yml
+  html: pretalx-exception-3.0.html
+  license: pretalx-exception-3.0.LICENSE
+- license_key: pretix-exception-3.0
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-pretix-exception-3.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: pretix-exception-3.0.json
+  yaml: pretix-exception-3.0.yml
+  html: pretix-exception-3.0.html
+  license: pretix-exception-3.0.LICENSE
 - license_key: proconx-modbus-rev4
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-proconx-modbus-rev4
@@ -21405,6 +21565,16 @@
   yaml: scrub.yml
   html: scrub.html
   license: scrub.LICENSE
+- license_key: scsl-2.8
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-scsl-2.8
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: scsl-2.8.json
+  yaml: scsl-2.8.yml
+  html: scsl-2.8.html
+  license: scsl-2.8.LICENSE
 - license_key: scsl-3.0
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-scsl-3.0
@@ -22372,6 +22542,16 @@
   yaml: stanford-pvrg.yml
   html: stanford-pvrg.html
   license: stanford-pvrg.LICENSE
+- license_key: statamic-2022
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-statamic-2022
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: statamic-2022.json
+  yaml: statamic-2022.yml
+  html: statamic-2022.html
+  license: statamic-2022.LICENSE
 - license_key: statewizard
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-statewizard
@@ -24851,6 +25031,16 @@
   yaml: vvvvvv-scl-1.0.yml
   html: vvvvvv-scl-1.0.html
   license: vvvvvv-scl-1.0.LICENSE
+- license_key: vym-exception-2.0
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-vym-exception-2.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: vym-exception-2.0.json
+  yaml: vym-exception-2.0.yml
+  html: vym-exception-2.0.html
+  license: vym-exception-2.0.LICENSE
 - license_key: w3c
   category: Permissive
   spdx_license_key: W3C
