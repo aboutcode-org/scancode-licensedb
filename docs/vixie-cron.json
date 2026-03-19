@@ -4,9 +4,12 @@
   "name": "Vixie Cron License",
   "category": "Permissive",
   "owner": "Unspecified",
-  "spdx_license_key": "LicenseRef-scancode-vixie-cron",
-  "ignorable_emails": [
-    "paul@vix.com"
+  "spdx_license_key": "Vixie-Cron",
+  "other_spdx_license_keys": [
+    "LicenseRef-scancode-vixie-cron"
   ],
-  "text": "Distribute freely, except: don't remove my name from the source or documentation\n(don't take credit for my work), mark your changes (don't get me blamed for your\npossible bugs), don't alter or remove this notice. May be sold if buildable\nsource is provided to buyer. No warrantee of any kind, express or implied, is\nincluded with this software; use at your own risk, responsibility for damages\n(if any) to anyone resulting from the use of this software rests entirely with\nthe user.\n\nSend bug reports, bug fixes, enhancements, requests, flames, etc., and I'll try\nto keep a version up to date. I can be reached as follows: \n\nPaul Vixie\n<paul@vix.com>\nuunet!decwrl!vixie!paul\n\nVixie Cron V3.0 December 27, 1993"
+  "other_urls": [
+    "https://github.com/vixie/cron/tree/545b3f5246824a9cda5905eeb7cf019c95e66995"
+  ],
+  "text": "Distribute freely, except: don't remove my name from the source or documentation (don't take credit for my work), mark your changes (don't get me blamed for your possible bugs), don't alter or remove this notice. May be sold if buildable source is provided to buyer. No warrantee of any kind, express or implied, is included with this software; use at your own risk, responsibility for damages (if any) to anyone resulting from the use of this software rests entirely with the user."
 }

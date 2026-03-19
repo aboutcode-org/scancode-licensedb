@@ -1,0 +1,15 @@
+{
+  "key": "ossp",
+  "short_name": "OSSP License",
+  "name": "OSSP License",
+  "category": "Permissive",
+  "owner": "The OSSP Project",
+  "spdx_license_key": "OSSP",
+  "other_urls": [
+    "https://git.sr.ht/~nabijaczleweli/ossp-var"
+  ],
+  "ignorable_urls": [
+    "http://www.ossp.org/pkg/lib/var"
+  ],
+  "text": "This file is part of OSSP var, a variable expansion\nlibrary which can be found at http://www.ossp.org/pkg/lib/var/.\n\nPermission to use, copy, modify, and distribute this software for\nany purpose with or without fee is hereby granted, provided that\nthe above copyright notice and this permission notice appear in all\ncopies.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED\nWARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\nIN NO EVENT SHALL THE AUTHORS AND COPYRIGHT HOLDERS AND THEIR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\nLIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF\nUSE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT\nOF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGE."
+}

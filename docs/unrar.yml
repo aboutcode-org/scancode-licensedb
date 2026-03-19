@@ -4,8 +4,12 @@ name: UnRar License
 category: Source-available
 owner: RAR
 homepage_url: http://sharpnews.weebly.com/uploads/1/2/7/9/1279604/license.txt
-spdx_license_key: LicenseRef-scancode-unrar
+spdx_license_key: UnRAR
+other_spdx_license_keys:
+  - LicenseRef-scancode-unrar
 osi_url: http://www.rarlab.com/rar/unrarsrc-5.2.7.tar.gz
+other_urls:
+  - https://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/LICENSES/unRAR.txt
 text: "******    *****   ******   UnRAR - free utility for RAR archives\n **   **  **   ** \
   \ **   **  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n ******   *******  ******    License for\
   \ use and distribution of\n **   **  **   **  **   **   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\
@@ -27,4 +31,5 @@ text: "******    *****   ******   UnRAR - free utility for RAR archives\n **   *
   \ and using the UnRAR utility signifies acceptance of\n      these terms and conditions of\
   \ the license.\n\n   6. If you don't agree with terms of the license you must remove\n   \
   \   UnRAR files from your storage devices and cease to use the\n      utility.\n\n      Thank\
-  \ you for your interest in RAR and UnRAR.\n     Alexander L. Roshal"
+  \ you for your interest in RAR and UnRAR.\n\n                                            Alexander\
+  \ L. Roshal"

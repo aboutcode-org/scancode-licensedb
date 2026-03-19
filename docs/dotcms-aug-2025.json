@@ -1,0 +1,23 @@
+{
+  "key": "dotcms-aug-2025",
+  "short_name": "dotCMS Aditional Use Grant 2025",
+  "name": "dotCMS Aditional Use Grant 2025",
+  "category": "Proprietary Free",
+  "owner": "dotCMS",
+  "homepage_url": "https://github.com/dotCMS/core/blob/main/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-dotcms-aug-2025",
+  "other_urls": [
+    "https://www.dotcms.com/pricing",
+    "https://spdx.org/licenses/BUSL-1.1.html"
+  ],
+  "ignorable_copyrights": [
+    "Copyright (c) 2025 dotCMS"
+  ],
+  "ignorable_holders": [
+    "dotCMS"
+  ],
+  "ignorable_urls": [
+    "https://www.dotcms.com/pricing"
+  ],
+  "text": "Licensor:             dotCMS LLC\n\nLicensed Work:        The Licensed Work is Copyright \u00a9 2025 dotCMS LCC.\n\nAdditional Use Grant:\n\nYou may use the Licensed Work in Production for your own company, organizational\nor personal use at no cost as long as your Total Finances do not exceed US\n$5,000,000 USD for the most recent 12-month period, provided that dotCMS LCC\nwill not be liable to you in any way, including for any damages, including\ngeneral, special, incidental or consequential damages, arising out of such use.\n\nDefinitions:\n\n\"Total Finances\" means the largest of your aggregate gross revenues, entire\nbudget, and/or funding (no matter the source); \"you\" and \"your\" include (without\nlimitation) any individual or entity agreeing to these terms and any affiliates\nof such individual or entity.  Additionally, if you are a company or service\nprovider building/hosting dotCMS for other organizations, including parent \norganizations or 3rd party clients, then Total Finances also includes those of \nany commerical beneficiary of the software.\n\nFor example:\n   Individual developer creating a plugin or hobby project \u2014 No cost.\n   Small business with total finances under $5,000,000 USD \u2014 No cost.\n   Small agency building projects for small customers \u2014 No cost.\n   Large enterprise non-production use \u2014 No cost.\n   Large enterprise production use \u2014 Commercial license required.\n   Small agency building/hosting project for large enterprise - Commercial\n    license required.\n\n\u201cProduction\u201d includes all instances that are set up in any step of an SDLC\nprocess whereby the output of the content/site/api are being delivered to public\nor private audiences, via dotCMS or 3rd party systems.\n\nFor example:\n   Production: a dotCMS installation that publishes content or apis to\n    a 3rd party application, hosting provider or CDN.\n   Production: An instance set up that multiple people access for acceptance\n    and approvals.\n   Development: an instance that is set up for an internal evaluation.\n   Development: A local instance used to develop a new plugin or website.\n\nChange Date:     Four years from August 01, 2025\n\nChange License:  GNU General Public License (GPL) v3\n\nFor information about alternative licensing arrangements, please visit\nhttps://www.dotcms.com/pricing"
+}

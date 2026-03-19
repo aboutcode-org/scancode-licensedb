@@ -50,7 +50,7 @@
   html: 996-icu-1.0.html
   license: 996-icu-1.0.LICENSE
 - license_key: a-star-logic-memoire-temp
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-a-star-logic-memoire-temp
   other_spdx_license_keys: []
   is_exception: no
@@ -90,7 +90,7 @@
   html: abstyles.html
   license: abstyles.LICENSE
 - license_key: ac3filter
-  category: Copyleft
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ac3filter
   other_spdx_license_keys: []
   is_exception: no
@@ -141,7 +141,7 @@
   html: acki-nacki-node-2024-10-04.html
   license: acki-nacki-node-2024-10-04.LICENSE
 - license_key: acm-sla
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-acm-sla
   other_spdx_license_keys: []
   is_exception: no
@@ -181,7 +181,7 @@
   html: activepieces-enterprise-2023.html
   license: activepieces-enterprise-2023.LICENSE
 - license_key: activestate-community
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-activestate-community
   other_spdx_license_keys: []
   is_exception: no
@@ -211,7 +211,7 @@
   html: activestate-komodo-edit.html
   license: activestate-komodo-edit.LICENSE
 - license_key: activision-eula
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-activision-eula
   other_spdx_license_keys: []
   is_exception: no
@@ -602,7 +602,7 @@
   html: afmparse.html
   license: afmparse.LICENSE
 - license_key: afpl-8.0
-  category: Copyleft
+  category: Non-Commercial
   spdx_license_key: Aladdin
   other_spdx_license_keys: []
   is_exception: no
@@ -612,7 +612,7 @@
   html: afpl-8.0.html
   license: afpl-8.0.LICENSE
 - license_key: afpl-9.0
-  category: Copyleft
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-afpl-9.0
   other_spdx_license_keys: []
   is_exception: no
@@ -662,7 +662,7 @@
   html: agere-sla.html
   license: agere-sla.LICENSE
 - license_key: ago-private-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ago-private-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -777,6 +777,16 @@
   yaml: agtpl.yml
   html: agtpl.html
   license: agtpl.LICENSE
+- license_key: aikido-dual-agpl-commercial
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-aikido-dual-agpl-commercial
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: aikido-dual-agpl-commercial.json
+  yaml: aikido-dual-agpl-commercial.yml
+  html: aikido-dual-agpl-commercial.html
+  license: aikido-dual-agpl-commercial.LICENSE
 - license_key: aladdin-md5
   category: Permissive
   spdx_license_key:
@@ -788,7 +798,7 @@
   html: aladdin-md5.html
   license: aladdin-md5.LICENSE
 - license_key: alasir
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-alasir
   other_spdx_license_keys: []
   is_exception: no
@@ -798,7 +808,7 @@
   html: alasir.html
   license: alasir.LICENSE
 - license_key: aldor-public-2.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-aldor-public-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -827,6 +837,16 @@
   yaml: alfresco-exception-0.5.yml
   html: alfresco-exception-0.5.html
   license: alfresco-exception-0.5.LICENSE
+- license_key: alglib-documentation
+  category: Permissive
+  spdx_license_key: ALGLIB-Documentation
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: alglib-documentation.json
+  yaml: alglib-documentation.yml
+  html: alglib-documentation.html
+  license: alglib-documentation.LICENSE
 - license_key: allegro-4
   category: Permissive
   spdx_license_key: Giftware
@@ -838,7 +858,7 @@
   html: allegro-4.html
   license: allegro-4.LICENSE
 - license_key: allen-institute-software-2018
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-allen-institute-software-2018
   other_spdx_license_keys: []
   is_exception: no
@@ -1078,6 +1098,16 @@
   yaml: angi-1.0.yml
   html: angi-1.0.html
   license: angi-1.0.LICENSE
+- license_key: anthropic-commercial-tos-2025
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-anthropic-commercial-tos-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: anthropic-commercial-tos-2025.json
+  yaml: anthropic-commercial-tos-2025.yml
+  html: anthropic-commercial-tos-2025.html
+  license: anthropic-commercial-tos-2025.LICENSE
 - license_key: anti-capitalist-1.4
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-anti-capitalist-1.4
@@ -1252,7 +1282,7 @@
   html: apafml.html
   license: apafml.LICENSE
 - license_key: apl-1.1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-apl-1.1
   other_spdx_license_keys: []
   is_exception: no
@@ -1282,7 +1312,7 @@
   html: appfire-eula.html
   license: appfire-eula.LICENSE
 - license_key: apple-academic-lisa-os-3.1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-apple-academic-lisa-os-3.1
   other_spdx_license_keys: []
   is_exception: no
@@ -1452,7 +1482,7 @@
   html: aptana-exception-3.0.html
   license: aptana-exception-3.0.LICENSE
 - license_key: arachni-psl-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-arachni-psl-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -1899,7 +1929,7 @@
   html: autoopts-exception-2.0.html
   license: autoopts-exception-2.0.LICENSE
 - license_key: autosar-proprietary
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-autosar-proprietary
   other_spdx_license_keys: []
   is_exception: no
@@ -1958,6 +1988,16 @@
   yaml: aws-ip-2021.yml
   html: aws-ip-2021.html
   license: aws-ip-2021.LICENSE
+- license_key: aydinnyunus-2025
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-aydinnyunus-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: aydinnyunus-2025.json
+  yaml: aydinnyunus-2025.yml
+  html: aydinnyunus-2025.html
+  license: aydinnyunus-2025.LICENSE
 - license_key: bacula-exception
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-bacula-exception
@@ -2303,7 +2343,7 @@
   html: bittorrent-1.2.html
   license: bittorrent-1.2.LICENSE
 - license_key: bittorrent-eula
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-bittorrent-eula
   other_spdx_license_keys: []
   is_exception: no
@@ -2313,7 +2353,7 @@
   html: bittorrent-eula.html
   license: bittorrent-eula.LICENSE
 - license_key: bitwarden-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-bitwarden-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -2414,8 +2454,9 @@
   license: bola10.LICENSE
 - license_key: bola11
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-bola11
-  other_spdx_license_keys: []
+  spdx_license_key: BOLA-1.1
+  other_spdx_license_keys:
+    - LicenseRef-scancode-bola11
   is_exception: no
   is_deprecated: no
   json: bola11.json
@@ -2493,7 +2534,7 @@
   html: bpmn-io.html
   license: bpmn-io.LICENSE
 - license_key: brad-martinez-vb-32
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-brad-martinez-vb-32
   other_spdx_license_keys: []
   is_exception: no
@@ -2937,6 +2978,16 @@
   yaml: bsd-3-clause-sun.yml
   html: bsd-3-clause-sun.html
   license: bsd-3-clause-sun.LICENSE
+- license_key: bsd-3-clause-tso
+  category: Permissive
+  spdx_license_key: BSD-3-Clause-Tso
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: bsd-3-clause-tso.json
+  yaml: bsd-3-clause-tso.yml
+  html: bsd-3-clause-tso.html
+  license: bsd-3-clause-tso.LICENSE
 - license_key: bsd-4-clause-shortened
   category: Permissive
   spdx_license_key: BSD-4-Clause-Shortened
@@ -3097,6 +3148,16 @@
   yaml: bsd-intel.yml
   html: bsd-intel.html
   license: bsd-intel.LICENSE
+- license_key: bsd-mark-modifications
+  category: Permissive
+  spdx_license_key: BSD-Mark-Modifications
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: bsd-mark-modifications.json
+  yaml: bsd-mark-modifications.yml
+  html: bsd-mark-modifications.html
+  license: bsd-mark-modifications.LICENSE
 - license_key: bsd-mylex
   category: Permissive
   spdx_license_key: LicenseRef-scancode-bsd-mylex
@@ -3455,6 +3516,26 @@
   yaml: bsla-no-advert.yml
   html: bsla-no-advert.html
   license: bsla-no-advert.LICENSE
+- license_key: buddy
+  category: Permissive
+  spdx_license_key: Buddy
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: buddy.json
+  yaml: buddy.yml
+  html: buddy.html
+  license: buddy.LICENSE
+- license_key: budibase-sqs-2023
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-budibase-sqs-2023
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: budibase-sqs-2023.json
+  yaml: budibase-sqs-2023.yml
+  html: budibase-sqs-2023.html
+  license: budibase-sqs-2023.LICENSE
 - license_key: bugsense-sdk
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-bugsense-sdk
@@ -3688,8 +3769,9 @@
   license: canonical-iprights-2015.LICENSE
 - license_key: capec-tou
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-capec-tou
-  other_spdx_license_keys: []
+  spdx_license_key: CAPEC-tou
+  other_spdx_license_keys:
+    - LicenseRef-scancode-capec-tou
   is_exception: no
   is_deprecated: no
   json: capec-tou.json
@@ -3909,7 +3991,7 @@
   html: cc-by-4.0.html
   license: cc-by-4.0.LICENSE
 - license_key: cc-by-nc-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -3919,7 +4001,7 @@
   html: cc-by-nc-1.0.html
   license: cc-by-nc-1.0.LICENSE
 - license_key: cc-by-nc-2.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -3929,7 +4011,7 @@
   html: cc-by-nc-2.0.html
   license: cc-by-nc-2.0.LICENSE
 - license_key: cc-by-nc-2.5
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-2.5
   other_spdx_license_keys: []
   is_exception: no
@@ -3939,7 +4021,7 @@
   html: cc-by-nc-2.5.html
   license: cc-by-nc-2.5.LICENSE
 - license_key: cc-by-nc-3.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -3949,7 +4031,7 @@
   html: cc-by-nc-3.0.html
   license: cc-by-nc-3.0.LICENSE
 - license_key: cc-by-nc-3.0-de
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-3.0-DE
   other_spdx_license_keys: []
   is_exception: no
@@ -3959,7 +4041,7 @@
   html: cc-by-nc-3.0-de.html
   license: cc-by-nc-3.0-de.LICENSE
 - license_key: cc-by-nc-4.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-4.0
   other_spdx_license_keys: []
   is_exception: no
@@ -3969,7 +4051,7 @@
   html: cc-by-nc-4.0.html
   license: cc-by-nc-4.0.LICENSE
 - license_key: cc-by-nc-nd-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -3979,7 +4061,7 @@
   html: cc-by-nc-nd-1.0.html
   license: cc-by-nc-nd-1.0.LICENSE
 - license_key: cc-by-nc-nd-2.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -3989,7 +4071,7 @@
   html: cc-by-nc-nd-2.0.html
   license: cc-by-nc-nd-2.0.LICENSE
 - license_key: cc-by-nc-nd-2.0-at
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-cc-by-nc-nd-2.0-at
   other_spdx_license_keys: []
   is_exception: no
@@ -3999,7 +4081,7 @@
   html: cc-by-nc-nd-2.0-at.html
   license: cc-by-nc-nd-2.0-at.LICENSE
 - license_key: cc-by-nc-nd-2.0-au
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-cc-by-nc-nd-2.0-au
   other_spdx_license_keys: []
   is_exception: no
@@ -4009,7 +4091,7 @@
   html: cc-by-nc-nd-2.0-au.html
   license: cc-by-nc-nd-2.0-au.LICENSE
 - license_key: cc-by-nc-nd-2.5
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-2.5
   other_spdx_license_keys: []
   is_exception: no
@@ -4019,7 +4101,7 @@
   html: cc-by-nc-nd-2.5.html
   license: cc-by-nc-nd-2.5.LICENSE
 - license_key: cc-by-nc-nd-3.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4029,7 +4111,7 @@
   html: cc-by-nc-nd-3.0.html
   license: cc-by-nc-nd-3.0.LICENSE
 - license_key: cc-by-nc-nd-3.0-de
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-3.0-DE
   other_spdx_license_keys: []
   is_exception: no
@@ -4039,7 +4121,7 @@
   html: cc-by-nc-nd-3.0-de.html
   license: cc-by-nc-nd-3.0-de.LICENSE
 - license_key: cc-by-nc-nd-3.0-igo
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-3.0-IGO
   other_spdx_license_keys: []
   is_exception: no
@@ -4049,7 +4131,7 @@
   html: cc-by-nc-nd-3.0-igo.html
   license: cc-by-nc-nd-3.0-igo.LICENSE
 - license_key: cc-by-nc-nd-4.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-ND-4.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4059,7 +4141,7 @@
   html: cc-by-nc-nd-4.0.html
   license: cc-by-nc-nd-4.0.LICENSE
 - license_key: cc-by-nc-sa-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4069,7 +4151,7 @@
   html: cc-by-nc-sa-1.0.html
   license: cc-by-nc-sa-1.0.LICENSE
 - license_key: cc-by-nc-sa-2.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4079,7 +4161,7 @@
   html: cc-by-nc-sa-2.0.html
   license: cc-by-nc-sa-2.0.LICENSE
 - license_key: cc-by-nc-sa-2.0-de
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-2.0-DE
   other_spdx_license_keys: []
   is_exception: no
@@ -4089,7 +4171,7 @@
   html: cc-by-nc-sa-2.0-de.html
   license: cc-by-nc-sa-2.0-de.LICENSE
 - license_key: cc-by-nc-sa-2.0-fr
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-2.0-FR
   other_spdx_license_keys: []
   is_exception: no
@@ -4099,7 +4181,7 @@
   html: cc-by-nc-sa-2.0-fr.html
   license: cc-by-nc-sa-2.0-fr.LICENSE
 - license_key: cc-by-nc-sa-2.0-uk
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-2.0-UK
   other_spdx_license_keys: []
   is_exception: no
@@ -4109,7 +4191,7 @@
   html: cc-by-nc-sa-2.0-uk.html
   license: cc-by-nc-sa-2.0-uk.LICENSE
 - license_key: cc-by-nc-sa-2.5
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-2.5
   other_spdx_license_keys: []
   is_exception: no
@@ -4119,7 +4201,7 @@
   html: cc-by-nc-sa-2.5.html
   license: cc-by-nc-sa-2.5.LICENSE
 - license_key: cc-by-nc-sa-3.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4129,7 +4211,7 @@
   html: cc-by-nc-sa-3.0.html
   license: cc-by-nc-sa-3.0.LICENSE
 - license_key: cc-by-nc-sa-3.0-de
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-3.0-DE
   other_spdx_license_keys: []
   is_exception: no
@@ -4139,7 +4221,7 @@
   html: cc-by-nc-sa-3.0-de.html
   license: cc-by-nc-sa-3.0-de.LICENSE
 - license_key: cc-by-nc-sa-3.0-igo
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-3.0-IGO
   other_spdx_license_keys: []
   is_exception: no
@@ -4149,7 +4231,7 @@
   html: cc-by-nc-sa-3.0-igo.html
   license: cc-by-nc-sa-3.0-igo.LICENSE
 - license_key: cc-by-nc-sa-3.0-us
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-cc-by-nc-sa-3.0-us
   other_spdx_license_keys: []
   is_exception: no
@@ -4159,7 +4241,7 @@
   html: cc-by-nc-sa-3.0-us.html
   license: cc-by-nc-sa-3.0-us.LICENSE
 - license_key: cc-by-nc-sa-4.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: CC-BY-NC-SA-4.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4359,7 +4441,7 @@
   html: cc-lgpl-2.1-pt.html
   license: cc-lgpl-2.1-pt.LICENSE
 - license_key: cc-nc-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-cc-nc-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4369,7 +4451,7 @@
   html: cc-nc-1.0.html
   license: cc-nc-1.0.LICENSE
 - license_key: cc-nc-sampling-plus-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-cc-nc-sampling-plus-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4451,7 +4533,7 @@
   html: cc0-1.0.html
   license: cc0-1.0.LICENSE
 - license_key: ccg-research-academic
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ccg-research-academic
   other_spdx_license_keys: []
   is_exception: no
@@ -4741,7 +4823,7 @@
   html: cgic.html
   license: cgic.LICENSE
 - license_key: chameleon-research-2024
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-chameleon-research-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -4751,7 +4833,7 @@
   html: chameleon-research-2024.html
   license: chameleon-research-2024.LICENSE
 - license_key: charmpp-2019
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-charmpp-2019
   other_spdx_license_keys: []
   is_exception: no
@@ -4761,7 +4843,7 @@
   html: charmpp-2019.html
   license: charmpp-2019.LICENSE
 - license_key: charmpp-converse-2017
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-charmpp-converse-2017
   other_spdx_license_keys: []
   is_exception: no
@@ -4771,7 +4853,7 @@
   html: charmpp-converse-2017.html
   license: charmpp-converse-2017.LICENSE
 - license_key: chartdirector-6.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-chartdirector-6.0
   other_spdx_license_keys: []
   is_exception: no
@@ -4851,7 +4933,7 @@
   html: chris-stoy.html
   license: chris-stoy.LICENSE
 - license_key: christopher-velazquez
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-christopher-velazquez
   other_spdx_license_keys: []
   is_exception: no
@@ -5155,7 +5237,7 @@
   html: cockroach.html
   license: cockroach.LICENSE
 - license_key: cockroachdb-2024-10-01
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-cockroachdb-2024-10-01
   other_spdx_license_keys: []
   is_exception: no
@@ -5509,7 +5591,7 @@
   html: couchbase-community.html
   license: couchbase-community.LICENSE
 - license_key: couchbase-enterprise
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-couchbase-enterprise
   other_spdx_license_keys: []
   is_exception: no
@@ -6202,6 +6284,16 @@
   yaml: diffmark.yml
   html: diffmark.html
   license: diffmark.LICENSE
+- license_key: dify-exception-apache-2.0
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-dify-exception-apache-2.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: dify-exception-apache-2.0.json
+  yaml: dify-exception-apache-2.0.yml
+  html: dify-exception-apache-2.0.html
+  license: dify-exception-apache-2.0.LICENSE
 - license_key: digia-qt-commercial
   category: Commercial
   spdx_license_key: LicenseRef-scancode-digia-qt-commercial
@@ -6242,8 +6334,18 @@
   yaml: digirule-foss-exception.yml
   html: digirule-foss-exception.html
   license: digirule-foss-exception.LICENSE
+- license_key: directus-bsl-1.1
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-directus-bsl-1.1
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: directus-bsl-1.1.json
+  yaml: directus-bsl-1.1.yml
+  html: directus-bsl-1.1.html
+  license: directus-bsl-1.1.LICENSE
 - license_key: divx-open-1.0
-  category: Copyleft Limited
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-divx-open-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -6314,7 +6416,7 @@
   html: dl-de-by-2-0-en.html
   license: dl-de-by-2-0-en.LICENSE
 - license_key: dl-de-by-nc-1-0-de
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-dl-de-by-nc-1-0-de
   other_spdx_license_keys: []
   is_exception: no
@@ -6324,7 +6426,7 @@
   html: dl-de-by-nc-1-0-de.html
   license: dl-de-by-nc-1-0-de.LICENSE
 - license_key: dl-de-by-nc-1-0-en
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-dl-de-by-nc-1-0-en
   other_spdx_license_keys: []
   is_exception: no
@@ -6435,7 +6537,7 @@
   html: dos32a-extender.html
   license: dos32a-extender.LICENSE
 - license_key: dosa-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-dosa-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -6444,6 +6546,16 @@
   yaml: dosa-1.0.yml
   html: dosa-1.0.html
   license: dosa-1.0.LICENSE
+- license_key: dotcms-aug-2025
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-dotcms-aug-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: dotcms-aug-2025.json
+  yaml: dotcms-aug-2025.yml
+  html: dotcms-aug-2025.html
+  license: dotcms-aug-2025.LICENSE
 - license_key: dotseqn
   category: Permissive
   spdx_license_key: Dotseqn
@@ -6666,7 +6778,7 @@
   html: dynarch-developer.html
   license: dynarch-developer.LICENSE
 - license_key: dynarch-linkware
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-dynarch-linkware
   other_spdx_license_keys: []
   is_exception: no
@@ -6706,7 +6818,7 @@
   html: ecl-2.0.html
   license: ecl-2.0.LICENSE
 - license_key: ecl-gcl-2019
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ecl-gcl-2019
   other_spdx_license_keys: []
   is_exception: no
@@ -7088,7 +7200,7 @@
   html: ellis-lab.html
   license: ellis-lab.LICENSE
 - license_key: embedthis-evaluation
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-embedthis-evaluation
   other_spdx_license_keys: []
   is_exception: no
@@ -7167,6 +7279,16 @@
   yaml: enhydra-1.1.yml
   html: enhydra-1.1.html
   license: enhydra-1.1.LICENSE
+- license_key: enisa-legal-notice-2025
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-enisa-legal-notice-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: enisa-legal-notice-2025.json
+  yaml: enisa-legal-notice-2025.yml
+  html: enisa-legal-notice-2025.html
+  license: enisa-legal-notice-2025.LICENSE
 - license_key: enlightenment
   category: Permissive
   spdx_license_key: MIT-advertising
@@ -7317,6 +7439,36 @@
   yaml: errbot-exception.yml
   html: errbot-exception.html
   license: errbot-exception.LICENSE
+- license_key: esa-pl-permissive-2.4
+  category: Permissive
+  spdx_license_key: ESA-PL-permissive-2.4
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: esa-pl-permissive-2.4.json
+  yaml: esa-pl-permissive-2.4.yml
+  html: esa-pl-permissive-2.4.html
+  license: esa-pl-permissive-2.4.LICENSE
+- license_key: esa-pl-strong-copyleft-2.4
+  category: Permissive
+  spdx_license_key: ESA-PL-strong-copyleft-2.4
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: esa-pl-strong-copyleft-2.4.json
+  yaml: esa-pl-strong-copyleft-2.4.yml
+  html: esa-pl-strong-copyleft-2.4.html
+  license: esa-pl-strong-copyleft-2.4.LICENSE
+- license_key: esa-pl-weak-copyleft-2.4
+  category: Permissive
+  spdx_license_key: ESA-PL-weak-copyleft-2.4
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: esa-pl-weak-copyleft-2.4.json
+  yaml: esa-pl-weak-copyleft-2.4.yml
+  html: esa-pl-weak-copyleft-2.4.html
+  license: esa-pl-weak-copyleft-2.4.LICENSE
 - license_key: esri
   category: Commercial
   spdx_license_key: LicenseRef-scancode-esri
@@ -7420,7 +7572,7 @@
   html: eurosym.html
   license: eurosym.LICENSE
 - license_key: examdiff
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-examdiff
   other_spdx_license_keys: []
   is_exception: no
@@ -7430,7 +7582,7 @@
   html: examdiff.html
   license: examdiff.LICENSE
 - license_key: exaone-ai-model-1.1-nc
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-exaone-ai-model-1.1-nc
   other_spdx_license_keys: []
   is_exception: no
@@ -7550,7 +7702,7 @@
   html: falcon-2-11b-1.0.html
   license: falcon-2-11b-1.0.LICENSE
 - license_key: fancyzoom
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-fancyzoom
   other_spdx_license_keys: []
   is_exception: no
@@ -7620,7 +7772,7 @@
   html: fbm.html
   license: fbm.LICENSE
 - license_key: fcl-1.0-apache-2.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-fcl-1.0-apache-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -7630,7 +7782,7 @@
   html: fcl-1.0-apache-2.0.html
   license: fcl-1.0-apache-2.0.LICENSE
 - license_key: fcl-1.0-mit
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-fcl-1.0-mit
   other_spdx_license_keys: []
   is_exception: no
@@ -7792,7 +7944,7 @@
   html: fltk-exception-lgpl-2.0.html
   license: fltk-exception-lgpl-2.0.LICENSE
 - license_key: flux-1-nc
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-flux-1-nc
   other_spdx_license_keys: []
   is_exception: no
@@ -8136,7 +8288,7 @@
   html: fsfullrsd.html
   license: fsfullrsd.LICENSE
 - license_key: fsl-1.0-apache-2.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-fsl-1.0-apache-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -8146,7 +8298,7 @@
   html: fsl-1.0-apache-2.0.html
   license: fsl-1.0-apache-2.0.LICENSE
 - license_key: fsl-1.0-mit
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-fsl-1.0-mit
   other_spdx_license_keys: []
   is_exception: no
@@ -8156,7 +8308,7 @@
   html: fsl-1.0-mit.html
   license: fsl-1.0-mit.LICENSE
 - license_key: fsl-1.1-apache-2.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: FSL-1.1-ALv2
   other_spdx_license_keys:
     - LicenseRef-scancode-fsl-1.1-apache-2.0
@@ -8167,7 +8319,7 @@
   html: fsl-1.1-apache-2.0.html
   license: fsl-1.1-apache-2.0.LICENSE
 - license_key: fsl-1.1-mit
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: FSL-1.1-MIT
   other_spdx_license_keys:
     - LicenseRef-scancode-fsl-1.1-mit
@@ -8218,7 +8370,7 @@
   html: furuseth.html
   license: furuseth.LICENSE
 - license_key: futo-sfl-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-futo-sfl-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -8228,7 +8380,7 @@
   html: futo-sfl-1.0.html
   license: futo-sfl-1.0.LICENSE
 - license_key: futo-sfl-1.1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-futo-sfl-1.1
   other_spdx_license_keys: []
   is_exception: no
@@ -8238,7 +8390,7 @@
   html: futo-sfl-1.1.html
   license: futo-sfl-1.1.LICENSE
 - license_key: futo-sfl-1.1-kb
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-futo-sfl-1.1-kb
   other_spdx_license_keys: []
   is_exception: no
@@ -8298,7 +8450,7 @@
   html: gatling-highcharts.html
   license: gatling-highcharts.LICENSE
 - license_key: gaussian-splatting-2024
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-gaussian-splatting-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -8359,7 +8511,7 @@
   html: gcc-linking-exception-2.0.html
   license: gcc-linking-exception-2.0.LICENSE
 - license_key: gcel-2022
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-gcel-2022
   other_spdx_license_keys: []
   is_exception: no
@@ -8369,7 +8521,7 @@
   html: gcel-2022.html
   license: gcel-2022.LICENSE
 - license_key: gco-v3.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-gco-v3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -8459,7 +8611,7 @@
   html: generaluser-gs-2.0.html
   license: generaluser-gs-2.0.LICENSE
 - license_key: generic-amiwm
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-generic-amiwm
   other_spdx_license_keys: []
   is_exception: no
@@ -8570,7 +8722,7 @@
   html: geoff-kuenning-1993.html
   license: geoff-kuenning-1993.LICENSE
 - license_key: geogebra-ncla-2022
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-geogebra-ncla-2022
   other_spdx_license_keys: []
   is_exception: no
@@ -10354,7 +10506,7 @@
   html: helios-eula.html
   license: helios-eula.LICENSE
 - license_key: helix
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-helix
   other_spdx_license_keys: []
   is_exception: no
@@ -10546,7 +10698,7 @@
   html: houdini-project.html
   license: houdini-project.LICENSE
 - license_key: hp
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-hp
   other_spdx_license_keys: []
   is_exception: no
@@ -10576,7 +10728,7 @@
   html: hp-enterprise-eula.html
   license: hp-enterprise-eula.LICENSE
 - license_key: hp-netperf
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-hp-netperf
   other_spdx_license_keys: []
   is_exception: no
@@ -10745,6 +10897,16 @@
   yaml: hpnd-sell-regexpr.yml
   html: hpnd-sell-regexpr.html
   license: hpnd-sell-regexpr.LICENSE
+- license_key: hpnd-sell-variant-critical-systems
+  category: Permissive
+  spdx_license_key: HPND-sell-variant-critical-systems
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: hpnd-sell-variant-critical-systems.json
+  yaml: hpnd-sell-variant-critical-systems.yml
+  html: hpnd-sell-variant-critical-systems.html
+  license: hpnd-sell-variant-critical-systems.LICENSE
 - license_key: hpnd-sell-variant-mit-disclaimer
   category: Permissive
   spdx_license_key: HPND-sell-variant-MIT-disclaimer
@@ -10765,6 +10927,16 @@
   yaml: hpnd-sell-variant-mit-disclaimer-rev.yml
   html: hpnd-sell-variant-mit-disclaimer-rev.html
   license: hpnd-sell-variant-mit-disclaimer-rev.LICENSE
+- license_key: hpnd-smc
+  category: Permissive
+  spdx_license_key: HPND-SMC
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: hpnd-smc.json
+  yaml: hpnd-smc.yml
+  html: hpnd-smc.html
+  license: hpnd-smc.LICENSE
 - license_key: hpnd-uc
   category: Permissive
   spdx_license_key: HPND-UC
@@ -10865,6 +11037,16 @@
   yaml: hyperclova-x-seed-2025.yml
   html: hyperclova-x-seed-2025.html
   license: hyperclova-x-seed-2025.LICENSE
+- license_key: hyphen-bulgarian
+  category: Permissive
+  spdx_license_key: hyphen-bulgarian
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: hyphen-bulgarian.json
+  yaml: hyphen-bulgarian.yml
+  html: hyphen-bulgarian.html
+  license: hyphen-bulgarian.LICENSE
 - license_key: i2p-gpl-java-exception
   category: Copyleft Limited
   spdx_license_key: i2p-gpl-java-exception
@@ -11177,7 +11359,7 @@
   html: imagemagick.html
   license: imagemagick.LICENSE
 - license_key: imagen
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-imagen
   other_spdx_license_keys: []
   is_exception: no
@@ -11196,6 +11378,16 @@
   yaml: imlib2.yml
   html: imlib2.html
   license: imlib2.LICENSE
+- license_key: inbox-zero-exception-3.0
+  category: Copyleft
+  spdx_license_key: LicenseRef-scancode-inbox-zero-exception-3.0
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: inbox-zero-exception-3.0.json
+  yaml: inbox-zero-exception-3.0.yml
+  html: inbox-zero-exception-3.0.html
+  license: inbox-zero-exception-3.0.LICENSE
 - license_key: independent-module-linking-exception
   category: Copyleft Limited
   spdx_license_key: Independent-modules-exception
@@ -11371,7 +11563,7 @@
   html: inno-setup.html
   license: inno-setup.LICENSE
 - license_key: inria-compcert
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-inria-compcert
   other_spdx_license_keys: []
   is_exception: no
@@ -11381,7 +11573,7 @@
   html: inria-compcert.html
   license: inria-compcert.LICENSE
 - license_key: inria-icesl
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-inria-icesl
   other_spdx_license_keys: []
   is_exception: no
@@ -11402,7 +11594,7 @@
   html: inria-linking-exception.html
   license: inria-linking-exception.LICENSE
 - license_key: inria-zelus
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-inria-zelus
   other_spdx_license_keys: []
   is_exception: no
@@ -11696,8 +11888,9 @@
   license: iso-14496-10.LICENSE
 - license_key: iso-8879
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-iso-8879
-  other_spdx_license_keys: []
+  spdx_license_key: ISO-permission
+  other_spdx_license_keys:
+    - LicenseRef-scancode-iso-8879
   is_exception: no
   is_deprecated: no
   json: iso-8879.json
@@ -11714,6 +11907,16 @@
   yaml: iso-recorder.yml
   html: iso-recorder.html
   license: iso-recorder.LICENSE
+- license_key: iso-schematron-19757-3
+  category: Permissive
+  spdx_license_key: LicenseRef-scancode-iso-schematron-19757-3
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: iso-schematron-19757-3.json
+  yaml: iso-schematron-19757-3.yml
+  html: iso-schematron-19757-3.html
+  license: iso-schematron-19757-3.LICENSE
 - license_key: isotope-cla
   category: Commercial
   spdx_license_key: LicenseRef-scancode-isotope-cla
@@ -11886,7 +12089,7 @@
   html: java-app-stub.html
   license: java-app-stub.LICENSE
 - license_key: java-research-1.5
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-java-research-1.5
   other_spdx_license_keys: []
   is_exception: no
@@ -11896,7 +12099,7 @@
   html: java-research-1.5.html
   license: java-research-1.5.LICENSE
 - license_key: java-research-1.6
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-java-research-1.6
   other_spdx_license_keys: []
   is_exception: no
@@ -11966,7 +12169,7 @@
   html: jetbrains-purchase-terms.html
   license: jetbrains-purchase-terms.LICENSE
 - license_key: jetbrains-toolbox-open-source-3
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-jetbrains-toolbox-oss-3
   other_spdx_license_keys:
     - LicenseRef-scancode-jetbrains-toolbox-open-source-3
@@ -12037,7 +12240,7 @@
   html: jj2000.html
   license: jj2000.LICENSE
 - license_key: jmagnetic
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-jmagnetic
   other_spdx_license_keys: []
   is_exception: no
@@ -12057,7 +12260,7 @@
   html: joinbase-cela-2022.html
   license: joinbase-cela-2022.LICENSE
 - license_key: joplin-server-personal-v1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-joplin-server-personal-v1
   other_spdx_license_keys: []
   is_exception: no
@@ -12472,7 +12675,7 @@
   html: kreative-relay-fonts-free-use-1.2f.html
   license: kreative-relay-fonts-free-use-1.2f.LICENSE
 - license_key: kubesphere-osl-2024
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-kubesphere-osl-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -12491,6 +12694,16 @@
   yaml: kumar-robotics.yml
   html: kumar-robotics.html
   license: kumar-robotics.LICENSE
+- license_key: kvirc-openssl-exception
+  category: Copyleft Limited
+  spdx_license_key: kvirc-openssl-exception
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: kvirc-openssl-exception.json
+  yaml: kvirc-openssl-exception.yml
+  html: kvirc-openssl-exception.html
+  license: kvirc-openssl-exception.LICENSE
 - license_key: la-opt-nxp-v51-2023
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-la-opt-nxp-v51-2023
@@ -13105,6 +13318,16 @@
   yaml: librato-exception.yml
   html: librato-exception.html
   license: librato-exception.LICENSE
+- license_key: libroxml-exception-lgpl-2.1
+  category: Copyleft Limited
+  spdx_license_key: LicenseRef-scancode-libroxml-exception-lgpl-2.1
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: libroxml-exception-lgpl-2.1.json
+  yaml: libroxml-exception-lgpl-2.1.yml
+  html: libroxml-exception-lgpl-2.1.html
+  license: libroxml-exception-lgpl-2.1.LICENSE
 - license_key: libselinux-pd
   category: Public Domain
   spdx_license_key: LicenseRef-scancode-libselinux-pd
@@ -13318,9 +13541,10 @@
   license: linking-exception-agpl-3.0.LICENSE
 - license_key: linking-exception-lgpl-2.0-plus
   category: Copyleft Limited
-  spdx_license_key: LicenseRef-scancode-linking-exception-lgpl-2.0plus
+  spdx_license_key: Classpath-exception-2.0-short
   other_spdx_license_keys:
     - LicenseRef-scancode-linking-exception-lgpl-2.0-plus
+    - LicenseRef-scancode-linking-exception-lgpl-2.0plus
   is_exception: yes
   is_deprecated: no
   json: linking-exception-lgpl-2.0-plus.json
@@ -13498,7 +13722,7 @@
   html: llama-4-license-2025.html
   license: llama-4-license-2025.LICENSE
 - license_key: llama-license-2023
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-llama-license-2023
   other_spdx_license_keys: []
   is_exception: no
@@ -13900,7 +14124,7 @@
   html: makeindex.html
   license: makeindex.LICENSE
 - license_key: mame
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-mame
   other_spdx_license_keys: []
   is_exception: no
@@ -14112,7 +14336,7 @@
   html: mcphee-slideshow.html
   license: mcphee-slideshow.LICENSE
 - license_key: mcrae-pl-4-r53
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-mcrae-pl-4-r53
   other_spdx_license_keys: []
   is_exception: no
@@ -14122,7 +14346,7 @@
   html: mcrae-pl-4-r53.html
   license: mcrae-pl-4-r53.LICENSE
 - license_key: mdl-2021
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-mdl-2021
   other_spdx_license_keys: []
   is_exception: no
@@ -14212,7 +14436,7 @@
   html: mediatek-proprietary-2020.html
   license: mediatek-proprietary-2020.LICENSE
 - license_key: melange
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-melange
   other_spdx_license_keys: []
   is_exception: no
@@ -14232,7 +14456,7 @@
   html: mentalis.html
   license: mentalis.LICENSE
 - license_key: menuet64-2024
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-menuet64-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -14252,7 +14476,7 @@
   html: merit-network-derivative.html
   license: merit-network-derivative.LICENSE
 - license_key: metageek-inssider-eula
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-metageek-inssider-eula
   other_spdx_license_keys: []
   is_exception: no
@@ -14393,7 +14617,7 @@
   html: mif-exception.html
   license: mif-exception.LICENSE
 - license_key: mike95
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-mike95
   other_spdx_license_keys: []
   is_exception: no
@@ -14404,8 +14628,9 @@
   license: mike95.LICENSE
 - license_key: minecraft-mod
   category: Proprietary Free
-  spdx_license_key: LicenseRef-scancode-minecraft-mod
-  other_spdx_license_keys: []
+  spdx_license_key: MMPL-1.0.1
+  other_spdx_license_keys:
+    - LicenseRef-scancode-minecraft-mod
   is_exception: no
   is_deprecated: no
   json: minecraft-mod.json
@@ -14613,8 +14838,9 @@
   license: mit-no-trademarks.LICENSE
 - license_key: mit-old-style
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-mit-old-style
-  other_spdx_license_keys: []
+  spdx_license_key: Advanced-Cryptics-Dictionary
+  other_spdx_license_keys:
+    - LicenseRef-scancode-mit-old-style
   is_exception: no
   is_deprecated: no
   json: mit-old-style.json
@@ -15355,7 +15581,7 @@
   html: ms-ilmerge.html
   license: ms-ilmerge.LICENSE
 - license_key: ms-invisible-eula-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ms-invisible-eula-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -15687,7 +15913,7 @@
   html: ms-remote-ndis-usb-kit.html
   license: ms-remote-ndis-usb-kit.LICENSE
 - license_key: ms-research-license-terms
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ms-research-license-terms
   other_spdx_license_keys: []
   is_exception: no
@@ -15697,7 +15923,7 @@
   html: ms-research-license-terms.html
   license: ms-research-license-terms.LICENSE
 - license_key: ms-research-shared-source
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ms-research-shared-source
   other_spdx_license_keys: []
   is_exception: no
@@ -16319,7 +16545,7 @@
   html: mx4j.html
   license: mx4j.LICENSE
 - license_key: mxparser-dual-2024-05-19
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-mxparser-dual-2024-05-19
   other_spdx_license_keys: []
   is_exception: no
@@ -16381,7 +16607,7 @@
   html: naist-2003.html
   license: naist-2003.LICENSE
 - license_key: nanoporetech-public-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-nanoporetech-public-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -16452,7 +16678,7 @@
   html: ncbi.html
   license: ncbi.LICENSE
 - license_key: ncgl-uk-2.0
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: NCGL-UK-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -16753,6 +16979,16 @@
   yaml: nist-pd-fallback.yml
   html: nist-pd-fallback.html
   license: nist-pd-fallback.LICENSE
+- license_key: nist-pd-tnt
+  category: Public Domain
+  spdx_license_key: NIST-PD-TNT
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: nist-pd-tnt.json
+  yaml: nist-pd-tnt.yml
+  html: nist-pd-tnt.html
+  license: nist-pd-tnt.LICENSE
 - license_key: nist-software
   category: Permissive
   spdx_license_key: NIST-Software
@@ -17124,6 +17360,16 @@
   yaml: nvidia.yml
   html: nvidia.html
   license: nvidia.LICENSE
+- license_key: nvidia-1-way-commercial
+  category: Commercial
+  spdx_license_key: LicenseRef-scancode-nvidia-1-way-commercial
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: nvidia-1-way-commercial.json
+  yaml: nvidia-1-way-commercial.yml
+  html: nvidia-1-way-commercial.html
+  license: nvidia-1-way-commercial.LICENSE
 - license_key: nvidia-2002
   category: Permissive
   spdx_license_key: AML-glslang
@@ -17428,7 +17674,7 @@
   html: ocaml-lgpl-linking-exception.html
   license: ocaml-lgpl-linking-exception.LICENSE
 - license_key: ocamlpro-nc-v1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ocamlpro-nc-v1
   other_spdx_license_keys: []
   is_exception: no
@@ -17557,6 +17803,16 @@
   yaml: oculus-sdk-3.5.yml
   html: oculus-sdk-3.5.html
   license: oculus-sdk-3.5.LICENSE
+- license_key: ocvsal-1.0
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-ocvsal-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ocvsal-1.0.json
+  yaml: ocvsal-1.0.yml
+  html: ocvsal-1.0.html
+  license: ocvsal-1.0.LICENSE
 - license_key: odb-cpl
   category: Commercial
   spdx_license_key: LicenseRef-scancode-odb-cpl
@@ -17578,7 +17834,7 @@
   html: odb-fpl.html
   license: odb-fpl.LICENSE
 - license_key: odb-ncuel
-  category: Copyleft
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-odb-ncuel
   other_spdx_license_keys: []
   is_exception: no
@@ -17739,7 +17995,7 @@
   html: ofl-1.1-rfn.html
   license: ofl-1.1-rfn.LICENSE
 - license_key: ofrak-community-1.0
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ofrak-community-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -17749,7 +18005,7 @@
   html: ofrak-community-1.0.html
   license: ofrak-community-1.0.LICENSE
 - license_key: ofrak-community-1.1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ofrak-community-1.1
   other_spdx_license_keys: []
   is_exception: no
@@ -17969,7 +18225,7 @@
   html: on2-patent.html
   license: on2-patent.LICENSE
 - license_key: onezoom-np-sal-v1
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-onezoom-np-sal-v1
   other_spdx_license_keys: []
   is_exception: no
@@ -17989,7 +18245,7 @@
   html: ooura-2001.html
   license: ooura-2001.LICENSE
 - license_key: open-aleph-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-open-aleph-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -18079,7 +18335,7 @@
   html: openbd-exception-3.0.html
   license: openbd-exception-3.0.LICENSE
 - license_key: opencarp-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-opencarp-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -18332,8 +18588,9 @@
   license: openmarket-fastcgi.LICENSE
 - license_key: openmdw-1.0
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-openmdw-1.0
-  other_spdx_license_keys: []
+  spdx_license_key: OpenMDW-1.0
+  other_spdx_license_keys:
+    - LicenseRef-scancode-openmdw-1.0
   is_exception: no
   is_deprecated: no
   json: openmdw-1.0.json
@@ -18381,7 +18638,7 @@
   html: openorb-1.0.html
   license: openorb-1.0.LICENSE
 - license_key: openpbs-2.3
-  category: Copyleft Limited
+  category: Non-Commercial
   spdx_license_key: OpenPBS-2.3
   other_spdx_license_keys:
     - LicenseRef-scancode-openpbs-2.3
@@ -18721,7 +18978,7 @@
   html: oracle-bcl-javase-javafx-2013.html
   license: oracle-bcl-javase-javafx-2013.LICENSE
 - license_key: oracle-bcl-javase-platform-javafx-2013
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-oracle-bcl-java-platform-2013
   other_spdx_license_keys:
     - LicenseRef-scancode-oracle-bcl-javase-platform-javafx-2013
@@ -18906,7 +19163,7 @@
   html: oracle-vb-puel-12.html
   license: oracle-vb-puel-12.LICENSE
 - license_key: oracle-web-sites-tou
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-oracle-web-sites-tou
   other_spdx_license_keys: []
   is_exception: no
@@ -18945,6 +19202,26 @@
   yaml: os4d-1.1-apache-2.0.yml
   html: os4d-1.1-apache-2.0.html
   license: os4d-1.1-apache-2.0.LICENSE
+- license_key: osassy-2025
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-osassy-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: osassy-2025.json
+  yaml: osassy-2025.yml
+  html: osassy-2025.html
+  license: osassy-2025.LICENSE
+- license_key: osc-1.0
+  category: Permissive
+  spdx_license_key: OSC-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: osc-1.0.json
+  yaml: osc-1.0.yml
+  html: osc-1.0.html
+  license: osc-1.0.LICENSE
 - license_key: oset-pl-2.1
   category: Copyleft Limited
   spdx_license_key: OSET-PL-2.1
@@ -19037,7 +19314,7 @@
   html: osl-3.0.html
   license: osl-3.0.LICENSE
 - license_key: ossn-3.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-ossn-3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -19046,8 +19323,18 @@
   yaml: ossn-3.0.yml
   html: ossn-3.0.html
   license: ossn-3.0.LICENSE
+- license_key: ossp
+  category: Permissive
+  spdx_license_key: OSSP
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ossp.json
+  yaml: ossp.yml
+  html: ossp.html
+  license: ossp.LICENSE
 - license_key: osvdb
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-osvdb
   other_spdx_license_keys: []
   is_exception: no
@@ -19098,7 +19385,7 @@
   html: otn-dev-dist.html
   license: otn-dev-dist.LICENSE
 - license_key: otn-dev-dist-2009
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-otn-dev-dist-2009
   other_spdx_license_keys: []
   is_exception: no
@@ -19128,7 +19415,7 @@
   html: otn-dev-dist-2016.html
   license: otn-dev-dist-2016.LICENSE
 - license_key: otn-early-adopter-2018
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-otn-early-adopter-2018
   other_spdx_license_keys: []
   is_exception: no
@@ -19138,7 +19425,7 @@
   html: otn-early-adopter-2018.html
   license: otn-early-adopter-2018.LICENSE
 - license_key: otn-early-adopter-development
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-otn-early-adopter-development
   other_spdx_license_keys: []
   is_exception: no
@@ -19317,6 +19604,16 @@
   yaml: paolo-messina-2000.yml
   html: paolo-messina-2000.html
   license: paolo-messina-2000.LICENSE
+- license_key: paratype-free-font-1.3
+  category: Permissive
+  spdx_license_key: ParaType-Free-Font-1.3
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: paratype-free-font-1.3.json
+  yaml: paratype-free-font-1.3.yml
+  html: paratype-free-font-1.3.html
+  license: paratype-free-font-1.3.LICENSE
 - license_key: paraview-1.2
   category: Permissive
   spdx_license_key: LicenseRef-scancode-paraview-1.2
@@ -19348,7 +19645,7 @@
   html: parity-7.0.0.html
   license: parity-7.0.0.LICENSE
 - license_key: passive-aggressive
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-passive-aggressive
   other_spdx_license_keys: []
   is_exception: no
@@ -19571,7 +19868,7 @@
   html: pftijah-1.1.html
   license: pftijah-1.1.LICENSE
 - license_key: pftus-1.1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-pftus-1.1
   other_spdx_license_keys: []
   is_exception: no
@@ -19581,7 +19878,7 @@
   html: pftus-1.1.html
   license: pftus-1.1.LICENSE
 - license_key: phaser-academic
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-phaser-academic
   other_spdx_license_keys: []
   is_exception: no
@@ -19702,7 +19999,7 @@
   html: pine.html
   license: pine.LICENSE
 - license_key: pipedream-sal-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-pipedream-sal-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -19852,7 +20149,7 @@
   html: polyform-internal-use-1.0.0.html
   license: polyform-internal-use-1.0.0.LICENSE
 - license_key: polyform-noncommercial-1.0.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: PolyForm-Noncommercial-1.0.0
   other_spdx_license_keys: []
   is_exception: no
@@ -19893,7 +20190,7 @@
   html: polyform-small-business-1.0.0.html
   license: polyform-small-business-1.0.0.LICENSE
 - license_key: polyform-strict-1.0.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-polyform-strict-1.0.0
   other_spdx_license_keys: []
   is_exception: no
@@ -20015,7 +20312,7 @@
   html: proprietary-license.html
   license: proprietary-license.LICENSE
 - license_key: prosperity-1.0.1
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-prosperity-1.0.1
   other_spdx_license_keys: []
   is_exception: no
@@ -20035,7 +20332,7 @@
   html: prosperity-2.0.html
   license: prosperity-2.0.LICENSE
 - license_key: prosperity-3.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-prosperity-3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -20460,7 +20757,7 @@
   html: qti-linux-firmware.html
   license: qti-linux-firmware.LICENSE
 - license_key: quadratic-sal-2024
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-quadratic-sal-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -20510,7 +20807,7 @@
   html: quicktime.html
   license: quicktime.LICENSE
 - license_key: quin-street
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-quin-street
   other_spdx_license_keys: []
   is_exception: no
@@ -20631,7 +20928,7 @@
   html: rar-winrar-eula.html
   license: rar-winrar-eula.LICENSE
 - license_key: rcsl-2.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-rcsl-2.0
   other_spdx_license_keys: []
   is_exception: no
@@ -20641,7 +20938,7 @@
   html: rcsl-2.0.html
   license: rcsl-2.0.LICENSE
 - license_key: rcsl-3.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-rcsl-3.0
   other_spdx_license_keys: []
   is_exception: no
@@ -20783,7 +21080,7 @@
   html: repoze.html
   license: repoze.LICENSE
 - license_key: research-disclaimer
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-research-disclaimer
   other_spdx_license_keys: []
   is_exception: no
@@ -21084,7 +21381,7 @@
   html: rsa-demo.html
   license: rsa-demo.LICENSE
 - license_key: rsa-md2
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-rsa-md2
   other_spdx_license_keys: []
   is_exception: no
@@ -21124,7 +21421,7 @@
   html: rsa-proprietary.html
   license: rsa-proprietary.LICENSE
 - license_key: rsalv2
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-rsalv2
   other_spdx_license_keys: []
   is_exception: no
@@ -21133,6 +21430,16 @@
   yaml: rsalv2.yml
   html: rsalv2.html
   license: rsalv2.LICENSE
+- license_key: rsync-linking-exception
+  category: Copyleft Limited
+  spdx_license_key: rsync-linking-exception
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: rsync-linking-exception.json
+  yaml: rsync-linking-exception.yml
+  html: rsync-linking-exception.html
+  license: rsync-linking-exception.LICENSE
 - license_key: rtems-exception-2.0
   category: Copyleft Limited
   spdx_license_key: LicenseRef-scancode-rtems-exception-2.0
@@ -21204,7 +21511,7 @@
   html: rute.html
   license: rute.LICENSE
 - license_key: rwth-returnn-2024
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-rwth-returnn-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -21234,7 +21541,7 @@
   html: ryszard-szopa.html
   license: ryszard-szopa.LICENSE
 - license_key: s-lab-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-s-lab-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -21284,7 +21591,7 @@
   html: salesforce-ai-aup-2025.html
   license: salesforce-ai-aup-2025.LICENSE
 - license_key: salesforce-ai-ethics-2025
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-salesforce-ai-ethics-2025
   other_spdx_license_keys: []
   is_exception: no
@@ -21475,7 +21782,7 @@
   html: schemereport.html
   license: schemereport.LICENSE
 - license_key: scilab-en-2005
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-scilab-en
   other_spdx_license_keys:
     - LicenseRef-scancode-scilba-en
@@ -21486,7 +21793,7 @@
   html: scilab-en-2005.html
   license: scilab-en-2005.LICENSE
 - license_key: scilab-fr
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-scilab-fr
   other_spdx_license_keys: []
   is_exception: no
@@ -21827,8 +22134,9 @@
   license: sglib.LICENSE
 - license_key: sgmlug
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-sgmlug
-  other_spdx_license_keys: []
+  spdx_license_key: SGMLUG-PM
+  other_spdx_license_keys:
+    - LicenseRef-scancode-sgmlug
   is_exception: no
   is_deprecated: no
   json: sgmlug.json
@@ -21926,7 +22234,7 @@
   html: shopify-2024.html
   license: shopify-2024.LICENSE
 - license_key: siesta-academic-individuals
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-siesta-academic-individuals
   other_spdx_license_keys: []
   is_exception: no
@@ -21936,7 +22244,7 @@
   html: siesta-academic-individuals.html
   license: siesta-academic-individuals.LICENSE
 - license_key: siesta-computer-centres
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-siesta-computer-centres
   other_spdx_license_keys: []
   is_exception: no
@@ -21985,6 +22293,16 @@
   yaml: simpl-2.0.yml
   html: simpl-2.0.html
   license: simpl-2.0.LICENSE
+- license_key: simple-library-usage-exception
+  category: Copyleft Limited
+  spdx_license_key: Simple-Library-Usage-exception
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: simple-library-usage-exception.json
+  yaml: simple-library-usage-exception.yml
+  html: simple-library-usage-exception.html
+  license: simple-library-usage-exception.LICENSE
 - license_key: six-labors-split-1.0
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-six-labors-split-1.0
@@ -22107,7 +22425,7 @@
   html: smppl.html
   license: smppl.LICENSE
 - license_key: smsc-non-commercial-2012
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-smsc-non-commercial-2012
   other_spdx_license_keys: []
   is_exception: no
@@ -22177,7 +22495,7 @@
   html: snowplow-lula-1.0.html
   license: snowplow-lula-1.0.LICENSE
 - license_key: snowplow-person-academic-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-snowplow-person-academic-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -22269,7 +22587,7 @@
   html: softsurfer.html
   license: softsurfer.LICENSE
 - license_key: solace-software-eula-2020
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-solace-software-eula-2020
   other_spdx_license_keys: []
   is_exception: no
@@ -22400,6 +22718,16 @@
   yaml: splunk-sla.yml
   html: splunk-sla.html
   license: splunk-sla.LICENSE
+- license_key: sqlitestudio-openssl-exception
+  category: Copyleft Limited
+  spdx_license_key: sqlitestudio-OpenSSL-exception
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: sqlitestudio-openssl-exception.json
+  yaml: sqlitestudio-openssl-exception.yml
+  html: sqlitestudio-openssl-exception.html
+  license: sqlitestudio-openssl-exception.LICENSE
 - license_key: square-cla
   category: CLA
   spdx_license_key: LicenseRef-scancode-square-cla
@@ -22482,7 +22810,7 @@
   html: st-mcd-2.0.html
   license: st-mcd-2.0.LICENSE
 - license_key: stability-ai-community-2024
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-stability-ai-community-2024
   other_spdx_license_keys: []
   is_exception: no
@@ -22492,7 +22820,7 @@
   html: stability-ai-community-2024.html
   license: stability-ai-community-2024.LICENSE
 - license_key: stability-ai-nc-2023-12-06
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-stability-ai-nc-2023-12-06
   other_spdx_license_keys: []
   is_exception: no
@@ -23087,7 +23415,7 @@
   html: sun-project-x.html
   license: sun-project-x.LICENSE
 - license_key: sun-prop-non-commercial
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-sun-prop-non-commercial
   other_spdx_license_keys: []
   is_exception: no
@@ -23208,7 +23536,7 @@
   html: supervisor.html
   license: supervisor.LICENSE
 - license_key: sustainable-use-1.0
-  category: Free Restricted
+  category: Non-Commercial
   spdx_license_key: SUL-1.0
   other_spdx_license_keys:
     - LicenseRef-scancode-sustainable-use-1.0
@@ -23330,8 +23658,9 @@
   license: syntext-serna-exception-1.0.LICENSE
 - license_key: synthesis-toolkit
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-synthesis-toolkit
-  other_spdx_license_keys: []
+  spdx_license_key: MIT-STK
+  other_spdx_license_keys:
+    - LicenseRef-scancode-synthesis-toolkit
   is_exception: no
   is_deprecated: no
   json: synthesis-toolkit.json
@@ -23590,8 +23919,9 @@
   license: teamdev-services.LICENSE
 - license_key: tekhvc
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-tekhvc
-  other_spdx_license_keys: []
+  spdx_license_key: TekHVC
+  other_spdx_license_keys:
+    - LicenseRef-scancode-tekhvc
   is_exception: no
   is_deprecated: no
   json: tekhvc.json
@@ -23619,7 +23949,7 @@
   html: telerik-eula.html
   license: telerik-eula.LICENSE
 - license_key: tenable-nessus
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-tenable-nessus
   other_spdx_license_keys: []
   is_exception: no
@@ -23802,6 +24132,16 @@
   yaml: ti-restricted.yml
   html: ti-restricted.html
   license: ti-restricted.LICENSE
+- license_key: ti-text-file
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-ti-text-file
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: ti-text-file.json
+  yaml: ti-text-file.yml
+  html: ti-text-file.html
+  license: ti-text-file.LICENSE
 - license_key: tidy
   category: Permissive
   spdx_license_key: HTMLTIDY
@@ -24053,7 +24393,7 @@
   html: trendmicro-cl-1.0.html
   license: trendmicro-cl-1.0.LICENSE
 - license_key: triptracker
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-triptracker
   other_spdx_license_keys: []
   is_exception: no
@@ -24123,7 +24463,7 @@
   html: trustonic-proprietary-2013.html
   license: trustonic-proprietary-2013.LICENSE
 - license_key: tsl-2018
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-tsl-2018
   other_spdx_license_keys: []
   is_exception: no
@@ -24591,8 +24931,9 @@
   license: unpublished-source.LICENSE
 - license_key: unrar
   category: Source-available
-  spdx_license_key: LicenseRef-scancode-unrar
-  other_spdx_license_keys: []
+  spdx_license_key: UnRAR
+  other_spdx_license_keys:
+    - LicenseRef-scancode-unrar
   is_exception: no
   is_deprecated: no
   json: unrar.json
@@ -24630,7 +24971,7 @@
   html: unstated.html
   license: unstated.LICENSE
 - license_key: uofu-rfpl
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-uofu-rfpl
   other_spdx_license_keys: []
   is_exception: no
@@ -24750,7 +25091,7 @@
   html: vaadin-cvdl-4.0.html
   license: vaadin-cvdl-4.0.LICENSE
 - license_key: vanderbilt-sla-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-vanderbilt-sla-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -24780,7 +25121,7 @@
   html: vcalendar.html
   license: vcalendar.LICENSE
 - license_key: vcvrack-exception-to-gpl-3.0
-  category: Copyleft Limited
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-vcvrack-exception-to-gpl-3.0
   other_spdx_license_keys: []
   is_exception: yes
@@ -24913,8 +25254,9 @@
   license: vitesse-prop.LICENSE
 - license_key: vixie-cron
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-vixie-cron
-  other_spdx_license_keys: []
+  spdx_license_key: Vixie-Cron
+  other_spdx_license_keys:
+    - LicenseRef-scancode-vixie-cron
   is_exception: no
   is_deprecated: no
   json: vixie-cron.json
@@ -24942,7 +25284,7 @@
   html: volatility-vsl-v1.0.html
   license: volatility-vsl-v1.0.LICENSE
 - license_key: volla-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-volla-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -25022,7 +25364,7 @@
   html: vuforia-2013-07-29.html
   license: vuforia-2013-07-29.LICENSE
 - license_key: vvvvvv-scl-1.0
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-vvvvvv-scl-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -25373,8 +25715,9 @@
   license: woodruff-2002.LICENSE
 - license_key: wordnet
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-wordnet
-  other_spdx_license_keys: []
+  spdx_license_key: WordNet
+  other_spdx_license_keys:
+    - LicenseRef-scancode-wordnet
   is_exception: no
   is_deprecated: no
   json: wordnet.json
@@ -25443,8 +25786,9 @@
   license: wsuipa.LICENSE
 - license_key: wtfnmfpl-1.0
   category: Permissive
-  spdx_license_key: LicenseRef-scancode-wtfnmfpl-1.0
-  other_spdx_license_keys: []
+  spdx_license_key: WTFNMFPL
+  other_spdx_license_keys:
+    - LicenseRef-scancode-wtfnmfpl-1.0
   is_exception: no
   is_deprecated: no
   json: wtfnmfpl-1.0.json
@@ -25706,6 +26050,16 @@
   yaml: x11-lucent-variant.yml
   html: x11-lucent-variant.html
   license: x11-lucent-variant.LICENSE
+- license_key: x11-no-permit-persons
+  category: Permissive
+  spdx_license_key: X11-no-permit-persons
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: x11-no-permit-persons.json
+  yaml: x11-no-permit-persons.yml
+  html: x11-no-permit-persons.html
+  license: x11-no-permit-persons.LICENSE
 - license_key: x11-oar
   category: Permissive
   spdx_license_key: OAR
@@ -25871,7 +26225,7 @@
   html: x11r5-authors.html
   license: x11r5-authors.LICENSE
 - license_key: xceed-community-2021
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-xceed-community-2021
   other_spdx_license_keys: []
   is_exception: no
@@ -26041,7 +26395,7 @@
   html: xzoom.html
   license: xzoom.LICENSE
 - license_key: yahoo-browserplus-eula
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-yahoo-browserplus-eula
   other_spdx_license_keys: []
   is_exception: no
@@ -26051,7 +26405,7 @@
   html: yahoo-browserplus-eula.html
   license: yahoo-browserplus-eula.LICENSE
 - license_key: yahoo-messenger-eula
-  category: Proprietary Free
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-yahoo-messenger-eula
   other_spdx_license_keys: []
   is_exception: no
@@ -26141,7 +26495,7 @@
   html: zed.html
   license: zed.LICENSE
 - license_key: zeebe-community-1.0
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-zeebe-community-1.0
   other_spdx_license_keys: []
   is_exception: no
@@ -26151,7 +26505,7 @@
   html: zeebe-community-1.0.html
   license: zeebe-community-1.0.LICENSE
 - license_key: zeebe-community-1.1
-  category: Source-available
+  category: Non-Commercial
   spdx_license_key: LicenseRef-scancode-zeebe-community-1.1
   other_spdx_license_keys: []
   is_exception: no

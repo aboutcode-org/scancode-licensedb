@@ -1,0 +1,13 @@
+{
+  "key": "osc-1.0",
+  "language": "de",
+  "short_name": "OSC License 1.0",
+  "name": "OSC License 1.0",
+  "category": "Permissive",
+  "owner": "Niccolo Langenheim",
+  "spdx_license_key": "OSC-1.0",
+  "other_urls": [
+    "https://opensource.org/license/osc-license-1-0"
+  ],
+  "text": "Copyright (c) <Jahr> <Copyright Inhaber>\n\nJedem, der eine Kopie dieser Software und der zugeh\u00f6rigen Dokumentationsdateien (die \u201eSoftware\u201c) erh\u00e4lt, wird hiermit kostenlos die Erlaubnis erteilt, ohne Einschr\u00e4nkung die Software zu verwenden, einschlie\u00dflich und ohne Einschr\u00e4nkung der Rechte zur Nutzung, zum Kopieren, \u00c4ndern, Zusammenf\u00fchren, Ver\u00f6ffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software zur Verf\u00fcgung gestellt wird, dies unter den folgenden Bedingungen zu gestatten:\n\nDer obige Urheberrechtshinweis und dieser Genehmigungshinweis m\u00fcssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.\n\nDIE URHEBER ODER URHEBERRECHTSINHABER HAFTEN UNBESCHR\u00c4NKT BEI VORSATZ, ARGLISTIGER T\u00c4USCHUNG, GROBER FAHRL\u00c4SSIGKEIT, DER VERLETZUNG VON LEIB, LEBEN ODER GESUNDHEIT UND SOWEIT DIE HAFTUNG GESETZLICH NICHT BESCHR\u00c4NKT ODER AUSGESCHLOSSEN WERDEN KANN. BEI FAHRL\u00c4SSIGER VERLETZUNG EINER PFLICHT, DEREN ERF\u00dcLLUNG WESENTLICH F\u00dcR DIE DURCHF\u00dcHRUNG DES VERTRAGS IST (KARDINALPFLICHT), HAFTEN DIE URHEBER ODER URHEBERRECHTSINHABER DER H\u00d6HE NACH BEGRENZT AUF DEN SCHADEN, DER BEI VERTRAGSSCHLUSS VORHERSEHBAR UND TYPISCH IST.\n\nDAR\u00dcBER HINAUS IST EINE HAFTUNG AUSGESCHLOSSEN.\n\nDIE VORSTEHENDE HAFTUNGSBESCHR\u00c4NKUNG GILT AUCH F\u00dcR DIE HAFTUNG DER MITARBEITER, VERTRETER UND ORGANE DER URHEBER ODER URHEBERRECHTSINHABER."
+}

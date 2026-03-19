@@ -1,0 +1,31 @@
+key: inbox-zero-exception-3.0
+short_name: Inbox Zero Exception to AGPL 3.0
+name: Inbox Zero Exception to AGPL 3.0
+category: Copyleft
+owner: inbox-zero
+homepage_url: https://github.com/elie222/inbox-zero/blob/2785c48e3324b88dcc99c30a4dd8102cf0acc9de/LICENSE#L8
+is_exception: yes
+spdx_license_key: LicenseRef-scancode-inbox-zero-exception-3.0
+ignorable_copyrights:
+  - Copyright (c) 2025 Inbox Zero Inc.
+ignorable_holders:
+  - Inbox Zero Inc.
+ignorable_urls:
+  - https://www.getinboxzero.com/
+ignorable_emails:
+  - elie@getinboxzero.com
+text: "===============================================================================\n   \
+  \                     ADDITIONAL TERMS FOR INBOX ZERO\n===============================================================================\n\
+  \nThis software is licensed under the GNU Affero General Public License v3.0\nwith the following\
+  \ additional terms:\n\nCOMMERCIAL MONETIZATION RESTRICTION:\nYou may not use this Program\
+  \ or any derivative work based on this Program for \ncommercial purposes that involve monetizing\
+  \ the software itself, including but \nnot limited to selling access to the software, offering\
+  \ it as a paid service, \nor incorporating it into a commercial product that is sold or licensed\
+  \ for \nprofit, without explicit written permission from Inbox Zero Inc.\n\nENTERPRISE USE\
+  \ LIMITATION:\nIf you are an organization with five (5) or more employees, contractors, or\
+  \ \nusers who will use this Program for business purposes, you must obtain an \nenterprise\
+  \ license from Inbox Zero Inc. before using this Program.\n\nEXEMPTIONS:\nThese restrictions\
+  \ do not apply to personal use, educational use, research \npurposes, or use by organizations\
+  \ with fewer than five (5) business users.\n\nENTERPRISE LICENSING:\nFor enterprise licensing\
+  \ inquiries, contact:\n  Inbox Zero Inc.\n  Email: elie@getinboxzero.com\n  Website: https://www.getinboxzero.com\n\
+  \nCOPYRIGHT:\nCopyright (C) 2025 Inbox Zero Inc.\n\n==============================================================================="
