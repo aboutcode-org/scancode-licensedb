@@ -1,0 +1,15 @@
+{
+  "key": "kapivara-sal-1.0",
+  "short_name": "Kapivara Source Available License 1.0",
+  "name": "Kapivara Source Available License 1.0",
+  "category": "Non-Commercial",
+  "owner": "Jos\u00e9 Gald\u00e1mez",
+  "spdx_license_key": "LicenseRef-scancode-kapivara-sal-1.0",
+  "ignorable_copyrights": [
+    "Copyright Holder (Jose Galdamez)"
+  ],
+  "ignorable_holders": [
+    "(Jose Galdamez)"
+  ],
+  "text": "KAPIVARA SOURCE AVAILABLE LICENSE\nVersion 1.0\n\n1. PERMISSIONS\nYou are permitted to:\n- Download the source code and view it.\n- Modify the source code for personal, educational, or private use.\n- Submit contributions (Pull Requests) to the repository. By submitting a contribution, you agree specifically that your contribution is licensed to the project owner (Jose Galdamez) with full rights to use, license, and monetize the contribution.\n- Distribute copies of the project for non-commercial purposes only, provided this license file is kept intact.\n\n2. RESTRICTIONS\nYou are NOT permitted to:\n- Use this software for any commercial purpose (including internal business use).\n- Sell this software or any services based on this software.\n- Use this software to generate revenue, directly or indirectly.\n- Remove or alter this license or copyright notices.\n\n3. COMMERCIAL USE\nThe exclusive right to monetize, sell, and profit from this software belongs to the Copyright Holder (Jose Galdamez).\nAny commercial use by third parties requires a separate, explicit written commercial license agreement from the Copyright Holder.\n\n4. NO WARRANTY\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+}

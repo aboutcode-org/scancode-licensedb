@@ -1,0 +1,210 @@
+key: alphagenome-model-tou-2025
+short_name: AlphaGenome Model TOU 2025
+name: AlphaGenome Model Terms of Use 2025
+category: Non-Commercial
+owner: Google
+homepage_url: https://deepmind.google.com/science/alphagenome/model-terms
+spdx_license_key: LicenseRef-scancode-alphagenome-model-tou-2025
+text_urls:
+  - https://storage.googleapis.com/alphagenome/terms/AlphaGenome-Model-Terms-of-Use.pdf
+other_urls:
+  - https://deepmind.google/
+ignorable_authors:
+  - Google DeepMind
+ignorable_urls:
+  - http://github.com/google-deepmind/alphagenome_research
+  - https://deepmind.google.com/science/alphagenome/output-terms
+  - https://deepmind.google.com/science/alphagenome/terms
+ignorable_emails:
+  - alphagenome@google.com
+text: "AlphaGenome Model Terms of Use\n\nLast Modified: Dec 10, 2025\n\nAlphaGenome is an AI\
+  \ model developed by Google DeepMind. It is a unifying model for deciphering the regulatory\
+  \ code within DNA sequences, offering multimodal predictions. We make the trained model parameters\
+  \ and output generated using those available free of charge for certain non-commercial uses,\
+  \ in accordance with these terms of use.\n\nKey things to know when using the AlphaGenome\
+  \ model parameters and output and all related derivatives\n\n    The AlphaGenome model parameters,\
+  \ output and derivatives (of model parameters and/ or output) are only available for non-commercial\
+  \ use by, or on behalf of, non-commercial organizations (i.e., universities, non-profit organizations\
+  \ and research institutes, educational, journalism and government bodies). If you are a researcher\
+  \ affiliated with a non-commercial organization, provided you are not a commercial organization\
+  \ or acting on behalf of a commercial organization, this means you can use these for your\
+  \ non-commercial affiliated research.\n    You must not use nor allow others to use AlphaGenome\
+  \ model parameters, output or derivatives:\n        in connection with any commercial activities,\
+  \ including research on behalf of commercial organizations;\n        to train machine learning\
+  \ models or related technology, other than as expressly permitted in accordance with these\
+  \ Terms; or\n        for clinical purposes or rely on them for medical or other professional\
+  \ advice.\n    You can publish, share and adapt AlphaGenome output and AlphaGenome model parameters\
+  \ provided you do so in accordance with these Terms, including the requirements (i) to provide\
+  \ clear notice of any modifications you make; (ii) that use of AlphaGenome output and derivatives\
+  \ are subject to the AlphaGenome Output Terms of Use; and (iii) that use of AlphaGenome model\
+  \ parameters and derivatives are subject to the conditions set out in these terms.\n\nBy using,\
+  \ reproducing, modifying, performing, distributing or displaying any portion or element of\
+  \ the Model Parameters (as defined below) or otherwise accepting these terms, you agree to\
+  \ be bound by these terms of use (the \"Terms\"), in each case (a) as modified from time to\
+  \ time in accordance with Section 6 below, and (b) between you and Google LLC (if you are\
+  \ located outside of EEA and Switzerland) and Google Ireland Limited (if you are located in,\
+  \ or if you are an entity whose principal place of business is in the EEA or Switzerland)\
+  \ (\"Google\").\n\nYou confirm you are authorized either explicitly or implicitly to enter,\
+  \ and are entering, into the Terms as an employee on behalf of, or otherwise on behalf of,\
+  \ your organization.\n\nPlease read these Terms carefully. They establish what you can expect\
+  \ from us as you access and use the AlphaGenome Assets (as defined below), and what Google\
+  \ expects from you. When we say \"you\", we mean the individual or organization using the\
+  \ AlphaGenome Assets. When we say \"we\", \"us\" or \"Google\", we mean Google as defined\
+  \ above.\n\n1. Key Definitions\n\nAs used in these Terms:\n\n\"AlphaGenome\" means: (a) the\
+  \ AlphaGenome source code made available http://github.com/google-deepmind/alphagenome_research\
+  \ and licensed under the terms of the Apache 2.0 license and any derivative source code, and\
+  \ (b) Model Parameters.\n\n\"AlphaGenome Assets\" means the Model Parameters, Output and Derivatives.\n\
+  \n\"Derivatives\" means (a) Output Derivatives and (b) Model Parameter Derivatives.\n\n\"\
+  Model Parameter Derivatives\" means (i) modifications to Model Parameters, (ii) works based\
+  \ on Model Parameters, or (iii) any other machine learning model which is created by transfer\
+  \ of patterns of the weights, parameters, operations, or Output or Output Derivative, to that\
+  \ other model in order to cause that other model to perform similarly to AlphaGenome, including\
+  \ distillation methods that use intermediate data representations or methods based on the\
+  \ generation of synthetic data Outputs or Output Derivatives for training that model.\n\n\"\
+  Model Parameters\" means the trained model weights and parameters made available by Google\
+  \ to organizations (at its sole discretion) for their use in accordance with these Terms.\n\
+  \n\"Output\" means predictions or related information provided using Model Parameters or Model\
+  \ Parameter Derivatives.\n\n\"Output Derivatives\" means any visual representations, computational\
+  \ predictions, descriptions, modifications, copies, or adaptations that are substantially\
+  \ derived from Output.\n\n\"Including\" means \"including without limitation\".\n\n2. Accessing\
+  \ and using the AlphaGenome Assets\n\nSubject to your compliance with the Terms, including\
+  \ the Use Restrictions in Section 3 below, you may access, use and modify the AlphaGenome\
+  \ Assets and distribute them as set out in these Terms. We grant you a non-exclusive, royalty-free,\
+  \ revocable, non-transferable and non-sublicensable (except as expressly permitted in these\
+  \ Terms) license to any intellectual property rights we have in the AlphaGenome Assets to\
+  \ the extent necessary for these purposes.\n\nBy accessing, using, modifying or distributing\
+  \ the AlphaGenome Assets, you represent and warrant that (a) you have full power and authority\
+  \ to enter into these Terms (including being of sufficient age of consent), (b) Google has\
+  \ never previously terminated your access and right to use AlphaGenome (including as made\
+  \ available via AlphaGenome API) due to your breach of applicable terms of use, (c) entering\
+  \ into or performing your rights and obligations under these Terms will not violate any agreement\
+  \ you have with a third party or any third-party rights, (d) any information provided by you\
+  \ to Google in relation to AlphaGenome, including (where applicable) in order to request access\
+  \ to the Model Parameters, is correct and current, and (e) you are not (i) resident of an\
+  \ embargoed country, (ii) ordinarily resident in a US embargoed country, or (iii) otherwise\
+  \ prohibited by applicable export controls and sanctions programs from accessing, using, or\
+  \ modifying the AlphaGenome Assets.\n\n3. Use Restrictions\n\nYou must not use nor allow others\
+  \ to use any of the AlphaGenome Assets:\n\n    On behalf of a commercial organization or in\
+  \ connection with any commercial activities, including research on behalf of commercial organizations.\
+  \ The only exception is journalism.\n        This means that only individuals and non-commercial\
+  \ organizations (universities, non-profit organizations and research institutes, educational\
+  \ and government bodies) may use the AlphaGenome Assets and only for non-commercial purposes.\
+  \ The only exception is journalism which is permitted. The AlphaGenome Assets aren’t available\
+  \ for any other types of organization, even if conducting non-commercial work.\n        You\
+  \ must not share any AlphaGenome Assets with any commercial organization or use AlphaGenome\
+  \ in a manner that will grant a commercial organization any rights in AlphaGenome Assets,\
+  \ in each case aside from indirectly via a scientific publication, open source release or\
+  \ to support journalism.\n    To reverse engineer, disassemble, republish, copy, modify, distribute,\
+  \ transfer, sell, or otherwise grant or permit access to AlphaGenome Assets, including the\
+  \ underlying data or models (e.g., parameter weights), except to the extent:\n        such\
+  \ reverse engineering is allowed by applicable law; or\n        expressly permitted in these\
+  \ Terms.\n    Without providing conspicuous notice that any Output or Output Derivatives you\
+  \ publish or distribute are provided under and subject to AlphaGenome Output Terms of Use,\
+  \ and any modifications you have made to Output.\n        By way of example, you can do this\
+  \ by sharing a copy of the AlphaGenome Output Terms of Use and a \"Legally Binding Terms of\
+  \ Use\" text file that contains the following notice: \"By using this information, you agree\
+  \ to AlphaGenome Output Terms of Use found at https://deepmind.google.com/science/alphagenome/output-terms\"\
+  .\n        You must not include any additional or different terms that conflict with the AlphaGenome\
+  \ Output Terms of Use.\n    To misinform, misrepresent or mislead, including:\n        misrepresenting\
+  \ your relationship with us;\n        misrepresenting the origin of AlphaGenome Assets;\n\
+  \        distributing misleading claims of expertise or capability made particularly in sensitive\
+  \ areas (e.g., health); or\n        making decisions in domains that affect material or individual\
+  \ rights or well-being (e.g., healthcare).\n    In violation of applicable laws and regulations\
+  \ or to perform or facilitate dangerous, illegal or malicious activities, including:\n   \
+  \     promoting or facilitating the sale of, or providing instructions for synthesizing or\
+  \ accessing, illegal substances, goods or services;\n        attempting to override or circumvent\
+  \ safety filters or intentionally drive the model to act in a manner that contravenes our\
+  \ Terms;\n    To circumvent access restrictions relating to the Model Parameters, including\
+  \ utilizing, sharing or making available the Model Parameters other than as expressly permitted\
+  \ in these Terms. \n\nTo the maximum extent permitted by law and without limiting any of our\
+  \ other rights, Google reserves the right to revoke your right to use, and (to the extent\
+  \ feasible) restrict usage of any of the AlphaGenome Assets that Google reasonably believes\
+  \ is in violation of these Terms.\n\n4. Distribution of Model Parameters or Model Parameter\
+  \ Derivatives. You may reproduce or distribute copies of Model Parameters or Model Parameter\
+  \ Derivatives if you meet all of the following conditions:\n\n    You must meet and continue\
+  \ to comply with the use restrictions in Section 3.\n    If you distribute Model Parameters\
+  \ or Model Parameter Derivatives to another person (i.e., not publicly), you must ensure that\
+  \ the recipient is a non-commercial organization and will only use the Model, Model Parameters\
+  \ or Model Parameter Derivatives for non-commercial purposes.\n    You must provide all third\
+  \ party recipients of Model Parameters or Model Parameter Derivatives a copy of these Terms,\
+  \ explaining that their use is subject to these Terms.\n    You must cause any modified files\
+  \ to carry prominent notices stating that you modified the files.\n    All distributions must\
+  \ be accompanied by a \"Notice\" text file that contains the following notice: \"AlphaGenome\
+  \ is provided under and subject to the AlphaGenome Terms of Use found at https://deepmind.google.com/science/alphagenome/terms]\"\
+  .\n\n5. Generated Output\n\nAlthough you must comply with these Terms when using the AlphaGenome\
+  \ Assets, we will not claim ownership in original Output you generate using any AlphaGenome\
+  \ Assets. However, you acknowledge that AlphaGenome may generate the same or similar Output\
+  \ for multiple users, including Google, and we reserve all our rights in this respect.\n\n\
+  6. Changes to the AlphaGenome Assets or these Terms\n\nGoogle may stop offering access to\
+  \ the AlphaGenome Assets altogether.\n\nGoogle may update these Terms and the access mechanism\
+  \ for the Model Parameters at any time. We'll post any modifications to the Terms. Changes\
+  \ will generally become effective 14 days after they are posted. However, changes addressing\
+  \ functionality or made for legal reasons will be effective immediately.\n\nYou should review\
+  \ the Terms whenever we update them or you use the AlphaGenome Assets. If you do not agree\
+  \ to any modifications to the Terms, you must stop using the AlphaGenome Assets immediately.\n\
+  \n7. Terminating your right to use the AlphaGenome Assets\n\nGoogle may at any time terminate\
+  \ your right to use and, as applicable access to, the AlphaGenome Assets because of, among\
+  \ other reasons, your failure to fully comply with the Terms. If Google terminates your right\
+  \ to access or use the AlphaGenome Assets, you must immediately delete and cease use and distribution\
+  \ of all copies of the AlphaGenome Assets in your possession or control.\n\nOf course, you\
+  \ are always free to stop using the AlphaGenome Assets. If you do stop using these, we would\
+  \ appreciate knowing why (via alphagenome@google.com) so that we can continue to improve our\
+  \ technologies.\n\n8. Disclaimers\n\nNothing in the Terms restricts any rights that cannot\
+  \ be restricted under applicable law or limits Google's responsibilities except as allowed\
+  \ by applicable law.\n\nAlphaGenome Assets are provided on an \"as is\" basis, without warranties\
+  \ or conditions of any kind, either express or implied, including any warranties or conditions\
+  \ of title, non-infringement, merchantability, or fitness for a particular purpose. You are\
+  \ solely responsible for determining the appropriateness of using AlphaGenome, or using or\
+  \ distributing AlphaGenome Assets, and assume any and all risks associated with such use or\
+  \ distribution and your exercise of rights and obligations under these Terms. You and anyone\
+  \ you share AlphaGenome Assets with are solely responsible for these and their subsequent\
+  \ uses.\n\nOutput and Output Derivatives are predictions with varying levels of confidence\
+  \ and should be interpreted carefully. Use discretion before relying on, publishing, downloading\
+  \ or otherwise using AlphaGenome or AlphaGenome Assets.\n\nAlphaGenome Assets are for theoretical\
+  \ modeling only. They are not intended, validated, or approved for clinical use. You should\
+  \ not use AlphaGenome Assets for clinical purposes or rely on them for medical or other professional\
+  \ advice. Any content regarding those topics is provided for informational purposes only and\
+  \ is not a substitute for advice from a qualified professional.\n\n9. Liabilities\n\nTo the\
+  \ extent allowed by applicable law, you will indemnify Google and its directors, officers,\
+  \ employees, and contractors for any third-party legal proceedings (including actions by government\
+  \ authorities) arising out of or relating to your unlawful use of the AlphaGenome Assets or\
+  \ violation of the Terms. This indemnity covers any liability or expense arising from claims,\
+  \ losses, damages, judgments, fines, litigation costs, and legal fees, except to the extent\
+  \ a liability or expense is caused by Google's breach, negligence, or willful misconduct.\
+  \ If you are legally exempt from certain responsibilities, including indemnification, then\
+  \ those responsibilities do not apply to you under the Terms.\n\nIn no circumstances will\
+  \ Google be responsible for any indirect, special, incidental, exemplary, consequential, or\
+  \ punitive damages, or lost profits of any kind in connection with the Terms or the AlphaGenome\
+  \ Assets, even if Google has been advised of the possibility of such damages. Google's total\
+  \ aggregate liability for all claims arising out of or in connection with the Terms or the\
+  \ AlphaGenome Assets, including for its own negligence, is limited to $500.\n\n10. Miscellaneous\n\
+  \nBy law, you have certain rights that cannot be limited by a contract like the Terms. The\
+  \ Terms are in no way intended to restrict those rights.\n\nThe Terms are our entire agreement\
+  \ relating to your use of the AlphaGenome Assets and supersede any prior or contemporaneous\
+  \ agreements on that subject.\n\nIf it turns out that a particular provision of the Terms\
+  \ is not enforceable, the balance of the Terms will remain in full force and effect.\n\n11.\
+  \ Disputes\n\nCalifornia law will govern all disputes arising out of or relating to the Terms\
+  \ or in connection to the AlphaGenome Assets. These disputes will be resolved exclusively\
+  \ in the federal or state courts of Santa Clara County, California, USA and you and Google\
+  \ consent to personal jurisdiction in those courts. To the extent that applicable local law\
+  \ prevents certain disputes from being resolved in a California court, you and Google can\
+  \ file those disputes in your local courts. If applicable local law prevents your local court\
+  \ from applying California law to resolve these disputes, then these disputes will be governed\
+  \ by the applicable local laws of your country, state, or other place of residence. If you\
+  \ are using the AlphaGenome Assets on behalf of a government organization other than US federal\
+  \ government organizations (where the foregoing provisions shall apply to the extent permitted\
+  \ by federal law), these Terms will be silent regarding governing law and courts.\n\nGiven\
+  \ the nature of scientific research, it may take some time for any breach of the Terms to\
+  \ become apparent. To protect you, Google and the AlphaGenome Assets, to the extent allowed\
+  \ by applicable law you agree that:\n\n    any legal claims relating to the Terms or the AlphaGenome\
+  \ Assets can be initiated until the later of:\n        the cut-off date under applicable law\
+  \ for bringing the legal claim; or\n        two years from the date you or Google (as applicable)\
+  \ became aware, or should reasonably have become aware, of the facts giving rise to that claim;\
+  \ and\n    you will not argue limitation, time bar, delay, waiver, or the like in an attempt\
+  \ to bar an action filed within that time period, and neither will Google.\n\nAll rights not\
+  \ specifically and expressly granted to you by the Terms are reserved to Google. No delay,\
+  \ act or omission by Google in exercising any right or remedy will be deemed a waiver of any\
+  \ breach of the Terms and Google expressly reserves any and all rights and remedies available\
+  \ under the Terms or at law or in equity or otherwise, including the remedy of injunctive\
+  \ relief against any threatened or actual breach of the Terms without the necessity of proving\
+  \ actual damages."
