@@ -4,7 +4,9 @@ on:
     - cron: '0 16 * * 1-5'
   workflow_dispatch:
 
-permissions: {}
+permissions:
+  contents: write
+
 jobs:
   update_licenseDB:
     name: Daily LicenseDB Update
