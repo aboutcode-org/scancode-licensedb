@@ -1,0 +1,10 @@
+key: flexbyte
+short_name: flexbyte license
+name: flexbyte license
+category: Permissive
+owner: flexbyte
+homepage_url: https://flexbyte.com/
+spdx_license_key: LicenseRef-scancode-flexbyte
+text: "You may use the source code in any product (freeware, commercial, etc.). \nYou may modify\
+  \ the source code as you want except \nyou cannot modify the copyright details at the top\
+  \ of each module.\nIf you have a web site or blog give a link to our web site, flexbyte.com"

@@ -1,0 +1,16 @@
+{
+  "key": "minimax-mit-variant-2025",
+  "short_name": "MiniMax MIT Variant 2025",
+  "name": "MiniMax MIT Variant 2025",
+  "category": "Permissive",
+  "owner": "MiniMax",
+  "homepage_url": "https://github.com/MiniMax-AI/MiniMax-M2.7/blob/d7806d867cd39eac2c9226974ea195fd0b1698a6/LICENSE-CODE",
+  "spdx_license_key": "LicenseRef-scancode-minimax-mit-variant-2025",
+  "ignorable_copyrights": [
+    "Copyright 2025 MiniMax AI."
+  ],
+  "ignorable_holders": [
+    "MiniMax AI."
+  ],
+  "text": "MIT License\n\nCopyright 2025 MiniMax AI.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOur only modification is that, if the Software (or any derivative works\nthereof) is used for any of your commercial products or services, you shall\nprominently display \"MiniMax M2.7\" on the user interface of such product or\nservice."
+}

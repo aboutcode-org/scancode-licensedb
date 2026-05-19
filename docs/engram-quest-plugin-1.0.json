@@ -1,0 +1,16 @@
+{
+  "key": "engram-quest-plugin-1.0",
+  "short_name": "Engram Quest Plugin License v1.0",
+  "name": "Engram Quest Plugin License v1.0",
+  "category": "Non-Commercial",
+  "owner": "bahfahh",
+  "homepage_url": "https://github.com/bahfahh/engram-quest/blob/master/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-engram-quest-plugin-1.0",
+  "ignorable_copyrights": [
+    "Copyright 2026 powen"
+  ],
+  "ignorable_holders": [
+    "powen"
+  ],
+  "text": "# Engram Quest Plugin License\n\nVersion 1.0, April 2026\n\nThis license (\"License\") governs the use, copying, modification, and distribution of the Engram Quest Obsidian plugin and its associated source code (\"the Software\").\n\n## 1. Permission and Usage\n\nSubject to the terms of this License, you are granted a worldwide, non-exclusive, no-charge, royalty-free license to:\n- Use the Software for personal or internal business purposes within the Obsidian application.\n- View, copy, and modify the source code for personal use or to contribute back to this project.\n- Redistribute the Software in its original or modified form, provided that all copies include this License.\n\n## 2. Non-Compete Restriction (CRITICAL)\n\nYou may **NOT** use the Software, its source code, or any derivative works to create, develop, or distribute a competing Obsidian plugin. A \"competing plugin\" is defined as any Obsidian plugin that provides substantially similar core functionality, including but not limited to:\n- Interactive memory maps or quest-based visualizations of Obsidian vaults.\n- Gamified review systems or deck-based macro-review features.\n- Any tool designed to directly replace the Software's primary value proposition within the Obsidian ecosystem.\n\n## 3. Commercial Use\n\n- Individual and internal business use is permitted.\n- You may NOT sell the Software or any derivative works based on the Software.\n- Redistribution as part of a commercial service or paid collection requires explicit written permission from the author.\n\n## 4. No Warranty\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n## 5. Intellectual Property\n\nAll trademarks, service marks, and trade names associated with the Software are the property of the author. Nothing in this License grants you any right to use the author's trademarks or trade names.\n\n## 6. Governing Terms\n\nIf any provision of this License is found to be unenforceable, the remaining provisions will continue in full force and effect.\n\nCopyright 2026 powen. All rights reserved."
+}

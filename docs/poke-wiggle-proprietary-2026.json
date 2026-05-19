@@ -1,0 +1,19 @@
+{
+  "key": "poke-wiggle-proprietary-2026",
+  "short_name": "Poke & Wiggle Proprietary License 2026",
+  "name": "Poke & Wiggle Proprietary License 2026",
+  "category": "Commercial",
+  "owner": "Poke & Wiggle",
+  "homepage_url": "https://huggingface.co/datasets/pokeandwiggle/export_117/blob/main/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-poke-wiggle-proprietary-2026",
+  "ignorable_copyrights": [
+    "Copyright (c) 2026 Poke & Wiggle GmbH."
+  ],
+  "ignorable_holders": [
+    "Poke & Wiggle GmbH."
+  ],
+  "ignorable_emails": [
+    "licensing@pokeandwiggle.com"
+  ],
+  "text": "Poke & Wiggle Proprietary License\n--------------------------------\n\nCopyright (c) 2026 Poke & Wiggle GmbH.\nAll rights reserved.\n\nNO LICENSE GRANTED\n\nNo license or other rights are granted under this agreement. Any use of the\nmaterials in this repository is strictly prohibited unless and until a separate\nwritten agreement has been executed with Poke & Wiggle GmbH.\n\nPROHIBITED USES\n\nWithout limitation, the following actions are prohibited unless expressly\nauthorized in a signed agreement with Poke & Wiggle GmbH:\n\n- Accessing or using the materials for any purpose\n- Downloading, copying, or storing any part of the materials\n- Training, fine-tuning, or evaluating any models using the materials\n- Creating derivative works\n- Distributing, sublicensing, or making the materials available to third parties\n- Using the materials for commercial or non-commercial purposes\n\nNO IMPLIED RIGHTS\n\nThe availability of the materials in this repository does not grant any rights\nby implication, estoppel, or otherwise.\n\nCONTACT\n\nTo obtain a commercial or other license, please contact:\n\nlicensing@pokeandwiggle.com\n\nENFORCEMENT\n\nAny unauthorized use may violate applicable laws and will be enforced to the\nmaximum extent permitted."
+}

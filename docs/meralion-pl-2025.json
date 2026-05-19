@@ -1,0 +1,19 @@
+{
+  "key": "meralion-pl-2025",
+  "short_name": "MERaLiON Public Licence 2025",
+  "name": "MERaLiON Public Licence 2025",
+  "category": "Permissive",
+  "owner": "A-STAR",
+  "homepage_url": "https://huggingface.co/MERaLiON/MERaLiON-SER-v1",
+  "spdx_license_key": "LicenseRef-scancode-meralion-pl-2025",
+  "text_urls": [
+    "https://huggingface.co/MERaLiON/MERaLiON-SER-v1/resolve/main/MERaLiON-Public-Licence-SER-V1.pdf"
+  ],
+  "ignorable_authors": [
+    "the Institute for Infocomm Research (\"I2R\"), a national research institute of the Agency for Science Technology And Research"
+  ],
+  "ignorable_urls": [
+    "https://opensource.org/license/mit"
+  ],
+  "text": "MERaLiON Public Licence\n\nMERaLiON is developed by the Institute for Infocomm Research (\u201cI\u00b2R\u201d), a national research\ninstitute of the Agency for Science Technology And Research (\u201cA*STAR\u201d), funded by the\nNational Research Foundation, Singapore under its National Large Language Models Funding\nInitiative.\n\nMERaLiON (the \u201cSoftware\u201d) is available for use on the terms set out below. Your use of the\nSoftware is conditional on your agreement to these terms. Please do not proceed if you do\nnot agree to these terms.\n\nMERaLiON-SER-v1\nThe MIT License\nhttps://opensource.org/license/mit\n\nTerms of Use\nYou agree that if you share or otherwise distribute the Software (including in an adapted or\nmodified form (\u201cDerivative Work\u201d)), you must:\n(a) Retain the identity of the creators.\n(b) Retain a copyright notice,\n(c) Include a disclaimer of warranties,\n(d) Indicate if you have modified the Software and retain an indication of the modifications,\nand\n(e) Indicate that this Software is licensed under these public license terms and include the\ntext of or a link to these license terms.\n\nIf you share or otherwise distribute Derivative Works, you agree that:\n(a) you shall not use or combine the Software with third-party resources with incompatible\nterms,\n(b) you are responsible for ensuring that you have all necessary rights and permissions to\nuse the third-party resources,\n(c) you shall indemnify and hold harmless the creators for any and all liability, loss,\ndamage, costs and expense arising from any claims in relation to your use of the\nSoftware and third-party resources in or in generating the Derivative Works, and\n(d) the license you apply to the Derivative Works must not prevent recipients of the\nDerivative Works from complying with these terms.\n\nSpecific Disclaimer\n\nThe Software has not been specifically aligned for safety and may generate content that is\ninappropriate, offensive, or harmful. Developers and users are responsible for performing their\nown safety fine-tuning and implementing necessary security measures. The creators shall not\nbe held liable for any claims, damages, or other liabilities arising from the use of the Software,\nweights, or code.\n\nOut-of-Scope Use\n\nThe Software is not intended for use in math and coding tasks."
+}
