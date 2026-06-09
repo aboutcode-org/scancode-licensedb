@@ -1,0 +1,16 @@
+{
+  "key": "mgb-brainiac-nc-2026",
+  "short_name": "MGB BrainIAC Research-Only License 2026",
+  "name": "MGB BrainIAC Research-Only License 2026",
+  "category": "Non-Commercial",
+  "owner": "MGB",
+  "homepage_url": "https://github.com/AIM-KannLab/BrainIAC/blob/main/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-mgb-brainiac-nc-2026",
+  "ignorable_copyrights": [
+    "Copyright (c) 2026 Mass General Brigham and contributors"
+  ],
+  "ignorable_holders": [
+    "Mass General Brigham and contributors"
+  ],
+  "text": "BrainIAC Research-Only License\n\nCopyright \u00a9 2026\nMass General Brigham and contributors\n\nPermission is hereby granted to use, copy, modify, and distribute this\nsoftware and associated documentation files (the \u201cSoftware\u201d) solely for\nnon-commercial academic research and educational purposes.\n\nCommercial use of the Software is strictly prohibited without a separate\nwritten license from Mass General Brigham. Commercial use includes, but is\nnot limited to:\n- Use in products, services, or platforms offered for a fee or other\n  commercial advantage;\n- Use in clinical workflows, decision support systems, or healthcare\n  operations;\n- Use by for-profit entities for internal or external commercial purposes;\n- Redistribution or deployment of the Software or derived works as part\n  of a commercial offering.\n\nThe Software may not be sublicensed, sold, leased, or otherwise transferred\nfor commercial purposes without prior written authorization from\nMass General Brigham.\n\nThe Software is provided \u201cAS IS\u201d, without warranty of any kind, express or\nimplied, including but not limited to the warranties of merchantability,\nfitness for a particular purpose, and non-infringement. In no event shall\nthe authors or copyright holders be liable for any claim, damages, or other\nliability, whether in an action of contract, tort, or otherwise, arising\nfrom, out of, or in connection with the Software or the use or other\ndealings in the Software.\n\nAll commercial rights are expressly reserved."
+}

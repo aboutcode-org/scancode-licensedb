@@ -1,0 +1,16 @@
+{
+  "key": "whitedns-sal-nc-2026",
+  "short_name": "WhiteDNS Source-Available Proprietary 2026",
+  "name": "WhiteDNS Source-Available Proprietary License 2026",
+  "category": "Non-Commercial",
+  "owner": "WhiteDNS",
+  "homepage_url": "https://github.com/iampedii/WhiteDNS/blob/main/LICENSE.MD",
+  "spdx_license_key": "LicenseRef-scancode-whitedns-sal-nc-2026",
+  "ignorable_copyrights": [
+    "Copyright (c) 2026 WhiteDNS / Pedram Marandi"
+  ],
+  "ignorable_holders": [
+    "WhiteDNS / Pedram Marandi"
+  ],
+  "text": "WhiteDNS Source-Available Proprietary License\n\nCopyright (c) 2026 WhiteDNS / Pedram Marandi. All rights reserved.\n\nThis software is source-available, not open-source.\n\n1. Permission to View and Contribute\n\nYou may view the source code for transparency, security review, learning, and contribution to the official WhiteDNS project.\n\nYou may submit issues, bug reports, pull requests, patches, translations, documentation improvements, and other contributions to the official WhiteDNS repository.\n\n2. No Redistribution or Forked Apps\n\nYou may not copy, redistribute, publish, mirror, sell, rent, lease, sublicense, repackage, re-sign, upload, or distribute this software, in whole or in part, without prior written permission.\n\nYou may not use this software, source code, UI, APK, assets, configuration format, or related materials to create, publish, distribute, or operate another app, fork, clone, modified version, competing service, or derivative product.\n\n3. No Rebranding\n\nYou may not use the WhiteDNS name, logo, icon, brand, design, screenshots, Telegram identity, domain names, package identity, or confusingly similar names or branding without prior written permission.\n\n4. Contributions\n\nBy submitting a contribution to the official WhiteDNS project, you agree that your contribution may be used, modified, distributed, sublicensed, and included in WhiteDNS by the project maintainers.\n\nYou confirm that your contribution is your original work or that you have the necessary rights to submit it.\n\nYou do not receive ownership, control, revenue share, or distribution rights over the WhiteDNS project by submitting a contribution.\n\n5. Official Distribution Only\n\nOnly APKs and releases published by the official WhiteDNS team are authorized.\n\nModified, re-signed, repackaged, redistributed, or unofficial APKs are not permitted and may be unsafe.\n\n6. Reverse Engineering and Security Research\n\nSecurity research is allowed only for responsible disclosure to the official WhiteDNS team.\n\nYou may not publicly distribute exploit code, modified builds, bypass tools, malware-injected versions, or instructions that enable abuse of WhiteDNS users.\n\n7. No Warranty\n\nThis software is provided \"as is\", without warranty of any kind.\n\nThe copyright holder is not responsible for damages, data loss, security issues, misuse, service interruption, or other consequences arising from use of the software.\n\n8. Termination\n\nYour permission to view or use this software ends automatically if you violate this license.\n\n9. Permission Requests\n\nFor commercial use, redistribution, partnerships, or special permissions, contact the official WhiteDNS team."
+}

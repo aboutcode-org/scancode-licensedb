@@ -1,0 +1,22 @@
+{
+  "key": "emq-use-grant-for-bsl-1.1",
+  "short_name": "EMQ Use Grant for BSL 1.1",
+  "name": "EMQ Additional Use Grant for BSL 1.1",
+  "category": "Source-available",
+  "owner": "EMQ Technologies Incorporated",
+  "homepage_url": "https://github.com/emqx/emqx/blob/master/LICENSE",
+  "is_exception": true,
+  "spdx_license_key": "LicenseRef-scancode-emq-use-grant-for-bsl-1.1",
+  "ignorable_copyrights": [
+    "(c) 2025 EMQ Technologies Incorporated",
+    "copyright (c) 2020 MariaDB Corporation Ab"
+  ],
+  "ignorable_holders": [
+    "EMQ Technologies Incorporated",
+    "MariaDB Corporation Ab"
+  ],
+  "ignorable_urls": [
+    "https://www.emqx.com/en/contact"
+  ],
+  "text": "License text copyright (c) 2020 MariaDB Corporation Ab, All Rights Reserved.\n\"Business Source License\" is a trademark of MariaDB Corporation Ab.\n\nParameters\n\nLicensor:             EMQ Technologies Incorporated\nLicensed Work:        EMQX Version 5.9.0 or later.\n                      The Licensed Work is (c) 2025\n                      EMQ Technologies Incorporated\nAdditional Use Grant: a. You may make production use of a single node of the Licensed\n                      Work, provided your use does not include offering the Licensed\n                      Work to third parties on a hosted or embedded basis.\n                      \"Hosted or embedded basis\" means providing the Licensed Work as\n                      a service or integrating it into a product or solution offered\n                      to third parties.\n\n                      b. Educational users (e.g., accredited academic institutions)\n                      and non-profit organizations (as defined by applicable law)\n                      may use the Licensed Work in a production environment without\n                      restriction, provided such use is not for commercial profit.\nChange Date:          Four years from the date the Licensed Work is published.\nChange License:       Apache License, Version 2.0\n\nFor information about alternative licensing arrangements for the Software,\nplease contact Licensor: https://www.emqx.com/en/contact\n\nNotice"
+}

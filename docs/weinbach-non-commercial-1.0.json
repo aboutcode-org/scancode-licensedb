@@ -1,0 +1,16 @@
+{
+  "key": "weinbach-non-commercial-1.0",
+  "short_name": "Weinbach Forking Attribution Non-Commercial 1.0",
+  "name": "Weinbach Forking and Attribution License with Commercial Permission Requirement 1.0",
+  "category": "Non-Commercial",
+  "owner": "Max Weinbach",
+  "homepage_url": "https://github.com/mweinbach/agent-coworker/blob/main/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-weinbach-non-commercial-1.0",
+  "ignorable_copyrights": [
+    "Copyright (c) 2026 Max Weinbach"
+  ],
+  "ignorable_holders": [
+    "Max Weinbach"
+  ],
+  "text": "Forking and Attribution License with Commercial Permission Requirement 1.0\n\nCopyright (c) 2026 Max Weinbach\n\nPermission is granted to any person obtaining a copy of this software and any\nassociated documentation files (the \"Software\") to use, copy, modify, fork,\npublish, and distribute the Software and derivative works, subject to the\nconditions below.\n\n1. Attribution and original project notice.\n\nIf you publish, distribute, or otherwise make the Software or a derivative work\navailable to others, you must:\n\n- keep this license text and all existing copyright notices;\n- clearly state that the work is based on the original project;\n- clearly identify the original project by name and, where reasonably practical,\n  include a link to the original repository or homepage;\n- clearly state any material changes you made; and\n- not state or imply that the original author or project endorses your fork,\n  product, or organization unless you have separate written permission.\n\n2. Selling products based on the Software requires permission first.\n\nYou may not sell the Software or any derivative work, and you may not include\nthe Software or any derivative work in a paid product, paid service,\nsubscription, hosted offering, or other commercial offering, without the prior\nwritten permission of Max Weinbach.\n\nCommercial permission requests should be sent to Max Weinbach through the\noriginal project repository or another contact method that Max Weinbach makes\navailable.\n\nFor clarity, this restriction applies when access to the Software or a\nderivative work is sold, licensed for a fee, bundled into something sold for a\nfee, or offered as part of a paid product or service.\n\nVoluntary donations that are not required for access to the Software do not by\nthemselves count as selling under this license.\n\n3. No trademark rights.\n\nThis license does not grant any right to use the name, branding, logo, or marks\nof the original project except as needed for accurate attribution.\n\n4. Termination.\n\nIf you violate this license, your rights under it terminate automatically. Those\nrights may be reinstated only by the written permission of Max Weinbach.\n\n5. No warranty.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,\nOUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+}

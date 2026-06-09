@@ -1,0 +1,22 @@
+{
+  "key": "skunkworks-varuna-stt",
+  "short_name": "SkunkWorks Modified MIT License",
+  "name": "SkunkWorks Modified MIT License",
+  "category": "Proprietary Free",
+  "owner": "Skunk Work Labs",
+  "homepage_url": "https://huggingface.co/SkunkWorkLabs/varuna-stt/blob/main/LICENSE",
+  "spdx_license_key": "LicenseRef-scancode-skunkworks-varuna-stt",
+  "text_urls": [
+    "https://huggingface.co/SkunkWorkLabs/varuna-stt/blob/main/LICENSE"
+  ],
+  "other_urls": [
+    "https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/"
+  ],
+  "ignorable_copyrights": [
+    "Copyright (c) 2026 SkunkWorks Labs"
+  ],
+  "ignorable_holders": [
+    "SkunkWorks Labs"
+  ],
+  "text": "SkunkWorks Modified MIT License\n\nCopyright (c) 2026 SkunkWorks Labs\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software, model weights, and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including without\nlimitation the rights to use, copy, modify, merge, publish, distribute,\nsublicense, and/or sell copies of the Software, and to permit persons to whom\nthe Software is furnished to do so, subject to the following conditions:\n\n1. ATTRIBUTION\n   The above copyright notice and this permission notice shall be included in\n   all copies or substantial portions of the Software. Any product, paper, or\n   public-facing distribution that uses Varuna STT must visibly credit\n   \"Varuna STT by SkunkWorks Labs\" with a link to the source repository.\n\n2. UPSTREAM ATTRIBUTION\n   Varuna STT is fine-tuned from NVIDIA NeMo's\n   `nemotron-speech-streaming-en-0.6b` base model. Use of this Software is\n   subject to the upstream NeMo / NVIDIA model license, which the user is\n   responsible for reviewing and complying with separately.\n\n3. NO WARRANTY\n   THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\n   IN THE SOFTWARE."
+}

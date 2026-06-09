@@ -1551,6 +1551,16 @@
   yaml: aravindan-premkumar.yml
   html: aravindan-premkumar.html
   license: aravindan-premkumar.LICENSE
+- license_key: arcinstitute-state-nc-2025
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-arcinstitute-state-nc-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: arcinstitute-state-nc-2025.json
+  yaml: arcinstitute-state-nc-2025.yml
+  html: arcinstitute-state-nc-2025.html
+  license: arcinstitute-state-nc-2025.LICENSE
 - license_key: argouml
   category: Permissive
   spdx_license_key: LicenseRef-scancode-argouml
@@ -2613,6 +2623,16 @@
   yaml: brad-martinez-vb-32.yml
   html: brad-martinez-vb-32.html
   license: brad-martinez-vb-32.LICENSE
+- license_key: brakeman-public-use
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-brakeman-public-use
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: brakeman-public-use.json
+  yaml: brakeman-public-use.yml
+  html: brakeman-public-use.html
+  license: brakeman-public-use.LICENSE
 - license_key: brankas-open-license-1.0
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-brankas-open-license-1.0
@@ -5519,6 +5539,16 @@
   yaml: commons-clause.yml
   html: commons-clause.html
   license: commons-clause.LICENSE
+- license_key: comodo-available-source-sal
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-comodo-available-source-sal
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: comodo-available-source-sal.json
+  yaml: comodo-available-source-sal.yml
+  html: comodo-available-source-sal.html
+  license: comodo-available-source-sal.LICENSE
 - license_key: compass
   category: Permissive
   spdx_license_key: LicenseRef-scancode-compass
@@ -7379,6 +7409,16 @@
   yaml: emit.yml
   html: emit.html
   license: emit.LICENSE
+- license_key: emq-use-grant-for-bsl-1.1
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-emq-use-grant-for-bsl-1.1
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: emq-use-grant-for-bsl-1.1.json
+  yaml: emq-use-grant-for-bsl-1.1.yml
+  html: emq-use-grant-for-bsl-1.1.html
+  license: emq-use-grant-for-bsl-1.1.LICENSE
 - license_key: emx-library
   category: Permissive
   spdx_license_key: LicenseRef-scancode-emx-library
@@ -12739,6 +12779,16 @@
   yaml: katharos-0.2.0.yml
   html: katharos-0.2.0.html
   license: katharos-0.2.0.LICENSE
+- license_key: katlang-patents-exception-mit
+  category: Patent License
+  spdx_license_key: LicenseRef-scancode-katlang-patents-exception-mit
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: katlang-patents-exception-mit.json
+  yaml: katlang-patents-exception-mit.yml
+  html: katlang-patents-exception-mit.html
+  license: katlang-patents-exception-mit.LICENSE
 - license_key: kazlib
   category: Permissive
   spdx_license_key: Kazlib
@@ -13708,6 +13758,16 @@
   yaml: liferay-marketplace-tos.yml
   html: liferay-marketplace-tos.html
   license: liferay-marketplace-tos.LICENSE
+- license_key: lightbend-use-grant-bsl-1.1
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-lightbend-use-grant-bsl-1.1
+  other_spdx_license_keys: []
+  is_exception: yes
+  is_deprecated: no
+  json: lightbend-use-grant-bsl-1.1.json
+  yaml: lightbend-use-grant-bsl-1.1.yml
+  html: lightbend-use-grant-bsl-1.1.html
+  license: lightbend-use-grant-bsl-1.1.LICENSE
 - license_key: lil-1
   category: Permissive
   spdx_license_key: LicenseRef-scancode-lil-1
@@ -14795,6 +14855,16 @@
   yaml: mgb-1.0.yml
   html: mgb-1.0.html
   license: mgb-1.0.LICENSE
+- license_key: mgb-brainiac-nc-2026
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-mgb-brainiac-nc-2026
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mgb-brainiac-nc-2026.json
+  yaml: mgb-brainiac-nc-2026.yml
+  html: mgb-brainiac-nc-2026.html
+  license: mgb-brainiac-nc-2026.LICENSE
 - license_key: mgopen-font-license
   category: Permissive
   spdx_license_key: LicenseRef-scancode-mgopen-font-license
@@ -16844,6 +16914,16 @@
   yaml: mut-license.yml
   html: mut-license.html
   license: mut-license.LICENSE
+- license_key: mux0-sal-2026
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-mux0-sal-2026
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: mux0-sal-2026.json
+  yaml: mux0-sal-2026.yml
+  html: mux0-sal-2026.html
+  license: mux0-sal-2026.LICENSE
 - license_key: mvt-1.1
   category: Free Restricted
   spdx_license_key: LicenseRef-scancode-mvt-1.1
@@ -16986,6 +17066,26 @@
   yaml: nbpl-1.0.yml
   html: nbpl-1.0.html
   license: nbpl-1.0.LICENSE
+- license_key: nc-gov-public-sector-1.0
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-nc-gov-public-sector-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: nc-gov-public-sector-1.0.json
+  yaml: nc-gov-public-sector-1.0.yml
+  html: nc-gov-public-sector-1.0.html
+  license: nc-gov-public-sector-1.0.LICENSE
+- license_key: nc-gov-public-sector-2.0
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-nc-gov-public-sector-2.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: nc-gov-public-sector-2.0.json
+  yaml: nc-gov-public-sector-2.0.yml
+  html: nc-gov-public-sector-2.0.html
+  license: nc-gov-public-sector-2.0.LICENSE
 - license_key: ncbi
   category: Public Domain
   spdx_license_key: NCBI-PD
@@ -17841,6 +17941,16 @@
   yaml: nvidia-ngx-eula-2019.yml
   html: nvidia-ngx-eula-2019.html
   license: nvidia-ngx-eula-2019.LICENSE
+- license_key: nvidia-open-model-2025
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-nvidia-open-model-2025
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: nvidia-open-model-2025.json
+  yaml: nvidia-open-model-2025.yml
+  html: nvidia-open-model-2025.html
+  license: nvidia-open-model-2025.LICENSE
 - license_key: nvidia-open-model-2025-04-28
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-nvidia-open-model-2025-04-28
@@ -17911,6 +18021,16 @@
   yaml: nxlog-public-license-1.0.yml
   html: nxlog-public-license-1.0.html
   license: nxlog-public-license-1.0.LICENSE
+- license_key: nxml-pokemon-legends-za-nc-1.0
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-nxml-pokemon-legends-za-nc-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: nxml-pokemon-legends-za-nc-1.0.json
+  yaml: nxml-pokemon-legends-za-nc-1.0.yml
+  html: nxml-pokemon-legends-za-nc-1.0.html
+  license: nxml-pokemon-legends-za-nc-1.0.LICENSE
 - license_key: nxp-firmware-patent
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-nxp-firmware-patent
@@ -19490,6 +19610,16 @@
   yaml: oracle-free-2018.yml
   html: oracle-free-2018.html
   license: oracle-free-2018.LICENSE
+- license_key: oracle-free-2021
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-oracle-free-2021
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: oracle-free-2021.json
+  yaml: oracle-free-2021.yml
+  html: oracle-free-2021.html
+  license: oracle-free-2021.LICENSE
 - license_key: oracle-gftc-2023-06-12
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-oracle-gftc-2023-06-12
@@ -22873,6 +23003,16 @@
   yaml: skip-2014.yml
   html: skip-2014.html
   license: skip-2014.LICENSE
+- license_key: skunkworks-varuna-stt
+  category: Proprietary Free
+  spdx_license_key: LicenseRef-scancode-skunkworks-varuna-stt
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: skunkworks-varuna-stt.json
+  yaml: skunkworks-varuna-stt.yml
+  html: skunkworks-varuna-stt.html
+  license: skunkworks-varuna-stt.LICENSE
 - license_key: sl
   category: Permissive
   spdx_license_key: SL
@@ -22933,6 +23073,16 @@
   yaml: slint-royalty-free-1.0.yml
   html: slint-royalty-free-1.0.html
   license: slint-royalty-free-1.0.LICENSE
+- license_key: slipnet-sal-2026
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-slipnet-sal-2026
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: slipnet-sal-2026.json
+  yaml: slipnet-sal-2026.yml
+  html: slipnet-sal-2026.html
+  license: slipnet-sal-2026.LICENSE
 - license_key: slysoft-eula
   category: Commercial
   spdx_license_key: LicenseRef-scancode-slysoft-eula
@@ -26173,6 +26323,26 @@
   yaml: waterfall-feed-parser.yml
   html: waterfall-feed-parser.html
   license: waterfall-feed-parser.LICENSE
+- license_key: weinbach-non-commercial-1.0
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-weinbach-non-commercial-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: weinbach-non-commercial-1.0.json
+  yaml: weinbach-non-commercial-1.0.yml
+  html: weinbach-non-commercial-1.0.html
+  license: weinbach-non-commercial-1.0.LICENSE
+- license_key: wender-media-sal-1.0
+  category: Source-available
+  spdx_license_key: LicenseRef-scancode-wender-media-sal-1.0
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: wender-media-sal-1.0.json
+  yaml: wender-media-sal-1.0.yml
+  html: wender-media-sal-1.0.html
+  license: wender-media-sal-1.0.LICENSE
 - license_key: westhawk
   category: Permissive
   spdx_license_key: LicenseRef-scancode-westhawk
@@ -26203,6 +26373,16 @@
   yaml: whitecat.yml
   html: whitecat.html
   license: whitecat.LICENSE
+- license_key: whitedns-sal-nc-2026
+  category: Non-Commercial
+  spdx_license_key: LicenseRef-scancode-whitedns-sal-nc-2026
+  other_spdx_license_keys: []
+  is_exception: no
+  is_deprecated: no
+  json: whitedns-sal-nc-2026.json
+  yaml: whitedns-sal-nc-2026.yml
+  html: whitedns-sal-nc-2026.html
+  license: whitedns-sal-nc-2026.LICENSE
 - license_key: whosonfirst-license
   category: Proprietary Free
   spdx_license_key: LicenseRef-scancode-whosonfirst-license

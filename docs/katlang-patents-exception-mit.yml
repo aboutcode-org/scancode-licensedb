@@ -1,0 +1,45 @@
+key: katlang-patents-exception-mit
+short_name: KatLang Patents Exception to MIT
+name: KatLang Patents Exception to MIT
+category: Patent License
+owner: KatLang
+homepage_url: https://github.com/katlangorg/katlangnet/blob/main/PATENTS
+is_exception: yes
+spdx_license_key: LicenseRef-scancode-katlang-patents-exception-mit
+text: "PATENTS\n\nLicensor: Logics Research Centre SIA\n\nThis software is released under the\
+  \ MIT License.\nIn addition, the Licensor provides the following patent grant.\n\n------------------------------------------------------------\n\
+  SCOPE\n------------------------------------------------------------\n\nThis patent grant applies\
+  \ solely to the KatLang project\n(the “Software”) as distributed by the Licensor and to\n\
+  derivative works based on that Software.\n\nNo patent rights are granted for uses of the Licensor’s\n\
+  patents outside the scope of the Software.\n\nIf you are interested in using the Licensor’s\
+  \ patents\noutside the scope of this Software, please contact\nLogics Research Centre SIA\
+  \ to discuss alternative\nlicensing arrangements.\n\n------------------------------------------------------------\n\
+  INDEPENDENT IMPLEMENTATIONS\n------------------------------------------------------------\n\
+  \nThe patent grant below also extends to any independent\nreimplementation of the KatLang\
+  \ language, provided that the\nimplementation faithfully implements the KatLang language\n\
+  specification as defined by the authoritative KatLang.lean\nspecification file distributed\
+  \ with this project.\n\nThis means that if you are building a KatLang interpreter,\ncompiler,\
+  \ or runtime in any programming language — without\nusing any code from this project — you\
+  \ are still covered by\nthis patent grant, as long as your implementation conforms\nto the\
+  \ KatLang specification.\n\nThis extension does not cover use of the patented techniques\n\
+  in projects unrelated to the KatLang language.\n\nIf you are unsure whether your project qualifies,\
+  \ you are\nwelcome to reach out to Logics Research Centre SIA.\n\n------------------------------------------------------------\n\
+  PATENT GRANT\n------------------------------------------------------------\n\nThis patent\
+  \ grant is provided solely in connection with the\nSoftware as licensed under the MIT License\
+  \ and applies only\nto recipients who comply with the terms of that license.\n\nSubject to\
+  \ the terms of the MIT License, the Licensor hereby grants\nto any person or entity obtaining\
+  \ a copy of the Software a perpetual,\nworldwide, non-exclusive, no-charge, royalty-free,\
+  \ irrevocable\npatent license to make, have made, use, offer to sell, sell, import,\nand otherwise\
+  \ transfer the Software, where such license applies only\nto those patent claims owned or\
+  \ controlled by the Licensor that are\nnecessarily infringed by the use of the Software as\
+  \ provided by the\nLicensor.\n\n------------------------------------------------------------\n\
+  PATENTS COVERED BY THIS GRANT\n------------------------------------------------------------\n\
+  \nThe following patents are owned or controlled by the Licensor and\nmay be practiced by implementations\
+  \ of this software:\n\n- US Patent No. 9,361,071  \n  “Implicit Parameters and Implicit Arguments\
+  \ in Programming Languages”\n\n- US Patent No. 9,417,850  \n  “Grace Operator for Changing\
+  \ Order and Scope of Implicit Parameters”\n\n- US Patent No. 11,947,932  \n  “Extension Property\
+  \ Calls”\n\n------------------------------------------------------------\nNO ADDITIONAL CONDITIONS\n\
+  ------------------------------------------------------------\n\nThis patent grant does not\
+  \ impose any obligation to agree with or\nendorse any belief, statement, or dedication expressed\
+  \ elsewhere\nin this project.\n\n------------------------------------------------------------\n\
+  END OF PATENTS\n------------------------------------------------------------"
