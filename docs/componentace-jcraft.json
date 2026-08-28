@@ -15,6 +15,9 @@
     "ComponentAce",
     "ymnk, JCraft,Inc."
   ],
+  "ignorable_authors": [
+    "Jean-loup Gailly (jloup@gzip.org) and Mark Adler (madler@alumni.caltech.edu) and contributors"
+  ],
   "ignorable_urls": [
     "http://www.componentace.com/"
   ],
