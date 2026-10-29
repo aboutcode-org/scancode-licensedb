@@ -7640,7 +7640,7 @@
   html: esa-pl-permissive-2.4.html
   license: esa-pl-permissive-2.4.LICENSE
 - license_key: esa-pl-strong-copyleft-2.4
-  category: Permissive
+  category: Copyleft
   spdx_license_key: ESA-PL-strong-copyleft-2.4
   other_spdx_license_keys: []
   is_exception: no
@@ -7650,7 +7650,7 @@
   html: esa-pl-strong-copyleft-2.4.html
   license: esa-pl-strong-copyleft-2.4.LICENSE
 - license_key: esa-pl-weak-copyleft-2.4
-  category: Permissive
+  category: Copyleft Limited
   spdx_license_key: ESA-PL-weak-copyleft-2.4
   other_spdx_license_keys: []
   is_exception: no
