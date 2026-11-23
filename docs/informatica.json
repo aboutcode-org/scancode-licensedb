@@ -1,0 +1,13 @@
+{
+  "key": "informatica",
+  "short_name": "Informatica License",
+  "name": "Informatica License",
+  "category": "Permissive",
+  "owner": "Informatica Inc.",
+  "spdx_license_key": "Informatica",
+  "other_urls": [
+    "https://raw.githubusercontent.com/landtuna/open-mtools/6c04c2882eca7c4313ec267766ea53ac9bfe129b/msend.c",
+    "https://raw.githubusercontent.com/landtuna/open-mtools/6c04c2882eca7c4313ec267766ea53ac9bfe129b/mdump.c"
+  ],
+  "text": "Redistribution and use in source and binary forms, with or without\n modification, are permitted without restriction.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND INFORMATICA DISCLAIMS ALL WARRANTIES\nEXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF\nNON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR\nPURPOSE.  INFORMATICA DOES NOT WARRANT THAT USE OF THE SOFTWARE WILL BE\nUNINTERRUPTED OR ERROR-FREE.  INFORMATICA SHALL NOT, UNDER ANY CIRCUMSTANCES,\nBE LIABLE TO LICENSEE FOR LOST PROFITS, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR\nINDIRECT DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE\nTRANSACTIONS CONTEMPLATED HEREUNDER, EVEN IF INFORMATICA HAS BEEN APPRISED OF\nTHE LIKELIHOOD OF SUCH DAMAGES."
+}
